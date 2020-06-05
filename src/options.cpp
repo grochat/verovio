@@ -20,7 +20,7 @@
 namespace vrv {
 
 std::map<int, std::string> Option::s_breaks
-    = { { BREAKS_none, "none" }, { BREAKS_auto, "auto" }, { BREAKS_encoded, "encoded" } };
+    = { { BREAKS_none, "none" }, { BREAKS_auto, "auto" }, { BREAKS_line, "line" }, { BREAKS_encoded, "encoded" } };
 
 std::map<int, std::string> Option::s_footer
     = { { FOOTER_none, "none" }, { FOOTER_auto, "auto" }, { FOOTER_encoded, "encoded" } };
@@ -44,7 +44,7 @@ void Option::CopyTo(Option *option)
     assert(false);
 }
 
-void Option::SetInfo(std::string title, std::string description)
+void Option::SetInfo(const std::string &title, const std::string &description)
 {
     m_title = title;
     m_description = description;
@@ -71,7 +71,7 @@ bool Option::SetValueArray(const std::vector<std::string> &values)
     return false;
 }
 
-bool Option::SetValue(std::string value)
+bool Option::SetValue(const std::string &value)
 {
     // If not overriden
     LogError("Unsupported type string for %s", m_key.c_str());
@@ -109,7 +109,7 @@ void OptionBool::Init(bool defaultValue)
     m_defaultValue = defaultValue;
 }
 
-bool OptionBool::SetValue(std::string value)
+bool OptionBool::SetValue(const std::string &value)
 {
     bool b = (value == "true") ? true : false;
     return SetValue(b);
@@ -160,7 +160,7 @@ void OptionDbl::Init(double defaultValue, double minValue, double maxValue)
     m_maxValue = maxValue;
 }
 
-bool OptionDbl::SetValue(std::string value)
+bool OptionDbl::SetValue(const std::string &value)
 {
     return SetValue(atof(value.c_str()));
 }
@@ -216,7 +216,7 @@ bool OptionInt::SetValueDbl(double value)
     return SetValue((int)value);
 }
 
-bool OptionInt::SetValue(std::string value)
+bool OptionInt::SetValue(const std::string &value)
 {
     return SetValue(atoi(value.c_str()));
 }
@@ -263,13 +263,13 @@ void OptionString::CopyTo(Option *option)
     *child = *this;
 }
 
-void OptionString::Init(std::string defaultValue)
+void OptionString::Init(const std::string &defaultValue)
 {
     m_value = defaultValue;
     m_defaultValue = defaultValue;
 }
 
-bool OptionString::SetValue(std::string value)
+bool OptionString::SetValue(const std::string &value)
 {
     m_value = value;
     return true;
@@ -301,7 +301,7 @@ bool OptionArray::SetValueArray(const std::vector<std::string> &values)
     return true;
 }
 
-bool OptionArray::SetValue(std::string value)
+bool OptionArray::SetValue(const std::string &value)
 {
     // Passing a single value to an array option adds it to the values and to not replace them
     if (!value.empty()) {
@@ -371,7 +371,7 @@ void OptionIntMap::Init(int defaultValue, std::map<int, std::string> *values)
     m_values = values;
 }
 
-bool OptionIntMap::SetValue(std::string value)
+bool OptionIntMap::SetValue(const std::string &value)
 {
     assert(m_values);
 
@@ -459,7 +459,7 @@ void OptionStaffrel::Init(data_STAFFREL defaultValue)
     m_defaultValue = defaultValue;
 }
 
-bool OptionStaffrel::SetValue(std::string value)
+bool OptionStaffrel::SetValue(const std::string &value)
 {
     Att converter;
     data_STAFFREL staffrel = converter.StrToStaffrel(value);
@@ -494,9 +494,13 @@ Options::Options()
     m_general.SetLabel("Input and page layout options", "1-general");
     m_grps.push_back(&m_general);
 
-    m_adjustPageHeight.SetInfo("Adjust page height", "Crop the page height to the height of the content");
+    m_adjustPageHeight.SetInfo("Adjust page height", "Adjust the page height to the height of the content");
     m_adjustPageHeight.Init(false);
     this->Register(&m_adjustPageHeight, "adjustPageHeight", &m_general);
+
+    m_adjustPageWidth.SetInfo("Adjust page width", "Adjust the page width to the width of the content");
+    m_adjustPageWidth.Init(false);
+    this->Register(&m_adjustPageWidth, "adjustPageWidth", &m_general);
 
     m_breaks.SetInfo("Breaks", "Define page and system breaks layout");
     m_breaks.Init(BREAKS_auto, &Option::s_breaks);
@@ -572,6 +576,14 @@ Options::Options()
     m_openControlEvents.Init(false);
     this->Register(&m_openControlEvents, "openControlEvents", &m_general);
 
+    m_outputIndent.SetInfo("Output indentation", "Output indentation value for MEI and SVG");
+    m_outputIndent.Init(3, 1, 10);
+    this->Register(&m_outputIndent, "outputIndent", &m_general);
+
+    m_outputIndentTab.SetInfo("Output indentation with tab", "Output indentation with tabulation for MEI and SVG");
+    m_outputIndentTab.Init(false);
+    this->Register(&m_outputIndentTab, "outputIndentTab", &m_general);
+
     m_outputSmuflXmlEntities.SetInfo(
         "Output SMuFL XML entities", "Output SMuFL charachters as XML entities instead of byte codes");
     m_outputSmuflXmlEntities.Init(false);
@@ -612,6 +624,11 @@ Options::Options()
     m_svgViewBox.SetInfo("Use viewbox on svg root", "Use viewBox on svg root element for easy scaling of document");
     m_svgViewBox.Init(false);
     this->Register(&m_svgViewBox, "svgViewBox", &m_general);
+
+    m_svgHtml5.SetInfo("Output SVG for HTML5 embedding",
+        "Write data-id and data-class attributes for JS usage and id clash avoidance.");
+    m_svgHtml5.Init(false);
+    this->Register(&m_svgHtml5, "svgHtml5", &m_general);
 
     m_unit.SetInfo("Unit", "The MEI unit (1⁄2 of the distance between the staff lines)");
     m_unit.Init(9, 6, 20, true);
@@ -671,9 +688,9 @@ Options::Options()
     m_lyricHyphenLength.Init(1.20, 0.50, 3.00);
     this->Register(&m_lyricHyphenLength, "lyricHyphenLength", &m_generalLayout);
 
-    m_lyricHyphenWidth.SetInfo("Lyric hyphen width", "The lyric hyphen and dash width");
-    m_lyricHyphenWidth.Init(0.20, 0.10, 0.50);
-    this->Register(&m_lyricHyphenWidth, "lyricHyphenWidth", &m_generalLayout);
+    m_lyricLineThickness.SetInfo("Lyric line thickness", "The lyric extender line thickness");
+    m_lyricLineThickness.Init(0.25, 0.10, 0.50);
+    this->Register(&m_lyricLineThickness, "lyricLineThickness", &m_generalLayout);
 
     m_lyricNoStartHyphen.SetInfo("Lyric no start hyphen", "Do not show hyphens at the beginning of a system");
     m_lyricNoStartHyphen.Init(false);
@@ -826,7 +843,7 @@ Options::Options()
     /// custom bottom
 
     m_bottomMarginHarm.SetInfo("Bottom margin harm", "The margin for harm in MEI units");
-    m_bottomMarginHarm.Init(0.5, 0.0, 10.0);
+    m_bottomMarginHarm.Init(1.0, 0.0, 10.0);
     this->Register(&m_bottomMarginHarm, "bottomMarginHarm", &m_elementMargins);
 
     /// custom left
@@ -964,7 +981,7 @@ Options::Options()
     /// custom top
 
     m_topMarginHarm.SetInfo("Top margin harm", "The margin for harm in MEI units");
-    m_topMarginHarm.Init(0.5, 0.0, 10.0);
+    m_topMarginHarm.Init(1.0, 0.0, 10.0);
     this->Register(&m_topMarginHarm, "topMarginHarm", &m_elementMargins);
 
     /*
@@ -1006,7 +1023,7 @@ Options &Options::operator=(const Options &options)
 
 Options::~Options() {}
 
-void Options::Register(Option *option, std::string key, OptionGrp *grp)
+void Options::Register(Option *option, const std::string &key, OptionGrp *grp)
 {
     assert(option);
     assert(grp);
