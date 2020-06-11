@@ -14,6 +14,8 @@
 # while designing the November 2.0 font.
 # Use, distribute and edit this script as you wish!
 
+from __future__ import print_function
+
 import fontforge
 import sys
 import os
