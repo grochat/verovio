@@ -1,0 +1,3606 @@
+{
+    "_comment": "Automatically generated Metadata for theMachaut font. Most (but not all) of these metadata come from the SMuFL specifications.",
+    "engravingDefaults": {
+        "arrowShaftThickness": "0.16",
+        "barlineSeparation": "0.4",
+        "beamSpacing": "0.20",
+        "beamThickness": "0.55",
+        "bracketThickness": "0.5",
+        "dashedBarlineDashLength": "0.5",
+        "dashedBarlineGapLength": "0.25",
+        "dashedBarlineThickness": "0.16",
+        "hairpinThickness": "0.16",
+        "legerLineExtension": "0.4",
+        "legerLineThickness": "0.16",
+        "lyricLineThickness": "0.16",
+        "octaveLineThickness": "0.16",
+        "pedalLineThickness": "0.16",
+        "repeatBarlineDotSeparation": "0.16",
+        "repeatEndingLineThickness": "0.16",
+        "slurEndpointThickness": "0.1",
+        "slurMidpointThickness": "0.22",
+        "staffLineThickness": "0.08",
+        "stemThickness": "0.076",
+        "subBracketThickness": "0.16",
+        "textEnclosureThickness": "0.16",
+        "thickBarlineThickness": "0.5",
+        "thinBarlineThickness": "0.16",
+        "tieEndpointThickness": "0.1",
+        "tieMidpointThickness": "0.22",
+        "tupletBracketThickness": "0.16"
+    },
+    "fontName": "Machaut",
+    "fontVersion": "1.00",
+    "glyphBBoxes": {
+        "AE": {
+            "bBoxNE": [
+                0.512,
+                0.3
+            ],
+            "bBoxSW": [
+                0.0,
+                -1.8122
+            ]
+        },
+        "Aacute": {
+            "bBoxNE": [
+                3.872,
+                4.296
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3
+            ]
+        },
+        "Acircumflex": {
+            "bBoxNE": [
+                3.056,
+                3.296
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3
+            ]
+        },
+        "Agrave": {
+            "bBoxNE": [
+                0.512,
+                0.3167
+            ],
+            "bBoxSW": [
+                0.0,
+                -2.292
+            ]
+        },
+        "Atilde": {
+            "bBoxNE": [
+                0.512,
+                0.3167
+            ],
+            "bBoxSW": [
+                0.0,
+                -2.792
+            ]
+        },
+        "Ccedilla": {
+            "bBoxNE": [
+                0.668,
+                1.36
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.4538
+            ]
+        },
+        "D": {
+            "bBoxNE": [
+                0.056,
+                0.172
+            ],
+            "bBoxSW": [
+                -0.184,
+                -2.784
+            ]
+        },
+        "Delta": {
+            "bBoxNE": [
+                0.656,
+                0.16
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3074
+            ]
+        },
+        "Eacute": {
+            "bBoxNE": [
+                0.668,
+                1.86
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.4511
+            ]
+        },
+        "Edieresis": {
+            "bBoxNE": [
+                1.728,
+                0.796
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3
+            ]
+        },
+        "Egrave": {
+            "bBoxNE": [
+                1.792,
+                1.296
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3
+            ]
+        },
+        "Euro": {
+            "bBoxNE": [
+                0.056,
+                0.3007
+            ],
+            "bBoxSW": [
+                -0.456,
+                -2.303
+            ]
+        },
+        "F": {
+            "bBoxNE": [
+                0.056,
+                0.632
+            ],
+            "bBoxSW": [
+                -0.18,
+                -0.129
+            ]
+        },
+        "G": {
+            "bBoxNE": [
+                0.056,
+                1.132
+            ],
+            "bBoxSW": [
+                -0.18,
+                -0.126
+            ]
+        },
+        "Iacute": {
+            "bBoxNE": [
+                2.1538,
+                1.796
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3005
+            ]
+        },
+        "Icircumflex": {
+            "bBoxNE": [
+                2.2,
+                2.296
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3003
+            ]
+        },
+        "Idieresis": {
+            "bBoxNE": [
+                2.672,
+                2.796
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3
+            ]
+        },
+        "Igrave": {
+            "bBoxNE": [
+                3.056,
+                3.296
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3
+            ]
+        },
+        "J": {
+            "bBoxNE": [
+                0.056,
+                2.632
+            ],
+            "bBoxSW": [
+                -0.18,
+                -0.125
+            ]
+        },
+        "K": {
+            "bBoxNE": [
+                0.5072,
+                0.278
+            ],
+            "bBoxSW": [
+                -0.0,
+                -0.36
+            ]
+        },
+        "L": {
+            "bBoxNE": [
+                0.5072,
+                0.278
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.809
+            ]
+        },
+        "M": {
+            "bBoxNE": [
+                0.5066,
+                0.2741
+            ],
+            "bBoxSW": [
+                0.0,
+                -1.308
+            ]
+        },
+        "N": {
+            "bBoxNE": [
+                0.5072,
+                0.2739
+            ],
+            "bBoxSW": [
+                0.0,
+                -1.809
+            ]
+        },
+        "Ntilde": {
+            "bBoxNE": [
+                0.52,
+                2.239
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.304
+            ]
+        },
+        "O": {
+            "bBoxNE": [
+                0.5072,
+                0.2718
+            ],
+            "bBoxSW": [
+                0.0,
+                -2.309
+            ]
+        },
+        "OE": {
+            "bBoxNE": [
+                0.512,
+                0.3167
+            ],
+            "bBoxSW": [
+                0.0,
+                -3.792
+            ]
+        },
+        "Oacute": {
+            "bBoxNE": [
+                3.472,
+                3.796
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3005
+            ]
+        },
+        "Ocircumflex": {
+            "bBoxNE": [
+                3.872,
+                4.296
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3011
+            ]
+        },
+        "Odieresis": {
+            "bBoxNE": [
+                0.52,
+                2.739
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.304
+            ]
+        },
+        "Ograve": {
+            "bBoxNE": [
+                1.792,
+                1.296
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.324
+            ]
+        },
+        "Oslash": {
+            "bBoxNE": [
+                0.512,
+                1.7322
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.304
+            ]
+        },
+        "Otilde": {
+            "bBoxNE": [
+                0.512,
+                0.3167
+            ],
+            "bBoxSW": [
+                0.0,
+                -3.292
+            ]
+        },
+        "P": {
+            "bBoxNE": [
+                0.5072,
+                0.2657
+            ],
+            "bBoxSW": [
+                -0.0,
+                -2.809
+            ]
+        },
+        "Q": {
+            "bBoxNE": [
+                0.0913,
+                2.2348
+            ],
+            "bBoxSW": [
+                -0.011,
+                -0.4275
+            ]
+        },
+        "R": {
+            "bBoxNE": [
+                0.06,
+                0.4
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.778
+            ]
+        },
+        "S": {
+            "bBoxNE": [
+                0.06,
+                0.408
+            ],
+            "bBoxSW": [
+                0.0,
+                -1.2106
+            ]
+        },
+        "T": {
+            "bBoxNE": [
+                0.06,
+                0.4
+            ],
+            "bBoxSW": [
+                0.0,
+                -1.7311
+            ]
+        },
+        "U": {
+            "bBoxNE": [
+                0.056,
+                0.312
+            ],
+            "bBoxSW": [
+                0.0,
+                -2.3208
+            ]
+        },
+        "Uacute": {
+            "bBoxNE": [
+                2.152,
+                1.796
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3
+            ]
+        },
+        "Ucircumflex": {
+            "bBoxNE": [
+                2.2,
+                2.296
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3
+            ]
+        },
+        "Udieresis": {
+            "bBoxNE": [
+                0.52,
+                3.238
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.304
+            ]
+        },
+        "Ugrave": {
+            "bBoxNE": [
+                2.672,
+                2.796
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3
+            ]
+        },
+        "W": {
+            "bBoxNE": [
+                0.056,
+                0.312
+            ],
+            "bBoxSW": [
+                0.0,
+                -3.3208
+            ]
+        },
+        "Y": {
+            "bBoxNE": [
+                0.668,
+                0.3918
+            ],
+            "bBoxSW": [
+                0.0,
+                -1.1297
+            ]
+        },
+        "Ydieresis": {
+            "bBoxNE": [
+                0.056,
+                0.3007
+            ],
+            "bBoxSW": [
+                -0.456,
+                -1.303
+            ]
+        },
+        "Z": {
+            "bBoxNE": [
+                0.668,
+                0.3918
+            ],
+            "bBoxSW": [
+                0.0,
+                -1.7831
+            ]
+        },
+        "aacute": {
+            "bBoxNE": [
+                0.52,
+                3.737
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.304
+            ]
+        },
+        "accidentalDoubleFlat": {
+            "bBoxNE": [
+                0.56,
+                0.392
+            ],
+            "bBoxSW": [
+                0.0,
+                -1.721
+            ]
+        },
+        "accidentalDoubleFlatParens": {
+            "bBoxNE": [
+                0.056,
+                0.3
+            ],
+            "bBoxSW": [
+                -0.456,
+                -2.303
+            ]
+        },
+        "accidentalDoubleSharpParens": {
+            "bBoxNE": [
+                0.523,
+                0.3167
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.304
+            ]
+        },
+        "accidentalDoubleSharpParensSml": {
+            "bBoxNE": [
+                0.791,
+                2.598
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.456
+            ]
+        },
+        "accidentalFlat": {
+            "bBoxNE": [
+                0.791,
+                0.45
+            ],
+            "bBoxSW": [
+                0.0,
+                -2.718
+            ]
+        },
+        "accidentalFlatParens": {
+            "bBoxNE": [
+                0.056,
+                0.18
+            ],
+            "bBoxSW": [
+                -0.18,
+                -1.284
+            ]
+        },
+        "accidentalFlatParensSmall": {
+            "bBoxNE": [
+                0.52,
+                0.3164
+            ],
+            "bBoxSW": [
+                0.0,
+                -2.299
+            ]
+        },
+        "accidentalNatural": {
+            "bBoxNE": [
+                0.784,
+                2.8915
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.68
+            ]
+        },
+        "accidentalSharpParens": {
+            "bBoxNE": [
+                0.791,
+                2.598
+            ],
+            "bBoxSW": [
+                -0.0004,
+                -0.45
+            ]
+        },
+        "accidentalSharpSmall": {
+            "bBoxNE": [
+                0.056,
+                2.132
+            ],
+            "bBoxSW": [
+                -0.18,
+                -0.125
+            ]
+        },
+        "acircumflex": {
+            "bBoxNE": [
+                0.056,
+                0.3
+            ],
+            "bBoxSW": [
+                -0.456,
+                -1.303
+            ]
+        },
+        "acute": {
+            "bBoxNE": [
+                0.512,
+                0.303
+            ],
+            "bBoxSW": [
+                0.0,
+                -1.8122
+            ]
+        },
+        "adieresis": {
+            "bBoxNE": [
+                0.056,
+                0.3
+            ],
+            "bBoxSW": [
+                -0.456,
+                -1.803
+            ]
+        },
+        "agrave": {
+            "bBoxNE": [
+                0.056,
+                0.3
+            ],
+            "bBoxSW": [
+                -0.456,
+                -0.8
+            ]
+        },
+        "approxequal": {
+            "bBoxNE": [
+                0.472,
+                0.176
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3044
+            ]
+        },
+        "asciicircum": {
+            "bBoxNE": [
+                0.791,
+                0.45
+            ],
+            "bBoxSW": [
+                0.0,
+                -2.718
+            ]
+        },
+        "asciitilde": {
+            "bBoxNE": [
+                0.52,
+                0.3164
+            ],
+            "bBoxSW": [
+                0.0,
+                -3.763
+            ]
+        },
+        "at": {
+            "bBoxNE": [
+                0.056,
+                0.172
+            ],
+            "bBoxSW": [
+                -0.184,
+                -0.772
+            ]
+        },
+        "backslash": {
+            "bBoxNE": [
+                0.7973,
+                2.6201
+            ],
+            "bBoxSW": [
+                -0.007,
+                -0.4437
+            ]
+        },
+        "bar": {
+            "bBoxNE": [
+                0.52,
+                0.3164
+            ],
+            "bBoxSW": [
+                0.0,
+                -2.799
+            ]
+        },
+        "braceright": {
+            "bBoxNE": [
+                0.52,
+                0.3164
+            ],
+            "bBoxSW": [
+                0.0,
+                -3.266
+            ]
+        },
+        "bracketleft": {
+            "bBoxNE": [
+                0.7597,
+                0.4515
+            ],
+            "bBoxSW": [
+                -0.007,
+                -2.7145
+            ]
+        },
+        "breathMarkComma": {
+            "bBoxNE": [
+                0.212,
+                1.185
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.328
+            ]
+        },
+        "breve": {
+            "bBoxNE": [
+                0.212,
+                0.328
+            ],
+            "bBoxSW": [
+                0.0,
+                -1.185
+            ]
+        },
+        "bullet": {
+            "bBoxNE": [
+                3.056,
+                3.296
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3
+            ]
+        },
+        "cClef": {
+            "bBoxNE": [
+                0.056,
+                0.18
+            ],
+            "bBoxSW": [
+                -0.18,
+                -1.764
+            ]
+        },
+        "caron": {
+            "bBoxNE": [
+                0.9428,
+                0.616
+            ],
+            "bBoxSW": [
+                -0.0028,
+                -0.638
+            ]
+        },
+        "ccedilla": {
+            "bBoxNE": [
+                0.056,
+                0.3
+            ],
+            "bBoxSW": [
+                -0.456,
+                -2.803
+            ]
+        },
+        "cent": {
+            "bBoxNE": [
+                2.152,
+                1.796
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3
+            ]
+        },
+        "chantAuctumDesc": {
+            "bBoxNE": [
+                0.518,
+                0.2711
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3899
+            ]
+        },
+        "chantCclef": {
+            "bBoxNE": [
+                0.264,
+                0.276
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.0922
+            ]
+        },
+        "chantFclef": {
+            "bBoxNE": [
+                0.056,
+                1.632
+            ],
+            "bBoxSW": [
+                -0.18,
+                -0.125
+            ]
+        },
+        "chantOriscusAscending": {
+            "bBoxNE": [
+                0.5166,
+                0.328
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.36
+            ]
+        },
+        "chantOriscusDescending": {
+            "bBoxNE": [
+                0.518,
+                0.328
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.36
+            ]
+        },
+        "chantPunctum": {
+            "bBoxNE": [
+                0.668,
+                0.3918
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.4458
+            ]
+        },
+        "chantPunctumCavum": {
+            "bBoxNE": [
+                0.553,
+                0.3154
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3024
+            ]
+        },
+        "chantPunctumCavumTriplum": {
+            "bBoxNE": [
+                1.6416,
+                0.3165
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3067
+            ]
+        },
+        "chantStrophicusAuctus": {
+            "bBoxNE": [
+                0.56,
+                0.376
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.418
+            ]
+        },
+        "circumflex": {
+            "bBoxNE": [
+                3.472,
+                3.796
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3
+            ]
+        },
+        "colon": {
+            "bBoxNE": [
+                0.056,
+                0.288
+            ],
+            "bBoxSW": [
+                -0.404,
+                -1.3
+            ]
+        },
+        "copyright": {
+            "bBoxNE": [
+                0.512,
+                0.294
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.7235
+            ]
+        },
+        "d": {
+            "bBoxNE": [
+                1.542,
+                2.5845
+            ],
+            "bBoxSW": [
+                -0.0008,
+                -0.48
+            ]
+        },
+        "daggerdbl": {
+            "bBoxNE": [
+                1.728,
+                0.796
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3
+            ]
+        },
+        "degree": {
+            "bBoxNE": [
+                1.62,
+                1.376
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.394
+            ]
+        },
+        "dieresis": {
+            "bBoxNE": [
+                0.512,
+                1.7322
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.304
+            ]
+        },
+        "e": {
+            "bBoxNE": [
+                1.542,
+                0.372
+            ],
+            "bBoxSW": [
+                0.0,
+                -2.7405
+            ]
+        },
+        "eacute": {
+            "bBoxNE": [
+                0.056,
+                0.3
+            ],
+            "bBoxSW": [
+                -0.456,
+                -3.303
+            ]
+        },
+        "ecircumflex": {
+            "bBoxNE": [
+                1.296,
+                1.052
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.396
+            ]
+        },
+        "edieresis": {
+            "bBoxNE": [
+                1.792,
+                1.296
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3
+            ]
+        },
+        "egrave": {
+            "bBoxNE": [
+                0.6278,
+                0.3257
+            ],
+            "bBoxSW": [
+                -0.002,
+                -0.3056
+            ]
+        },
+        "ellipsis": {
+            "bBoxNE": [
+                0.512,
+                0.3167
+            ],
+            "bBoxSW": [
+                0.0,
+                -1.308
+            ]
+        },
+        "emdash": {
+            "bBoxNE": [
+                0.512,
+                0.3185
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.304
+            ]
+        },
+        "equal": {
+            "bBoxNE": [
+                0.056,
+                0.288
+            ],
+            "bBoxSW": [
+                -0.404,
+                -2.804
+            ]
+        },
+        "exclamdown": {
+            "bBoxNE": [
+                0.56,
+                1.7292
+            ],
+            "bBoxSW": [
+                0.0,
+                -1.74
+            ]
+        },
+        "f": {
+            "bBoxNE": [
+                2.592,
+                0.396
+            ],
+            "bBoxSW": [
+                0.0,
+                -1.2
+            ]
+        },
+        "fClef": {
+            "bBoxNE": [
+                0.3667,
+                0.2225
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.2348
+            ]
+        },
+        "fClef8va": {
+            "bBoxNE": [
+                3.472,
+                3.796
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3
+            ]
+        },
+        "fClef8vb": {
+            "bBoxNE": [
+                0.784,
+                2.8835
+            ],
+            "bBoxSW": [
+                -0.9814,
+                -1.021
+            ]
+        },
+        "fClefFrench": {
+            "bBoxNE": [
+                3.056,
+                3.296
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3
+            ]
+        },
+        "fi": {
+            "bBoxNE": [
+                0.056,
+                0.3006
+            ],
+            "bBoxSW": [
+                -0.456,
+                -3.303
+            ]
+        },
+        "fl": {
+            "bBoxNE": [
+                0.6278,
+                0.3257
+            ],
+            "bBoxSW": [
+                -0.002,
+                -0.3056
+            ]
+        },
+        "florin": {
+            "bBoxNE": [
+                0.56,
+                1.721
+            ],
+            "bBoxSW": [
+                -0.7008,
+                -0.6091
+            ]
+        },
+        "fraction": {
+            "bBoxNE": [
+                0.056,
+                0.3007
+            ],
+            "bBoxSW": [
+                -0.456,
+                -1.803
+            ]
+        },
+        "g": {
+            "bBoxNE": [
+                3.168,
+                0.396
+            ],
+            "bBoxSW": [
+                0.0,
+                -1.956
+            ]
+        },
+        "gClef8va": {
+            "bBoxNE": [
+                1.296,
+                0.896
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.396
+            ]
+        },
+        "gClef8vb": {
+            "bBoxNE": [
+                0.056,
+                0.312
+            ],
+            "bBoxSW": [
+                0.0,
+                -2.8208
+            ]
+        },
+        "gClefFrenchViolin": {
+            "bBoxNE": [
+                1.728,
+                0.796
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3
+            ]
+        },
+        "germandbls": {
+            "bBoxNE": [
+                3.872,
+                4.296
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3
+            ]
+        },
+        "grave": {
+            "bBoxNE": [
+                0.791,
+                0.45
+            ],
+            "bBoxSW": [
+                0.0,
+                -2.718
+            ]
+        },
+        "greater": {
+            "bBoxNE": [
+                0.056,
+                0.288
+            ],
+            "bBoxSW": [
+                -0.404,
+                -3.305
+            ]
+        },
+        "guillemotleft": {
+            "bBoxNE": [
+                0.776,
+                1.7305
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.308
+            ]
+        },
+        "guillemotright": {
+            "bBoxNE": [
+                0.512,
+                0.3179
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.8
+            ]
+        },
+        "guilsinglleft": {
+            "bBoxNE": [
+                0.056,
+                0.311
+            ],
+            "bBoxSW": [
+                -0.456,
+                -2.303
+            ]
+        },
+        "guilsinglright": {
+            "bBoxNE": [
+                0.056,
+                0.3006
+            ],
+            "bBoxSW": [
+                -0.456,
+                -2.803
+            ]
+        },
+        "hungarumlaut": {
+            "bBoxNE": [
+                0.5254,
+                0.3611
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.332
+            ]
+        },
+        "hyphen": {
+            "bBoxNE": [
+                1.7937,
+                1.636
+            ],
+            "bBoxSW": [
+                0.084,
+                -0.088
+            ]
+        },
+        "iacute": {
+            "bBoxNE": [
+                2.152,
+                1.796
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3
+            ]
+        },
+        "icircumflex": {
+            "bBoxNE": [
+                2.672,
+                2.796
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3
+            ]
+        },
+        "idieresis": {
+            "bBoxNE": [
+                3.056,
+                3.296
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3
+            ]
+        },
+        "igrave": {
+            "bBoxNE": [
+                2.2,
+                2.296
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3
+            ]
+        },
+        "infinity": {
+            "bBoxNE": [
+                0.512,
+                0.3
+            ],
+            "bBoxSW": [
+                0.0,
+                -1.8122
+            ]
+        },
+        "k": {
+            "bBoxNE": [
+                0.784,
+                2.8996
+            ],
+            "bBoxSW": [
+                0.0,
+                -2.8835
+            ]
+        },
+        "l": {
+            "bBoxNE": [
+                1.6933,
+                1.6107
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.6452
+            ]
+        },
+        "less": {
+            "bBoxNE": [
+                0.056,
+                0.288
+            ],
+            "bBoxSW": [
+                -0.404,
+                -2.304
+            ]
+        },
+        "logicalnot": {
+            "bBoxNE": [
+                0.56,
+                1.7292
+            ],
+            "bBoxSW": [
+                0.0,
+                -1.74
+            ]
+        },
+        "lozenge": {
+            "bBoxNE": [
+                0.512,
+                3.748
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.304
+            ]
+        },
+        "m": {
+            "bBoxNE": [
+                0.8288,
+                0.6371
+            ],
+            "bBoxSW": [
+                -0.9632,
+                -1.5809
+            ]
+        },
+        "macron": {
+            "bBoxNE": [
+                0.076,
+                2.8372
+            ],
+            "bBoxSW": [
+                -0.0216,
+                0.456
+            ]
+        },
+        "mensuralBlackMinima": {
+            "bBoxNE": [
+                0.8096,
+                2.8372
+            ],
+            "bBoxSW": [
+                -0.002,
+                -0.6053
+            ]
+        },
+        "mensuralBlackSemibrevis": {
+            "bBoxNE": [
+                0.8096,
+                0.6139
+            ],
+            "bBoxSW": [
+                -0.002,
+                -0.6053
+            ]
+        },
+        "mensuralBlackSemibrevisCaudata": {
+            "bBoxNE": [
+                0.8096,
+                0.6139
+            ],
+            "bBoxSW": [
+                -0.002,
+                -2.864
+            ]
+        },
+        "mensuralBlackSemiminima": {
+            "bBoxNE": [
+                0.784,
+                2.9104
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.6572
+            ]
+        },
+        "mensuralCclefPetrucciPosMiddle": {
+            "bBoxNE": [
+                0.512,
+                0.3084
+            ],
+            "bBoxSW": [
+                0.0,
+                -1.161
+            ]
+        },
+        "mensuralProlation1": {
+            "bBoxNE": [
+                1.208,
+                0.608
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.608
+            ]
+        },
+        "mensuralProlation2": {
+            "bBoxNE": [
+                1.208,
+                0.608
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.608
+            ]
+        },
+        "mensuralProlation6": {
+            "bBoxNE": [
+                1.136,
+                0.608
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.608
+            ]
+        },
+        "mensuralProlation7": {
+            "bBoxNE": [
+                1.136,
+                0.608
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.608
+            ]
+        },
+        "mu": {
+            "bBoxNE": [
+                1.028,
+                0.248
+            ],
+            "bBoxSW": [
+                0.0,
+                -1.8259
+            ]
+        },
+        "notequal": {
+            "bBoxNE": [
+                0.512,
+                1.7322
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.304
+            ]
+        },
+        "ntilde": {
+            "bBoxNE": [
+                3.472,
+                3.796
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3
+            ]
+        },
+        "oacute": {
+            "bBoxNE": [
+                3.872,
+                4.296
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3
+            ]
+        },
+        "ocircumflex": {
+            "bBoxNE": [
+                1.792,
+                1.2944
+            ],
+            "bBoxSW": [
+                -0.026,
+                -0.3
+            ]
+        },
+        "odieresis": {
+            "bBoxNE": [
+                2.1538,
+                1.796
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3005
+            ]
+        },
+        "oe": {
+            "bBoxNE": [
+                0.56,
+                0.376
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.4204
+            ]
+        },
+        "ogonek": {
+            "bBoxNE": [
+                0.9428,
+                0.616
+            ],
+            "bBoxSW": [
+                -0.0028,
+                -0.638
+            ]
+        },
+        "ograve": {
+            "bBoxNE": [
+                1.728,
+                0.796
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3
+            ]
+        },
+        "ordfeminine": {
+            "bBoxNE": [
+                0.56,
+                1.7292
+            ],
+            "bBoxSW": [
+                0.0,
+                -1.721
+            ]
+        },
+        "ordmasculine": {
+            "bBoxNE": [
+                1.208,
+                0.9617
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.392
+            ]
+        },
+        "oslash": {
+            "bBoxNE": [
+                0.56,
+                1.736
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.392
+            ]
+        },
+        "otilde": {
+            "bBoxNE": [
+                2.2,
+                2.296
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3003
+            ]
+        },
+        "p": {
+            "bBoxNE": [
+                0.784,
+                0.6572
+            ],
+            "bBoxSW": [
+                0.0,
+                -2.9037
+            ]
+        },
+        "paragraph": {
+            "bBoxNE": [
+                3.472,
+                3.796
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3
+            ]
+        },
+        "parenleft": {
+            "bBoxNE": [
+                0.512,
+                0.34
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3442
+            ]
+        },
+        "partialdiff": {
+            "bBoxNE": [
+                1.728,
+                0.264
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.8
+            ]
+        },
+        "percent": {
+            "bBoxNE": [
+                0.78,
+                0.372
+            ],
+            "bBoxSW": [
+                -0.008,
+                -0.408
+            ]
+        },
+        "period": {
+            "bBoxNE": [
+                2.3179,
+                1.7253
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.1018
+            ]
+        },
+        "periodcentered": {
+            "bBoxNE": [
+                1.792,
+                1.296
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3
+            ]
+        },
+        "perthousand": {
+            "bBoxNE": [
+                2.672,
+                2.796
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3
+            ]
+        },
+        "pi": {
+            "bBoxNE": [
+                0.56,
+                1.721
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.392
+            ]
+        },
+        "plus": {
+            "bBoxNE": [
+                0.212,
+                0.7536
+            ],
+            "bBoxSW": [
+                -0.0003,
+                -0.328
+            ]
+        },
+        "plusminus": {
+            "bBoxNE": [
+                0.512,
+                1.7322
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.304
+            ]
+        },
+        "product": {
+            "bBoxNE": [
+                0.6272,
+                0.4211
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.439
+            ]
+        },
+        "q": {
+            "bBoxNE": [
+                0.784,
+                2.8996
+            ],
+            "bBoxSW": [
+                0.0,
+                -2.9171
+            ]
+        },
+        "questiondown": {
+            "bBoxNE": [
+                0.56,
+                0.392
+            ],
+            "bBoxSW": [
+                0.0,
+                -1.732
+            ]
+        },
+        "quotedblbase": {
+            "bBoxNE": [
+                2.2,
+                2.296
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3
+            ]
+        },
+        "quotedblleft": {
+            "bBoxNE": [
+                0.512,
+                1.248
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.304
+            ]
+        },
+        "quotedblright": {
+            "bBoxNE": [
+                0.512,
+                1.748
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.304
+            ]
+        },
+        "quoteleft": {
+            "bBoxNE": [
+                0.512,
+                2.248
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.304
+            ]
+        },
+        "quoteright": {
+            "bBoxNE": [
+                0.512,
+                2.748
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.304
+            ]
+        },
+        "quotesinglbase": {
+            "bBoxNE": [
+                2.152,
+                1.796
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3
+            ]
+        },
+        "r": {
+            "bBoxNE": [
+                0.784,
+                2.8996
+            ],
+            "bBoxSW": [
+                0.0,
+                -2.9171
+            ]
+        },
+        "radical": {
+            "bBoxNE": [
+                0.56,
+                1.74
+            ],
+            "bBoxSW": [
+                0.0,
+                -1.74
+            ]
+        },
+        "registered": {
+            "bBoxNE": [
+                0.512,
+                0.3185
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.304
+            ]
+        },
+        "ring": {
+            "bBoxNE": [
+                0.5165,
+                1.248
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.36
+            ]
+        },
+        "s": {
+            "bBoxNE": [
+                0.784,
+                2.9171
+            ],
+            "bBoxSW": [
+                0.0,
+                -2.9171
+            ]
+        },
+        "section": {
+            "bBoxNE": [
+                2.672,
+                2.796
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3
+            ]
+        },
+        "semicolon": {
+            "bBoxNE": [
+                0.056,
+                0.288
+            ],
+            "bBoxSW": [
+                -0.404,
+                -1.8056
+            ]
+        },
+        "slash": {
+            "bBoxNE": [
+                0.1612,
+                0.3281
+            ],
+            "bBoxSW": [
+                0.0,
+                0.0
+            ]
+        },
+        "space": {
+            "bBoxNE": [
+                0.0,
+                0.0
+            ],
+            "bBoxSW": [
+                0.0,
+                0.0
+            ]
+        },
+        "sterling": {
+            "bBoxNE": [
+                2.2,
+                2.296
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3
+            ]
+        },
+        "stringsDownBow": {
+            "bBoxNE": [
+                1.028,
+                0.248
+            ],
+            "bBoxSW": [
+                0.0,
+                -1.8122
+            ]
+        },
+        "stringsDownBowTurned": {
+            "bBoxNE": [
+                0.791,
+                2.598
+            ],
+            "bBoxSW": [
+                -0.0001,
+                -0.456
+            ]
+        },
+        "stringsUpBow": {
+            "bBoxNE": [
+                0.512,
+                0.3
+            ],
+            "bBoxSW": [
+                0.0,
+                -1.8122
+            ]
+        },
+        "summation": {
+            "bBoxNE": [
+                2.112,
+                0.264
+            ],
+            "bBoxSW": [
+                0.0,
+                -1.304
+            ]
+        },
+        "tilde": {
+            "bBoxNE": [
+                3.872,
+                4.296
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3
+            ]
+        },
+        "timeSig0": {
+            "bBoxNE": [
+                0.1595,
+                0.0
+            ],
+            "bBoxSW": [
+                -0.0011,
+                -0.516
+            ]
+        },
+        "timeSig1": {
+            "bBoxNE": [
+                0.1606,
+                0.516
+            ],
+            "bBoxSW": [
+                -0.0022,
+                -0.002
+            ]
+        },
+        "timeSig2": {
+            "bBoxNE": [
+                0.5126,
+                0.516
+            ],
+            "bBoxSW": [
+                -0.0022,
+                -0.002
+            ]
+        },
+        "timeSig3": {
+            "bBoxNE": [
+                0.1595,
+                1.0
+            ],
+            "bBoxSW": [
+                -0.0022,
+                -0.002
+            ]
+        },
+        "timeSig4": {
+            "bBoxNE": [
+                0.1617,
+                2.0
+            ],
+            "bBoxSW": [
+                -0.0033,
+                0.0
+            ]
+        },
+        "timeSig5": {
+            "bBoxNE": [
+                0.1606,
+                3.0
+            ],
+            "bBoxSW": [
+                -0.0022,
+                0.0
+            ]
+        },
+        "timeSig6": {
+            "bBoxNE": [
+                0.1617,
+                4.0
+            ],
+            "bBoxSW": [
+                -0.0033,
+                0.0
+            ]
+        },
+        "timeSig7": {
+            "bBoxNE": [
+                0.1606,
+                5.0
+            ],
+            "bBoxSW": [
+                -0.0022,
+                0.0
+            ]
+        },
+        "timeSig8": {
+            "bBoxNE": [
+                0.056,
+                0.272
+            ],
+            "bBoxSW": [
+                -0.404,
+                -0.3616
+            ]
+        },
+        "timeSig9": {
+            "bBoxNE": [
+                0.056,
+                0.292
+            ],
+            "bBoxSW": [
+                -0.404,
+                -0.8016
+            ]
+        },
+        "timeSigCommon": {
+            "bBoxNE": [
+                1.5473,
+                0.3952
+            ],
+            "bBoxSW": [
+                -0.0063,
+                -2.717
+            ]
+        },
+        "timeSigCutCommon": {
+            "bBoxNE": [
+                0.056,
+                0.1755
+            ],
+            "bBoxSW": [
+                -0.184,
+                -2.276
+            ]
+        },
+        "tremolo1Legacy": {
+            "bBoxNE": [
+                0.568,
+                0.3692
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.316
+            ]
+        },
+        "tremolo3Legacy": {
+            "bBoxNE": [
+                0.56,
+                1.732
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.392
+            ]
+        },
+        "tremolo4Legacy": {
+            "bBoxNE": [
+                0.5921,
+                0.38
+            ],
+            "bBoxSW": [
+                -0.688,
+                -0.9446
+            ]
+        },
+        "u": {
+            "bBoxNE": [
+                0.472,
+                0.184
+            ],
+            "bBoxSW": [
+                -0.0038,
+                -0.3125
+            ]
+        },
+        "uacute": {
+            "bBoxNE": [
+                2.672,
+                2.796
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3
+            ]
+        },
+        "ucircumflex": {
+            "bBoxNE": [
+                3.472,
+                3.796
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3006
+            ]
+        },
+        "udieresis": {
+            "bBoxNE": [
+                3.872,
+                4.296
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3011
+            ]
+        },
+        "ugrave": {
+            "bBoxNE": [
+                3.056,
+                3.296
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3
+            ]
+        },
+        "uni00A0": {
+            "bBoxNE": [
+                0.512,
+                0.3167
+            ],
+            "bBoxSW": [
+                0.0,
+                -1.808
+            ]
+        },
+        "unpitchedPercussionClef1": {
+            "bBoxNE": [
+                0.056,
+                0.3
+            ],
+            "bBoxSW": [
+                -0.456,
+                -2.303
+            ]
+        },
+        "unpitchedPercussionClef2": {
+            "bBoxNE": [
+                0.512,
+                3.248
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.304
+            ]
+        },
+        "v": {
+            "bBoxNE": [
+                0.6682,
+                0.1819
+            ],
+            "bBoxSW": [
+                -0.0022,
+                -0.313
+            ]
+        },
+        "w": {
+            "bBoxNE": [
+                0.776,
+                1.732
+            ],
+            "bBoxSW": [
+                -0.0004,
+                -0.314
+            ]
+        },
+        "x": {
+            "bBoxNE": [
+                0.52,
+                0.3164
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.8212
+            ]
+        },
+        "y": {
+            "bBoxNE": [
+                0.672,
+                0.3838
+            ],
+            "bBoxSW": [
+                0.0,
+                -1.4075
+            ]
+        },
+        "ydieresis": {
+            "bBoxNE": [
+                0.0507,
+                0.3007
+            ],
+            "bBoxSW": [
+                -0.4613,
+                -0.8
+            ]
+        },
+        "yen": {
+            "bBoxNE": [
+                1.028,
+                1.7246
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.308
+            ]
+        },
+        "z": {
+            "bBoxNE": [
+                0.52,
+                0.3164
+            ],
+            "bBoxSW": [
+                0.0,
+                -1.809
+            ]
+        }
+    },
+    "glyphs": {
+        "AE": {
+            "alternateCodepoints": [
+                "0X00C6"
+            ],
+            "codepoint": "0XF0AE"
+        },
+        "Aacute": {
+            "alternateCodepoints": [
+                "0X00C1"
+            ],
+            "codepoint": "0XF0E7"
+        },
+        "Acircumflex": {
+            "alternateCodepoints": [
+                "0X00C2"
+            ],
+            "codepoint": "0XF0E5"
+        },
+        "Agrave": {
+            "alternateCodepoints": [
+                "0X00C0"
+            ],
+            "codepoint": "0XF0CB"
+        },
+        "Atilde": {
+            "alternateCodepoints": [
+                "0X00C3"
+            ],
+            "codepoint": "0XF0CC"
+        },
+        "Ccedilla": {
+            "alternateCodepoints": [
+                "0X00C7"
+            ],
+            "codepoint": "0XF082"
+        },
+        "D": {
+            "alternateCodepoints": [
+                "0X0044"
+            ],
+            "codepoint": "0XF044"
+        },
+        "Delta": {
+            "alternateCodepoints": [
+                "0X2206",
+                "0XF0C6"
+            ],
+            "codepoint": "0X0394"
+        },
+        "Eacute": {
+            "alternateCodepoints": [
+                "0X00C9"
+            ],
+            "codepoint": "0XF083"
+        },
+        "Edieresis": {
+            "alternateCodepoints": [
+                "0X00CB"
+            ],
+            "codepoint": "0XF0E8"
+        },
+        "Egrave": {
+            "alternateCodepoints": [
+                "0X00C8"
+            ],
+            "codepoint": "0XF0E9"
+        },
+        "Euro": {
+            "alternateCodepoints": [
+                "0XF0DB"
+            ],
+            "codepoint": "0X20AC"
+        },
+        "F": {
+            "alternateCodepoints": [
+                "0X0046"
+            ],
+            "codepoint": "0XF046"
+        },
+        "G": {
+            "alternateCodepoints": [
+                "0X0047"
+            ],
+            "codepoint": "0XF047"
+        },
+        "Iacute": {
+            "alternateCodepoints": [
+                "0X00CD"
+            ],
+            "codepoint": "0XF0EA"
+        },
+        "Icircumflex": {
+            "alternateCodepoints": [
+                "0X00CE"
+            ],
+            "codepoint": "0XF0EB"
+        },
+        "Idieresis": {
+            "alternateCodepoints": [
+                "0X00CF"
+            ],
+            "codepoint": "0XF0EC"
+        },
+        "Igrave": {
+            "alternateCodepoints": [
+                "0X00CC"
+            ],
+            "codepoint": "0XF0ED"
+        },
+        "J": {
+            "alternateCodepoints": [
+                "0X004A"
+            ],
+            "codepoint": "0XF04A"
+        },
+        "K": {
+            "alternateCodepoints": [
+                "0X004B"
+            ],
+            "codepoint": "0XF04B"
+        },
+        "L": {
+            "alternateCodepoints": [
+                "0X004C"
+            ],
+            "codepoint": "0XF04C"
+        },
+        "M": {
+            "alternateCodepoints": [
+                "0X004D"
+            ],
+            "codepoint": "0XF04D"
+        },
+        "N": {
+            "alternateCodepoints": [
+                "0X004E"
+            ],
+            "codepoint": "0XF04E"
+        },
+        "Ntilde": {
+            "alternateCodepoints": [
+                "0X00D1"
+            ],
+            "codepoint": "0XF084"
+        },
+        "O": {
+            "alternateCodepoints": [
+                "0X004F"
+            ],
+            "codepoint": "0XF04F"
+        },
+        "OE": {
+            "alternateCodepoints": [
+                "0XF0CE"
+            ],
+            "codepoint": "0X0152"
+        },
+        "Oacute": {
+            "alternateCodepoints": [
+                "0X00D3"
+            ],
+            "codepoint": "0XF0EE"
+        },
+        "Ocircumflex": {
+            "alternateCodepoints": [
+                "0X00D4"
+            ],
+            "codepoint": "0XF0EF"
+        },
+        "Odieresis": {
+            "alternateCodepoints": [
+                "0X00D6"
+            ],
+            "codepoint": "0XF085"
+        },
+        "Ograve": {
+            "alternateCodepoints": [
+                "0X00D2"
+            ],
+            "codepoint": "0XF0F1"
+        },
+        "Oslash": {
+            "alternateCodepoints": [
+                "0X00D8"
+            ],
+            "codepoint": "0XF0AF"
+        },
+        "Otilde": {
+            "alternateCodepoints": [
+                "0X00D5"
+            ],
+            "codepoint": "0XF0CD"
+        },
+        "P": {
+            "alternateCodepoints": [
+                "0X0050"
+            ],
+            "codepoint": "0XF050"
+        },
+        "Q": {
+            "alternateCodepoints": [
+                "0X0051"
+            ],
+            "codepoint": "0XF051"
+        },
+        "R": {
+            "alternateCodepoints": [
+                "0X0052"
+            ],
+            "codepoint": "0XF052"
+        },
+        "S": {
+            "alternateCodepoints": [
+                "0X0053"
+            ],
+            "codepoint": "0XF053"
+        },
+        "T": {
+            "alternateCodepoints": [
+                "0X0054"
+            ],
+            "codepoint": "0XF054"
+        },
+        "U": {
+            "alternateCodepoints": [
+                "0X0055"
+            ],
+            "codepoint": "0XF055"
+        },
+        "Uacute": {
+            "alternateCodepoints": [
+                "0X00DA"
+            ],
+            "codepoint": "0XF0F2"
+        },
+        "Ucircumflex": {
+            "alternateCodepoints": [
+                "0X00DB"
+            ],
+            "codepoint": "0XF0F3"
+        },
+        "Udieresis": {
+            "alternateCodepoints": [
+                "0X00DC"
+            ],
+            "codepoint": "0XF086"
+        },
+        "Ugrave": {
+            "alternateCodepoints": [
+                "0X00D9"
+            ],
+            "codepoint": "0XF0F4"
+        },
+        "W": {
+            "alternateCodepoints": [
+                "0X0057"
+            ],
+            "codepoint": "0XF057"
+        },
+        "Y": {
+            "alternateCodepoints": [
+                "0X0059"
+            ],
+            "codepoint": "0XF059"
+        },
+        "Ydieresis": {
+            "alternateCodepoints": [
+                "0XF0D9"
+            ],
+            "codepoint": "0X0178"
+        },
+        "Z": {
+            "alternateCodepoints": [
+                "0X005A"
+            ],
+            "codepoint": "0XF05A"
+        },
+        "aacute": {
+            "alternateCodepoints": [
+                "0X00E1"
+            ],
+            "codepoint": "0XF087"
+        },
+        "accidentalDoubleFlat": {
+            "alternateCodepoints": [
+                "0XF0BA"
+            ],
+            "codepoint": "0X222B"
+        },
+        "accidentalDoubleFlatParens": {
+            "alternateCodepoints": [
+                "0X00E5"
+            ],
+            "codepoint": "0XF08C"
+        },
+        "accidentalDoubleSharpParens": {
+            "alternateCodepoints": [
+                "0X00C5"
+            ],
+            "codepoint": "0XF081"
+        },
+        "accidentalDoubleSharpParensSml": {
+            "alternateCodepoints": [
+                "0X005D"
+            ],
+            "codepoint": "0XF05D"
+        },
+        "accidentalFlat": {
+            "alternateCodepoints": [
+                "0X0062"
+            ],
+            "codepoint": "0XF062"
+        },
+        "accidentalFlatParens": {
+            "alternateCodepoints": [
+                "0X0041"
+            ],
+            "codepoint": "0XF041"
+        },
+        "accidentalFlatParensSmall": {
+            "alternateCodepoints": [
+                "0X007B"
+            ],
+            "codepoint": "0XF07B"
+        },
+        "accidentalNatural": {
+            "alternateCodepoints": [
+                "0X006E"
+            ],
+            "codepoint": "0XF06E"
+        },
+        "accidentalSharpParens": {
+            "alternateCodepoints": [
+                "0X0061"
+            ],
+            "codepoint": "0XF061"
+        },
+        "accidentalSharpSmall": {
+            "alternateCodepoints": [
+                "0X0049"
+            ],
+            "codepoint": "0XF049"
+        },
+        "acircumflex": {
+            "alternateCodepoints": [
+                "0X00E2"
+            ],
+            "codepoint": "0XF089"
+        },
+        "acute": {
+            "alternateCodepoints": [
+                "0X00B4"
+            ],
+            "codepoint": "0XF0AB"
+        },
+        "adieresis": {
+            "alternateCodepoints": [
+                "0X00E4"
+            ],
+            "codepoint": "0XF08A"
+        },
+        "agrave": {
+            "alternateCodepoints": [
+                "0X00E0"
+            ],
+            "codepoint": "0XF088"
+        },
+        "approxequal": {
+            "alternateCodepoints": [
+                "0XF0C5"
+            ],
+            "codepoint": "0X2248"
+        },
+        "asciicircum": {
+            "alternateCodepoints": [
+                "0X005E"
+            ],
+            "codepoint": "0XF05E"
+        },
+        "asciitilde": {
+            "alternateCodepoints": [
+                "0X007E"
+            ],
+            "codepoint": "0XF07E"
+        },
+        "at": {
+            "alternateCodepoints": [
+                "0X0040"
+            ],
+            "codepoint": "0XF040"
+        },
+        "backslash": {
+            "alternateCodepoints": [
+                "0X005C"
+            ],
+            "codepoint": "0XF05C"
+        },
+        "bar": {
+            "alternateCodepoints": [
+                "0X007C"
+            ],
+            "codepoint": "0XF07C"
+        },
+        "braceright": {
+            "alternateCodepoints": [
+                "0X007D"
+            ],
+            "codepoint": "0XF07D"
+        },
+        "bracketleft": {
+            "alternateCodepoints": [
+                "0X005B"
+            ],
+            "codepoint": "0XF05B"
+        },
+        "breathMarkComma": {
+            "alternateCodepoints": [
+                "0X002C"
+            ],
+            "codepoint": "0XF02C"
+        },
+        "breve": {
+            "alternateCodepoints": [
+                "0XF0F9"
+            ],
+            "codepoint": "0X02D8"
+        },
+        "bullet": {
+            "alternateCodepoints": [
+                "0XF0A5"
+            ],
+            "codepoint": "0X2022"
+        },
+        "cClef": {
+            "alternateCodepoints": [
+                "0X0042"
+            ],
+            "codepoint": "0XF042"
+        },
+        "caron": {
+            "alternateCodepoints": [
+                "0XF0FF"
+            ],
+            "codepoint": "0X02C7"
+        },
+        "ccedilla": {
+            "alternateCodepoints": [
+                "0X00E7"
+            ],
+            "codepoint": "0XF08D"
+        },
+        "cent": {
+            "alternateCodepoints": [
+                "0X00A2"
+            ],
+            "codepoint": "0XF0A2"
+        },
+        "chantAuctumDesc": {
+            "alternateCodepoints": [
+                "0X0024",
+                "0XF024"
+            ],
+            "codepoint": "0XE995"
+        },
+        "chantCclef": {
+            "alternateCodepoints": [
+                "0X0045"
+            ],
+            "codepoint": "0XF045"
+        },
+        "chantFclef": {
+            "alternateCodepoints": [
+                "0X0048"
+            ],
+            "codepoint": "0XF048"
+        },
+        "chantOriscusAscending": {
+            "alternateCodepoints": [
+                "0XF0FA",
+                "0XE99C"
+            ],
+            "codepoint": "0X02D9"
+        },
+        "chantOriscusDescending": {
+            "alternateCodepoints": [
+                "0X00B8"
+            ],
+            "codepoint": "0XE99D"
+        },
+        "chantPunctum": {
+            "alternateCodepoints": [
+                "0X0058",
+                "0XF058"
+            ],
+            "codepoint": "0XE990"
+        },
+        "chantPunctumCavum": {
+            "alternateCodepoints": [
+                "0X0022",
+                "0XF022"
+            ],
+            "codepoint": "0XE998"
+        },
+        "chantPunctumCavumTriplum": {
+            "alternateCodepoints": [
+                "0X0023"
+            ],
+            "codepoint": "0XF023"
+        },
+        "chantStrophicusAuctus": {
+            "alternateCodepoints": [
+                "0XF0D0",
+                "0XE9A0"
+            ],
+            "codepoint": "0X2013"
+        },
+        "circumflex": {
+            "alternateCodepoints": [
+                "0XF0F6"
+            ],
+            "codepoint": "0X02C6"
+        },
+        "colon": {
+            "alternateCodepoints": [
+                "0X003A"
+            ],
+            "codepoint": "0XF03A"
+        },
+        "copyright": {
+            "alternateCodepoints": [
+                "0X00A9"
+            ],
+            "codepoint": "0XF0A9"
+        },
+        "d": {
+            "alternateCodepoints": [
+                "0X0064"
+            ],
+            "codepoint": "0XF064"
+        },
+        "daggerdbl": {
+            "alternateCodepoints": [
+                "0XF0E0"
+            ],
+            "codepoint": "0X2021"
+        },
+        "degree": {
+            "alternateCodepoints": [
+                "0X00B0"
+            ],
+            "codepoint": "0XF0A1"
+        },
+        "dieresis": {
+            "alternateCodepoints": [
+                "0X00A8"
+            ],
+            "codepoint": "0XF0AC"
+        },
+        "e": {
+            "alternateCodepoints": [
+                "0X0065"
+            ],
+            "codepoint": "0XF065"
+        },
+        "eacute": {
+            "alternateCodepoints": [
+                "0X00E9"
+            ],
+            "codepoint": "0XF08E"
+        },
+        "ecircumflex": {
+            "alternateCodepoints": [
+                "0X00EA"
+            ],
+            "codepoint": "0XF090"
+        },
+        "edieresis": {
+            "alternateCodepoints": [
+                "0X00EB"
+            ],
+            "codepoint": "0XF091"
+        },
+        "egrave": {
+            "alternateCodepoints": [
+                "0X00E8"
+            ],
+            "codepoint": "0XF08F"
+        },
+        "ellipsis": {
+            "alternateCodepoints": [
+                "0XF0C9"
+            ],
+            "codepoint": "0X2026"
+        },
+        "emdash": {
+            "alternateCodepoints": [
+                "0XF0D1"
+            ],
+            "codepoint": "0X2014"
+        },
+        "equal": {
+            "alternateCodepoints": [
+                "0X003D"
+            ],
+            "codepoint": "0XF03D"
+        },
+        "exclamdown": {
+            "alternateCodepoints": [
+                "0X00A1"
+            ],
+            "codepoint": "0XF0C1"
+        },
+        "f": {
+            "alternateCodepoints": [
+                "0X0066"
+            ],
+            "codepoint": "0XF066"
+        },
+        "fClef": {
+            "alternateCodepoints": [
+                "0X003F"
+            ],
+            "codepoint": "0XF03F"
+        },
+        "fClef8va": {
+            "alternateCodepoints": [
+                "0X00CA"
+            ],
+            "codepoint": "0XF0E6"
+        },
+        "fClef8vb": {
+            "alternateCodepoints": [
+                "0X0074"
+            ],
+            "codepoint": "0XF074"
+        },
+        "fClefFrench": {
+            "alternateCodepoints": [
+                "0XF0F5"
+            ],
+            "codepoint": "0X0131"
+        },
+        "fi": {
+            "alternateCodepoints": [
+                "0XF0DE"
+            ],
+            "codepoint": "0XFB01"
+        },
+        "fl": {
+            "alternateCodepoints": [
+                "0XF0DF"
+            ],
+            "codepoint": "0XFB02"
+        },
+        "florin": {
+            "alternateCodepoints": [
+                "0XF0C4"
+            ],
+            "codepoint": "0X0192"
+        },
+        "fraction": {
+            "alternateCodepoints": [
+                "0XF0DA"
+            ],
+            "codepoint": "0X2044"
+        },
+        "g": {
+            "alternateCodepoints": [
+                "0X0067"
+            ],
+            "codepoint": "0XF067"
+        },
+        "gClef8va": {
+            "alternateCodepoints": [
+                "0XF0A0"
+            ],
+            "codepoint": "0X2020"
+        },
+        "gClef8vb": {
+            "alternateCodepoints": [
+                "0X0056"
+            ],
+            "codepoint": "0XF056"
+        },
+        "gClefFrenchViolin": {
+            "alternateCodepoints": [
+                "0XF0F0"
+            ],
+            "codepoint": "0XF8FF"
+        },
+        "germandbls": {
+            "alternateCodepoints": [
+                "0X00DF"
+            ],
+            "codepoint": "0XF0A7"
+        },
+        "grave": {
+            "alternateCodepoints": [
+                "0X0060"
+            ],
+            "codepoint": "0XF060"
+        },
+        "greater": {
+            "alternateCodepoints": [
+                "0X003E"
+            ],
+            "codepoint": "0XF03E"
+        },
+        "guillemotleft": {
+            "alternateCodepoints": [
+                "0X00AB"
+            ],
+            "codepoint": "0XF0C7"
+        },
+        "guillemotright": {
+            "alternateCodepoints": [
+                "0X00BB"
+            ],
+            "codepoint": "0XF0C8"
+        },
+        "guilsinglleft": {
+            "alternateCodepoints": [
+                "0XF0DC"
+            ],
+            "codepoint": "0X2039"
+        },
+        "guilsinglright": {
+            "alternateCodepoints": [
+                "0XF0DD"
+            ],
+            "codepoint": "0X203A"
+        },
+        "hungarumlaut": {
+            "alternateCodepoints": [
+                "0XF0FD"
+            ],
+            "codepoint": "0X02DD"
+        },
+        "hyphen": {
+            "alternateCodepoints": [
+                "0X002D"
+            ],
+            "codepoint": "0XF02D"
+        },
+        "iacute": {
+            "alternateCodepoints": [
+                "0X00ED"
+            ],
+            "codepoint": "0XF092"
+        },
+        "icircumflex": {
+            "alternateCodepoints": [
+                "0X00EE"
+            ],
+            "codepoint": "0XF094"
+        },
+        "idieresis": {
+            "alternateCodepoints": [
+                "0X00EF"
+            ],
+            "codepoint": "0XF095"
+        },
+        "igrave": {
+            "alternateCodepoints": [
+                "0X00EC"
+            ],
+            "codepoint": "0XF093"
+        },
+        "infinity": {
+            "alternateCodepoints": [
+                "0XF0B0"
+            ],
+            "codepoint": "0X221E"
+        },
+        "k": {
+            "alternateCodepoints": [
+                "0X006B"
+            ],
+            "codepoint": "0XF06B"
+        },
+        "l": {
+            "alternateCodepoints": [
+                "0X006C"
+            ],
+            "codepoint": "0XF06C"
+        },
+        "less": {
+            "alternateCodepoints": [
+                "0X003C"
+            ],
+            "codepoint": "0XF03C"
+        },
+        "logicalnot": {
+            "alternateCodepoints": [
+                "0X00AC"
+            ],
+            "codepoint": "0XF0C2"
+        },
+        "lozenge": {
+            "alternateCodepoints": [
+                "0XF0D7"
+            ],
+            "codepoint": "0X25CA"
+        },
+        "m": {
+            "alternateCodepoints": [
+                "0X006D"
+            ],
+            "codepoint": "0XF06D"
+        },
+        "macron": {
+            "alternateCodepoints": [
+                "0X00AF"
+            ],
+            "codepoint": "0XF0F8"
+        },
+        "mensuralBlackMinima": {
+            "alternateCodepoints": [
+                "0X0069",
+                "0XF069"
+            ],
+            "codepoint": "0XE954"
+        },
+        "mensuralBlackSemibrevis": {
+            "alternateCodepoints": [
+                "0X0068",
+                "0XF068"
+            ],
+            "codepoint": "0XE953"
+        },
+        "mensuralBlackSemibrevisCaudata": {
+            "alternateCodepoints": [
+                "0X006A",
+                "0XF06A"
+            ],
+            "codepoint": "0XE959"
+        },
+        "mensuralBlackSemiminima": {
+            "alternateCodepoints": [
+                "0X006F",
+                "0XF06F"
+            ],
+            "codepoint": "0XE955"
+        },
+        "mensuralCclefPetrucciPosMiddle": {
+            "alternateCodepoints": [
+                "0XF0AA"
+            ],
+            "codepoint": "0X2122"
+        },
+        "mensuralProlation1": {
+            "alternateCodepoints": [
+                "0X0026",
+                "0XF026"
+            ],
+            "codepoint": "0XE910"
+        },
+        "mensuralProlation2": {
+            "alternateCodepoints": [
+                "0X0027",
+                "0XF027"
+            ],
+            "codepoint": "0XE911"
+        },
+        "mensuralProlation6": {
+            "alternateCodepoints": [
+                "0X0029",
+                "0XF029"
+            ],
+            "codepoint": "0XE915"
+        },
+        "mensuralProlation7": {
+            "alternateCodepoints": [
+                "0X002A",
+                "0XF02A"
+            ],
+            "codepoint": "0XE916"
+        },
+        "mu": {
+            "alternateCodepoints": [
+                "0X00B5"
+            ],
+            "codepoint": "0XF0B5"
+        },
+        "notequal": {
+            "alternateCodepoints": [
+                "0XF0AD"
+            ],
+            "codepoint": "0X2260"
+        },
+        "ntilde": {
+            "alternateCodepoints": [
+                "0X00F1"
+            ],
+            "codepoint": "0XF096"
+        },
+        "oacute": {
+            "alternateCodepoints": [
+                "0X00F3"
+            ],
+            "codepoint": "0XF097"
+        },
+        "ocircumflex": {
+            "alternateCodepoints": [
+                "0X00F4"
+            ],
+            "codepoint": "0XF099"
+        },
+        "odieresis": {
+            "alternateCodepoints": [
+                "0X00F6"
+            ],
+            "codepoint": "0XF09A"
+        },
+        "oe": {
+            "alternateCodepoints": [
+                "0XF0CF"
+            ],
+            "codepoint": "0X0153"
+        },
+        "ogonek": {
+            "alternateCodepoints": [
+                "0XF0FE"
+            ],
+            "codepoint": "0X02DB"
+        },
+        "ograve": {
+            "alternateCodepoints": [
+                "0X00F2"
+            ],
+            "codepoint": "0XF098"
+        },
+        "ordfeminine": {
+            "alternateCodepoints": [
+                "0X00AA"
+            ],
+            "codepoint": "0XF0BB"
+        },
+        "ordmasculine": {
+            "alternateCodepoints": [
+                "0X00BA"
+            ],
+            "codepoint": "0XF0BC"
+        },
+        "oslash": {
+            "alternateCodepoints": [
+                "0X00F8"
+            ],
+            "codepoint": "0XF0BF"
+        },
+        "otilde": {
+            "alternateCodepoints": [
+                "0X00F5"
+            ],
+            "codepoint": "0XF09B"
+        },
+        "p": {
+            "alternateCodepoints": [
+                "0X0070"
+            ],
+            "codepoint": "0XF070"
+        },
+        "paragraph": {
+            "alternateCodepoints": [
+                "0X00B6"
+            ],
+            "codepoint": "0XF0A6"
+        },
+        "parenleft": {
+            "alternateCodepoints": [
+                "0X0028"
+            ],
+            "codepoint": "0XF028"
+        },
+        "partialdiff": {
+            "alternateCodepoints": [
+                "0XF0B6"
+            ],
+            "codepoint": "0X2202"
+        },
+        "percent": {
+            "alternateCodepoints": [
+                "0X0025"
+            ],
+            "codepoint": "0XF025"
+        },
+        "period": {
+            "alternateCodepoints": [
+                "0X002E"
+            ],
+            "codepoint": "0XF02E"
+        },
+        "periodcentered": {
+            "alternateCodepoints": [
+                "0X00B7"
+            ],
+            "codepoint": "0XF0E1"
+        },
+        "perthousand": {
+            "alternateCodepoints": [
+                "0XF0E4"
+            ],
+            "codepoint": "0X2030"
+        },
+        "pi": {
+            "alternateCodepoints": [
+                "0XF0B9"
+            ],
+            "codepoint": "0X03C0"
+        },
+        "plus": {
+            "alternateCodepoints": [
+                "0X002B"
+            ],
+            "codepoint": "0XF02B"
+        },
+        "plusminus": {
+            "alternateCodepoints": [
+                "0X00B1"
+            ],
+            "codepoint": "0XF0B1"
+        },
+        "product": {
+            "alternateCodepoints": [
+                "0XF0B8"
+            ],
+            "codepoint": "0X220F"
+        },
+        "q": {
+            "alternateCodepoints": [
+                "0X0071"
+            ],
+            "codepoint": "0XF071"
+        },
+        "questiondown": {
+            "alternateCodepoints": [
+                "0X00BF"
+            ],
+            "codepoint": "0XF0C0"
+        },
+        "quotedblbase": {
+            "alternateCodepoints": [
+                "0XF0E3"
+            ],
+            "codepoint": "0X201E"
+        },
+        "quotedblleft": {
+            "alternateCodepoints": [
+                "0XF0D2"
+            ],
+            "codepoint": "0X201C"
+        },
+        "quotedblright": {
+            "alternateCodepoints": [
+                "0XF0D3"
+            ],
+            "codepoint": "0X201D"
+        },
+        "quoteleft": {
+            "alternateCodepoints": [
+                "0XF0D4"
+            ],
+            "codepoint": "0X2018"
+        },
+        "quoteright": {
+            "alternateCodepoints": [
+                "0XF0D5"
+            ],
+            "codepoint": "0X2019"
+        },
+        "quotesinglbase": {
+            "alternateCodepoints": [
+                "0XF0E2"
+            ],
+            "codepoint": "0X201A"
+        },
+        "r": {
+            "alternateCodepoints": [
+                "0X0072"
+            ],
+            "codepoint": "0XF072"
+        },
+        "radical": {
+            "alternateCodepoints": [
+                "0XF0C3"
+            ],
+            "codepoint": "0X221A"
+        },
+        "registered": {
+            "alternateCodepoints": [
+                "0X00AE"
+            ],
+            "codepoint": "0XF0A8"
+        },
+        "ring": {
+            "alternateCodepoints": [
+                "0XF0FB"
+            ],
+            "codepoint": "0X02DA"
+        },
+        "s": {
+            "alternateCodepoints": [
+                "0X0073"
+            ],
+            "codepoint": "0XF073"
+        },
+        "section": {
+            "alternateCodepoints": [
+                "0X00A7"
+            ],
+            "codepoint": "0XF0A4"
+        },
+        "semicolon": {
+            "alternateCodepoints": [
+                "0X003B"
+            ],
+            "codepoint": "0XF03B"
+        },
+        "slash": {
+            "alternateCodepoints": [
+                "0X002F"
+            ],
+            "codepoint": "0XF02F"
+        },
+        "space": {
+            "alternateCodepoints": [
+                "0X0020"
+            ],
+            "codepoint": "0XF020"
+        },
+        "sterling": {
+            "alternateCodepoints": [
+                "0X00A3"
+            ],
+            "codepoint": "0XF0A3"
+        },
+        "stringsDownBow": {
+            "alternateCodepoints": [
+                "0XF0B3"
+            ],
+            "codepoint": "0X2265"
+        },
+        "stringsDownBowTurned": {
+            "alternateCodepoints": [
+                "0X005F"
+            ],
+            "codepoint": "0XF05F"
+        },
+        "stringsUpBow": {
+            "alternateCodepoints": [
+                "0XF0B2"
+            ],
+            "codepoint": "0X2264"
+        },
+        "summation": {
+            "alternateCodepoints": [
+                "0XF0B7"
+            ],
+            "codepoint": "0X2211"
+        },
+        "tilde": {
+            "alternateCodepoints": [
+                "0XF0F7"
+            ],
+            "codepoint": "0X02DC"
+        },
+        "timeSig0": {
+            "alternateCodepoints": [
+                "0X0030"
+            ],
+            "codepoint": "0XF030"
+        },
+        "timeSig1": {
+            "alternateCodepoints": [
+                "0X0031"
+            ],
+            "codepoint": "0XF031"
+        },
+        "timeSig2": {
+            "alternateCodepoints": [
+                "0X0032"
+            ],
+            "codepoint": "0XF032"
+        },
+        "timeSig3": {
+            "alternateCodepoints": [
+                "0X0033"
+            ],
+            "codepoint": "0XF033"
+        },
+        "timeSig4": {
+            "alternateCodepoints": [
+                "0X0034"
+            ],
+            "codepoint": "0XF034"
+        },
+        "timeSig5": {
+            "alternateCodepoints": [
+                "0X0035"
+            ],
+            "codepoint": "0XF035"
+        },
+        "timeSig6": {
+            "alternateCodepoints": [
+                "0X0036"
+            ],
+            "codepoint": "0XF036"
+        },
+        "timeSig7": {
+            "alternateCodepoints": [
+                "0X0037"
+            ],
+            "codepoint": "0XF037"
+        },
+        "timeSig8": {
+            "alternateCodepoints": [
+                "0X0038"
+            ],
+            "codepoint": "0XF038"
+        },
+        "timeSig9": {
+            "alternateCodepoints": [
+                "0X0039"
+            ],
+            "codepoint": "0XF039"
+        },
+        "timeSigCommon": {
+            "alternateCodepoints": [
+                "0X0063"
+            ],
+            "codepoint": "0XF063"
+        },
+        "timeSigCutCommon": {
+            "alternateCodepoints": [
+                "0X0043"
+            ],
+            "codepoint": "0XF043"
+        },
+        "tremolo1Legacy": {
+            "alternateCodepoints": [
+                "0X0021",
+                "0XF021"
+            ],
+            "codepoint": "0XE99B"
+        },
+        "tremolo3Legacy": {
+            "alternateCodepoints": [
+                "0X00E6"
+            ],
+            "codepoint": "0XF0BE"
+        },
+        "tremolo4Legacy": {
+            "alternateCodepoints": [
+                "0XF0BD"
+            ],
+            "codepoint": "0X03A9"
+        },
+        "u": {
+            "alternateCodepoints": [
+                "0X0075"
+            ],
+            "codepoint": "0XF075"
+        },
+        "uacute": {
+            "alternateCodepoints": [
+                "0X00FA"
+            ],
+            "codepoint": "0XF09C"
+        },
+        "ucircumflex": {
+            "alternateCodepoints": [
+                "0X00FB"
+            ],
+            "codepoint": "0XF09E"
+        },
+        "udieresis": {
+            "alternateCodepoints": [
+                "0X00FC"
+            ],
+            "codepoint": "0XF09F"
+        },
+        "ugrave": {
+            "alternateCodepoints": [
+                "0X00F9"
+            ],
+            "codepoint": "0XF09D"
+        },
+        "uni00A0": {
+            "alternateCodepoints": [
+                "0X00A0"
+            ],
+            "codepoint": "0XF0CA"
+        },
+        "unpitchedPercussionClef1": {
+            "alternateCodepoints": [
+                "0X00E3"
+            ],
+            "codepoint": "0XF08B"
+        },
+        "unpitchedPercussionClef2": {
+            "alternateCodepoints": [
+                "0X00F7"
+            ],
+            "codepoint": "0XF0D6"
+        },
+        "v": {
+            "alternateCodepoints": [
+                "0X0076"
+            ],
+            "codepoint": "0XF076"
+        },
+        "w": {
+            "alternateCodepoints": [
+                "0X0077"
+            ],
+            "codepoint": "0XF077"
+        },
+        "x": {
+            "alternateCodepoints": [
+                "0X0078"
+            ],
+            "codepoint": "0XF078"
+        },
+        "y": {
+            "alternateCodepoints": [
+                "0X0079"
+            ],
+            "codepoint": "0XF079"
+        },
+        "ydieresis": {
+            "alternateCodepoints": [
+                "0X00FF"
+            ],
+            "codepoint": "0XF0D8"
+        },
+        "yen": {
+            "alternateCodepoints": [
+                "0X00A5"
+            ],
+            "codepoint": "0XF0B4"
+        },
+        "z": {
+            "alternateCodepoints": [
+                "0X007A"
+            ],
+            "codepoint": "0XF07A"
+        }
+    },
+    "glyphsWithAnchors": {}
+}

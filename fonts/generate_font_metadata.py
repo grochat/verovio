@@ -54,11 +54,6 @@ nargs = len(sys.argv)
 fontFileName = ''
 fontDir = ''
 outDir = 'json/'
-if nargs != 2:
-    fontFileName = 'November2.sfd'
-    path = fontFileName
-    #print ( "Oops... Font file name missing!" )
-    #sys.exit (1)
 
 if fontFileName == '':
     fontFileName = sys.argv[1]

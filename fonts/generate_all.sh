@@ -5,12 +5,17 @@
 # it needs to be alias before running the script. Something like:
 # alias saxon="java -jar /Applications/oxygen/lib/saxon9ee.jar"
 
-# Assuming you aliased saxon in .zshrc
-source ~/.zshrc
+if [ -f ~/.zshrc ] ; then
+	# Assuming you aliased saxon in .zshrc
+	source ~/.zshrc 
+elif [ -f ~/.bashrc ] ; then
+	# Assuming you aliased saxon in .bashrc
+	source ~/.bashrc
+else
+	source ~/.bash_profile
+fi
 setopt aliases
 
-# Assuming you aliased saxon in .bashrc
-#source ~/.bashrc
 #shopt -s expand_aliases
 
 if [ ! -e tmp ]; then
@@ -23,6 +28,7 @@ if ! command -v phantomjs >/dev/null 2>&1 ; then
 fi
 
 echo "Generating metadata for Leipzig..."
+fontforge generate_svg.py Leipzig-5.2.sfd
 fontforge generate_font_metadata.py Leipzig-5.2.sfd
 
 echo "Generating C++ header file ..."
@@ -43,5 +49,11 @@ phantomjs generate-bbox.js tmp/Gootville-bounding-boxes.svg ../data/Gootville.xm
 echo "Generating Petaluma files ..."
 saxon Petaluma.svg extract-glyphs.xsl > tmp/Petaluma-bounding-boxes.svg
 phantomjs generate-bbox.js tmp/Petaluma-bounding-boxes.svg ../data/Petaluma.xml json/petaluma_metadata.json
+
+echo "Generating Machaut files ..."
+fontforge generate_svg.py Machaut.sfd
+fontforge generate_font_metadata.py Machaut.sfd
+saxon Machaut.svg extract-glyphs.xsl > tmp/Machaut-bounding-boxes.svg
+phantomjs generate-bbox.js tmp/Machaut-bounding-boxes.svg ../data/Machaut.xml json/machaut_metadata.json
 
 echo "Done!"

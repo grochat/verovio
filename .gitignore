@@ -76,3 +76,7 @@ cmake_install.cmake
 libverovio.a
 tools/.cmake
 tools/compile_commands.json
+fonts/tmp
+fonts/json/machaut.log
+fonts/json/machaut_data.ly
+fonsdfsd
