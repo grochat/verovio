@@ -151,6 +151,7 @@ enum ClassId {
     MNUM,
     OCTAVE,
     PEDAL,
+    PHRASE,
     REH,
     SLUR,
     TEMPO,
@@ -527,6 +528,12 @@ enum {
     LIGATURE_OBLIQUE = 16,
     LIGATURE_STACKED = 32
 };
+
+//----------------------------------------------------------------------------
+// Analytical markup bitfields
+//----------------------------------------------------------------------------
+
+enum { MARKUP_DEFAULT = 0, MARKUP_ANALYTICAL_TIE = 1, MARKUP_ANALYTICAL_FERMATA = 2, MARKUP_GRACE_ATTRIBUTE = 4 };
 
 //----------------------------------------------------------------------------
 // Bounding box access

@@ -70,7 +70,7 @@ void View::DrawControlElement(DeviceContext *dc, ControlElement *element, Measur
     assert(element);
 
     // For dir, dynam, fermata, and harm, we do not consider the @tstamp2 for rendering
-    if (element->Is({ BRACKETSPAN, FIGURE, GLISS, HAIRPIN, OCTAVE, SLUR, TIE })) {
+    if (element->Is({ BRACKETSPAN, FIGURE, GLISS, HAIRPIN, PHRASE, OCTAVE, SLUR, TIE })) {
         // create placeholder
         dc->StartGraphic(element, "", element->GetUuid());
         dc->EndGraphic(element, this);
@@ -152,7 +152,7 @@ void View::DrawTimeSpanningElement(DeviceContext *dc, Object *element, System *s
         BBoxDeviceContext *bBoxDC = dynamic_cast<BBoxDeviceContext *>(dc);
         assert(bBoxDC);
         if (!bBoxDC->UpdateVerticalValues()) {
-            if (element->Is({ SLUR, BRACKETSPAN, HAIRPIN, OCTAVE, TIE })) return;
+            if (element->Is({ BRACKETSPAN, HAIRPIN, PHRASE, OCTAVE, SLUR, TIE })) return;
         }
     }
 
@@ -303,6 +303,13 @@ void View::DrawTimeSpanningElement(DeviceContext *dc, Object *element, System *s
             // cast to Harprin check in DrawHairpin
             DrawHairpin(dc, dynamic_cast<Hairpin *>(element), x1, x2, *staffIter, spanningType, graphic);
         }
+        else if (element->Is(PHRASE)) {
+            // For phrases (slurs) we limit support to one value in @staff
+            if (staffIter != staffList.begin()) continue;
+            // cast to Slur check in DrawSlur
+            DrawSlur(dc, dynamic_cast<Slur *>(element), x1, x2, *staffIter, spanningType, graphic);
+        }
+
         else if (element->Is(OCTAVE)) {
             // cast to Slur check in DrawOctave
             DrawOctave(dc, dynamic_cast<Octave *>(element), x1, x2, *staffIter, spanningType, graphic);
@@ -712,6 +719,8 @@ void View::DrawTie(DeviceContext *dc, Tie *tie, int x1, int x2, Staff *staff, ch
     curvature_CURVEDIR drawingCurveDir = curvature_CURVEDIR_above;
     data_STEMDIRECTION noteStemDir = STEMDIRECTION_NONE;
     int y1, y2;
+    int r1 = m_doc->GetDrawingUnit(staff->m_drawingStaffSize);
+    int r2 = r1;
 
     /************** parent layers **************/
 
@@ -752,6 +761,7 @@ void View::DrawTie(DeviceContext *dc, Tie *tie, int x1, int x2, Staff *staff, ch
         if (note1) {
             y1 = note1->GetDrawingY();
             y2 = y1;
+            noteStemDir = note1->GetDrawingStemDir();
         }
         else if (note2) {
             y2 = note2->GetDrawingY();
@@ -759,17 +769,16 @@ void View::DrawTie(DeviceContext *dc, Tie *tie, int x1, int x2, Staff *staff, ch
         }
         // isShort is never true with tstamp1
         if (!isShortTie) {
-            x1 += m_doc->GetDrawingUnit(staff->m_drawingStaffSize) * 3 / 2;
-            x2 -= m_doc->GetDrawingUnit(staff->m_drawingStaffSize) * 3 / 2;
+            if (note1) r1 = note1->GetDrawingRadius(m_doc);
+            if (note2) r2 = note2->GetDrawingRadius(m_doc);
+            x1 += r1 + m_doc->GetDrawingUnit(staff->m_drawingStaffSize) / 2;
+            x2 -= r2 + m_doc->GetDrawingUnit(staff->m_drawingStaffSize) / 2;
             if (note1 && note1->GetDots() > 0) {
-                x1 += m_doc->GetDrawingDoubleUnit(staff->m_drawingStaffSize) * note1->GetDots();
+                x1 += m_doc->GetDrawingUnit(staff->m_drawingStaffSize) * note1->GetDots() * 3 / 2;
             }
             else if (parentChord1 && (parentChord1->GetDots() > 0)) {
                 x1 += m_doc->GetDrawingDoubleUnit(staff->m_drawingStaffSize) * parentChord1->GetDots();
             }
-        }
-        if (note1) {
-            noteStemDir = note1->GetDrawingStemDir();
         }
     }
     // This is the case when the tie is split over two system of two pages.
@@ -778,12 +787,11 @@ void View::DrawTie(DeviceContext *dc, Tie *tie, int x1, int x2, Staff *staff, ch
         if (note1) {
             y1 = note1->GetDrawingY();
             y2 = y1;
+            r1 = note1->GetDrawingRadius(m_doc);
+            noteStemDir = note1->GetDrawingStemDir();
         }
         if (!isShortTie) {
-            x1 += m_doc->GetDrawingUnit(staff->m_drawingStaffSize) * 3 / 2;
-        }
-        if (note1) {
-            noteStemDir = note1->GetDrawingStemDir();
+            x1 += r1 + m_doc->GetDrawingUnit(staff->m_drawingStaffSize) / 2;
         }
     }
     // Now this is the case when the tie is split but we are drawing the end of it
@@ -791,12 +799,11 @@ void View::DrawTie(DeviceContext *dc, Tie *tie, int x1, int x2, Staff *staff, ch
         if (note2) {
             y2 = note2->GetDrawingY();
             y1 = y2;
+            r2 = note2->GetDrawingRadius(m_doc);
+            noteStemDir = note2->GetDrawingStemDir();
         }
         if (!isShortTie) {
-            x2 -= m_doc->GetDrawingUnit(staff->m_drawingStaffSize) * 3 / 2;
-        }
-        if (note2) {
-            noteStemDir = note2->GetDrawingStemDir();
+            x2 -= r2 + m_doc->GetDrawingUnit(staff->m_drawingStaffSize) / 2;
         }
     }
     // Finally - this make no sense ?
