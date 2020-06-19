@@ -1660,7 +1660,6 @@ void MEIOutput::WriteMensur(pugi::xml_node currentNode, Mensur *mensur)
     mensur->WriteCue(currentNode);
     mensur->WriteDurationRatio(currentNode);
     mensur->WriteMensuralShared(currentNode);
-    mensur->WriteMensurLog(currentNode);
     mensur->WriteMensurVis(currentNode);
     mensur->WriteSlashCount(currentNode);
     mensur->WriteStaffLoc(currentNode);
@@ -1989,6 +1988,7 @@ void MEIOutput::WriteDurationInterface(pugi::xml_node element, DurationInterface
     interface->WriteBeamSecondary(element);
     interface->WriteDurationGestural(element);
     interface->WriteDurationLogical(element);
+    interface->WriteDurationQuality(element);
     interface->WriteDurationRatio(element);
     interface->WriteFermataPresent(element);
     interface->WriteStaffIdent(element);
@@ -2713,7 +2713,9 @@ bool MEIInput::ReadDoc(pugi::xml_node root)
         m_doc->m_header.append_copy(current);
         if (root.attribute("meiversion")) {
             std::string version = std::string(root.attribute("meiversion").value());
-            if (version == "4.0.1")
+            if (version == "5.0.0-dev")
+                m_version = MEI_5_0_0_dev;
+            else if (version == "4.0.1")
                 m_version = MEI_4_0_1;
             else if (version == "4.0.0")
                 m_version = MEI_4_0_0;
@@ -3425,6 +3427,11 @@ bool MEIInput::ReadScoreDefElement(pugi::xml_node element, ScoreDefElement *obje
         //
         vrvMensur->SetColor(mensuralVis.GetMensurColor());
         vrvMensur->SetOrient(mensuralVis.GetMensurOrient());
+        
+        if (m_version < MEI_5_0_0_dev) {
+            UpgradeMensurTo_5_0_0(element, vrvMensur);
+        }
+        
         object->AddChild(vrvMensur);
     }
 
@@ -4822,10 +4829,13 @@ bool MEIInput::ReadMensur(Object *parent, pugi::xml_node mensur)
     vrvMensur->ReadCue(mensur);
     vrvMensur->ReadDurationRatio(mensur);
     vrvMensur->ReadMensuralShared(mensur);
-    vrvMensur->ReadMensurLog(mensur);
     vrvMensur->ReadMensurVis(mensur);
     vrvMensur->ReadSlashCount(mensur);
     vrvMensur->ReadStaffLoc(mensur);
+    
+    if (m_version < MEI_5_0_0_dev) {
+        UpgradeMensurTo_5_0_0(mensur, vrvMensur);
+    }
 
     parent->AddChild(vrvMensur);
     ReadUnsupportedAttr(mensur, vrvMensur);
@@ -5292,6 +5302,7 @@ bool MEIInput::ReadDurationInterface(pugi::xml_node element, DurationInterface *
     interface->ReadBeamSecondary(element);
     interface->ReadDurationGestural(element);
     interface->ReadDurationLogical(element);
+    interface->ReadDurationQuality(element);
     interface->ReadDurationRatio(element);
     interface->ReadFermataPresent(element);
     interface->ReadStaffIdent(element);
@@ -6112,6 +6123,16 @@ void MEIInput::UpgradeFTremTo_4_0_0(pugi::xml_node fTrem, FTrem *vrvFTrem)
     if (fTrem.attribute("slash")) {
         vrvFTrem->SetBeams(vrvFTrem->AttFTremVis::StrToInt(fTrem.attribute("slash").value()));
         fTrem.remove_attribute("slash");
+    }
+}
+
+void MEIInput::UpgradeMensurTo_5_0_0(pugi::xml_node mensur, Mensur *vrvMensur)
+{
+    if (vrvMensur->HasTempus() && !vrvMensur->HasSign()) {
+        vrvMensur->SetSign((vrvMensur->GetTempus() == TEMPUS_3) ? MENSURATIONSIGN_O : MENSURATIONSIGN_C);
+    }
+    if (vrvMensur->HasProlatio() && !vrvMensur->HasDot()) {
+        vrvMensur->SetDot((vrvMensur->GetProlatio() == PROLATIO_3) ? BOOLEAN_true : BOOLEAN_false);
     }
 }
 

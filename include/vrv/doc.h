@@ -248,10 +248,10 @@ public:
 
     /**
      * Casts off the entire document, with options for obeying breaks.
-     * @param useSectionBreaks - true to use the section breaks from the document.
+     * @param useSystemBreaks - true to use the system breaks from the document.
      * @param usePageBreaks - true to use the page breaks from the document.
      */
-    void CastOffDocBase(bool useSectionBreaks, bool usePageBreaks);
+    void CastOffDocBase(bool useSystemBreaks, bool usePageBreaks);
 
     /**
      * Casts off the running elements (headers and footer)
@@ -425,8 +425,12 @@ public:
     int m_drawingPageHeight;
     /** The current page width */
     int m_drawingPageWidth;
+    /** The current page content height (without margings) */
+    int m_drawingPageContentHeight;
+    /** The current page content width (without margins) */
+    int m_drawingPageContentWidth;
     /** The current page bottom margin */
-    int m_drawingPageMarginBot;
+    int m_drawingPageMarginBottom;
     /** The current page left margin */
     int m_drawingPageMarginLeft;
     /** The current page right margin */
