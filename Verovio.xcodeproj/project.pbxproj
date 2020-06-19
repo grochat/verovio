@@ -681,6 +681,7 @@
 		4DF9D29A1C1B3F0A0069E8C8 /* attconverter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DF9D2961C1B3F0A0069E8C8 /* attconverter.cpp */; };
 		4DF9D29B1C1B3F0A0069E8C8 /* attconverter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DF9D2961C1B3F0A0069E8C8 /* attconverter.cpp */; };
 		4DF9D29C1C1B3F0A0069E8C8 /* attconverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DF9D2971C1B3F0A0069E8C8 /* attconverter.h */; };
+		729E34B5249C951B001FEA3C /* Verovio in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8F086EA9188534680037FD8E /* Verovio */; };
 		8F086EE2188539540037FD8E /* verticalaligner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F086EB6188539540037FD8E /* verticalaligner.cpp */; };
 		8F086EE4188539540037FD8E /* barline.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F086EB8188539540037FD8E /* barline.cpp */; };
 		8F086EE5188539540037FD8E /* bboxdevicecontext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F086EB9188539540037FD8E /* bboxdevicecontext.cpp */; };
@@ -1166,12 +1167,13 @@
 		};
 		8F086EA7188534680037FD8E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
+			buildActionMask = 12;
+			dstPath = /usr/local/bin;
 			dstSubfolderSpec = 0;
 			files = (
+				729E34B5249C951B001FEA3C /* Verovio in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -2648,6 +2650,7 @@
 				8F086EA5188534680037FD8E /* Sources */,
 				8F086EA6188534680037FD8E /* Frameworks */,
 				8F086EA7188534680037FD8E /* CopyFiles */,
+				72E494FA249BC258006E9070 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -2765,6 +2768,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "cd ${SRCROOT}/tools\n./get_git_commit.sh\n";
+		};
+		72E494FA249BC258006E9070 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "rm -fR /usr/local/share/verovio\ncp -R data /usr/local/share/\nmv /usr/local/share/data /usr/local/share/verovio\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 

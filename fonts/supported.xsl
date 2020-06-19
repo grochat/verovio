@@ -2215,18 +2215,18 @@
         </medievalAndRenaissanceNoteheadsAndStems>
         <medievalAndRenaissanceIndividualNotes>
             <description>Medieval and Renaissance individual notes</description>
-            <!--<glyph glyph-code="E950" smufl-name="mensuralBlackMaxima"/>-->
-            <!--<glyph glyph-code="E951" smufl-name="mensuralBlackLonga"/>-->
-            <!--<glyph glyph-code="E952" smufl-name="mensuralBlackBrevis"/>-->
-            <!--<glyph glyph-code="E953" smufl-name="mensuralBlackSemibrevis"/>-->
-            <!--<glyph glyph-code="E954" smufl-name="mensuralBlackMinima"/>-->
-            <!--<glyph glyph-code="E955" smufl-name="mensuralBlackSemiminima"/>-->
+            <glyph glyph-code="E950" smufl-name="mensuralBlackMaxima"/>
+            <glyph glyph-code="E951" smufl-name="mensuralBlackLonga"/>
+            <glyph glyph-code="E952" smufl-name="mensuralBlackBrevis"/>
+            <glyph glyph-code="E953" smufl-name="mensuralBlackSemibrevis"/>
+            <glyph glyph-code="E954" smufl-name="mensuralBlackMinima"/>
+            <glyph glyph-code="E955" smufl-name="mensuralBlackSemiminima"/>
             <!--<glyph glyph-code="E956" smufl-name="mensuralBlackBrevisVoid"/>-->
             <!--<glyph glyph-code="E957" smufl-name="mensuralBlackSemibrevisVoid"/>-->
             <!--<glyph glyph-code="E958" smufl-name="mensuralBlackMinimaVoid"/>-->
-            <!--<glyph glyph-code="E959" smufl-name="mensuralBlackSemibrevisCaudata"/>-->
-            <!--<glyph glyph-code="E95A" smufl-name="mensuralBlackDragma"/>-->
-            <!--<glyph glyph-code="E95B" smufl-name="mensuralBlackSemibrevisOblique"/>-->
+            <glyph glyph-code="E959" smufl-name="mensuralBlackSemibrevisCaudata"/>
+            <glyph glyph-code="E95A" smufl-name="mensuralBlackDragma"/>
+            <glyph glyph-code="E95B" smufl-name="mensuralBlackSemibrevisOblique"/>
             <!--<glyph glyph-code="E95C" smufl-name="mensuralWhiteMaxima"/>-->
             <!--<glyph glyph-code="E95D" smufl-name="mensuralWhiteLonga"/>-->
             <!--<glyph glyph-code="E95E" smufl-name="mensuralWhiteBrevis"/>-->

@@ -30,8 +30,18 @@
         "tupletBracketThickness": "0.16"
     },
     "fontName": "Leipzig-5.2",
-    "fontVersion": "5.2.39",
+    "fontVersion": "5.2.40",
     "glyphBBoxes": {
+        "uniE000": {
+            "bBoxNE": [
+                0.3709,
+                3.9954
+            ],
+            "bBoxSW": [
+                0.0004,
+                0.0046
+            ]
+        },
         "uniE003": {
             "bBoxNE": [
                 1.596,
@@ -2924,6 +2934,9 @@
         }
     },
     "glyphs": {
+        "uniE000": {
+            "codepoint": "0XE000"
+        },
         "uniE003": {
             "codepoint": "0XE003"
         },
