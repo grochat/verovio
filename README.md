@@ -12,7 +12,7 @@ Goals of this fork:
 * keep a tight link with Vitry project's 'Josquin' encoding format, with MEI as a bridge.
 
 
-is a fast, portable and lightweight library for engraving [Music Encoding Initiative (MEI)](http://www.music-encoding.org) music scores into SVG. Verovio can be used as a standalone command-line tool for converting a MEI files, as the music rendering library for applications, or it can be compiled to Javascript using the Emscripten LLVM-to-JavaScript compiler.
+Verovio is a fast, portable and lightweight library for engraving [Music Encoding Initiative (MEI)](http://www.music-encoding.org) music scores into SVG. Verovio can be used as a standalone command-line tool for converting a MEI files, as the music rendering library for applications, or it can be compiled to Javascript using the Emscripten LLVM-to-JavaScript compiler.
 
 See the JavaScript toolkit running in the [MEI Viewer](http://www.verovio.org/mei-viewer.xhtml) and check out the [app](http://www.verovio.org/app.html) or the [tutorial](http://www.verovio.org/tutorial.xhtml) for its web integration and for enabling user interaction.
 
