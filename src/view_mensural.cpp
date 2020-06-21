@@ -315,6 +315,38 @@ void View::DrawMaximaToBrevis(DeviceContext *dc, int y, LayerElement *element, L
 
     bool isMensuralBlack = (staff->m_drawingNotationType == NOTATIONTYPE_mensural_black);
     bool fillNotehead = (isMensuralBlack || note->GetColored()) && !(isMensuralBlack && note->GetColored());
+    
+    int yNote = element->GetDrawingY();
+    int xNote = element->GetDrawingX();
+    wchar_t code = -1;
+    int duration = note->GetActualDur();
+    switch (duration)
+    {
+        case DUR_MX:
+        {
+            code = SMUFL_E950_mensuralBlackMaxima;
+            break;
+        }
+            
+        case DUR_LG:
+        {
+            code = SMUFL_E951_mensuralBlackLonga;
+            break;
+        }
+            
+        case DUR_BR:
+        {
+            code = SMUFL_E952_mensuralBlackBrevis;
+            break;
+        }
+    }
+    if ( code != -1 )
+    {
+        dc->StartCustomGraphic("notehead");
+        DrawSmuflCode(dc, xNote, yNote, code, staff->m_drawingStaffSize, false);
+    }
+
+    /*
 
     int stemWidth = m_doc->GetDrawingStemWidth(staff->m_drawingStaffSize);
     int strokeWidth = 2.8 * stemWidth;
@@ -364,7 +396,8 @@ void View::DrawMaximaToBrevis(DeviceContext *dc, int y, LayerElement *element, L
         DrawFilledRectangle(dc, bottomRight.x - stemWidth, sides[2], bottomRight.x, sides[3]);
         dc->EndCustomGraphic();
     }
-
+    */
+    
     return;
 }
 

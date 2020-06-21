@@ -1402,16 +1402,6 @@
                 -0.6705
             ]
         },
-        "mensuralBlackBrevis": {
-            "bBoxNE": [
-                0.8731,
-                0.4421
-            ],
-            "bBoxSW": [
-                -0.0103,
-                -0.4729
-            ]
-        },
         "mensuralBlackDragma": {
             "bBoxNE": [
                 0.784,
@@ -1425,21 +1415,21 @@
         "mensuralBlackLonga": {
             "bBoxNE": [
                 1.8722,
-                0.4401
+                0.4511
             ],
             "bBoxSW": [
                 0.7723,
-                -2.6387
+                -2.6277
             ]
         },
         "mensuralBlackMaxima": {
             "bBoxNE": [
                 1.8722,
-                0.4347
+                0.4537
             ],
             "bBoxSW": [
                 -0.0077,
-                -2.6887
+                -2.6697
             ]
         },
         "mensuralBlackMinima": {
@@ -3212,9 +3202,6 @@
         },
         "medRenNatural": {
             "codepoint": "0XE9E2"
-        },
-        "mensuralBlackBrevis": {
-            "codepoint": "0XE952"
         },
         "mensuralBlackDragma": {
             "alternateCodepoints": [
