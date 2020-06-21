@@ -37,6 +37,7 @@
         <xsl:param name="unitsPerEm"/>
         <xsl:variable name="glyphName" select="@glyph-name"/>
         <xsl:choose>
+            <!-- Bravura style glyph naming -->
             <xsl:when test="substring($glyphName,1,3)='uni'">
                 <xsl:if test="$supported/*/glyph[concat('uni', @glyph-code)=$glyphName]">
                     <xsl:variable name="glyphCode" select="substring-after(@glyph-name, 'uni')"/>
@@ -44,7 +45,7 @@
 
                     <!-- redirect to a file for each glyph -->
                     <xsl:result-document href="../data/{$fontName}/{$glyphCode}-{$smuflName}.xml">
-                        <symbol id="{$glyphCode}" viewBox="0 0 {$unitsPerEm} {$unitsPerEm}" overflow="inherit">
+                        <symbol id="{$glyphCode}" viewBox="0 0 {$unitsPerEm} {$unitsPerEm}" overflow="inherit" font-origin="{$fontName}">
                             <path>
                                 <xsl:attribute name="transform">
                                     <xsl:text>scale(1,-1)</xsl:text>
@@ -64,6 +65,7 @@
                 </xsl:if>
             </xsl:when>
             <xsl:otherwise>
+                <!-- November2/Machaut style glyph naming -->
                 <xsl:variable name="rawUnicode" select="svg:decimalToHex(string-to-codepoints(@unicode))"/>
                 <xsl:variable name="thisUnicode" select="concat(substring('0000', string-length($rawUnicode)+1), $rawUnicode)"/>
                 <xsl:if test="$supported/*/glyph[@glyph-code=$thisUnicode]">
@@ -71,7 +73,7 @@
 
                     <!-- redirect to a file for each glyph -->
                     <xsl:result-document href="../data/{$fontName}/{$thisUnicode}-{$smuflName}.xml">
-                        <symbol id="{$thisUnicode}" viewBox="0 0 {$unitsPerEm} {$unitsPerEm}" overflow="inherit">
+                        <symbol id="{$thisUnicode}" viewBox="0 0 {$unitsPerEm} {$unitsPerEm}" overflow="inherit" font-origin="{$fontName}">
                             <path>
                                 <xsl:attribute name="transform">
                                     <xsl:text>scale(1,-1)</xsl:text>

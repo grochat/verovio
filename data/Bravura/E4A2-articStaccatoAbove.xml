@@ -1,4 +1,7 @@
-<symbol id="E4A2" viewBox="0 0 1000 1000" overflow="inherit">
+<symbol id="E4A2"
+        viewBox="0 0 1000 1000"
+        overflow="inherit"
+        font-origin="Bravura">
    <path transform="scale(1,-1)"
          d="M84 42c0 -23 -19 -42 -42 -42s-42 19 -42 42s19 42 42 42s42 -19 42 -42z"/>
 </symbol>

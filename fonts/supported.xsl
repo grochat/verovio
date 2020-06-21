@@ -2131,8 +2131,9 @@
             <glyph glyph-code="E902" smufl-name="chantFclef"/>
             <!--<glyph glyph-code="E903" smufl-name="mensuralFclef"/>-->
             <glyph glyph-code="E904" smufl-name="mensuralFclefPetrucci"/>
-            <!--<glyph glyph-code="E905" smufl-name="mensuralCclef"/>-->
+            <glyph glyph-code="E905" smufl-name="mensuralCclef"/>
             <glyph glyph-code="E906" smufl-name="chantCclef"/>
+            <glyph glyph-code="F700" smufl-name="chantCclefSloped"/>
             <!--<glyph glyph-code="E907" smufl-name="mensuralCclefPetrucciPosLowest"/>-->
             <!--<glyph glyph-code="E908" smufl-name="mensuralCclefPetrucciPosLow"/>-->
             <glyph glyph-code="E909" smufl-name="mensuralCclefPetrucciPosMiddle"/>
@@ -2180,11 +2181,11 @@
         </medievalAndRenaissanceProlations>
         <medievalAndRenaissanceNoteheadsAndStems>
             <description>Medieval and Renaissance noteheads and stems</description>
-            <!--<glyph glyph-code="E930" smufl-name="mensuralNoteheadMaximaBlack"/>-->
+            <glyph glyph-code="E930" smufl-name="mensuralNoteheadMaximaBlack"/>
             <!--<glyph glyph-code="E931" smufl-name="mensuralNoteheadMaximaVoid"/>-->
             <!--<glyph glyph-code="E932" smufl-name="mensuralNoteheadMaximaBlackVoid"/>-->
             <!--<glyph glyph-code="E933" smufl-name="mensuralNoteheadMaximaWhite"/>-->
-            <!--<glyph glyph-code="E934" smufl-name="mensuralNoteheadLongaBlack"/>-->
+            <glyph glyph-code="E934" smufl-name="mensuralNoteheadLongaBlack"/>
             <!--<glyph glyph-code="E935" smufl-name="mensuralNoteheadLongaVoid"/>-->
             <!--<glyph glyph-code="E936" smufl-name="mensuralNoteheadLongaBlackVoid"/>-->
             <!--<glyph glyph-code="E937" smufl-name="mensuralNoteheadLongaWhite"/>-->
