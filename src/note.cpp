@@ -23,7 +23,6 @@
 #include "functorparams.h"
 #include "glyph.h"
 #include "layer.h"
-#include "ligature.h"
 #include "slur.h"
 #include "smufl.h"
 #include "staff.h"

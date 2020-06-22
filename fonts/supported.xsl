@@ -2341,7 +2341,7 @@
         </medievalAndRenaissancePlainchantArticulations>
         <medievalAndRenaissanceAccidentals>
             <description>Medieval and Renaissance accidentals</description>
-            <!--<glyph glyph-code="E9E0" smufl-name="medRenFlatSoftB"/>-->
+            <glyph glyph-code="E9E0" smufl-name="medRenFlatSoftB"/>
             <!--<glyph glyph-code="E9E1" smufl-name="medRenFlatHardB"/>-->
             <!--<glyph glyph-code="E9E2" smufl-name="medRenNatural"/>-->
             <!--<glyph glyph-code="E9E3" smufl-name="medRenSharpCroix"/>-->

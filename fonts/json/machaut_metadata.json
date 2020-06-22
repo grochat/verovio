@@ -1402,6 +1402,16 @@
                 -0.6705
             ]
         },
+        "mensuralBlackBrevis": {
+            "bBoxNE": [
+                0.9701,
+                0.4501
+            ],
+            "bBoxSW": [
+                -0.0114,
+                -0.4649
+            ]
+        },
         "mensuralBlackDragma": {
             "bBoxNE": [
                 0.784,
@@ -1414,12 +1424,12 @@
         },
         "mensuralBlackLonga": {
             "bBoxNE": [
-                1.8722,
-                0.4511
+                1.6312,
+                0.4421
             ],
             "bBoxSW": [
-                0.7723,
-                -2.6277
+                0.6313,
+                -2.6367
             ]
         },
         "mensuralBlackMaxima": {
@@ -1582,6 +1592,16 @@
                 -0.5011
             ]
         },
+        "mensuralNoteheadSemiminimaWhite": {
+            "bBoxNE": [
+                0.7922,
+                0.6446
+            ],
+            "bBoxSW": [
+                -0.0019,
+                -0.6355
+            ]
+        },
         "mensuralProlation1": {
             "bBoxNE": [
                 1.208,
@@ -1620,6 +1640,16 @@
             "bBoxSW": [
                 0.0,
                 -0.608
+            ]
+        },
+        "mensuralProlationCombiningDot": {
+            "bBoxNE": [
+                0.286,
+                0.1496
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.1408
             ]
         },
         "mu": {
@@ -3203,6 +3233,9 @@
         "medRenNatural": {
             "codepoint": "0XE9E2"
         },
+        "mensuralBlackBrevis": {
+            "codepoint": "0XE952"
+        },
         "mensuralBlackDragma": {
             "alternateCodepoints": [
                 "0X006B",
@@ -3291,6 +3324,9 @@
         "mensuralNoteheadMaximaBlack": {
             "codepoint": "0XE930"
         },
+        "mensuralNoteheadSemiminimaWhite": {
+            "codepoint": "0XE93D"
+        },
         "mensuralProlation1": {
             "alternateCodepoints": [
                 "0X0026",
@@ -3318,6 +3354,9 @@
                 "0XF02A"
             ],
             "codepoint": "0XE916"
+        },
+        "mensuralProlationCombiningDot": {
+            "codepoint": "0XE920"
         },
         "mu": {
             "alternateCodepoints": [
