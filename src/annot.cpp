@@ -52,6 +52,13 @@ bool Annot::IsSupportedChild(Object *child)
     }
     return true;
 }
+    
+Object* Annot::Clone() const
+{
+    Annot* clone = new Annot();
+    clone->m_content.reset(this->m_content);
+    return clone;
+}
 
 //----------------------------------------------------------------------------
 // Functor methods

@@ -34,6 +34,7 @@ public:
     virtual void Reset();
     virtual std::string GetClassName() const { return "Annot"; }
     virtual ClassId GetClassId() const { return ANNOT; }
+    virtual Object *Clone() const;
     ///@}
 
     /**
