@@ -2222,6 +2222,7 @@
             <glyph glyph-code="E953" smufl-name="mensuralBlackSemibrevis"/>
             <glyph glyph-code="E954" smufl-name="mensuralBlackMinima"/>
             <glyph glyph-code="E955" smufl-name="mensuralBlackSemiminima"/>
+            <glyph glyph-code="F702" smufl-name="mensuralBlackFusa"/>
             <!--<glyph glyph-code="E956" smufl-name="mensuralBlackBrevisVoid"/>-->
             <!--<glyph glyph-code="E957" smufl-name="mensuralBlackSemibrevisVoid"/>-->
             <!--<glyph glyph-code="E958" smufl-name="mensuralBlackMinimaVoid"/>-->

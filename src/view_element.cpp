@@ -658,9 +658,13 @@ void View::DrawClef(DeviceContext *dc, LayerElement *element, Layer *layer, Staf
             if (sym == SMUFL_E050_gClef)
                 // G clef doesn't exist in black notation, so should never get here, but just in case.
                 sym = SMUFL_E901_mensuralGclefPetrucci;
-            else if (sym == SMUFL_E05C_cClef)
-                sym = SMUFL_F700_chantCclefSloped;
-                //sym = SMUFL_E906_chantCclef;
+            else if (sym == SMUFL_E05C_cClef) {
+                //Available in Machaut font only:
+                if ( Resources::GetGlyph((wchar_t) SMUFL_F700_chantCclefSloped) )
+                    sym = SMUFL_F700_chantCclefSloped;
+                else
+                    sym = SMUFL_E906_chantCclef;
+            }
             else if (sym == SMUFL_E062_fClef)
                 sym = SMUFL_E902_chantFclef;
         }
