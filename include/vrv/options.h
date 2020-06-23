@@ -498,7 +498,9 @@ public:
     OptionBool m_useFacsimile;
     OptionBool m_usePgFooterForAll;
     OptionBool m_usePgHeaderForAll;
-    OptionBool m_useBraceGlyph;
+    OptionBool m_useGlyphBrace;
+    OptionBool m_useGlyphMensural;
+    OptionBool m_useGlyphNeume;
 
     /**
      * General layout

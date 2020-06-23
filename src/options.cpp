@@ -634,9 +634,18 @@ Options::Options()
     m_unit.Init(9, 6, 20, true);
     this->Register(&m_unit, "unit", &m_general);
 
-    m_useBraceGlyph.SetInfo("Use Brace Glyph", "Use brace glyph from current font");
-    m_useBraceGlyph.Init(false);
-    this->Register(&m_useBraceGlyph, "useBraceGlyph", &m_general);
+    m_useGlyphBrace.SetInfo("Use Brace Glyph", "Use brace glyph from current font");
+    m_useGlyphBrace.Init(false);
+    this->Register(&m_useGlyphBrace, "useGlyphBrace", &m_general);
+    this->Register(&m_useGlyphBrace, "useBraceGlyph", &m_general);
+    
+    m_useGlyphMensural.SetInfo("Use Glyph Mensural", "Use glyphs rather than polygons in mensural music (ligature etc.)");
+    m_useGlyphMensural.Init(false);
+    this->Register(&m_useGlyphMensural, "useGlyphMensural", &m_general);
+    
+    m_useGlyphNeume.SetInfo("Use Glyph Neume", "Use glyphs rather than polygons in neume notation (ligature etc.)");
+    m_useGlyphNeume.Init(false);
+    this->Register(&m_useGlyphNeume, "useGlyphNeume", &m_general);
 
     m_useFacsimile.SetInfo(
         "Use facsimile for layout", "Use information in the <facsimile> element to control the layout");

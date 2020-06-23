@@ -556,7 +556,7 @@ void View::DrawBracketsq(DeviceContext *dc, int x, int y1, int y2, int staffSize
 void View::DrawBrace(DeviceContext *dc, int x, int y1, int y2, int staffSize)
 {
     assert(dc);
-    if (m_doc->GetOptions()->m_useBraceGlyph.GetValue()) {
+    if (m_doc->GetOptions()->m_useGlyphBrace.GetValue()) {
         FontInfo *font = m_doc->GetDrawingSmuflFont(staffSize, false);
         int width = m_doc->GetGlyphWidth(SMUFL_E000_brace, staffSize, false);
         int height = 8 * m_doc->GetDrawingUnit(staffSize);
