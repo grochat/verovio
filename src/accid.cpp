@@ -58,11 +58,20 @@ void Accid::Reset()
     ResetEnclosingChars();
 }
 
-std::wstring Accid::GetSymbolStr() const
+std::wstring Accid::GetSymbolStr(const Doc *doc /* == nullptr */) const
 {
     if (!this->HasAccid()) return L"";
 
     wchar_t symc = GetAccidGlyph(this->GetAccid());
+    if ( doc && IsMensuralOrNeumeType( doc->m_notationType ) )
+    {
+        if ( symc == SMUFL_E260_accidentalFlat && Resources::IsGlyphAvailable((wchar_t) SMUFL_E9E0_medRenFlatSoftB ) )
+            symc = SMUFL_E9E0_medRenFlatSoftB;
+        else if ( symc == SMUFL_E261_accidentalNatural && Resources::IsGlyphAvailable((wchar_t) SMUFL_E9E2_medRenNatural ) )
+            symc = SMUFL_E9E2_medRenNatural;
+        else if ( symc == SMUFL_E262_accidentalSharp && Resources::IsGlyphAvailable((wchar_t) SMUFL_F706_medRenSharp2 ) )
+            symc = SMUFL_F706_medRenSharp2;
+    }
     std::wstring symbolStr;
 
     if (this->HasEnclose()) {
@@ -101,7 +110,7 @@ bool Accid::AdjustX(LayerElement *element, Doc *doc, int staffSize, std::vector<
     if (element->Is(ACCID) && (this->GetDrawingY() == element->GetDrawingY())) {
         Accid *accid = dynamic_cast<Accid *>(element);
         assert(accid);
-        if (this->GetSymbolStr() == accid->GetSymbolStr()) {
+        if (this->GetSymbolStr(doc) == accid->GetSymbolStr(doc)) {
             // There is the same accidental, so we leave it a the same place
             // This works with multiple layers but can create problems with chords and multiple layers
             return false;

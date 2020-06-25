@@ -244,7 +244,7 @@ void View::DrawAccid(DeviceContext *dc, LayerElement *element, Layer *layer, Sta
 
     /************** editorial accidental **************/
 
-    std::wstring accidStr = accid->GetSymbolStr();
+    std::wstring accidStr = accid->GetSymbolStr(m_doc);
 
     int x = accid->GetDrawingX();
     int y = accid->GetDrawingY();
@@ -264,7 +264,7 @@ void View::DrawAccid(DeviceContext *dc, LayerElement *element, Layer *layer, Sta
         }
         TextExtend extend;
         dc->SetFont(m_doc->GetDrawingSmuflFont(staff->m_drawingStaffSize, accid->GetDrawingCueSize()));
-        dc->GetSmuflTextExtent(accid->GetSymbolStr(), &extend);
+        dc->GetSmuflTextExtent(accid->GetSymbolStr(m_doc), &extend);
         dc->ResetFont();
         y += extend.m_descent + m_doc->GetDrawingUnit(staff->m_drawingStaffSize);
     }

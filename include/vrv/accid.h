@@ -63,7 +63,7 @@ public:
      * Retrieve SMuFL string for the accidental.
      * This will include brackets
      */
-    std::wstring GetSymbolStr() const;
+    std::wstring GetSymbolStr(const Doc *doc = nullptr) const;
 
     bool AdjustX(LayerElement *element, Doc *doc, int staffSize, std::vector<Accid *> &leftAccids);
 

@@ -2256,11 +2256,11 @@
             <!--<glyph glyph-code="E97D" smufl-name="mensuralObliqueAsc5thVoid"/>-->
             <!--<glyph glyph-code="E97E" smufl-name="mensuralObliqueAsc5thBlackVoid"/>-->
             <!--<glyph glyph-code="E97F" smufl-name="mensuralObliqueAsc5thWhite"/>-->
-            <!--<glyph glyph-code="E980" smufl-name="mensuralObliqueDesc2ndBlack"/>-->
+            <glyph glyph-code="E980" smufl-name="mensuralObliqueDesc2ndBlack"/>
             <!--<glyph glyph-code="E981" smufl-name="mensuralObliqueDesc2ndVoid"/>-->
             <!--<glyph glyph-code="E982" smufl-name="mensuralObliqueDesc2ndBlackVoid"/>-->
             <!--<glyph glyph-code="E983" smufl-name="mensuralObliqueDesc2ndWhite"/>-->
-            <!--<glyph glyph-code="E984" smufl-name="mensuralObliqueDesc3rdBlack"/>-->
+            <glyph glyph-code="E984" smufl-name="mensuralObliqueDesc3rdBlack"/>
             <!--<glyph glyph-code="E985" smufl-name="mensuralObliqueDesc3rdVoid"/>-->
             <!--<glyph glyph-code="E986" smufl-name="mensuralObliqueDesc3rdBlackVoid"/>-->
             <!--<glyph glyph-code="E987" smufl-name="mensuralObliqueDesc3rdWhite"/>-->
@@ -2344,7 +2344,9 @@
             <description>Medieval and Renaissance accidentals</description>
             <glyph glyph-code="E9E0" smufl-name="medRenFlatSoftB"/>
             <!--<glyph glyph-code="E9E1" smufl-name="medRenFlatHardB"/>-->
-            <!--<glyph glyph-code="E9E2" smufl-name="medRenNatural"/>-->
+            <glyph glyph-code="E9E2" smufl-name="medRenNatural"/>
+            <glyph glyph-code="F705" smufl-name="medRenSharp1"/>
+            <glyph glyph-code="F706" smufl-name="medRenSharp2"/>
             <!--<glyph glyph-code="E9E3" smufl-name="medRenSharpCroix"/>-->
             <!--<glyph glyph-code="E9E4" smufl-name="medRenFlatWithDot"/>-->
             <!--<glyph glyph-code="E9E5" smufl-name="medRenNaturalWithCross"/>-->

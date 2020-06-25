@@ -111,7 +111,7 @@ void View::DrawMensuralNote(DeviceContext *dc, LayerElement *element, Layer *lay
                 case DUR_8:
                 {
                     //Available in Machaut font only:
-                    if ( Resources::GetGlyph((wchar_t) SMUFL_F702_mensuralBlackFusa) )
+                    if ( Resources::IsGlyphAvailable((wchar_t) SMUFL_F702_mensuralBlackFusa) )
                         code = SMUFL_F702_mensuralBlackFusa;
                     break;
                 }
@@ -363,6 +363,8 @@ void View::DrawMaximaToBrevis(DeviceContext *dc, int y, LayerElement *element, L
     int duration = note->GetActualDur();
     
     bool favorGlyphs = m_doc->GetOptions()->m_useGlyphMensural.GetValue();
+    FontInfo *font = m_doc->GetDrawingSmuflFont(staff->m_drawingStaffSize, false);
+    float r = font->GetWidthToHeightRatio();
     if ( favorGlyphs )
     {
         switch (duration)
@@ -376,6 +378,8 @@ void View::DrawMaximaToBrevis(DeviceContext *dc, int y, LayerElement *element, L
             case DUR_LG:
             {
                 code = SMUFL_E951_mensuralBlackLonga;
+                //float f = r*(1.+(float)(rand() % 100)/100.);
+                //font->SetWidthToHeightRatio(f);
                 break;
             }
                 
@@ -391,6 +395,7 @@ void View::DrawMaximaToBrevis(DeviceContext *dc, int y, LayerElement *element, L
     {
         dc->StartCustomGraphic("notehead");
         DrawSmuflCode(dc, xNote, yNote, code, staff->m_drawingStaffSize, false);
+        //font->SetWidthToHeightRatio(r);
     }
     else
     {
@@ -492,71 +497,79 @@ void View::DrawLigatureNote(DeviceContext *dc, LayerElement *element, Layer *lay
     bool obliqueEnd = (prevShape & LIGATURE_OBLIQUE);
     bool stackedEnd = (shape & LIGATURE_STACKED);
 
-    int stemWidth = m_doc->GetDrawingStemWidth(staff->m_drawingStaffSize);
-    int strokeWidth = 2.8 * stemWidth;
-    /** end code duplicated */
-
-    Point points[4];
-    Point *topLeft = &points[0];
-    Point *bottomLeft = &points[1];
-    Point *topRight = &points[2];
-    Point *bottomRight = &points[3];
-    int sides[4];
-    if (!oblique) {
-        this->CalcBrevisPoints(note, staff, topLeft, bottomRight, sides, shape, isMensuralBlack);
-        bottomLeft->x = topLeft->x;
-        bottomLeft->y = bottomRight->y;
-        topRight->x = bottomRight->x;
-        topRight->y = topLeft->y;
+    bool favorGlyphs = m_doc->GetOptions()->m_useGlyphMensural.GetValue();
+    if ( favorGlyphs && false)
+    {
+        //TODO: VITRY project phase II
     }
-    else {
-        // First half of the oblique - checking the nextNote is there just in case, but is should
-        if ((shape & LIGATURE_OBLIQUE) && nextNote) {
-            // return;
-            CalcObliquePoints(note, nextNote, staff, points, sides, shape, isMensuralBlack, true);
-        }
-        // Second half of the oblique - checking the prevNote is there just in case, but is should
-        else if ((prevShape & LIGATURE_OBLIQUE) && prevNote) {
-            CalcObliquePoints(prevNote, note, staff, points, sides, prevShape, isMensuralBlack, false);
+    else
+    {
+        int stemWidth = m_doc->GetDrawingStemWidth(staff->m_drawingStaffSize);
+        int strokeWidth = 2.8 * stemWidth;
+        /** end code duplicated */
+        
+        Point points[4];
+        Point *topLeft = &points[0];
+        Point *bottomLeft = &points[1];
+        Point *topRight = &points[2];
+        Point *bottomRight = &points[3];
+        int sides[4];
+        if (!oblique) {
+            this->CalcBrevisPoints(note, staff, topLeft, bottomRight, sides, shape, isMensuralBlack);
+            bottomLeft->x = topLeft->x;
+            bottomLeft->y = bottomRight->y;
+            topRight->x = bottomRight->x;
+            topRight->y = topLeft->y;
         }
         else {
-            assert(false);
-        }
-    }
-
-    if (!fillNotehead) {
-        // double the bases of rectangles
-        DrawObliquePolygon(dc, topLeft->x, topLeft->y, topRight->x, topRight->y, -strokeWidth);
-        DrawObliquePolygon(dc, bottomLeft->x, bottomLeft->y, bottomRight->x, bottomRight->y, strokeWidth);
-    }
-    else {
-        DrawObliquePolygon(dc, topLeft->x, topLeft->y, topRight->x, topRight->y, bottomLeft->y - topLeft->y);
-    }
-
-    // Do not draw a left connector with obliques
-    if (!obliqueEnd) {
-        int sideTop = sides[0];
-        int sideBottom = sides[1];
-        if (prevNote) {
-            Point prevTopLeft = *topLeft;
-            Point prevBottomRight = *bottomRight;
-            int prevSides[4];
-            memcpy(prevSides, sides, 4 * sizeof(int));
-            CalcBrevisPoints(prevNote, staff, &prevTopLeft, &prevBottomRight, prevSides, prevShape, isMensuralBlack);
-            if (!stackedEnd) {
-                sideTop = std::max(sides[0], prevSides[2]);
-                sideBottom = std::min(sides[1], prevSides[3]);
+            // First half of the oblique - checking the nextNote is there just in case, but is should
+            if ((shape & LIGATURE_OBLIQUE) && nextNote) {
+                // return;
+                CalcObliquePoints(note, nextNote, staff, points, sides, shape, isMensuralBlack, true);
+            }
+            // Second half of the oblique - checking the prevNote is there just in case, but is should
+            else if ((prevShape & LIGATURE_OBLIQUE) && prevNote) {
+                CalcObliquePoints(prevNote, note, staff, points, sides, prevShape, isMensuralBlack, false);
             }
             else {
-                // Stacked end - simply use the bottom right [3] note since the interval is going up anyway
-                sides[3] = prevSides[3];
+                assert(false);
             }
         }
-        DrawFilledRoundedRectangle(dc, topLeft->x, sideTop, topLeft->x + stemWidth, sideBottom, stemWidth / 3);
-    }
-
-    if (!nextNote) {
-        DrawFilledRoundedRectangle(dc, bottomRight->x - stemWidth, sides[2], bottomRight->x, sides[3], stemWidth / 3);
+        
+        if (!fillNotehead) {
+            // double the bases of rectangles
+            DrawObliquePolygon(dc, topLeft->x, topLeft->y, topRight->x, topRight->y, -strokeWidth);
+            DrawObliquePolygon(dc, bottomLeft->x, bottomLeft->y, bottomRight->x, bottomRight->y, strokeWidth);
+        }
+        else {
+            DrawObliquePolygon(dc, topLeft->x, topLeft->y, topRight->x, topRight->y, bottomLeft->y - topLeft->y);
+        }
+        
+        // Do not draw a left connector with obliques
+        if (!obliqueEnd) {
+            int sideTop = sides[0];
+            int sideBottom = sides[1];
+            if (prevNote) {
+                Point prevTopLeft = *topLeft;
+                Point prevBottomRight = *bottomRight;
+                int prevSides[4];
+                memcpy(prevSides, sides, 4 * sizeof(int));
+                CalcBrevisPoints(prevNote, staff, &prevTopLeft, &prevBottomRight, prevSides, prevShape, isMensuralBlack);
+                if (!stackedEnd) {
+                    sideTop = std::max(sides[0], prevSides[2]);
+                    sideBottom = std::min(sides[1], prevSides[3]);
+                }
+                else {
+                    // Stacked end - simply use the bottom right [3] note since the interval is going up anyway
+                    sides[3] = prevSides[3];
+                }
+            }
+            DrawFilledRoundedRectangle(dc, topLeft->x, sideTop, topLeft->x + stemWidth, sideBottom, stemWidth / 3);
+        }
+        
+        if (!nextNote) {
+            DrawFilledRoundedRectangle(dc, bottomRight->x - stemWidth, sides[2], bottomRight->x, sides[3], stemWidth / 3);
+        }
     }
 
     return;

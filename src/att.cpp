@@ -809,6 +809,13 @@ bool Att::IsNeumeType(data_NOTATIONTYPE notationType)
     // Maybe one day we will have other neume types too
     return (notationType == NOTATIONTYPE_neume);
 }
+    
+bool Att::IsMensuralOrNeumeType(data_NOTATIONTYPE notationType)
+{
+    // Maybe one day we will have other neume types too
+    return IsMensuralType(notationType) || IsNeumeType(notationType);
+}
+    
 
 bool Att::IsTabType(data_NOTATIONTYPE notationType)
 {

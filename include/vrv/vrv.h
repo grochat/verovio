@@ -148,6 +148,8 @@ public:
     static bool SetFont(const std::string &fontName);
     /** Returns the glyph (if exists) for the current SMuFL font */
     static Glyph *GetGlyph(wchar_t smuflCode);
+    /** Tests whether a glyph is actually available for the current SMuFL font */
+    static bool IsGlyphAvailable(wchar_t smuflCode);
     /** Set current text style*/
     static void SelectTextFont(data_FONTWEIGHT fontWeight, data_FONTSTYLE fontStyle);
     /** Returns the glyph (if exists) for the text font (bounding box and ASCII only) */

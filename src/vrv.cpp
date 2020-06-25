@@ -120,6 +120,11 @@ Glyph *Resources::GetGlyph(wchar_t smuflCode)
     if (!s_font.count(smuflCode)) return NULL;
     return &s_font[smuflCode];
 }
+    
+bool Resources::IsGlyphAvailable(wchar_t smuflCode)
+{
+    return ( s_font.count(smuflCode) > 0 );
+}
 
 void Resources::SelectTextFont(data_FONTWEIGHT fontWeight, data_FONTSTYLE fontStyle)
 {

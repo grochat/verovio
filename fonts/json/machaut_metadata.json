@@ -1384,32 +1384,52 @@
         },
         "medRenFlatSoftB": {
             "bBoxNE": [
-                0.4861,
-                0.9616
+                0.3979,
+                1.0924
             ],
             "bBoxSW": [
-                -0.0,
-                -0.3713
+                -0.0207,
+                -0.359
             ]
         },
         "medRenNatural": {
             "bBoxNE": [
-                0.58,
-                0.7478
+                0.638,
+                0.7852
             ],
             "bBoxSW": [
                 -0.0,
-                -0.6705
+                -0.7041
+            ]
+        },
+        "medRenSharp1": {
+            "bBoxNE": [
+                0.6225,
+                0.998
+            ],
+            "bBoxSW": [
+                -0.0202,
+                -0.9625
+            ]
+        },
+        "medRenSharp2": {
+            "bBoxNE": [
+                0.6506,
+                0.8959
+            ],
+            "bBoxSW": [
+                -0.0135,
+                -0.909
             ]
         },
         "mensuralBlackBrevis": {
             "bBoxNE": [
-                0.9701,
-                0.4501
+                0.8835,
+                0.423
             ],
             "bBoxSW": [
-                -0.0114,
-                -0.4649
+                -0.0104,
+                -0.4462
             ]
         },
         "mensuralBlackDragma": {
@@ -1434,18 +1454,18 @@
         },
         "mensuralBlackLonga": {
             "bBoxNE": [
-                1.6312,
-                0.4421
+                1.6315,
+                0.4381
             ],
             "bBoxSW": [
                 0.6313,
-                -2.6367
+                -2.6257
             ]
         },
         "mensuralBlackMaxima": {
             "bBoxNE": [
-                1.8722,
-                0.4537
+                1.8692,
+                0.4504
             ],
             "bBoxSW": [
                 -0.0077,
@@ -1455,7 +1475,7 @@
         "mensuralBlackMinima": {
             "bBoxNE": [
                 0.7922,
-                2.3548
+                2.4228
             ],
             "bBoxSW": [
                 -0.0019,
@@ -1610,6 +1630,26 @@
             "bBoxSW": [
                 -0.0019,
                 -0.6355
+            ]
+        },
+        "mensuralObliqueDesc2ndBlack": {
+            "bBoxNE": [
+                1.296,
+                0.386
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.906
+            ]
+        },
+        "mensuralObliqueDesc3rdBlack": {
+            "bBoxNE": [
+                1.62,
+                0.346
+            ],
+            "bBoxSW": [
+                0.0,
+                -1.404
             ]
         },
         "mensuralProlation1": {
@@ -2508,8 +2548,8 @@
         },
         "Delta": {
             "alternateCodepoints": [
-                "0XF0C6",
-                "0X2206"
+                "0X2206",
+                "0XF0C6"
             ],
             "codepoint": "0X0394"
         },
@@ -2942,8 +2982,8 @@
         },
         "chantOriscusAscending": {
             "alternateCodepoints": [
-                "0XE99C",
-                "0XF0FA"
+                "0XF0FA",
+                "0XE99C"
             ],
             "codepoint": "0X02D9"
         },
@@ -2975,8 +3015,8 @@
         },
         "chantPunctumVirga": {
             "alternateCodepoints": [
-                "0X005A",
-                "0X0000"
+                "0X0000",
+                "0X005A"
             ],
             "codepoint": "0XE996"
         },
@@ -2996,8 +3036,8 @@
         },
         "chantStrophicusAuctus": {
             "alternateCodepoints": [
-                "0XE9A0",
-                "0XF0D0"
+                "0XF0D0",
+                "0XE9A0"
             ],
             "codepoint": "0X2013"
         },
@@ -3283,6 +3323,12 @@
         "medRenNatural": {
             "codepoint": "0XE9E2"
         },
+        "medRenSharp1": {
+            "codepoint": "0XF705"
+        },
+        "medRenSharp2": {
+            "codepoint": "0XF706"
+        },
         "mensuralBlackBrevis": {
             "codepoint": "0XE952"
         },
@@ -3379,6 +3425,12 @@
         },
         "mensuralNoteheadSemiminimaWhite": {
             "codepoint": "0XE93D"
+        },
+        "mensuralObliqueDesc2ndBlack": {
+            "codepoint": "0XE980"
+        },
+        "mensuralObliqueDesc3rdBlack": {
+            "codepoint": "0XE984"
         },
         "mensuralProlation1": {
             "alternateCodepoints": [

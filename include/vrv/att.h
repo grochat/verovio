@@ -101,6 +101,7 @@ public:
 
     static bool IsMensuralType(data_NOTATIONTYPE notationType);
     static bool IsNeumeType(data_NOTATIONTYPE notationType);
+    static bool IsMensuralOrNeumeType(data_NOTATIONTYPE notationType);
     static bool IsTabType(data_NOTATIONTYPE notationType);
 
 public:
