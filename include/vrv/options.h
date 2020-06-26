@@ -501,6 +501,7 @@ public:
     OptionBool m_useGlyphBrace;
     OptionBool m_useGlyphMensural;
     OptionBool m_useGlyphNeume;
+    OptionBool m_beautifyMensural;
 
     /**
      * General layout

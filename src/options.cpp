@@ -643,6 +643,10 @@ Options::Options()
     m_useGlyphMensural.Init(false);
     this->Register(&m_useGlyphMensural, "useGlyphMensural", &m_general);
     
+    m_beautifyMensural.SetInfo("Beautify Mensural", "A set of rules to beautify mensural music. Affects spacing and other aspects.");
+    m_beautifyMensural.Init(false);
+    this->Register(&m_beautifyMensural, "beautifyMensural", &m_general);
+    
     m_useGlyphNeume.SetInfo("Use Glyph Neume", "Use glyphs rather than polygons in neume notation (ligature etc.)");
     m_useGlyphNeume.Init(false);
     this->Register(&m_useGlyphNeume, "useGlyphNeume", &m_general);
