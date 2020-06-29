@@ -1002,7 +1002,7 @@ void View::DrawKeySig(DeviceContext *dc, LayerElement *element, Layer *layer, St
         // We get the pitch from the keySig (looks for keyAccid children if any)
         data_ACCIDENTAL_WRITTEN accid;
         data_PITCHNAME pname;
-        std::wstring accidStr = keySig->GetKeyAccidStrAt(i, accid, pname);
+        std::wstring accidStr = keySig->GetKeyAccidStrAt(i, accid, pname, m_doc );
 
         loc = PitchInterface::CalcLoc(pname, KeySig::GetOctave(accid, pname, c), clefLocOffset);
         y = staff->GetDrawingY() + staff->CalcPitchPosYRel(m_doc, loc);

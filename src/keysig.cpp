@@ -21,6 +21,7 @@
 #include "smufl.h"
 #include "transposition.h"
 #include "vrv.h"
+#include "doc.h"
 
 namespace vrv {
 
@@ -182,7 +183,7 @@ void KeySig::FillMap(MapOfPitchAccid &mapOfPitchAccid)
     }
 }
 
-std::wstring KeySig::GetKeyAccidStrAt(int pos, data_ACCIDENTAL_WRITTEN &accid, data_PITCHNAME &pname)
+std::wstring KeySig::GetKeyAccidStrAt( int pos, data_ACCIDENTAL_WRITTEN &accid, data_PITCHNAME &pname, const Doc *doc /* == nullptr */ )
 {
     pname = PITCHNAME_c;
     accid = ACCIDENTAL_WRITTEN_s;
@@ -211,6 +212,14 @@ std::wstring KeySig::GetKeyAccidStrAt(int pos, data_ACCIDENTAL_WRITTEN &accid, d
     else {
         symb = SMUFL_E262_accidentalSharp;
         accidSet = s_pnameForSharps;
+    }
+    
+    if ( doc && IsMensuralOrNeumeType( doc->m_notationType ) )
+    {
+        if ( symb == SMUFL_E260_accidentalFlat && Resources::IsGlyphAvailable((wchar_t) SMUFL_E9E0_medRenFlatSoftB ) )
+            symb = SMUFL_E9E0_medRenFlatSoftB;
+        else if ( symb == SMUFL_E262_accidentalSharp && Resources::IsGlyphAvailable((wchar_t) SMUFL_F706_medRenSharp2 ) )
+            symb = SMUFL_F706_medRenSharp2;
     }
 
     pname = accidSet[pos];

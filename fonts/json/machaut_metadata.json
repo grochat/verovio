@@ -82,16 +82,6 @@
                 -2.792
             ]
         },
-        "Ccedilla": {
-            "bBoxNE": [
-                0.84,
-                1.3631
-            ],
-            "bBoxSW": [
-                -0.008,
-                -0.428
-            ]
-        },
         "D": {
             "bBoxNE": [
                 0.056,
@@ -110,16 +100,6 @@
             "bBoxSW": [
                 0.0,
                 -0.3074
-            ]
-        },
-        "Eacute": {
-            "bBoxNE": [
-                0.84,
-                1.8837
-            ],
-            "bBoxSW": [
-                -0.008,
-                -0.4253
             ]
         },
         "Edieresis": {
@@ -542,16 +522,6 @@
                 -0.125
             ]
         },
-        "acircumflex": {
-            "bBoxNE": [
-                0.056,
-                0.3
-            ],
-            "bBoxSW": [
-                -0.456,
-                -1.303
-            ]
-        },
         "acute": {
             "bBoxNE": [
                 0.512,
@@ -560,26 +530,6 @@
             "bBoxSW": [
                 0.0,
                 -1.8122
-            ]
-        },
-        "adieresis": {
-            "bBoxNE": [
-                0.056,
-                0.3
-            ],
-            "bBoxSW": [
-                -0.456,
-                -1.803
-            ]
-        },
-        "agrave": {
-            "bBoxNE": [
-                0.056,
-                0.3
-            ],
-            "bBoxSW": [
-                -0.456,
-                -0.8
             ]
         },
         "approxequal": {
@@ -660,6 +610,86 @@
             "bBoxSW": [
                 -0.007,
                 -0.4437
+            ]
+        },
+        "blackChantPunctum": {
+            "bBoxNE": [
+                0.84,
+                0.404
+            ],
+            "bBoxSW": [
+                -0.008,
+                -0.42
+            ]
+        },
+        "blackChantPunctumVirga": {
+            "bBoxNE": [
+                0.8814,
+                0.404
+            ],
+            "bBoxSW": [
+                -0.008,
+                -1.7875
+            ]
+        },
+        "blackChantPunctumVirgaShort": {
+            "bBoxNE": [
+                0.8799,
+                0.404
+            ],
+            "bBoxSW": [
+                -0.008,
+                -1.1297
+            ]
+        },
+        "blackPodatusFinal2nd": {
+            "bBoxNE": [
+                0.056,
+                0.3
+            ],
+            "bBoxSW": [
+                -0.456,
+                -0.8
+            ]
+        },
+        "blackPodatusFinal3rd": {
+            "bBoxNE": [
+                0.056,
+                0.3
+            ],
+            "bBoxSW": [
+                -0.456,
+                -1.303
+            ]
+        },
+        "blackPodatusFinal4th": {
+            "bBoxNE": [
+                0.056,
+                0.3
+            ],
+            "bBoxSW": [
+                -0.456,
+                -1.803
+            ]
+        },
+        "blackPodatusFinal5th": {
+            "bBoxNE": [
+                0.056,
+                0.3
+            ],
+            "bBoxSW": [
+                -0.456,
+                -2.303
+            ]
+        },
+        "blackSemibrevisSquareStemUp": {
+            "bBoxNE": [
+                0.84,
+                2.25
+            ],
+            "bBoxSW": [
+                -0.022,
+                -0.42
             ]
         },
         "breve": {
@@ -792,16 +822,6 @@
                 -0.36
             ]
         },
-        "chantPunctum": {
-            "bBoxNE": [
-                0.84,
-                0.404
-            ],
-            "bBoxSW": [
-                -0.008,
-                -0.42
-            ]
-        },
         "chantPunctumCavum": {
             "bBoxNE": [
                 0.553,
@@ -820,26 +840,6 @@
             "bBoxSW": [
                 0.0,
                 -0.3067
-            ]
-        },
-        "chantPunctumVirga": {
-            "bBoxNE": [
-                0.8814,
-                0.404
-            ],
-            "bBoxSW": [
-                -0.008,
-                -1.7875
-            ]
-        },
-        "chantPunctumVirgaShort": {
-            "bBoxNE": [
-                0.8799,
-                0.404
-            ],
-            "bBoxSW": [
-                -0.008,
-                -1.1297
             ]
         },
         "chantQuilisma": {
@@ -872,7 +872,7 @@
                 -0.3
             ]
         },
-        "clivisEnding2nd": {
+        "clivisFinal2nd": {
             "bBoxNE": [
                 0.84,
                 0.404
@@ -882,6 +882,26 @@
                 -0.42
             ]
         },
+        "clivisFinal3rd": {
+            "bBoxNE": [
+                0.78,
+                1.3631
+            ],
+            "bBoxSW": [
+                -0.068,
+                -0.428
+            ]
+        },
+        "clivisFinal4th": {
+            "bBoxNE": [
+                0.84,
+                1.8837
+            ],
+            "bBoxSW": [
+                -0.008,
+                -0.4253
+            ]
+        },
         "clivisInitial1": {
             "bBoxNE": [
                 0.84,
@@ -889,7 +909,7 @@
             ],
             "bBoxSW": [
                 -0.018,
-                -1.084
+                -0.908
             ]
         },
         "clivisInitial2": {
@@ -899,7 +919,7 @@
             ],
             "bBoxSW": [
                 -0.018,
-                -1.68
+                -1.4124
             ]
         },
         "clivisInitial3": {
@@ -909,7 +929,7 @@
             ],
             "bBoxSW": [
                 -0.018,
-                -2.618
+                -1.916
             ]
         },
         "clivisInitial4": {
@@ -919,37 +939,37 @@
             ],
             "bBoxSW": [
                 -0.018,
-                -3.152
+                -2.456
             ]
         },
         "clivisInitial5": {
             "bBoxNE": [
-                0.52,
-                0.3164
+                0.84,
+                0.404
             ],
             "bBoxSW": [
-                0.0,
-                -2.799
+                -0.018,
+                -2.952
             ]
         },
         "clivisInitial6": {
             "bBoxNE": [
-                0.52,
-                0.3164
+                0.84,
+                0.404
             ],
             "bBoxSW": [
-                0.0,
-                -3.266
+                -0.018,
+                -3.456
             ]
         },
         "clivisInitial7": {
             "bBoxNE": [
-                0.52,
-                0.3164
+                0.84,
+                0.404
             ],
             "bBoxSW": [
-                0.0,
-                -3.763
+                -0.018,
+                -3.952
             ]
         },
         "colon": {
@@ -1110,16 +1130,6 @@
             "bBoxSW": [
                 0.0,
                 -0.3
-            ]
-        },
-        "fClef8vb": {
-            "bBoxNE": [
-                0.784,
-                2.8835
-            ],
-            "bBoxSW": [
-                -0.9814,
-                -1.021
             ]
         },
         "fClefFrench": {
@@ -2602,16 +2612,6 @@
                 -1.808
             ]
         },
-        "unpitchedPercussionClef1": {
-            "bBoxNE": [
-                0.056,
-                0.3
-            ],
-            "bBoxSW": [
-                -0.456,
-                -2.303
-            ]
-        },
         "unpitchedPercussionClef2": {
             "bBoxNE": [
                 0.512,
@@ -2624,12 +2624,12 @@
         },
         "v": {
             "bBoxNE": [
-                0.6682,
-                0.1819
+                0.836,
+                0.18
             ],
             "bBoxSW": [
-                -0.0022,
-                -0.313
+                -0.004,
+                -0.312
             ]
         },
         "w": {
@@ -2694,12 +2694,6 @@
             ],
             "codepoint": "0XF0CC"
         },
-        "Ccedilla": {
-            "alternateCodepoints": [
-                "0X00C7"
-            ],
-            "codepoint": "0XF082"
-        },
         "D": {
             "alternateCodepoints": [
                 "0X0044"
@@ -2708,16 +2702,10 @@
         },
         "Delta": {
             "alternateCodepoints": [
-                "0X2206",
-                "0XF0C6"
+                "0XF0C6",
+                "0X2206"
             ],
             "codepoint": "0X0394"
-        },
-        "Eacute": {
-            "alternateCodepoints": [
-                "0X00C9"
-            ],
-            "codepoint": "0XF083"
         },
         "Edieresis": {
             "alternateCodepoints": [
@@ -2971,29 +2959,11 @@
             ],
             "codepoint": "0XF049"
         },
-        "acircumflex": {
-            "alternateCodepoints": [
-                "0X00E2"
-            ],
-            "codepoint": "0XF089"
-        },
         "acute": {
             "alternateCodepoints": [
                 "0X00B4"
             ],
             "codepoint": "0XF0AB"
-        },
-        "adieresis": {
-            "alternateCodepoints": [
-                "0X00E4"
-            ],
-            "codepoint": "0XF08A"
-        },
-        "agrave": {
-            "alternateCodepoints": [
-                "0X00E0"
-            ],
-            "codepoint": "0XF088"
         },
         "approxequal": {
             "alternateCodepoints": [
@@ -3042,6 +3012,57 @@
                 "0X005C"
             ],
             "codepoint": "0XF05C"
+        },
+        "blackChantPunctum": {
+            "alternateCodepoints": [
+                "0X0058",
+                "0XF058"
+            ],
+            "codepoint": "0XE990"
+        },
+        "blackChantPunctumVirga": {
+            "alternateCodepoints": [
+                "0X005A",
+                "0X0000"
+            ],
+            "codepoint": "0XE996"
+        },
+        "blackChantPunctumVirgaShort": {
+            "alternateCodepoints": [
+                "0X0059",
+                "0XF059"
+            ],
+            "codepoint": "0XF701"
+        },
+        "blackPodatusFinal2nd": {
+            "alternateCodepoints": [
+                "0X00E0"
+            ],
+            "codepoint": "0XF088"
+        },
+        "blackPodatusFinal3rd": {
+            "alternateCodepoints": [
+                "0X00E2"
+            ],
+            "codepoint": "0XF089"
+        },
+        "blackPodatusFinal4th": {
+            "alternateCodepoints": [
+                "0X00E4"
+            ],
+            "codepoint": "0XF08A"
+        },
+        "blackPodatusFinal5th": {
+            "alternateCodepoints": [
+                "0X00E3"
+            ],
+            "codepoint": "0XF08B"
+        },
+        "blackSemibrevisSquareStemUp": {
+            "alternateCodepoints": [
+                "0X0074"
+            ],
+            "codepoint": "0XF074"
         },
         "breve": {
             "alternateCodepoints": [
@@ -3108,8 +3129,8 @@
         },
         "chantOriscusAscending": {
             "alternateCodepoints": [
-                "0XF0FA",
-                "0XE99C"
+                "0XE99C",
+                "0XF0FA"
             ],
             "codepoint": "0X02D9"
         },
@@ -3118,13 +3139,6 @@
                 "0X00B8"
             ],
             "codepoint": "0XE99D"
-        },
-        "chantPunctum": {
-            "alternateCodepoints": [
-                "0X0058",
-                "0XF058"
-            ],
-            "codepoint": "0XE990"
         },
         "chantPunctumCavum": {
             "alternateCodepoints": [
@@ -3139,20 +3153,6 @@
             ],
             "codepoint": "0XF023"
         },
-        "chantPunctumVirga": {
-            "alternateCodepoints": [
-                "0X0000",
-                "0X005A"
-            ],
-            "codepoint": "0XE996"
-        },
-        "chantPunctumVirgaShort": {
-            "alternateCodepoints": [
-                "0X0059",
-                "0XF059"
-            ],
-            "codepoint": "0XF701"
-        },
         "chantQuilisma": {
             "alternateCodepoints": [
                 "0X0021",
@@ -3162,8 +3162,8 @@
         },
         "chantStrophicusAuctus": {
             "alternateCodepoints": [
-                "0XF0D0",
-                "0XE9A0"
+                "0XE9A0",
+                "0XF0D0"
             ],
             "codepoint": "0X2013"
         },
@@ -3173,11 +3173,23 @@
             ],
             "codepoint": "0X02C6"
         },
-        "clivisEnding2nd": {
+        "clivisFinal2nd": {
             "alternateCodepoints": [
                 "0X00C5"
             ],
             "codepoint": "0XF081"
+        },
+        "clivisFinal3rd": {
+            "alternateCodepoints": [
+                "0X00C7"
+            ],
+            "codepoint": "0XF082"
+        },
+        "clivisFinal4th": {
+            "alternateCodepoints": [
+                "0X00C9"
+            ],
+            "codepoint": "0XF083"
         },
         "clivisInitial1": {
             "alternateCodepoints": [
@@ -3316,12 +3328,6 @@
                 "0X00CA"
             ],
             "codepoint": "0XF0E6"
-        },
-        "fClef8vb": {
-            "alternateCodepoints": [
-                "0X0074"
-            ],
-            "codepoint": "0XF074"
         },
         "fClefFrench": {
             "alternateCodepoints": [
@@ -4108,12 +4114,6 @@
                 "0X00A0"
             ],
             "codepoint": "0XF0CA"
-        },
-        "unpitchedPercussionClef1": {
-            "alternateCodepoints": [
-                "0X00E3"
-            ],
-            "codepoint": "0XF08B"
         },
         "unpitchedPercussionClef2": {
             "alternateCodepoints": [

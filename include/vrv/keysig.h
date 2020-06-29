@@ -74,7 +74,7 @@ public:
      * Looks at keyAccid children if any.
      * The accid at pos is return in accid and the pname in pname.
      */
-    std::wstring GetKeyAccidStrAt(int pos, data_ACCIDENTAL_WRITTEN &accid, data_PITCHNAME &pname);
+    std::wstring GetKeyAccidStrAt(int pos, data_ACCIDENTAL_WRITTEN &accid, data_PITCHNAME &pname, const Doc *doc = nullptr );
 
     /**
      * Static methods for calculating position;
