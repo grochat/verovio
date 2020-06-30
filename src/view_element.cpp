@@ -704,7 +704,7 @@ void View::DrawClef(DeviceContext *dc, LayerElement *element, Layer *layer, Staf
     bool cueSize = false;
     if (clef->GetAlignment() && (clef->GetAlignment()->GetType() == ALIGNMENT_CLEF)) {
         if (m_doc->GetType() != Transcription && m_doc->GetType() != Facs) {
-            cueSize = !m_doc->GetOptions()->m_beautifyMensural.GetValue();
+            cueSize = !( isMensural || isNeume );
             // HARDCODED
             x -= m_doc->GetGlyphWidth(sym, staff->m_drawingStaffSize, cueSize) * 1.35;
         }
