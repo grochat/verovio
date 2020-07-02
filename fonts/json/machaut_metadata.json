@@ -84,8 +84,8 @@
         },
         "D": {
             "bBoxNE": [
-                0.056,
-                0.172
+                2.6102,
+                1.9825
             ],
             "bBoxSW": [
                 -0.184,
@@ -134,8 +134,8 @@
         },
         "F": {
             "bBoxNE": [
-                0.056,
-                0.632
+                2.6102,
+                1.9825
             ],
             "bBoxSW": [
                 -0.18,
@@ -144,8 +144,8 @@
         },
         "G": {
             "bBoxNE": [
-                0.056,
-                1.132
+                2.6102,
+                1.9825
             ],
             "bBoxSW": [
                 -0.18,
@@ -194,7 +194,7 @@
         },
         "J": {
             "bBoxNE": [
-                0.056,
+                2.6102,
                 2.632
             ],
             "bBoxSW": [
@@ -204,8 +204,8 @@
         },
         "K": {
             "bBoxNE": [
-                0.5072,
-                0.278
+                2.6102,
+                1.9825
             ],
             "bBoxSW": [
                 -0.0,
@@ -214,8 +214,8 @@
         },
         "L": {
             "bBoxNE": [
-                0.5072,
-                0.278
+                2.6102,
+                1.9825
             ],
             "bBoxSW": [
                 0.0,
@@ -224,8 +224,8 @@
         },
         "M": {
             "bBoxNE": [
-                0.5066,
-                0.2741
+                2.6102,
+                1.9825
             ],
             "bBoxSW": [
                 0.0,
@@ -234,8 +234,8 @@
         },
         "N": {
             "bBoxNE": [
-                0.5072,
-                0.2739
+                2.6102,
+                1.9825
             ],
             "bBoxSW": [
                 0.0,
@@ -254,8 +254,8 @@
         },
         "O": {
             "bBoxNE": [
-                0.5072,
-                0.2718
+                2.6102,
+                1.9825
             ],
             "bBoxSW": [
                 0.0,
@@ -334,32 +334,12 @@
         },
         "P": {
             "bBoxNE": [
-                0.5072,
-                0.2657
+                2.6102,
+                1.9825
             ],
             "bBoxSW": [
                 -0.0,
                 -2.809
-            ]
-        },
-        "R": {
-            "bBoxNE": [
-                0.06,
-                0.4
-            ],
-            "bBoxSW": [
-                0.0,
-                -0.778
-            ]
-        },
-        "S": {
-            "bBoxNE": [
-                0.06,
-                0.4111
-            ],
-            "bBoxSW": [
-                0.0,
-                -1.2106
             ]
         },
         "T": {
@@ -494,8 +474,8 @@
         },
         "accidentalFlatParens": {
             "bBoxNE": [
-                0.056,
-                0.18
+                2.6102,
+                1.9825
             ],
             "bBoxSW": [
                 -0.18,
@@ -514,7 +494,7 @@
         },
         "accidentalSharpSmall": {
             "bBoxNE": [
-                0.056,
+                2.6102,
                 2.132
             ],
             "bBoxSW": [
@@ -544,8 +524,8 @@
         },
         "ascii45": {
             "bBoxNE": [
-                0.264,
-                0.276
+                2.6102,
+                1.9825
             ],
             "bBoxSW": [
                 0.0,
@@ -554,8 +534,8 @@
         },
         "ascii48": {
             "bBoxNE": [
-                0.056,
-                1.632
+                2.6102,
+                1.9825
             ],
             "bBoxSW": [
                 -0.18,
@@ -582,6 +562,26 @@
                 -2.7145
             ]
         },
+        "asciiE0": {
+            "bBoxNE": [
+                0.025,
+                0.404
+            ],
+            "bBoxSW": [
+                -0.84,
+                -0.8053
+            ]
+        },
+        "asciiE2": {
+            "bBoxNE": [
+                0.025,
+                0.404
+            ],
+            "bBoxSW": [
+                -0.84,
+                -1.4242
+            ]
+        },
         "asciicircum": {
             "bBoxNE": [
                 0.791,
@@ -594,8 +594,8 @@
         },
         "at": {
             "bBoxNE": [
-                0.056,
-                0.172
+                2.6102,
+                1.9825
             ],
             "bBoxSW": [
                 -0.184,
@@ -615,7 +615,7 @@
         "blackChantPunctum": {
             "bBoxNE": [
                 0.84,
-                0.404
+                0.4133
             ],
             "bBoxSW": [
                 -0.008,
@@ -625,7 +625,7 @@
         "blackChantPunctumVirga": {
             "bBoxNE": [
                 0.8814,
-                0.404
+                0.4133
             ],
             "bBoxSW": [
                 -0.008,
@@ -634,35 +634,35 @@
         },
         "blackChantPunctumVirgaShort": {
             "bBoxNE": [
-                0.8799,
-                0.404
+                0.84,
+                0.4133
             ],
             "bBoxSW": [
                 -0.008,
-                -1.1297
+                -1.3087
             ]
         },
-        "blackPodatusFinal2nd": {
+        "blackPesFinal2nd_ascii": {
             "bBoxNE": [
-                0.056,
-                0.3
+                0.057,
+                0.419
             ],
             "bBoxSW": [
-                -0.456,
-                -0.8
+                -0.808,
+                -0.916
             ]
         },
-        "blackPodatusFinal3rd": {
+        "blackPesFinal3rd": {
             "bBoxNE": [
-                0.056,
-                0.3
+                0.057,
+                0.396
             ],
             "bBoxSW": [
-                -0.456,
-                -1.303
+                -0.808,
+                -1.4242
             ]
         },
-        "blackPodatusFinal4th": {
+        "blackPesFinal4th": {
             "bBoxNE": [
                 0.056,
                 0.3
@@ -672,7 +672,17 @@
                 -1.803
             ]
         },
-        "blackPodatusFinal5th": {
+        "blackPesFinal4th_": {
+            "bBoxNE": [
+                0.057,
+                0.396
+            ],
+            "bBoxSW": [
+                -0.808,
+                -1.9253
+            ]
+        },
+        "blackPesFinal5th": {
             "bBoxNE": [
                 0.056,
                 0.3
@@ -680,6 +690,56 @@
             "bBoxSW": [
                 -0.456,
                 -2.303
+            ]
+        },
+        "blackPesFinal5th_": {
+            "bBoxNE": [
+                0.057,
+                0.396
+            ],
+            "bBoxSW": [
+                -0.808,
+                -2.424
+            ]
+        },
+        "blackPesFinal6th": {
+            "bBoxNE": [
+                0.057,
+                0.396
+            ],
+            "bBoxSW": [
+                -0.808,
+                -2.924
+            ]
+        },
+        "blackPesFinal7th": {
+            "bBoxNE": [
+                0.057,
+                0.396
+            ],
+            "bBoxSW": [
+                -0.808,
+                -3.424
+            ]
+        },
+        "blackPesInitialSmall": {
+            "bBoxNE": [
+                0.836,
+                0.152
+            ],
+            "bBoxSW": [
+                -0.008,
+                -0.42
+            ]
+        },
+        "blackPorrectusOblique2ndCrushed": {
+            "bBoxNE": [
+                1.728,
+                0.9
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.4288
             ]
         },
         "blackSemibrevisSquareStemUp": {
@@ -714,8 +774,8 @@
         },
         "cClef": {
             "bBoxNE": [
-                0.056,
-                0.18
+                2.6102,
+                1.9825
             ],
             "bBoxSW": [
                 -0.18,
@@ -754,8 +814,8 @@
         },
         "chantAuctumDesc": {
             "bBoxNE": [
-                0.518,
-                0.2711
+                2.6102,
+                1.9825
             ],
             "bBoxSW": [
                 0.0,
@@ -802,20 +862,10 @@
                 -0.8896
             ]
         },
-        "chantOriscusAscending": {
-            "bBoxNE": [
-                0.5166,
-                0.328
-            ],
-            "bBoxSW": [
-                0.0,
-                -0.36
-            ]
-        },
         "chantOriscusDescending": {
             "bBoxNE": [
-                0.518,
-                0.328
+                2.6102,
+                1.9825
             ],
             "bBoxSW": [
                 0.0,
@@ -824,8 +874,8 @@
         },
         "chantPunctumCavum": {
             "bBoxNE": [
-                0.553,
-                0.3154
+                2.6102,
+                1.9825
             ],
             "bBoxSW": [
                 0.0,
@@ -834,8 +884,8 @@
         },
         "chantPunctumCavumTriplum": {
             "bBoxNE": [
-                1.6416,
-                0.3165
+                2.6102,
+                1.9825
             ],
             "bBoxSW": [
                 0.0,
@@ -844,8 +894,8 @@
         },
         "chantQuilisma": {
             "bBoxNE": [
-                0.568,
-                0.3692
+                2.6102,
+                1.9825
             ],
             "bBoxSW": [
                 0.0,
@@ -875,7 +925,7 @@
         "clivisFinal2nd": {
             "bBoxNE": [
                 0.84,
-                0.404
+                0.4133
             ],
             "bBoxSW": [
                 -0.008,
@@ -884,12 +934,12 @@
         },
         "clivisFinal3rd": {
             "bBoxNE": [
-                0.78,
-                1.3631
+                0.882,
+                1.3607
             ],
             "bBoxSW": [
-                -0.068,
-                -0.428
+                0.0,
+                -0.435
             ]
         },
         "clivisFinal4th": {
@@ -905,7 +955,7 @@
         "clivisInitial1": {
             "bBoxNE": [
                 0.84,
-                0.404
+                0.4133
             ],
             "bBoxSW": [
                 -0.018,
@@ -915,7 +965,7 @@
         "clivisInitial2": {
             "bBoxNE": [
                 0.84,
-                0.404
+                0.4133
             ],
             "bBoxSW": [
                 -0.018,
@@ -925,7 +975,7 @@
         "clivisInitial3": {
             "bBoxNE": [
                 0.84,
-                0.404
+                0.4133
             ],
             "bBoxSW": [
                 -0.018,
@@ -935,7 +985,7 @@
         "clivisInitial4": {
             "bBoxNE": [
                 0.84,
-                0.404
+                0.4133
             ],
             "bBoxSW": [
                 -0.018,
@@ -945,7 +995,7 @@
         "clivisInitial5": {
             "bBoxNE": [
                 0.84,
-                0.404
+                0.4133
             ],
             "bBoxSW": [
                 -0.018,
@@ -955,7 +1005,7 @@
         "clivisInitial6": {
             "bBoxNE": [
                 0.84,
-                0.404
+                0.4133
             ],
             "bBoxSW": [
                 -0.018,
@@ -965,21 +1015,31 @@
         "clivisInitial7": {
             "bBoxNE": [
                 0.84,
-                0.404
+                0.4133
             ],
             "bBoxSW": [
                 -0.018,
                 -3.952
             ]
         },
-        "colon": {
+        "connectingStem2nd": {
             "bBoxNE": [
-                0.056,
-                0.288
+                0.0,
+                0.4935
             ],
             "bBoxSW": [
-                -0.404,
-                -1.3
+                -0.06,
+                -0.7776
+            ]
+        },
+        "connectingStem3rd": {
+            "bBoxNE": [
+                0.0,
+                0.4007
+            ],
+            "bBoxSW": [
+                -0.06,
+                -1.4051
             ]
         },
         "copyright": {
@@ -1015,11 +1075,11 @@
         "degree": {
             "bBoxNE": [
                 1.62,
-                1.376
+                1.4178
             ],
             "bBoxSW": [
                 0.0,
-                -0.394
+                -0.4317
             ]
         },
         "dieresis": {
@@ -1082,16 +1142,6 @@
                 -0.304
             ]
         },
-        "equal": {
-            "bBoxNE": [
-                0.056,
-                0.288
-            ],
-            "bBoxSW": [
-                -0.404,
-                -2.804
-            ]
-        },
         "exclamdown": {
             "bBoxNE": [
                 0.56,
@@ -1114,8 +1164,8 @@
         },
         "fClef": {
             "bBoxNE": [
-                0.3667,
-                0.2225
+                2.6102,
+                1.9825
             ],
             "bBoxSW": [
                 0.0,
@@ -1232,16 +1282,6 @@
                 -2.718
             ]
         },
-        "greater": {
-            "bBoxNE": [
-                0.056,
-                0.288
-            ],
-            "bBoxSW": [
-                -0.404,
-                -3.305
-            ]
-        },
         "guillemotleft": {
             "bBoxNE": [
                 0.776,
@@ -1284,8 +1324,8 @@
         },
         "hungarumlaut": {
             "bBoxNE": [
-                0.5254,
-                0.3611
+                2.6102,
+                1.9825
             ],
             "bBoxSW": [
                 0.0,
@@ -1352,16 +1392,6 @@
                 -1.8122
             ]
         },
-        "less": {
-            "bBoxNE": [
-                0.056,
-                0.288
-            ],
-            "bBoxSW": [
-                -0.404,
-                -2.304
-            ]
-        },
         "logicalnot": {
             "bBoxNE": [
                 0.56,
@@ -1425,7 +1455,7 @@
         "mensuralBlackBrevis": {
             "bBoxNE": [
                 0.84,
-                0.404
+                0.4133
             ],
             "bBoxSW": [
                 -0.008,
@@ -1435,7 +1465,7 @@
         "mensuralBlackBrevis_ascii": {
             "bBoxNE": [
                 0.84,
-                0.404
+                0.4133
             ],
             "bBoxSW": [
                 -0.008,
@@ -1465,7 +1495,7 @@
         "mensuralBlackLonga": {
             "bBoxNE": [
                 0.892,
-                0.42
+                0.426
             ],
             "bBoxSW": [
                 -0.004,
@@ -1475,7 +1505,7 @@
         "mensuralBlackLonga_ascii": {
             "bBoxNE": [
                 0.892,
-                0.42
+                0.426
             ],
             "bBoxSW": [
                 -0.004,
@@ -1685,10 +1715,10 @@
         "mensuralObliqueDesc2ndBlack": {
             "bBoxNE": [
                 1.636,
-                0.396
+                0.392
             ],
             "bBoxSW": [
-                0.0,
+                -0.0,
                 -0.904
             ]
         },
@@ -2015,7 +2045,7 @@
         "obliqueDesc2ndBlack_ascii": {
             "bBoxNE": [
                 1.636,
-                0.884
+                0.88
             ],
             "bBoxSW": [
                 0.0,
@@ -2050,16 +2080,6 @@
             "bBoxSW": [
                 0.0,
                 -0.4204
-            ]
-        },
-        "ograve": {
-            "bBoxNE": [
-                1.728,
-                0.796
-            ],
-            "bBoxSW": [
-                0.0,
-                -0.3
             ]
         },
         "ordfeminine": {
@@ -2124,8 +2144,8 @@
         },
         "parenleft": {
             "bBoxNE": [
-                0.512,
-                0.34
+                2.6102,
+                1.9825
             ],
             "bBoxSW": [
                 0.0,
@@ -2314,8 +2334,8 @@
         },
         "ring": {
             "bBoxNE": [
-                0.5165,
-                1.248
+                2.6102,
+                1.9825
             ],
             "bBoxSW": [
                 0.0,
@@ -2342,16 +2362,6 @@
                 -0.3
             ]
         },
-        "semicolon": {
-            "bBoxNE": [
-                0.056,
-                0.288
-            ],
-            "bBoxSW": [
-                -0.404,
-                -1.8056
-            ]
-        },
         "slash": {
             "bBoxNE": [
                 0.1612,
@@ -2372,7 +2382,17 @@
                 0.0
             ]
         },
-        "stemInitialDownAscii": {
+        "stemInitialDownShort_ascii": {
+            "bBoxNE": [
+                0.092,
+                0.396
+            ],
+            "bBoxSW": [
+                -0.012,
+                -1.8933
+            ]
+        },
+        "stemInitialDown_ascii": {
             "bBoxNE": [
                 0.092,
                 0.396
@@ -2504,28 +2524,18 @@
         },
         "timeSig8": {
             "bBoxNE": [
-                0.056,
-                0.272
+                0.057,
+                0.3876
             ],
             "bBoxSW": [
-                -0.404,
-                -0.3616
-            ]
-        },
-        "timeSig9": {
-            "bBoxNE": [
-                0.056,
-                0.292
-            ],
-            "bBoxSW": [
-                -0.404,
-                -0.8016
+                -0.808,
+                -1.9253
             ]
         },
         "timeSigCutCommon": {
             "bBoxNE": [
-                0.056,
-                0.1755
+                2.6102,
+                1.9825
             ],
             "bBoxSW": [
                 -0.184,
@@ -2554,12 +2564,12 @@
         },
         "u": {
             "bBoxNE": [
-                0.472,
-                0.184
+                0.84,
+                0.404
             ],
             "bBoxSW": [
-                -0.0038,
-                -0.3125
+                -0.008,
+                -0.42
             ]
         },
         "uacute": {
@@ -2620,16 +2630,6 @@
             "bBoxSW": [
                 0.0,
                 -0.304
-            ]
-        },
-        "v": {
-            "bBoxNE": [
-                0.836,
-                0.18
-            ],
-            "bBoxSW": [
-                -0.004,
-                -0.312
             ]
         },
         "w": {
@@ -2851,18 +2851,6 @@
             ],
             "codepoint": "0XF050"
         },
-        "R": {
-            "alternateCodepoints": [
-                "0X0052"
-            ],
-            "codepoint": "0XF052"
-        },
-        "S": {
-            "alternateCodepoints": [
-                "0X0053"
-            ],
-            "codepoint": "0XF053"
-        },
         "T": {
             "alternateCodepoints": [
                 "0X0054"
@@ -2995,6 +2983,18 @@
             ],
             "codepoint": "0XF05B"
         },
+        "asciiE0": {
+            "alternateCodepoints": [
+                "0X00E0"
+            ],
+            "codepoint": "0XF088"
+        },
+        "asciiE2": {
+            "alternateCodepoints": [
+                "0X00E2"
+            ],
+            "codepoint": "0XF089"
+        },
         "asciicircum": {
             "alternateCodepoints": [
                 "0X005E"
@@ -3034,29 +3034,65 @@
             ],
             "codepoint": "0XF701"
         },
-        "blackPodatusFinal2nd": {
+        "blackPesFinal2nd_ascii": {
             "alternateCodepoints": [
-                "0X00E0"
+                "0X0039"
             ],
-            "codepoint": "0XF088"
+            "codepoint": "0XF039"
         },
-        "blackPodatusFinal3rd": {
+        "blackPesFinal3rd": {
             "alternateCodepoints": [
-                "0X00E2"
+                "0X003A"
             ],
-            "codepoint": "0XF089"
+            "codepoint": "0XF03A"
         },
-        "blackPodatusFinal4th": {
+        "blackPesFinal4th": {
             "alternateCodepoints": [
                 "0X00E4"
             ],
             "codepoint": "0XF08A"
         },
-        "blackPodatusFinal5th": {
+        "blackPesFinal4th_": {
+            "alternateCodepoints": [
+                "0X003B"
+            ],
+            "codepoint": "0XF03B"
+        },
+        "blackPesFinal5th": {
             "alternateCodepoints": [
                 "0X00E3"
             ],
             "codepoint": "0XF08B"
+        },
+        "blackPesFinal5th_": {
+            "alternateCodepoints": [
+                "0X003C"
+            ],
+            "codepoint": "0XF03C"
+        },
+        "blackPesFinal6th": {
+            "alternateCodepoints": [
+                "0X003D"
+            ],
+            "codepoint": "0XF03D"
+        },
+        "blackPesFinal7th": {
+            "alternateCodepoints": [
+                "0X003E"
+            ],
+            "codepoint": "0XF03E"
+        },
+        "blackPesInitialSmall": {
+            "alternateCodepoints": [
+                "0X0076"
+            ],
+            "codepoint": "0XF076"
+        },
+        "blackPorrectusOblique2ndCrushed": {
+            "alternateCodepoints": [
+                "0X00F2"
+            ],
+            "codepoint": "0XF098"
         },
         "blackSemibrevisSquareStemUp": {
             "alternateCodepoints": [
@@ -3126,13 +3162,6 @@
         },
         "chantFclef": {
             "codepoint": "0XE902"
-        },
-        "chantOriscusAscending": {
-            "alternateCodepoints": [
-                "0XE99C",
-                "0XF0FA"
-            ],
-            "codepoint": "0X02D9"
         },
         "chantOriscusDescending": {
             "alternateCodepoints": [
@@ -3233,11 +3262,17 @@
             ],
             "codepoint": "0XF07E"
         },
-        "colon": {
+        "connectingStem2nd": {
             "alternateCodepoints": [
-                "0X003A"
+                "0X0052"
             ],
-            "codepoint": "0XF03A"
+            "codepoint": "0XF052"
+        },
+        "connectingStem3rd": {
+            "alternateCodepoints": [
+                "0X0053"
+            ],
+            "codepoint": "0XF053"
         },
         "copyright": {
             "alternateCodepoints": [
@@ -3298,12 +3333,6 @@
                 "0XF0D1"
             ],
             "codepoint": "0X2014"
-        },
-        "equal": {
-            "alternateCodepoints": [
-                "0X003D"
-            ],
-            "codepoint": "0XF03D"
         },
         "exclamdown": {
             "alternateCodepoints": [
@@ -3389,12 +3418,6 @@
             ],
             "codepoint": "0XF060"
         },
-        "greater": {
-            "alternateCodepoints": [
-                "0X003E"
-            ],
-            "codepoint": "0XF03E"
-        },
         "guillemotleft": {
             "alternateCodepoints": [
                 "0X00AB"
@@ -3460,12 +3483,6 @@
                 "0XF0B0"
             ],
             "codepoint": "0X221E"
-        },
-        "less": {
-            "alternateCodepoints": [
-                "0X003C"
-            ],
-            "codepoint": "0XF03C"
         },
         "logicalnot": {
             "alternateCodepoints": [
@@ -3779,12 +3796,6 @@
             ],
             "codepoint": "0X0153"
         },
-        "ograve": {
-            "alternateCodepoints": [
-                "0X00F2"
-            ],
-            "codepoint": "0XF098"
-        },
         "ordfeminine": {
             "alternateCodepoints": [
                 "0X00AA"
@@ -3953,12 +3964,6 @@
             ],
             "codepoint": "0XF0A4"
         },
-        "semicolon": {
-            "alternateCodepoints": [
-                "0X003B"
-            ],
-            "codepoint": "0XF03B"
-        },
         "slash": {
             "alternateCodepoints": [
                 "0X002F"
@@ -3971,7 +3976,14 @@
             ],
             "codepoint": "0XF020"
         },
-        "stemInitialDownAscii": {
+        "stemInitialDownShort_ascii": {
+            "alternateCodepoints": [
+                "0XE99C",
+                "0XF0FA"
+            ],
+            "codepoint": "0X02D9"
+        },
+        "stemInitialDown_ascii": {
             "alternateCodepoints": [
                 "0X00B5"
             ],
@@ -4055,12 +4067,6 @@
             ],
             "codepoint": "0XF038"
         },
-        "timeSig9": {
-            "alternateCodepoints": [
-                "0X0039"
-            ],
-            "codepoint": "0XF039"
-        },
         "timeSigCutCommon": {
             "alternateCodepoints": [
                 "0X0043"
@@ -4120,12 +4126,6 @@
                 "0X00F7"
             ],
             "codepoint": "0XF0D6"
-        },
-        "v": {
-            "alternateCodepoints": [
-                "0X0076"
-            ],
-            "codepoint": "0XF076"
         },
         "w": {
             "alternateCodepoints": [
