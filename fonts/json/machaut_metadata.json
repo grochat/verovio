@@ -202,16 +202,6 @@
                 -0.125
             ]
         },
-        "K": {
-            "bBoxNE": [
-                1.4662,
-                1.9825
-            ],
-            "bBoxSW": [
-                -0.1634,
-                -0.36
-            ]
-        },
         "L": {
             "bBoxNE": [
                 1.3462,
@@ -282,16 +272,6 @@
                 -0.3011
             ]
         },
-        "Ograve": {
-            "bBoxNE": [
-                1.792,
-                1.296
-            ],
-            "bBoxSW": [
-                0.0,
-                -0.324
-            ]
-        },
         "Oslash": {
             "bBoxNE": [
                 0.512,
@@ -322,46 +302,6 @@
                 -2.809
             ]
         },
-        "T": {
-            "bBoxNE": [
-                0.06,
-                0.3741
-            ],
-            "bBoxSW": [
-                0.0,
-                -1.7355
-            ]
-        },
-        "U": {
-            "bBoxNE": [
-                0.056,
-                0.3701
-            ],
-            "bBoxSW": [
-                0.0,
-                -2.3208
-            ]
-        },
-        "Uacute": {
-            "bBoxNE": [
-                2.152,
-                1.796
-            ],
-            "bBoxSW": [
-                0.0,
-                -0.3
-            ]
-        },
-        "Ucircumflex": {
-            "bBoxNE": [
-                2.2,
-                2.296
-            ],
-            "bBoxSW": [
-                0.0,
-                -0.3
-            ]
-        },
         "Ugrave": {
             "bBoxNE": [
                 2.672,
@@ -382,16 +322,6 @@
                 -1.863
             ]
         },
-        "W": {
-            "bBoxNE": [
-                0.056,
-                0.3724
-            ],
-            "bBoxSW": [
-                0.0,
-                -3.3208
-            ]
-        },
         "Ydieresis": {
             "bBoxNE": [
                 0.056,
@@ -400,16 +330,6 @@
             "bBoxSW": [
                 -0.456,
                 -1.303
-            ]
-        },
-        "accidentalDoubleFlat": {
-            "bBoxNE": [
-                0.56,
-                0.392
-            ],
-            "bBoxSW": [
-                0.0,
-                -1.721
             ]
         },
         "accidentalDoubleFlatParens": {
@@ -430,16 +350,6 @@
             "bBoxSW": [
                 -0.021,
                 -1.91
-            ]
-        },
-        "accidentalFlatParens": {
-            "bBoxNE": [
-                0.0013,
-                1.8567
-            ],
-            "bBoxSW": [
-                -0.0608,
-                -0.3691
             ]
         },
         "accidentalSharpParens": {
@@ -482,6 +392,56 @@
                 -0.3044
             ]
         },
+        "ascii178": {
+            "bBoxNE": [
+                0.512,
+                0.3
+            ],
+            "bBoxSW": [
+                0.0,
+                -1.8122
+            ]
+        },
+        "ascii189": {
+            "bBoxNE": [
+                0.5921,
+                0.38
+            ],
+            "bBoxSW": [
+                -0.688,
+                -0.9446
+            ]
+        },
+        "ascii190": {
+            "bBoxNE": [
+                0.56,
+                1.732
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.392
+            ]
+        },
+        "ascii214": {
+            "bBoxNE": [
+                0.512,
+                3.248
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.304
+            ]
+        },
+        "ascii230": {
+            "bBoxNE": [
+                3.472,
+                3.796
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3
+            ]
+        },
         "ascii45": {
             "bBoxNE": [
                 1.4512,
@@ -504,11 +464,11 @@
         },
         "ascii6e": {
             "bBoxNE": [
-                0.784,
+                0.7444,
                 2.8915
             ],
             "bBoxSW": [
-                0.0,
+                -0.0004,
                 -0.68
             ]
         },
@@ -520,16 +480,6 @@
             "bBoxSW": [
                 -0.007,
                 -2.7145
-            ]
-        },
-        "at": {
-            "bBoxNE": [
-                0.0013,
-                1.3627
-            ],
-            "bBoxSW": [
-                -0.0612,
-                -0.3881
             ]
         },
         "backslash": {
@@ -552,9 +502,9 @@
                 -0.3795
             ]
         },
-        "blackPesFinal2nd_ascii": {
+        "blackPesFinal2nd": {
             "bBoxNE": [
-                0.0355,
+                0.0555,
                 0.3636
             ],
             "bBoxSW": [
@@ -564,7 +514,7 @@
         },
         "blackPesFinal3rd": {
             "bBoxNE": [
-                0.0322,
+                0.0542,
                 0.3706
             ],
             "bBoxSW": [
@@ -574,7 +524,7 @@
         },
         "blackPesFinal4th_": {
             "bBoxNE": [
-                0.0342,
+                0.0552,
                 0.3716
             ],
             "bBoxSW": [
@@ -594,7 +544,7 @@
         },
         "blackPesFinal5th_": {
             "bBoxNE": [
-                0.0342,
+                0.0552,
                 0.371
             ],
             "bBoxSW": [
@@ -614,7 +564,7 @@
         },
         "blackPesFinal6th": {
             "bBoxNE": [
-                0.0342,
+                0.0552,
                 0.3716
             ],
             "bBoxSW": [
@@ -624,7 +574,7 @@
         },
         "blackPesFinal7th": {
             "bBoxNE": [
-                0.0342,
+                0.0589,
                 0.3716
             ],
             "bBoxSW": [
@@ -662,24 +612,14 @@
                 -1.185
             ]
         },
-        "cClef": {
-            "bBoxNE": [
-                0.0013,
-                2.3787
-            ],
-            "bBoxSW": [
-                -0.0608,
-                -0.4231
-            ]
-        },
         "caron": {
             "bBoxNE": [
-                0.9428,
-                0.616
+                0.8719,
+                0.5219
             ],
             "bBoxSW": [
-                -0.0028,
-                -0.638
+                0.0681,
+                -0.5439
             ]
         },
         "ccedilla": {
@@ -692,17 +632,7 @@
                 -2.803
             ]
         },
-        "chantAuctumDesc": {
-            "bBoxNE": [
-                2.6102,
-                1.9825
-            ],
-            "bBoxSW": [
-                0.0,
-                -0.3899
-            ]
-        },
-        "chantCclef": {
+        "chantCclef_smufl": {
             "bBoxNE": [
                 0.544,
                 0.8336
@@ -732,7 +662,7 @@
                 -0.328
             ]
         },
-        "chantFclef": {
+        "chantFclef_smufl": {
             "bBoxNE": [
                 1.084,
                 0.8271
@@ -742,33 +672,13 @@
                 -0.8896
             ]
         },
-        "chantOriscusDescending": {
-            "bBoxNE": [
-                2.6102,
-                1.9825
-            ],
-            "bBoxSW": [
-                0.0,
-                -0.36
-            ]
-        },
-        "chantQuilisma": {
-            "bBoxNE": [
-                2.6102,
-                1.9825
-            ],
-            "bBoxSW": [
-                0.0,
-                -0.316
-            ]
-        },
         "chantStrophicusAuctus": {
             "bBoxNE": [
-                0.56,
-                0.376
+                1.4582,
+                1.7025
             ],
             "bBoxSW": [
-                0.0,
+                -0.1714,
                 -0.418
             ]
         },
@@ -782,43 +692,93 @@
                 -0.3
             ]
         },
-        "clivisFinal2nd": {
+        "clivisBlackInitial3": {
+            "bBoxNE": [
+                0.7256,
+                0.3716
+            ],
+            "bBoxSW": [
+                -0.0208,
+                -1.88
+            ]
+        },
+        "clivisBlackInitial4": {
             "bBoxNE": [
                 0.7276,
                 0.3716
             ],
             "bBoxSW": [
-                -0.0076,
+                -0.0185,
+                -2.336
+            ]
+        },
+        "clivisBlackInitial5": {
+            "bBoxNE": [
+                0.7276,
+                0.3716
+            ],
+            "bBoxSW": [
+                -0.0159,
+                -2.8333
+            ]
+        },
+        "clivisBlackInitial6": {
+            "bBoxNE": [
+                0.7276,
+                0.3716
+            ],
+            "bBoxSW": [
+                -0.017,
+                -3.291
+            ]
+        },
+        "clivisBlackInitial7": {
+            "bBoxNE": [
+                0.7276,
+                0.3716
+            ],
+            "bBoxSW": [
+                -0.0153,
+                -3.7467
+            ]
+        },
+        "clivisFinal2nd": {
+            "bBoxNE": [
+                0.7246,
+                0.3716
+            ],
+            "bBoxSW": [
+                -0.0106,
                 -0.3795
             ]
         },
         "clivisFinal3rd": {
             "bBoxNE": [
-                0.7346,
+                0.7166,
                 1.3296
             ],
             "bBoxSW": [
-                -0.0006,
+                -0.0186,
                 -0.3875
             ]
         },
         "clivisFinalBlack4th": {
             "bBoxNE": [
-                0.7336,
+                0.7196,
                 1.8467
             ],
             "bBoxSW": [
-                -0.0016,
+                -0.042,
                 -0.3848
             ]
         },
         "clivisFinalBlack5th": {
             "bBoxNE": [
-                0.7336,
+                0.7226,
                 2.348
             ],
             "bBoxSW": [
-                -0.0016,
+                -0.039,
                 -0.3848
             ]
         },
@@ -864,82 +824,122 @@
         },
         "clivisInitial2": {
             "bBoxNE": [
-                0.7276,
+                0.7246,
                 0.3716
             ],
             "bBoxSW": [
-                -0.0188,
-                -1.3987
+                -0.0218,
+                -1.3853
             ]
         },
-        "clivisInitial3": {
+        "clivisWhiteInitial3": {
             "bBoxNE": [
-                0.7286,
-                0.3716
+                0.7293,
+                0.3688
             ],
             "bBoxSW": [
-                -0.0178,
-                -1.908
+                -0.0208,
+                -1.874
             ]
         },
-        "clivisInitial4": {
+        "connectingStem2ndUp": {
             "bBoxNE": [
-                0.7276,
-                0.3716
+                0.0319,
+                0.8615
             ],
             "bBoxSW": [
-                -0.0185,
-                -2.336
+                -0.0301,
+                -0.3806
             ]
         },
-        "clivisInitial5": {
+        "connectingStem2ndc": {
             "bBoxNE": [
-                0.7276,
-                0.3716
+                0.0292,
+                0.3695
             ],
             "bBoxSW": [
-                -0.0159,
-                -2.8333
+                -0.0218,
+                -0.8756
             ]
         },
-        "clivisInitial6": {
+        "connectingStem3rdDown": {
             "bBoxNE": [
-                0.7276,
-                0.3716
-            ],
-            "bBoxSW": [
-                -0.017,
-                -3.291
-            ]
-        },
-        "clivisInitial7": {
-            "bBoxNE": [
-                0.7276,
-                0.3716
-            ],
-            "bBoxSW": [
-                -0.0153,
-                -3.7467
-            ]
-        },
-        "connectingStem2nd": {
-            "bBoxNE": [
-                0.0343,
-                0.4935
-            ],
-            "bBoxSW": [
-                -0.0257,
-                -0.7776
-            ]
-        },
-        "connectingStem3rd": {
-            "bBoxNE": [
-                0.0327,
+                0.0278,
                 0.364
             ],
             "bBoxSW": [
-                -0.0273,
-                -1.354
+                -0.0232,
+                -1.358
+            ]
+        },
+        "connectingStem3rdUp": {
+            "bBoxNE": [
+                0.0313,
+                1.3627
+            ],
+            "bBoxSW": [
+                -0.0312,
+                -0.3741
+            ]
+        },
+        "connectingStem4thDown": {
+            "bBoxNE": [
+                0.032,
+                0.3741
+            ],
+            "bBoxSW": [
+                -0.028,
+                -1.7355
+            ]
+        },
+        "connectingStem4thUp": {
+            "bBoxNE": [
+                0.0253,
+                1.8567
+            ],
+            "bBoxSW": [
+                -0.0368,
+                -0.3691
+            ]
+        },
+        "connectingStem5thDown": {
+            "bBoxNE": [
+                0.028,
+                0.3701
+            ],
+            "bBoxSW": [
+                -0.028,
+                -2.3658
+            ]
+        },
+        "connectingStem5thUp": {
+            "bBoxNE": [
+                0.0293,
+                2.3787
+            ],
+            "bBoxSW": [
+                -0.0328,
+                -0.3771
+            ]
+        },
+        "connectingStem6thDown": {
+            "bBoxNE": [
+                0.032,
+                0.5047
+            ],
+            "bBoxSW": [
+                -0.024,
+                -2.8208
+            ]
+        },
+        "connectingStem7thDown": {
+            "bBoxNE": [
+                0.03,
+                0.3724
+            ],
+            "bBoxSW": [
+                -0.026,
+                -3.3208
             ]
         },
         "copyright": {
@@ -1032,16 +1032,6 @@
                 -0.304
             ]
         },
-        "emptySpace_ascii": {
-            "bBoxNE": [
-                0.0,
-                0.0
-            ],
-            "bBoxSW": [
-                0.0,
-                0.0
-            ]
-        },
         "exclamdown": {
             "bBoxNE": [
                 0.56,
@@ -1062,26 +1052,6 @@
                 -1.2
             ]
         },
-        "fClef": {
-            "bBoxNE": [
-                0.0009,
-                0.8395
-            ],
-            "bBoxSW": [
-                -0.0611,
-                -0.4316
-            ]
-        },
-        "fClef8va": {
-            "bBoxNE": [
-                3.472,
-                3.796
-            ],
-            "bBoxSW": [
-                0.0,
-                -0.3
-            ]
-        },
         "fClefFrench": {
             "bBoxNE": [
                 3.056,
@@ -1100,16 +1070,6 @@
             "bBoxSW": [
                 -0.456,
                 -3.303
-            ]
-        },
-        "fl": {
-            "bBoxNE": [
-                0.6278,
-                0.3257
-            ],
-            "bBoxSW": [
-                -0.002,
-                -0.3056
             ]
         },
         "florin": {
@@ -1140,26 +1100,6 @@
             "bBoxSW": [
                 0.0,
                 -1.956
-            ]
-        },
-        "gClef8vb": {
-            "bBoxNE": [
-                0.056,
-                0.5047
-            ],
-            "bBoxSW": [
-                0.0,
-                -2.8208
-            ]
-        },
-        "gClefFrenchViolin": {
-            "bBoxNE": [
-                1.728,
-                0.796
-            ],
-            "bBoxSW": [
-                0.0,
-                -0.3
             ]
         },
         "guillemotleft": {
@@ -1200,16 +1140,6 @@
             "bBoxSW": [
                 -0.456,
                 -2.803
-            ]
-        },
-        "hungarumlaut": {
-            "bBoxNE": [
-                2.6102,
-                1.9825
-            ],
-            "bBoxSW": [
-                0.0,
-                -0.332
             ]
         },
         "hyphen": {
@@ -1292,7 +1222,7 @@
                 -0.304
             ]
         },
-        "medRenFlatSoftB": {
+        "medRenFlatSoftB_smufl": {
             "bBoxNE": [
                 0.3979,
                 1.0924
@@ -1302,7 +1232,7 @@
                 -0.359
             ]
         },
-        "medRenNatural": {
+        "medRenNatural_smufl": {
             "bBoxNE": [
                 0.638,
                 0.7852
@@ -1312,7 +1242,7 @@
                 -0.7041
             ]
         },
-        "medRenSharp1": {
+        "medRenSharp1_orig": {
             "bBoxNE": [
                 0.6225,
                 0.998
@@ -1322,7 +1252,7 @@
                 -0.9625
             ]
         },
-        "medRenSharp2": {
+        "medRenSharp2_orig": {
             "bBoxNE": [
                 0.6506,
                 0.8959
@@ -1330,6 +1260,36 @@
             "bBoxSW": [
                 -0.0135,
                 -0.909
+            ]
+        },
+        "mensNoteheadSemiminimaW_smufl": {
+            "bBoxNE": [
+                0.7543,
+                0.6446
+            ],
+            "bBoxSW": [
+                -0.0001,
+                -0.6355
+            ]
+        },
+        "mensProlationCombiningDot_smufl": {
+            "bBoxNE": [
+                0.286,
+                0.1496
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.1408
+            ]
+        },
+        "mensRestLongaImperfecta_smufl": {
+            "bBoxNE": [
+                0.1106,
+                1.0
+            ],
+            "bBoxSW": [
+                -0.0021,
+                -1.0
             ]
         },
         "mensuralBlackBrevis": {
@@ -1342,7 +1302,7 @@
                 -0.3795
             ]
         },
-        "mensuralBlackBrevis_ascii": {
+        "mensuralBlackBrevis_smufl": {
             "bBoxNE": [
                 0.7276,
                 0.3716
@@ -1354,11 +1314,11 @@
         },
         "mensuralBlackDragma": {
             "bBoxNE": [
-                0.784,
+                0.7444,
                 2.8996
             ],
             "bBoxSW": [
-                0.0,
+                -0.0004,
                 -2.8835
             ]
         },
@@ -1382,30 +1342,20 @@
                 -2.2416
             ]
         },
-        "mensuralBlackLonga_ascii": {
-            "bBoxNE": [
-                0.7687,
-                0.3774
-            ],
-            "bBoxSW": [
-                -0.0038,
-                -2.2416
-            ]
-        },
         "mensuralBlackMaxima": {
             "bBoxNE": [
                 1.5618,
-                0.3758
+                0.4038
             ],
             "bBoxSW": [
                 -0.0071,
                 -2.2044
             ]
         },
-        "mensuralBlackMaxima_ascii": {
+        "mensuralBlackMaxima_smufl": {
             "bBoxNE": [
                 1.5618,
-                0.3758
+                0.4038
             ],
             "bBoxSW": [
                 -0.0071,
@@ -1414,32 +1364,32 @@
         },
         "mensuralBlackMinima": {
             "bBoxNE": [
-                0.7922,
+                0.7543,
                 2.4228
             ],
             "bBoxSW": [
-                -0.0019,
+                -0.0001,
                 -0.6355
             ]
         },
         "mensuralBlackSemibrevis": {
             "bBoxNE": [
-                0.828,
+                0.7843,
                 0.6139
             ],
             "bBoxSW": [
-                0.0,
+                -0.0023,
                 -0.6053
             ]
         },
         "mensuralBlackSemibrevisCaudata": {
             "bBoxNE": [
-                0.828,
+                0.7843,
                 0.6139
             ],
             "bBoxSW": [
-                0.0,
-                -2.3768
+                -0.0023,
+                -1.688
             ]
         },
         "mensuralBlackSemibrevisOblique": {
@@ -1454,25 +1404,15 @@
         },
         "mensuralBlackSemiminima": {
             "bBoxNE": [
-                0.784,
+                0.7444,
                 2.9024
             ],
             "bBoxSW": [
-                0.0,
+                -0.0004,
                 -0.6572
             ]
         },
-        "mensuralCclefPetrucciPosMiddle": {
-            "bBoxNE": [
-                0.512,
-                0.3084
-            ],
-            "bBoxSW": [
-                0.0,
-                -1.161
-            ]
-        },
-        "mensuralCclefSloped": {
+        "mensuralCclefSloped_orig": {
             "bBoxNE": [
                 0.548,
                 0.875
@@ -1482,7 +1422,7 @@
                 -0.7746
             ]
         },
-        "mensuralCombStemDown": {
+        "mensuralCombStemDown_smufl": {
             "bBoxNE": [
                 0.0816,
                 0.032
@@ -1502,7 +1442,17 @@
                 -0.032
             ]
         },
-        "mensuralCustosCheckmark": {
+        "mensuralCombStemUpFlagRight": {
+            "bBoxNE": [
+                0.3548,
+                2.3131
+            ],
+            "bBoxSW": [
+                -0.1822,
+                -0.0548
+            ]
+        },
+        "mensuralCustosCheckmark_orig": {
             "bBoxNE": [
                 1.6933,
                 1.6107
@@ -1522,7 +1472,7 @@
                 -0.1018
             ]
         },
-        "mensuralFclef": {
+        "mensuralFclef_smufl": {
             "bBoxNE": [
                 1.656,
                 0.6853
@@ -1532,17 +1482,7 @@
                 -0.6563
             ]
         },
-        "mensuralGclef": {
-            "bBoxNE": [
-                1.4185,
-                0.8159
-            ],
-            "bBoxSW": [
-                0.0018,
-                -0.8251
-            ]
-        },
-        "mensuralGclef2": {
+        "mensuralGclef2_orig": {
             "bBoxNE": [
                 2.2827,
                 2.6495
@@ -1552,7 +1492,7 @@
                 -0.9269
             ]
         },
-        "mensuralGclefPetrucci": {
+        "mensuralGclefPetrucci_smufl": {
             "bBoxNE": [
                 2.1435,
                 4.9624
@@ -1562,37 +1502,37 @@
                 -0.8544
             ]
         },
-        "mensuralNoteheadLongaBlack": {
+        "mensuralGclef_smufl": {
             "bBoxNE": [
-                0.9428,
-                0.616
+                1.4185,
+                0.8159
             ],
             "bBoxSW": [
-                -0.0028,
-                -0.638
+                0.0018,
+                -0.8251
             ]
         },
-        "mensuralNoteheadMaximaBlack": {
+        "mensuralNoteheadLongaBlack": {
+            "bBoxNE": [
+                0.8719,
+                0.5409
+            ],
+            "bBoxSW": [
+                0.0681,
+                -0.5249
+            ]
+        },
+        "mensuralNoteheadMaxBlack_smufl": {
             "bBoxNE": [
                 1.5768,
-                0.3697
+                0.3857
             ],
             "bBoxSW": [
                 -0.0069,
-                -0.3943
+                -0.3983
             ]
         },
-        "mensuralNoteheadSemiminimaWhite": {
-            "bBoxNE": [
-                0.7922,
-                0.6446
-            ],
-            "bBoxSW": [
-                -0.0019,
-                -0.6355
-            ]
-        },
-        "mensuralObliqueDesc2ndBlack": {
+        "mensuralOblDesc2ndBW_smufl": {
             "bBoxNE": [
                 1.636,
                 0.3658
@@ -1602,44 +1542,44 @@
                 -0.8442
             ]
         },
-        "mensuralObliqueDesc2ndBlackVoid": {
+        "mensuralObliqueDesc2ndWhite": {
             "bBoxNE": [
-                1.636,
-                0.3658
+                1.629,
+                0.8578
             ],
             "bBoxSW": [
-                0.0,
-                -0.8442
+                -0.007,
+                -0.3522
             ]
         },
-        "mensuralObliqueDesc3rdBlack": {
+        "mensuralObliqueDesc3rdWhite": {
             "bBoxNE": [
                 1.62,
-                0.362
+                1.348
             ],
             "bBoxSW": [
                 0.0,
-                -1.3655
+                -0.3795
             ]
         },
-        "mensuralObliqueDesc4thBlack": {
+        "mensuralObliqueDesc4thWhite": {
             "bBoxNE": [
                 2.152,
-                0.3595
+                1.8695
             ],
             "bBoxSW": [
                 0.0,
-                -1.8835
+                -0.3735
             ]
         },
-        "mensuralObliqueDesc5thBlack": {
+        "mensuralObliqueDesc5thWhite": {
             "bBoxNE": [
                 2.706,
-                0.3561
+                2.3511
             ],
             "bBoxSW": [
                 0.0,
-                -2.3628
+                -0.3678
             ]
         },
         "mensuralProlation1": {
@@ -1652,7 +1592,7 @@
                 -0.608
             ]
         },
-        "mensuralProlation10": {
+        "mensuralProlation10_smufl": {
             "bBoxNE": [
                 1.136,
                 0.86
@@ -1672,7 +1612,7 @@
                 -0.608
             ]
         },
-        "mensuralProlation3": {
+        "mensuralProlation3_smufl": {
             "bBoxNE": [
                 1.208,
                 0.86
@@ -1682,7 +1622,7 @@
                 -0.8061
             ]
         },
-        "mensuralProlation4": {
+        "mensuralProlation4_smufl": {
             "bBoxNE": [
                 1.208,
                 0.86
@@ -1692,7 +1632,7 @@
                 -0.808
             ]
         },
-        "mensuralProlation5": {
+        "mensuralProlation5_smufl": {
             "bBoxNE": [
                 1.132,
                 0.608
@@ -1722,7 +1662,7 @@
                 -0.608
             ]
         },
-        "mensuralProlation8": {
+        "mensuralProlation8_smufl": {
             "bBoxNE": [
                 1.132,
                 0.86
@@ -1732,7 +1672,7 @@
                 -0.806
             ]
         },
-        "mensuralProlation9": {
+        "mensuralProlation9_smufl": {
             "bBoxNE": [
                 1.136,
                 0.8584
@@ -1742,57 +1682,27 @@
                 -0.808
             ]
         },
-        "mensuralProlationCombiningDot": {
+        "mensuralPropTempPerfect_smufl": {
             "bBoxNE": [
-                0.286,
-                0.1496
+                1.214,
+                0.627
             ],
             "bBoxSW": [
                 0.0,
-                -0.1408
+                -0.608
             ]
         },
-        "mensuralProportion1": {
+        "mensuralProportioDupla2_smufl": {
             "bBoxNE": [
-                0.8388,
-                0.8822
+                1.214,
+                0.627
             ],
             "bBoxSW": [
-                -0.0072,
-                -0.8782
+                0.0,
+                -0.608
             ]
         },
-        "mensuralProportion2": {
-            "bBoxNE": [
-                1.6065,
-                0.8572
-            ],
-            "bBoxSW": [
-                0.0009,
-                -0.8384
-            ]
-        },
-        "mensuralProportion3": {
-            "bBoxNE": [
-                1.0728,
-                1.3235
-            ],
-            "bBoxSW": [
-                -0.0144,
-                -1.1533
-            ]
-        },
-        "mensuralProportion4": {
-            "bBoxNE": [
-                2.1996,
-                1.5299
-            ],
-            "bBoxSW": [
-                0.0072,
-                -1.0549
-            ]
-        },
-        "mensuralProportionProportioDupla": {
+        "mensuralProportioDupla_smufl": {
             "bBoxNE": [
                 1.452,
                 0.608
@@ -1802,17 +1712,7 @@
                 -0.608
             ]
         },
-        "mensuralProportionProportioDupla2": {
-            "bBoxNE": [
-                1.214,
-                0.627
-            ],
-            "bBoxSW": [
-                0.0,
-                -0.608
-            ]
-        },
-        "mensuralProportionProportioQuadrupla": {
+        "mensuralProportioQuadr_smufl": {
             "bBoxNE": [
                 1.177,
                 0.626
@@ -1822,7 +1722,7 @@
                 -0.608
             ]
         },
-        "mensuralProportionProportioTripla": {
+        "mensuralProportioTripla_smufl": {
             "bBoxNE": [
                 1.214,
                 0.627
@@ -1832,84 +1732,304 @@
                 -0.608
             ]
         },
-        "mensuralProportionTempusPerfect": {
+        "mensuralProportion1_smufl": {
             "bBoxNE": [
-                1.214,
-                0.627
+                0.8388,
+                0.8822
             ],
             "bBoxSW": [
-                0.0,
-                -0.608
+                -0.0072,
+                -0.8782
             ]
         },
-        "mensuralRestBrevis": {
+        "mensuralProportion2_smufl": {
             "bBoxNE": [
-                0.1765,
+                1.6065,
+                0.8572
+            ],
+            "bBoxSW": [
+                0.0009,
+                -0.8384
+            ]
+        },
+        "mensuralProportion3_smufl": {
+            "bBoxNE": [
+                1.0728,
+                1.3235
+            ],
+            "bBoxSW": [
+                -0.0144,
+                -1.1533
+            ]
+        },
+        "mensuralProportion4_smufl": {
+            "bBoxNE": [
+                2.1996,
+                1.5299
+            ],
+            "bBoxSW": [
+                0.0072,
+                -1.0549
+            ]
+        },
+        "mensuralRest1Space": {
+            "bBoxNE": [
+                0.1461,
                 1.0
             ],
             "bBoxSW": [
-                -0.0022,
+                -0.0018,
                 -0.002
             ]
         },
-        "mensuralRestLongaImperfecta": {
+        "mensuralRest2FullSpaceUp": {
             "bBoxNE": [
-                0.1717,
+                0.5061,
+                1.0
+            ],
+            "bBoxSW": [
+                -0.0018,
+                -0.002
+            ]
+        },
+        "mensuralRest2HalfSpacesUp": {
+            "bBoxNE": [
+                0.4945,
+                0.513
+            ],
+            "bBoxSW": [
+                -0.002,
+                -0.005
+            ]
+        },
+        "mensuralRest2Spaces": {
+            "bBoxNE": [
+                0.1106,
                 2.0
             ],
             "bBoxSW": [
-                -0.0033,
+                -0.0021,
                 0.0
+            ]
+        },
+        "mensuralRest3FullSpaceUp": {
+            "bBoxNE": [
+                0.4806,
+                2.0
+            ],
+            "bBoxSW": [
+                0.0009,
+                0.0
+            ]
+        },
+        "mensuralRest3Spaces": {
+            "bBoxNE": [
+                0.1073,
+                3.0
+            ],
+            "bBoxSW": [
+                -0.0014,
+                0.0
+            ]
+        },
+        "mensuralRest4Spaces": {
+            "bBoxNE": [
+                0.1041,
+                4.0
+            ],
+            "bBoxSW": [
+                -0.0021,
+                0.0
+            ]
+        },
+        "mensuralRestBrevis_smufl": {
+            "bBoxNE": [
+                0.1461,
+                1.0
+            ],
+            "bBoxSW": [
+                -0.0018,
+                -0.002
+            ]
+        },
+        "mensuralRestFusa": {
+            "bBoxNE": [
+                0.388,
+                0.5088
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.0035
+            ]
+        },
+        "mensuralRestFusa_smufl": {
+            "bBoxNE": [
+                0.388,
+                0.5088
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.0035
+            ]
+        },
+        "mensuralRestHalfSpaceDown": {
+            "bBoxNE": [
+                0.1436,
+                0.007
+            ],
+            "bBoxSW": [
+                -0.001,
+                -0.509
+            ]
+        },
+        "mensuralRestHalfSpaceUp": {
+            "bBoxNE": [
+                0.1445,
+                0.513
+            ],
+            "bBoxSW": [
+                -0.002,
+                -0.005
             ]
         },
         "mensuralRestLongaPerfecta": {
             "bBoxNE": [
-                0.1666,
-                3.0
+                0.1041,
+                2.0
             ],
             "bBoxSW": [
-                -0.0022,
+                -0.0021,
+                -2.0
+            ]
+        },
+        "mensuralRestMaxima_smufl": {
+            "bBoxNE": [
+                0.6285,
+                2.0
+            ],
+            "bBoxSW": [
+                -0.0021,
+                -2.0
+            ]
+        },
+        "mensuralRestMinima_smufl": {
+            "bBoxNE": [
+                0.1436,
+                0.51
+            ],
+            "bBoxSW": [
+                -0.001,
+                -0.006
+            ]
+        },
+        "mensuralRestOneThirdSpaceUp": {
+            "bBoxNE": [
+                0.1441,
+                0.3281
+            ],
+            "bBoxSW": [
+                -0.001,
                 0.0
             ]
         },
-        "mensuralRestMaxima": {
+        "mensuralRestSemibrevis_": {
             "bBoxNE": [
-                0.5806,
-                3.0
+                0.1445,
+                1.009
             ],
             "bBoxSW": [
-                -0.0022,
-                0.0
+                -0.002,
+                0.491
             ]
         },
-        "mensuralRestSemibrevis": {
+        "mensuralRestSemifusa_smufl": {
             "bBoxNE": [
-                0.1765,
-                0.5
+                0.388,
+                0.6368
             ],
             "bBoxSW": [
-                -0.0022,
-                -0.001
+                0.0,
+                -0.0028
             ]
         },
-        "mensuralRestSemibrevisMajor": {
+        "mensuralRestSemiminima_smufl": {
             "bBoxNE": [
-                0.1765,
-                0.67
+                0.388,
+                0.5028
             ],
             "bBoxSW": [
-                -0.0022,
-                -0.0013
+                0.0,
+                -0.0095
             ]
         },
-        "mensuralRestSemibrevisMinor": {
+        "mensuralWhiteBrevis": {
             "bBoxNE": [
-                0.1765,
-                0.35
+                0.7293,
+                0.3644
             ],
             "bBoxSW": [
-                -0.0022,
-                -0.0007
+                -0.0075,
+                -0.3772
+            ]
+        },
+        "mensuralWhiteLonga": {
+            "bBoxNE": [
+                0.7687,
+                0.3985
+            ],
+            "bBoxSW": [
+                -0.0038,
+                -2.2416
+            ]
+        },
+        "mensuralWhiteMaxima": {
+            "bBoxNE": [
+                1.5618,
+                0.4025
+            ],
+            "bBoxSW": [
+                -0.0071,
+                -2.2044
+            ]
+        },
+        "mensuralWhiteMinima": {
+            "bBoxNE": [
+                0.752,
+                2.424
+            ],
+            "bBoxSW": [
+                -0.0023,
+                -0.6053
+            ]
+        },
+        "mensuralWhiteSemibrevis": {
+            "bBoxNE": [
+                0.7843,
+                0.6139
+            ],
+            "bBoxSW": [
+                -0.0023,
+                -0.6053
+            ]
+        },
+        "mensuralWhiteSemibrevisCaudata": {
+            "bBoxNE": [
+                0.7843,
+                0.6139
+            ],
+            "bBoxSW": [
+                -0.0023,
+                -1.688
+            ]
+        },
+        "mensuralWhiteSemiminima": {
+            "bBoxNE": [
+                0.7843,
+                2.876
+            ],
+            "bBoxSW": [
+                -0.0023,
+                -0.6053
             ]
         },
         "notequal": {
@@ -1942,27 +2062,37 @@
                 -0.3
             ]
         },
-        "obliqueDesc2ndBlackEndAscii": {
+        "obliqueDesc2ndBlack": {
             "bBoxNE": [
-                1.492,
-                0.8962
+                1.629,
+                0.8578
+            ],
+            "bBoxSW": [
+                -0.007,
+                -0.3522
+            ]
+        },
+        "obliqueDesc2ndBlackEnd": {
+            "bBoxNE": [
+                1.5132,
+                0.8602
             ],
             "bBoxSW": [
                 -0.0002,
                 -0.4601
             ]
         },
-        "obliqueDesc2ndBlack_ascii": {
+        "obliqueDesc2ndWhiteEnd": {
             "bBoxNE": [
-                1.636,
-                0.8578
+                1.5122,
+                0.8582
             ],
             "bBoxSW": [
-                0.0,
-                -0.3522
+                -0.0012,
+                -0.4621
             ]
         },
-        "obliqueDesc3rdBlack_ascii": {
+        "obliqueDesc3rdBlack": {
             "bBoxNE": [
                 1.62,
                 1.348
@@ -1972,7 +2102,7 @@
                 -0.3795
             ]
         },
-        "obliqueDesc4thBlack_ascii": {
+        "obliqueDesc4thBlack": {
             "bBoxNE": [
                 2.152,
                 1.8695
@@ -1982,7 +2112,7 @@
                 -0.3735
             ]
         },
-        "obliqueDesc5thBlack_ascii": {
+        "obliqueDesc5thBlack": {
             "bBoxNE": [
                 2.706,
                 2.3511
@@ -1992,7 +2122,7 @@
                 -0.3678
             ]
         },
-        "obliqueDesc6thBlack_ascii": {
+        "obliqueDesc6thBlack": {
             "bBoxNE": [
                 2.672,
                 2.796
@@ -2002,7 +2132,7 @@
                 -0.3
             ]
         },
-        "obliqueDesc7thBlack_ascii": {
+        "obliqueDesc7thBlack": {
             "bBoxNE": [
                 3.056,
                 3.296
@@ -2012,7 +2142,7 @@
                 -0.3
             ]
         },
-        "obliqueDesc9thBlack_ascii": {
+        "obliqueDesc9thBlack": {
             "bBoxNE": [
                 3.872,
                 4.296
@@ -2022,7 +2152,7 @@
                 -0.3
             ]
         },
-        "obliqueDescOctBlack_ascii": {
+        "obliqueDescOctBlack": {
             "bBoxNE": [
                 3.472,
                 3.796
@@ -2062,34 +2192,14 @@
                 -0.392
             ]
         },
-        "oslash": {
-            "bBoxNE": [
-                0.56,
-                1.736
-            ],
-            "bBoxSW": [
-                0.0,
-                -0.392
-            ]
-        },
         "p": {
             "bBoxNE": [
-                0.784,
+                0.7444,
                 0.6572
             ],
             "bBoxSW": [
-                0.0,
+                -0.0004,
                 -2.9037
-            ]
-        },
-        "parenleft": {
-            "bBoxNE": [
-                2.6102,
-                1.9825
-            ],
-            "bBoxSW": [
-                0.0,
-                -0.3442
             ]
         },
         "partialdiff": {
@@ -2152,17 +2262,7 @@
                 -0.3875
             ]
         },
-        "pi": {
-            "bBoxNE": [
-                0.56,
-                1.721
-            ],
-            "bBoxSW": [
-                0.0,
-                -0.392
-            ]
-        },
-        "plicaBrevisAsc_ascii": {
+        "plicaBrevisAsc": {
             "bBoxNE": [
                 0.7131,
                 1.8187
@@ -2172,7 +2272,7 @@
                 -0.3813
             ]
         },
-        "plicaBrevisDesc_ascii": {
+        "plicaBrevisDesc": {
             "bBoxNE": [
                 0.698,
                 0.3801
@@ -2182,7 +2282,7 @@
                 -1.8413
             ]
         },
-        "plicaLongaAsc_ascii": {
+        "plicaLongaAsc": {
             "bBoxNE": [
                 0.7081,
                 1.8134
@@ -2192,7 +2292,7 @@
                 -0.3813
             ]
         },
-        "plicaLongaDesc_ascii": {
+        "plicaLongaDesc": {
             "bBoxNE": [
                 0.712,
                 0.3801
@@ -2202,7 +2302,7 @@
                 -1.826
             ]
         },
-        "plicaSemibrevisAsc_ascii": {
+        "plicaSemibrevisAsc": {
             "bBoxNE": [
                 1.7734,
                 1.4742
@@ -2212,7 +2312,7 @@
                 -0.6243
             ]
         },
-        "plicaSemibrevisDesc_ascii": {
+        "plicaSemibrevisDesc": {
             "bBoxNE": [
                 1.7562,
                 0.6243
@@ -2232,24 +2332,34 @@
                 -0.304
             ]
         },
+        "porrectusObl2ndCrushed2Black": {
+            "bBoxNE": [
+                1.792,
+                0.868
+            ],
+            "bBoxSW": [
+                -0.008,
+                -0.352
+            ]
+        },
         "porrectusOblique2ndCrushedBlack": {
             "bBoxNE": [
-                1.728,
-                0.9
+                1.9,
+                0.856
             ],
             "bBoxSW": [
                 0.0,
-                -0.4288
+                -0.716
             ]
         },
         "porrectusOblique3rdCrushedBlack": {
             "bBoxNE": [
-                1.792,
-                1.2944
+                1.62,
+                1.348
             ],
             "bBoxSW": [
-                -0.026,
-                -0.3
+                0.0,
+                -0.4155
             ]
         },
         "porrectusOblique4thCrushedBlack": {
@@ -2312,23 +2422,13 @@
                 -0.3006
             ]
         },
-        "product": {
-            "bBoxNE": [
-                0.6272,
-                0.4211
-            ],
-            "bBoxSW": [
-                0.0,
-                -0.439
-            ]
-        },
         "q": {
             "bBoxNE": [
-                0.784,
+                0.7444,
                 2.8996
             ],
             "bBoxSW": [
-                0.0,
+                -0.0004,
                 -2.9171
             ]
         },
@@ -2404,11 +2504,11 @@
         },
         "r": {
             "bBoxNE": [
-                0.784,
+                0.7444,
                 2.8996
             ],
             "bBoxSW": [
-                0.0,
+                -0.0004,
                 -2.9171
             ]
         },
@@ -2444,35 +2544,15 @@
         },
         "s": {
             "bBoxNE": [
-                0.784,
+                0.7444,
                 2.9171
             ],
             "bBoxSW": [
-                0.0,
+                -0.0004,
                 -2.9171
             ]
         },
-        "slash": {
-            "bBoxNE": [
-                0.1612,
-                0.3281
-            ],
-            "bBoxSW": [
-                0.0,
-                0.0
-            ]
-        },
-        "stemInitialDownShort_ascii": {
-            "bBoxNE": [
-                0.062,
-                0.376
-            ],
-            "bBoxSW": [
-                -0.042,
-                -1.8933
-            ]
-        },
-        "stemInitialDown_ascii": {
+        "stemInitialDown": {
             "bBoxNE": [
                 0.062,
                 0.3386
@@ -2482,7 +2562,17 @@
                 -2.24
             ]
         },
-        "stemInitialUp_ascii": {
+        "stemInitialDownShort": {
+            "bBoxNE": [
+                0.062,
+                0.376
+            ],
+            "bBoxSW": [
+                -0.042,
+                -1.8933
+            ]
+        },
+        "stemInitialUp": {
             "bBoxNE": [
                 0.051,
                 2.236
@@ -2490,26 +2580,6 @@
             "bBoxSW": [
                 -0.053,
                 -0.372
-            ]
-        },
-        "stringsDownBow": {
-            "bBoxNE": [
-                1.028,
-                0.248
-            ],
-            "bBoxSW": [
-                0.0,
-                -1.8122
-            ]
-        },
-        "stringsUpBow": {
-            "bBoxNE": [
-                0.512,
-                0.3
-            ],
-            "bBoxSW": [
-                0.0,
-                -1.8122
             ]
         },
         "summation": {
@@ -2532,66 +2602,6 @@
                 -0.3
             ]
         },
-        "timeSig0": {
-            "bBoxNE": [
-                0.1595,
-                0.0
-            ],
-            "bBoxSW": [
-                -0.0011,
-                -0.516
-            ]
-        },
-        "timeSig1": {
-            "bBoxNE": [
-                0.1606,
-                0.516
-            ],
-            "bBoxSW": [
-                -0.0022,
-                -0.002
-            ]
-        },
-        "timeSig2": {
-            "bBoxNE": [
-                0.5126,
-                0.516
-            ],
-            "bBoxSW": [
-                -0.0022,
-                -0.002
-            ]
-        },
-        "timeSig6": {
-            "bBoxNE": [
-                0.1617,
-                4.0
-            ],
-            "bBoxSW": [
-                -0.0033,
-                0.0
-            ]
-        },
-        "timeSig7": {
-            "bBoxNE": [
-                0.1606,
-                5.0
-            ],
-            "bBoxSW": [
-                -0.0022,
-                0.0
-            ]
-        },
-        "timeSig8": {
-            "bBoxNE": [
-                1.0782,
-                1.9145
-            ],
-            "bBoxSW": [
-                -0.808,
-                -1.9253
-            ]
-        },
         "timeSigCutCommon": {
             "bBoxNE": [
                 1.2102,
@@ -2600,26 +2610,6 @@
             "bBoxSW": [
                 -0.4194,
                 -2.276
-            ]
-        },
-        "tremolo3Legacy": {
-            "bBoxNE": [
-                0.56,
-                1.732
-            ],
-            "bBoxSW": [
-                0.0,
-                -0.392
-            ]
-        },
-        "tremolo4Legacy": {
-            "bBoxNE": [
-                0.5921,
-                0.38
-            ],
-            "bBoxSW": [
-                -0.688,
-                -0.9446
             ]
         },
         "u": {
@@ -2632,24 +2622,14 @@
                 -0.42
             ]
         },
-        "uni00A0": {
+        "verticalBar5Spaces": {
             "bBoxNE": [
-                0.512,
-                0.3167
+                0.1034,
+                5.0
             ],
             "bBoxSW": [
-                0.0,
-                -1.808
-            ]
-        },
-        "unpitchedPercussionClef2": {
-            "bBoxNE": [
-                0.512,
-                3.248
-            ],
-            "bBoxSW": [
-                0.0,
-                -0.304
+                -0.0014,
+                0.0
             ]
         },
         "virgaShortBlack": {
@@ -2690,6 +2670,16 @@
             "bBoxSW": [
                 0.0,
                 -0.308
+            ]
+        },
+        "zeroWidthSpace": {
+            "bBoxNE": [
+                0.0,
+                0.0
+            ],
+            "bBoxSW": [
+                0.0,
+                0.0
             ]
         }
     },
@@ -2797,12 +2787,6 @@
             ],
             "codepoint": "0XF04A"
         },
-        "K": {
-            "alternateCodepoints": [
-                "0X004B"
-            ],
-            "codepoint": "0XF04B"
-        },
         "L": {
             "alternateCodepoints": [
                 "0X004C"
@@ -2845,12 +2829,6 @@
             ],
             "codepoint": "0XF0EF"
         },
-        "Ograve": {
-            "alternateCodepoints": [
-                "0X00D2"
-            ],
-            "codepoint": "0XF0F1"
-        },
         "Oslash": {
             "alternateCodepoints": [
                 "0X00D8"
@@ -2869,30 +2847,6 @@
             ],
             "codepoint": "0XF050"
         },
-        "T": {
-            "alternateCodepoints": [
-                "0X0054"
-            ],
-            "codepoint": "0XF054"
-        },
-        "U": {
-            "alternateCodepoints": [
-                "0X0055"
-            ],
-            "codepoint": "0XF055"
-        },
-        "Uacute": {
-            "alternateCodepoints": [
-                "0X00DA"
-            ],
-            "codepoint": "0XF0F2"
-        },
-        "Ucircumflex": {
-            "alternateCodepoints": [
-                "0X00DB"
-            ],
-            "codepoint": "0XF0F3"
-        },
         "Ugrave": {
             "alternateCodepoints": [
                 "0X00D9"
@@ -2906,23 +2860,11 @@
             ],
             "codepoint": "0XE996"
         },
-        "W": {
-            "alternateCodepoints": [
-                "0X0057"
-            ],
-            "codepoint": "0XF057"
-        },
         "Ydieresis": {
             "alternateCodepoints": [
                 "0XF0D9"
             ],
             "codepoint": "0X0178"
-        },
-        "accidentalDoubleFlat": {
-            "alternateCodepoints": [
-                "0XF0BA"
-            ],
-            "codepoint": "0X222B"
         },
         "accidentalDoubleFlatParens": {
             "alternateCodepoints": [
@@ -2935,12 +2877,6 @@
                 "0X0062"
             ],
             "codepoint": "0XF062"
-        },
-        "accidentalFlatParens": {
-            "alternateCodepoints": [
-                "0X0041"
-            ],
-            "codepoint": "0XF041"
         },
         "accidentalSharpParens": {
             "alternateCodepoints": [
@@ -2966,6 +2902,36 @@
             ],
             "codepoint": "0X2248"
         },
+        "ascii178": {
+            "alternateCodepoints": [
+                "0XF0B2"
+            ],
+            "codepoint": "0X2264"
+        },
+        "ascii189": {
+            "alternateCodepoints": [
+                "0XF0BD"
+            ],
+            "codepoint": "0X03A9"
+        },
+        "ascii190": {
+            "alternateCodepoints": [
+                "0X00E6"
+            ],
+            "codepoint": "0XF0BE"
+        },
+        "ascii214": {
+            "alternateCodepoints": [
+                "0X00F7"
+            ],
+            "codepoint": "0XF0D6"
+        },
+        "ascii230": {
+            "alternateCodepoints": [
+                "0X00CA"
+            ],
+            "codepoint": "0XF0E6"
+        },
         "ascii45": {
             "alternateCodepoints": [
                 "0X0045"
@@ -2990,12 +2956,6 @@
             ],
             "codepoint": "0XF05B"
         },
-        "at": {
-            "alternateCodepoints": [
-                "0X0040"
-            ],
-            "codepoint": "0XF040"
-        },
         "backslash": {
             "alternateCodepoints": [
                 "0X005C"
@@ -3009,7 +2969,7 @@
             ],
             "codepoint": "0XE990"
         },
-        "blackPesFinal2nd_ascii": {
+        "blackPesFinal2nd": {
             "alternateCodepoints": [
                 "0X0039"
             ],
@@ -3075,12 +3035,6 @@
             ],
             "codepoint": "0X02D8"
         },
-        "cClef": {
-            "alternateCodepoints": [
-                "0X0042"
-            ],
-            "codepoint": "0XF042"
-        },
         "caron": {
             "alternateCodepoints": [
                 "0XF0FF"
@@ -3093,14 +3047,7 @@
             ],
             "codepoint": "0XF08D"
         },
-        "chantAuctumDesc": {
-            "alternateCodepoints": [
-                "0X0024",
-                "0XF024"
-            ],
-            "codepoint": "0XE995"
-        },
-        "chantCclef": {
+        "chantCclef_smufl": {
             "codepoint": "0XE906"
         },
         "chantCustosStemUpPosLow": {
@@ -3117,21 +3064,8 @@
             ],
             "codepoint": "0XEA06"
         },
-        "chantFclef": {
+        "chantFclef_smufl": {
             "codepoint": "0XE902"
-        },
-        "chantOriscusDescending": {
-            "alternateCodepoints": [
-                "0X00B8"
-            ],
-            "codepoint": "0XE99D"
-        },
-        "chantQuilisma": {
-            "alternateCodepoints": [
-                "0X0021",
-                "0XF021"
-            ],
-            "codepoint": "0XE99B"
         },
         "chantStrophicusAuctus": {
             "alternateCodepoints": [
@@ -3145,6 +3079,36 @@
                 "0XF0F6"
             ],
             "codepoint": "0X02C6"
+        },
+        "clivisBlackInitial3": {
+            "alternateCodepoints": [
+                "0X007A"
+            ],
+            "codepoint": "0XF07A"
+        },
+        "clivisBlackInitial4": {
+            "alternateCodepoints": [
+                "0X007B"
+            ],
+            "codepoint": "0XF07B"
+        },
+        "clivisBlackInitial5": {
+            "alternateCodepoints": [
+                "0X007C"
+            ],
+            "codepoint": "0XF07C"
+        },
+        "clivisBlackInitial6": {
+            "alternateCodepoints": [
+                "0X007D"
+            ],
+            "codepoint": "0XF07D"
+        },
+        "clivisBlackInitial7": {
+            "alternateCodepoints": [
+                "0X007E"
+            ],
+            "codepoint": "0XF07E"
         },
         "clivisFinal2nd": {
             "alternateCodepoints": [
@@ -3200,47 +3164,71 @@
             ],
             "codepoint": "0XF079"
         },
-        "clivisInitial3": {
+        "clivisWhiteInitial3": {
             "alternateCodepoints": [
-                "0X007A"
+                "0X00A0"
             ],
-            "codepoint": "0XF07A"
+            "codepoint": "0XF0CA"
         },
-        "clivisInitial4": {
+        "connectingStem2ndUp": {
             "alternateCodepoints": [
-                "0X007B"
+                "0X003F"
             ],
-            "codepoint": "0XF07B"
+            "codepoint": "0XF03F"
         },
-        "clivisInitial5": {
-            "alternateCodepoints": [
-                "0X007C"
-            ],
-            "codepoint": "0XF07C"
-        },
-        "clivisInitial6": {
-            "alternateCodepoints": [
-                "0X007D"
-            ],
-            "codepoint": "0XF07D"
-        },
-        "clivisInitial7": {
-            "alternateCodepoints": [
-                "0X007E"
-            ],
-            "codepoint": "0XF07E"
-        },
-        "connectingStem2nd": {
+        "connectingStem2ndc": {
             "alternateCodepoints": [
                 "0X0052"
             ],
             "codepoint": "0XF052"
         },
-        "connectingStem3rd": {
+        "connectingStem3rdDown": {
             "alternateCodepoints": [
                 "0X0053"
             ],
             "codepoint": "0XF053"
+        },
+        "connectingStem3rdUp": {
+            "alternateCodepoints": [
+                "0X0040"
+            ],
+            "codepoint": "0XF040"
+        },
+        "connectingStem4thDown": {
+            "alternateCodepoints": [
+                "0X0054"
+            ],
+            "codepoint": "0XF054"
+        },
+        "connectingStem4thUp": {
+            "alternateCodepoints": [
+                "0X0041"
+            ],
+            "codepoint": "0XF041"
+        },
+        "connectingStem5thDown": {
+            "alternateCodepoints": [
+                "0X0055"
+            ],
+            "codepoint": "0XF055"
+        },
+        "connectingStem5thUp": {
+            "alternateCodepoints": [
+                "0X0042"
+            ],
+            "codepoint": "0XF042"
+        },
+        "connectingStem6thDown": {
+            "alternateCodepoints": [
+                "0X0056"
+            ],
+            "codepoint": "0XF056"
+        },
+        "connectingStem7thDown": {
+            "alternateCodepoints": [
+                "0X0057"
+            ],
+            "codepoint": "0XF057"
         },
         "copyright": {
             "alternateCodepoints": [
@@ -3296,12 +3284,6 @@
             ],
             "codepoint": "0X2014"
         },
-        "emptySpace_ascii": {
-            "alternateCodepoints": [
-                "0X0020"
-            ],
-            "codepoint": "0XF020"
-        },
         "exclamdown": {
             "alternateCodepoints": [
                 "0X00A1"
@@ -3314,18 +3296,6 @@
             ],
             "codepoint": "0XF066"
         },
-        "fClef": {
-            "alternateCodepoints": [
-                "0X003F"
-            ],
-            "codepoint": "0XF03F"
-        },
-        "fClef8va": {
-            "alternateCodepoints": [
-                "0X00CA"
-            ],
-            "codepoint": "0XF0E6"
-        },
         "fClefFrench": {
             "alternateCodepoints": [
                 "0XF0F5"
@@ -3337,12 +3307,6 @@
                 "0XF0DE"
             ],
             "codepoint": "0XFB01"
-        },
-        "fl": {
-            "alternateCodepoints": [
-                "0XF0DF"
-            ],
-            "codepoint": "0XFB02"
         },
         "florin": {
             "alternateCodepoints": [
@@ -3361,18 +3325,6 @@
                 "0X0067"
             ],
             "codepoint": "0XF067"
-        },
-        "gClef8vb": {
-            "alternateCodepoints": [
-                "0X0056"
-            ],
-            "codepoint": "0XF056"
-        },
-        "gClefFrenchViolin": {
-            "alternateCodepoints": [
-                "0XF0F0"
-            ],
-            "codepoint": "0XF8FF"
         },
         "guillemotleft": {
             "alternateCodepoints": [
@@ -3397,12 +3349,6 @@
                 "0XF0DD"
             ],
             "codepoint": "0X203A"
-        },
-        "hungarumlaut": {
-            "alternateCodepoints": [
-                "0XF0FD"
-            ],
-            "codepoint": "0X02DD"
         },
         "hyphen": {
             "alternateCodepoints": [
@@ -3452,26 +3398,35 @@
             ],
             "codepoint": "0X25CA"
         },
-        "medRenFlatSoftB": {
+        "medRenFlatSoftB_smufl": {
             "codepoint": "0XE9E0"
         },
-        "medRenNatural": {
+        "medRenNatural_smufl": {
             "codepoint": "0XE9E2"
         },
-        "medRenSharp1": {
+        "medRenSharp1_orig": {
             "codepoint": "0XF705"
         },
-        "medRenSharp2": {
+        "medRenSharp2_orig": {
             "codepoint": "0XF706"
         },
-        "mensuralBlackBrevis": {
-            "codepoint": "0XE952"
+        "mensNoteheadSemiminimaW_smufl": {
+            "codepoint": "0XE93D"
         },
-        "mensuralBlackBrevis_ascii": {
+        "mensProlationCombiningDot_smufl": {
+            "codepoint": "0XE920"
+        },
+        "mensRestLongaImperfecta_smufl": {
+            "codepoint": "0XE9F2"
+        },
+        "mensuralBlackBrevis": {
             "alternateCodepoints": [
                 "0X00E8"
             ],
             "codepoint": "0XF08F"
+        },
+        "mensuralBlackBrevis_smufl": {
+            "codepoint": "0XE952"
         },
         "mensuralBlackDragma": {
             "alternateCodepoints": [
@@ -3481,25 +3436,27 @@
             "codepoint": "0XE95A"
         },
         "mensuralBlackFusa": {
+            "alternateCodepoints": [
+                "0X0038",
+                "0XF038"
+            ],
             "codepoint": "0XF702"
         },
         "mensuralBlackLonga": {
+            "alternateCodepoints": [
+                "0X0065",
+                "0XF065"
+            ],
             "codepoint": "0XE951"
         },
-        "mensuralBlackLonga_ascii": {
-            "alternateCodepoints": [
-                "0X0065"
-            ],
-            "codepoint": "0XF065"
-        },
         "mensuralBlackMaxima": {
-            "codepoint": "0XE950"
-        },
-        "mensuralBlackMaxima_ascii": {
             "alternateCodepoints": [
                 "0X0063"
             ],
             "codepoint": "0XF063"
+        },
+        "mensuralBlackMaxima_smufl": {
+            "codepoint": "0XE950"
         },
         "mensuralBlackMinima": {
             "alternateCodepoints": [
@@ -3536,16 +3493,10 @@
             ],
             "codepoint": "0XE955"
         },
-        "mensuralCclefPetrucciPosMiddle": {
-            "alternateCodepoints": [
-                "0XF0AA"
-            ],
-            "codepoint": "0X2122"
-        },
-        "mensuralCclefSloped": {
+        "mensuralCclefSloped_orig": {
             "codepoint": "0XF700"
         },
-        "mensuralCombStemDown": {
+        "mensuralCombStemDown_smufl": {
             "codepoint": "0XE93F"
         },
         "mensuralCombStemUp": {
@@ -3555,7 +3506,10 @@
             ],
             "codepoint": "0XE93E"
         },
-        "mensuralCustosCheckmark": {
+        "mensuralCombStemUpFlagRight": {
+            "codepoint": "0XE941"
+        },
+        "mensuralCustosCheckmark_orig": {
             "codepoint": "0XEA0A"
         },
         "mensuralCustosUp": {
@@ -3565,17 +3519,17 @@
             ],
             "codepoint": "0XEA02"
         },
-        "mensuralFclef": {
+        "mensuralFclef_smufl": {
             "codepoint": "0XE903"
         },
-        "mensuralGclef": {
-            "codepoint": "0XE900"
-        },
-        "mensuralGclef2": {
+        "mensuralGclef2_orig": {
             "codepoint": "0XF607"
         },
-        "mensuralGclefPetrucci": {
+        "mensuralGclefPetrucci_smufl": {
             "codepoint": "0XE901"
+        },
+        "mensuralGclef_smufl": {
+            "codepoint": "0XE900"
         },
         "mensuralNoteheadLongaBlack": {
             "alternateCodepoints": [
@@ -3583,26 +3537,39 @@
             ],
             "codepoint": "0XE934"
         },
-        "mensuralNoteheadMaximaBlack": {
+        "mensuralNoteheadMaxBlack_smufl": {
             "codepoint": "0XE930"
         },
-        "mensuralNoteheadSemiminimaWhite": {
-            "codepoint": "0XE93D"
-        },
-        "mensuralObliqueDesc2ndBlack": {
-            "codepoint": "0XE980"
-        },
-        "mensuralObliqueDesc2ndBlackVoid": {
+        "mensuralOblDesc2ndBW_smufl": {
             "codepoint": "0XE982"
         },
-        "mensuralObliqueDesc3rdBlack": {
-            "codepoint": "0XE984"
+        "mensuralObliqueDesc2ndWhite": {
+            "alternateCodepoints": [
+                "0XF0F0",
+                "0XE983"
+            ],
+            "codepoint": "0XF8FF"
         },
-        "mensuralObliqueDesc4thBlack": {
-            "codepoint": "0XE988"
+        "mensuralObliqueDesc3rdWhite": {
+            "alternateCodepoints": [
+                "0X00D2",
+                "0XF0F1"
+            ],
+            "codepoint": "0XE987"
         },
-        "mensuralObliqueDesc5thBlack": {
-            "codepoint": "0XE98C"
+        "mensuralObliqueDesc4thWhite": {
+            "alternateCodepoints": [
+                "0X00DA",
+                "0XF0F2"
+            ],
+            "codepoint": "0XE98B"
+        },
+        "mensuralObliqueDesc5thWhite": {
+            "alternateCodepoints": [
+                "0X00DB",
+                "0XF0F3"
+            ],
+            "codepoint": "0XE98F"
         },
         "mensuralProlation1": {
             "alternateCodepoints": [
@@ -3611,7 +3578,7 @@
             ],
             "codepoint": "0XE910"
         },
-        "mensuralProlation10": {
+        "mensuralProlation10_smufl": {
             "codepoint": "0XE919"
         },
         "mensuralProlation2": {
@@ -3621,13 +3588,13 @@
             ],
             "codepoint": "0XE911"
         },
-        "mensuralProlation3": {
+        "mensuralProlation3_smufl": {
             "codepoint": "0XE912"
         },
-        "mensuralProlation4": {
+        "mensuralProlation4_smufl": {
             "codepoint": "0XE913"
         },
-        "mensuralProlation5": {
+        "mensuralProlation5_smufl": {
             "codepoint": "0XE914"
         },
         "mensuralProlation6": {
@@ -3644,74 +3611,175 @@
             ],
             "codepoint": "0XE916"
         },
-        "mensuralProlation8": {
+        "mensuralProlation8_smufl": {
             "codepoint": "0XE917"
         },
-        "mensuralProlation9": {
+        "mensuralProlation9_smufl": {
             "codepoint": "0XE918"
         },
-        "mensuralProlationCombiningDot": {
-            "codepoint": "0XE920"
-        },
-        "mensuralProportion1": {
-            "codepoint": "0XE926"
-        },
-        "mensuralProportion2": {
-            "codepoint": "0XE927"
-        },
-        "mensuralProportion3": {
-            "codepoint": "0XE928"
-        },
-        "mensuralProportion4": {
-            "codepoint": "0XE929"
-        },
-        "mensuralProportionProportioDupla": {
-            "codepoint": "0XE91C"
-        },
-        "mensuralProportionProportioDupla2": {
-            "codepoint": "0XE91D"
-        },
-        "mensuralProportionProportioQuadrupla": {
-            "codepoint": "0XE91F"
-        },
-        "mensuralProportionProportioTripla": {
-            "codepoint": "0XE91E"
-        },
-        "mensuralProportionTempusPerfect": {
+        "mensuralPropTempPerfect_smufl": {
             "codepoint": "0XE91B"
         },
-        "mensuralRestBrevis": {
+        "mensuralProportioDupla2_smufl": {
+            "codepoint": "0XE91D"
+        },
+        "mensuralProportioDupla_smufl": {
+            "codepoint": "0XE91C"
+        },
+        "mensuralProportioQuadr_smufl": {
+            "codepoint": "0XE91F"
+        },
+        "mensuralProportioTripla_smufl": {
+            "codepoint": "0XE91E"
+        },
+        "mensuralProportion1_smufl": {
+            "codepoint": "0XE926"
+        },
+        "mensuralProportion2_smufl": {
+            "codepoint": "0XE927"
+        },
+        "mensuralProportion3_smufl": {
+            "codepoint": "0XE928"
+        },
+        "mensuralProportion4_smufl": {
+            "codepoint": "0XE929"
+        },
+        "mensuralRest1Space": {
             "alternateCodepoints": [
-                "0X0033",
-                "0XF033"
+                "0X0033"
             ],
+            "codepoint": "0XF033"
+        },
+        "mensuralRest2FullSpaceUp": {
+            "alternateCodepoints": [
+                "0X0028"
+            ],
+            "codepoint": "0XF028"
+        },
+        "mensuralRest2HalfSpacesUp": {
+            "alternateCodepoints": [
+                "0X0032"
+            ],
+            "codepoint": "0XF032"
+        },
+        "mensuralRest2Spaces": {
+            "alternateCodepoints": [
+                "0X0034"
+            ],
+            "codepoint": "0XF034"
+        },
+        "mensuralRest3FullSpaceUp": {
+            "alternateCodepoints": [
+                "0X0024"
+            ],
+            "codepoint": "0XF024"
+        },
+        "mensuralRest3Spaces": {
+            "alternateCodepoints": [
+                "0X0035"
+            ],
+            "codepoint": "0XF035"
+        },
+        "mensuralRest4Spaces": {
+            "alternateCodepoints": [
+                "0X0036"
+            ],
+            "codepoint": "0XF036"
+        },
+        "mensuralRestBrevis_smufl": {
             "codepoint": "0XE9F3"
         },
-        "mensuralRestLongaImperfecta": {
+        "mensuralRestFusa": {
             "alternateCodepoints": [
-                "0X0034",
-                "0XF034"
+                "0X0021"
             ],
-            "codepoint": "0XE9F2"
+            "codepoint": "0XF021"
+        },
+        "mensuralRestFusa_smufl": {
+            "codepoint": "0XE9F7"
+        },
+        "mensuralRestHalfSpaceDown": {
+            "alternateCodepoints": [
+                "0X0030"
+            ],
+            "codepoint": "0XF030"
+        },
+        "mensuralRestHalfSpaceUp": {
+            "alternateCodepoints": [
+                "0X0031"
+            ],
+            "codepoint": "0XF031"
         },
         "mensuralRestLongaPerfecta": {
-            "alternateCodepoints": [
-                "0X0035",
-                "0XF035"
-            ],
             "codepoint": "0XE9F1"
         },
-        "mensuralRestMaxima": {
+        "mensuralRestMaxima_smufl": {
             "codepoint": "0XE9F0"
         },
-        "mensuralRestSemibrevis": {
+        "mensuralRestMinima_smufl": {
+            "codepoint": "0XE9F5"
+        },
+        "mensuralRestOneThirdSpaceUp": {
+            "alternateCodepoints": [
+                "0X002F"
+            ],
+            "codepoint": "0XF02F"
+        },
+        "mensuralRestSemibrevis_": {
             "codepoint": "0XE9F4"
         },
-        "mensuralRestSemibrevisMajor": {
-            "codepoint": "0XF704"
+        "mensuralRestSemifusa_smufl": {
+            "codepoint": "0XE9F8"
         },
-        "mensuralRestSemibrevisMinor": {
-            "codepoint": "0XF703"
+        "mensuralRestSemiminima_smufl": {
+            "codepoint": "0XE9F6"
+        },
+        "mensuralWhiteBrevis": {
+            "alternateCodepoints": [
+                "0XE9EE",
+                "0XF0DF"
+            ],
+            "codepoint": "0XFB02"
+        },
+        "mensuralWhiteLonga": {
+            "alternateCodepoints": [
+                "0XE95D",
+                "0XF0AA"
+            ],
+            "codepoint": "0X2122"
+        },
+        "mensuralWhiteMaxima": {
+            "alternateCodepoints": [
+                "0XE95C",
+                "0XF0B3"
+            ],
+            "codepoint": "0X2265"
+        },
+        "mensuralWhiteMinima": {
+            "alternateCodepoints": [
+                "0XE95F",
+                "0XF0B9"
+            ],
+            "codepoint": "0X03C0"
+        },
+        "mensuralWhiteSemibrevis": {
+            "alternateCodepoints": [
+                "0XE957",
+                "0XF0B8"
+            ],
+            "codepoint": "0X220F"
+        },
+        "mensuralWhiteSemibrevisCaudata": {
+            "alternateCodepoints": [
+                "0XF0BA"
+            ],
+            "codepoint": "0X222B"
+        },
+        "mensuralWhiteSemiminima": {
+            "alternateCodepoints": [
+                "0X00F8"
+            ],
+            "codepoint": "0XF0BF"
         },
         "notequal": {
             "alternateCodepoints": [
@@ -3731,55 +3799,65 @@
             ],
             "codepoint": "0XF097"
         },
-        "obliqueDesc2ndBlackEndAscii": {
+        "obliqueDesc2ndBlack": {
+            "alternateCodepoints": [
+                "0XF0A0",
+                "0XE980"
+            ],
+            "codepoint": "0X2020"
+        },
+        "obliqueDesc2ndBlackEnd": {
             "alternateCodepoints": [
                 "0X006C"
             ],
             "codepoint": "0XF06C"
         },
-        "obliqueDesc2ndBlack_ascii": {
+        "obliqueDesc2ndWhiteEnd": {
             "alternateCodepoints": [
-                "0XF0A0"
+                "0X00B8"
             ],
-            "codepoint": "0X2020"
+            "codepoint": "0XF0FC"
         },
-        "obliqueDesc3rdBlack_ascii": {
+        "obliqueDesc3rdBlack": {
             "alternateCodepoints": [
-                "0X00B0"
+                "0X00B0",
+                "0XF0A1"
             ],
-            "codepoint": "0XF0A1"
+            "codepoint": "0XE984"
         },
-        "obliqueDesc4thBlack_ascii": {
+        "obliqueDesc4thBlack": {
             "alternateCodepoints": [
-                "0X00A2"
+                "0X00A2",
+                "0XF0A2"
             ],
-            "codepoint": "0XF0A2"
+            "codepoint": "0XE988"
         },
-        "obliqueDesc5thBlack_ascii": {
+        "obliqueDesc5thBlack": {
             "alternateCodepoints": [
-                "0X00A3"
+                "0X00A3",
+                "0XF0A3"
             ],
-            "codepoint": "0XF0A3"
+            "codepoint": "0XE98C"
         },
-        "obliqueDesc6thBlack_ascii": {
+        "obliqueDesc6thBlack": {
             "alternateCodepoints": [
                 "0X00A7"
             ],
             "codepoint": "0XF0A4"
         },
-        "obliqueDesc7thBlack_ascii": {
+        "obliqueDesc7thBlack": {
             "alternateCodepoints": [
                 "0XF0A5"
             ],
             "codepoint": "0X2022"
         },
-        "obliqueDesc9thBlack_ascii": {
+        "obliqueDesc9thBlack": {
             "alternateCodepoints": [
                 "0X00DF"
             ],
             "codepoint": "0XF0A7"
         },
-        "obliqueDescOctBlack_ascii": {
+        "obliqueDescOctBlack": {
             "alternateCodepoints": [
                 "0X00B6"
             ],
@@ -3803,23 +3881,11 @@
             ],
             "codepoint": "0XF0BC"
         },
-        "oslash": {
-            "alternateCodepoints": [
-                "0X00F8"
-            ],
-            "codepoint": "0XF0BF"
-        },
         "p": {
             "alternateCodepoints": [
                 "0X0070"
             ],
             "codepoint": "0XF070"
-        },
-        "parenleft": {
-            "alternateCodepoints": [
-                "0X0028"
-            ],
-            "codepoint": "0XF028"
         },
         "partialdiff": {
             "alternateCodepoints": [
@@ -3857,44 +3923,38 @@
             ],
             "codepoint": "0XF089"
         },
-        "pi": {
-            "alternateCodepoints": [
-                "0XF0B9"
-            ],
-            "codepoint": "0X03C0"
-        },
-        "plicaBrevisAsc_ascii": {
+        "plicaBrevisAsc": {
             "alternateCodepoints": [
                 "0X005F"
             ],
             "codepoint": "0XF05F"
         },
-        "plicaBrevisDesc_ascii": {
+        "plicaBrevisDesc": {
             "alternateCodepoints": [
                 "0X0060"
             ],
             "codepoint": "0XF060"
         },
-        "plicaLongaAsc_ascii": {
+        "plicaLongaAsc": {
             "alternateCodepoints": [
                 "0X005D"
             ],
             "codepoint": "0XF05D"
         },
-        "plicaLongaDesc_ascii": {
+        "plicaLongaDesc": {
             "alternateCodepoints": [
                 "0X005E"
             ],
             "codepoint": "0XF05E"
         },
-        "plicaSemibrevisAsc_ascii": {
+        "plicaSemibrevisAsc": {
             "alternateCodepoints": [
                 "0X0022",
                 "0XF022"
             ],
             "codepoint": "0XE998"
         },
-        "plicaSemibrevisDesc_ascii": {
+        "plicaSemibrevisDesc": {
             "alternateCodepoints": [
                 "0X0023"
             ],
@@ -3905,6 +3965,12 @@
                 "0X00B1"
             ],
             "codepoint": "0XF0B1"
+        },
+        "porrectusObl2ndCrushed2Black": {
+            "alternateCodepoints": [
+                "0XF0FD"
+            ],
+            "codepoint": "0X02DD"
         },
         "porrectusOblique2ndCrushedBlack": {
             "alternateCodepoints": [
@@ -3953,12 +4019,6 @@
                 "0X00FB"
             ],
             "codepoint": "0XF09E"
-        },
-        "product": {
-            "alternateCodepoints": [
-                "0XF0B8"
-            ],
-            "codepoint": "0X220F"
         },
         "q": {
             "alternateCodepoints": [
@@ -4038,42 +4098,24 @@
             ],
             "codepoint": "0XF073"
         },
-        "slash": {
+        "stemInitialDown": {
             "alternateCodepoints": [
-                "0X002F"
+                "0X00B5"
             ],
-            "codepoint": "0XF02F"
+            "codepoint": "0XF0B5"
         },
-        "stemInitialDownShort_ascii": {
+        "stemInitialDownShort": {
             "alternateCodepoints": [
                 "0XF0FA",
                 "0XE99C"
             ],
             "codepoint": "0X02D9"
         },
-        "stemInitialDown_ascii": {
-            "alternateCodepoints": [
-                "0X00B5"
-            ],
-            "codepoint": "0XF0B5"
-        },
-        "stemInitialUp_ascii": {
+        "stemInitialUp": {
             "alternateCodepoints": [
                 "0X0051"
             ],
             "codepoint": "0XF051"
-        },
-        "stringsDownBow": {
-            "alternateCodepoints": [
-                "0XF0B3"
-            ],
-            "codepoint": "0X2265"
-        },
-        "stringsUpBow": {
-            "alternateCodepoints": [
-                "0XF0B2"
-            ],
-            "codepoint": "0X2264"
         },
         "summation": {
             "alternateCodepoints": [
@@ -4087,59 +4129,11 @@
             ],
             "codepoint": "0X02DC"
         },
-        "timeSig0": {
-            "alternateCodepoints": [
-                "0X0030"
-            ],
-            "codepoint": "0XF030"
-        },
-        "timeSig1": {
-            "alternateCodepoints": [
-                "0X0031"
-            ],
-            "codepoint": "0XF031"
-        },
-        "timeSig2": {
-            "alternateCodepoints": [
-                "0X0032"
-            ],
-            "codepoint": "0XF032"
-        },
-        "timeSig6": {
-            "alternateCodepoints": [
-                "0X0036"
-            ],
-            "codepoint": "0XF036"
-        },
-        "timeSig7": {
-            "alternateCodepoints": [
-                "0X0037"
-            ],
-            "codepoint": "0XF037"
-        },
-        "timeSig8": {
-            "alternateCodepoints": [
-                "0X0038"
-            ],
-            "codepoint": "0XF038"
-        },
         "timeSigCutCommon": {
             "alternateCodepoints": [
                 "0X0043"
             ],
             "codepoint": "0XF043"
-        },
-        "tremolo3Legacy": {
-            "alternateCodepoints": [
-                "0X00E6"
-            ],
-            "codepoint": "0XF0BE"
-        },
-        "tremolo4Legacy": {
-            "alternateCodepoints": [
-                "0XF0BD"
-            ],
-            "codepoint": "0X03A9"
         },
         "u": {
             "alternateCodepoints": [
@@ -4147,17 +4141,11 @@
             ],
             "codepoint": "0XF075"
         },
-        "uni00A0": {
+        "verticalBar5Spaces": {
             "alternateCodepoints": [
-                "0X00A0"
+                "0X0037"
             ],
-            "codepoint": "0XF0CA"
-        },
-        "unpitchedPercussionClef2": {
-            "alternateCodepoints": [
-                "0X00F7"
-            ],
-            "codepoint": "0XF0D6"
+            "codepoint": "0XF037"
         },
         "virgaShortBlack": {
             "alternateCodepoints": [
@@ -4183,6 +4171,12 @@
                 "0X00A5"
             ],
             "codepoint": "0XF0B4"
+        },
+        "zeroWidthSpace": {
+            "alternateCodepoints": [
+                "0X0020"
+            ],
+            "codepoint": "0XF020"
         }
     },
     "glyphsWithAnchors": {}
