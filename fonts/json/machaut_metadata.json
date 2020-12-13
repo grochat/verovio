@@ -62,36 +62,6 @@
                 -0.3
             ]
         },
-        "Agrave": {
-            "bBoxNE": [
-                0.512,
-                0.3167
-            ],
-            "bBoxSW": [
-                0.0,
-                -2.292
-            ]
-        },
-        "Atilde": {
-            "bBoxNE": [
-                0.512,
-                0.3167
-            ],
-            "bBoxSW": [
-                0.0,
-                -2.792
-            ]
-        },
-        "D": {
-            "bBoxNE": [
-                1.1822,
-                1.8625
-            ],
-            "bBoxSW": [
-                -0.4474,
-                -2.784
-            ]
-        },
         "Delta": {
             "bBoxNE": [
                 0.656,
@@ -130,26 +100,6 @@
             "bBoxSW": [
                 -0.456,
                 -2.303
-            ]
-        },
-        "F": {
-            "bBoxNE": [
-                1.3302,
-                2.1305
-            ],
-            "bBoxSW": [
-                -0.2994,
-                -0.129
-            ]
-        },
-        "G": {
-            "bBoxNE": [
-                1.2462,
-                2.5425
-            ],
-            "bBoxSW": [
-                -0.3834,
-                -0.126
             ]
         },
         "Iacute": {
@@ -192,66 +142,6 @@
                 -0.3
             ]
         },
-        "J": {
-            "bBoxNE": [
-                1.1942,
-                2.632
-            ],
-            "bBoxSW": [
-                -0.4354,
-                -0.125
-            ]
-        },
-        "L": {
-            "bBoxNE": [
-                1.3462,
-                1.9265
-            ],
-            "bBoxSW": [
-                -0.2834,
-                -0.809
-            ]
-        },
-        "M": {
-            "bBoxNE": [
-                1.2902,
-                1.8476
-            ],
-            "bBoxSW": [
-                -0.3394,
-                -1.308
-            ]
-        },
-        "N": {
-            "bBoxNE": [
-                1.2982,
-                1.7505
-            ],
-            "bBoxSW": [
-                -0.3314,
-                -1.809
-            ]
-        },
-        "O": {
-            "bBoxNE": [
-                1.3511,
-                1.8065
-            ],
-            "bBoxSW": [
-                -0.2785,
-                -2.309
-            ]
-        },
-        "OE": {
-            "bBoxNE": [
-                0.512,
-                0.3167
-            ],
-            "bBoxSW": [
-                0.0,
-                -3.792
-            ]
-        },
         "Oacute": {
             "bBoxNE": [
                 3.472,
@@ -282,44 +172,24 @@
                 -0.304
             ]
         },
-        "Otilde": {
-            "bBoxNE": [
-                0.512,
-                0.3167
-            ],
-            "bBoxSW": [
-                0.0,
-                -3.292
-            ]
-        },
-        "P": {
-            "bBoxNE": [
-                1.2542,
-                1.7787
-            ],
-            "bBoxSW": [
-                -0.3754,
-                -2.809
-            ]
-        },
-        "Ugrave": {
-            "bBoxNE": [
-                2.672,
-                2.796
-            ],
-            "bBoxSW": [
-                0.0,
-                -0.3
-            ]
-        },
         "VirgaBlack": {
             "bBoxNE": [
-                0.762,
-                0.3716
+                0.719,
+                0.372
             ],
             "bBoxSW": [
-                -0.0076,
+                -0.008,
                 -1.863
+            ]
+        },
+        "VirgaLongBlack": {
+            "bBoxNE": [
+                0.7597,
+                0.4515
+            ],
+            "bBoxSW": [
+                -0.007,
+                -2.7145
             ]
         },
         "Ydieresis": {
@@ -332,20 +202,10 @@
                 -1.303
             ]
         },
-        "accidentalDoubleFlatParens": {
-            "bBoxNE": [
-                1.0912,
-                1.7905
-            ],
-            "bBoxSW": [
-                -0.5384,
-                -2.303
-            ]
-        },
         "accidentalFlat": {
             "bBoxNE": [
                 0.71,
-                0.3801
+                0.3807
             ],
             "bBoxSW": [
                 -0.021,
@@ -359,17 +219,7 @@
             ],
             "bBoxSW": [
                 -0.015,
-                -0.3813
-            ]
-        },
-        "accidentalSharpSmall": {
-            "bBoxNE": [
-                1.4262,
-                2.5825
-            ],
-            "bBoxSW": [
-                -0.2034,
-                -0.125
+                -0.3818
             ]
         },
         "acute": {
@@ -422,16 +272,6 @@
                 -0.392
             ]
         },
-        "ascii214": {
-            "bBoxNE": [
-                0.512,
-                3.248
-            ],
-            "bBoxSW": [
-                0.0,
-                -0.304
-            ]
-        },
         "ascii230": {
             "bBoxNE": [
                 3.472,
@@ -440,26 +280,6 @@
             "bBoxSW": [
                 0.0,
                 -0.3
-            ]
-        },
-        "ascii45": {
-            "bBoxNE": [
-                1.4512,
-                1.9705
-            ],
-            "bBoxSW": [
-                -0.1784,
-                -0.0922
-            ]
-        },
-        "ascii48": {
-            "bBoxNE": [
-                1.3542,
-                2.2545
-            ],
-            "bBoxSW": [
-                -0.2754,
-                -0.125
             ]
         },
         "ascii6e": {
@@ -472,136 +292,6 @@
                 -0.68
             ]
         },
-        "ascii91": {
-            "bBoxNE": [
-                0.7597,
-                0.4515
-            ],
-            "bBoxSW": [
-                -0.007,
-                -2.7145
-            ]
-        },
-        "backslash": {
-            "bBoxNE": [
-                0.7973,
-                2.6201
-            ],
-            "bBoxSW": [
-                -0.007,
-                -0.4437
-            ]
-        },
-        "blackChantPunctum": {
-            "bBoxNE": [
-                0.7276,
-                0.3716
-            ],
-            "bBoxSW": [
-                -0.0076,
-                -0.3795
-            ]
-        },
-        "blackPesFinal2nd": {
-            "bBoxNE": [
-                0.0555,
-                0.3636
-            ],
-            "bBoxSW": [
-                -0.7026,
-                -1.252
-            ]
-        },
-        "blackPesFinal3rd": {
-            "bBoxNE": [
-                0.0542,
-                0.3706
-            ],
-            "bBoxSW": [
-                -0.7056,
-                -1.3773
-            ]
-        },
-        "blackPesFinal4th_": {
-            "bBoxNE": [
-                0.0552,
-                0.3716
-            ],
-            "bBoxSW": [
-                -0.7056,
-                -1.9253
-            ]
-        },
-        "blackPesFinal4th__": {
-            "bBoxNE": [
-                0.7286,
-                1.807
-            ],
-            "bBoxSW": [
-                -0.0066,
-                -0.3848
-            ]
-        },
-        "blackPesFinal5th_": {
-            "bBoxNE": [
-                0.0552,
-                0.371
-            ],
-            "bBoxSW": [
-                -0.7056,
-                -2.424
-            ]
-        },
-        "blackPesFinal5th__": {
-            "bBoxNE": [
-                1.0912,
-                1.7805
-            ],
-            "bBoxSW": [
-                -0.5384,
-                -2.303
-            ]
-        },
-        "blackPesFinal6th": {
-            "bBoxNE": [
-                0.0552,
-                0.3716
-            ],
-            "bBoxSW": [
-                -0.7056,
-                -2.924
-            ]
-        },
-        "blackPesFinal7th": {
-            "bBoxNE": [
-                0.0589,
-                0.3716
-            ],
-            "bBoxSW": [
-                -0.7036,
-                -3.424
-            ]
-        },
-        "blackPesInitialSmall": {
-            "bBoxNE": [
-                0.836,
-                0.152
-            ],
-            "bBoxSW": [
-                -0.008,
-                -0.42
-            ]
-        },
-        "blackSemibrevisSquareStemUp": {
-            "bBoxNE": [
-                0.7336,
-                2.266
-            ],
-            "bBoxSW": [
-                -0.015,
-                -0.3795
-            ]
-        },
         "breve": {
             "bBoxNE": [
                 0.212,
@@ -610,26 +300,6 @@
             "bBoxSW": [
                 0.0,
                 -1.185
-            ]
-        },
-        "caron": {
-            "bBoxNE": [
-                0.8719,
-                0.5219
-            ],
-            "bBoxSW": [
-                0.0681,
-                -0.5439
-            ]
-        },
-        "ccedilla": {
-            "bBoxNE": [
-                1.0912,
-                1.8005
-            ],
-            "bBoxSW": [
-                -0.5384,
-                -2.803
             ]
         },
         "chantCclef_smufl": {
@@ -672,174 +342,264 @@
                 -0.8896
             ]
         },
-        "chantStrophicusAuctus": {
+        "chantPunctumBlack": {
             "bBoxNE": [
-                1.4582,
-                1.7025
+                0.684,
+                0.372
             ],
             "bBoxSW": [
-                -0.1714,
-                -0.418
+                -0.008,
+                -0.38
             ]
         },
-        "circumflex": {
+        "clivisFinal2ndBlack": {
             "bBoxNE": [
-                3.472,
-                3.796
+                0.683,
+                0.372
             ],
             "bBoxSW": [
-                0.0,
-                -0.3
+                -0.009,
+                -0.38
             ]
         },
-        "clivisBlackInitial3": {
+        "clivisFinal2ndWhite": {
             "bBoxNE": [
-                0.7256,
-                0.3716
+                0.684,
+                0.3642
             ],
             "bBoxSW": [
-                -0.0208,
-                -1.88
+                -0.008,
+                -0.3758
             ]
         },
-        "clivisBlackInitial4": {
+        "clivisFinal3rdBlack": {
             "bBoxNE": [
-                0.7276,
-                0.3716
-            ],
-            "bBoxSW": [
-                -0.0185,
-                -2.336
-            ]
-        },
-        "clivisBlackInitial5": {
-            "bBoxNE": [
-                0.7276,
-                0.3716
-            ],
-            "bBoxSW": [
-                -0.0159,
-                -2.8333
-            ]
-        },
-        "clivisBlackInitial6": {
-            "bBoxNE": [
-                0.7276,
-                0.3716
-            ],
-            "bBoxSW": [
-                -0.017,
-                -3.291
-            ]
-        },
-        "clivisBlackInitial7": {
-            "bBoxNE": [
-                0.7276,
-                0.3716
-            ],
-            "bBoxSW": [
-                -0.0153,
-                -3.7467
-            ]
-        },
-        "clivisFinal2nd": {
-            "bBoxNE": [
-                0.7246,
-                0.3716
-            ],
-            "bBoxSW": [
-                -0.0106,
-                -0.3795
-            ]
-        },
-        "clivisFinal3rd": {
-            "bBoxNE": [
-                0.7166,
+                0.677,
                 1.3296
             ],
             "bBoxSW": [
-                -0.0186,
-                -0.3875
+                -0.015,
+                -0.388
             ]
         },
-        "clivisFinalBlack4th": {
+        "clivisFinal3rdWhite": {
             "bBoxNE": [
-                0.7196,
+                0.684,
+                1.3296
+            ],
+            "bBoxSW": [
+                -0.0142,
+                -0.3758
+            ]
+        },
+        "clivisFinal4thBlack": {
+            "bBoxNE": [
+                0.676,
                 1.8467
             ],
             "bBoxSW": [
-                -0.042,
-                -0.3848
+                -0.016,
+                -0.3853
             ]
         },
-        "clivisFinalBlack5th": {
+        "clivisFinal4thWhite": {
             "bBoxNE": [
-                0.7226,
+                0.684,
+                1.8467
+            ],
+            "bBoxSW": [
+                -0.012,
+                -0.3771
+            ]
+        },
+        "clivisFinal5thBlack": {
+            "bBoxNE": [
+                0.669,
                 2.348
             ],
             "bBoxSW": [
-                -0.039,
-                -0.3848
+                -0.023,
+                -0.3853
             ]
         },
-        "clivisFinalBlack6th": {
+        "clivisFinal5thWhite": {
             "bBoxNE": [
-                1.0912,
-                2.739
+                0.684,
+                2.348
             ],
             "bBoxSW": [
-                -0.5384,
+                -0.022,
+                -0.376
+            ]
+        },
+        "clivisFinal6thWhite": {
+            "bBoxNE": [
+                0.512,
+                2.748
+            ],
+            "bBoxSW": [
+                0.0,
                 -0.304
             ]
         },
-        "clivisFinalBlack7th": {
+        "clivisFinal7thWhite": {
             "bBoxNE": [
-                1.0912,
-                3.238
+                0.512,
+                3.248
             ],
             "bBoxSW": [
-                -0.5384,
+                0.0,
                 -0.304
             ]
         },
-        "clivisFinalBlackOct": {
+        "clivisFinal8veWhite": {
             "bBoxNE": [
-                1.0912,
-                3.737
+                0.512,
+                3.748
             ],
             "bBoxSW": [
-                -0.5384,
+                0.0,
                 -0.304
             ]
         },
-        "clivisInitial1": {
+        "clivisInitial1Black": {
             "bBoxNE": [
-                0.7276,
-                0.3716
+                0.686,
+                0.372
             ],
             "bBoxSW": [
                 -0.0144,
                 -0.8717
             ]
         },
-        "clivisInitial2": {
+        "clivisInitial1White": {
             "bBoxNE": [
-                0.7246,
-                0.3716
+                0.684,
+                0.3642
+            ],
+            "bBoxSW": [
+                -0.0144,
+                -0.8717
+            ]
+        },
+        "clivisInitial2Black": {
+            "bBoxNE": [
+                0.683,
+                0.372
             ],
             "bBoxSW": [
                 -0.0218,
                 -1.3853
             ]
         },
-        "clivisWhiteInitial3": {
+        "clivisInitial2White": {
             "bBoxNE": [
-                0.7293,
+                0.684,
+                0.3642
+            ],
+            "bBoxSW": [
+                -0.0218,
+                -1.3853
+            ]
+        },
+        "clivisInitial3Black": {
+            "bBoxNE": [
+                0.684,
+                0.372
+            ],
+            "bBoxSW": [
+                -0.0208,
+                -1.88
+            ]
+        },
+        "clivisInitial3White": {
+            "bBoxNE": [
+                0.684,
                 0.3688
             ],
             "bBoxSW": [
                 -0.0208,
                 -1.874
+            ]
+        },
+        "clivisInitial4Black": {
+            "bBoxNE": [
+                0.686,
+                0.372
+            ],
+            "bBoxSW": [
+                -0.0185,
+                -2.336
+            ]
+        },
+        "clivisInitial4White": {
+            "bBoxNE": [
+                0.684,
+                0.3642
+            ],
+            "bBoxSW": [
+                -0.0185,
+                -2.336
+            ]
+        },
+        "clivisInitial5Black": {
+            "bBoxNE": [
+                0.686,
+                0.372
+            ],
+            "bBoxSW": [
+                -0.0159,
+                -2.8333
+            ]
+        },
+        "clivisInitial5White": {
+            "bBoxNE": [
+                0.684,
+                0.3642
+            ],
+            "bBoxSW": [
+                -0.0159,
+                -2.8333
+            ]
+        },
+        "clivisInitial6Black": {
+            "bBoxNE": [
+                0.686,
+                0.372
+            ],
+            "bBoxSW": [
+                -0.017,
+                -3.291
+            ]
+        },
+        "clivisInitial6White": {
+            "bBoxNE": [
+                0.684,
+                0.3642
+            ],
+            "bBoxSW": [
+                -0.017,
+                -3.291
+            ]
+        },
+        "clivisInitial7Black": {
+            "bBoxNE": [
+                0.686,
+                0.372
+            ],
+            "bBoxSW": [
+                -0.0153,
+                -3.7467
+            ]
+        },
+        "clivisInitial7White": {
+            "bBoxNE": [
+                0.684,
+                0.3642
+            ],
+            "bBoxSW": [
+                -0.0153,
+                -3.7467
             ]
         },
         "connectingStem2ndUp": {
@@ -889,7 +649,7 @@
             ],
             "bBoxSW": [
                 -0.028,
-                -1.7355
+                -1.8365
             ]
         },
         "connectingStem4thUp": {
@@ -925,11 +685,11 @@
         "connectingStem6thDown": {
             "bBoxNE": [
                 0.032,
-                0.5047
+                0.3617
             ],
             "bBoxSW": [
                 -0.024,
-                -2.8208
+                -2.8668
             ]
         },
         "connectingStem7thDown": {
@@ -982,16 +742,6 @@
                 -0.304
             ]
         },
-        "eacute": {
-            "bBoxNE": [
-                1.0912,
-                1.7805
-            ],
-            "bBoxSW": [
-                -0.5384,
-                -3.303
-            ]
-        },
         "ecircumflex": {
             "bBoxNE": [
                 1.296,
@@ -1012,26 +762,6 @@
                 -0.3
             ]
         },
-        "ellipsis": {
-            "bBoxNE": [
-                0.512,
-                0.3167
-            ],
-            "bBoxSW": [
-                0.0,
-                -1.308
-            ]
-        },
-        "emdash": {
-            "bBoxNE": [
-                0.512,
-                0.3185
-            ],
-            "bBoxSW": [
-                0.0,
-                -0.304
-            ]
-        },
         "exclamdown": {
             "bBoxNE": [
                 0.56,
@@ -1050,16 +780,6 @@
             "bBoxSW": [
                 0.0,
                 -1.2
-            ]
-        },
-        "fClefFrench": {
-            "bBoxNE": [
-                3.056,
-                3.296
-            ],
-            "bBoxSW": [
-                0.0,
-                -0.3
             ]
         },
         "fi": {
@@ -1110,16 +830,6 @@
             "bBoxSW": [
                 0.0,
                 -0.308
-            ]
-        },
-        "guillemotright": {
-            "bBoxNE": [
-                0.512,
-                0.3179
-            ],
-            "bBoxSW": [
-                0.0,
-                -0.8
             ]
         },
         "guilsinglleft": {
@@ -1212,16 +922,6 @@
                 -1.74
             ]
         },
-        "lozenge": {
-            "bBoxNE": [
-                0.512,
-                3.748
-            ],
-            "bBoxSW": [
-                0.0,
-                -0.304
-            ]
-        },
         "medRenFlatSoftB_smufl": {
             "bBoxNE": [
                 0.3979,
@@ -1264,12 +964,12 @@
         },
         "mensNoteheadSemiminimaW_smufl": {
             "bBoxNE": [
-                0.7543,
-                0.6446
+                0.68,
+                0.644
             ],
             "bBoxSW": [
-                -0.0001,
-                -0.6355
+                -0.0,
+                -0.636
             ]
         },
         "mensProlationCombiningDot_smufl": {
@@ -1292,64 +992,14 @@
                 -1.0
             ]
         },
-        "mensuralBlackBrevis": {
-            "bBoxNE": [
-                0.7276,
-                0.3716
-            ],
-            "bBoxSW": [
-                -0.0076,
-                -0.3795
-            ]
-        },
         "mensuralBlackBrevis_smufl": {
             "bBoxNE": [
-                0.7276,
-                0.3716
+                0.684,
+                0.372
             ],
             "bBoxSW": [
-                -0.0076,
-                -0.3795
-            ]
-        },
-        "mensuralBlackDragma": {
-            "bBoxNE": [
-                0.7444,
-                2.8996
-            ],
-            "bBoxSW": [
-                -0.0004,
-                -2.8835
-            ]
-        },
-        "mensuralBlackFusa": {
-            "bBoxNE": [
-                0.784,
-                2.9024
-            ],
-            "bBoxSW": [
-                0.0,
-                -0.6572
-            ]
-        },
-        "mensuralBlackLonga": {
-            "bBoxNE": [
-                0.7687,
-                0.3774
-            ],
-            "bBoxSW": [
-                -0.0038,
-                -2.2416
-            ]
-        },
-        "mensuralBlackMaxima": {
-            "bBoxNE": [
-                1.5618,
-                0.4038
-            ],
-            "bBoxSW": [
-                -0.0071,
-                -2.2044
+                -0.008,
+                -0.38
             ]
         },
         "mensuralBlackMaxima_smufl": {
@@ -1362,54 +1012,24 @@
                 -2.2044
             ]
         },
-        "mensuralBlackMinima": {
+        "mensuralBrevisBlack": {
             "bBoxNE": [
-                0.7543,
-                2.4228
+                0.686,
+                0.372
             ],
             "bBoxSW": [
-                -0.0001,
-                -0.6355
+                -0.006,
+                -0.38
             ]
         },
-        "mensuralBlackSemibrevis": {
+        "mensuralBrevisWhite": {
             "bBoxNE": [
-                0.7843,
-                0.6139
+                0.684,
+                0.364
             ],
             "bBoxSW": [
-                -0.0023,
-                -0.6053
-            ]
-        },
-        "mensuralBlackSemibrevisCaudata": {
-            "bBoxNE": [
-                0.7843,
-                0.6139
-            ],
-            "bBoxSW": [
-                -0.0023,
-                -1.688
-            ]
-        },
-        "mensuralBlackSemibrevisOblique": {
-            "bBoxNE": [
-                0.8288,
-                0.6371
-            ],
-            "bBoxSW": [
-                -0.9632,
-                -1.5809
-            ]
-        },
-        "mensuralBlackSemiminima": {
-            "bBoxNE": [
-                0.7444,
-                2.9024
-            ],
-            "bBoxSW": [
-                -0.0004,
-                -0.6572
+                -0.008,
+                -0.376
             ]
         },
         "mensuralCclefSloped_orig": {
@@ -1472,6 +1092,16 @@
                 -0.1018
             ]
         },
+        "mensuralDragmaBlack": {
+            "bBoxNE": [
+                0.7444,
+                2.8996
+            ],
+            "bBoxSW": [
+                -0.0004,
+                -2.8835
+            ]
+        },
         "mensuralFclef_smufl": {
             "bBoxNE": [
                 1.656,
@@ -1480,6 +1110,16 @@
             "bBoxSW": [
                 -0.0,
                 -0.6563
+            ]
+        },
+        "mensuralFusaBlack": {
+            "bBoxNE": [
+                0.784,
+                2.9024
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.6572
             ]
         },
         "mensuralGclef2_orig": {
@@ -1512,14 +1152,64 @@
                 -0.8251
             ]
         },
-        "mensuralNoteheadLongaBlack": {
+        "mensuralLongaBlack": {
             "bBoxNE": [
-                0.8719,
-                0.5409
+                0.724,
+                0.376
             ],
             "bBoxSW": [
-                0.0681,
-                -0.5249
+                -0.004,
+                -2.24
+            ]
+        },
+        "mensuralLongaWhite": {
+            "bBoxNE": [
+                0.7687,
+                0.3985
+            ],
+            "bBoxSW": [
+                -0.0038,
+                -2.2416
+            ]
+        },
+        "mensuralMaximaBlack": {
+            "bBoxNE": [
+                1.5618,
+                0.4038
+            ],
+            "bBoxSW": [
+                -0.0071,
+                -2.2044
+            ]
+        },
+        "mensuralMaximaWhite": {
+            "bBoxNE": [
+                1.5618,
+                0.4025
+            ],
+            "bBoxSW": [
+                -0.0071,
+                -2.2044
+            ]
+        },
+        "mensuralMinimaBlack": {
+            "bBoxNE": [
+                0.68,
+                2.426
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.636
+            ]
+        },
+        "mensuralMinimaWhite": {
+            "bBoxNE": [
+                0.676,
+                2.424
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.604
             ]
         },
         "mensuralNoteheadMaxBlack_smufl": {
@@ -1530,56 +1220,6 @@
             "bBoxSW": [
                 -0.0069,
                 -0.3983
-            ]
-        },
-        "mensuralOblDesc2ndBW_smufl": {
-            "bBoxNE": [
-                1.636,
-                0.3658
-            ],
-            "bBoxSW": [
-                0.0,
-                -0.8442
-            ]
-        },
-        "mensuralObliqueDesc2ndWhite": {
-            "bBoxNE": [
-                1.629,
-                0.8578
-            ],
-            "bBoxSW": [
-                -0.007,
-                -0.3522
-            ]
-        },
-        "mensuralObliqueDesc3rdWhite": {
-            "bBoxNE": [
-                1.62,
-                1.348
-            ],
-            "bBoxSW": [
-                0.0,
-                -0.3795
-            ]
-        },
-        "mensuralObliqueDesc4thWhite": {
-            "bBoxNE": [
-                2.152,
-                1.8695
-            ],
-            "bBoxSW": [
-                0.0,
-                -0.3735
-            ]
-        },
-        "mensuralObliqueDesc5thWhite": {
-            "bBoxNE": [
-                2.706,
-                2.3511
-            ],
-            "bBoxSW": [
-                0.0,
-                -0.3678
             ]
         },
         "mensuralProlation1": {
@@ -1794,12 +1434,12 @@
         },
         "mensuralRest2HalfSpacesUp": {
             "bBoxNE": [
-                0.4945,
-                0.513
+                0.5145,
+                1.009
             ],
             "bBoxSW": [
                 -0.002,
-                -0.005
+                0.491
             ]
         },
         "mensuralRest2Spaces": {
@@ -1875,21 +1515,21 @@
         "mensuralRestHalfSpaceDown": {
             "bBoxNE": [
                 0.1436,
-                0.007
+                0.51
             ],
             "bBoxSW": [
                 -0.001,
-                -0.509
+                -0.006
             ]
         },
         "mensuralRestHalfSpaceUp": {
             "bBoxNE": [
                 0.1445,
-                0.513
+                1.009
             ],
             "bBoxSW": [
                 -0.002,
-                -0.005
+                0.491
             ]
         },
         "mensuralRestLongaPerfecta": {
@@ -1962,74 +1602,74 @@
                 -0.0095
             ]
         },
-        "mensuralWhiteBrevis": {
+        "mensuralSemibrevisBlack": {
             "bBoxNE": [
-                0.7293,
-                0.3644
+                0.68,
+                0.644
             ],
             "bBoxSW": [
-                -0.0075,
-                -0.3772
+                0.0,
+                -0.636
             ]
         },
-        "mensuralWhiteLonga": {
+        "mensuralSemibrevisCaudataBlack": {
             "bBoxNE": [
-                0.7687,
-                0.3985
+                0.68,
+                0.644
             ],
             "bBoxSW": [
-                -0.0038,
-                -2.2416
-            ]
-        },
-        "mensuralWhiteMaxima": {
-            "bBoxNE": [
-                1.5618,
-                0.4025
-            ],
-            "bBoxSW": [
-                -0.0071,
-                -2.2044
-            ]
-        },
-        "mensuralWhiteMinima": {
-            "bBoxNE": [
-                0.752,
-                2.424
-            ],
-            "bBoxSW": [
-                -0.0023,
-                -0.6053
-            ]
-        },
-        "mensuralWhiteSemibrevis": {
-            "bBoxNE": [
-                0.7843,
-                0.6139
-            ],
-            "bBoxSW": [
-                -0.0023,
-                -0.6053
-            ]
-        },
-        "mensuralWhiteSemibrevisCaudata": {
-            "bBoxNE": [
-                0.7843,
-                0.6139
-            ],
-            "bBoxSW": [
-                -0.0023,
+                0.0,
                 -1.688
             ]
         },
-        "mensuralWhiteSemiminima": {
+        "mensuralSemibrevisCaudataWhite": {
             "bBoxNE": [
-                0.7843,
+                0.6637,
+                0.612
+            ],
+            "bBoxSW": [
+                -0.0,
+                -1.688
+            ]
+        },
+        "mensuralSemibrevisObliqueBlack": {
+            "bBoxNE": [
+                0.712,
+                0.636
+            ],
+            "bBoxSW": [
+                -0.828,
+                -1.58
+            ]
+        },
+        "mensuralSemibrevisWhite": {
+            "bBoxNE": [
+                0.676,
+                0.612
+            ],
+            "bBoxSW": [
+                -0.0,
+                -0.604
+            ]
+        },
+        "mensuralSemiminimaBlack": {
+            "bBoxNE": [
+                0.6926,
+                2.908
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.636
+            ]
+        },
+        "mensuralSemiminimaWhite": {
+            "bBoxNE": [
+                0.7118,
                 2.876
             ],
             "bBoxSW": [
-                -0.0023,
-                -0.6053
+                -0.0001,
+                -0.604
             ]
         },
         "notequal": {
@@ -2062,6 +1702,36 @@
                 -0.3
             ]
         },
+        "oblDesc2ndBW": {
+            "bBoxNE": [
+                1.636,
+                0.8488
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3612
+            ]
+        },
+        "oblDesc2ndWB": {
+            "bBoxNE": [
+                1.636,
+                0.8498
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3602
+            ]
+        },
+        "oblDesc2ndWB_smufl": {
+            "bBoxNE": [
+                1.636,
+                0.3658
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.8442
+            ]
+        },
         "obliqueDesc2ndBlack": {
             "bBoxNE": [
                 1.629,
@@ -2072,7 +1742,7 @@
                 -0.3522
             ]
         },
-        "obliqueDesc2ndBlackEnd": {
+        "obliqueDesc2ndEndBlack": {
             "bBoxNE": [
                 1.5132,
                 0.8602
@@ -2082,7 +1752,7 @@
                 -0.4601
             ]
         },
-        "obliqueDesc2ndWhiteEnd": {
+        "obliqueDesc2ndEndWhite": {
             "bBoxNE": [
                 1.5122,
                 0.8582
@@ -2092,7 +1762,27 @@
                 -0.4621
             ]
         },
+        "obliqueDesc2ndWhite": {
+            "bBoxNE": [
+                1.629,
+                0.8578
+            ],
+            "bBoxSW": [
+                -0.007,
+                -0.3522
+            ]
+        },
         "obliqueDesc3rdBlack": {
+            "bBoxNE": [
+                1.62,
+                1.348
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3795
+            ]
+        },
+        "obliqueDesc3rdWhite": {
             "bBoxNE": [
                 1.62,
                 1.348
@@ -2112,7 +1802,27 @@
                 -0.3735
             ]
         },
+        "obliqueDesc4thWhite": {
+            "bBoxNE": [
+                2.152,
+                1.8695
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3735
+            ]
+        },
         "obliqueDesc5thBlack": {
+            "bBoxNE": [
+                2.706,
+                2.3511
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3678
+            ]
+        },
+        "obliqueDesc5thWhite": {
             "bBoxNE": [
                 2.706,
                 2.3511
@@ -2132,7 +1842,27 @@
                 -0.3
             ]
         },
+        "obliqueDesc6thWhite": {
+            "bBoxNE": [
+                2.672,
+                2.796
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3
+            ]
+        },
         "obliqueDesc7thBlack": {
+            "bBoxNE": [
+                3.056,
+                3.296
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3
+            ]
+        },
+        "obliqueDesc7thWhite": {
             "bBoxNE": [
                 3.056,
                 3.296
@@ -2153,6 +1883,16 @@
             ]
         },
         "obliqueDescOctBlack": {
+            "bBoxNE": [
+                3.472,
+                3.796
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3
+            ]
+        },
+        "obliqueDescOctWhite": {
             "bBoxNE": [
                 3.472,
                 3.796
@@ -2242,84 +1982,164 @@
                 -0.3
             ]
         },
-        "pesInitialBlack2nd": {
+        "pesAnticusFinal2ndBlack": {
             "bBoxNE": [
-                0.7286,
-                0.3716
+                0.0555,
+                0.364
             ],
             "bBoxSW": [
-                -0.0066,
-                -0.3795
+                -0.66,
+                -1.252
             ]
         },
-        "pesInitialBlack3rd": {
+        "pesAnticusFinal3rdBlack": {
             "bBoxNE": [
-                0.7286,
+                0.0542,
+                0.371
+            ],
+            "bBoxSW": [
+                -0.663,
+                -1.3773
+            ]
+        },
+        "pesAnticusFinal4thBlack_": {
+            "bBoxNE": [
+                0.0552,
+                0.372
+            ],
+            "bBoxSW": [
+                -0.663,
+                -1.9253
+            ]
+        },
+        "pesAnticusFinal5thBlack_": {
+            "bBoxNE": [
+                0.0552,
+                0.3713
+            ],
+            "bBoxSW": [
+                -0.664,
+                -2.424
+            ]
+        },
+        "pesAnticusFinal6thBlack": {
+            "bBoxNE": [
+                0.0552,
+                0.372
+            ],
+            "bBoxSW": [
+                -0.663,
+                -2.924
+            ]
+        },
+        "pesAnticusFinal7thBlack": {
+            "bBoxNE": [
+                0.0579,
+                0.372
+            ],
+            "bBoxSW": [
+                -0.66,
+                -3.424
+            ]
+        },
+        "pesFinal4thBlack__": {
+            "bBoxNE": [
+                0.686,
+                1.807
+            ],
+            "bBoxSW": [
+                -0.006,
+                -0.3853
+            ]
+        },
+        "pesInitial2ndBlack": {
+            "bBoxNE": [
+                0.685,
+                0.372
+            ],
+            "bBoxSW": [
+                -0.007,
+                -0.38
+            ]
+        },
+        "pesInitial3rdBlack": {
+            "bBoxNE": [
+                0.686,
                 1.3668
             ],
             "bBoxSW": [
-                -0.0066,
-                -0.3875
+                -0.006,
+                -0.388
             ]
         },
-        "plicaBrevisAsc": {
+        "pesInitialSmallBlack": {
+            "bBoxNE": [
+                0.836,
+                0.152
+            ],
+            "bBoxSW": [
+                -0.008,
+                -0.42
+            ]
+        },
+        "plicaBrevisAscBlack": {
             "bBoxNE": [
                 0.7131,
                 1.8187
             ],
             "bBoxSW": [
                 -0.015,
-                -0.3813
+                -0.3818
             ]
         },
-        "plicaBrevisDesc": {
+        "plicaBrevisDescBlack": {
             "bBoxNE": [
                 0.698,
-                0.3801
+                0.3807
             ],
             "bBoxSW": [
                 -0.021,
                 -1.8413
             ]
         },
-        "plicaLongaAsc": {
+        "plicaLongaAscBlack": {
             "bBoxNE": [
                 0.7081,
                 1.8134
             ],
             "bBoxSW": [
                 -0.012,
-                -0.3813
+                -0.3818
             ]
         },
-        "plicaLongaDesc": {
+        "plicaLongaDescBlack": {
             "bBoxNE": [
                 0.712,
-                0.3801
+                0.3807
             ],
             "bBoxSW": [
                 -0.019,
                 -1.826
             ]
         },
-        "plicaSemibrevisAsc": {
+        "plicaSemibrevisAscBlack": {
             "bBoxNE": [
-                1.7734,
-                1.4742
+                1.436,
+                1.476
             ],
             "bBoxSW": [
-                0.0026,
-                -0.6243
+                0.004,
+                -0.624
             ]
         },
-        "plicaSemibrevisDesc": {
+        "plicaSemibrevisDescBlack": {
             "bBoxNE": [
-                1.7562,
-                0.6243
+                1.488,
+                0.6
             ],
             "bBoxSW": [
                 0.0,
-                -1.4828
+                -1.424
             ]
         },
         "plusminus": {
@@ -2342,6 +2162,66 @@
                 -0.352
             ]
         },
+        "porrectusObl4thCrushedBlack": {
+            "bBoxNE": [
+                2.1538,
+                1.796
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3005
+            ]
+        },
+        "porrectusObl5thCrushedBlack": {
+            "bBoxNE": [
+                2.2,
+                2.296
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3003
+            ]
+        },
+        "porrectusObl6thCrushedBlack": {
+            "bBoxNE": [
+                2.672,
+                2.796
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3
+            ]
+        },
+        "porrectusObl7thCrushedBlack": {
+            "bBoxNE": [
+                3.056,
+                3.296
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3
+            ]
+        },
+        "porrectusObl9thCrushedBlack": {
+            "bBoxNE": [
+                3.872,
+                4.296
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3011
+            ]
+        },
+        "porrectusOblOctCrushedBlack": {
+            "bBoxNE": [
+                3.472,
+                3.796
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3006
+            ]
+        },
         "porrectusOblique2ndCrushedBlack": {
             "bBoxNE": [
                 1.9,
@@ -2360,66 +2240,6 @@
             "bBoxSW": [
                 0.0,
                 -0.4155
-            ]
-        },
-        "porrectusOblique4thCrushedBlack": {
-            "bBoxNE": [
-                2.1538,
-                1.796
-            ],
-            "bBoxSW": [
-                0.0,
-                -0.3005
-            ]
-        },
-        "porrectusOblique5thCrushedBlack": {
-            "bBoxNE": [
-                2.2,
-                2.296
-            ],
-            "bBoxSW": [
-                0.0,
-                -0.3003
-            ]
-        },
-        "porrectusOblique6thCrushedBlack": {
-            "bBoxNE": [
-                2.672,
-                2.796
-            ],
-            "bBoxSW": [
-                0.0,
-                -0.3
-            ]
-        },
-        "porrectusOblique7thCrushedBlack": {
-            "bBoxNE": [
-                3.056,
-                3.296
-            ],
-            "bBoxSW": [
-                0.0,
-                -0.3
-            ]
-        },
-        "porrectusOblique9thCrushedBlack": {
-            "bBoxNE": [
-                3.872,
-                4.296
-            ],
-            "bBoxSW": [
-                0.0,
-                -0.3011
-            ]
-        },
-        "porrectusObliqueOctCrushedBlack": {
-            "bBoxNE": [
-                3.472,
-                3.796
-            ],
-            "bBoxSW": [
-                0.0,
-                -0.3006
             ]
         },
         "q": {
@@ -2450,46 +2270,6 @@
             "bBoxSW": [
                 0.0,
                 -0.3
-            ]
-        },
-        "quotedblleft": {
-            "bBoxNE": [
-                0.512,
-                1.248
-            ],
-            "bBoxSW": [
-                0.0,
-                -0.304
-            ]
-        },
-        "quotedblright": {
-            "bBoxNE": [
-                0.512,
-                1.748
-            ],
-            "bBoxSW": [
-                0.0,
-                -0.304
-            ]
-        },
-        "quoteleft": {
-            "bBoxNE": [
-                0.512,
-                2.248
-            ],
-            "bBoxSW": [
-                0.0,
-                -0.304
-            ]
-        },
-        "quoteright": {
-            "bBoxNE": [
-                0.512,
-                2.748
-            ],
-            "bBoxSW": [
-                0.0,
-                -0.304
             ]
         },
         "quotesinglbase": {
@@ -2532,16 +2312,6 @@
                 -0.304
             ]
         },
-        "ring": {
-            "bBoxNE": [
-                2.6102,
-                1.9825
-            ],
-            "bBoxSW": [
-                0.0,
-                -0.36
-            ]
-        },
         "s": {
             "bBoxNE": [
                 0.7444,
@@ -2550,6 +2320,16 @@
             "bBoxSW": [
                 -0.0004,
                 -2.9171
+            ]
+        },
+        "semibrevisSquareStemUpBlack": {
+            "bBoxNE": [
+                0.69,
+                2.266
+            ],
+            "bBoxSW": [
+                -0.015,
+                -0.38
             ]
         },
         "stemInitialDown": {
@@ -2602,16 +2382,6 @@
                 -0.3
             ]
         },
-        "timeSigCutCommon": {
-            "bBoxNE": [
-                1.2102,
-                1.8305
-            ],
-            "bBoxSW": [
-                -0.4194,
-                -2.276
-            ]
-        },
         "u": {
             "bBoxNE": [
                 0.84,
@@ -2634,11 +2404,11 @@
         },
         "virgaShortBlack": {
             "bBoxNE": [
-                0.75,
-                0.3716
+                0.706,
+                0.372
             ],
             "bBoxSW": [
-                -0.0076,
+                -0.008,
                 -1.354
             ]
         },
@@ -2702,24 +2472,6 @@
             ],
             "codepoint": "0XF0E5"
         },
-        "Agrave": {
-            "alternateCodepoints": [
-                "0X00C0"
-            ],
-            "codepoint": "0XF0CB"
-        },
-        "Atilde": {
-            "alternateCodepoints": [
-                "0X00C3"
-            ],
-            "codepoint": "0XF0CC"
-        },
-        "D": {
-            "alternateCodepoints": [
-                "0X0044"
-            ],
-            "codepoint": "0XF044"
-        },
         "Delta": {
             "alternateCodepoints": [
                 "0X2206",
@@ -2745,18 +2497,6 @@
             ],
             "codepoint": "0X20AC"
         },
-        "F": {
-            "alternateCodepoints": [
-                "0X0046"
-            ],
-            "codepoint": "0XF046"
-        },
-        "G": {
-            "alternateCodepoints": [
-                "0X0047"
-            ],
-            "codepoint": "0XF047"
-        },
         "Iacute": {
             "alternateCodepoints": [
                 "0X00CD"
@@ -2781,42 +2521,6 @@
             ],
             "codepoint": "0XF0ED"
         },
-        "J": {
-            "alternateCodepoints": [
-                "0X004A"
-            ],
-            "codepoint": "0XF04A"
-        },
-        "L": {
-            "alternateCodepoints": [
-                "0X004C"
-            ],
-            "codepoint": "0XF04C"
-        },
-        "M": {
-            "alternateCodepoints": [
-                "0X004D"
-            ],
-            "codepoint": "0XF04D"
-        },
-        "N": {
-            "alternateCodepoints": [
-                "0X004E"
-            ],
-            "codepoint": "0XF04E"
-        },
-        "O": {
-            "alternateCodepoints": [
-                "0X004F"
-            ],
-            "codepoint": "0XF04F"
-        },
-        "OE": {
-            "alternateCodepoints": [
-                "0XF0CE"
-            ],
-            "codepoint": "0X0152"
-        },
         "Oacute": {
             "alternateCodepoints": [
                 "0X00D3"
@@ -2835,24 +2539,6 @@
             ],
             "codepoint": "0XF0AF"
         },
-        "Otilde": {
-            "alternateCodepoints": [
-                "0X00D5"
-            ],
-            "codepoint": "0XF0CD"
-        },
-        "P": {
-            "alternateCodepoints": [
-                "0X0050"
-            ],
-            "codepoint": "0XF050"
-        },
-        "Ugrave": {
-            "alternateCodepoints": [
-                "0X00D9"
-            ],
-            "codepoint": "0XF0F4"
-        },
         "VirgaBlack": {
             "alternateCodepoints": [
                 "0X0000",
@@ -2860,17 +2546,17 @@
             ],
             "codepoint": "0XE996"
         },
+        "VirgaLongBlack": {
+            "alternateCodepoints": [
+                "0X005B"
+            ],
+            "codepoint": "0XF05B"
+        },
         "Ydieresis": {
             "alternateCodepoints": [
                 "0XF0D9"
             ],
             "codepoint": "0X0178"
-        },
-        "accidentalDoubleFlatParens": {
-            "alternateCodepoints": [
-                "0X00E5"
-            ],
-            "codepoint": "0XF08C"
         },
         "accidentalFlat": {
             "alternateCodepoints": [
@@ -2883,12 +2569,6 @@
                 "0X0061"
             ],
             "codepoint": "0XF061"
-        },
-        "accidentalSharpSmall": {
-            "alternateCodepoints": [
-                "0X0049"
-            ],
-            "codepoint": "0XF049"
         },
         "acute": {
             "alternateCodepoints": [
@@ -2920,29 +2600,11 @@
             ],
             "codepoint": "0XF0BE"
         },
-        "ascii214": {
-            "alternateCodepoints": [
-                "0X00F7"
-            ],
-            "codepoint": "0XF0D6"
-        },
         "ascii230": {
             "alternateCodepoints": [
                 "0X00CA"
             ],
             "codepoint": "0XF0E6"
-        },
-        "ascii45": {
-            "alternateCodepoints": [
-                "0X0045"
-            ],
-            "codepoint": "0XF045"
-        },
-        "ascii48": {
-            "alternateCodepoints": [
-                "0X0048"
-            ],
-            "codepoint": "0XF048"
         },
         "ascii6e": {
             "alternateCodepoints": [
@@ -2950,102 +2612,11 @@
             ],
             "codepoint": "0XF06E"
         },
-        "ascii91": {
-            "alternateCodepoints": [
-                "0X005B"
-            ],
-            "codepoint": "0XF05B"
-        },
-        "backslash": {
-            "alternateCodepoints": [
-                "0X005C"
-            ],
-            "codepoint": "0XF05C"
-        },
-        "blackChantPunctum": {
-            "alternateCodepoints": [
-                "0X0058",
-                "0XF058"
-            ],
-            "codepoint": "0XE990"
-        },
-        "blackPesFinal2nd": {
-            "alternateCodepoints": [
-                "0X0039"
-            ],
-            "codepoint": "0XF039"
-        },
-        "blackPesFinal3rd": {
-            "alternateCodepoints": [
-                "0X003A"
-            ],
-            "codepoint": "0XF03A"
-        },
-        "blackPesFinal4th_": {
-            "alternateCodepoints": [
-                "0X003B"
-            ],
-            "codepoint": "0XF03B"
-        },
-        "blackPesFinal4th__": {
-            "alternateCodepoints": [
-                "0X00E4"
-            ],
-            "codepoint": "0XF08A"
-        },
-        "blackPesFinal5th_": {
-            "alternateCodepoints": [
-                "0X003C"
-            ],
-            "codepoint": "0XF03C"
-        },
-        "blackPesFinal5th__": {
-            "alternateCodepoints": [
-                "0X00E3"
-            ],
-            "codepoint": "0XF08B"
-        },
-        "blackPesFinal6th": {
-            "alternateCodepoints": [
-                "0X003D"
-            ],
-            "codepoint": "0XF03D"
-        },
-        "blackPesFinal7th": {
-            "alternateCodepoints": [
-                "0X003E"
-            ],
-            "codepoint": "0XF03E"
-        },
-        "blackPesInitialSmall": {
-            "alternateCodepoints": [
-                "0X0076"
-            ],
-            "codepoint": "0XF076"
-        },
-        "blackSemibrevisSquareStemUp": {
-            "alternateCodepoints": [
-                "0X0074"
-            ],
-            "codepoint": "0XF074"
-        },
         "breve": {
             "alternateCodepoints": [
                 "0XF0F9"
             ],
             "codepoint": "0X02D8"
-        },
-        "caron": {
-            "alternateCodepoints": [
-                "0XF0FF"
-            ],
-            "codepoint": "0X02C7"
-        },
-        "ccedilla": {
-            "alternateCodepoints": [
-                "0X00E7"
-            ],
-            "codepoint": "0XF08D"
         },
         "chantCclef_smufl": {
             "codepoint": "0XE906"
@@ -3067,108 +2638,162 @@
         "chantFclef_smufl": {
             "codepoint": "0XE902"
         },
-        "chantStrophicusAuctus": {
+        "chantPunctumBlack": {
             "alternateCodepoints": [
-                "0XF0D0",
-                "0XE9A0"
+                "0X0058",
+                "0XF058"
             ],
-            "codepoint": "0X2013"
+            "codepoint": "0XE990"
         },
-        "circumflex": {
-            "alternateCodepoints": [
-                "0XF0F6"
-            ],
-            "codepoint": "0X02C6"
-        },
-        "clivisBlackInitial3": {
-            "alternateCodepoints": [
-                "0X007A"
-            ],
-            "codepoint": "0XF07A"
-        },
-        "clivisBlackInitial4": {
-            "alternateCodepoints": [
-                "0X007B"
-            ],
-            "codepoint": "0XF07B"
-        },
-        "clivisBlackInitial5": {
-            "alternateCodepoints": [
-                "0X007C"
-            ],
-            "codepoint": "0XF07C"
-        },
-        "clivisBlackInitial6": {
-            "alternateCodepoints": [
-                "0X007D"
-            ],
-            "codepoint": "0XF07D"
-        },
-        "clivisBlackInitial7": {
-            "alternateCodepoints": [
-                "0X007E"
-            ],
-            "codepoint": "0XF07E"
-        },
-        "clivisFinal2nd": {
+        "clivisFinal2ndBlack": {
             "alternateCodepoints": [
                 "0X00C5"
             ],
             "codepoint": "0XF081"
         },
-        "clivisFinal3rd": {
+        "clivisFinal2ndWhite": {
+            "alternateCodepoints": [
+                "0XF0D1"
+            ],
+            "codepoint": "0X2014"
+        },
+        "clivisFinal3rdBlack": {
             "alternateCodepoints": [
                 "0X00C7"
             ],
             "codepoint": "0XF082"
         },
-        "clivisFinalBlack4th": {
+        "clivisFinal3rdWhite": {
+            "alternateCodepoints": [
+                "0XF0D2"
+            ],
+            "codepoint": "0X201C"
+        },
+        "clivisFinal4thBlack": {
             "alternateCodepoints": [
                 "0X00C9"
             ],
             "codepoint": "0XF083"
         },
-        "clivisFinalBlack5th": {
+        "clivisFinal4thWhite": {
+            "alternateCodepoints": [
+                "0XF0D3"
+            ],
+            "codepoint": "0X201D"
+        },
+        "clivisFinal5thBlack": {
             "alternateCodepoints": [
                 "0X00D1"
             ],
             "codepoint": "0XF084"
         },
-        "clivisFinalBlack6th": {
+        "clivisFinal5thWhite": {
             "alternateCodepoints": [
-                "0X00D6"
+                "0XF0D4"
             ],
-            "codepoint": "0XF085"
+            "codepoint": "0X2018"
         },
-        "clivisFinalBlack7th": {
+        "clivisFinal6thWhite": {
             "alternateCodepoints": [
-                "0X00DC"
+                "0XF0D5"
             ],
-            "codepoint": "0XF086"
+            "codepoint": "0X2019"
         },
-        "clivisFinalBlackOct": {
+        "clivisFinal7thWhite": {
             "alternateCodepoints": [
-                "0X00E1"
+                "0X00F7"
             ],
-            "codepoint": "0XF087"
+            "codepoint": "0XF0D6"
         },
-        "clivisInitial1": {
+        "clivisFinal8veWhite": {
+            "alternateCodepoints": [
+                "0XF0D7"
+            ],
+            "codepoint": "0X25CA"
+        },
+        "clivisInitial1Black": {
             "alternateCodepoints": [
                 "0X0078"
             ],
             "codepoint": "0XF078"
         },
-        "clivisInitial2": {
+        "clivisInitial1White": {
+            "alternateCodepoints": [
+                "0X00BB"
+            ],
+            "codepoint": "0XF0C8"
+        },
+        "clivisInitial2Black": {
             "alternateCodepoints": [
                 "0X0079"
             ],
             "codepoint": "0XF079"
         },
-        "clivisWhiteInitial3": {
+        "clivisInitial2White": {
+            "alternateCodepoints": [
+                "0XF0C9"
+            ],
+            "codepoint": "0X2026"
+        },
+        "clivisInitial3Black": {
+            "alternateCodepoints": [
+                "0X007A"
+            ],
+            "codepoint": "0XF07A"
+        },
+        "clivisInitial3White": {
             "alternateCodepoints": [
                 "0X00A0"
             ],
             "codepoint": "0XF0CA"
+        },
+        "clivisInitial4Black": {
+            "alternateCodepoints": [
+                "0X007B"
+            ],
+            "codepoint": "0XF07B"
+        },
+        "clivisInitial4White": {
+            "alternateCodepoints": [
+                "0X00C0"
+            ],
+            "codepoint": "0XF0CB"
+        },
+        "clivisInitial5Black": {
+            "alternateCodepoints": [
+                "0X007C"
+            ],
+            "codepoint": "0XF07C"
+        },
+        "clivisInitial5White": {
+            "alternateCodepoints": [
+                "0X00C3"
+            ],
+            "codepoint": "0XF0CC"
+        },
+        "clivisInitial6Black": {
+            "alternateCodepoints": [
+                "0X007D"
+            ],
+            "codepoint": "0XF07D"
+        },
+        "clivisInitial6White": {
+            "alternateCodepoints": [
+                "0X00D5"
+            ],
+            "codepoint": "0XF0CD"
+        },
+        "clivisInitial7Black": {
+            "alternateCodepoints": [
+                "0X007E"
+            ],
+            "codepoint": "0XF07E"
+        },
+        "clivisInitial7White": {
+            "alternateCodepoints": [
+                "0XF0CE"
+            ],
+            "codepoint": "0X0152"
         },
         "connectingStem2ndUp": {
             "alternateCodepoints": [
@@ -3254,12 +2879,6 @@
             ],
             "codepoint": "0XF0AC"
         },
-        "eacute": {
-            "alternateCodepoints": [
-                "0X00E9"
-            ],
-            "codepoint": "0XF08E"
-        },
         "ecircumflex": {
             "alternateCodepoints": [
                 "0X00EA"
@@ -3272,18 +2891,6 @@
             ],
             "codepoint": "0XF091"
         },
-        "ellipsis": {
-            "alternateCodepoints": [
-                "0XF0C9"
-            ],
-            "codepoint": "0X2026"
-        },
-        "emdash": {
-            "alternateCodepoints": [
-                "0XF0D1"
-            ],
-            "codepoint": "0X2014"
-        },
         "exclamdown": {
             "alternateCodepoints": [
                 "0X00A1"
@@ -3295,12 +2902,6 @@
                 "0X0066"
             ],
             "codepoint": "0XF066"
-        },
-        "fClefFrench": {
-            "alternateCodepoints": [
-                "0XF0F5"
-            ],
-            "codepoint": "0X0131"
         },
         "fi": {
             "alternateCodepoints": [
@@ -3331,12 +2932,6 @@
                 "0X00AB"
             ],
             "codepoint": "0XF0C7"
-        },
-        "guillemotright": {
-            "alternateCodepoints": [
-                "0X00BB"
-            ],
-            "codepoint": "0XF0C8"
         },
         "guilsinglleft": {
             "alternateCodepoints": [
@@ -3392,12 +2987,6 @@
             ],
             "codepoint": "0XF0C2"
         },
-        "lozenge": {
-            "alternateCodepoints": [
-                "0XF0D7"
-            ],
-            "codepoint": "0X25CA"
-        },
         "medRenFlatSoftB_smufl": {
             "codepoint": "0XE9E0"
         },
@@ -3419,79 +3008,24 @@
         "mensRestLongaImperfecta_smufl": {
             "codepoint": "0XE9F2"
         },
-        "mensuralBlackBrevis": {
+        "mensuralBlackBrevis_smufl": {
+            "codepoint": "0XE952"
+        },
+        "mensuralBlackMaxima_smufl": {
+            "codepoint": "0XE950"
+        },
+        "mensuralBrevisBlack": {
             "alternateCodepoints": [
                 "0X00E8"
             ],
             "codepoint": "0XF08F"
         },
-        "mensuralBlackBrevis_smufl": {
-            "codepoint": "0XE952"
-        },
-        "mensuralBlackDragma": {
+        "mensuralBrevisWhite": {
             "alternateCodepoints": [
-                "0X006B",
-                "0XF06B"
+                "0XE9EE",
+                "0XF0DF"
             ],
-            "codepoint": "0XE95A"
-        },
-        "mensuralBlackFusa": {
-            "alternateCodepoints": [
-                "0X0038",
-                "0XF038"
-            ],
-            "codepoint": "0XF702"
-        },
-        "mensuralBlackLonga": {
-            "alternateCodepoints": [
-                "0X0065",
-                "0XF065"
-            ],
-            "codepoint": "0XE951"
-        },
-        "mensuralBlackMaxima": {
-            "alternateCodepoints": [
-                "0X0063"
-            ],
-            "codepoint": "0XF063"
-        },
-        "mensuralBlackMaxima_smufl": {
-            "codepoint": "0XE950"
-        },
-        "mensuralBlackMinima": {
-            "alternateCodepoints": [
-                "0X0069",
-                "0XF069"
-            ],
-            "codepoint": "0XE954"
-        },
-        "mensuralBlackSemibrevis": {
-            "alternateCodepoints": [
-                "0X0068",
-                "0XF068"
-            ],
-            "codepoint": "0XE953"
-        },
-        "mensuralBlackSemibrevisCaudata": {
-            "alternateCodepoints": [
-                "0X006A",
-                "0XF06A"
-            ],
-            "codepoint": "0XE959"
-        },
-        "mensuralBlackSemibrevisOblique": {
-            "alternateCodepoints": [
-                "0X006D",
-                "0XF06D"
-            ],
-            "codepoint": "0XE95B"
-        },
-        "mensuralBlackSemiminima": {
-            "alternateCodepoints": [
-                "0X006F",
-                "0XF06F"
-            ],
-            "codepoint": "0XE955"
+            "codepoint": "0XFB02"
         },
         "mensuralCclefSloped_orig": {
             "codepoint": "0XF700"
@@ -3519,8 +3053,22 @@
             ],
             "codepoint": "0XEA02"
         },
+        "mensuralDragmaBlack": {
+            "alternateCodepoints": [
+                "0X006B",
+                "0XF06B"
+            ],
+            "codepoint": "0XE95A"
+        },
         "mensuralFclef_smufl": {
             "codepoint": "0XE903"
+        },
+        "mensuralFusaBlack": {
+            "alternateCodepoints": [
+                "0X0038",
+                "0XF038"
+            ],
+            "codepoint": "0XF702"
         },
         "mensuralGclef2_orig": {
             "codepoint": "0XF607"
@@ -3531,45 +3079,49 @@
         "mensuralGclef_smufl": {
             "codepoint": "0XE900"
         },
-        "mensuralNoteheadLongaBlack": {
+        "mensuralLongaBlack": {
             "alternateCodepoints": [
-                "0XF0FE"
+                "0X0065",
+                "0XF065"
             ],
-            "codepoint": "0XE934"
+            "codepoint": "0XE951"
+        },
+        "mensuralLongaWhite": {
+            "alternateCodepoints": [
+                "0XE95D",
+                "0XF0AA"
+            ],
+            "codepoint": "0X2122"
+        },
+        "mensuralMaximaBlack": {
+            "alternateCodepoints": [
+                "0X0063"
+            ],
+            "codepoint": "0XF063"
+        },
+        "mensuralMaximaWhite": {
+            "alternateCodepoints": [
+                "0XE95C",
+                "0XF0B3"
+            ],
+            "codepoint": "0X2265"
+        },
+        "mensuralMinimaBlack": {
+            "alternateCodepoints": [
+                "0X0069",
+                "0XF069"
+            ],
+            "codepoint": "0XE954"
+        },
+        "mensuralMinimaWhite": {
+            "alternateCodepoints": [
+                "0XE95F",
+                "0XF0B9"
+            ],
+            "codepoint": "0X03C0"
         },
         "mensuralNoteheadMaxBlack_smufl": {
             "codepoint": "0XE930"
-        },
-        "mensuralOblDesc2ndBW_smufl": {
-            "codepoint": "0XE982"
-        },
-        "mensuralObliqueDesc2ndWhite": {
-            "alternateCodepoints": [
-                "0XF0F0",
-                "0XE983"
-            ],
-            "codepoint": "0XF8FF"
-        },
-        "mensuralObliqueDesc3rdWhite": {
-            "alternateCodepoints": [
-                "0X00D2",
-                "0XF0F1"
-            ],
-            "codepoint": "0XE987"
-        },
-        "mensuralObliqueDesc4thWhite": {
-            "alternateCodepoints": [
-                "0X00DA",
-                "0XF0F2"
-            ],
-            "codepoint": "0XE98B"
-        },
-        "mensuralObliqueDesc5thWhite": {
-            "alternateCodepoints": [
-                "0X00DB",
-                "0XF0F3"
-            ],
-            "codepoint": "0XE98F"
         },
         "mensuralProlation1": {
             "alternateCodepoints": [
@@ -3734,48 +3286,48 @@
         "mensuralRestSemiminima_smufl": {
             "codepoint": "0XE9F6"
         },
-        "mensuralWhiteBrevis": {
+        "mensuralSemibrevisBlack": {
             "alternateCodepoints": [
-                "0XE9EE",
-                "0XF0DF"
+                "0X0068",
+                "0XF068"
             ],
-            "codepoint": "0XFB02"
+            "codepoint": "0XE953"
         },
-        "mensuralWhiteLonga": {
+        "mensuralSemibrevisCaudataBlack": {
             "alternateCodepoints": [
-                "0XE95D",
-                "0XF0AA"
+                "0X006A",
+                "0XF06A"
             ],
-            "codepoint": "0X2122"
+            "codepoint": "0XE959"
         },
-        "mensuralWhiteMaxima": {
+        "mensuralSemibrevisCaudataWhite": {
             "alternateCodepoints": [
-                "0XE95C",
-                "0XF0B3"
+                "0XF0BA"
             ],
-            "codepoint": "0X2265"
+            "codepoint": "0X222B"
         },
-        "mensuralWhiteMinima": {
+        "mensuralSemibrevisObliqueBlack": {
             "alternateCodepoints": [
-                "0XE95F",
-                "0XF0B9"
+                "0X006D",
+                "0XF06D"
             ],
-            "codepoint": "0X03C0"
+            "codepoint": "0XE95B"
         },
-        "mensuralWhiteSemibrevis": {
+        "mensuralSemibrevisWhite": {
             "alternateCodepoints": [
                 "0XE957",
                 "0XF0B8"
             ],
             "codepoint": "0X220F"
         },
-        "mensuralWhiteSemibrevisCaudata": {
+        "mensuralSemiminimaBlack": {
             "alternateCodepoints": [
-                "0XF0BA"
+                "0X006F",
+                "0XF06F"
             ],
-            "codepoint": "0X222B"
+            "codepoint": "0XE955"
         },
-        "mensuralWhiteSemiminima": {
+        "mensuralSemiminimaWhite": {
             "alternateCodepoints": [
                 "0X00F8"
             ],
@@ -3799,6 +3351,21 @@
             ],
             "codepoint": "0XF097"
         },
+        "oblDesc2ndBW": {
+            "alternateCodepoints": [
+                "0X004C"
+            ],
+            "codepoint": "0XF04C"
+        },
+        "oblDesc2ndWB": {
+            "alternateCodepoints": [
+                "0X0048"
+            ],
+            "codepoint": "0XF048"
+        },
+        "oblDesc2ndWB_smufl": {
+            "codepoint": "0XE982"
+        },
         "obliqueDesc2ndBlack": {
             "alternateCodepoints": [
                 "0XF0A0",
@@ -3806,17 +3373,24 @@
             ],
             "codepoint": "0X2020"
         },
-        "obliqueDesc2ndBlackEnd": {
+        "obliqueDesc2ndEndBlack": {
             "alternateCodepoints": [
                 "0X006C"
             ],
             "codepoint": "0XF06C"
         },
-        "obliqueDesc2ndWhiteEnd": {
+        "obliqueDesc2ndEndWhite": {
             "alternateCodepoints": [
                 "0X00B8"
             ],
             "codepoint": "0XF0FC"
+        },
+        "obliqueDesc2ndWhite": {
+            "alternateCodepoints": [
+                "0XF0F0",
+                "0XE983"
+            ],
+            "codepoint": "0XF8FF"
         },
         "obliqueDesc3rdBlack": {
             "alternateCodepoints": [
@@ -3825,12 +3399,26 @@
             ],
             "codepoint": "0XE984"
         },
+        "obliqueDesc3rdWhite": {
+            "alternateCodepoints": [
+                "0X00D2",
+                "0XF0F1"
+            ],
+            "codepoint": "0XE987"
+        },
         "obliqueDesc4thBlack": {
             "alternateCodepoints": [
                 "0X00A2",
                 "0XF0A2"
             ],
             "codepoint": "0XE988"
+        },
+        "obliqueDesc4thWhite": {
+            "alternateCodepoints": [
+                "0X00DA",
+                "0XF0F2"
+            ],
+            "codepoint": "0XE98B"
         },
         "obliqueDesc5thBlack": {
             "alternateCodepoints": [
@@ -3839,17 +3427,36 @@
             ],
             "codepoint": "0XE98C"
         },
+        "obliqueDesc5thWhite": {
+            "alternateCodepoints": [
+                "0X00DB",
+                "0XF0F3"
+            ],
+            "codepoint": "0XE98F"
+        },
         "obliqueDesc6thBlack": {
             "alternateCodepoints": [
                 "0X00A7"
             ],
             "codepoint": "0XF0A4"
         },
+        "obliqueDesc6thWhite": {
+            "alternateCodepoints": [
+                "0X00D9"
+            ],
+            "codepoint": "0XF0F4"
+        },
         "obliqueDesc7thBlack": {
             "alternateCodepoints": [
                 "0XF0A5"
             ],
             "codepoint": "0X2022"
+        },
+        "obliqueDesc7thWhite": {
+            "alternateCodepoints": [
+                "0XF0F5"
+            ],
+            "codepoint": "0X0131"
         },
         "obliqueDesc9thBlack": {
             "alternateCodepoints": [
@@ -3862,6 +3469,12 @@
                 "0X00B6"
             ],
             "codepoint": "0XF0A6"
+        },
+        "obliqueDescOctWhite": {
+            "alternateCodepoints": [
+                "0XF0F6"
+            ],
+            "codepoint": "0X02C6"
         },
         "oe": {
             "alternateCodepoints": [
@@ -3911,50 +3524,98 @@
             ],
             "codepoint": "0X2030"
         },
-        "pesInitialBlack2nd": {
+        "pesAnticusFinal2ndBlack": {
+            "alternateCodepoints": [
+                "0X0039"
+            ],
+            "codepoint": "0XF039"
+        },
+        "pesAnticusFinal3rdBlack": {
+            "alternateCodepoints": [
+                "0X003A"
+            ],
+            "codepoint": "0XF03A"
+        },
+        "pesAnticusFinal4thBlack_": {
+            "alternateCodepoints": [
+                "0X003B"
+            ],
+            "codepoint": "0XF03B"
+        },
+        "pesAnticusFinal5thBlack_": {
+            "alternateCodepoints": [
+                "0X003C"
+            ],
+            "codepoint": "0XF03C"
+        },
+        "pesAnticusFinal6thBlack": {
+            "alternateCodepoints": [
+                "0X003D"
+            ],
+            "codepoint": "0XF03D"
+        },
+        "pesAnticusFinal7thBlack": {
+            "alternateCodepoints": [
+                "0X003E"
+            ],
+            "codepoint": "0XF03E"
+        },
+        "pesFinal4thBlack__": {
+            "alternateCodepoints": [
+                "0X00E4"
+            ],
+            "codepoint": "0XF08A"
+        },
+        "pesInitial2ndBlack": {
             "alternateCodepoints": [
                 "0X00E0"
             ],
             "codepoint": "0XF088"
         },
-        "pesInitialBlack3rd": {
+        "pesInitial3rdBlack": {
             "alternateCodepoints": [
                 "0X00E2"
             ],
             "codepoint": "0XF089"
         },
-        "plicaBrevisAsc": {
+        "pesInitialSmallBlack": {
+            "alternateCodepoints": [
+                "0X0076"
+            ],
+            "codepoint": "0XF076"
+        },
+        "plicaBrevisAscBlack": {
             "alternateCodepoints": [
                 "0X005F"
             ],
             "codepoint": "0XF05F"
         },
-        "plicaBrevisDesc": {
+        "plicaBrevisDescBlack": {
             "alternateCodepoints": [
                 "0X0060"
             ],
             "codepoint": "0XF060"
         },
-        "plicaLongaAsc": {
+        "plicaLongaAscBlack": {
             "alternateCodepoints": [
                 "0X005D"
             ],
             "codepoint": "0XF05D"
         },
-        "plicaLongaDesc": {
+        "plicaLongaDescBlack": {
             "alternateCodepoints": [
                 "0X005E"
             ],
             "codepoint": "0XF05E"
         },
-        "plicaSemibrevisAsc": {
+        "plicaSemibrevisAscBlack": {
             "alternateCodepoints": [
                 "0X0022",
                 "0XF022"
             ],
             "codepoint": "0XE998"
         },
-        "plicaSemibrevisDesc": {
+        "plicaSemibrevisDescBlack": {
             "alternateCodepoints": [
                 "0X0023"
             ],
@@ -3972,6 +3633,42 @@
             ],
             "codepoint": "0X02DD"
         },
+        "porrectusObl4thCrushedBlack": {
+            "alternateCodepoints": [
+                "0X00F6"
+            ],
+            "codepoint": "0XF09A"
+        },
+        "porrectusObl5thCrushedBlack": {
+            "alternateCodepoints": [
+                "0X00F5"
+            ],
+            "codepoint": "0XF09B"
+        },
+        "porrectusObl6thCrushedBlack": {
+            "alternateCodepoints": [
+                "0X00FA"
+            ],
+            "codepoint": "0XF09C"
+        },
+        "porrectusObl7thCrushedBlack": {
+            "alternateCodepoints": [
+                "0X00F9"
+            ],
+            "codepoint": "0XF09D"
+        },
+        "porrectusObl9thCrushedBlack": {
+            "alternateCodepoints": [
+                "0X00FC"
+            ],
+            "codepoint": "0XF09F"
+        },
+        "porrectusOblOctCrushedBlack": {
+            "alternateCodepoints": [
+                "0X00FB"
+            ],
+            "codepoint": "0XF09E"
+        },
         "porrectusOblique2ndCrushedBlack": {
             "alternateCodepoints": [
                 "0X00F2"
@@ -3983,42 +3680,6 @@
                 "0X00F4"
             ],
             "codepoint": "0XF099"
-        },
-        "porrectusOblique4thCrushedBlack": {
-            "alternateCodepoints": [
-                "0X00F6"
-            ],
-            "codepoint": "0XF09A"
-        },
-        "porrectusOblique5thCrushedBlack": {
-            "alternateCodepoints": [
-                "0X00F5"
-            ],
-            "codepoint": "0XF09B"
-        },
-        "porrectusOblique6thCrushedBlack": {
-            "alternateCodepoints": [
-                "0X00FA"
-            ],
-            "codepoint": "0XF09C"
-        },
-        "porrectusOblique7thCrushedBlack": {
-            "alternateCodepoints": [
-                "0X00F9"
-            ],
-            "codepoint": "0XF09D"
-        },
-        "porrectusOblique9thCrushedBlack": {
-            "alternateCodepoints": [
-                "0X00FC"
-            ],
-            "codepoint": "0XF09F"
-        },
-        "porrectusObliqueOctCrushedBlack": {
-            "alternateCodepoints": [
-                "0X00FB"
-            ],
-            "codepoint": "0XF09E"
         },
         "q": {
             "alternateCodepoints": [
@@ -4037,30 +3698,6 @@
                 "0XF0E3"
             ],
             "codepoint": "0X201E"
-        },
-        "quotedblleft": {
-            "alternateCodepoints": [
-                "0XF0D2"
-            ],
-            "codepoint": "0X201C"
-        },
-        "quotedblright": {
-            "alternateCodepoints": [
-                "0XF0D3"
-            ],
-            "codepoint": "0X201D"
-        },
-        "quoteleft": {
-            "alternateCodepoints": [
-                "0XF0D4"
-            ],
-            "codepoint": "0X2018"
-        },
-        "quoteright": {
-            "alternateCodepoints": [
-                "0XF0D5"
-            ],
-            "codepoint": "0X2019"
         },
         "quotesinglbase": {
             "alternateCodepoints": [
@@ -4086,17 +3723,17 @@
             ],
             "codepoint": "0XF0A8"
         },
-        "ring": {
-            "alternateCodepoints": [
-                "0XF0FB"
-            ],
-            "codepoint": "0X02DA"
-        },
         "s": {
             "alternateCodepoints": [
                 "0X0073"
             ],
             "codepoint": "0XF073"
+        },
+        "semibrevisSquareStemUpBlack": {
+            "alternateCodepoints": [
+                "0X0074"
+            ],
+            "codepoint": "0XF074"
         },
         "stemInitialDown": {
             "alternateCodepoints": [
@@ -4128,12 +3765,6 @@
                 "0XF0F7"
             ],
             "codepoint": "0X02DC"
-        },
-        "timeSigCutCommon": {
-            "alternateCodepoints": [
-                "0X0043"
-            ],
-            "codepoint": "0XF043"
         },
         "u": {
             "alternateCodepoints": [
