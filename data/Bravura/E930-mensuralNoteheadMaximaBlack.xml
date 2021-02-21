@@ -3,5 +3,5 @@
         overflow="inherit"
         font-origin="Bravura">
    <path transform="scale(1,-1)"
-         d="M766 -141h-750c-8 0 -16 7 -16 16v250c0 8 8 16 16 16h750c9 0 16 -8 16 -16v-250c0 -9 -7 -16 -16 -16z"/>
+         d="M0 125c0 8 8 16 16 16h750c9 0 16 -8 16 -16v-250c0 -9 -7 -16 -16 -16h-750c-8 0 -16 7 -16 16v250z"/>
 </symbol>

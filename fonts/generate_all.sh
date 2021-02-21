@@ -56,4 +56,8 @@ fontforge generate_font_metadata.py Machaut.sfd
 saxon Machaut.svg extract-glyphs.xsl > tmp/Machaut-bounding-boxes.svg
 phantomjs generate-bbox.js tmp/Machaut-bounding-boxes.svg ../data/Machaut.xml json/machaut_metadata.json
 
+echo "Generating Leland files ..."
+saxon Leland.svg extract-glyphs.xsl > tmp/Leland-bounding-boxes.svg
+phantomjs generate-bbox.js tmp/Leland-bounding-boxes.svg ../data/Leland.xml json/leland_metadata.json
+
 echo "Done!"

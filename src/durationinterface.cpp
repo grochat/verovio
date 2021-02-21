@@ -96,18 +96,22 @@ double DurationInterface::GetInterfaceAlignmentMensuralDuration(int num, int num
     }
     // perfecta in tempus imperfectum
     else if ((this->GetDurQuality() == DURQUALITY_mensural_perfecta) && (currentMensur->GetTempus() == TEMPUS_2)) {
-        num *= 3;
-        numBase *= 2;
-    }
-    // imperfecta in tempus perfectum (e.g. not imperfectum since perfectum is assumed by default)
-    else if ((this->GetDurQuality() == DURQUALITY_mensural_imperfecta) && (currentMensur->GetTempus() != TEMPUS_2)) {
         num *= 2;
         numBase *= 3;
     }
-    // altera - that any other given value and not minor
-    else if (this->HasDurQuality() && (this->GetDurQuality() != DURQUALITY_mensural_minor)) {
-        num *= 2;
+    // imperfecta in tempus perfectum (e.g. not imperfectum since perfectum is assumed by default)
+    else if ((this->GetDurQuality() == DURQUALITY_mensural_imperfecta) && (currentMensur->GetTempus() != TEMPUS_2)) {
+        num *= 3;
+        numBase *= 2;
     }
+    // altera, maior, or duplex
+    else if (this->HasDurQuality()
+        && (this->GetDurQuality() == DURQUALITY_mensural_altera || this->GetDurQuality() == DURQUALITY_mensural_maior
+            || this->GetDurQuality() == DURQUALITY_mensural_duplex)) {
+        num *= 1;
+        numBase *= 2;
+    } // Any other case (minor, perfecta in tempus perfectum, and imperfecta in tempus imperfectum) follows the
+      // mensuration and has no @num and @numbase attributes
 
     if (currentMensur->HasNum()) num *= currentMensur->GetNum();
     if (currentMensur->HasNumbase()) numBase *= currentMensur->GetNumbase();
@@ -180,7 +184,7 @@ int DurationInterface::GetNoteOrChordDur(LayerElement *element)
         return this->GetActualDur();
     }
     else if (element->Is(NOTE)) {
-        Note *note = dynamic_cast<Note *>(element);
+        Note *note = vrv_cast<Note *>(element);
         assert(note);
         Chord *chord = note->IsChordTone();
         if (chord && !this->HasDur())

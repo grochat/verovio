@@ -10,6 +10,12 @@
 		152886C51C9CA86100B515BB /* ligature.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 152886C41C9CA86100B515BB /* ligature.cpp */; };
 		1579B3431B15033100B16F5C /* proport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1579B3421B15033100B16F5C /* proport.cpp */; };
 		2D2A799A1A69812C000A441B /* chord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D2A79991A69812C000A441B /* chord.cpp */; };
+		35F6580F24F92B6100C99A2D /* fing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 35FDEBD024B6DC5B00AC1696 /* fing.cpp */; };
+		35FDEBCE24B6DBC100AC1696 /* fing.h in Headers */ = {isa = PBXBuildFile; fileRef = 35FDEBCD24B6DBC100AC1696 /* fing.h */; };
+		35FDEBCF24B6DBC100AC1696 /* fing.h in Headers */ = {isa = PBXBuildFile; fileRef = 35FDEBCD24B6DBC100AC1696 /* fing.h */; };
+		35FDEBD124B6DC5B00AC1696 /* fing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 35FDEBD024B6DC5B00AC1696 /* fing.cpp */; };
+		35FDEBD224B6DC5B00AC1696 /* fing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 35FDEBD024B6DC5B00AC1696 /* fing.cpp */; };
+		35FDEBD324B6DC5B00AC1696 /* fing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 35FDEBD024B6DC5B00AC1696 /* fing.cpp */; };
 		36E0442C2347A9150054F141 /* expansionmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36E0442B2347A9150054F141 /* expansionmap.cpp */; };
 		36E0442E2347A9290054F141 /* expansionmap.h in Headers */ = {isa = PBXBuildFile; fileRef = 36E0442D2347A9290054F141 /* expansionmap.h */; };
 		400FEDD3206FA743000D3233 /* gracegrp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 400FEDD2206FA743000D3233 /* gracegrp.cpp */; };
@@ -286,6 +292,12 @@
 		4D64137E2035F68600BB630E /* mdiv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D64137D2035F68600BB630E /* mdiv.cpp */; };
 		4D64137F2035F68600BB630E /* mdiv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D64137D2035F68600BB630E /* mdiv.cpp */; };
 		4D6413802035F68600BB630E /* mdiv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D64137D2035F68600BB630E /* mdiv.cpp */; };
+		4D674B3F255F40AC008AEF4C /* plica.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D674B3E255F40AC008AEF4C /* plica.h */; };
+		4D674B40255F40AC008AEF4C /* plica.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D674B3E255F40AC008AEF4C /* plica.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D674B46255F40B7008AEF4C /* plica.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D674B45255F40B7008AEF4C /* plica.cpp */; };
+		4D674B47255F40B7008AEF4C /* plica.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D674B45255F40B7008AEF4C /* plica.cpp */; };
+		4D674B48255F40B7008AEF4C /* plica.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D674B45255F40B7008AEF4C /* plica.cpp */; };
+		4D674B49255F40B7008AEF4C /* plica.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D674B45255F40B7008AEF4C /* plica.cpp */; };
 		4D6DF9F520E1071F00C12BBD /* subst.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D6DF9F420E1071E00C12BBD /* subst.cpp */; };
 		4D6DF9F720E1074100C12BBD /* subst.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D6DF9F420E1071E00C12BBD /* subst.cpp */; };
 		4D6DF9F820E1074200C12BBD /* subst.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D6DF9F420E1071E00C12BBD /* subst.cpp */; };
@@ -1153,6 +1165,12 @@
 		BBC19FBF22B37CA000100F42 /* all.h in Headers */ = {isa = PBXBuildFile; fileRef = BBC19FBE22B37CA000100F42 /* all.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BBC19FC322B38C1400100F42 /* VerovioFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = BBC19FC222B38C1400100F42 /* VerovioFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BBC19FC922B39AC400100F42 /* git_commit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D9C5F3A1ADBBBEB005D3031 /* git_commit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDC366C72576AF9300E4D826 /* grpsym.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDC366C52576AF9300E4D826 /* grpsym.cpp */; };
+		BDC366CC2576AF9B00E4D826 /* grpsym.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDC366C52576AF9300E4D826 /* grpsym.cpp */; };
+		BDC366D12576AF9C00E4D826 /* grpsym.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDC366C52576AF9300E4D826 /* grpsym.cpp */; };
+		BDC366D62576AF9C00E4D826 /* grpsym.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDC366C52576AF9300E4D826 /* grpsym.cpp */; };
+		BDC366DB2576AFA400E4D826 /* grpsym.h in Headers */ = {isa = PBXBuildFile; fileRef = BDC366C62576AF9300E4D826 /* grpsym.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDC366E02576AFA500E4D826 /* grpsym.h in Headers */ = {isa = PBXBuildFile; fileRef = BDC366C62576AF9300E4D826 /* grpsym.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -1184,6 +1202,8 @@
 		1579B3421B15033100B16F5C /* proport.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = proport.cpp; path = src/proport.cpp; sourceTree = "<group>"; };
 		2D2A79991A69812C000A441B /* chord.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = chord.cpp; path = src/chord.cpp; sourceTree = "<group>"; };
 		2D2A799B1A698137000A441B /* chord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = chord.h; path = include/vrv/chord.h; sourceTree = "<group>"; };
+		35FDEBCD24B6DBC100AC1696 /* fing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fing.h; path = include/vrv/fing.h; sourceTree = "<group>"; };
+		35FDEBD024B6DC5B00AC1696 /* fing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fing.cpp; path = src/fing.cpp; sourceTree = "<group>"; };
 		36E0442B2347A9150054F141 /* expansionmap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = expansionmap.cpp; path = src/expansionmap.cpp; sourceTree = "<group>"; };
 		36E0442D2347A9290054F141 /* expansionmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = expansionmap.h; path = include/vrv/expansionmap.h; sourceTree = "<group>"; };
 		400FEDD1206FA742000D3233 /* gracegrp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gracegrp.h; path = include/vrv/gracegrp.h; sourceTree = "<group>"; };
@@ -1301,6 +1321,8 @@
 		4D6413772035F58200BB630E /* pages.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pages.cpp; path = src/pages.cpp; sourceTree = "<group>"; };
 		4D64137B2035F67C00BB630E /* mdiv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mdiv.h; path = include/vrv/mdiv.h; sourceTree = "<group>"; };
 		4D64137D2035F68600BB630E /* mdiv.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mdiv.cpp; path = src/mdiv.cpp; sourceTree = "<group>"; };
+		4D674B3E255F40AC008AEF4C /* plica.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = plica.h; path = include/vrv/plica.h; sourceTree = "<group>"; };
+		4D674B45255F40B7008AEF4C /* plica.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = plica.cpp; path = src/plica.cpp; sourceTree = "<group>"; };
 		4D6DF9F420E1071E00C12BBD /* subst.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = subst.cpp; path = src/subst.cpp; sourceTree = "<group>"; };
 		4D6DF9F620E1072B00C12BBD /* subst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = subst.h; path = include/vrv/subst.h; sourceTree = "<group>"; };
 		4D763EC51987D04D003FCAB5 /* metersig.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = metersig.cpp; path = src/metersig.cpp; sourceTree = "<group>"; };
@@ -1584,6 +1606,8 @@
 		BB4C4BCA22A941F9001F6AF0 /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = data; sourceTree = SOURCE_ROOT; };
 		BBC19FBE22B37CA000100F42 /* all.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = all.h; path = bindings/iOS/all.h; sourceTree = SOURCE_ROOT; };
 		BBC19FC222B38C1400100F42 /* VerovioFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VerovioFramework.h; sourceTree = "<group>"; };
+		BDC366C52576AF9300E4D826 /* grpsym.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = grpsym.cpp; path = src/grpsym.cpp; sourceTree = "<group>"; };
+		BDC366C62576AF9300E4D826 /* grpsym.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = grpsym.h; path = include/vrv/grpsym.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1945,6 +1969,8 @@
 				40F910061E2799640081B7BB /* trill.h */,
 				40D0D5E01E3BD7FE00E6BF5C /* turn.cpp */,
 				40D0D5E11E3BD7FE00E6BF5C /* turn.h */,
+				35FDEBCD24B6DBC100AC1696 /* fing.h */,
+				35FDEBD024B6DC5B00AC1696 /* fing.cpp */,
 			);
 			name = controlelements;
 			sourceTree = "<group>";
@@ -2064,6 +2090,8 @@
 		8F086F38188539F00037FD8E /* containers */ = {
 			isa = PBXGroup;
 			children = (
+				BDC366C52576AF9300E4D826 /* grpsym.cpp */,
+				BDC366C62576AF9300E4D826 /* grpsym.h */,
 				40D45EBF204EEAE0009C1EC9 /* instrdef.cpp */,
 				40D45EC0204EEAE0009C1EC9 /* instrdef.h */,
 				4D4C26EC1EF7E75400681770 /* label.cpp */,
@@ -2143,6 +2171,8 @@
 				8F59291218854BF800FE51AD /* clef.h */,
 				4DC34BA619BC4A83006175CD /* custos.cpp */,
 				4DC34BA019BC4A70006175CD /* custos.h */,
+				4D674B45255F40B7008AEF4C /* plica.cpp */,
+				4D674B3E255F40AC008AEF4C /* plica.h */,
 				4DC34BA719BC4A83006175CD /* dot.cpp */,
 				4DC34BA119BC4A70006175CD /* dot.h */,
 				4DEEDE631E617C930087E8BC /* elementpart.cpp */,
@@ -2276,6 +2306,7 @@
 				8F59294018854BF800FE51AD /* iomei.h in Headers */,
 				4D4335CF1ED421D2003BE1A9 /* atts_analytical.h in Headers */,
 				4DB3D8AA1F83D02A00B5FC2B /* atts_cmn.h in Headers */,
+				35FDEBCE24B6DBC100AC1696 /* fing.h in Headers */,
 				4DEC4DDB21C8295700D1D273 /* sic.h in Headers */,
 				4DB3D8D41F83D12600B5FC2B /* pedal.h in Headers */,
 				4DB3D8BA1F83D0CA00B5FC2B /* boundary.h in Headers */,
@@ -2296,6 +2327,7 @@
 				8F59294518854BF800FE51AD /* layerelement.h in Headers */,
 				4DB3D8AD1F83D04A00B5FC2B /* atts_mensural.h in Headers */,
 				4D4FCD0A1F5455F10009C455 /* staffgrp.h in Headers */,
+				4D674B3F255F40AC008AEF4C /* plica.h in Headers */,
 				4DB3D8C41F83D0F300B5FC2B /* anchoredtext.h in Headers */,
 				40ACDEA624079F6900F82B8C /* reh.h in Headers */,
 				8F59294718854BF800FE51AD /* measure.h in Headers */,
@@ -2344,6 +2376,7 @@
 				8F59294E18854BF800FE51AD /* positioninterface.h in Headers */,
 				8F59294F18854BF800FE51AD /* rest.h in Headers */,
 				4DB3D8B31F83D07A00B5FC2B /* git_commit.h in Headers */,
+				BDC366E02576AFA500E4D826 /* grpsym.h in Headers */,
 				4DF289FD1A7545CC00BA9F7D /* timeinterface.h in Headers */,
 				8F59295018854BF800FE51AD /* scoredef.h in Headers */,
 				4DA0EAFA22BB78EA00A7EBEB /* atts_facsimile.h in Headers */,
@@ -2464,6 +2497,7 @@
 				BB4C4BC722A93317001F6AF0 /* unchecked.h in Headers */,
 				BB4C4AF622A932BC001F6AF0 /* ref.h in Headers */,
 				BB4C4B6022A932D7001F6AF0 /* mrest.h in Headers */,
+				BDC366DB2576AFA400E4D826 /* grpsym.h in Headers */,
 				BB4C4B0622A932C3001F6AF0 /* pgfoot.h in Headers */,
 				BB4C4AFA22A932BC001F6AF0 /* restore.h in Headers */,
 				BB4C4B2422A932CF001F6AF0 /* dynam.h in Headers */,
@@ -2530,6 +2564,7 @@
 				BB4C4B7022A932D7001F6AF0 /* proport.h in Headers */,
 				BB4C4ABA22A932A6001F6AF0 /* iopae.h in Headers */,
 				BB4C4B8C22A932DF001F6AF0 /* rend.h in Headers */,
+				4D674B40255F40AC008AEF4C /* plica.h in Headers */,
 				BB4C4ABC22A932B6001F6AF0 /* instrdef.h in Headers */,
 				BB4C4B7622A932D7001F6AF0 /* syl.h in Headers */,
 				BB4C4AEA22A932BC001F6AF0 /* del.h in Headers */,
@@ -2596,6 +2631,7 @@
 				BB4C4AAA22A932A0001F6AF0 /* devicecontextbase.h in Headers */,
 				BB4C4A9B22A9328F001F6AF0 /* object.h in Headers */,
 				BB4C4A9E22A9328F001F6AF0 /* smufl.h in Headers */,
+				35FDEBCF24B6DBC100AC1696 /* fing.h in Headers */,
 				BB4C4A6722A9321F001F6AF0 /* atts_critapp.h in Headers */,
 				BB4C4B3E22A932D7001F6AF0 /* artic.h in Headers */,
 				4DA0EABE22BB772C00A7EBEB /* atts_neumes.h in Headers */,
@@ -2702,7 +2738,7 @@
 		8F086EA0188534680037FD8E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1200;
 				TargetAttributes = {
 					BB4C4A5122A930A3001F6AF0 = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -2806,6 +2842,7 @@
 				4DEC4DB321C826E000D1D273 /* supplied.cpp in Sources */,
 				4DC12A851F741110000440E9 /* pgfoot2.cpp in Sources */,
 				40E1CEE0205060FD0007C8AF /* labelabbr.cpp in Sources */,
+				35F6580F24F92B6100C99A2D /* fing.cpp in Sources */,
 				4D1693FA1E3A44F300569BF4 /* clef.cpp in Sources */,
 				4D1693FB1E3A44F300569BF4 /* devicecontext.cpp in Sources */,
 				4D766F0020ACAD6D006875D8 /* syllable.cpp in Sources */,
@@ -2962,11 +2999,13 @@
 				4D16944F1E3A44F300569BF4 /* timeinterface.cpp in Sources */,
 				4D6331F61F46D2CB00A0D6BF /* arpeg.cpp in Sources */,
 				4D1694501E3A44F300569BF4 /* attconverter.cpp in Sources */,
+				4D674B47255F40B7008AEF4C /* plica.cpp in Sources */,
 				4D1694511E3A44F300569BF4 /* glyph.cpp in Sources */,
 				4D1694521E3A44F300569BF4 /* syl.cpp in Sources */,
 				4DC3B9E7239E2AE1007F185E /* transposition.cpp in Sources */,
 				40ACDEAA24079F9000F82B8C /* reh.cpp in Sources */,
 				4D1694531E3A44F300569BF4 /* atts_cmn.cpp in Sources */,
+				BDC366D62576AF9C00E4D826 /* grpsym.cpp in Sources */,
 				4D6DF9F720E1074100C12BBD /* subst.cpp in Sources */,
 				4D1694541E3A44F300569BF4 /* floatingobject.cpp in Sources */,
 				40BD9392206B950C0037BF8E /* annot.cpp in Sources */,
@@ -3002,6 +3041,7 @@
 				8F086EE6188539540037FD8E /* beam.cpp in Sources */,
 				4DAA46681DA2B3E600FF1E1A /* artic.cpp in Sources */,
 				40E1CEDE205060E20007C8AF /* labelabbr.cpp in Sources */,
+				4D674B46255F40B7008AEF4C /* plica.cpp in Sources */,
 				403B050F244F3E2900EE4F71 /* gliss.cpp in Sources */,
 				4D766EFD20ACAD63006875D8 /* neume.cpp in Sources */,
 				8F086EE7188539540037FD8E /* clef.cpp in Sources */,
@@ -3018,6 +3058,7 @@
 				40D0D5E21E3BD7FE00E6BF5C /* turn.cpp in Sources */,
 				40C2E41E2052A6E00003625F /* sb.cpp in Sources */,
 				4D1BE76D1C688F5A0086DC0E /* MidiEvent.cpp in Sources */,
+				35FDEBD124B6DC5B00AC1696 /* fing.cpp in Sources */,
 				8F086EEC188539540037FD8E /* io.cpp in Sources */,
 				4D796B5E1D78641900A15238 /* harm.cpp in Sources */,
 				4DB3072F1AC9ED2500EE0982 /* space.cpp in Sources */,
@@ -3137,6 +3178,7 @@
 				4DB787632022F0B700394520 /* jsonxx.cc in Sources */,
 				4DEEDE641E617C930087E8BC /* elementpart.cpp in Sources */,
 				4D95D4F61D71866200B2B856 /* controlelement.cpp in Sources */,
+				BDC366C72576AF9300E4D826 /* grpsym.cpp in Sources */,
 				4D983005192E959E00320037 /* main.cpp in Sources */,
 				4DEC4D8E21C81DEE00D1D273 /* damage.cpp in Sources */,
 				4D6DF9F520E1071F00C12BBD /* subst.cpp in Sources */,
@@ -3197,6 +3239,7 @@
 				8F3DD36A18854B410051330C /* toolkit.cpp in Sources */,
 				4D4C26EF1EF7E75400681770 /* label.cpp in Sources */,
 				8F3DD36C18854B410051330C /* object.cpp in Sources */,
+				35FDEBD224B6DC5B00AC1696 /* fing.cpp in Sources */,
 				403B0511244F3E2900EE4F71 /* gliss.cpp in Sources */,
 				8F3DD36E18854B410051330C /* vrv.cpp in Sources */,
 				4D6122C01F77E1E000FC90A0 /* rend.cpp in Sources */,
@@ -3353,11 +3396,13 @@
 				4D1BE76C1C688F5A0086DC0E /* Binasc.cpp in Sources */,
 				4D9A9C1A199F561200028D93 /* verse.cpp in Sources */,
 				4DB3D8DC1F83D14900B5FC2B /* artic.cpp in Sources */,
+				4D674B48255F40B7008AEF4C /* plica.cpp in Sources */,
 				4D9A9C1F19A1DE2000028D93 /* syl.cpp in Sources */,
 				4D4335CB1ED00A33003BE1A9 /* atts_gestural.cpp in Sources */,
 				4DC3B9E9239E2AE3007F185E /* transposition.cpp in Sources */,
 				40ACDEAB24079F9000F82B8C /* reh.cpp in Sources */,
 				4DB0B0171C44129300DBDCC3 /* timestamp.cpp in Sources */,
+				BDC366D12576AF9C00E4D826 /* grpsym.cpp in Sources */,
 				40D45EC4204EEB03009C1EC9 /* instrdef.cpp in Sources */,
 				4D766F0420ACAD6E006875D8 /* syllable.cpp in Sources */,
 				4DF28A061A754DF000BA9F7D /* floatingobject.cpp in Sources */,
@@ -3393,6 +3438,7 @@
 				BB4C4BB522A932EB001F6AF0 /* view_tuplet.cpp in Sources */,
 				BB4C4B2122A932CF001F6AF0 /* dir.cpp in Sources */,
 				BB4C4BAF22A932EB001F6AF0 /* view_mensural.cpp in Sources */,
+				35FDEBD324B6DC5B00AC1696 /* fing.cpp in Sources */,
 				403B0512244F3E2900EE4F71 /* gliss.cpp in Sources */,
 				BB4C4B5D22A932D7001F6AF0 /* metersig.cpp in Sources */,
 				BB4C4BB622A932F6001F6AF0 /* jsonxx.cc in Sources */,
@@ -3549,11 +3595,13 @@
 				BB4C4AF922A932BC001F6AF0 /* restore.cpp in Sources */,
 				BB4C4AFD22A932BC001F6AF0 /* subst.cpp in Sources */,
 				BB4C4BBE22A932FC001F6AF0 /* MidiFile.cpp in Sources */,
+				4D674B49255F40B7008AEF4C /* plica.cpp in Sources */,
 				BB4C4A9C22A9328F001F6AF0 /* options.cpp in Sources */,
 				BB4C4A6222A9321F001F6AF0 /* atts_cmn.cpp in Sources */,
 				4DC3B9E8239E2AE2007F185E /* transposition.cpp in Sources */,
 				40ACDEAC24079F9000F82B8C /* reh.cpp in Sources */,
 				BB4C4A9822A9328F001F6AF0 /* horizontalaligner.cpp in Sources */,
+				BDC366CC2576AF9B00E4D826 /* grpsym.cpp in Sources */,
 				BB4C4BAC22A932EB001F6AF0 /* view_control.cpp in Sources */,
 				BB4C4B2B22A932CF001F6AF0 /* mordent.cpp in Sources */,
 				BB4C4AA622A932A0001F6AF0 /* bboxdevicecontext.cpp in Sources */,
@@ -3597,7 +3645,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
@@ -3612,6 +3660,7 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -3629,6 +3678,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 					_DEBUG,
+					VRV_DYNAMIC_CAST,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -3642,7 +3692,7 @@
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				USER_HEADER_SEARCH_PATHS = "";
@@ -3653,7 +3703,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
@@ -3668,6 +3718,7 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -3692,7 +3743,7 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					./include/vrv/,
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
 				USER_HEADER_SEARCH_PATHS = "";
@@ -3751,7 +3802,7 @@
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_COMMA = YES;
@@ -3801,7 +3852,7 @@
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_COMMA = YES;

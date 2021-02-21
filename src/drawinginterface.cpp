@@ -65,12 +65,15 @@ void DrawingListInterface::ResetDrawingList()
 // BeamDrawingInterface
 //----------------------------------------------------------------------------
 
-BeamDrawingInterface::BeamDrawingInterface()
+BeamDrawingInterface::BeamDrawingInterface() : ObjectListInterface()
 {
     Reset();
 }
 
-BeamDrawingInterface::~BeamDrawingInterface() {}
+BeamDrawingInterface::~BeamDrawingInterface()
+{
+    ClearCoords();
+}
 
 void BeamDrawingInterface::Reset()
 {
@@ -78,7 +81,8 @@ void BeamDrawingInterface::Reset()
     m_beamHasChord = false;
     m_hasMultipleStemDir = false;
     m_cueSize = false;
-    m_isCrossStaff = false;
+    m_crossStaffContent = NULL;
+    m_crossStaffRel = STAFFREL_basic_NONE;
     m_shortestDur = 0;
     m_notesStemDir = STEMDIRECTION_NONE;
     m_drawingPlace = BEAMPLACE_NONE;
@@ -102,6 +106,7 @@ void BeamDrawingInterface::InitCoords(ArrayOfObjects *childList, Staff *staff, d
 {
     assert(staff);
 
+    BeamDrawingInterface::Reset();
     ClearCoords();
 
     if (childList->empty()) {
@@ -159,8 +164,9 @@ void BeamDrawingInterface::InitCoords(ArrayOfObjects *childList, Staff *staff, d
         }
 
         Staff *staff = current->GetCrossStaff(layer);
-        if (staff != currentStaff) {
-            this->m_isCrossStaff = true;
+        if (staff && (staff != m_beamStaff)) {
+            this->m_crossStaffContent = staff;
+            this->m_crossStaffRel = current->GetCrossStaffRel();
         }
         currentStaff = staff;
 
@@ -226,7 +232,9 @@ bool BeamDrawingInterface::IsHorizontal()
         return true;
     }
 
-    if (m_drawingPlace == BEAMPLACE_mixed) return true;
+    if (HasOneStepHeight()) return true;
+
+    // if (m_drawingPlace == BEAMPLACE_mixed) return true;
 
     if (m_drawingPlace == BEAMPLACE_NONE) return true;
 
@@ -344,6 +352,61 @@ bool BeamDrawingInterface::IsRepeatedPattern()
     }
 
     return false;
+}
+
+bool BeamDrawingInterface::HasOneStepHeight()
+{
+    if (m_shortestDur < DUR_32) return false;
+
+    int top = -128;
+    int bottom = 128;
+    for (auto coord : m_beamElementCoords) {
+        if (coord->m_closestNote) {
+            Note *note = vrv_cast<Note *>(coord->m_closestNote);
+            assert(note);
+            int loc = note->GetDrawingLoc();
+            if (loc > top) top = loc;
+            if (loc < bottom) bottom = loc;
+        }
+    }
+
+    return (abs(top - bottom) <= 1);
+}
+
+bool BeamDrawingInterface::IsFirstIn(Object *object, LayerElement *element)
+{
+    this->GetList(object);
+    int position = this->GetPosition(object, element);
+    // This method should be called only if the note is part of a fTrem
+    assert(position != -1);
+    // this is the first one
+    if (position == 0) return true;
+    return false;
+}
+
+bool BeamDrawingInterface::IsLastIn(Object *object, LayerElement *element)
+{
+    int size = (int)this->GetList(object)->size();
+    int position = this->GetPosition(object, element);
+    // This method should be called only if the note is part of a beam
+    assert(position != -1);
+    // this is the last one
+    if (position == (size - 1)) return true;
+    return false;
+}
+
+int BeamDrawingInterface::GetPosition(Object *object, LayerElement *element)
+{
+    this->GetList(object);
+    int position = this->GetListIndex(element);
+    // Check if this is a note in the chord
+    if ((position == -1) && (element->Is(NOTE))) {
+        Note *note = vrv_cast<Note *>(element);
+        assert(note);
+        Chord *chord = note->IsChordTone();
+        if (chord) position = this->GetListIndex(chord);
+    }
+    return position;
 }
 
 //----------------------------------------------------------------------------
@@ -467,7 +530,7 @@ Point StemmedDrawingInterface::GetDrawingStemEnd(Object *object)
         if (!m_drawingStem) {
             // Somehow arbitrary for chord - stem end it the bottom with no stem
             if (object->Is(CHORD)) {
-                Chord *chord = dynamic_cast<Chord *>(object);
+                Chord *chord = vrv_cast<Chord *>(object);
                 assert(chord);
                 return Point(object->GetDrawingX(), chord->GetYBottom());
             }

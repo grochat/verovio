@@ -167,27 +167,27 @@ void View::DrawTextElement(DeviceContext *dc, TextElement *element, TextDrawingP
     assert(element);
 
     if (element->Is(FIGURE)) {
-        F *f = dynamic_cast<F *>(element);
+        F *f = vrv_cast<F *>(element);
         assert(f);
         DrawF(dc, f, params);
     }
     else if (element->Is(LB)) {
-        Lb *lb = dynamic_cast<Lb *>(element);
+        Lb *lb = vrv_cast<Lb *>(element);
         assert(lb);
         DrawLb(dc, lb, params);
     }
     else if (element->Is(NUM)) {
-        Num *num = dynamic_cast<Num *>(element);
+        Num *num = vrv_cast<Num *>(element);
         assert(num);
         DrawNum(dc, num, params);
     }
     else if (element->Is(REND)) {
-        Rend *rend = dynamic_cast<Rend *>(element);
+        Rend *rend = vrv_cast<Rend *>(element);
         assert(rend);
         DrawRend(dc, rend, params);
     }
     else if (element->Is(TEXT)) {
-        Text *text = dynamic_cast<Text *>(element);
+        Text *text = vrv_cast<Text *>(element);
         assert(text);
         DrawText(dc, text, params);
     }
@@ -196,14 +196,22 @@ void View::DrawTextElement(DeviceContext *dc, TextElement *element, TextDrawingP
     }
 }
 
-void View::DrawLyricString(DeviceContext *dc, std::wstring str, int staffSize)
+void View::DrawLyricString(DeviceContext *dc, std::wstring str, int staffSize, std::optional<TextDrawingParams> params)
 {
     assert(dc);
 
+    bool wroteText = false;
     std::wistringstream iss(str);
     std::wstring token;
     while (std::getline(iss, token, L'_')) {
-        dc->DrawText(UTF16to8(token), token);
+        wroteText = true;
+        if (params) {
+            dc->DrawText(UTF16to8(token), token, params->m_x, params->m_y, params->m_width, params->m_height);
+        }
+        else {
+            dc->DrawText(UTF16to8(token), token);
+        }
+
         // no _
         if (iss.eof()) break;
 
@@ -212,8 +220,19 @@ void View::DrawLyricString(DeviceContext *dc, std::wstring str, int staffSize)
         dc->SetFont(&vrvTxt);
         std::wstring str;
         str.push_back(VRV_TEXT_E551);
-        dc->DrawText(UTF16to8(str), str);
+        if (params) {
+            dc->DrawText(UTF16to8(str), str, params->m_x, params->m_y, params->m_width, params->m_height);
+        }
+        else {
+            dc->DrawText(UTF16to8(str), str);
+        }
         dc->ResetFont();
+    }
+
+    // This should only be called in facsimile mode where a zone is specified but there is
+    // no text. This draws the bounds of the zone but leaves the space blank.
+    if (!wroteText && params) {
+        dc->DrawText("", L"", params->m_x, params->m_y, params->m_width, params->m_height);
     }
 }
 
@@ -227,7 +246,7 @@ void View::DrawLb(DeviceContext *dc, Lb *lb, TextDrawingParams &params)
     FontInfo *currentFont = dc->GetFont();
 
     params.m_y -= m_doc->GetTextLineHeight(currentFont, false);
-    params.m_newLine = true;
+    params.m_explicitPosition = true;
 
     dc->EndTextGraphic(lb, this);
 }
@@ -294,18 +313,7 @@ void View::DrawRend(DeviceContext *dc, Rend *rend, TextDrawingParams &params)
                 rendFont.SetPointSize(fs->GetFontSizeNumeric());
             }
             else if (fs->GetType() == FONTSIZE_term) {
-                int percent = 100;
-                switch (fs->GetTerm()) {
-                    case (FONTSIZETERM_xx_large): percent = 200; break;
-                    case (FONTSIZETERM_x_large): percent = 150; break;
-                    case (FONTSIZETERM_large): percent = 110; break;
-                    case (FONTSIZETERM_larger): percent = 110; break;
-                    case (FONTSIZETERM_small): percent = 80; break;
-                    case (FONTSIZETERM_smaller): percent = 80; break;
-                    case (FONTSIZETERM_x_small): percent = 60; break;
-                    case (FONTSIZETERM_xx_small): percent = 50; break;
-                    default: break;
-                }
+                const int percent = fs->GetPercentForTerm();
                 rendFont.SetPointSize(params.m_pointSize * percent / 100);
             }
             else if (fs->GetType() == FONTSIZE_percent) {
@@ -323,16 +331,21 @@ void View::DrawRend(DeviceContext *dc, Rend *rend, TextDrawingParams &params)
         assert(dc->GetFont());
         int MHeight = m_doc->GetTextGlyphHeight('M', dc->GetFont(), false);
         if (rend->GetRend() == TEXTRENDITION_sup) {
-            yShift = m_doc->GetTextGlyphHeight('o', dc->GetFont(), false);
+            yShift += m_doc->GetTextGlyphHeight('o', dc->GetFont(), false);
             yShift += (MHeight * SUPER_SCRIPT_POSITION);
         }
         else {
-            yShift = MHeight * SUB_SCRIPT_POSITION;
+            yShift += MHeight * SUB_SCRIPT_POSITION;
         }
         params.m_y += yShift;
         params.m_verticalShift = true;
         dc->GetFont()->SetSupSubScript(true);
         dc->GetFont()->SetPointSize(dc->GetFont()->GetPointSize() * SUPER_SCRIPT_FACTOR);
+    }
+
+    if ((rend->GetRend() == TEXTRENDITION_box) && (params.m_actualWidth != 0)) {
+        params.m_x = params.m_actualWidth + m_doc->GetDrawingUnit(100);
+        params.m_explicitPosition = true;
     }
 
     DrawTextChildren(dc, rend, params);
@@ -342,6 +355,12 @@ void View::DrawRend(DeviceContext *dc, Rend *rend, TextDrawingParams &params)
         params.m_verticalShift = true;
         dc->GetFont()->SetSupSubScript(false);
         dc->GetFont()->SetPointSize(dc->GetFont()->GetPointSize() / SUPER_SCRIPT_FACTOR);
+    }
+
+    if (rend->GetRend() == TEXTRENDITION_box) {
+        params.m_boxedRend.push_back(rend);
+        params.m_x = rend->GetContentRight() + m_doc->GetDrawingUnit(100);
+        params.m_explicitPosition = true;
     }
 
     if (customFont) dc->ResetFont();
@@ -358,9 +377,9 @@ void View::DrawText(DeviceContext *dc, Text *text, TextDrawingParams &params)
 
     Resources::SelectTextFont(dc->GetFont()->GetWeight(), dc->GetFont()->GetStyle());
 
-    if (params.m_newLine) {
+    if (params.m_explicitPosition) {
         dc->MoveTextTo(ToDeviceContextX(params.m_x), ToDeviceContextY(params.m_y), HORIZONTALALIGNMENT_NONE);
-        params.m_newLine = false;
+        params.m_explicitPosition = false;
     }
     else if (params.m_verticalShift) {
         dc->MoveTextVerticallyTo(ToDeviceContextY(params.m_y));
@@ -377,11 +396,18 @@ void View::DrawText(DeviceContext *dc, Text *text, TextDrawingParams &params)
     // special case where we want to replace the '_' with a lyric connector
     // '_' are produce with the SibMEI plugin
     else if (text->GetFirstAncestor(SYL)) {
-        DrawLyricString(dc, text->GetText());
+        if (params.m_height != VRV_UNSET && params.m_height != 0) {
+            DrawLyricString(dc, text->GetText(), 100, params);
+        }
+        else {
+            DrawLyricString(dc, text->GetText());
+        }
     }
     else {
         DrawTextString(dc, text->GetText(), params);
     }
+
+    params.m_actualWidth = text->GetContentRight();
 
     dc->EndTextGraphic(text, this);
 }
@@ -398,5 +424,4 @@ void View::DrawSvg(DeviceContext *dc, Svg *svg, TextDrawingParams &params)
 
     dc->EndGraphic(svg, this);
 }
-
 } // namespace vrv

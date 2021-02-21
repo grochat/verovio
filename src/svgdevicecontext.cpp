@@ -59,6 +59,7 @@ SvgDeviceContext::SvgDeviceContext() : DeviceContext()
     m_svgNode.append_attribute("version") = "1.1";
     m_svgNode.append_attribute("xmlns") = "http://www.w3.org/2000/svg";
     m_svgNode.append_attribute("xmlns:xlink") = "http://www.w3.org/1999/xlink";
+    m_svgNode.append_attribute("xmlns:mei") = "http://www.music-encoding.org/ns/mei";
     m_svgNode.append_attribute("overflow") = "visible";
 
     // start the stack
@@ -175,7 +176,7 @@ void SvgDeviceContext::StartGraphic(Object *object, std::string gClass, std::str
 
     // this sets staffDef styles for lyrics
     if (object->Is(STAFF)) {
-        Staff *staff = dynamic_cast<Staff *>(object);
+        Staff *staff = vrv_cast<Staff *>(object);
         assert(staff);
 
         assert(staff->m_drawingStaffDef);
@@ -249,6 +250,17 @@ void SvgDeviceContext::StartGraphic(Object *object, std::string gClass, std::str
             else if (att->GetVisible() == BOOLEAN_false) {
                 m_currentNode.append_attribute("visibility") = "hidden";
             }
+        }
+    }
+
+    if (object->HasAttClass(ATT_LINKING)) {
+        AttLinking *att = dynamic_cast<AttLinking *>(object);
+        assert(att);
+        if (att->HasFollows()) {
+            m_currentNode.append_attribute("mei:follows") = att->GetFollows().c_str();
+        }
+        if (att->HasPrecedes()) {
+            m_currentNode.append_attribute("mei:precedes") = att->GetPrecedes().c_str();
         }
     }
 
@@ -392,7 +404,7 @@ void SvgDeviceContext::StartPage()
     }
     else {
         m_currentNode.append_attribute("viewBox")
-            = StringFormat("0 0 %d %d", GetWidth() * DEFINITION_FACTOR, GetHeight() * DEFINITION_FACTOR).c_str();
+            = StringFormat("0 0 %d %d", GetWidth() * DEFINITION_FACTOR, GetContentHeight() * DEFINITION_FACTOR).c_str();
     }
 
     // a graphic for the origin
@@ -655,7 +667,24 @@ void SvgDeviceContext::DrawRectangle(int x, int y, int width, int height)
 
 void SvgDeviceContext::DrawRoundedRectangle(int x, int y, int width, int height, int radius)
 {
-    std::string s;
+    pugi::xml_node rectChild = AppendChild("rect");
+
+    if (m_penStack.size()) {
+        Pen currentPen = m_penStack.top();
+        if (currentPen.GetWidth() > 0) rectChild.append_attribute("stroke") = GetColour(currentPen.GetColour()).c_str();
+        if (currentPen.GetWidth() > 1)
+            rectChild.append_attribute("stroke-width") = StringFormat("%d", currentPen.GetWidth()).c_str();
+        if (currentPen.GetOpacity() != 1.0)
+            rectChild.append_attribute("stroke-opacity") = StringFormat("%f", currentPen.GetOpacity()).c_str();
+    }
+
+    if (m_brushStack.size()) {
+        Brush currentBrush = m_brushStack.top();
+        if (currentBrush.GetColour() != AxNONE)
+            rectChild.append_attribute("fill") = GetColour(currentBrush.GetColour()).c_str();
+        if (currentBrush.GetOpacity() != 1.0)
+            rectChild.append_attribute("fill-opacity") = StringFormat("%f", currentBrush.GetOpacity()).c_str();
+    }
 
     // negative heights or widths are not allowed in SVG
     if (height < 0) {
@@ -667,7 +696,6 @@ void SvgDeviceContext::DrawRoundedRectangle(int x, int y, int width, int height,
         x -= width;
     }
 
-    pugi::xml_node rectChild = AppendChild("rect");
     rectChild.append_attribute("x") = x;
     rectChild.append_attribute("y") = y;
     rectChild.append_attribute("height") = height;
@@ -749,11 +777,14 @@ void SvgDeviceContext::EndText()
     m_currentNode = m_svgNodeStack.back();
 }
 
-void SvgDeviceContext::DrawText(const std::string &text, const std::wstring wtext, int x, int y)
+// draw text element with optional parameters to specify the bounding box of the text
+// if the bounding box is specified then append a rect child
+void SvgDeviceContext::DrawText(const std::string &text, const std::wstring wtext, int x, int y, int width, int height)
 {
     assert(m_fontStack.top());
 
     std::string svgText = text;
+
     // Because IE does not support xml:space="preserve", we need to replace the initial
     // space with a non breakable space
     if ((svgText.length() > 0) && (svgText[0] == ' ')) {
@@ -793,7 +824,18 @@ void SvgDeviceContext::DrawText(const std::string &text, const std::wstring wtex
     textChild.append_attribute("class") = "text";
     textChild.append_child(pugi::node_pcdata).set_value(svgText.c_str());
 
-    if ((x != VRV_UNSET) && (y != VRV_UNSET)) {
+    if ((x != 0) && (y != 0) && (x != VRV_UNSET) && (y != VRV_UNSET)
+        && (((width != 0) && (height != 0)) || ((width != VRV_UNSET) && (height != VRV_UNSET)))) {
+        pugi::xml_node g = m_currentNode.parent().parent();
+        pugi::xml_node rectChild = g.append_child("rect");
+        rectChild.append_attribute("class") = "sylTextRect";
+        rectChild.append_attribute("x") = StringFormat("%d", x).c_str();
+        rectChild.append_attribute("y") = StringFormat("%d", y).c_str();
+        rectChild.append_attribute("width") = StringFormat("%d", width).c_str();
+        rectChild.append_attribute("height") = StringFormat("%d", height).c_str();
+        rectChild.append_attribute("opacity") = "0.0";
+    }
+    else if ((x != 0) && (y != 0) && (x != VRV_UNSET) && (y != VRV_UNSET)) {
         textChild.append_attribute("x") = StringFormat("%d", x).c_str();
         textChild.append_attribute("y") = StringFormat("%d", y).c_str();
     }
@@ -959,7 +1001,7 @@ void SvgDeviceContext::DrawSvgBoundingBox(Object *object, View *view)
         BoundingBox *box = object;
         // For floating elements, get the current bounding box set by System::SetCurrentFloatingPositioner
         if (object->IsFloatingObject()) {
-            FloatingObject *floatingObject = dynamic_cast<FloatingObject *>(object);
+            FloatingObject *floatingObject = vrv_cast<FloatingObject *>(object);
             assert(floatingObject);
             box = floatingObject->GetCurrentFloatingPositioner();
             // No bounding box found, ignore the object - this happens when the @staff is missing because the element is

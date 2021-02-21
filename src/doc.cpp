@@ -51,12 +51,14 @@
 #include "staffdef.h"
 #include "staffgrp.h"
 #include "syl.h"
+#include "syllable.h"
 #include "system.h"
 #include "text.h"
 #include "timestamp.h"
 #include "transposition.h"
 #include "verse.h"
 #include "vrv.h"
+#include "zone.h"
 
 //----------------------------------------------------------------------------
 
@@ -160,7 +162,7 @@ bool Doc::GenerateDocumentScoreDef()
     m_mdivScoreDef.Reset();
     StaffGrp *staffGrp = new StaffGrp();
     for (auto &object : staves) {
-        Staff *staff = dynamic_cast<Staff *>(object);
+        Staff *staff = vrv_cast<Staff *>(object);
         assert(staff);
         StaffDef *staffDef = new StaffDef();
         staffDef->SetN(staff->GetN());
@@ -177,7 +179,7 @@ bool Doc::GenerateDocumentScoreDef()
 
 bool Doc::GenerateFooter()
 {
-    if (m_mdivScoreDef.FindDescendantByType(PGFOOT) || m_options->m_adjustPageHeight.GetValue()) {
+    if (m_mdivScoreDef.FindDescendantByType(PGFOOT)) {
         return false;
     }
 
@@ -249,7 +251,7 @@ void Doc::CalculateMidiTimemap()
 {
     m_MIDITimemapTempo = 0.0;
 
-    // This happens if the document was never cast off (no-layout option in the toolkit)
+    // This happens if the document was never cast off (layout none option in the toolkit)
     if (!m_drawingPage && GetPageCount() == 1) {
         Page *page = this->SetDrawingPage(0);
         if (!page) {
@@ -343,7 +345,7 @@ void Doc::ExportMIDI(smf::MidiFile *midiFile)
             // set MIDI channel and instrument
             InstrDef *instrdef = dynamic_cast<InstrDef *>(staffDef->FindDescendantByType(INSTRDEF, 1));
             if (!instrdef) {
-                StaffGrp *staffGrp = dynamic_cast<StaffGrp *>(staffDef->GetFirstAncestor(STAFFGRP));
+                StaffGrp *staffGrp = vrv_cast<StaffGrp *>(staffDef->GetFirstAncestor(STAFFGRP));
                 assert(staffGrp);
                 instrdef = dynamic_cast<InstrDef *>(staffGrp->FindDescendantByType(INSTRDEF, 1));
             }
@@ -355,7 +357,7 @@ void Doc::ExportMIDI(smf::MidiFile *midiFile)
             // set MIDI track name
             Label *label = dynamic_cast<Label *>(staffDef->FindDescendantByType(LABEL, 1));
             if (!label) {
-                StaffGrp *staffGrp = dynamic_cast<StaffGrp *>(staffDef->GetFirstAncestor(STAFFGRP));
+                StaffGrp *staffGrp = vrv_cast<StaffGrp *>(staffDef->GetFirstAncestor(STAFFGRP));
                 assert(staffGrp);
                 label = dynamic_cast<Label *>(staffGrp->FindDescendantByType(LABEL, 1));
             }
@@ -736,6 +738,36 @@ void Doc::PrepareDrawing()
     }
     */
 
+    /************ Add default syl for syllables (if applicable) ************/
+    ListOfObjects syllables;
+    ClassIdComparison comp(SYLLABLE);
+    this->FindAllDescendantByComparison(&syllables, &comp);
+    for (auto it = syllables.begin(); it != syllables.end(); ++it) {
+        Syllable *syllable = dynamic_cast<Syllable *>(*it);
+        syllable->MarkupAddSyl();
+    }
+
+    /************ Resolve @facs ************/
+    if (this->GetType() == Facs) {
+        // Associate zones with elements
+        PrepareFacsimileParams prepareFacsimileParams(this->GetFacsimile());
+        Functor prepareFacsimile(&Object::PrepareFacsimile);
+        this->Process(&prepareFacsimile, &prepareFacsimileParams);
+
+        // Add default syl zone if one is not present.
+        for (auto &it : prepareFacsimileParams.m_zonelessSyls) {
+            Syl *syl = vrv_cast<Syl *>(it);
+            assert(syl);
+            syl->CreateDefaultZone(this);
+        }
+    }
+
+    /************ Resolve group symbols ************/
+    // Group symbols need to be resolved using scoreDef, since there might be @starid/@endid attirbutes that determine
+    // their positioning
+    Functor prepareGroupSymbols(&Object::PrepareGroupSymbols);
+    m_mdivScoreDef.Process(&prepareGroupSymbols, NULL);
+
     // LogElapsedTimeEnd ("Preparing drawing");
 
     m_drawingPreparationDone = true;
@@ -766,6 +798,22 @@ void Doc::SetCurrentScoreDefDoc(bool force)
     m_currentScoreDefDone = true;
 }
 
+bool Doc::IsOptimizationNeeded()
+{
+    if (m_options->m_condense.GetValue() == CONDENSE_none) return false;
+    // optimize scores only if encoded
+    bool optimize = (m_mdivScoreDef.HasOptimize() && m_mdivScoreDef.GetOptimize() == BOOLEAN_true);
+    // if nothing specified, do not if there is only one grpSym
+    if ((m_options->m_condense.GetValue() == CONDENSE_auto) && !m_mdivScoreDef.HasOptimize()) {
+        ListOfObjects symbols;
+        ClassIdComparison matchClassId(GRPSYM);
+        m_mdivScoreDef.FindAllDescendantByComparison(&symbols, &matchClassId);
+        optimize = (symbols.size() > 1);
+    }
+
+    return optimize;
+}
+
 void Doc::OptimizeScoreDefDoc()
 {
     Functor optimizeScoreDef(&Object::OptimizeScoreDef);
@@ -779,11 +827,18 @@ void Doc::CastOffDoc()
 {
     Doc::CastOffDocBase(false, false);
 }
+
 void Doc::CastOffLineDoc()
 {
     Doc::CastOffDocBase(true, false);
 }
-void Doc::CastOffDocBase(bool useSystemBreaks, bool usePageBreaks)
+
+void Doc::CastOffSmartDoc()
+{
+    Doc::CastOffDocBase(false, false, true);
+}
+
+void Doc::CastOffDocBase(bool useSb, bool usePb, bool smart)
 {
     Pages *pages = this->GetPages();
     assert(pages);
@@ -793,34 +848,26 @@ void Doc::CastOffDocBase(bool useSystemBreaks, bool usePageBreaks)
         return;
     }
 
-    // By default, optimize scores
-    bool optimize = (m_mdivScoreDef.GetOptimize() != BOOLEAN_false);
-    // However, if nothing specified, do not if there is only one staffGrp
-    if ((m_mdivScoreDef.GetOptimize() == BOOLEAN_NONE)
-        && (m_mdivScoreDef.GetChildCount(STAFFGRP, UNLIMITED_DEPTH) < 2)) {
-        optimize = false;
-    }
-
     this->SetCurrentScoreDefDoc();
 
     Page *contentPage = this->SetDrawingPage(0);
     assert(contentPage);
     contentPage->LayOutHorizontally();
 
-    System *contentSystem = dynamic_cast<System *>(contentPage->DetachChild(0));
+    System *contentSystem = vrv_cast<System *>(contentPage->DetachChild(0));
     assert(contentSystem);
 
     System *currentSystem = new System();
     contentPage->AddChild(currentSystem);
 
-    if (useSystemBreaks && !usePageBreaks) {
+    if (useSb && !usePb && !smart) {
         CastOffEncodingParams castOffEncodingParams(this, contentPage, currentSystem, contentSystem, false);
 
         Functor castOffEncoding(&Object::CastOffEncoding);
         contentSystem->Process(&castOffEncoding, &castOffEncodingParams);
     }
     else {
-        CastOffSystemsParams castOffSystemsParams(contentSystem, contentPage, currentSystem, this);
+        CastOffSystemsParams castOffSystemsParams(contentSystem, contentPage, currentSystem, this, smart);
         castOffSystemsParams.m_systemWidth
             = this->m_drawingPageContentWidth - currentSystem->m_systemLeftMar - currentSystem->m_systemRightMar;
         castOffSystemsParams.m_shift = -contentSystem->GetDrawingLabelsWidth();
@@ -833,6 +880,7 @@ void Doc::CastOffDocBase(bool useSystemBreaks, bool usePageBreaks)
     }
     delete contentSystem;
 
+    bool optimize = IsOptimizationNeeded();
     // Reset the scoreDef at the beginning of each system
     this->SetCurrentScoreDefDoc(true);
     if (optimize) {
@@ -939,7 +987,7 @@ void Doc::CastOffEncodingDoc()
 
     contentPage->LayOutHorizontally();
 
-    System *contentSystem = dynamic_cast<System *>(contentPage->FindDescendantByType(SYSTEM));
+    System *contentSystem = vrv_cast<System *>(contentPage->FindDescendantByType(SYSTEM));
     assert(contentSystem);
 
     // Detach the contentPage
@@ -962,7 +1010,7 @@ void Doc::CastOffEncodingDoc()
     this->ResetDrawingPage();
     this->SetCurrentScoreDefDoc(true);
 
-    if (this->m_options->m_condenseEncoded.GetValue()) {
+    if (IsOptimizationNeeded()) {
         this->OptimizeScoreDefDoc();
     }
 }
@@ -987,7 +1035,7 @@ void Doc::ConvertToPageBasedDoc()
     score->ClearRelinquishedChildren();
     assert(score->GetChildCount() == 0);
 
-    Mdiv *mdiv = dynamic_cast<Mdiv *>(score->GetParent());
+    Mdiv *mdiv = vrv_cast<Mdiv *>(score->GetParent());
     assert(mdiv);
 
     mdiv->ReplaceChild(score, pages);
@@ -1102,7 +1150,7 @@ void Doc::ConvertToUnCastOffMensuralDoc()
 
     Page *contentPage = this->SetDrawingPage(0);
     assert(contentPage);
-    System *contentSystem = dynamic_cast<System *>(contentPage->FindDescendantByType(SYSTEM));
+    System *contentSystem = vrv_cast<System *>(contentPage->FindDescendantByType(SYSTEM));
     assert(contentSystem);
 
     // Detach the contentPage
@@ -1131,13 +1179,21 @@ void Doc::ConvertMarkupDoc(bool permanent)
 {
     if (m_markup == MARKUP_DEFAULT) return;
 
-    LogMessage("Converting analytical markup...");
+    LogMessage("Converting markup...");
 
     if (m_markup & MARKUP_GRACE_ATTRIBUTE) {
     }
 
-    if ((m_markup & MARKUP_ANALYTICAL_FERMATA) || (m_markup & MARKUP_ANALYTICAL_TIE)) {
+    if (m_markup & MARKUP_ARTIC_MULTIVAL) {
+        LogMessage("Converting artic markup...");
+        ConvertMarkupArticParams convertMarkupArticParams;
+        Functor convertMarkupArtic(&Object::ConvertMarkupArtic);
+        Functor convertMarkupArticEnd(&Object::ConvertMarkupArticEnd);
+        this->Process(&convertMarkupArtic, &convertMarkupArticParams, &convertMarkupArticEnd);
+    }
 
+    if ((m_markup & MARKUP_ANALYTICAL_FERMATA) || (m_markup & MARKUP_ANALYTICAL_TIE)) {
+        LogMessage("Converting analytical markup...");
         /************ Prepare processing by staff/layer/verse ************/
 
         // We need to populate processing lists for processing the document by Layer (for matching @tie) and
@@ -1199,7 +1255,7 @@ void Doc::TransposeDoc()
         // Find the starting key tonic of the data to use in calculating the tranposition interval:
         // Set transposition by key tonic.
         // Detect the current key from the keysignature.
-        KeySig *keysig = dynamic_cast<KeySig *>(this->m_mdivScoreDef.FindDescendantByType(KEYSIG, 3));
+        KeySig *keysig = dynamic_cast<KeySig *>(this->m_mdivScoreDef.FindDescendantByType(KEYSIG));
         // If there is no keysignature, assume it is C.
         TransPitch currentKey = TransPitch(0, 0, 0);
         if (keysig && keysig->HasPname()) {
@@ -1436,6 +1492,11 @@ int Doc::GetTextLineHeight(FontInfo *font, bool graceSize) const
     return lineHeight;
 }
 
+int Doc::GetTextXHeight(FontInfo *font, bool graceSize) const
+{
+    return this->GetTextGlyphHeight('x', font, graceSize);
+}
+
 int Doc::GetDrawingUnit(int staffSize) const
 {
     return m_options->m_unit.GetValue() * staffSize / 100;
@@ -1577,6 +1638,8 @@ double Doc::GetRightMargin(const ClassId classId) const
 
 double Doc::GetBottomMargin(const ClassId classId) const
 {
+    if (classId == ARTIC) return m_options->m_bottomMarginArtic.GetValue();
+    // For these we also need to look at the scoreDef
     double margin = m_options->m_defaultBottomMargin.GetValue();
     if (classId == DYNAM) {
         margin = this->m_mdivScoreDef.HasDynamDist() ? this->m_mdivScoreDef.GetDynamDist() : margin;
@@ -1590,6 +1653,8 @@ double Doc::GetBottomMargin(const ClassId classId) const
 
 double Doc::GetTopMargin(const ClassId classId) const
 {
+    if (classId == ARTIC) return m_options->m_topMarginArtic.GetValue();
+    // For these we also need to look at the scoreDef
     double margin = m_options->m_defaultTopMargin.GetValue();
     if (classId == DYNAM) {
         margin = this->m_mdivScoreDef.HasDynamDist() ? this->m_mdivScoreDef.GetDynamDist() : margin;
@@ -1613,7 +1678,7 @@ Page *Doc::SetDrawingPage(int pageIdx)
     }
     Pages *pages = this->GetPages();
     assert(pages);
-    m_drawingPage = dynamic_cast<Page *>(pages->GetChild(pageIdx));
+    m_drawingPage = vrv_cast<Page *>(pages->GetChild(pageIdx));
     assert(m_drawingPage);
 
     int glyph_size;
@@ -1718,7 +1783,7 @@ int Doc::GetAdjustedDrawingPageWidth() const
 
 int Doc::PrepareLyricsEnd(FunctorParams *functorParams)
 {
-    PrepareLyricsParams *params = dynamic_cast<PrepareLyricsParams *>(functorParams);
+    PrepareLyricsParams *params = vrv_params_cast<PrepareLyricsParams *>(functorParams);
     assert(params);
     if (!params->m_currentSyl) {
         return FUNCTOR_STOP; // early return
@@ -1729,8 +1794,7 @@ int Doc::PrepareLyricsEnd(FunctorParams *functorParams)
     else if (m_options->m_openControlEvents.GetValue()) {
         sylLog_WORDPOS wordpos = params->m_currentSyl->GetWordpos();
         if ((wordpos == sylLog_WORDPOS_i) || (wordpos == sylLog_WORDPOS_m)) {
-            Measure *lastMeasure
-                = dynamic_cast<Measure *>(this->FindDescendantByType(MEASURE, UNLIMITED_DEPTH, BACKWARD));
+            Measure *lastMeasure = vrv_cast<Measure *>(this->FindDescendantByType(MEASURE, UNLIMITED_DEPTH, BACKWARD));
             assert(lastMeasure);
             params->m_currentSyl->SetEnd(lastMeasure->GetRightBarLine());
         }
@@ -1741,7 +1805,7 @@ int Doc::PrepareLyricsEnd(FunctorParams *functorParams)
 
 int Doc::PrepareTimestampsEnd(FunctorParams *functorParams)
 {
-    PrepareTimestampsParams *params = dynamic_cast<PrepareTimestampsParams *>(functorParams);
+    PrepareTimestampsParams *params = vrv_params_cast<PrepareTimestampsParams *>(functorParams);
     assert(params);
 
     if (!m_options->m_openControlEvents.GetValue() || params->m_timeSpanningInterfaces.empty()) {

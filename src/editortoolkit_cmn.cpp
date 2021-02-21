@@ -49,7 +49,7 @@ bool EditorToolkitCMN::ParseEditorAction(const std::string &json_editorAction, b
 
     // Read JSON actions
     if (!json.parse(json_editorAction)) {
-        LogError("Can not parse JSON std::string.");
+        LogError("Cannot parse JSON std::string.");
         return false;
     }
 
@@ -282,7 +282,7 @@ bool EditorToolkitCMN::Insert(std::string &elementType, std::string const &start
         return false;
     }
 
-    Measure *measure = dynamic_cast<Measure *>(start->GetFirstAncestor(MEASURE));
+    Measure *measure = vrv_cast<Measure *>(start->GetFirstAncestor(MEASURE));
     assert(measure);
 
     ControlElement *element = NULL;
@@ -329,7 +329,7 @@ bool EditorToolkitCMN::Insert(std::string &elementType, std::string const &start
     }
 
     /*
-    Measure *measure = dynamic_cast<Measure *>(start->GetFirstAncestor(MEASURE));
+    Measure *measure = vrv_cast<Measure *>(start->GetFirstAncestor(MEASURE));
     assert(measure);
 
     ControlElement *element = NULL;
@@ -430,7 +430,7 @@ bool EditorToolkitCMN::InsertNote(Object *object)
     }
 
     if (object->Is(CHORD)) {
-        Chord *currentChord = dynamic_cast<Chord *>(object);
+        Chord *currentChord = vrv_cast<Chord *>(object);
         assert(currentChord);
         Note *note = new Note();
         currentChord->AddChild(note);
@@ -438,7 +438,7 @@ bool EditorToolkitCMN::InsertNote(Object *object)
         return true;
     }
     else if (object->Is(NOTE)) {
-        Note *currentNote = dynamic_cast<Note *>(object);
+        Note *currentNote = vrv_cast<Note *>(object);
         assert(currentNote);
 
         Chord *currentChord = currentNote->IsChordTone();
@@ -492,7 +492,7 @@ bool EditorToolkitCMN::InsertNote(Object *object)
         return true;
     }
     else if (object->Is(REST)) {
-        Rest *rest = dynamic_cast<Rest *>(object);
+        Rest *rest = vrv_cast<Rest *>(object);
         assert(rest);
         Note *note = new Note();
         note->DurationInterface::operator=(*rest);
@@ -586,7 +586,7 @@ bool EditorToolkitCMN::DeleteNote(Note *note)
             this->m_chainedId = rest->GetUuid();
             return true;
         }
-        if (beam->IsFirstInBeam(note)) {
+        if (beam->IsFirstIn(beam, note)) {
             Rest *rest = new Rest();
             rest->DurationInterface::operator=(*note);
             Object *parent = beam->GetParent();
@@ -596,7 +596,7 @@ bool EditorToolkitCMN::DeleteNote(Note *note)
             this->m_chainedId = rest->GetUuid();
             return true;
         }
-        else if (beam->IsLastInBeam(note)) {
+        else if (beam->IsLastIn(beam, note)) {
             Rest *rest = new Rest();
             rest->DurationInterface::operator=(*note);
             Object *parent = beam->GetParent();

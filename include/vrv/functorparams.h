@@ -18,9 +18,10 @@ class MidiFile;
 
 namespace vrv {
 
-class ClassIdComparison;
+class Artic;
 class BoundaryStartInterface;
 class Chord;
+class ClassIdComparison;
 class Clef;
 class Doc;
 class Dot;
@@ -28,6 +29,7 @@ class Dots;
 class Dynam;
 class Ending;
 class Output;
+class Facsimile;
 class Functor;
 class Hairpin;
 class Harm;
@@ -53,6 +55,7 @@ class Syl;
 class System;
 class SystemAligner;
 class Transposer;
+class TupletNum;
 class Verse;
 
 //----------------------------------------------------------------------------
@@ -149,6 +152,60 @@ public:
 };
 
 //----------------------------------------------------------------------------
+// AdjustBeamParams
+//----------------------------------------------------------------------------
+
+/**
+ * member 0: the beam that should be adjusted
+ * member 1: y coordinate of the beam left side
+ * member 2: y coordinate of the beam right side
+ * member 3: overlap margin that beam needs to be displaced by
+ * member 4: the Doc
+ **/
+
+class AdjustBeamParams : public FunctorParams {
+public:
+    AdjustBeamParams(Doc *doc)
+    {
+        m_beam = NULL;
+        m_y1 = 0;
+        m_y2 = 0;
+        m_directionBias = 0;
+        m_overlapMargin = 0;
+        m_doc = doc;
+    }
+
+    Object *m_beam;
+    int m_y1;
+    int m_y2;
+    int m_directionBias;
+    int m_overlapMargin;
+    Doc *m_doc;
+};
+
+//----------------------------------------------------------------------------
+// AdjustArticParams
+//----------------------------------------------------------------------------
+
+/**
+ * member 0: the chord dots object when processing chord notes
+ * member 7: the doc
+ **/
+
+class AdjustArticParams : public FunctorParams {
+public:
+    AdjustArticParams(Doc *doc)
+    {
+        m_parent = NULL;
+        m_doc = doc;
+    }
+    std::list<Artic *> m_articAbove;
+    std::list<Artic *> m_articBelow;
+    LayerElement *m_parent;
+    Doc *m_doc;
+};
+
+//----------------------------------------------------------------------------
 // AdjustArticWithSlursParams
 //----------------------------------------------------------------------------
 
@@ -202,8 +259,9 @@ public:
 
 /**
  * member 0: the classId
- * member 1: the doc
- * member 2: a pointer to the functor for passing it to the system aligner
+ * member 1: a flag indicating we are processing floating object to be put in between
+ * member 2: the doc
+ * member 3: a pointer to the functor for passing it to the system aligner
  **/
 
 class AdjustFloatingPositionersParams : public FunctorParams {
@@ -211,10 +269,36 @@ public:
     AdjustFloatingPositionersParams(Doc *doc, Functor *functor)
     {
         m_classId = OBJECT;
+        m_inBetween = false;
         m_doc = doc;
         m_functor = functor;
     }
     ClassId m_classId;
+    bool m_inBetween;
+    Doc *m_doc;
+    Functor *m_functor;
+};
+
+//----------------------------------------------------------------------------
+// AdjustFloatingPositionersBetweenParams
+//----------------------------------------------------------------------------
+
+/**
+ * member 2: the doc
+ * member 3: a pointer to the functor for passing it to the system aligner
+ **/
+
+class AdjustFloatingPositionersBetweenParams : public FunctorParams {
+public:
+    AdjustFloatingPositionersBetweenParams(Doc *doc, Functor *functor)
+    {
+        m_previousStaffPositioners = NULL;
+        m_previousStaffAlignment = NULL;
+        m_doc = doc;
+        m_functor = functor;
+    }
+    ArrayOfFloatingPositioners *m_previousStaffPositioners;
+    StaffAlignment *m_previousStaffAlignment;
     Doc *m_doc;
     Functor *m_functor;
 };
@@ -295,6 +379,7 @@ public:
  * member 5: the current chord (if any)
  * member 6: the doc
  * member 7: a pointer to the functor for passing it to the system aligner
+ * member 8: flag whether element is in unison
  **/
 
 class AdjustLayersParams : public FunctorParams {
@@ -307,6 +392,7 @@ public:
         m_doc = doc;
         m_functor = functor;
         m_staffNs = staffNs;
+        m_unison = false;
     }
     std::vector<int> m_staffNs;
     int m_currentLayerN;
@@ -316,6 +402,7 @@ public:
     Chord *m_currentChord;
     Doc *m_doc;
     Functor *m_functor;
+    bool m_unison;
 };
 
 //----------------------------------------------------------------------------
@@ -323,8 +410,10 @@ public:
 //----------------------------------------------------------------------------
 
 /**
- * member 1: the doc
- * member 2: a pointer to the functor for passing it to the system aligner
+ * member 0: a flag indicating that at least one slur had to be adjusted
+ * member 1: a flag indicating that there is at least one cross-staff slur
+ * member 2: the doc
+ * member 3: a pointer to the functor for passing it to the system aligner
  **/
 
 class AdjustSlursParams : public FunctorParams {
@@ -332,10 +421,12 @@ public:
     AdjustSlursParams(Doc *doc, Functor *functor)
     {
         m_adjusted = false;
+        m_crossStaffSlurs = false;
         m_doc = doc;
         m_functor = functor;
     }
     bool m_adjusted;
+    bool m_crossStaffSlurs;
     Doc *m_doc;
     Functor *m_functor;
 };
@@ -390,6 +481,35 @@ public:
     int m_freeSpace;
     int m_staffSize;
     Doc *m_doc;
+};
+
+//----------------------------------------------------------------------------
+// AdjustTupletNumOverlapParams
+//----------------------------------------------------------------------------
+
+/**
+ * member 0: tupletNum relative position for which is being calculatied
+ * member 1: drawing position of tupletNum
+ * member 2: margin for tupletNum vertical overlap
+ * member 3: flag to indicate whether cross-staff elements should be considered
+ * member 4: resulting relative Y for the tupletNum
+ **/
+class AdjustTupletNumOverlapParams : public FunctorParams {
+public:
+    AdjustTupletNumOverlapParams(TupletNum *tupletNum)
+    {
+        m_tupletNum = tupletNum;
+        m_drawingNumPos = STAFFREL_basic_NONE;
+        m_verticalMargin = 0;
+        m_ignoreCrossStaff = false;
+        m_yRel = 0;
+    }
+
+    TupletNum *m_tupletNum;
+    data_STAFFREL_basic m_drawingNumPos;
+    int m_verticalMargin;
+    bool m_ignoreCrossStaff;
+    int m_yRel;
 };
 
 //----------------------------------------------------------------------------
@@ -465,26 +585,19 @@ public:
 //----------------------------------------------------------------------------
 
 /**
- * member 0: the previous staff height
- * member 1: the extra staff height
- * member 2  the previous verse count
- * member 3: the cumulated shift
- * member 4: the doc
- * member 5: the functor to be redirected to SystemAligner
+ * member 0: the cumulated shift
+ * member 1: the doc
+ * member 2: the functor to be redirected to SystemAligner
  **/
 
 class AdjustYPosParams : public FunctorParams {
 public:
     AdjustYPosParams(Doc *doc, Functor *functor)
     {
-        m_previousOverflowBelow = 0;
-        m_previousVerseCount = 0;
         m_cumulatedShift = 0;
         m_doc = doc;
         m_functor = functor;
     }
-    int m_previousOverflowBelow;
-    int m_previousVerseCount;
     int m_cumulatedShift;
     Doc *m_doc;
     Functor *m_functor;
@@ -562,7 +675,9 @@ public:
 /**
  * member 0: the cumulated shift
  * member 1: the system margin
- * member 2: the doc
+ * member 2: the overflow below of previous system
+ * member 3: the sum of justification factors per page
+ * member 4: the doc
  **/
 
 class AlignSystemsParams : public FunctorParams {
@@ -571,14 +686,14 @@ public:
     {
         m_shift = 0;
         m_systemMargin = 0;
-        m_justifiableSystems = 0;
-        m_justifiableStaves = 0;
+        m_prevBottomOverflow = 0;
+        m_justificationSum = 0.;
         m_doc = doc;
     }
     int m_shift;
     int m_systemMargin;
-    int m_justifiableSystems;
-    int m_justifiableStaves;
+    int m_prevBottomOverflow;
+    double m_justificationSum;
     Doc *m_doc;
 };
 
@@ -591,9 +706,11 @@ public:
  * member 1: the staffIdx
  * member 2: the staffN
  * member 3: the cumulated shift for the default alignment
- * member 4: the functor (for redirecting from page running elements)
- * member 4: the end functor (for redirecting from measure)
- * member 5: the doc
+ * member 4: the sum of justification factors per page
+ * member 5: the page width
+ * member 6: the functor (for redirecting from page running elements)
+ * member 7: the end functor (for redirecting from measure)
+ * member 8: the doc
  **/
 
 class AlignVerticallyParams : public FunctorParams {
@@ -604,6 +721,7 @@ public:
         m_staffIdx = 0;
         m_staffN = 0;
         m_cumulatedShift = 0;
+        m_justificationSum = 0.;
         m_pageWidth = 0;
         m_functor = functor;
         m_functorEnd = functorEnd;
@@ -613,6 +731,7 @@ public:
     int m_staffIdx;
     int m_staffN;
     int m_cumulatedShift;
+    int m_justificationSum;
     int m_pageWidth;
     Functor *m_functor;
     Functor *m_functorEnd;
@@ -637,7 +756,34 @@ public:
 // CalcArticParams
 //----------------------------------------------------------------------------
 
-// Use FunctorDocParams
+/**
+ * member 0: the chord dots object when processing chord notes
+ * member 7: the doc
+ **/
+
+class CalcArticParams : public FunctorParams {
+public:
+    CalcArticParams(Doc *doc)
+    {
+        m_parent = NULL;
+        m_doc = doc;
+        m_staffAbove = NULL;
+        m_staffBelow = NULL;
+        m_layerAbove = NULL;
+        m_layerBelow = NULL;
+        m_crossStaffAbove = false;
+        m_crossStaffBelow = false;
+    }
+    LayerElement *m_parent;
+    data_STEMDIRECTION m_stemDir;
+    Staff *m_staffAbove;
+    Staff *m_staffBelow;
+    Layer *m_layerAbove;
+    Layer *m_layerBelow;
+    bool m_crossStaffAbove;
+    bool m_crossStaffBelow;
+    Doc *m_doc;
+};
 
 //----------------------------------------------------------------------------
 // CalcChordNoteHeads
@@ -860,11 +1006,12 @@ public:
  * member 5: the current scoreDef width
  * member 6: the current pending objects (ScoreDef, Endings, etc.) to be place at the beginning of a system
  * member 7: the doc
+ * member 8: whether to smartly use encoded system breaks
  **/
 
 class CastOffSystemsParams : public FunctorParams {
 public:
-    CastOffSystemsParams(System *contentSystem, Page *page, System *currentSystem, Doc *doc)
+    CastOffSystemsParams(System *contentSystem, Page *page, System *currentSystem, Doc *doc, bool smart)
     {
         m_contentSystem = contentSystem;
         m_page = page;
@@ -873,6 +1020,7 @@ public:
         m_systemWidth = 0;
         m_currentScoreDefWidth = 0;
         m_doc = doc;
+        m_smart = smart;
     }
     System *m_contentSystem;
     Page *m_page;
@@ -882,6 +1030,7 @@ public:
     int m_currentScoreDefWidth;
     ArrayOfObjects m_pendingObjects;
     Doc *m_doc;
+    bool m_smart;
 };
 
 //----------------------------------------------------------------------------
@@ -906,6 +1055,20 @@ public:
     Chord *m_currentChord;
     ArrayOfObjects m_controlEvents;
     bool m_permanent;
+};
+
+//----------------------------------------------------------------------------
+// ConvertMarkupArticParams
+//----------------------------------------------------------------------------
+
+/**
+ * member 0: std::vector<Artic *>* that needs to be converted
+ **/
+
+class ConvertMarkupArticParams : public FunctorParams {
+public:
+    ConvertMarkupArticParams() {}
+    std::vector<Artic *> m_articsToConvert;
 };
 
 //----------------------------------------------------------------------------
@@ -1119,6 +1282,28 @@ public:
 };
 
 //----------------------------------------------------------------------------
+// FindChildByComparisonParams
+//----------------------------------------------------------------------------
+
+/**
+ * member 0: the comparison
+ * member 1: the start object
+ */
+
+class FindChildByComparisonParams : public FunctorParams {
+public:
+    FindChildByComparisonParams(Comparison *comparison, Object *start)
+    {
+        m_comparison = comparison;
+        m_element = NULL;
+        m_start = start;
+    }
+    Comparison *m_comparison;
+    Object *m_element;
+    Object *m_start;
+};
+
+//----------------------------------------------------------------------------
 // FindExtremeByComparisonParams
 //----------------------------------------------------------------------------
 
@@ -1259,6 +1444,32 @@ public:
 };
 
 //----------------------------------------------------------------------------
+// GetRelativeLayerElementParams
+//----------------------------------------------------------------------------
+
+/**
+ * member 0: a pointer to the next/previous relevant layer element
+ * member 1: Id of the layer element that is being compared to (starting point)
+ * member 2: direction of search - BACKWARD is for previous element, FORWARD - next
+ * member 3: flag to indicate whether search is done in the same layer as element Id, or in neighboring one
+ **/
+
+class GetRelativeLayerElementParams : public FunctorParams {
+public:
+    GetRelativeLayerElementParams(const int elementId, bool searchDirection, bool anotherLayer)
+    {
+        m_relativeElement = NULL;
+        m_initialElementId = elementId;
+        m_searchDirection = searchDirection;
+        m_isInNeighboringLayer = anotherLayer;
+    }
+    Object *m_relativeElement;
+    int m_initialElementId;
+    bool m_searchDirection;
+    bool m_isInNeighboringLayer;
+};
+
+//----------------------------------------------------------------------------
 // JustifyXParams
 //----------------------------------------------------------------------------
 
@@ -1297,24 +1508,27 @@ public:
 //----------------------------------------------------------------------------
 
 /**
- * member 0: the justification ratio
- * member 4: the functor to be redirected to the MeasureAligner
- * member 5: the doc
+ * member 0: the cumulated shift
+ * member 1: the amount of space for distribution
+ * member 2: the sum of justification factors per page
+ * member 3: the functor to be redirected to the MeasureAligner
+ * member 4: the doc
  **/
 
 class JustifyYParams : public FunctorParams {
 public:
     JustifyYParams(Functor *functor, Doc *doc)
     {
-        m_stepSize = 0;
-        m_stepCount = 0;
-        m_stepCountStaff = 0;
+        m_cumulatedShift = 0;
+        m_spaceToDistribute = 0;
+        m_justificationSum = 0.;
         m_functor = functor;
         m_doc = doc;
     }
-    int m_stepSize;
-    int m_stepCount;
-    int m_stepCountStaff;
+
+    int m_cumulatedShift;
+    int m_spaceToDistribute;
+    double m_justificationSum;
     Functor *m_functor;
     Doc *m_doc;
 };
@@ -1348,6 +1562,37 @@ public:
     MeterSig *m_meterSig;
     Mensur *m_mensur;
     Functor *m_functor;
+};
+
+//----------------------------------------------------------------------------
+// LayerElementsInTimeSpanParams
+//----------------------------------------------------------------------------
+
+/**
+ * member 0: the time of the event
+ * member 1: the duration of the event
+ * member 2: the list of layer elements found
+ * member 3: the current meter signature
+ * member 4: the current mensur
+ * member 5: layer to process elements on
+ **/
+
+class LayerElementsInTimeSpanParams : public FunctorParams {
+public:
+    LayerElementsInTimeSpanParams(MeterSig *meterSig, Mensur *mensur, Layer *layer)
+    {
+        m_time = 0.0;
+        m_duration = 0.0;
+        m_meterSig = meterSig;
+        m_mensur = mensur;
+        m_layer = layer;
+    }
+    double m_time;
+    double m_duration;
+    ListOfObjects m_elements;
+    MeterSig *m_meterSig;
+    Mensur *m_mensur;
+    Layer *m_layer;
 };
 
 //----------------------------------------------------------------------------
@@ -1403,6 +1648,21 @@ public:
     Measure *m_lastMeasure;
     Ending *m_currentEnding;
     std::vector<BoundaryStartInterface *> m_startBoundaries;
+};
+
+//----------------------------------------------------------------------------
+// PrepareFacsimileParams
+//----------------------------------------------------------------------------
+
+/**
+ * member 0: the doc
+ */
+
+class PrepareFacsimileParams : public FunctorParams {
+public:
+    PrepareFacsimileParams(Facsimile *facsimile) { m_facsimile = facsimile; }
+    Facsimile *m_facsimile;
+    ListOfObjects m_zonelessSyls;
 };
 
 //----------------------------------------------------------------------------
@@ -1520,10 +1780,10 @@ class PreparePointersByLayerParams : public FunctorParams {
 public:
     PreparePointersByLayerParams()
     {
-        m_currentNote = NULL;
+        m_currentElement = NULL;
         m_lastDot = NULL;
     }
-    Note *m_currentNote;
+    LayerElement *m_currentElement;
     Dot *m_lastDot;
 };
 
@@ -1858,19 +2118,6 @@ class UnsetCurrentScoreDefParams : public FunctorParams {
 public:
     UnsetCurrentScoreDefParams(Functor *functor) { m_functor = functor; }
     Functor *m_functor;
-};
-
-//----------------------------------------------------------------------------
-// SetChildZonesParams
-//----------------------------------------------------------------------------
-
-/**
- * member 0: a pointer to the Doc for the children operated on
- */
-class SetChildZonesParams : public FunctorParams {
-public:
-    SetChildZonesParams(Doc *doc) { m_doc = doc; }
-    Doc *m_doc;
 };
 
 } // namespace vrv

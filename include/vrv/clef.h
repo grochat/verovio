@@ -26,7 +26,8 @@ class Clef : public LayerElement,
              public AttClefShape,
              public AttColor,
              public AttLineLoc,
-             public AttOctaveDisplacement {
+             public AttOctaveDisplacement,
+             public AttVisibility {
 public:
     /**
      * @name Constructors, destructors, and other standard methods
@@ -52,10 +53,23 @@ public:
      */
     int GetClefLocOffset() const;
 
+    //----------------//
+    // Static methods //
+    //----------------//
+
     /**
      * Return a clef id based on the various parameters
      */
     static int ClefId(data_CLEFSHAPE shape, char line, data_OCTAVE_DIS octaveDis, data_STAFFREL_basic place);
+
+    //----------//
+    // Functors //
+    //----------//
+
+    /**
+     * See Object::AdjustBeams
+     */
+    virtual int AdjustBeams(FunctorParams *functorParams);
 
 private:
 public:
