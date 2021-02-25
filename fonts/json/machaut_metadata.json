@@ -174,7 +174,7 @@
         },
         "VirgaBlack": {
             "bBoxNE": [
-                0.719,
+                0.7061,
                 0.372
             ],
             "bBoxSW": [
@@ -184,12 +184,12 @@
         },
         "VirgaLongBlack": {
             "bBoxNE": [
-                0.7597,
-                0.4515
+                0.724,
+                0.376
             ],
             "bBoxSW": [
-                -0.007,
-                -2.7145
+                -0.004,
+                -2.361
             ]
         },
         "Ydieresis": {
@@ -204,18 +204,18 @@
         },
         "accidentalFlat": {
             "bBoxNE": [
-                0.71,
-                0.3807
+                0.6631,
+                0.3773
             ],
             "bBoxSW": [
-                -0.021,
-                -1.91
+                -0.016,
+                -1.86
             ]
         },
         "accidentalSharpParens": {
             "bBoxNE": [
-                0.709,
-                1.876
+                0.6697,
+                1.861
             ],
             "bBoxSW": [
                 -0.015,
@@ -395,41 +395,41 @@
         "clivisFinal4thBlack": {
             "bBoxNE": [
                 0.676,
-                1.8467
+                1.8406
             ],
             "bBoxSW": [
                 -0.016,
-                -0.3853
+                -0.4093
             ]
         },
         "clivisFinal4thWhite": {
             "bBoxNE": [
                 0.684,
-                1.8467
+                1.8406
             ],
             "bBoxSW": [
                 -0.012,
-                -0.3771
+                -0.4093
             ]
         },
         "clivisFinal5thBlack": {
             "bBoxNE": [
                 0.669,
-                2.348
+                2.3406
             ],
             "bBoxSW": [
                 -0.023,
-                -0.3853
+                -0.4154
             ]
         },
         "clivisFinal5thWhite": {
             "bBoxNE": [
                 0.684,
-                2.348
+                2.3406
             ],
             "bBoxSW": [
                 -0.022,
-                -0.376
+                -0.4154
             ]
         },
         "clivisFinal6thWhite": {
@@ -489,7 +489,7 @@
             ],
             "bBoxSW": [
                 -0.0218,
-                -1.3853
+                -1.373
             ]
         },
         "clivisInitial2White": {
@@ -515,7 +515,7 @@
         "clivisInitial3White": {
             "bBoxNE": [
                 0.684,
-                0.3688
+                0.3646
             ],
             "bBoxSW": [
                 -0.0208,
@@ -629,7 +629,7 @@
             ],
             "bBoxSW": [
                 -0.0232,
-                -1.358
+                -1.367
             ]
         },
         "connectingStem3rdUp": {
@@ -645,11 +645,11 @@
         "connectingStem4thDown": {
             "bBoxNE": [
                 0.032,
-                0.3741
+                0.3681
             ],
             "bBoxSW": [
                 -0.028,
-                -1.8365
+                -1.8685
             ]
         },
         "connectingStem4thUp": {
@@ -740,26 +740,6 @@
             "bBoxSW": [
                 0.0,
                 -0.304
-            ]
-        },
-        "ecircumflex": {
-            "bBoxNE": [
-                1.296,
-                1.052
-            ],
-            "bBoxSW": [
-                0.0,
-                -0.396
-            ]
-        },
-        "edieresis": {
-            "bBoxNE": [
-                1.792,
-                1.296
-            ],
-            "bBoxSW": [
-                0.0,
-                -0.3
             ]
         },
         "exclamdown": {
@@ -862,17 +842,17 @@
                 -0.088
             ]
         },
-        "iacute": {
+        "infinity": {
             "bBoxNE": [
-                2.152,
-                1.796
+                0.512,
+                0.3
             ],
             "bBoxSW": [
                 0.0,
-                -0.3
+                -1.8122
             ]
         },
-        "icircumflex": {
+        "inprogress1": {
             "bBoxNE": [
                 2.672,
                 2.796
@@ -882,7 +862,7 @@
                 -0.3
             ]
         },
-        "idieresis": {
+        "inprogress2": {
             "bBoxNE": [
                 3.056,
                 3.296
@@ -892,24 +872,24 @@
                 -0.3
             ]
         },
-        "igrave": {
+        "inprogress3": {
             "bBoxNE": [
-                2.2,
-                2.296
+                3.472,
+                3.796
             ],
             "bBoxSW": [
                 0.0,
                 -0.3
             ]
         },
-        "infinity": {
+        "inprogress4": {
             "bBoxNE": [
-                0.512,
-                0.3
+                3.872,
+                4.296
             ],
             "bBoxSW": [
                 0.0,
-                -1.8122
+                -0.3
             ]
         },
         "logicalnot": {
@@ -1004,12 +984,12 @@
         },
         "mensuralBlackMaxima_smufl": {
             "bBoxNE": [
-                1.5618,
+                1.5633,
                 0.4038
             ],
             "bBoxSW": [
                 -0.0071,
-                -2.2044
+                -2.3664
             ]
         },
         "mensuralBrevisBlack": {
@@ -1020,6 +1000,26 @@
             "bBoxSW": [
                 -0.006,
                 -0.38
+            ]
+        },
+        "mensuralBrevisSlantedDownBlack": {
+            "bBoxNE": [
+                0.684,
+                0.3981
+            ],
+            "bBoxSW": [
+                -0.008,
+                -0.4066
+            ]
+        },
+        "mensuralBrevisSlantedUpBlack": {
+            "bBoxNE": [
+                0.684,
+                0.3889
+            ],
+            "bBoxSW": [
+                -0.008,
+                -0.4144
             ]
         },
         "mensuralBrevisWhite": {
@@ -1059,7 +1059,7 @@
             ],
             "bBoxSW": [
                 -0.0216,
-                -0.032
+                -0.018
             ]
         },
         "mensuralCombStemUpFlagRight": {
@@ -1159,7 +1159,7 @@
             ],
             "bBoxSW": [
                 -0.004,
-                -2.24
+                -2.361
             ]
         },
         "mensuralLongaWhite": {
@@ -1174,12 +1174,12 @@
         },
         "mensuralMaximaBlack": {
             "bBoxNE": [
-                1.5618,
+                1.5633,
                 0.4038
             ],
             "bBoxSW": [
                 -0.0071,
-                -2.2044
+                -2.3664
             ]
         },
         "mensuralMaximaWhite": {
@@ -1220,6 +1220,46 @@
             "bBoxSW": [
                 -0.0069,
                 -0.3983
+            ]
+        },
+        "mensuralOblDesc2ndBlack_smufl": {
+            "bBoxNE": [
+                1.636,
+                0.3618
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.8633
+            ]
+        },
+        "mensuralOblDesc3rdBlack_smufl": {
+            "bBoxNE": [
+                1.62,
+                0.362
+            ],
+            "bBoxSW": [
+                0.0,
+                -1.3655
+            ]
+        },
+        "mensuralOblDesc4thBlack_smufl": {
+            "bBoxNE": [
+                2.152,
+                0.3645
+            ],
+            "bBoxSW": [
+                0.0,
+                -1.8785
+            ]
+        },
+        "mensuralOblDesc5thBlack_smufl": {
+            "bBoxNE": [
+                2.706,
+                0.3561
+            ],
+            "bBoxSW": [
+                0.0,
+                -2.3628
             ]
         },
         "mensuralProlation1": {
@@ -1682,26 +1722,6 @@
                 -0.304
             ]
         },
-        "ntilde": {
-            "bBoxNE": [
-                3.472,
-                3.796
-            ],
-            "bBoxSW": [
-                0.0,
-                -0.3
-            ]
-        },
-        "oacute": {
-            "bBoxNE": [
-                3.872,
-                4.296
-            ],
-            "bBoxSW": [
-                0.0,
-                -0.3
-            ]
-        },
         "oblDesc2ndBW": {
             "bBoxNE": [
                 1.636,
@@ -1739,7 +1759,7 @@
             ],
             "bBoxSW": [
                 -0.007,
-                -0.3522
+                -0.3673
             ]
         },
         "obliqueDesc2ndEndBlack": {
@@ -1775,11 +1795,11 @@
         "obliqueDesc3rdBlack": {
             "bBoxNE": [
                 1.62,
-                1.348
+                1.359
             ],
             "bBoxSW": [
                 0.0,
-                -0.3795
+                -0.3685
             ]
         },
         "obliqueDesc3rdWhite": {
@@ -1815,11 +1835,11 @@
         "obliqueDesc5thBlack": {
             "bBoxNE": [
                 2.706,
-                2.3511
+                2.3571
             ],
             "bBoxSW": [
                 0.0,
-                -0.3678
+                -0.3618
             ]
         },
         "obliqueDesc5thWhite": {
@@ -1880,6 +1900,46 @@
             "bBoxSW": [
                 0.0,
                 -0.3
+            ]
+        },
+        "obliqueDescLowered2ndBlack": {
+            "bBoxNE": [
+                1.629,
+                0.8578
+            ],
+            "bBoxSW": [
+                -0.007,
+                -0.5004
+            ]
+        },
+        "obliqueDescLowered3rdBlack": {
+            "bBoxNE": [
+                1.62,
+                1.359
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.4993
+            ]
+        },
+        "obliqueDescLowered4thBlack": {
+            "bBoxNE": [
+                2.152,
+                1.8745
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.5005
+            ]
+        },
+        "obliqueDescLowered5thBlack": {
+            "bBoxNE": [
+                2.704,
+                2.3511
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.4993
             ]
         },
         "obliqueDescOctBlack": {
@@ -1984,7 +2044,7 @@
         },
         "pesAnticusFinal2ndBlack": {
             "bBoxNE": [
-                0.0555,
+                0.0463,
                 0.364
             ],
             "bBoxSW": [
@@ -1994,7 +2054,7 @@
         },
         "pesAnticusFinal3rdBlack": {
             "bBoxNE": [
-                0.0542,
+                0.0444,
                 0.371
             ],
             "bBoxSW": [
@@ -2004,7 +2064,7 @@
         },
         "pesAnticusFinal4thBlack_": {
             "bBoxNE": [
-                0.0552,
+                0.0455,
                 0.372
             ],
             "bBoxSW": [
@@ -2014,7 +2074,7 @@
         },
         "pesAnticusFinal5thBlack_": {
             "bBoxNE": [
-                0.0552,
+                0.0454,
                 0.3713
             ],
             "bBoxSW": [
@@ -2024,7 +2084,7 @@
         },
         "pesAnticusFinal6thBlack": {
             "bBoxNE": [
-                0.0552,
+                0.0454,
                 0.372
             ],
             "bBoxSW": [
@@ -2034,22 +2094,12 @@
         },
         "pesAnticusFinal7thBlack": {
             "bBoxNE": [
-                0.0579,
+                0.0481,
                 0.372
             ],
             "bBoxSW": [
                 -0.66,
                 -3.424
-            ]
-        },
-        "pesFinal4thBlack__": {
-            "bBoxNE": [
-                0.686,
-                1.807
-            ],
-            "bBoxSW": [
-                -0.006,
-                -0.3853
             ]
         },
         "pesInitial2ndBlack": {
@@ -2072,6 +2122,16 @@
                 -0.388
             ]
         },
+        "pesInitial4thBlack": {
+            "bBoxNE": [
+                0.686,
+                1.864
+            ],
+            "bBoxSW": [
+                -0.006,
+                -0.3853
+            ]
+        },
         "pesInitialSmallBlack": {
             "bBoxNE": [
                 0.836,
@@ -2084,8 +2144,18 @@
         },
         "plicaBrevisAscBlack": {
             "bBoxNE": [
-                0.7131,
-                1.8187
+                0.6711,
+                1.86
+            ],
+            "bBoxSW": [
+                -0.015,
+                -0.3818
+            ]
+        },
+        "plicaBrevisAscBlack_orig": {
+            "bBoxNE": [
+                0.6711,
+                1.86
             ],
             "bBoxSW": [
                 -0.015,
@@ -2094,18 +2164,38 @@
         },
         "plicaBrevisDescBlack": {
             "bBoxNE": [
-                0.698,
+                0.662,
                 0.3807
             ],
             "bBoxSW": [
-                -0.021,
-                -1.8413
+                -0.016,
+                -1.86
+            ]
+        },
+        "plicaBrevisDescBlack_orig": {
+            "bBoxNE": [
+                0.662,
+                0.3807
+            ],
+            "bBoxSW": [
+                -0.016,
+                -1.86
             ]
         },
         "plicaLongaAscBlack": {
             "bBoxNE": [
-                0.7081,
-                1.8134
+                0.6701,
+                1.86
+            ],
+            "bBoxSW": [
+                -0.012,
+                -0.3818
+            ]
+        },
+        "plicaLongaAscBlack_orig": {
+            "bBoxNE": [
+                0.6701,
+                1.86
             ],
             "bBoxSW": [
                 -0.012,
@@ -2114,12 +2204,22 @@
         },
         "plicaLongaDescBlack": {
             "bBoxNE": [
-                0.712,
+                0.6591,
                 0.3807
             ],
             "bBoxSW": [
                 -0.019,
-                -1.826
+                -1.86
+            ]
+        },
+        "plicaLongaDescBlack_orig": {
+            "bBoxNE": [
+                0.6591,
+                0.3807
+            ],
+            "bBoxSW": [
+                -0.019,
+                -1.86
             ]
         },
         "plicaSemibrevisAscBlack": {
@@ -2200,16 +2300,6 @@
             "bBoxSW": [
                 0.0,
                 -0.3
-            ]
-        },
-        "porrectusObl9thCrushedBlack": {
-            "bBoxNE": [
-                3.872,
-                4.296
-            ],
-            "bBoxSW": [
-                0.0,
-                -0.3011
             ]
         },
         "porrectusOblOctCrushedBlack": {
@@ -2334,8 +2424,8 @@
         },
         "stemInitialDown": {
             "bBoxNE": [
-                0.062,
-                0.3386
+                0.0491,
+                0.3337
             ],
             "bBoxSW": [
                 -0.042,
@@ -2344,8 +2434,8 @@
         },
         "stemInitialDownShort": {
             "bBoxNE": [
-                0.062,
-                0.376
+                0.0491,
+                0.361
             ],
             "bBoxSW": [
                 -0.042,
@@ -2409,7 +2499,7 @@
             ],
             "bBoxSW": [
                 -0.008,
-                -1.354
+                -1.36
             ]
         },
         "w": {

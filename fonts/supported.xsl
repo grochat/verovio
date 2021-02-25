@@ -2233,6 +2233,10 @@ a            <glyph glyph-code="E5BF" smufl-name="ornamentPrecompCadenceWithTurn
             <!--<glyph glyph-code="E95F" smufl-name="mensuralWhiteMinima"/>-->
             <!--<glyph glyph-code="E960" smufl-name="mensuralWhiteSemiminima"/>-->
             <!--<glyph glyph-code="E961" smufl-name="mensuralWhiteFusa"/>-->
+            <glyph glyph-code="F710" smufl-name="plicaBlackLongaAsc"/>
+            <glyph glyph-code="F711" smufl-name="plicaBlackLongaDesc"/>
+            <glyph glyph-code="F712" smufl-name="plicaBlackBrevisAsc"/>
+            <glyph glyph-code="F713" smufl-name="plicaBlackBrevisDesc"/>
             <range_end>U+E96F</range_end>
             <range_start>U+E950</range_start>
         </medievalAndRenaissanceIndividualNotes>
@@ -2254,11 +2258,11 @@ a            <glyph glyph-code="E5BF" smufl-name="ornamentPrecompCadenceWithTurn
             <!--<glyph glyph-code="E97D" smufl-name="mensuralObliqueAsc5thVoid"/>-->
             <!--<glyph glyph-code="E97E" smufl-name="mensuralObliqueAsc5thBlackVoid"/>-->
             <!--<glyph glyph-code="E97F" smufl-name="mensuralObliqueAsc5thWhite"/>-->
-            <glyph glyph-code="E980" smufl-name="mensuralObliqueDesc2ndBlack"/>
+            <!--<glyph glyph-code="E980" smufl-name="mensuralObliqueDesc2ndBlack"/>-->
             <!--<glyph glyph-code="E981" smufl-name="mensuralObliqueDesc2ndVoid"/>-->
             <!--<glyph glyph-code="E982" smufl-name="mensuralObliqueDesc2ndBlackVoid"/>-->
             <!--<glyph glyph-code="E983" smufl-name="mensuralObliqueDesc2ndWhite"/>-->
-            <glyph glyph-code="E984" smufl-name="mensuralObliqueDesc3rdBlack"/>
+            <!--<glyph glyph-code="E984" smufl-name="mensuralObliqueDesc3rdBlack"/>-->
             <!--<glyph glyph-code="E985" smufl-name="mensuralObliqueDesc3rdVoid"/>-->
             <!--<glyph glyph-code="E986" smufl-name="mensuralObliqueDesc3rdBlackVoid"/>-->
             <!--<glyph glyph-code="E987" smufl-name="mensuralObliqueDesc3rdWhite"/>-->
