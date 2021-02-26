@@ -124,6 +124,7 @@ void View::DrawMensuralNote(DeviceContext *dc, LayerElement *element, Layer *lay
             {
                 dc->StartCustomGraphic("notehead");
                 DrawSmuflCode(dc, xNote, yNote, code, staff->m_drawingStaffSize, false);
+                dc->EndCustomGraphic();
             }
         }
         else
@@ -371,6 +372,8 @@ void View::DrawMaximaToBrevis(DeviceContext *dc, int y, LayerElement *element, L
     float r = font->GetWidthToHeightRatio();
     if ( favorGlyphs )
     {
+        if ( note->FindDescendantByType(PLICA) )    //will be drawn as a plica glyph in DrawPlica
+            return;
         switch (duration)
         {
             case DUR_MX:
@@ -400,6 +403,7 @@ void View::DrawMaximaToBrevis(DeviceContext *dc, int y, LayerElement *element, L
         dc->StartCustomGraphic("notehead");
         DrawSmuflCode(dc, xNote, yNote, code, staff->m_drawingStaffSize, false);
         //font->SetWidthToHeightRatio(r);
+        dc->EndCustomGraphic();
     }
     else
     {
@@ -459,8 +463,6 @@ void View::DrawMaximaToBrevis(DeviceContext *dc, int y, LayerElement *element, L
             dc->EndCustomGraphic();
         }
     }
-
-    return;
 }
 
 void View::DrawLigature(DeviceContext *dc, LayerElement *element, Layer *layer, Staff *staff, Measure *measure)
@@ -638,47 +640,78 @@ void View::DrawPlica(DeviceContext *dc, LayerElement *element, Layer *layer, Sta
     Note *note = vrv_cast<Note *>(plica->GetFirstAncestor(NOTE));
     assert(note);
 
-    bool isMensuralBlack = (staff->m_drawingNotationType == NOTATIONTYPE_mensural_black);
-    int stemWidth = m_doc->GetDrawingStemWidth(staff->m_drawingStaffSize);
-
     bool isLonga = (note->GetActualDur() == DUR_LG);
     bool up = (plica->GetDir() == STEMDIRECTION_basic_up);
-
-    int shape = LIGATURE_DEFAULT;
-    Point topLeft, bottomRight;
-    int sides[4];
-    this->CalcBrevisPoints(note, staff, &topLeft, &bottomRight, sides, shape, isMensuralBlack);
-
-    int stem = m_doc->GetDrawingUnit(staff->m_drawingStaffSize);
-    stem *= (!isMensuralBlack) ? 7 : 5;
-    int shortStem = m_doc->GetDrawingUnit(staff->m_drawingStaffSize);
-    shortStem *= (!isMensuralBlack) ? 3.5 : 2.5;
-
-    dc->StartGraphic(plica, "", plica->GetUuid());
-
-    if (isLonga) {
-        if (up) {
-            DrawFilledRectangle(dc, topLeft.x, sides[1], topLeft.x + stemWidth, sides[1] + shortStem);
-            DrawFilledRectangle(dc, bottomRight.x, sides[1], bottomRight.x - stemWidth, sides[1] + stem);
+    
+    bool favorGlyphs = m_doc->GetOptions()->m_useGlyphMensural.GetValue();
+    if ( favorGlyphs && Resources::IsGlyphAvailable((wchar_t) SMUFL_F710_plicaBlackLongaAsc ) )
+    {
+        const int yNote = element->GetDrawingY();
+        const int xNote = element->GetDrawingX();
+        wchar_t code = -1;
+        if ( isLonga )
+        {
+            if ( up )
+            {
+                code = SMUFL_F710_plicaBlackLongaAsc;
+            }
+            else
+            {
+                code = SMUFL_F711_plicaBlackLongaDesc;
+            }
         }
-        else {
-            DrawFilledRectangle(dc, topLeft.x, sides[0], topLeft.x + stemWidth, sides[0] - shortStem);
-            DrawFilledRectangle(dc, bottomRight.x, sides[0], bottomRight.x - stemWidth, sides[0] - stem);
+        else    //brevis
+        {
+            if ( up )
+            {
+                code = SMUFL_F712_plicaBlackBrevisAsc;
+            }
+            else
+            {
+                code = SMUFL_F713_plicaBlackBrevisDesc;
+            }
         }
+        dc->StartCustomGraphic("notehead");
+        DrawSmuflCode( dc, xNote, yNote, code, staff->m_drawingStaffSize, false, true );
+        dc->EndCustomGraphic();
     }
-    // brevis
-    else {
-        if (up) {
-            DrawFilledRectangle(dc, topLeft.x, sides[1], topLeft.x + stemWidth, sides[1] + stem);
-            DrawFilledRectangle(dc, bottomRight.x, sides[1], bottomRight.x - stemWidth, sides[1] + shortStem);
+    else
+    {
+        dc->StartGraphic(plica, "", plica->GetUuid());
+        bool isMensuralBlack = (staff->m_drawingNotationType == NOTATIONTYPE_mensural_black);
+        int stemWidth = m_doc->GetDrawingStemWidth(staff->m_drawingStaffSize);
+        int shape = LIGATURE_DEFAULT;
+        Point topLeft, bottomRight;
+        int sides[4];
+        this->CalcBrevisPoints(note, staff, &topLeft, &bottomRight, sides, shape, isMensuralBlack);
+        int stem = m_doc->GetDrawingUnit(staff->m_drawingStaffSize);
+        stem *= (!isMensuralBlack) ? 7 : 5;
+        int shortStem = m_doc->GetDrawingUnit(staff->m_drawingStaffSize);
+        shortStem *= (!isMensuralBlack) ? 3.5 : 2.5;
+        if (isLonga) {
+            if (up) {
+                DrawFilledRectangle(dc, topLeft.x, sides[1], topLeft.x + stemWidth, sides[1] + shortStem);
+                DrawFilledRectangle(dc, bottomRight.x, sides[1], bottomRight.x - stemWidth, sides[1] + stem);
+            }
+            else {
+                DrawFilledRectangle(dc, topLeft.x, sides[0], topLeft.x + stemWidth, sides[0] - shortStem);
+                DrawFilledRectangle(dc, bottomRight.x, sides[0], bottomRight.x - stemWidth, sides[0] - stem);
+            }
         }
+        // brevis
         else {
-            DrawFilledRectangle(dc, topLeft.x, sides[0], topLeft.x + stemWidth, sides[0] - stem);
-            DrawFilledRectangle(dc, bottomRight.x, sides[0], bottomRight.x - stemWidth, sides[0] - shortStem);
+            if (up) {
+                DrawFilledRectangle(dc, topLeft.x, sides[1], topLeft.x + stemWidth, sides[1] + stem);
+                DrawFilledRectangle(dc, bottomRight.x, sides[1], bottomRight.x - stemWidth, sides[1] + shortStem);
+            }
+            else {
+                DrawFilledRectangle(dc, topLeft.x, sides[0], topLeft.x + stemWidth, sides[0] - stem);
+                DrawFilledRectangle(dc, bottomRight.x, sides[0], bottomRight.x - stemWidth, sides[0] - shortStem);
+            }
         }
+        dc->EndGraphic(plica, this);
     }
 
-    dc->EndGraphic(plica, this);
 }
 
 void View::DrawProportFigures(DeviceContext *dc, int x, int y, int num, int numBase, Staff *staff)

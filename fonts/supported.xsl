@@ -2220,7 +2220,6 @@ a            <glyph glyph-code="E5BF" smufl-name="ornamentPrecompCadenceWithTurn
             <glyph glyph-code="E953" smufl-name="mensuralBlackSemibrevis"/>
             <glyph glyph-code="E954" smufl-name="mensuralBlackMinima"/>
             <glyph glyph-code="E955" smufl-name="mensuralBlackSemiminima"/>
-            <glyph glyph-code="F702" smufl-name="mensuralBlackFusa"/>
             <!--<glyph glyph-code="E956" smufl-name="mensuralBlackBrevisVoid"/>-->
             <!--<glyph glyph-code="E957" smufl-name="mensuralBlackSemibrevisVoid"/>-->
             <!--<glyph glyph-code="E958" smufl-name="mensuralBlackMinimaVoid"/>-->
@@ -2233,13 +2232,18 @@ a            <glyph glyph-code="E5BF" smufl-name="ornamentPrecompCadenceWithTurn
             <!--<glyph glyph-code="E95F" smufl-name="mensuralWhiteMinima"/>-->
             <!--<glyph glyph-code="E960" smufl-name="mensuralWhiteSemiminima"/>-->
             <!--<glyph glyph-code="E961" smufl-name="mensuralWhiteFusa"/>-->
+            <range_end>U+E96F</range_end>
+            <range_start>U+E950</range_start>
+        </medievalAndRenaissanceIndividualNotes>
+        <medievalAndRenaissanceExtraIndividualNotes>
+            <glyph glyph-code="F702" smufl-name="mensuralBlackFusa"/>
             <glyph glyph-code="F710" smufl-name="plicaBlackLongaAsc"/>
             <glyph glyph-code="F711" smufl-name="plicaBlackLongaDesc"/>
             <glyph glyph-code="F712" smufl-name="plicaBlackBrevisAsc"/>
             <glyph glyph-code="F713" smufl-name="plicaBlackBrevisDesc"/>
-            <range_end>U+E96F</range_end>
-            <range_start>U+E950</range_start>
-        </medievalAndRenaissanceIndividualNotes>
+            <range_start>U+F702</range_start>
+            <range_end>U+F713</range_end>
+        </medievalAndRenaissanceExtraIndividualNotes>
         <medievalAndRenaissanceObliqueForms>
             <description>Medieval and Renaissance oblique forms</description>
             <!--<glyph glyph-code="E970" smufl-name="mensuralObliqueAsc2ndBlack"/>-->

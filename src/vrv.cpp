@@ -79,10 +79,12 @@ bool Resources::InitFonts()
     // The Leipzig as the default font
     if (!LoadFont("Leipzig")) LogError("Leipzig font could not be loaded.");
 
+    /*
     if (s_font.size() < SMUFL_COUNT) {
         LogError("Expected %d default SMUFL glyphs but could load only %d.", SMUFL_COUNT, s_font.size());
         return false;
     }
+    */
 
     struct TextFontInfo_type {
         const StyleAttributes m_style;

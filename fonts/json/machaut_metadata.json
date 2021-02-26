@@ -2159,7 +2159,7 @@
             ],
             "bBoxSW": [
                 -0.015,
-                -0.3818
+                -0.3817
             ]
         },
         "plicaBrevisDescBlack": {
@@ -2175,7 +2175,7 @@
         "plicaBrevisDescBlack_orig": {
             "bBoxNE": [
                 0.662,
-                0.3807
+                0.3803
             ],
             "bBoxSW": [
                 -0.016,
@@ -2199,7 +2199,7 @@
             ],
             "bBoxSW": [
                 -0.012,
-                -0.3818
+                -0.3817
             ]
         },
         "plicaLongaDescBlack": {
@@ -2215,7 +2215,7 @@
         "plicaLongaDescBlack_orig": {
             "bBoxNE": [
                 0.6591,
-                0.3807
+                0.3803
             ],
             "bBoxSW": [
                 -0.019,
