@@ -846,12 +846,11 @@ void SvgDeviceContext::DrawRotatedText(const std::string &text, int x, int y, do
     // TODO
 }
 
-void SvgDeviceContext::DrawMusicText(const std::wstring &text, int x, int y, bool setSmuflGlyph)
+int SvgDeviceContext::DrawMusicText(const std::wstring &text, int x, int y, bool setSmuflGlyph)
 {
     assert(m_fontStack.top());
 
-    int w, h, gx, gy;
-
+    int cummWidth = 0;
     // print chars one by one
     for (unsigned int i = 0; i < text.length(); ++i) {
         wchar_t c = text.at(i);
@@ -879,13 +878,20 @@ void SvgDeviceContext::DrawMusicText(const std::wstring &text, int x, int y, boo
         }
 
         // Get the bounds of the char
+        int xtmp = 0;
         if (glyph->GetHorizAdvX() > 0)
-            x += glyph->GetHorizAdvX() * m_fontStack.top()->GetPointSize() / glyph->GetUnitsPerEm();
-        else {
-            glyph->GetBoundingBox(gx, gy, w, h);
-            x += w * m_fontStack.top()->GetPointSize() / glyph->GetUnitsPerEm();
+        {
+            xtmp = glyph->GetHorizAdvX() * m_fontStack.top()->GetPointSize() / glyph->GetUnitsPerEm();
         }
+        else {
+            int w, h, gx, gy;
+            glyph->GetBoundingBox(gx, gy, w, h);
+            xtmp = w * m_fontStack.top()->GetPointSize() / glyph->GetUnitsPerEm();
+        }
+        x += xtmp;
+        cummWidth += xtmp;
     }
+    return cummWidth;
 }
 
 void SvgDeviceContext::DrawSpline(int n, Point points[]) {}

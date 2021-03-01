@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1241828086
-ModificationTime: 1614294422
+ModificationTime: 1614629847
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -50,7 +50,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 78 13 6
+WinInfo: 299 13 6
 BeginPrivate: 9
 BlueValues 17 [ -12 7 107 130 ]
 BlueScale 7 0.04438
@@ -171,7 +171,7 @@ Grid
  448 -700 l 1024
 EndSplineSet
 TeXData: 1 0 0 91226 45613 30408 88080 1048576 30408 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 361 275
+BeginChars: 371 282
 
 StartChar: zeroWidthSpace
 Encoding: 32 32 0
@@ -190,12 +190,12 @@ Flags: MW
 HStem: -1 21G 256 20G
 LayerCount: 2
 Fore
-Refer: 263 59895 N 1 0 0 1 0 0 2
+Refer: 262 59895 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: plicaSemibrevisAscBlack
 Encoding: 34 34 2
-AltUni2: 00e998.ffffffff.0 00f022.ffffffff.0
+AltUni2: 00f022.ffffffff.0 00e998.ffffffff.0
 Width: 160
 VWidth: 1592
 Flags: HMW
@@ -259,8 +259,8 @@ HStem: -188 68 59 124 217 36
 VStem: 13.2 63.8 281.6 99
 LayerCount: 2
 Fore
-Refer: 257 59890 N 1 0 0 1 92.5 250 2
-Refer: 257 59890 N 1 0 0 1 0.75 250 2
+Refer: 256 59890 N 1 0 0 1 92.5 250 2
+Refer: 256 59890 N 1 0 0 1 0.75 250 2
 EndChar
 
 StartChar: percent
@@ -300,7 +300,7 @@ EndChar
 
 StartChar: mensuralProlation1
 Encoding: 38 38 6
-AltUni2: 00e910.ffffffff.0 00f026.ffffffff.0
+AltUni2: 00f026.ffffffff.0 00e910.ffffffff.0
 Width: 302
 VWidth: 600
 Flags: HW
@@ -339,7 +339,7 @@ EndChar
 
 StartChar: mensuralProlation2
 Encoding: 39 39 7
-AltUni2: 00e911.ffffffff.0 00f027.ffffffff.0
+AltUni2: 00f027.ffffffff.0 00e911.ffffffff.0
 Width: 302
 VWidth: 600
 Flags: HMW
@@ -376,13 +376,13 @@ HStem: -188 68 59 124 217 36
 VStem: 13.2 63.8 281.6 99
 LayerCount: 2
 Fore
-Refer: 256 59891 N 1 0 0 1 90 0 2
-Refer: 256 59891 N 1 0 0 1 0 0 2
+Refer: 255 59891 N 1 0 0 1 90 0 2
+Refer: 255 59891 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: mensuralProlation6
 Encoding: 41 41 9
-AltUni2: 00e915.ffffffff.0 00f029.ffffffff.0
+AltUni2: 00f029.ffffffff.0 00e915.ffffffff.0
 Width: 283
 VWidth: 600
 Flags: HMW
@@ -411,7 +411,7 @@ EndChar
 
 StartChar: mensuralProlation7
 Encoding: 42 42 10
-AltUni2: 00e916.ffffffff.0 00f02a.ffffffff.0
+AltUni2: 00f02a.ffffffff.0 00e916.ffffffff.0
 Width: 284
 VWidth: 600
 Flags: HW
@@ -445,7 +445,7 @@ EndChar
 
 StartChar: chantCustosStemUpPosMiddle
 Encoding: 43 43 11
-AltUni2: 00ea06.ffffffff.0 00f02b.ffffffff.0
+AltUni2: 00f02b.ffffffff.0 00ea06.ffffffff.0
 Width: 53
 Flags: MW
 HStem: -9 19
@@ -475,7 +475,7 @@ EndChar
 
 StartChar: chantCustosStemUpPosLow
 Encoding: 44 44 12
-AltUni2: 00ea05.ffffffff.0 00f02c.ffffffff.0
+AltUni2: 00f02c.ffffffff.0 00ea05.ffffffff.0
 Width: 53
 Flags: MW
 HStem: -71 125
@@ -528,7 +528,7 @@ EndChar
 
 StartChar: mensuralCustosUp
 Encoding: 46 46 14
-AltUni2: 00ea02.ffffffff.0 00f02e.ffffffff.0
+AltUni2: 00f02e.ffffffff.0 00ea02.ffffffff.0
 Width: 154
 Flags: MW
 HStem: -17 76
@@ -591,7 +591,7 @@ Flags: HMW
 VStem: 1.1 46.2 140.8 46.2
 LayerCount: 2
 Fore
-Refer: 253 -1 S 1 0 0 1 -0.25 0 2
+Refer: 252 -1 S 1 0 0 1 -0.25 0 2
 EndChar
 
 StartChar: mensuralRestHalfSpaceDown
@@ -604,7 +604,7 @@ HStem: -253 28 225 28
 VStem: 4.4 106.7 277.2 103.4
 LayerCount: 2
 Fore
-Refer: 254 59893 N 1 0 0 1 0 0 2
+Refer: 253 59893 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: mensuralRestHalfSpaceUp
@@ -616,7 +616,7 @@ Flags: MW
 VStem: 77 110
 LayerCount: 2
 Fore
-Refer: 255 59892 N 1 0 0 1 0 0 2
+Refer: 254 59892 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: mensuralRest2HalfSpacesUp
@@ -629,8 +629,8 @@ HStem: -188 68 59 124 217 36
 VStem: 13.2 63.8 281.6 99
 LayerCount: 2
 Fore
-Refer: 255 59892 N 1 0 0 1 92.5 0 2
-Refer: 255 59892 N 1 0 0 1 0 0 2
+Refer: 254 59892 N 1 0 0 1 92.5 0 2
+Refer: 254 59892 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: mensuralRest1Space
@@ -642,7 +642,7 @@ HStem: -249 27 -178 102 76 102 222 27
 VStem: 4.4 53.9 248.6 96.8
 LayerCount: 2
 Fore
-Refer: 256 59891 S 1 0 0 1 0 0 2
+Refer: 255 59891 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: mensuralRest2Spaces
@@ -654,7 +654,7 @@ HStem: -104 22
 VStem: 232.1 185.9
 LayerCount: 2
 Fore
-Refer: 257 59890 S 1 0 0 1 0 250 2
+Refer: 256 59890 S 1 0 0 1 0 250 2
 EndChar
 
 StartChar: mensuralRest3Spaces
@@ -666,7 +666,7 @@ HStem: 45 31 159 78
 VStem: 33 34.1 255.2 84.7
 LayerCount: 2
 Fore
-Refer: 258 -1 S 1 0 0 1 0 250 2
+Refer: 257 -1 S 1 0 0 1 0 250 2
 EndChar
 
 StartChar: mensuralRest4Spaces
@@ -679,7 +679,7 @@ HStem: 247 20 506 26
 VStem: 9.9 136.4 279.4 91.3
 LayerCount: 2
 Fore
-Refer: 259 59889 S 1 0 0 1 0 500 2
+Refer: 258 59889 S 1 0 0 1 0 500 2
 EndChar
 
 StartChar: verticalBar5Spaces
@@ -691,12 +691,12 @@ HStem: 674 34
 VStem: 17.6 363
 LayerCount: 2
 Fore
-Refer: 261 -1 N 1 0 0 1 0 0 2
+Refer: 260 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: mensuralFusaBlack
 Encoding: 56 56 24
-AltUni2: 00f702.ffffffff.0 00f038.ffffffff.0
+AltUni2: 00f038.ffffffff.0 00f702.ffffffff.0
 Width: 198
 VWidth: 1676
 Flags: MW
@@ -803,7 +803,7 @@ HStem: -390 42 38 216 351 36
 VStem: 26.8343 177 569.834 99
 LayerCount: 2
 Fore
-Refer: 212 59730 S 1 0 0 1 -163 -2 2
+Refer: 211 59730 S 1 0 0 1 -163 -2 2
 Refer: 190 181 N 0.716095 0 0 0.602937 2.77538 24.6427 2
 EndChar
 
@@ -816,7 +816,7 @@ HStem: -390 42 38 216 351 36
 VStem: 8.25846 177 551.258 99
 LayerCount: 2
 Fore
-Refer: 212 59730 S 1 0 0 1 -163.75 0 2
+Refer: 211 59730 S 1 0 0 1 -163.75 0 2
 Refer: 190 181 N 0.759426 0 0 0.854835 2.03606 -2.62859 2
 EndChar
 
@@ -829,7 +829,7 @@ HStem: -390 42 38 216 351 36
 VStem: 8.25 177 551.25 99
 LayerCount: 2
 Fore
-Refer: 212 59730 S 1 0 0 1 -164 -0.166667 2
+Refer: 211 59730 S 1 0 0 1 -164 -0.166667 2
 Refer: 190 181 N 0.759426 0 0 1.04299 2.0276 -21.9234 2
 EndChar
 
@@ -842,7 +842,7 @@ HStem: -390 42 38 216 351 36
 VStem: 8.25 177 551.25 99
 LayerCount: 2
 Fore
-Refer: 212 59730 S 1 0 0 1 -163.75 0 2
+Refer: 211 59730 S 1 0 0 1 -163.75 0 2
 Refer: 190 181 N 0.759426 0 0 1.23408 2.0276 -39.923 2
 EndChar
 
@@ -855,7 +855,7 @@ HStem: -390 42 38 216 351 36
 VStem: 8.25 177 551.25 99
 LayerCount: 2
 Fore
-Refer: 212 59730 S 1 0 0 1 -163 0 2
+Refer: 211 59730 S 1 0 0 1 -163 0 2
 Refer: 190 181 S 0.759426 0 0 1.42818 2.69427 -56.223 2
 EndChar
 
@@ -1012,7 +1012,7 @@ HStem: -828.366 31.296 1218.59 189.732
 VStem: 0 65 196 58
 LayerCount: 2
 Fore
-Refer: 252 59778 S 1 0 0 1 0 121 2
+Refer: 251 59778 S 1 0 0 1 0 121 2
 Comment: "obliqueDesc2ndWhiteBlack"
 EndChar
 
@@ -1026,7 +1026,7 @@ HStem: 230 18 311 125
 VStem: 814 25
 LayerCount: 2
 Fore
-Refer: 266 -1 S 1 0 0 1 0 120.75 2
+Refer: 265 -1 S 1 0 0 1 0 120.75 2
 Comment: "obliqueDesc2ndBlackWhite"
 EndChar
 
@@ -1201,19 +1201,19 @@ EndChar
 
 StartChar: chantPunctumBlack
 Encoding: 88 88 43
-AltUni2: 00e990.ffffffff.0 00f058.ffffffff.0
+AltUni2: 00f058.ffffffff.0 00e990.ffffffff.0
 Width: 171
 VWidth: 1650
 Flags: HMW
 VStem: -3123.74 21.796 -2721.25 36.3268
 LayerCount: 2
 Fore
-Refer: 212 59730 N 1 0 0 1 0 0 2
+Refer: 211 59730 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: virgaShortBlack
 Encoding: 89 89 44
-AltUni2: 00f059.ffffffff.0 00f701.ffffffff.0
+AltUni2: 00f701.ffffffff.0 00f059.ffffffff.0
 Width: 171
 VWidth: 1660
 Flags: HMW
@@ -1222,12 +1222,12 @@ VStem: -4.35922 27.6083 462.077 27.6083
 LayerCount: 2
 Fore
 Refer: 43 88 N 1 0 0 1 0 0 2
-Refer: 247 -1 S 1 0 0 0.804791 164.25 14.1057 2
+Refer: 246 -1 S 1 0 0 0.804791 164.25 14.1057 2
 EndChar
 
 StartChar: VirgaBlack
 Encoding: 90 90 45
-AltUni2: 00e996.ffffffff.0 000000.ffffffff.0
+AltUni2: 000000.ffffffff.0 00e996.ffffffff.0
 Width: 171
 VWidth: 1660
 Flags: HMW
@@ -1236,7 +1236,7 @@ VStem: -4.35922 27.6083 462.077 27.6083
 LayerCount: 2
 Fore
 Refer: 43 88 N 1 0 0 1 0 0 2
-Refer: 241 -1 N 1 0 0 0.846158 164.25 8.0958 2
+Refer: 240 -1 N 1 0 0 0.846158 164.25 8.0958 2
 EndChar
 
 StartChar: VirgaLongBlack
@@ -1508,9 +1508,9 @@ Flags: HMW
 VStem: -3.09 61.8 281.19 61.8 563.925 61.8
 LayerCount: 2
 Fore
-Refer: 246 -1 N 1 0 0 1.01292 6.75 10.4508 2
-Refer: 212 59730 N 0.935655 0.0423547 0.00489257 1.00125 0.997014 -0.46428 2
-Refer: 246 -1 N 0.93391 0 0 1.00323 155.723 14.5503 2
+Refer: 245 -1 N 1 0 0 1.01292 6.75 10.4508 2
+Refer: 211 59730 N 0.935655 0.0423547 0.00489257 1.00125 0.997014 -0.46428 2
+Refer: 245 -1 N 0.93391 0 0 1.00323 155.723 14.5503 2
 EndChar
 
 StartChar: accidentalFlat
@@ -1522,9 +1522,9 @@ Flags: HMW
 VStem: -3.09 61.8 281.19 61.8 563.925 61.8
 LayerCount: 2
 Fore
-Refer: 241 -1 N 1 0 0 0.850751 6.5 11.4175 2
-Refer: 212 59730 N 0.928616 -0.0368826 -0.0133483 0.994267 0.647074 3.71483 2
-Refer: 241 -1 N 1 0 0 0.843479 153.5 7.34556 2
+Refer: 240 -1 N 1 0 0 0.850751 6.5 11.4175 2
+Refer: 211 59730 N 0.928616 -0.0368826 -0.0133483 0.994267 0.647074 3.71483 2
+Refer: 240 -1 N 1 0 0 0.843479 153.5 7.34556 2
 EndChar
 
 StartChar: mensuralMaximaBlack
@@ -1570,7 +1570,7 @@ EndChar
 
 StartChar: mensuralLongaBlack
 Encoding: 101 101 55
-AltUni2: 00e951.ffffffff.0 00f065.ffffffff.0
+AltUni2: 00f065.ffffffff.0 00e951.ffffffff.0
 Width: 192
 VWidth: 1567
 Flags: HMW
@@ -1627,32 +1627,32 @@ EndChar
 
 StartChar: mensuralSemibrevisBlack
 Encoding: 104 104 58
-AltUni2: 00e953.ffffffff.0 00f068.ffffffff.0
+AltUni2: 00f068.ffffffff.0 00e953.ffffffff.0
 Width: 188
 VWidth: 1703
 Flags: HMW
 VStem: -13.445 25.27
 LayerCount: 2
 Fore
-Refer: 213 59709 N 1 0 0 1 0 0 2
+Refer: 212 59709 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: mensuralMinimaBlack
 Encoding: 105 105 59
-AltUni2: 00e954.ffffffff.0 00f069.ffffffff.0
+AltUni2: 00f069.ffffffff.0 00e954.ffffffff.0
 Width: 169
 VWidth: 1676
 Flags: HMW
 VStem: -13.2807 24.7267
 LayerCount: 2
 Fore
-Refer: 213 59709 S 1 0 0 1 0 0 2
+Refer: 212 59709 S 1 0 0 1 0 0 2
 Refer: 36 81 S 1 0 0 1 96 47.5 2
 EndChar
 
 StartChar: mensuralSemibrevisCaudataBlack
 Encoding: 106 106 60
-AltUni2: 00e959.ffffffff.0 00f06a.ffffffff.0
+AltUni2: 00f06a.ffffffff.0 00e959.ffffffff.0
 Width: 170
 VWidth: 1676
 Flags: HMW
@@ -1660,13 +1660,13 @@ HStem: 41.912 439.238
 VStem: 6.505 19.95 329.695 21.28
 LayerCount: 2
 Fore
-Refer: 213 59709 N 1 0 0 1 0 0 2
-Refer: 247 -1 N 1 0 0 0.703429 86.25 -112.493 2
+Refer: 212 59709 N 1 0 0 1 0 0 2
+Refer: 246 -1 N 1 0 0 0.703429 86.25 -112.493 2
 EndChar
 
 StartChar: mensuralDragmaBlack
 Encoding: 107 107 61
-AltUni2: 00e95a.ffffffff.0 00f06b.ffffffff.0
+AltUni2: 00f06b.ffffffff.0 00e95a.ffffffff.0
 Width: 186
 VWidth: 1676
 Flags: HMW
@@ -1698,12 +1698,12 @@ HStem: -201.178 31.8531 160.942 33.5296G
 VStem: 305.2 26.6
 LayerCount: 2
 Fore
-Refer: 239 -1 N 1 0 0 1 0 125 2
+Refer: 238 -1 N 1 0 0 1 0 125 2
 EndChar
 
 StartChar: mensuralSemibrevisObliqueBlack
 Encoding: 109 109 63
-AltUni2: 00e95b.ffffffff.0 00f06d.ffffffff.0
+AltUni2: 00f06d.ffffffff.0 00e95b.ffffffff.0
 Width: 178
 VWidth: 1676
 Flags: HMW
@@ -1765,7 +1765,7 @@ EndChar
 
 StartChar: mensuralSemiminimaBlack
 Encoding: 111 111 65
-AltUni2: 00e955.ffffffff.0 00f06f.ffffffff.0
+AltUni2: 00f06f.ffffffff.0 00e955.ffffffff.0
 Width: 170
 VWidth: 1676
 Flags: HMW
@@ -1773,8 +1773,8 @@ HStem: -139.148 30.1766 108.971 30.1766
 VStem: 4.9 22.61 201.74 23.94
 LayerCount: 2
 Fore
-Refer: 213 59709 N 1 0 0 1 0 0 2
-Refer: 267 -1 N 1 0 0 1 82.5 125 2
+Refer: 212 59709 N 1 0 0 1 0 0 2
+Refer: 266 -1 N 1 0 0 1 82.5 125 2
 EndChar
 
 StartChar: p
@@ -1939,8 +1939,8 @@ HStem: -1267.42 23.4707 -1069.59 206.207 -285.002 206.207 77.1181 206.207 353.73
 VStem: 190.4 28 376.6 39.2 568.4 204.4 824.6 172.2
 LayerCount: 2
 Fore
-Refer: 212 59730 N 1 0 0 1 1.5 0 2
-Refer: 240 -1 N 1 0 0 1.00997 6.5 1.92524 2
+Refer: 211 59730 N 1 0 0 1 1.5 0 2
+Refer: 239 -1 N 1 0 0 1.00997 6.5 1.92524 2
 EndChar
 
 StartChar: u
@@ -2196,7 +2196,7 @@ HStem: -177 21 -23 27 236 30 412 24
 VStem: 32 62 167 59 439 161 610 25 777 59
 LayerCount: 2
 Fore
-Refer: 212 59730 N 1 0 0 1 0.25 0 2
+Refer: 211 59730 N 1 0 0 1 0.25 0 2
 EndChar
 
 StartChar: pesInitial3rdBlack
@@ -2235,7 +2235,7 @@ HStem: -509.39 113.05 -113.05 109.06
 VStem: 385.7 109.06
 LayerCount: 2
 Fore
-Refer: 212 59730 S 1 0 0 1 0.5 0 2
+Refer: 211 59730 S 1 0 0 1 0.5 0 2
 EndChar
 
 StartChar: obliqueDescLowered2ndBlack
@@ -2564,49 +2564,49 @@ EndChar
 
 StartChar: obliqueDesc2ndBlack
 Encoding: 160 8224 104
-AltUni2: 00e980.ffffffff.0 00f0a0.ffffffff.0
+AltUni2: 00f0a0.ffffffff.0
 Width: 407
 Flags: HW
 HStem: -911 34 1340 209
 VStem: 0 51 155 46
 LayerCount: 2
 Fore
-Refer: 250 59776 S 1 0 0 1 -1.75 124 2
+Refer: 249 59776 S 1 0 0 1 -1.75 124 2
 EndChar
 
 StartChar: obliqueDesc3rdBlack
 Encoding: 161 176 105
-AltUni2: 00e984.ffffffff.0 00f0a1.ffffffff.0
+AltUni2: 00f0a1.ffffffff.0
 Width: 405
 Flags: HMW
 HStem: -911 34 1340 209
 VStem: 0 51 155 46
 LayerCount: 2
 Fore
-Refer: 251 59780 N 1 0 0 1 0 249.25 2
+Refer: 250 59780 N 1 0 0 1 0 249.25 2
 EndChar
 
 StartChar: obliqueDesc4thBlack
 Encoding: 162 162 106
-AltUni2: 00e988.ffffffff.0 00f0a2.ffffffff.0
+AltUni2: 00f0a2.ffffffff.0
 Width: 538
 Flags: HMW
 HStem: -45.4289 40.3193
 LayerCount: 2
 Fore
-Refer: 248 59784 S 1 0 0 1 0 376.25 2
+Refer: 247 59784 S 1 0 0 1 0 376.25 2
 EndChar
 
 StartChar: obliqueDesc5thBlack
 Encoding: 163 163 107
-AltUni2: 00e98c.ffffffff.0 00f0a3.ffffffff.0
+AltUni2: 00f0a3.ffffffff.0
 Width: 676
 Flags: HMW
 HStem: -72.445 22.86 -7.675 100.33 177.745 100.33 319.985 22.86
 VStem: 1 31 217 68
 LayerCount: 2
 Fore
-Refer: 249 59788 S 1 0 0 1 0 500.25 2
+Refer: 248 59788 S 1 0 0 1 0 500.25 2
 EndChar
 
 StartChar: obliqueDesc6thBlack
@@ -2766,7 +2766,7 @@ EndChar
 
 StartChar: mensuralLongaWhite
 Encoding: 170 8482 114
-AltUni2: 00f0aa.ffffffff.0 00e95d.ffffffff.0
+AltUni2: 00e95d.ffffffff.0 00f0aa.ffffffff.0
 Width: 192
 VWidth: 1567
 Flags: HMW
@@ -3114,7 +3114,7 @@ EndChar
 
 StartChar: mensuralMaximaWhite
 Encoding: 179 8805 122
-AltUni2: 00f0b3.ffffffff.0 00e95c.ffffffff.0
+AltUni2: 00e95c.ffffffff.0 00f0b3.ffffffff.0
 Width: 390
 Flags: HMW
 HStem: -340.109 36.8902 32.3914 188.05 305.918 31.4916
@@ -3272,7 +3272,7 @@ EndChar
 
 StartChar: mensuralSemibrevisWhite
 Encoding: 184 8719 126
-AltUni2: 00f0b8.ffffffff.0 00e957.ffffffff.0
+AltUni2: 00e957.ffffffff.0 00f0b8.ffffffff.0
 Width: 168
 VWidth: 1622
 Flags: HMW
@@ -3297,7 +3297,7 @@ EndChar
 
 StartChar: mensuralMinimaWhite
 Encoding: 185 960 127
-AltUni2: 00f0b9.ffffffff.0 00e95f.ffffffff.0
+AltUni2: 00e95f.ffffffff.0 00f0b9.ffffffff.0
 Width: 169
 VWidth: 1622
 Flags: HMW
@@ -3319,7 +3319,7 @@ HStem: 95 31
 VStem: 4 28 186 30 335 69
 LayerCount: 2
 Fore
-Refer: 247 -1 S 1 0 0 0.605353 94.5 -155.646 2
+Refer: 246 -1 S 1 0 0 0.605353 94.5 -155.646 2
 Refer: 126 8719 N 0.98182 0 0 1 -0.0104573 0 2
 EndChar
 
@@ -3460,7 +3460,7 @@ VStem: -13.445 25.27
 LayerCount: 2
 Fore
 Refer: 126 8719 N 0.960631 0 0 1 -0.0226447 0 2
-Refer: 265 59713 S 1 0 0 1.01392 89.25 132.69 2
+Refer: 264 59713 S 1 0 0 1.01392 89.25 132.69 2
 EndChar
 
 StartChar: questiondown
@@ -4285,7 +4285,7 @@ EndChar
 
 StartChar: mensuralBrevisWhite
 Encoding: 223 64258 161
-AltUni2: 00f0df.ffffffff.0 00e9ee.ffffffff.0
+AltUni2: 00e9ee.ffffffff.0 00f0df.ffffffff.0
 Width: 171
 VWidth: 1330
 Flags: HMW
@@ -4816,7 +4816,7 @@ EndChar
 
 StartChar: obliqueDesc3rdWhite
 Encoding: 241 210 178
-AltUni2: 00e987.ffffffff.0 00f0f1.ffffffff.0
+AltUni2: 00f0f1.ffffffff.0 00e987.ffffffff.0
 Width: 405
 Flags: HMW
 HStem: -911 34 1340 209
@@ -4848,7 +4848,7 @@ EndChar
 
 StartChar: obliqueDesc4thWhite
 Encoding: 242 218 179
-AltUni2: 00e98b.ffffffff.0 00f0f2.ffffffff.0
+AltUni2: 00f0f2.ffffffff.0 00e98b.ffffffff.0
 Width: 538
 Flags: HMW
 HStem: -45.4289 40.3193
@@ -4874,7 +4874,7 @@ EndChar
 
 StartChar: obliqueDesc5thWhite
 Encoding: 243 219 180
-AltUni2: 00e98f.ffffffff.0 00f0f3.ffffffff.0
+AltUni2: 00f0f3.ffffffff.0 00e98f.ffffffff.0
 Width: 676
 Flags: HMW
 HStem: -72.445 22.86 -7.675 100.33 177.745 100.33 319.985 22.86
@@ -5037,13 +5037,13 @@ EndChar
 
 StartChar: stemInitialDownShort
 Encoding: 250 729 186
-AltUni2: 00e99c.ffffffff.0 00f0fa.ffffffff.0
+AltUni2: 00f0fa.ffffffff.0 00e99c.ffffffff.0
 Width: 0
 Flags: HMW
 HStem: 6 20G
 LayerCount: 2
 Fore
-Refer: 241 -1 S 1 0 0 0.8644 0 10.7283 2
+Refer: 240 -1 S 1 0 0 0.8644 0 10.7283 2
 EndChar
 
 StartChar: obliqueDesc2ndEndWhite
@@ -5121,7 +5121,7 @@ EndChar
 
 StartChar: obliqueDesc2ndWhite
 Encoding: 240 63743 189
-AltUni2: 00e983.ffffffff.0 00f0f0.ffffffff.0
+AltUni2: 00f0f0.ffffffff.0 00e983.ffffffff.0
 Width: 407
 Flags: HW
 HStem: -911 34 1340 209
@@ -5177,7 +5177,7 @@ Flags: HW
 HStem: 6 20G
 LayerCount: 2
 Fore
-Refer: 241 -1 S 1 0 0 0.986849 0 -7.36469 2
+Refer: 240 -1 S 1 0 0 0.986849 0 -7.36469 2
 EndChar
 
 StartChar: ascii189
@@ -5218,7 +5218,7 @@ EndChar
 
 StartChar: Delta
 Encoding: 198 916 192
-AltUni2: 00f0c6.ffffffff.0 002206.ffffffff.0
+AltUni2: 002206.ffffffff.0 00f0c6.ffffffff.0
 Width: 164
 Flags: W
 HStem: 100 19
@@ -5333,34 +5333,20 @@ HStem: -390 42 38 216 351 36
 VStem: 8.24967 177 551.25 99
 LayerCount: 2
 Fore
-Refer: 212 59730 S 1 0 0 1 -163.75 -0.25 2
+Refer: 211 59730 S 1 0 0 1 -163.75 -0.25 2
 Refer: 190 181 N 0.759426 0 0 0.652127 1.77727 20.8565 2
 EndChar
 
 StartChar: mensuralCombStemUp
 Encoding: 248 175 196
-AltUni2: 00f0f8.ffffffff.0 00e93e.ffffffff.0
+AltUni2: 00f0f8.ffffffff.0
 Width: 19
 VWidth: 1676
 Flags: HW
 VStem: -334.6 18.2 -256.2 29.4
 LayerCount: 2
 Fore
-SplineSet
--0.0166015625 1.298828125 m 5
- -0.0107421875 2.8955078125 -0.0048828125 4.640625 0 6.5 c 4
- 0.041015625 21.080078125 0.060546875 42.75 0.060546875 56.0849609375 c 4
- 0.060546875 239.475585938 -3.1689453125 468.249023438 -3.5 565.75 c 0
- -3.5087890625 568.340820312 -5.404296875 574.909179688 -5.404296875 577.446289062 c 0
- -5.404296875 586.40625 -1.8740234375 587.5 6.5 587.5 c 0
- 10.0322265625 587.5 10.4794921875 586.40625 13.6337890625 584.626953125 c 0
- 17.494140625 582.44921875 19 581.528320312 19 575 c 0
- 19 574.724609375 18.4609375 568.176757812 18.4580078125 567.8828125 c 0
- 16.3525390625 379.870117188 15.2822265625 196.385742188 15.0439453125 6.5 c 4
- 15.0419921875 4.8330078125 15.0380859375 3.166015625 15.0380859375 1.5 c 4
- 15.037109375 -2.1552734375 10.6650390625 -4.501953125 6.6328125 -4.501953125 c 4
- 3.1845703125 -4.501953125 -0.015625 -2.78515625 -0.0166015625 1.298828125 c 5
-EndSplineSet
+Refer: 274 59710 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: nameMe256
@@ -6062,33 +6048,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: mensuralCombStemDown_smufl
-Encoding: 270 59711 211
-Width: 19
-VWidth: 1676
-Flags: HW
-VStem: 316.4 18.2 226.8 29.4
-LayerCount: 2
-Fore
-SplineSet
-15.0166015625 2.201171875 m 5
- 15.0107421875 0.6044921875 15.0048828125 -1.140625 15 -3 c 4
- 14.958984375 -17.580078125 14.939453125 -39.25 14.939453125 -52.5849609375 c 4
- 14.939453125 -235.975585938 18.1689453125 -468.249023438 18.5 -565.75 c 4
- 18.5087890625 -568.340820312 20.404296875 -574.909179688 20.404296875 -577.446289062 c 4
- 20.404296875 -586.40625 16.8740234375 -587.5 8.5 -587.5 c 4
- 4.9677734375 -587.5 4.5205078125 -586.40625 1.3662109375 -584.626953125 c 4
- -2.494140625 -582.44921875 -4 -581.528320312 -4 -575 c 4
- -4 -574.724609375 -3.4609375 -568.176757812 -3.4580078125 -567.8828125 c 4
- -1.3525390625 -379.870117188 -0.2822265625 -192.885742188 -0.0439453125 -3 c 4
- -0.0419921875 -1.3330078125 -0.0380859375 0.333984375 -0.0380859375 2 c 4
- -0.037109375 5.6552734375 4.3349609375 8.001953125 8.3671875 8.001953125 c 4
- 11.8154296875 8.001953125 15.015625 6.28515625 15.0166015625 2.201171875 c 5
-EndSplineSet
-EndChar
-
 StartChar: mensuralBlackBrevis_smufl
-Encoding: 271 59730 212
+Encoding: 271 59730 211
 Width: 170
 VWidth: 1409
 Flags: HW
@@ -6122,7 +6083,7 @@ EndSplineSet
 EndChar
 
 StartChar: mensNoteheadSemiminimaW_smufl
-Encoding: 272 59709 213
+Encoding: 272 59709 212
 Width: 169
 VWidth: 1703
 Flags: HW
@@ -6140,7 +6101,7 @@ EndSplineSet
 EndChar
 
 StartChar: mensProlationCombiningDot_smufl
-Encoding: 273 59680 214
+Encoding: 273 59680 213
 Width: 72
 VWidth: 600
 Flags: HW
@@ -6160,7 +6121,7 @@ EndSplineSet
 EndChar
 
 StartChar: medRenSharp1_orig
-Encoding: 281 63237 215
+Encoding: 281 63237 214
 Width: 144
 VWidth: 900
 Flags: HW
@@ -6237,7 +6198,7 @@ EndSplineSet
 EndChar
 
 StartChar: medRenSharp2_orig
-Encoding: 282 63238 216
+Encoding: 282 63238 215
 Width: 144
 VWidth: 900
 Flags: HW
@@ -6327,7 +6288,7 @@ EndSplineSet
 EndChar
 
 StartChar: NameMe283
-Encoding: 283 -1 217
+Encoding: 283 -1 216
 Width: 404
 Flags: W
 HStem: 18 46<251.5 302> 424 42
@@ -6355,7 +6316,7 @@ EndSplineSet
 EndChar
 
 StartChar: mensuralProportion1_smufl
-Encoding: 284 59686 218
+Encoding: 284 59686 217
 Width: 211
 Flags: W
 HStem: -1.8 18.9G<13.05 25.65 166.5 171.9 171.9 196.2> 0 23.4 412.2 22.5 430.2 18.9G
@@ -6395,7 +6356,7 @@ EndSplineSet
 EndChar
 
 StartChar: mensuralProportion2_smufl
-Encoding: 285 59687 219
+Encoding: 285 59687 218
 Width: 402
 Flags: W
 HStem: -1.8 18.9G<33.75 35.1 35.1 49.5> 1.8 77.4 351.9 70.2<226.35 239.4>
@@ -6437,7 +6398,7 @@ EndSplineSet
 EndChar
 
 StartChar: mensuralProportion3_smufl
-Encoding: 286 59688 220
+Encoding: 286 59688 219
 Width: 270
 Flags: W
 HStem: -187.2 18.9G<90.9 117.9> 364.5 67.5<135.9 142.65>
@@ -6474,7 +6435,7 @@ EndSplineSet
 EndChar
 
 StartChar: mensuralProportion4_smufl
-Encoding: 287 59689 221
+Encoding: 287 59689 220
 Width: 551
 Flags: W
 HStem: -215.1 18.9G<298.8 304.65> 8.1 75.6 422.1 18.9G
@@ -6517,7 +6478,7 @@ EndSplineSet
 EndChar
 
 StartChar: NameMe288
-Encoding: 288 -1 222
+Encoding: 288 -1 221
 Width: 272
 Flags: W
 HStem: -144.9 18.9G<128.7 133.2> 450 18.9G
@@ -6560,7 +6521,7 @@ EndSplineSet
 EndChar
 
 StartChar: NameMe289
-Encoding: 289 -1 223
+Encoding: 289 -1 222
 Width: 391
 Flags: W
 HStem: -0.9 19.8<193.95 217.8 169.65 218.7> 368.1 19.8<187.65 226.35 187.65 232.2> 612.9 18.9G
@@ -6599,7 +6560,7 @@ EndSplineSet
 EndChar
 
 StartChar: NameMe290
-Encoding: 290 -1 224
+Encoding: 290 -1 223
 Width: 394
 Flags: W
 HStem: -154.8 18.9G<190.35 197.1> 365.4 72<116.1 144.45> 487.8 18.9G
@@ -6630,7 +6591,7 @@ EndSplineSet
 EndChar
 
 StartChar: NameMe291
-Encoding: 291 -1 225
+Encoding: 291 -1 224
 Width: 363
 Flags: W
 HStem: 9.9 34.2 619.2 18.9<170.55 205.2>
@@ -6674,7 +6635,7 @@ EndSplineSet
 EndChar
 
 StartChar: NameMe292
-Encoding: 292 -1 226
+Encoding: 292 -1 225
 Width: 391
 Flags: W
 HStem: -185.4 18.9G<-16.2 10.35> 72 18.9<171 206.1> 450 18.9<179.1 204.3>
@@ -6709,7 +6670,7 @@ EndSplineSet
 EndChar
 
 StartChar: mensuralProlation5_smufl
-Encoding: 293 59668 227
+Encoding: 293 59668 226
 Width: 283
 VWidth: 600
 Flags: HW
@@ -6746,7 +6707,7 @@ EndSplineSet
 EndChar
 
 StartChar: mensuralProlation8_smufl
-Encoding: 294 59671 228
+Encoding: 294 59671 227
 Width: 283
 VWidth: 600
 Flags: HW
@@ -6802,7 +6763,7 @@ EndSplineSet
 EndChar
 
 StartChar: mensuralProlation9_smufl
-Encoding: 295 59672 229
+Encoding: 295 59672 228
 Width: 284
 VWidth: 602
 Flags: HW
@@ -6849,7 +6810,7 @@ EndSplineSet
 EndChar
 
 StartChar: mensuralProlation10_smufl
-Encoding: 296 59673 230
+Encoding: 296 59673 229
 Width: 284
 VWidth: 602
 Flags: HW
@@ -6897,7 +6858,7 @@ EndSplineSet
 EndChar
 
 StartChar: mensuralProlation3_smufl
-Encoding: 297 59666 231
+Encoding: 297 59666 230
 Width: 302
 VWidth: 600
 Flags: HW
@@ -6940,7 +6901,7 @@ EndSplineSet
 EndChar
 
 StartChar: mensuralProlation4_smufl
-Encoding: 298 59667 232
+Encoding: 298 59667 231
 Width: 302
 VWidth: 600
 Flags: HW
@@ -6993,7 +6954,7 @@ EndSplineSet
 EndChar
 
 StartChar: mensuralPropTempPerfect_smufl
-Encoding: 299 59675 233
+Encoding: 299 59675 232
 Width: 302
 VWidth: 600
 Flags: HW
@@ -7038,7 +6999,7 @@ EndSplineSet
 EndChar
 
 StartChar: mensuralProportioDupla_smufl
-Encoding: 300 59676 234
+Encoding: 300 59676 233
 Width: 302
 VWidth: 600
 Flags: HW
@@ -7081,7 +7042,7 @@ EndSplineSet
 EndChar
 
 StartChar: mensuralProportioDupla2_smufl
-Encoding: 301 59677 235
+Encoding: 301 59677 234
 Width: 284
 VWidth: 600
 Flags: HW
@@ -7132,7 +7093,7 @@ EndSplineSet
 EndChar
 
 StartChar: mensuralProportioTripla_smufl
-Encoding: 302 59678 236
+Encoding: 302 59678 235
 Width: 283
 VWidth: 600
 Flags: HW
@@ -7191,7 +7152,7 @@ EndSplineSet
 EndChar
 
 StartChar: mensuralProportioQuadr_smufl
-Encoding: 303 59679 237
+Encoding: 303 59679 236
 Width: 284
 VWidth: 600
 Flags: HW
@@ -7241,7 +7202,7 @@ EndSplineSet
 EndChar
 
 StartChar: NameMe306
-Encoding: 306 -1 238
+Encoding: 306 -1 237
 Width: 446
 Flags: HW
 HStem: -911 34 1340 209
@@ -7276,7 +7237,7 @@ EndSplineSet
 EndChar
 
 StartChar: mensuralOblDesc2ndBlackEnd_orig
-Encoding: 307 -1 239
+Encoding: 307 -1 238
 Width: 378
 Flags: HW
 HStem: -911 34 1340 209
@@ -7306,31 +7267,31 @@ EndSplineSet
 EndChar
 
 StartChar: medievalStemInitialUp_orig
-Encoding: 308 -1 240
+Encoding: 308 -1 239
 Width: 0
-Flags: HW
-VStem: -461 19
+Flags: W
+VStem: -460 19
 LayerCount: 2
 Fore
 SplineSet
--10.25 551 m 4
- -10.25 556 -6.25 559 -0.25 559 c 4
- 8.75 559 15.75 556 15.75 548 c 4
- 15.75 518 13.75 497 12.75 461 c 4
- 8.75 364 6.75 119 6.75 -58 c 4
- 6.75 -68 6.75 -78 6.75 -88 c 6
- 6.75 -91.75 l 5
- 4.75 -92.75 2.75 -93 0.75 -93 c 4
- -2.25 -93 -5.919921875 -91.162109375 -7.25 -86 c 5
- -6.25 4 -6.25 94 -6.25 200 c 4
- -6.25 315 -6.25 434 -8.25 536 c 4
- -8.25 538 -9.25 541 -9.25 543 c 4
- -9.25 545 -10.25 549 -10.25 551 c 4
+-13.25 551 m 4
+ -13.25 556 -9.25 559 -3.25 559 c 4
+ 5.75 559 12.75 556 12.75 548 c 4
+ 12.75 518 10.75 497 9.75 461 c 4
+ 5.75 364 3.75 119 3.75 -58 c 4
+ 3.75 -68 3.75 -78 3.75 -88 c 6
+ 3.75 -91.75 l 5
+ 1.75 -92.75 -0.25 -93 -2.25 -93 c 4
+ -5.25 -93 -8.919921875 -91.162109375 -10.25 -86 c 5
+ -9.25 4 -9.25 94 -9.25 200 c 4
+ -9.25 315 -9.25 434 -11.25 536 c 4
+ -11.25 538 -12.25 541 -12.25 543 c 4
+ -12.25 545 -13.25 549 -13.25 551 c 4
 EndSplineSet
 EndChar
 
 StartChar: medievalStemInitialDown_orig
-Encoding: 309 -1 241
+Encoding: 309 -1 240
 Width: 0
 Flags: HW
 VStem: -460 19
@@ -7354,7 +7315,7 @@ EndSplineSet
 EndChar
 
 StartChar: mensuralCustosCheckmark_orig
-Encoding: 312 59914 242
+Encoding: 312 59914 241
 Width: 230
 VWidth: 1676
 Flags: W
@@ -7379,7 +7340,7 @@ EndSplineSet
 EndChar
 
 StartChar: NameMe311
-Encoding: 311 -1 243
+Encoding: 311 -1 242
 Width: 210
 VWidth: 1676
 Flags: HW
@@ -7407,7 +7368,7 @@ EndSplineSet
 EndChar
 
 StartChar: TestBrevisSquizzed
-Encoding: 314 -1 244
+Encoding: 314 -1 243
 Width: 1000
 VWidth: 1567
 Flags: HW
@@ -7415,7 +7376,7 @@ LayerCount: 2
 EndChar
 
 StartChar: toScrap
-Encoding: 315 -1 245
+Encoding: 315 -1 244
 Width: 1000
 VWidth: 0
 Flags: H
@@ -7436,7 +7397,7 @@ EndSplineSet
 EndChar
 
 StartChar: medievalStemInitialUpShort
-Encoding: 316 -1 246
+Encoding: 316 -1 245
 Width: 0
 Flags: HW
 VStem: -461 19
@@ -7461,7 +7422,7 @@ EndSplineSet
 EndChar
 
 StartChar: medStemInitialDownShort_orig
-Encoding: 317 -1 247
+Encoding: 317 -1 246
 Width: 0
 Flags: HW
 VStem: -460 19
@@ -7486,7 +7447,7 @@ EndSplineSet
 EndChar
 
 StartChar: mensuralOblDesc4thBlack_smufl
-Encoding: 321 59784 248
+Encoding: 321 59784 247
 Width: 538
 Flags: HW
 HStem: -45.4289 40.3193
@@ -7504,7 +7465,7 @@ EndSplineSet
 EndChar
 
 StartChar: mensuralOblDesc5thBlack_smufl
-Encoding: 322 59788 249
+Encoding: 322 59788 248
 Width: 676
 Flags: HW
 HStem: -72.445 22.86 -7.675 100.33 177.745 100.33 319.985 22.86
@@ -7524,8 +7485,8 @@ EndSplineSet
 EndChar
 
 StartChar: mensuralOblDesc2ndBlack_smufl
-Encoding: 319 59776 250
-Width: 372
+Encoding: 319 59776 249
+Width: 409
 VWidth: 909
 Flags: HW
 HStem: -828.366 31.296 1218.59 189.732
@@ -7533,31 +7494,31 @@ VStem: 0 65 196 58
 LayerCount: 2
 Fore
 SplineSet
-407 -215.55859375 m 4
- 390 -204.767578125 370.431154561 -195.568034346 352 -186.90234375 c 4
- 327.74604788 -175.498975388 301.56640625 -163.034194946 273 -152.323242188 c 4
- 238.132722136 -139.249782307 208.5 -129.340820312 169 -118.337890625 c 4
- 138.876953125 -109.947265625 105 -101.66796875 74 -96.5498046875 c 4
- 51.9533366229 -92.9098550038 29.01953125 -91.6650390625 4 -91.4150390625 c 4
- 0 -91.375 0 -90.4375 0 -84.5693359375 c 6
- 0 89.46484375 l 6
- 0 90.443359375 1 90.443359375 2 90.443359375 c 4
- 28 89.46484375 53.8837890625 88.251953125 77 85.552734375 c 4
- 116.108398438 80.986328125 151 72.3720703125 176 65.5263671875 c 4
- 202 58.6796875 229.235351562 49.9892578125 258 38.8759765625 c 4
- 309.296875 19.0556640625 358.147460938 -0.5 395 -23.216796875 c 4
- 401.488456217 -27.2164383018 409 -29.7158203125 409 -36.908203125 c 4
- 409 -37.88671875 409 -43.021484375 409 -43.9990234375 c 4
- 409 -47.9111328125 409 -58.9736328125 409 -86.3583984375 c 4
- 409 -125.477539062 409 -184.262695312 409 -205.778320312 c 4
- 409 -210.668945312 409 -212.624023438 409 -214.580078125 c 4
- 409 -215.309570312 408.473632812 -215.813476562 407.817382812 -215.813476562 c 4
- 407.557617188 -215.813476562 407.276367188 -215.734375 407 -215.55859375 c 4
+407 -215.55859375 m 0
+ 390 -204.767578125 370.431154561 -195.568034346 352 -186.90234375 c 0
+ 327.74604788 -175.498975388 301.56640625 -163.034194946 273 -152.323242188 c 0
+ 238.132722136 -139.249782307 208.5 -129.340820312 169 -118.337890625 c 0
+ 138.876953125 -109.947265625 105 -101.66796875 74 -96.5498046875 c 0
+ 51.9533366229 -92.9098550038 29.01953125 -91.6650390625 4 -91.4150390625 c 0
+ 0 -91.375 0 -90.4375 0 -84.5693359375 c 2
+ 0 89.46484375 l 2
+ 0 90.443359375 1 90.443359375 2 90.443359375 c 0
+ 28 89.46484375 53.8837890625 88.251953125 77 85.552734375 c 0
+ 116.108398438 80.986328125 151 72.3720703125 176 65.5263671875 c 0
+ 202 58.6796875 229.235351562 49.9892578125 258 38.8759765625 c 0
+ 309.296875 19.0556640625 358.147460938 -0.5 395 -23.216796875 c 0
+ 401.488456217 -27.2164383018 409 -29.7158203125 409 -36.908203125 c 0
+ 409 -37.88671875 409 -43.021484375 409 -43.9990234375 c 0
+ 409 -47.9111328125 409 -58.9736328125 409 -86.3583984375 c 0
+ 409 -125.477539062 409 -184.262695312 409 -205.778320312 c 0
+ 409 -210.668945312 409 -212.624023438 409 -214.580078125 c 0
+ 409 -215.309570312 408.473632812 -215.813476562 407.817382812 -215.813476562 c 0
+ 407.557617188 -215.813476562 407.276367188 -215.734375 407 -215.55859375 c 0
 EndSplineSet
 EndChar
 
 StartChar: mensuralOblDesc3rdBlack_smufl
-Encoding: 320 59780 251
+Encoding: 320 59780 250
 Width: 405
 VWidth: 978
 Flags: HW
@@ -7566,21 +7527,21 @@ VStem: 0 51 155 46
 LayerCount: 2
 Fore
 SplineSet
-405 -341.376953125 m 1
- 383.000349211 -320.987616047 369.190429688 -309.8203125 350.75 -293.833984375 c 0
- 304.330078125 -253.592773438 266.779296875 -226.314453125 219.25 -193.811523438 c 0
+405 -344.376953125 m 1
+ 383 -323.987304688 369.190429688 -312.5703125 350.75 -296.583984375 c 0
+ 304.330078125 -256.342773438 266.779296875 -226.314453125 219.25 -193.811523438 c 0
  191.430864728 -174.787396064 167.290946127 -160.656389825 127.25 -137.784179688 c 0
  89.0283203125 -115.951171875 45.0625 -102.342773438 0 -90.6376953125 c 1
  0 90.498046875 l 1
- 49.6748046875 77.3359375 95.263671875 61.990234375 140 40.5634765625 c 0
- 239.111328125 -6.908203125 301.41015625 -63.9892578125 390 -142.18359375 c 0
- 397.467773438 -148.774414062 405 -151.015625 405 -167.553710938 c 2
- 405 -341.376953125 l 1
+ 49.6748046875 77.3359375 113.435829428 58.2202423462 157 35 c 0
+ 245.654941479 -12.2541815743 290.40631331 -46.6449790532 379 -124.834960938 c 0
+ 386.467773438 -131.42578125 405 -151.015625 405 -167.553710938 c 2
+ 405 -344.376953125 l 1
 EndSplineSet
 EndChar
 
 StartChar: oblDesc2ndWB_smufl
-Encoding: 330 59778 252
+Encoding: 330 59778 251
 Width: 372
 VWidth: 909
 Flags: HW
@@ -7629,7 +7590,7 @@ EndSplineSet
 EndChar
 
 StartChar: NameMe.341
-Encoding: 341 -1 253
+Encoding: 341 -1 252
 Width: 36
 Flags: HW
 VStem: 0.99 41.58 126.72 41.58
@@ -7654,7 +7615,7 @@ EndSplineSet
 EndChar
 
 StartChar: mensuralRestMinima_smufl
-Encoding: 342 59893 254
+Encoding: 342 59893 253
 Width: 36
 VWidth: 1125
 Flags: HW
@@ -7682,7 +7643,7 @@ EndSplineSet
 EndChar
 
 StartChar: mensuralRestSemibrevis_
-Encoding: 343 59892 255
+Encoding: 343 59892 254
 Width: 36
 VWidth: 1125
 Flags: HW
@@ -7709,7 +7670,7 @@ EndSplineSet
 EndChar
 
 StartChar: mensuralRestBrevis_smufl
-Encoding: 344 59891 256
+Encoding: 344 59891 255
 Width: 34
 Flags: HW
 HStem: -249 27 -178 102 76 102 222 27
@@ -7742,7 +7703,7 @@ EndSplineSet
 EndChar
 
 StartChar: mensRestLongaImperfecta_smufl
-Encoding: 345 59890 257
+Encoding: 345 59890 256
 Width: 27
 VWidth: 750
 Flags: HW
@@ -7776,7 +7737,7 @@ EndSplineSet
 EndChar
 
 StartChar: mensuralRest3Spaces_orig
-Encoding: 346 -1 258
+Encoding: 346 -1 257
 Width: 27
 Flags: HW
 HStem: 45 31 159 78
@@ -7807,7 +7768,7 @@ EndSplineSet
 EndChar
 
 StartChar: mensuralRestLongaPerfecta
-Encoding: 347 59889 259
+Encoding: 347 59889 258
 Width: 24
 VWidth: 500
 Flags: HW
@@ -7835,7 +7796,7 @@ EndSplineSet
 EndChar
 
 StartChar: mensuralRestMaxima_smufl
-Encoding: 348 59888 260
+Encoding: 348 59888 259
 Width: 168
 VWidth: 500
 Flags: HW
@@ -7843,12 +7804,12 @@ HStem: -753 20 -494 26
 VStem: 9.108 125.488 257.048 83.996
 LayerCount: 2
 Fore
-Refer: 259 59889 N 1 0 0 1 131.1 0 2
-Refer: 259 59889 N 1 0 0 1 0 0 2
+Refer: 258 59889 N 1 0 0 1 131.1 0 2
+Refer: 258 59889 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: verticalBar5Spaces_orig
-Encoding: 349 -1 261
+Encoding: 349 -1 260
 Width: 25
 Flags: HW
 HStem: 174 34
@@ -7878,7 +7839,7 @@ EndSplineSet
 EndChar
 
 StartChar: mensuralRestSemiminima_smufl
-Encoding: 350 59894 262
+Encoding: 350 59894 261
 Width: 97
 VWidth: 800
 Flags: HW
@@ -7903,7 +7864,7 @@ EndSplineSet
 EndChar
 
 StartChar: mensuralRestFusa_smufl
-Encoding: 351 59895 263
+Encoding: 351 59895 262
 Width: 98
 VWidth: 800
 Flags: HW
@@ -7928,7 +7889,7 @@ EndSplineSet
 EndChar
 
 StartChar: mensuralRestSemifusa_smufl
-Encoding: 352 59896 264
+Encoding: 352 59896 263
 Width: 97
 VWidth: 800
 Flags: HW
@@ -7961,7 +7922,7 @@ EndSplineSet
 EndChar
 
 StartChar: mensuralCombStemUpFlagRight
-Encoding: 318 59713 265
+Encoding: 318 59713 264
 Width: 89
 VWidth: 1676
 Flags: HW
@@ -8018,7 +7979,7 @@ EndSplineSet
 EndChar
 
 StartChar: oblDesc2ndBW_smufl
-Encoding: 331 -1 266
+Encoding: 331 -1 265
 Width: 372
 VWidth: 909
 Flags: HW
@@ -8068,7 +8029,7 @@ EndSplineSet
 EndChar
 
 StartChar: mensuralStemOneflagRight
-Encoding: 354 -1 267
+Encoding: 354 -1 266
 Width: 92
 VWidth: 1676
 Flags: HW
@@ -8124,19 +8085,19 @@ EndSplineSet
 EndChar
 
 StartChar: mensuralMinimaBlack_unmerged
-Encoding: 358 -1 268
+Encoding: 358 -1 267
 Width: 169
 VWidth: 1676
 Flags: HW
 VStem: -13.2807 24.7267
 LayerCount: 2
 Fore
-Refer: 213 59709 N 1 0 0 1 0 0 2
+Refer: 212 59709 N 1 0 0 1 0 0 2
 Refer: 36 81 N 1 0 0 1 96 47.5 2
 EndChar
 
 StartChar: mensuralBrevisSlantedUpBlack
-Encoding: 133 214 269
+Encoding: 133 214 268
 AltUni2: 00f085.ffffffff.0
 Width: 170
 VWidth: 1409
@@ -8171,7 +8132,7 @@ EndSplineSet
 EndChar
 
 StartChar: mensuralBrevisSlantedDownBlack
-Encoding: 134 220 270
+Encoding: 134 220 269
 AltUni2: 00f086.ffffffff.0
 Width: 170
 VWidth: 1409
@@ -8207,7 +8168,7 @@ EndSplineSet
 EndChar
 
 StartChar: plicaLongaAscBlack_orig
-Encoding: 274 63248 271
+Encoding: 274 63248 270
 Width: 161
 VWidth: 1500
 Flags: HW
@@ -8252,7 +8213,7 @@ EndSplineSet
 EndChar
 
 StartChar: plicaLongaDescBlack_orig
-Encoding: 275 63249 272
+Encoding: 275 63249 271
 Width: 162
 VWidth: 1500
 Flags: HW
@@ -8296,7 +8257,7 @@ EndSplineSet
 EndChar
 
 StartChar: plicaBrevisAscBlack_orig
-Encoding: 276 63250 273
+Encoding: 276 63250 272
 Width: 161
 VWidth: 1500
 Flags: HW
@@ -8336,7 +8297,7 @@ EndSplineSet
 EndChar
 
 StartChar: plicaBrevisDescBlack_orig
-Encoding: 277 63251 274
+Encoding: 277 63251 273
 Width: 161
 VWidth: 1500
 Flags: HW
@@ -8375,6 +8336,219 @@ SplineSet
  -0.0029296875 -358.65625 -0.0029296875 -257.416992188 -0.0029296875 -159.581054688 c 2
  -0.0029296875 -158.005859375 l 2
  -0.0029296875 -131.768764143 -0.0285268691371 -106.600219196 -0.0285268691371 -82.2121226124 c 0
+EndSplineSet
+EndChar
+
+StartChar: mensuralCombStemUp_orig
+Encoding: 304 59710 274
+Width: 9
+VWidth: 1676
+Flags: W
+VStem: -334.6 18.2 -256.2 29.4
+LayerCount: 2
+Fore
+SplineSet
+-0.0166015625 1.298828125 m 1
+ -0.0107421875 2.8955078125 -0.0048828125 4.640625 0 6.5 c 0
+ 0.041015625 21.080078125 0.060546875 42.75 0.060546875 56.0849609375 c 0
+ 0.060546875 239.475585938 -3.1689453125 468.249023438 -3.5 565.75 c 0
+ -3.5087890625 568.340820312 -5.404296875 574.909179688 -5.404296875 577.446289062 c 0
+ -5.404296875 586.40625 -1.8740234375 587.5 6.5 587.5 c 0
+ 10.0322265625 587.5 10.4794921875 586.40625 13.6337890625 584.626953125 c 0
+ 17.494140625 582.44921875 19 581.528320312 19 575 c 0
+ 19 574.724609375 18.4609375 568.176757812 18.4580078125 567.8828125 c 0
+ 16.3525390625 379.870117188 15.2822265625 196.385742188 15.0439453125 6.5 c 0
+ 15.0419921875 4.8330078125 15.0380859375 3.166015625 15.0380859375 1.5 c 0
+ 15.037109375 -2.1552734375 10.6650390625 -4.501953125 6.6328125 -4.501953125 c 0
+ 3.1845703125 -4.501953125 -0.015625 -2.78515625 -0.0166015625 1.298828125 c 1
+EndSplineSet
+EndChar
+
+StartChar: mensuralCombStemDown_orig
+Encoding: 305 59711 275
+Width: 12
+VWidth: 1676
+Flags: W
+VStem: 316.4 18.2 226.8 29.4
+LayerCount: 2
+Fore
+SplineSet
+15.0166015625 2.201171875 m 1
+ 15.0107421875 0.6044921875 15.0048828125 -1.140625 15 -3 c 0
+ 14.958984375 -17.580078125 14.939453125 -39.25 14.939453125 -52.5849609375 c 0
+ 14.939453125 -235.975585938 18.1689453125 -468.249023438 18.5 -565.75 c 0
+ 18.5087890625 -568.340820312 20.404296875 -574.909179688 20.404296875 -577.446289062 c 0
+ 20.404296875 -586.40625 16.8740234375 -587.5 8.5 -587.5 c 0
+ 4.9677734375 -587.5 4.5205078125 -586.40625 1.3662109375 -584.626953125 c 0
+ -2.494140625 -582.44921875 -4 -581.528320312 -4 -575 c 0
+ -4 -574.724609375 -3.4609375 -568.176757812 -3.4580078125 -567.8828125 c 0
+ -1.3525390625 -379.870117188 -0.2822265625 -192.885742188 -0.0439453125 -3 c 0
+ -0.0419921875 -1.3330078125 -0.0380859375 0.333984375 -0.0380859375 2 c 0
+ -0.037109375 5.6552734375 4.3349609375 8.001953125 8.3671875 8.001953125 c 0
+ 11.8154296875 8.001953125 15.015625 6.28515625 15.0166015625 2.201171875 c 1
+EndSplineSet
+EndChar
+
+StartChar: chantConnectingLineDesc3rd_orig
+Encoding: 332 63264 276
+Width: 5
+Flags: HW
+HStem: -50 27 203 18 224 29 385 24
+VStem: -621.633 57.8 -494.983 55.25 -382.783 226.1 -81.0333 23.8
+LayerCount: 2
+Fore
+SplineSet
+-5.8095703125 -39 m 0
+ -5.8095703125 -1 -5.8095703125 28 -5.8095703125 66 c 0
+ -5.8095703125 74 -5.8095703125 81.75 -5.8095703125 89.75 c 5
+ -4.109375 90.75 -2.41015625 90.75 0.140625 90.75 c 4
+ 1.83984375 90.75 4.390625 89.75 6.9404296875 88.75 c 5
+ 6.9404296875 79.75 6.9404296875 72 6.9404296875 64 c 0
+ 6.9404296875 25 6.9404296875 -8 6.9404296875 -47 c 0
+ 6.9404296875 -74 6.9404296875 -101 6.9404296875 -128 c 0
+ 6.9404296875 -157 6.9404296875 -188 6.9404296875 -217 c 0
+ 6.9404296875 -246 6.9404296875 -263.75 6.9404296875 -291.75 c 0
+ 6.9404296875 -302.75 6.9404296875 -313.75 6.9404296875 -323.75 c 0
+ 6.9404296875 -328.75 6.9404296875 -334.75 6.9404296875 -339.75 c 1
+ 5.240234375 -340.75 3.5400390625 -341.75 1.83984375 -341.75 c 0
+ 0.990234375 -341.75 0.140625 -341.75 -0.7099609375 -341.75 c 0
+ -2.41015625 -341.75 -4.109375 -341.75 -5.8095703125 -339.75 c 1
+ -5.8095703125 -331.75 -5.8095703125 -322.75 -5.8095703125 -314.75 c 0
+ -5.8095703125 -273.75 -5.8095703125 -247 -5.8095703125 -206 c 0
+ -5.8095703125 -187 -5.8095703125 -168 -5.8095703125 -149 c 0
+ -5.8095703125 -133 -5.8095703125 -116 -5.8095703125 -99 c 0
+ -5.8095703125 -79 -5.8095703125 -59 -5.8095703125 -39 c 0
+EndSplineSet
+EndChar
+
+StartChar: chantConnectingLineDesc4th_orig
+Encoding: 333 63265 277
+Width: 7
+Flags: HW
+HStem: -166 79 42 89
+VStem: -3 28 663 28
+LayerCount: 2
+Fore
+SplineSet
+-7 90.25 m 5
+ -4.833984375 90.623046875 -2.4619140625 91.2783203125 0.32421875 91.2783203125 c 4
+ 2.5751953125 91.2783203125 5.09765625 90.8505859375 8 89.5 c 5
+ 8 14 l 0
+ 8 -111 l 0
+ 8 -227 l 0
+ 8 -376.25 l 0
+ 8 -454.75 l 0
+ 8 -463.25 l 1
+ 6.6201171875 -465.55078125 4.109375 -467.125 1.4443359375 -467.125 c 0
+ -1.6826171875 -467.125 -5.0224609375 -464.95703125 -7 -459.25 c 1
+ -7 -451.75 l 0
+ -7 -353.25 l 0
+ -7 -201 l 0
+ -7 -79 l 0
+ -7 25 l 0
+ -7 90.25 l 5
+EndSplineSet
+EndChar
+
+StartChar: chantConnectingLineDesc5th_orig
+Encoding: 334 63266 278
+Width: 6
+Flags: HW
+HStem: -2 82 293 85
+VStem: 287 82
+LayerCount: 2
+Fore
+SplineSet
+-7 90.25 m 5
+ -6.0751953125 90.7734375 -2.6064453125 91.5341796875 0.1875 91.5341796875 c 4
+ 2.453125 91.5341796875 3.7626953125 91.283203125 7 90.25 c 5
+ 7 -590.25 l 1
+ 4.986328125 -591.038085938 2.2001953125 -591.44140625 0.1083984375 -591.44140625 c 0
+ -2.7998046875 -591.44140625 -4.0810546875 -591.272460938 -7 -589.25 c 1
+ -7 90.25 l 5
+EndSplineSet
+EndChar
+
+StartChar: chantConnectingLineAsc3rd_orig
+Encoding: 359 59838 279
+Width: 5
+VWidth: 1250
+Flags: HW
+HStem: 200 27 453 18 474 29 635 24
+VStem: -621.633 57.8 -494.983 55.25 -382.783 226.1 -81.0333 23.8
+LayerCount: 2
+Fore
+SplineSet
+-5.8095703125 211 m 0
+ -5.8095703125 249 -5.8095703125 278 -5.8095703125 316 c 0
+ -5.8095703125 324 -5.8095703125 332 -5.8095703125 340 c 1
+ -4.109375 341 -2.41015625 341 0.140625 341 c 0
+ 1.83984375 341 4.390625 340 6.9404296875 339 c 1
+ 6.9404296875 330 6.9404296875 322 6.9404296875 314 c 0
+ 6.9404296875 275 6.9404296875 242 6.9404296875 203 c 0
+ 6.9404296875 176 6.9404296875 149 6.9404296875 122 c 0
+ 6.9404296875 93 6.9404296875 62 6.9404296875 33 c 0
+ 6.9404296875 4 6.9404296875 -13.75 6.9404296875 -41.75 c 4
+ 6.9404296875 -52.75 6.9404296875 -63.75 6.9404296875 -73.75 c 4
+ 6.9404296875 -78.75 6.9404296875 -84.75 6.9404296875 -89.75 c 5
+ 5.240234375 -90.75 3.5400390625 -91.75 1.83984375 -91.75 c 4
+ 0.990234375 -91.75 0.140625 -91.75 -0.7099609375 -91.75 c 4
+ -2.41015625 -91.75 -4.109375 -91.75 -5.8095703125 -89.75 c 5
+ -5.8095703125 -81.75 -5.8095703125 -72.75 -5.8095703125 -64.75 c 4
+ -5.8095703125 -23.75 -5.8095703125 3 -5.8095703125 44 c 0
+ -5.8095703125 63 -5.8095703125 82 -5.8095703125 101 c 0
+ -5.8095703125 117 -5.8095703125 134 -5.8095703125 151 c 0
+ -5.8095703125 171 -5.8095703125 191 -5.8095703125 211 c 0
+EndSplineSet
+EndChar
+
+StartChar: chantConnectingLineAsc4th_orig
+Encoding: 360 59839 280
+Width: 7
+VWidth: 1375
+Flags: HW
+HStem: 209 79 417 89
+VStem: -3 28 663 28
+LayerCount: 2
+Fore
+SplineSet
+-7 466 m 1
+ -4.833984375 466.373046875 -2.4619140625 467.028320312 0.32421875 467.028320312 c 0
+ 2.5751953125 467.028320312 5.09765625 466.600585938 8 465.25 c 1
+ 8 389 l 0
+ 8 264 l 0
+ 8 148 l 0
+ 8 -1.25 l 0
+ 8 -79.75 l 4
+ 8 -88.25 l 5
+ 6.6201171875 -90.55078125 4.109375 -92.125 1.4443359375 -92.125 c 4
+ -1.6826171875 -92.125 -5.0224609375 -89.95703125 -7 -84.25 c 5
+ -7 -76.75 l 4
+ -7 21.75 l 0
+ -7 174 l 0
+ -7 296 l 0
+ -7 400 l 0
+ -7 466 l 1
+EndSplineSet
+EndChar
+
+StartChar: chantConnectingLineAsc5th_orig
+Encoding: 361 59840 281
+Width: 6
+VWidth: 1500
+Flags: HW
+HStem: 498 82 793 85
+VStem: 287 82
+LayerCount: 2
+Fore
+SplineSet
+-7 591.25 m 1
+ -6.0751953125 591.7734375 -2.6064453125 592.534179688 0.1875 592.534179688 c 0
+ 2.453125 592.534179688 3.7626953125 592.283203125 7 591.25 c 1
+ 7 -90.25 l 1
+ 4.986328125 -91.0380859375 2.2001953125 -91.44140625 0.1083984375 -91.44140625 c 4
+ -2.7998046875 -91.44140625 -4.0810546875 -91.2724609375 -7 -89.25 c 1
+ -7 591.25 l 1
 EndSplineSet
 EndChar
 EndChars

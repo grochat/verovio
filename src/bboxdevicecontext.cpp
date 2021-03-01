@@ -326,15 +326,17 @@ void BBoxDeviceContext::DrawRotatedText(const std::string &text, int x, int y, d
     // TODO
 }
 
-void BBoxDeviceContext::DrawMusicText(const std::wstring &text, int x, int y, bool setSmuflGlyph)
+int BBoxDeviceContext::DrawMusicText(const std::wstring &text, int x, int y, bool setSmuflGlyph)
 {
     assert(m_fontStack.top());
 
     int g_x, g_y, g_w, g_h;
     int lastCharWidth = 0;
+    int cummWidth = 0;
 
     wchar_t smuflGlyph = 0;
-    if (setSmuflGlyph && (text.length() == 1)) smuflGlyph = text.at(0);
+    if (setSmuflGlyph && (text.length() == 1))
+        smuflGlyph = text.at(0);
 
     for (unsigned int i = 0; i < text.length(); i++) {
         wchar_t c = text.at(i);
@@ -355,7 +357,9 @@ void BBoxDeviceContext::DrawMusicText(const std::wstring &text, int x, int y, bo
 
         lastCharWidth = advX * m_fontStack.top()->GetPointSize() / glyph->GetUnitsPerEm();
         x += lastCharWidth; // move x to next char
+        cummWidth += lastCharWidth;
     }
+    return cummWidth;
 }
 
 void BBoxDeviceContext::DrawSpline(int n, Point points[]) {}

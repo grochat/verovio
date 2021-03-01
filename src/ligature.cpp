@@ -227,11 +227,11 @@ int Ligature::CalcLigatureNotePos(FunctorParams *functorParams)
             }
         }
         // SB - SB
-        else if ((dur1 == DUR_1) && (dur2 == DUR_1)) {
+        else if ( dur1 == DUR_1 && dur2 == DUR_1 ) {
             m_drawingShapes.at(n1) = LIGATURE_STEM_LEFT_UP;
         }
         // SB - L (this should not happen on the first two notes, but this is an encoding problem)
-        else if ((dur1 == DUR_1) && (dur2 == DUR_LG)) {
+        else if ( dur1 == DUR_1 && dur2 == DUR_LG ) {
             if (up) {
                 m_drawingShapes.at(n2) = LIGATURE_STEM_RIGHT_DOWN;
             }
@@ -240,7 +240,7 @@ int Ligature::CalcLigatureNotePos(FunctorParams *functorParams)
             }
         }
         // SB - B (this should not happen on the first two notes, but this is an encoding problem)
-        else if ((dur1 == DUR_1) && (dur2 == DUR_BR)) {
+        else if ( dur1 == DUR_1 && dur2 == DUR_BR ) {
             if (up) {
                 // nothing to change
             }
@@ -295,7 +295,8 @@ int Ligature::CalcLigatureNotePos(FunctorParams *functorParams)
         int width = (note->GetDrawingRadius(params->m_doc, true) * 2)
             - params->m_doc->GetDrawingStemWidth(staff->m_drawingStaffSize);
         // With stacked notes, back-track the position
-        if (m_drawingShapes.at(n1 + 1) & LIGATURE_STACKED) previousRight -= width;
+        if (m_drawingShapes.at(n1 + 1) & LIGATURE_STACKED)
+            previousRight -= width;
         note->SetDrawingXRel(previousRight);
         previousRight += width;
 

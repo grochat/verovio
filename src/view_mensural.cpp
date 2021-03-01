@@ -138,6 +138,7 @@ void View::DrawMensuralNote(DeviceContext *dc, LayerElement *element, Layer *lay
                 && note->GetStemVisible() != BOOLEAN_false) {
                 DrawMensuralStem(dc, note, staff, stemDir, radius, xNote, yNote);
             }
+            dc->EndCustomGraphic();
         }
     }
 
@@ -369,7 +370,7 @@ void View::DrawMaximaToBrevis(DeviceContext *dc, int y, LayerElement *element, L
     
     bool favorGlyphs = m_doc->GetOptions()->m_useGlyphMensural.GetValue();
     FontInfo *font = m_doc->GetDrawingSmuflFont(staff->m_drawingStaffSize, false);
-    float r = font->GetWidthToHeightRatio();
+    //float r = font->GetWidthToHeightRatio();
     if ( favorGlyphs )
     {
         if ( note->FindDescendantByType(PLICA) )    //will be drawn as a plica glyph in DrawPlica
@@ -507,14 +508,82 @@ void View::DrawLigatureNote(DeviceContext *dc, LayerElement *element, Layer *lay
     /** code duplicated from View::DrawMaximaToBrevis */
     bool isMensuralBlack = (staff->m_drawingNotationType == NOTATIONTYPE_mensural_black);
     bool fillNotehead = (isMensuralBlack || note->GetColored()) && !(isMensuralBlack && note->GetColored());
-    bool oblique = ((shape & LIGATURE_OBLIQUE) || (prevShape & LIGATURE_OBLIQUE));
-    bool obliqueEnd = (prevShape & LIGATURE_OBLIQUE);
-    bool stackedEnd = (shape & LIGATURE_STACKED);
+    bool oblique = shape & LIGATURE_OBLIQUE || prevShape & LIGATURE_OBLIQUE;
+    bool obliqueEnd = prevShape & LIGATURE_OBLIQUE;
+    bool stackedEnd = shape & LIGATURE_STACKED;
 
     bool favorGlyphs = m_doc->GetOptions()->m_useGlyphMensural.GetValue();
-    if ( favorGlyphs && false)
+    if ( favorGlyphs )  // VITRY project phase II
     {
-        //TODO: VITRY project phase II
+        int interval = nextNote? nextNote->GetPitchInterface()->PitchDifferenceTo( note->GetPitchInterface() ):0;
+        int xNote = element->GetDrawingX();
+        int yNote = element->GetDrawingY();
+        int adv = element->GetDrawingXRel();
+        dc->StartCustomGraphic("notehead");
+        wchar_t code = -1;
+        int step = 0;
+        if ( shape & (LIGATURE_STEM_LEFT_UP|LIGATURE_STEM_LEFT_DOWN) )
+        {
+            wchar_t code = (shape & LIGATURE_STEM_LEFT_UP)? SMUFL_E93E_mensuralCombStemUp:SMUFL_E93F_mensuralCombStemDown;
+            step += DrawSmuflCode(dc, xNote, yNote, code, staff->m_drawingStaffSize, false);
+        }
+        code = obliqueEnd? -1:SMUFL_E952_mensuralBlackBrevis;
+        if ( oblique )
+        {
+            if ( !obliqueEnd )
+            {
+                code = SMUFL_E980_mensuralObliqueDesc2ndBlack;
+                if ( interval == -2 )
+                    code = SMUFL_E984_mensuralObliqueDesc3rdBlack;
+                else if ( interval == -3 )
+                    code = SMUFL_E988_mensuralObliqueDesc4thBlack;
+                else if ( interval == -4 )
+                    code = SMUFL_E98C_mensuralObliqueDesc5thBlack;
+            }
+            else
+            {
+                if ( nextNote )
+                    nextNote->SetDrawingXRel(note->GetDrawingXRel());
+            }
+        }
+        if ( code != -1 )
+        {
+            step += DrawSmuflCode(dc, xNote, yNote, code, staff->m_drawingStaffSize, false);
+        }
+        if ( shape & (LIGATURE_STEM_RIGHT_UP|LIGATURE_STEM_RIGHT_DOWN) )
+        {
+            code = (shape & LIGATURE_STEM_RIGHT_UP)? SMUFL_E93E_mensuralCombStemUp:SMUFL_E93F_mensuralCombStemDown;
+            step += DrawSmuflCode(dc, xNote, yNote, code, staff->m_drawingStaffSize, false);
+        }
+        if ( (!oblique || obliqueEnd) && fabs(interval) > 1 )
+        {
+            code = -1;
+            if ( interval == -4 )
+                code = SMUFL_F722_chantConnectingLineDesc5th;
+            else if ( interval == -3 )
+                code = SMUFL_F721_chantConnectingLineDesc4th;
+            else if ( interval == -2 )
+                code = SMUFL_F720_chantConnectingLineDesc3rd;
+            if ( interval == 2 )
+                code = SMUFL_E9BE_chantConnectingLineAsc3rd;
+            else if ( interval == 3 )
+                code = SMUFL_E9BF_chantConnectingLineAsc4th;
+            else if ( interval == 4 )
+                code = SMUFL_E9C0_chantConnectingLineAsc5th;
+            if ( code != -1 )
+            {
+                step += DrawSmuflCode(dc, xNote+step, yNote, code, staff->m_drawingStaffSize, false);
+            }
+        }
+        // NB:
+        // xRel is the relative position towards the parent Ligature element (not the previous note!)
+        // It is computed in functor-based CalcLigatureNotePos...
+        //int xRel = element->GetDrawingXRel();
+        adv += step;
+        if ( nextNote )
+            nextNote->SetDrawingXRel(adv);
+        //font->SetWidthToHeightRatio(r);
+        dc->EndCustomGraphic();
     }
     else
     {

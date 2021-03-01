@@ -2131,7 +2131,6 @@ a            <glyph glyph-code="E5BF" smufl-name="ornamentPrecompCadenceWithTurn
             <glyph glyph-code="E904" smufl-name="mensuralFclefPetrucci"/>
             <glyph glyph-code="E905" smufl-name="mensuralCclef"/>
             <glyph glyph-code="E906" smufl-name="chantCclef"/>
-            <glyph glyph-code="F700" smufl-name="chantCclefSloped"/>
             <!--<glyph glyph-code="E907" smufl-name="mensuralCclefPetrucciPosLowest"/>-->
             <!--<glyph glyph-code="E908" smufl-name="mensuralCclefPetrucciPosLow"/>-->
             <glyph glyph-code="E909" smufl-name="mensuralCclefPetrucciPosMiddle"/>
@@ -2235,15 +2234,21 @@ a            <glyph glyph-code="E5BF" smufl-name="ornamentPrecompCadenceWithTurn
             <range_end>U+E96F</range_end>
             <range_start>U+E950</range_start>
         </medievalAndRenaissanceIndividualNotes>
-        <medievalAndRenaissanceExtraIndividualNotes>
+        <medievalAndRenaissanceExtraMachautFontGlyphs>
+            <glyph glyph-code="F700" smufl-name="chantCclefSloped"/>
             <glyph glyph-code="F702" smufl-name="mensuralBlackFusa"/>
+            <glyph glyph-code="F705" smufl-name="medRenSharp1"/>
+            <glyph glyph-code="F706" smufl-name="medRenSharp2"/>
             <glyph glyph-code="F710" smufl-name="plicaBlackLongaAsc"/>
             <glyph glyph-code="F711" smufl-name="plicaBlackLongaDesc"/>
             <glyph glyph-code="F712" smufl-name="plicaBlackBrevisAsc"/>
             <glyph glyph-code="F713" smufl-name="plicaBlackBrevisDesc"/>
-            <range_start>U+F702</range_start>
-            <range_end>U+F713</range_end>
-        </medievalAndRenaissanceExtraIndividualNotes>
+            <glyph glyph-code="F720" smufl-name="chantConnectingLineDesc3rd"/>
+            <glyph glyph-code="F721" smufl-name="chantConnectingLineDesc4th"/>
+            <glyph glyph-code="F722" smufl-name="chantConnectingLineDesc5th"/>
+            <range_start>U+F700</range_start>
+            <range_end>U+F722</range_end>
+        </medievalAndRenaissanceExtraMachautFontGlyphs>
         <medievalAndRenaissanceObliqueForms>
             <description>Medieval and Renaissance oblique forms</description>
             <!--<glyph glyph-code="E970" smufl-name="mensuralObliqueAsc2ndBlack"/>-->
@@ -2262,19 +2267,19 @@ a            <glyph glyph-code="E5BF" smufl-name="ornamentPrecompCadenceWithTurn
             <!--<glyph glyph-code="E97D" smufl-name="mensuralObliqueAsc5thVoid"/>-->
             <!--<glyph glyph-code="E97E" smufl-name="mensuralObliqueAsc5thBlackVoid"/>-->
             <!--<glyph glyph-code="E97F" smufl-name="mensuralObliqueAsc5thWhite"/>-->
-            <!--<glyph glyph-code="E980" smufl-name="mensuralObliqueDesc2ndBlack"/>-->
+            <glyph glyph-code="E980" smufl-name="mensuralObliqueDesc2ndBlack"/>
             <!--<glyph glyph-code="E981" smufl-name="mensuralObliqueDesc2ndVoid"/>-->
             <!--<glyph glyph-code="E982" smufl-name="mensuralObliqueDesc2ndBlackVoid"/>-->
             <!--<glyph glyph-code="E983" smufl-name="mensuralObliqueDesc2ndWhite"/>-->
-            <!--<glyph glyph-code="E984" smufl-name="mensuralObliqueDesc3rdBlack"/>-->
+            <glyph glyph-code="E984" smufl-name="mensuralObliqueDesc3rdBlack"/>
             <!--<glyph glyph-code="E985" smufl-name="mensuralObliqueDesc3rdVoid"/>-->
             <!--<glyph glyph-code="E986" smufl-name="mensuralObliqueDesc3rdBlackVoid"/>-->
             <!--<glyph glyph-code="E987" smufl-name="mensuralObliqueDesc3rdWhite"/>-->
-            <!--<glyph glyph-code="E988" smufl-name="mensuralObliqueDesc4thBlack"/>-->
+            <glyph glyph-code="E988" smufl-name="mensuralObliqueDesc4thBlack"/>
             <!--<glyph glyph-code="E989" smufl-name="mensuralObliqueDesc4thVoid"/>-->
             <!--<glyph glyph-code="E98A" smufl-name="mensuralObliqueDesc4thBlackVoid"/>-->
             <!--<glyph glyph-code="E98B" smufl-name="mensuralObliqueDesc4thWhite"/>-->
-            <!--<glyph glyph-code="E98C" smufl-name="mensuralObliqueDesc5thBlack"/>-->
+            <glyph glyph-code="E98C" smufl-name="mensuralObliqueDesc5thBlack"/>
             <!--<glyph glyph-code="E98D" smufl-name="mensuralObliqueDesc5thVoid"/>-->
             <!--<glyph glyph-code="E98E" smufl-name="mensuralObliqueDesc5thBlackVoid"/>-->
             <!--<glyph glyph-code="E98F" smufl-name="mensuralObliqueDesc5thWhite"/>-->
@@ -2320,9 +2325,9 @@ a            <glyph glyph-code="E5BF" smufl-name="ornamentPrecompCadenceWithTurn
             <glyph glyph-code="E9BB" smufl-name="chantLigaturaDesc4th"/>
             <glyph glyph-code="E9BC" smufl-name="chantLigaturaDesc5th"/>
             <!--<glyph glyph-code="E9BD" smufl-name="chantConnectingLineAsc2nd"/>-->
-            <!--<glyph glyph-code="E9BE" smufl-name="chantConnectingLineAsc3rd"/>-->
-            <!--<glyph glyph-code="E9BF" smufl-name="chantConnectingLineAsc4th"/>-->
-            <!--<glyph glyph-code="E9C0" smufl-name="chantConnectingLineAsc5th"/>-->
+            <glyph glyph-code="E9BE" smufl-name="chantConnectingLineAsc3rd"/>
+            <glyph glyph-code="E9BF" smufl-name="chantConnectingLineAsc4th"/>
+            <glyph glyph-code="E9C0" smufl-name="chantConnectingLineAsc5th"/>
             <!--<glyph glyph-code="E9C1" smufl-name="chantConnectingLineAsc6th"/>-->
             <!--<glyph glyph-code="E9C2" smufl-name="chantStrophicusLiquescens2nd"/>-->
             <!--<glyph glyph-code="E9C3" smufl-name="chantStrophicusLiquescens3rd"/>-->
@@ -2351,8 +2356,6 @@ a            <glyph glyph-code="E5BF" smufl-name="ornamentPrecompCadenceWithTurn
             <glyph glyph-code="E9E0" smufl-name="medRenFlatSoftB"/>
             <!--<glyph glyph-code="E9E1" smufl-name="medRenFlatHardB"/>-->
             <glyph glyph-code="E9E2" smufl-name="medRenNatural"/>
-            <glyph glyph-code="F705" smufl-name="medRenSharp1"/>
-            <glyph glyph-code="F706" smufl-name="medRenSharp2"/>
             <!--<glyph glyph-code="E9E3" smufl-name="medRenSharpCroix"/>-->
             <!--<glyph glyph-code="E9E4" smufl-name="medRenFlatWithDot"/>-->
             <!--<glyph glyph-code="E9E5" smufl-name="medRenNaturalWithCross"/>-->

@@ -312,6 +312,66 @@
                 -0.8352
             ]
         },
+        "chantConnectingLineAsc3rd_orig": {
+            "bBoxNE": [
+                0.0278,
+                1.364
+            ],
+            "bBoxSW": [
+                -0.0232,
+                -0.367
+            ]
+        },
+        "chantConnectingLineAsc4th_orig": {
+            "bBoxNE": [
+                0.032,
+                1.8681
+            ],
+            "bBoxSW": [
+                -0.028,
+                -0.3685
+            ]
+        },
+        "chantConnectingLineAsc5th_orig": {
+            "bBoxNE": [
+                0.028,
+                2.3701
+            ],
+            "bBoxSW": [
+                -0.028,
+                -0.3658
+            ]
+        },
+        "chantConnectingLineDesc3rd_orig": {
+            "bBoxNE": [
+                0.0278,
+                0.363
+            ],
+            "bBoxSW": [
+                -0.0232,
+                -1.367
+            ]
+        },
+        "chantConnectingLineDesc4th_orig": {
+            "bBoxNE": [
+                0.032,
+                0.3651
+            ],
+            "bBoxSW": [
+                -0.028,
+                -1.8685
+            ]
+        },
+        "chantConnectingLineDesc5th_orig": {
+            "bBoxNE": [
+                0.028,
+                0.3661
+            ],
+            "bBoxSW": [
+                -0.028,
+                -2.3658
+            ]
+        },
         "chantCustosStemUpPosLow": {
             "bBoxNE": [
                 0.212,
@@ -1042,7 +1102,7 @@
                 -0.7746
             ]
         },
-        "mensuralCombStemDown_smufl": {
+        "mensuralCombStemDown_orig": {
             "bBoxNE": [
                 0.0816,
                 0.032
@@ -1070,6 +1130,16 @@
             "bBoxSW": [
                 -0.1822,
                 -0.0548
+            ]
+        },
+        "mensuralCombStemUp_orig": {
+            "bBoxNE": [
+                0.076,
+                2.35
+            ],
+            "bBoxSW": [
+                -0.0216,
+                -0.018
             ]
         },
         "mensuralCustosCheckmark_orig": {
@@ -1239,7 +1309,7 @@
             ],
             "bBoxSW": [
                 0.0,
-                -1.3655
+                -1.3775
             ]
         },
         "mensuralOblDesc4thBlack_smufl": {
@@ -1799,7 +1869,7 @@
             ],
             "bBoxSW": [
                 0.0,
-                -0.3685
+                -0.3805
             ]
         },
         "obliqueDesc3rdWhite": {
@@ -2418,7 +2488,7 @@
                 2.266
             ],
             "bBoxSW": [
-                -0.015,
+                -0.027,
                 -0.38
             ]
         },

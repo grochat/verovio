@@ -153,7 +153,7 @@ public:
     virtual void DrawText(const std::string &text, const std::wstring wtext = L"", int x = VRV_UNSET, int y = VRV_UNSET,
         int width = VRV_UNSET, int height = VRV_UNSET)
         = 0;
-    virtual void DrawMusicText(const std::wstring &text, int x, int y, bool setSmuflGlyph = false) = 0;
+    virtual int  DrawMusicText(const std::wstring &text, int x, int y, bool setSmuflGlyph = false) = 0;
     virtual void DrawSpline(int n, Point points[]) = 0;
     virtual void DrawSvgShape(int x, int y, int width, int height, pugi::xml_node svg) = 0;
     virtual void DrawBackgroundImage(int x = 0, int y = 0) = 0;

@@ -218,11 +218,12 @@ void View::DrawDot(DeviceContext *dc, int x, int y, int staffSize)
     dc->ResetBrush();
 }
 
-void View::DrawSmuflCode(DeviceContext *dc, int x, int y, wchar_t code, int staffSize, bool dimin, bool setBBGlyph)
+int View::DrawSmuflCode(DeviceContext *dc, int x, int y, wchar_t code, int staffSize, bool dimin, bool setBBGlyph)
 {
     assert(dc);
 
-    if (code == 0) return;
+    if (code == 0)
+        return 0;
 
     std::wstring str;
     str.push_back(code);
@@ -230,12 +231,12 @@ void View::DrawSmuflCode(DeviceContext *dc, int x, int y, wchar_t code, int staf
     dc->SetBrush(m_currentColour, AxSOLID);
     dc->SetFont(m_doc->GetDrawingSmuflFont(staffSize, dimin));
 
-    dc->DrawMusicText(str, ToDeviceContextX(x), ToDeviceContextY(y), setBBGlyph);
+    int adv = dc->DrawMusicText(str, ToDeviceContextX(x), ToDeviceContextY(y), setBBGlyph);
 
     dc->ResetFont();
     dc->ResetBrush();
 
-    return;
+    return adv;
 }
 
 void View::DrawSmuflLine(

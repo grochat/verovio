@@ -292,7 +292,6 @@ enum {
     SMUFL_E904_mensuralFclefPetrucci = 0xE904,
     SMUFL_E905_mensuralCclef = 0xE905,
     SMUFL_E906_chantCclef = 0xE906,
-    SMUFL_F700_chantCclefSloped = 0xF700,
     SMUFL_E909_mensuralCclefPetrucciPosMiddle = 0xE909,
     SMUFL_E910_mensuralProlation1 = 0xE910,
     SMUFL_E911_mensuralProlation2 = 0xE911,
@@ -337,11 +336,21 @@ enum {
     SMUFL_E959_mensuralBlackSemibrevisCaudata = 0xE959,
     SMUFL_E95A_mensuralBlackDragma = 0xE95A,
     SMUFL_E95B_mensuralBlackSemibrevisOblique = 0xE95B,
+    SMUFL_F700_chantCclefSloped = 0xF700,
     SMUFL_F702_mensuralBlackFusa = 0xF702,
+    SMUFL_F705_medRenSharp1 = 0xF705,
+    SMUFL_F706_medRenSharp2 = 0xF706,
     SMUFL_F710_plicaBlackLongaAsc = 0xF710,
     SMUFL_F711_plicaBlackLongaDesc = 0xF711,
     SMUFL_F712_plicaBlackBrevisAsc = 0xF712,
     SMUFL_F713_plicaBlackBrevisDesc = 0xF713,
+    SMUFL_F720_chantConnectingLineDesc3rd = 0xF720,
+    SMUFL_F721_chantConnectingLineDesc4th = 0xF721,
+    SMUFL_F722_chantConnectingLineDesc5th = 0xF722,
+    SMUFL_E980_mensuralObliqueDesc2ndBlack = 0xE980,
+    SMUFL_E984_mensuralObliqueDesc3rdBlack = 0xE984,
+    SMUFL_E988_mensuralObliqueDesc4thBlack = 0xE988,
+    SMUFL_E98C_mensuralObliqueDesc5thBlack = 0xE98C,
     SMUFL_E990_chantPunctum = 0xE990,
     SMUFL_E991_chantPunctumInclinatum = 0xE991,
     SMUFL_E996_chantPunctumVirga = 0xE996,
@@ -356,10 +365,11 @@ enum {
     SMUFL_E9BA_chantLigaturaDesc3rd = 0xE9BA,
     SMUFL_E9BB_chantLigaturaDesc4th = 0xE9BB,
     SMUFL_E9BC_chantLigaturaDesc5th = 0xE9BC,
+    SMUFL_E9BE_chantConnectingLineAsc3rd = 0xE9BE,
+    SMUFL_E9BF_chantConnectingLineAsc4th = 0xE9BF,
+    SMUFL_E9C0_chantConnectingLineAsc5th = 0xE9C0,
     SMUFL_E9E0_medRenFlatSoftB = 0xE9E0,
     SMUFL_E9E2_medRenNatural = 0xE9E2,
-    SMUFL_F705_medRenSharp1 = 0xF705,
-    SMUFL_F706_medRenSharp2 = 0xF706,
     SMUFL_E9F0_mensuralRestMaxima = 0xE9F0,
     SMUFL_E9F1_mensuralRestLongaPerfecta = 0xE9F1,
     SMUFL_E9F2_mensuralRestLongaImperfecta = 0xE9F2,
@@ -394,7 +404,7 @@ enum {
 };
 
 /** The number of glyphs for verification **/
-#define SMUFL_COUNT 369
+#define SMUFL_COUNT 379
 
 } // namespace vrv
 
