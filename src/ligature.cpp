@@ -137,7 +137,8 @@ int Ligature::CalcLigatureNotePos(FunctorParams *functorParams)
 
     bool isMensuralBlack = (staff->m_drawingNotationType == NOTATIONTYPE_mensural_black);
     bool oblique = false;
-    if ((notes->size() == 2) && this->GetForm() == LIGATUREFORM_obliqua) oblique = true;
+    if ((notes->size() == 2) && this->GetForm() == LIGATUREFORM_obliqua)
+        oblique = true;
 
     // For better clarify, we loop withing the Ligature::CalcLigatureNotePos instead of
     // implementing Note::CalcLigatureNotePos.
@@ -155,7 +156,8 @@ int Ligature::CalcLigatureNotePos(FunctorParams *functorParams)
         }
 
         // Look at the @lig attribute on the previous note
-        if (previousNote->GetLig() == LIGATUREFORM_obliqua) oblique = true;
+        if (previousNote->GetLig() == LIGATUREFORM_obliqua)
+            oblique = true;
         int dur1 = previousNote->GetActualDur();
         int dur2 = note->GetActualDur();
         // Same treatment for Mx and LG execpt for positionning, which is done above
@@ -165,7 +167,8 @@ int Ligature::CalcLigatureNotePos(FunctorParams *functorParams)
             dur1 = DUR_LG;
             isMaxima = true;
         }
-        if (dur2 == DUR_MX) dur2 = DUR_LG;
+        if (dur2 == DUR_MX)
+            dur2 = DUR_LG;
 
         int diatonicStep = note->GetDiatonicPitch() - previousNote->GetDiatonicPitch();
         bool up = (diatonicStep > 0);
@@ -255,7 +258,7 @@ int Ligature::CalcLigatureNotePos(FunctorParams *functorParams)
 
         // Blindly set the oblique shape wihout trying to deal with encoding problems
         if (oblique) {
-            m_drawingShapes.at(n1) += LIGATURE_OBLIQUE;
+            m_drawingShapes.at(n1) |= LIGATURE_OBLIQUE;
             if (n1 > 0) {
                 m_drawingShapes.at(n1 - 1) &= ~LIGATURE_OBLIQUE;
             }
@@ -270,7 +273,8 @@ int Ligature::CalcLigatureNotePos(FunctorParams *functorParams)
                 // For oblique, stack but only from a fourth, for recta, never stack them
                 stackThreshold = (m_drawingShapes.at(n1 - 1) & LIGATURE_OBLIQUE) ? 2 : -VRV_UNSET;
             }
-            if (diatonicStep > stackThreshold) m_drawingShapes.at(n2) = LIGATURE_STACKED;
+            if (diatonicStep > stackThreshold)
+                m_drawingShapes.at(n2) = LIGATURE_STACKED;
         }
 
         oblique = false;

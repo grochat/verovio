@@ -175,7 +175,7 @@
         "VirgaBlack": {
             "bBoxNE": [
                 0.7061,
-                0.372
+                0.377
             ],
             "bBoxSW": [
                 -0.008,
@@ -205,7 +205,7 @@
         "accidentalFlat": {
             "bBoxNE": [
                 0.6631,
-                0.3773
+                0.3813
             ],
             "bBoxSW": [
                 -0.016,
@@ -405,7 +405,7 @@
         "chantPunctumBlack": {
             "bBoxNE": [
                 0.684,
-                0.372
+                0.377
             ],
             "bBoxSW": [
                 -0.008,
@@ -415,7 +415,7 @@
         "clivisFinal2ndBlack": {
             "bBoxNE": [
                 0.683,
-                0.372
+                0.377
             ],
             "bBoxSW": [
                 -0.009,
@@ -525,7 +525,7 @@
         "clivisInitial1Black": {
             "bBoxNE": [
                 0.686,
-                0.372
+                0.377
             ],
             "bBoxSW": [
                 -0.0144,
@@ -545,7 +545,7 @@
         "clivisInitial2Black": {
             "bBoxNE": [
                 0.683,
-                0.372
+                0.377
             ],
             "bBoxSW": [
                 -0.0218,
@@ -565,7 +565,7 @@
         "clivisInitial3Black": {
             "bBoxNE": [
                 0.684,
-                0.372
+                0.377
             ],
             "bBoxSW": [
                 -0.0208,
@@ -585,7 +585,7 @@
         "clivisInitial4Black": {
             "bBoxNE": [
                 0.686,
-                0.372
+                0.377
             ],
             "bBoxSW": [
                 -0.0185,
@@ -605,7 +605,7 @@
         "clivisInitial5Black": {
             "bBoxNE": [
                 0.686,
-                0.372
+                0.377
             ],
             "bBoxSW": [
                 -0.0159,
@@ -625,7 +625,7 @@
         "clivisInitial6Black": {
             "bBoxNE": [
                 0.686,
-                0.372
+                0.377
             ],
             "bBoxSW": [
                 -0.017,
@@ -645,7 +645,7 @@
         "clivisInitial7Black": {
             "bBoxNE": [
                 0.686,
-                0.372
+                0.377
             ],
             "bBoxSW": [
                 -0.0153,
@@ -1035,7 +1035,7 @@
         "mensuralBlackBrevis_smufl": {
             "bBoxNE": [
                 0.684,
-                0.372
+                0.377
             ],
             "bBoxSW": [
                 -0.008,
@@ -1055,7 +1055,7 @@
         "mensuralBrevisBlack": {
             "bBoxNE": [
                 0.686,
-                0.372
+                0.377
             ],
             "bBoxSW": [
                 -0.006,
@@ -2115,7 +2115,7 @@
         "pesAnticusFinal2ndBlack": {
             "bBoxNE": [
                 0.0463,
-                0.364
+                0.369
             ],
             "bBoxSW": [
                 -0.66,
@@ -2125,7 +2125,7 @@
         "pesAnticusFinal3rdBlack": {
             "bBoxNE": [
                 0.0444,
-                0.371
+                0.376
             ],
             "bBoxSW": [
                 -0.663,
@@ -2135,7 +2135,7 @@
         "pesAnticusFinal4thBlack_": {
             "bBoxNE": [
                 0.0455,
-                0.372
+                0.377
             ],
             "bBoxSW": [
                 -0.663,
@@ -2145,7 +2145,7 @@
         "pesAnticusFinal5thBlack_": {
             "bBoxNE": [
                 0.0454,
-                0.3713
+                0.3763
             ],
             "bBoxSW": [
                 -0.664,
@@ -2155,7 +2155,7 @@
         "pesAnticusFinal6thBlack": {
             "bBoxNE": [
                 0.0454,
-                0.372
+                0.377
             ],
             "bBoxSW": [
                 -0.663,
@@ -2165,7 +2165,7 @@
         "pesAnticusFinal7thBlack": {
             "bBoxNE": [
                 0.0481,
-                0.372
+                0.377
             ],
             "bBoxSW": [
                 -0.66,
@@ -2175,7 +2175,7 @@
         "pesInitial2ndBlack": {
             "bBoxNE": [
                 0.685,
-                0.372
+                0.377
             ],
             "bBoxSW": [
                 -0.007,
@@ -2505,11 +2505,11 @@
         "stemInitialDownShort": {
             "bBoxNE": [
                 0.0491,
-                0.365
+                0.362
             ],
             "bBoxSW": [
                 -0.042,
-                -1.8893
+                -1.8923
             ]
         },
         "stemInitialUp": {
@@ -2565,7 +2565,7 @@
         "virgaShortBlack": {
             "bBoxNE": [
                 0.706,
-                0.372
+                0.377
             ],
             "bBoxSW": [
                 -0.008,
