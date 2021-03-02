@@ -1105,11 +1105,11 @@
         "mensuralCombStemDown_orig": {
             "bBoxNE": [
                 0.0816,
-                0.032
+                0.369
             ],
             "bBoxSW": [
                 -0.016,
-                -2.35
+                -2.013
             ]
         },
         "mensuralCombStemUp": {
@@ -2505,11 +2505,11 @@
         "stemInitialDownShort": {
             "bBoxNE": [
                 0.0491,
-                0.361
+                0.365
             ],
             "bBoxSW": [
                 -0.042,
-                -1.8933
+                -1.8893
             ]
         },
         "stemInitialUp": {

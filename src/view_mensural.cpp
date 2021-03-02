@@ -553,7 +553,7 @@ void View::DrawLigatureNote(DeviceContext *dc, LayerElement *element, Layer *lay
         if ( shape & (LIGATURE_STEM_RIGHT_UP|LIGATURE_STEM_RIGHT_DOWN) )
         {
             code = (shape & LIGATURE_STEM_RIGHT_UP)? SMUFL_E93E_mensuralCombStemUp:SMUFL_E93F_mensuralCombStemDown;
-            step += DrawSmuflCode(dc, xNote, yNote, code, staff->m_drawingStaffSize, false);
+            step += DrawSmuflCode(dc, xNote+step, yNote, code, staff->m_drawingStaffSize, false);
         }
         if ( (!oblique || obliqueEnd) && fabs(interval) > 1 )
         {
