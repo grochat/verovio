@@ -527,7 +527,13 @@ void View::DrawLigatureNote(DeviceContext *dc, LayerElement *element, Layer *lay
             wchar_t code = (shape & LIGATURE_STEM_LEFT_UP)? SMUFL_E93E_mensuralCombStemUp:SMUFL_E93F_mensuralCombStemDown;
             step += DrawSmuflCode(dc, xNote, yNote, code, staff->m_drawingStaffSize, false);
         }
-        code = obliqueEnd? -1:SMUFL_E952_mensuralBlackBrevis;
+        code = -1;
+        if ( !obliqueEnd )
+        {
+            code = SMUFL_E952_mensuralBlackBrevis;
+            if ( note->GetActualDur() == DUR_MX )
+                code = SMUFL_E930_mensuralNoteheadMaximaBlack;
+        }
         if ( oblique )
         {
             if ( !obliqueEnd )

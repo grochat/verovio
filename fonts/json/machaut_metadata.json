@@ -1285,11 +1285,11 @@
         "mensuralNoteheadMaxBlack_smufl": {
             "bBoxNE": [
                 1.5768,
-                0.3857
+                0.3897
             ],
             "bBoxSW": [
                 -0.0069,
-                -0.3983
+                -0.3873
             ]
         },
         "mensuralOblDesc2ndBlack_smufl": {
