@@ -210,17 +210,18 @@ int Ligature::CalcLigatureNotePos(FunctorParams *functorParams)
                 if ( oblique && n1 == 0 )
                     m_drawingShapes.at(n1) = LIGATURE_STEM_LEFT_DOWN;
             }
-            // automatically set oblique on B only at the beginning and end
-            else if ( n1 == 0 || isLastNote )
+            else
             {
-                m_drawingShapes.at(n1) = LIGATURE_OBLIQUE;
-                // make sure we previous one is not oblique
-                if (n1 > 0) {
-                    m_drawingShapes.at(n1 - 1) &= ~LIGATURE_OBLIQUE;
+                // automatically set oblique on B only at the beginning and end, under certain circumstances:
+                if ( ( n1 == 0 && !isMensuralBlack ) || isLastNote )
+                {
+                    m_drawingShapes.at(n1) = LIGATURE_OBLIQUE;
+                    // make sure we previous one is not oblique
+                    if ( n1 > 0 )
+                        m_drawingShapes.at(n1 - 1) &= ~LIGATURE_OBLIQUE;
                 }
-                else {
+                if ( n1 == 0 )
                     m_drawingShapes.at(n1) |= LIGATURE_STEM_LEFT_DOWN;
-                }
             }
         }
         // B - L
