@@ -538,13 +538,33 @@ void View::DrawLigatureNote(DeviceContext *dc, LayerElement *element, Layer *lay
         {
             if ( !obliqueEnd )
             {
-                code = SMUFL_E980_mensuralObliqueDesc2ndBlack;
-                if ( interval == -2 )
-                    code = SMUFL_E984_mensuralObliqueDesc3rdBlack;
-                else if ( interval == -3 )
-                    code = SMUFL_E988_mensuralObliqueDesc4thBlack;
-                else if ( interval == -4 )
-                    code = SMUFL_E98C_mensuralObliqueDesc5thBlack;
+                switch (interval)
+                {
+                    case -1:
+                        code = SMUFL_E980_mensuralObliqueDesc2ndBlack;
+                        break;
+                    case -2:
+                        code = SMUFL_E984_mensuralObliqueDesc3rdBlack;
+                        break;
+                    case -3:
+                        code = SMUFL_E988_mensuralObliqueDesc4thBlack;
+                        break;
+                    case -4:
+                        code = SMUFL_E98C_mensuralObliqueDesc5thBlack;
+                        break;
+                    case 1:
+                        code = SMUFL_E970_mensuralObliqueAsc2ndBlack;
+                        break;
+                    case 2:
+                        code = SMUFL_E974_mensuralObliqueAsc3rdBlack;
+                        break;
+                    case 3:
+                        code = SMUFL_E978_mensuralObliqueAsc4thBlack;
+                        break;
+                    case 4:
+                        code = SMUFL_E97C_mensuralObliqueAsc5thBlack;
+                        break;
+                }
             }
             else
             {

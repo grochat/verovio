@@ -128,7 +128,8 @@ int Ligature::CalcLigatureNotePos(FunctorParams *functorParams)
 
     const ArrayOfObjects *notes = this->GetList(this);
     assert(notes);
-    if (notes->size() < 2) return FUNCTOR_SIBLINGS;
+    if (notes->size() < 2)
+        return FUNCTOR_SIBLINGS;
 
     Note *previousNote = NULL;
     bool previousUp = false;
@@ -137,20 +138,21 @@ int Ligature::CalcLigatureNotePos(FunctorParams *functorParams)
 
     bool isMensuralBlack = (staff->m_drawingNotationType == NOTATIONTYPE_mensural_black);
     bool oblique = false;
-    if ((notes->size() == 2) && this->GetForm() == LIGATUREFORM_obliqua)
+    if ( notes->size() == 2 && this->GetForm() == LIGATUREFORM_obliqua)
         oblique = true;
 
     // For better clarify, we loop withing the Ligature::CalcLigatureNotePos instead of
     // implementing Note::CalcLigatureNotePos.
 
-    for (auto &iter : *notes) {
-
+    for (auto &iter : *notes)
+    {
         Note *note = vrv_cast<Note *>(iter);
         assert(note);
 
         m_drawingShapes.push_back(LIGATURE_DEFAULT);
 
-        if (!previousNote) {
+        if (!previousNote)
+        {
             previousNote = note;
             continue;
         }
@@ -175,22 +177,24 @@ int Ligature::CalcLigatureNotePos(FunctorParams *functorParams)
         bool isLastNote = (note == lastNote);
 
         // L - L
-        if ((dur1 == DUR_LG) && (dur2 == DUR_LG)) {
-            if (up) {
+        if ( dur1 == DUR_LG && dur2 == DUR_LG )
+        {
+            if (up)
+            {
                 m_drawingShapes.at(n1) = LIGATURE_STEM_RIGHT_DOWN;
                 m_drawingShapes.at(n2) = LIGATURE_STEM_RIGHT_DOWN;
             }
-            else {
-                // nothing to change
-            }
         }
         // L - B
-        else if ((dur1 == DUR_LG) && (dur2 == DUR_BR)) {
-            if (up) {
+        else if ( dur1 == DUR_LG && dur2 == DUR_BR )
+        {
+            if (up)
+            {
                 m_drawingShapes.at(n1) = LIGATURE_STEM_RIGHT_DOWN;
             }
             // automatically set oblique on B, but not with Mx and only at the beginning and end
-            else if (!isMaxima && ((n1 == 0) || (isLastNote))) {
+            else if (!isMaxima && (n1 == 0 || isLastNote))
+            {
                 m_drawingShapes.at(n1) = LIGATURE_OBLIQUE;
                 // make sure we previous one is not oblique
                 if (n1 > 0) {
@@ -199,12 +203,16 @@ int Ligature::CalcLigatureNotePos(FunctorParams *functorParams)
             }
         }
         // B - B
-        else if ((dur1 == DUR_BR) && (dur2 == DUR_BR)) {
-            if (up) {
-                // nothing to change
+        else if ( dur1 == DUR_BR && dur2 == DUR_BR )
+        {
+            if (up)
+            {
+                if ( oblique && n1 == 0 )
+                    m_drawingShapes.at(n1) = LIGATURE_STEM_LEFT_DOWN;
             }
             // automatically set oblique on B only at the beginning and end
-            else if ((n1 == 0) || (isLastNote)) {
+            else if ( n1 == 0 || isLastNote )
+            {
                 m_drawingShapes.at(n1) = LIGATURE_OBLIQUE;
                 // make sure we previous one is not oblique
                 if (n1 > 0) {
@@ -216,11 +224,14 @@ int Ligature::CalcLigatureNotePos(FunctorParams *functorParams)
             }
         }
         // B - L
-        else if ((dur1 == DUR_BR) && (dur2 == DUR_LG)) {
-            if (up) {
+        else if ( dur1 == DUR_BR && dur2 == DUR_LG )
+        {
+            if (up)
+            {
                 m_drawingShapes.at(n2) = LIGATURE_STEM_RIGHT_DOWN;
             }
-            else {
+            else
+            {
                 if (!isLastNote) {
                     m_drawingShapes.at(n2) = LIGATURE_STEM_RIGHT_DOWN;
                 }
@@ -230,11 +241,13 @@ int Ligature::CalcLigatureNotePos(FunctorParams *functorParams)
             }
         }
         // SB - SB
-        else if ( dur1 == DUR_1 && dur2 == DUR_1 ) {
+        else if ( dur1 == DUR_1 && dur2 == DUR_1 )
+        {
             m_drawingShapes.at(n1) = LIGATURE_STEM_LEFT_UP;
         }
         // SB - L (this should not happen on the first two notes, but this is an encoding problem)
-        else if ( dur1 == DUR_1 && dur2 == DUR_LG ) {
+        else if ( dur1 == DUR_1 && dur2 == DUR_LG )
+        {
             if (up) {
                 m_drawingShapes.at(n2) = LIGATURE_STEM_RIGHT_DOWN;
             }
@@ -243,7 +256,8 @@ int Ligature::CalcLigatureNotePos(FunctorParams *functorParams)
             }
         }
         // SB - B (this should not happen on the first two notes, but this is an encoding problem)
-        else if ( dur1 == DUR_1 && dur2 == DUR_BR ) {
+        else if ( dur1 == DUR_1 && dur2 == DUR_BR )
+        {
             if (up) {
                 // nothing to change
             }
@@ -257,7 +271,8 @@ int Ligature::CalcLigatureNotePos(FunctorParams *functorParams)
         }
 
         // Blindly set the oblique shape wihout trying to deal with encoding problems
-        if (oblique) {
+        if (oblique)
+        {
             m_drawingShapes.at(n1) |= LIGATURE_OBLIQUE;
             if (n1 > 0) {
                 m_drawingShapes.at(n1 - 1) &= ~LIGATURE_OBLIQUE;
@@ -265,7 +280,8 @@ int Ligature::CalcLigatureNotePos(FunctorParams *functorParams)
         }
 
         // With mensural back notation, stack longa going up
-        if (isLastNote && isMensuralBlack && (dur2 == DUR_LG) && up) {
+        if ( isLastNote && isMensuralBlack && dur2 == DUR_LG && up)
+        {
             // Stack only if a least a third
             int stackThreshold = 1;
             // If the previous was going down, adjust the threshold
@@ -273,7 +289,7 @@ int Ligature::CalcLigatureNotePos(FunctorParams *functorParams)
                 // For oblique, stack but only from a fourth, for recta, never stack them
                 stackThreshold = (m_drawingShapes.at(n1 - 1) & LIGATURE_OBLIQUE) ? 2 : -VRV_UNSET;
             }
-            if (diatonicStep > stackThreshold)
+            if (diatonicStep > stackThreshold && !note->HasStemDir() && !params->m_doc->GetOptions()->m_useGlyphMensural.GetValue() )
                 m_drawingShapes.at(n2) = LIGATURE_STACKED;
         }
 
@@ -290,7 +306,8 @@ int Ligature::CalcLigatureNotePos(FunctorParams *functorParams)
     previousNote = NULL;
     n1 = 0;
 
-    for (auto &iter : *notes) {
+    for (auto &iter : *notes)
+    {
 
         Note *note = vrv_cast<Note *>(iter);
         assert(note);

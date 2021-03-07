@@ -209,7 +209,7 @@
             ],
             "bBoxSW": [
                 -0.016,
-                -1.86
+                -1.864
             ]
         },
         "accidentalSharpParens": {
@@ -1109,7 +1109,7 @@
             ],
             "bBoxSW": [
                 -0.016,
-                -2.013
+                -2.273
             ]
         },
         "mensuralCombStemUp": {
@@ -1330,6 +1330,46 @@
             "bBoxSW": [
                 0.0,
                 -2.3628
+            ]
+        },
+        "mensuralObliqueAsc2ndBlack": {
+            "bBoxNE": [
+                1.636,
+                0.8618
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3633
+            ]
+        },
+        "mensuralObliqueAsc3rdBlack": {
+            "bBoxNE": [
+                1.62,
+                1.364
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3635
+            ]
+        },
+        "mensuralObliqueAsc4thBlack": {
+            "bBoxNE": [
+                2.152,
+                1.8623
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3626
+            ]
+        },
+        "mensuralObliqueAsc5thBlack": {
+            "bBoxNE": [
+                2.706,
+                2.3626
+            ],
+            "bBoxSW": [
+                0.0,
+                -0.3563
             ]
         },
         "mensuralProlation1": {

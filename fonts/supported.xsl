@@ -2251,19 +2251,19 @@ a            <glyph glyph-code="E5BF" smufl-name="ornamentPrecompCadenceWithTurn
         </medievalAndRenaissanceExtraMachautFontGlyphs>
         <medievalAndRenaissanceObliqueForms>
             <description>Medieval and Renaissance oblique forms</description>
-            <!--<glyph glyph-code="E970" smufl-name="mensuralObliqueAsc2ndBlack"/>-->
+            <glyph glyph-code="E970" smufl-name="mensuralObliqueAsc2ndBlack"/>
             <!--<glyph glyph-code="E971" smufl-name="mensuralObliqueAsc2ndVoid"/>-->
             <!--<glyph glyph-code="E972" smufl-name="mensuralObliqueAsc2ndBlackVoid"/>-->
             <!--<glyph glyph-code="E973" smufl-name="mensuralObliqueAsc2ndWhite"/>-->
-            <!--<glyph glyph-code="E974" smufl-name="mensuralObliqueAsc3rdBlack"/>-->
+            <glyph glyph-code="E974" smufl-name="mensuralObliqueAsc3rdBlack"/>
             <!--<glyph glyph-code="E975" smufl-name="mensuralObliqueAsc3rdVoid"/>-->
             <!--<glyph glyph-code="E976" smufl-name="mensuralObliqueAsc3rdBlackVoid"/>-->
             <!--<glyph glyph-code="E977" smufl-name="mensuralObliqueAsc3rdWhite"/>-->
-            <!--<glyph glyph-code="E978" smufl-name="mensuralObliqueAsc4thBlack"/>-->
+            <glyph glyph-code="E978" smufl-name="mensuralObliqueAsc4thBlack"/>
             <!--<glyph glyph-code="E979" smufl-name="mensuralObliqueAsc4thVoid"/>-->
             <!--<glyph glyph-code="E97A" smufl-name="mensuralObliqueAsc4thBlackVoid"/>-->
             <!--<glyph glyph-code="E97B" smufl-name="mensuralObliqueAsc4thWhite"/>-->
-            <!--<glyph glyph-code="E97C" smufl-name="mensuralObliqueAsc5thBlack"/>-->
+            <glyph glyph-code="E97C" smufl-name="mensuralObliqueAsc5thBlack"/>
             <!--<glyph glyph-code="E97D" smufl-name="mensuralObliqueAsc5thVoid"/>-->
             <!--<glyph glyph-code="E97E" smufl-name="mensuralObliqueAsc5thBlackVoid"/>-->
             <!--<glyph glyph-code="E97F" smufl-name="mensuralObliqueAsc5thWhite"/>-->
