@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title auth="03EnCeDousTemps-PA">03EnCeDousTemps-PA</title>
+      </titleStmt>
+      <sourceDesc>
+        <source>
+          <bibl>
+            <abbr>F-Pn_146</abbr>
+          </bibl>
+        </source>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application>
+          <name version="git-6ee86e3" isodate="2022-02-18T17:44:25+01:00">Projet Vitry, application Coussemaker</name>
+        </application>
+      </appInfo>
+    </encodingDesc>
+  </meiHead>
+  <music>
+    <body>
+      <mdiv>
+        <score>
+          <scoreDef>
+            <staffGrp>
+              <staffDef xml:id="cantus" type="fr" key.sig="0" lines="5" n="1" notationtype="mensural.black">
+                <clef xml:id="V-1" shape="C" line="3"/>
+                <label xml:id="V-2">cantus</label>
+              </staffDef>
+            </staffGrp>
+          </scoreDef>
+          <section>
+            <staff xml:id="cantusB" n="1">
+              <layer xml:id="V-3" n="1">
+                <mensur modusminor="3" tempus="2" prolatio="3" color="#8f8f8f"/>
+                <note xml:id="N-1959" dur="brevis" oct="4" pname="c">
+                  <verse xml:id="V-3109" n="1" lineid="96">
+                    <syl xml:id="V-3110" wordpos="i">tres</syl>
+                  </verse>
+                </note>
+                <ligature xml:id="V-3113">
+                  <note xml:id="N-1960" stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="4" pname="c">
+                    <verse xml:id="V-3111" n="1" lineid="96">
+                      <syl xml:id="V-3112" wordpos="i" con="u">bien</syl>
+                    </verse>
+                  </note>
+                  <note xml:id="N-1961" dur="semibrevis" oct="3" pname="b"/>
+                  <note xml:id="N-1962" dur="brevis" oct="3" pname="a">
+                    <plica dir="up" xml:id="V-3115"/>
+                  </note>
+                </ligature>
+                <ligature xml:id="V-3118" form="obliqua">
+                  <note xml:id="N-1964" stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="3" pname="a">
+                    <verse xml:id="V-3116" n="1" lineid="96">
+                      <syl xml:id="V-3117" wordpos="i" con="u">quar</syl>
+                    </verse>
+                  </note>
+                  <note xml:id="N-1965" dur="semibrevis" oct="3" pname="g"/>
+                </ligature>
+                <note xml:id="N-1966" dur="longa" dur.quality="imperfecta" oct="3" pname="b" num="3" numbase="2">
+                  <verse xml:id="V-3119" n="1" lineid="96">
+                    <syl xml:id="V-3120" wordpos="i">le</syl>
+                  </verse>
+                </note>
+                <note xml:id="N-1967" dur="brevis" oct="4" pname="c">
+                  <verse xml:id="V-3121" n="1" lineid="96">
+                    <syl xml:id="V-3122" wordpos="i" con="d">uos</syl>
+                  </verse>
+                </note>
+                <ligature xml:id="V-3125">
+                  <note xml:id="N-1968" dur="brevis" oct="4" pname="d">
+                    <verse xml:id="V-3123" n="1" lineid="96">
+                      <syl xml:id="V-3124" wordpos="t" con="u">tre</syl>
+                    </verse>
+                  </note>
+                  <note xml:id="N-1969" dur="brevis" oct="4" pname="e"/>
+                </ligature>
+                <note xml:id="N-1970" dur="brevis" oct="4" pname="d">
+                  <verse xml:id="V-3126" n="1" lineid="96">
+                    <syl xml:id="V-3127" wordpos="i" con="d">re</syl>
+                  </verse>
+                </note>
+                <note xml:id="N-1971" dur="longa" dur.quality="imperfecta" oct="4" pname="c" num="3" numbase="2">
+                  <verse xml:id="V-3128" n="1" lineid="96">
+                    <syl xml:id="V-3129" wordpos="t">cort</syl>
+                  </verse>
+                </note>
+                <rest xml:id="N-1972" dur="brevis" ploc="a" oloc="3"/>
+                <note xml:id="N-1973" dur="longa" dur.quality="imperfecta" oct="3" pname="b" num="3" numbase="2">
+                  <verse xml:id="V-3130" n="1" lineid="97">
+                    <syl xml:id="V-3131" wordpos="i" con="d">ten</syl>
+                  </verse>
+                </note>
+                <note xml:id="N-1974" dur="brevis" oct="3" pname="a">
+                  <verse xml:id="V-3132" n="1" lineid="97">
+                    <syl xml:id="V-3133" wordpos="t">drons</syl>
+                  </verse>
+                </note>
+                <note xml:id="N-1975" dur="brevis" oct="3" pname="b">
+                  <verse xml:id="V-3134" n="1" lineid="97">
+                    <syl xml:id="V-3135" wordpos="i" con="d">en</syl>
+                  </verse>
+                </note>
+                <note xml:id="N-1976" dur="brevis" oct="4" pname="c">
+                  <verse xml:id="V-3136" n="1" lineid="97">
+                    <syl xml:id="V-3137" wordpos="t">tre</syl>
+                  </verse>
+                </note>
+                <note xml:id="N-1977" dur="brevis" oct="3" pname="b">
+                  <verse xml:id="V-3138" n="1" lineid="97">
+                    <syl xml:id="V-3139" wordpos="i">nous</syl>
+                  </verse>
+                </note>
+                <ligature xml:id="V-3142">
+                  <note xml:id="N-1978" stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="3" pname="b">
+                    <verse xml:id="V-3140" n="1" lineid="97">
+                      <syl xml:id="V-3141" wordpos="i" con="d">tou</syl>
+                    </verse>
+                  </note>
+                  <note xml:id="N-1979" dur="semibrevis" oct="3" pname="a"/>
+                  <note xml:id="N-1980" dur="brevis" oct="3" pname="g">
+                    <plica dir="up" xml:id="V-3144"/>
+                  </note>
+                </ligature>
+                <sb xml:id="V-3145" type="linea"/>
+                <ligature xml:id="V-3148" form="obliqua">
+                  <note xml:id="N-1982" stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="3" pname="g">
+                    <verse xml:id="V-3146" n="1" lineid="97">
+                      <syl xml:id="V-3147" wordpos="t" con="u">tes</syl>
+                    </verse>
+                  </note>
+                  <note xml:id="N-1983" dur="semibrevis" oct="3" pname="f"/>
+                </ligature>
+                <note xml:id="N-1984" dur="longa" dur.quality="imperfecta" oct="3" pname="g" num="3" numbase="2">
+                  <plica dir="up" xml:id="V-3150"/>
+                  <verse xml:id="V-3151" n="1" lineid="97">
+                    <syl xml:id="V-3152" wordpos="i" con="u">sans</syl>
+                  </verse>
+                </note>
+                <note xml:id="N-1986" dur="brevis" oct="4" pname="c">
+                  <plica dir="down" xml:id="V-3154"/>
+                  <verse xml:id="V-3155" n="1" lineid="97">
+                    <syl xml:id="V-3156" wordpos="i" con="d">fai</syl>
+                  </verse>
+                </note>
+                <note xml:id="N-1988" dur="brevis" oct="3" pname="a">
+                  <verse xml:id="V-3157" n="1" lineid="97">
+                    <syl xml:id="V-3158" wordpos="t">re</syl>
+                  </verse>
+                </note>
+                <note xml:id="N-1989" dur="semibrevis" oct="3" pname="g">
+                  <verse xml:id="V-3159" n="1" lineid="97">
+                    <syl xml:id="V-3160" wordpos="i" con="u">nul</syl>
+                  </verse>
+                </note>
+                <note xml:id="N-1990" dur="semibrevis" oct="3" pname="f"/>
+                <note xml:id="N-1991" dur="brevis" oct="3" pname="g">
+                  <verse xml:id="V-3161" n="1" lineid="97">
+                    <syl xml:id="V-3162" wordpos="i" con="d">res</syl>
+                  </verse>
+                </note>
+                <note xml:id="N-1992" dur="longa" oct="3" pname="f">
+                  <verse xml:id="V-3163" n="1" lineid="97">
+                    <syl xml:id="V-3164" wordpos="t">sort·</syl>
+                  </verse>
+                </note>
+                <barLine form="dbl"/>
+                <note xml:id="N-1993" dur="brevis" oct="3" pname="g">
+                  <verse xml:id="V-3165" n="1" lineid="98">
+                    <syl xml:id="V-3166" wordpos="i" con="d">Iu</syl>
+                  </verse>
+                </note>
+                <note xml:id="N-1994" dur="brevis" oct="3" pname="f">
+                  <verse xml:id="V-3167" n="1" lineid="98">
+                    <syl xml:id="V-3168" wordpos="m" con="d">pi</syl>
+                  </verse>
+                </note>
+                <barLine form="dbl"/>
+              </layer>
+            </staff>
+          </section>
+        </score>
+      </mdiv>
+    </body>
+  </music>
+</mei>

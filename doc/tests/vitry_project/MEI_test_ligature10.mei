@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns="http://www.music-encoding.org/ns/mei"
+     meiversion="4.0.0">
+  <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title auth="Garison"> - Garison</title>
+         </titleStmt>
+         <sourceDesc>
+            <source>
+               <bibl>
+                  <abbr>Schrade</abbr>
+               </bibl>
+            </source>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application>
+               <name version="git-f73fed5" isodate="2020-06-01T18:39:05+02:00">Projet Vitry, application en développement</name>
+            </application>
+         </appInfo>
+      </encodingDesc>
+  </meiHead>
+  <music>
+      <body>
+         <mdiv>
+            <score>
+               <scoreDef>
+                  <staffGrp>
+                     <staffDef xml:id="motetus" type="fr" key.sig="0" lines="5" n="0" modusminor="3"
+                               tempus="3"
+                               prolatio="3"
+                               notationtype="mensural.black">
+                        <clef xml:id="V-3" shape="C" line="3"/>
+                        <label xml:id="V-4">motetus</label>
+                     </staffDef>
+                  </staffGrp>
+               </scoreDef>
+               <section>
+                  <staff xml:id="motetusB" n="0">
+                     <layer xml:id="V-604" n="1">
+                        <ligature>
+                          <note dur="brevis" oct="4" pname="c">
+                            <verse ><syl>BB</syl></verse>
+                          </note>
+                          <note dur="brevis" oct="4" pname="e"/>
+                        </ligature>
+                        <ligature>
+                          <note dur="brevis" oct="4" pname="c" lig="obliqua">
+                            <verse ><syl>BB</syl></verse>
+                          </note>
+                          <note dur="brevis" oct="4" pname="e"/>
+                        </ligature>
+                        <ligature>
+                          <note dur="longa" oct="4" pname="e"/>
+                          <note dur="brevis" oct="4" pname="c"/>
+                          <note dur="maxima" oct="4" pname="e"/>
+                          <note dur="brevis" oct="4" pname="f"/>
+                          <note dur="longa" oct="4" pname="e"/>
+                        </ligature>
+                     </layer>
+                  </staff>
+            
+               </section>
+            </score>
+         </mdiv>
+      </body>
+  </music>
+</mei>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title auth="12Lugentium-IV">12 - Lugentium siccentur oculi</title>
+      </titleStmt>
+      <sourceDesc>
+        <source>
+          <bibl>
+            <abbr>I-IV_115</abbr>
+          </bibl>
+        </source>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application>
+          <name version="git-834dd31" isodate="2021-03-07T01:48:37+01:00">Projet Vitry, application Coussemaker</name>
+        </application>
+      </appInfo>
+    </encodingDesc>
+  </meiHead>
+  <music>
+    <body>
+      <mdiv>
+        <score>
+          <scoreDef>
+            <staffGrp>
+              <staffDef xml:id="motetus" type="lat" key.sig="0" lines="5" n="2" notationtype="mensural.black">
+                <clef shape="C" line="1"/>
+                <label>motetus</label>
+              </staffDef>
+            </staffGrp>
+          </scoreDef>
+          <section>
+            <staff xml:id="motetusB" n="2">
+              <layer n="1">
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="4" pname="g"/>
+                  <note dur="semibrevis" oct="4" pname="a"/>
+                </ligature>
+                <rest dur="semibrevis" ploc="f" oloc="4"/>
+                <ligature form="obliqua">
+                  <note stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="4" pname="g"/>
+                  <note dur="semibrevis" oct="4" pname="e"/>
+                </ligature>
+                <rest dur="semibrevis" ploc="b" oloc="3"/>
+                <ligature form="obliqua">
+                  <note stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="4" pname="f">
+                    <verse n="1" lineid="49">
+                      <syl wordpos="i" con="u">q<abbr>&lt;u&gt;</abbr>os</syl>
+                    </verse>
+                  </note>
+                  <note dur="semibrevis" oct="4" pname="d"/>
+                </ligature>
+                <rest dur="semibrevis" ploc="b" oloc="3"/>
+                <note dur="semibrevis" oct="4" pname="e"/>
+                <rest dur="minima" ploc="e" oloc="4"/>
+                <rest dur="minima" ploc="e" oloc="4"/>
+                <note dur="minima" stem.dir="up" oct="4" pname="f"/>
+                <note dur="semibrevis" oct="4" pname="e">
+                  <verse n="1" lineid="49">
+                    <syl wordpos="i" con="d">te</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="4" pname="e">
+                  <verse n="1" lineid="49">
+                    <syl wordpos="m" con="d">nu</syl>
+                  </verse>
+                </note>
+                <rest dur="minima" ploc="e" oloc="4"/>
+                <rest dur="minima" ploc="e" oloc="4"/>
+                <note dur="minima" stem.dir="up" oct="4" pname="e">
+                  <verse n="1" lineid="49">
+                    <syl wordpos="t" con="u">it</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="4" pname="f"/>
+                <note dur="semibrevis" oct="4" pname="g">
+                  <verse n="1" lineid="49">
+                    <syl wordpos="i" con="d">splen</syl>
+                  </verse>
+                </note>
+                <rest dur="minima" ploc="g" oloc="4"/>
+                <rest dur="minima" ploc="g" oloc="4"/>
+                <note dur="minima" stem.dir="up" oct="4" pname="g">
+                  <verse n="1" lineid="49">
+                    <syl wordpos="m" con="d">do</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="4" pname="f"/>
+                <note dur="semibrevis" oct="4" pname="g">
+                  <verse n="1" lineid="49">
+                    <syl wordpos="t">ris</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="4" pname="a">
+                  <verse n="1" lineid="49">
+                    <syl wordpos="i" con="d">ui</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="4" pname="g"/>
+                <note dur="semibrevis" oct="4" pname="f"/>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="4" pname="e">
+                    <verse n="1" lineid="49">
+                      <syl wordpos="m" con="d">si</syl>
+                    </verse>
+                  </note>
+                  <note dur.quality="altera" num="1" numbase="2" dur="semibrevis" oct="4" pname="f"/>
+                  <note dur="brevis" oct="4" pname="g"/>
+                </ligature>
+                <note dur="semibrevis" oct="4" pname="g">
+                  <verse n="1" lineid="49">
+                    <syl wordpos="t" con="u">o</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="4" pname="f"/>
+                <note dur="semibrevis" oct="4" pname="e"/>
+                <note dur="brevis" oct="4" pname="d"/>
+                <rest dur="brevis" ploc="c" oloc="4"/>
+                <barLine form="dbl"/>
+              </layer>
+            </staff>
+          </section>
+        </score>
+      </mdiv>
+    </body>
+  </music>
+</mei>

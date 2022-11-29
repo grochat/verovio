@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title auth="01VosPastores-CMPV">1 - Vos pastores adulteri</title>
+      </titleStmt>
+      <sourceDesc>
+        <source>
+          <bibl>
+            <abbr>philippedevitry.org</abbr>
+          </bibl>
+        </source>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application>
+          <name version="git-f5c8aad" isodate="2022-02-03T17:58:51+01:00">Projet Vitry, application Coussemaker</name>
+        </application>
+      </appInfo>
+    </encodingDesc>
+  </meiHead>
+  <music>
+    <body>
+      <mdiv>
+        <score>
+          <scoreDef>
+            <staffGrp>
+              <staffDef xml:id="triplum" type="lat" key.sig="0" lines="5" n="1" notationtype="mensural.black">
+                <clef shape="C" line="4"/>
+                <label>triplum</label>
+              </staffDef>
+            </staffGrp>
+          </scoreDef>
+          <section>
+            <staff xml:id="triplumB" n="1">
+              <layer n="1">
+                <sb type="pagina"/>
+                <note dur="semibrevis" dur.quality="maior" oct="4" pname="d" num="3" numbase="2">
+                  <verse n="1" lineid="5">
+                    <syl wordpos="i" con="d">Chris</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="minor" oct="4" pname="c" num="3" numbase="1"/>
+                <note dur="semibrevis" dur.quality="maior" oct="4" pname="d" num="3" numbase="2"/>
+                <note dur="semibrevis" dur.quality="minor" oct="4" pname="e" num="3" numbase="1"/>
+                <note dur="brevis" oct="4" pname="d">
+                  <verse n="1" lineid="5">
+                    <syl wordpos="t">tus</syl>
+                  </verse>
+                </note>
+                <note stem.visible="true" stem.dir="down" stem.len="1" dur="semibrevis" oct="4" pname="d">
+                  <verse n="1" lineid="5">
+                    <syl wordpos="i" con="d">cla</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="4" pname="c">
+                  <verse n="1" lineid="5">
+                    <syl wordpos="m" con="d">mi</syl>
+                  </verse>
+                </note>
+                <dot form="div"/>
+                <note dur="semibrevis" dur.quality="maior" oct="3" pname="b" num="3" numbase="2">
+                  <verse n="1" lineid="5">
+                    <syl wordpos="t">tat</syl>
+                  </verse>
+                </note>
+                <sb type="linea"/>
+                <note dur="semibrevis" dur.quality="minor" oct="3" pname="a" num="3" numbase="1">
+                  <verse n="1" lineid="6">
+                    <syl wordpos="i" con="d">je</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="maior" oct="3" pname="b" num="3" numbase="2">
+                  <verse n="1" lineid="6">
+                    <syl wordpos="m" con="d">ju</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="minor" oct="3" pname="b" num="3" numbase="1">
+                  <verse n="1" lineid="6">
+                    <syl wordpos="t">nis</syl>
+                  </verse>
+                </note>
+                <dot form="div"/>
+                <note stem.visible="true" stem.dir="down" stem.len="1" dur="semibrevis" oct="4" pname="c">
+                  <verse n="1" lineid="6">
+                    <syl wordpos="i" con="d">ver</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="4" pname="c">
+                  <verse n="1" lineid="6">
+                    <syl wordpos="t">bo</syl>
+                  </verse>
+                </note>
+                <dot form="div"/>
+                <note stem.visible="true" stem.dir="down" stem.len="1" dur="semibrevis" oct="4" pname="c">
+                  <verse n="1" lineid="6">
+                    <syl wordpos="i" con="d">po</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="3" pname="a">
+                  <verse n="1" lineid="6">
+                    <syl wordpos="m" con="d">pu</syl>
+                  </verse>
+                </note>
+                <note dur="longa" oct="3" pname="b">
+                  <verse n="1" lineid="6">
+                    <syl wordpos="t">lis.</syl>
+                  </verse>
+                </note>
+                <rest dur="longa" color="#7c0707"/>
+                <note dur="semibrevis" dur.quality="maior" oct="3" pname="a" num="3" numbase="2">
+                  <verse n="1" lineid="7">
+                    <syl wordpos="i" con="d">Cla</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="minor" oct="3" pname="g" num="3" numbase="1"/>
+                <note dur="semibrevis" dur.quality="maior" oct="3" pname="a" num="3" numbase="2"/>
+                <note dur="semibrevis" dur.quality="minor" oct="3" pname="f" num="3" numbase="1"/>
+                <accid ploc="g" oloc="3" accid="s"/>
+                <note dur="brevis" oct="3" pname="g">
+                  <plica dir="up"/>
+                  <verse n="1" lineid="7">
+                    <syl wordpos="t" con="u">mat</syl>
+                  </verse>
+                </note>
+                <note dur="brevis" oct="3" pname="g">
+                  <verse n="1" lineid="7">
+                    <syl wordpos="i">jam</syl>
+                  </verse>
+                </note>
+                <sb type="linea"/>
+                <note stem.visible="true" stem.dir="down" stem.len="1" dur="semibrevis" oct="3" pname="a">
+                  <verse n="1" lineid="7">
+                    <syl wordpos="i" con="d">rau</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="3" pname="a">
+                  <verse n="1" lineid="7">
+                    <syl wordpos="t">cis</syl>
+                  </verse>
+                </note>
+                <dot form="div"/>
+                <note stem.visible="true" stem.dir="down" stem.len="1" dur="semibrevis" oct="4" pname="d">
+                  <verse n="1" lineid="7">
+                    <syl wordpos="i" con="d">fau</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="maior" oct="4" pname="c" num="3" numbase="2">
+                  <verse n="1" lineid="7">
+                    <syl wordpos="m" con="d">ci</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="minor" oct="3" pname="b" num="3" numbase="1"/>
+                <dot form="div"/>
+                <note dur="semibrevis" dur.quality="maior" oct="3" pname="a" num="3" numbase="2">
+                  <verse n="1" lineid="7">
+                    <syl wordpos="t">bus:</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="minor" oct="3" pname="a" num="3" numbase="1">
+                  <verse n="1" lineid="8">
+                    <syl wordpos="i">Ad</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="maior" oct="3" pname="a" num="3" numbase="2">
+                  <verse n="1" lineid="8">
+                    <syl wordpos="i">cor</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="minor" oct="3" pname="b" num="3" numbase="1">
+                  <verse n="1" lineid="8">
+                    <syl wordpos="i" con="d">re</syl>
+                  </verse>
+                </note>
+                <dot form="div"/>
+                <note stem.visible="true" stem.dir="down" stem.len="1" dur="semibrevis" oct="4" pname="c">
+                  <verse n="1" lineid="8">
+                    <syl wordpos="m" con="d">di</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="4" pname="c">
+                  <verse n="1" lineid="8">
+                    <syl wordpos="t">te</syl>
+                  </verse>
+                </note>
+                <note dur="brevis" oct="4" pname="c">
+                  <verse n="1" lineid="8">
+                    <syl wordpos="i" con="d">fi</syl>
+                  </verse>
+                </note>
+                <note stem.visible="true" stem.dir="down" stem.len="1" dur="semibrevis" oct="4" pname="c">
+                  <verse n="1" lineid="8">
+                    <syl wordpos="m" con="d">li</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="maior" oct="3" pname="b" num="3" numbase="2"/>
+                <note dur="semibrevis" dur.quality="minor" oct="3" pname="a" num="3" numbase="1"/>
+                <note dur="longa" oct="3" pname="b">
+                  <verse n="1" lineid="8">
+                    <syl wordpos="t">i!</syl>
+                  </verse>
+                </note>
+                <rest dur="longa" color="#7c0707"/>
+                <note dur="brevis" oct="3" pname="a">
+                  <plica dir="up"/>
+                  <verse n="1" lineid="9">
+                    <syl wordpos="i" con="u">Sed</syl>
+                  </verse>
+                </note>
+                <sb type="linea"/>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="4" pname="e">
+                    <verse n="1" lineid="9">
+                      <syl wordpos="i" con="u">cum</syl>
+                    </verse>
+                  </note>
+                  <note dur="semibrevis" oct="4" pname="f" lig="obliqua"/>
+                  <note dur="brevis" oct="4" pname="e"/>
+                </ligature>
+                <note stem.visible="true" stem.dir="down" stem.len="1" dur="semibrevis" oct="4" pname="d">
+                  <verse n="1" lineid="9">
+                    <syl wordpos="i" con="d">sur</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="maior" oct="4" pname="c" num="3" numbase="2"/>
+                <note dur="semibrevis" dur.quality="minor" oct="3" pname="b" num="3" numbase="1"/>
+                <dot form="div"/>
+                <note stem.visible="true" stem.dir="down" stem.len="1" dur="semibrevis" oct="3" pname="a">
+                  <verse n="1" lineid="9">
+                    <syl wordpos="t">dis</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="3" pname="g">
+                  <verse n="1" lineid="9">
+                    <syl wordpos="i">sint</syl>
+                  </verse>
+                </note>
+                <dot form="div"/>
+                <note stem.visible="true" stem.dir="down" stem.len="1" dur="semibrevis" oct="3" pname="a">
+                  <verse n="1" lineid="9">
+                    <syl wordpos="i" con="d">au</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="3" pname="a">
+                  <verse n="1" lineid="9">
+                    <syl wordpos="m" con="d">ri</syl>
+                  </verse>
+                </note>
+                <note dur="brevis" oct="3" pname="b">
+                  <verse n="1" lineid="9">
+                    <syl wordpos="t">bus</syl>
+                  </verse>
+                </note>
+                <note dur="brevis" oct="4" pname="c">
+                  <verse n="1" lineid="10">
+                    <syl wordpos="i">et</syl>
+                  </verse>
+                </note>
+                <note stem.visible="true" stem.dir="down" stem.len="1" dur="semibrevis" oct="4" pname="d">
+                  <verse n="1" lineid="10">
+                    <syl wordpos="i" con="d">con</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="4" pname="d">
+                  <verse n="1" lineid="10">
+                    <syl wordpos="m" con="d">temp</syl>
+                  </verse>
+                </note>
+                <dot form="div"/>
+                <note dur="semibrevis" dur.quality="maior" oct="4" pname="e" num="3" numbase="2">
+                  <verse n="1" lineid="10">
+                    <syl wordpos="m" con="d">to</syl>
+                  </verse>
+                </note>
+                <barLine form="dbl"/>
+              </layer>
+            </staff>
+          </section>
+        </score>
+      </mdiv>
+    </body>
+  </music>
+</mei>

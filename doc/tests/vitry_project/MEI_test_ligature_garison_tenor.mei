@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title auth="06Garison-IV">6 - Garison selon nature</title>
+      </titleStmt>
+      <sourceDesc>
+        <source>
+          <bibl>
+            <abbr>I-IV_115</abbr>
+          </bibl>
+        </source>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application>
+          <name version="git-834dd31" isodate="2021-03-07T01:48:37+01:00">Projet Vitry, application Coussemaker</name>
+        </application>
+      </appInfo>
+    </encodingDesc>
+  </meiHead>
+  <music>
+    <body>
+      <mdiv>
+        <score>
+          <scoreDef>
+            <staffGrp>
+              <staffDef xml:id="tenor" type="non" key.sig="1f" lines="5" n="3" notationtype="mensural.black">
+                <clef shape="C" line="3"/>
+                <label>tenor</label>
+              </staffDef>
+            </staffGrp>
+          </scoreDef>
+          <section>
+            <staff xml:id="tenorB" n="3">
+              <layer n="1">
+                <sb type="linea"/>
+                <mensur sign="O" modusminor="3" tempus="3" prolatio="3"/>
+                <note dur="longa" oct="3" pname="f">
+                  <verse n="1" lineid="">
+                    <syl wordpos="" con="d">NEuma quinti toni. Tenor. </syl>
+                  </verse>
+                </note>
+                <note dur="longa" oct="3" pname="a"/>
+                <note dur="longa" oct="4" pname="c"/>
+                <rest dur="longa" color="#7c0707"/>
+                <mensur sign="C" modusminor="2" tempus="2" prolatio="3"/>
+                <note dur="longa" oct="4" pname="d" color="red" colored="true"/>
+                <note dur="longa" oct="4" pname="e" color="red" colored="true"/>
+                <note dur="longa" oct="4" pname="d" color="red" colored="true"/>
+                <note dur="longa" oct="4" pname="c" color="red" colored="true"/>
+                <rest dur="longa" color="red" colored="true"/>
+                <rest dur="longa" color="red" colored="true"/>
+                <mensur sign="O" modusminor="3" tempus="3" prolatio="3"/>
+                <note dur="longa" oct="4" pname="c"/>
+                <note dur="longa" oct="3" pname="b"/>
+                <note dur="longa" oct="3" pname="a"/>
+                <rest dur="longa" color="#7c0707"/>
+                <mensur sign="C" modusminor="2" tempus="2" prolatio="3"/>
+                <note dur="longa" oct="3" pname="g" color="red" colored="true"/>
+                <note dur="longa" oct="3" pname="a" color="red" colored="true"/>
+                <note dur="longa" oct="3" pname="g" color="red" colored="true"/>
+                <note dur="longa" oct="3" pname="f" color="red" colored="true"/>
+                <rest dur="longa" color="red" colored="true"/>
+                <rest dur="longa" color="red" colored="true"/>
+                <mensur modusminor="3" tempus="3" prolatio="3" color="#8f8f8f"/>
+                <note dur="longa" oct="3" pname="a"/>
+                <note dur="longa" oct="3" pname="b"/>
+                <note dur="longa" oct="4" pname="c"/>
+                <rest dur="longa" color="#7c0707"/>
+                <mensur sign="C" modusminor="2" tempus="2" prolatio="3"/>
+                <note dur="longa" oct="3" pname="b" color="red" colored="true"/>
+                <note dur="longa" oct="3" pname="a" color="red" colored="true"/>
+                <note dur="longa" oct="3" pname="g" color="red" colored="true"/>
+                <note dur="longa" oct="3" pname="f" color="red" colored="true"/>
+                <rest dur="longa" color="red" colored="true"/>
+                <rest dur="longa" color="red" colored="true"/>
+                <mensur modusminor="3" tempus="3" prolatio="3" color="#8f8f8f"/>
+                <note dur="longa" oct="3" pname="g"/>
+                <note dur="longa" oct="3" pname="a"/>
+                <note dur="longa" oct="3" pname="g"/>
+                <rest dur="longa" color="#7c0707"/>
+                <mensur sign="C" modusminor="2" tempus="2" prolatio="3"/>
+                <note dur="longa" oct="3" pname="a" color="red" colored="true"/>
+                <note dur="longa" oct="3" pname="g" color="red" colored="true"/>
+                <note dur="longa" oct="3" pname="g" color="red" colored="true"/>
+                <note dur="longa" oct="3" pname="f" color="red" colored="true"/>
+                <rest dur="longa" color="red" colored="true"/>
+                <rest dur="longa" color="red" colored="true"/>
+                <mensur modusminor="3" tempus="3" prolatio="3" color="#8f8f8f"/>
+                <ligature>
+                  <note stem.visible="true" stem.pos="right" stem.dir="down" dur="brevis" oct="3" pname="f"/>
+                  <note dur="brevis" oct="3" pname="a"/>
+                  <note dur="brevis" oct="4" pname="c"/>
+                </ligature>
+                <mensur sign="C" modusminor="2" tempus="2" prolatio="3"/>
+                <ligature>
+                  <note dur="brevis" oct="4" pname="d" color="red" colored="true"/>
+                  <note dur="brevis" oct="4" pname="e" color="red" colored="true"/>
+                  <note dur="brevis" oct="4" pname="d" color="red" colored="true" lig="obliqua"/>
+                  <note dur="brevis" oct="4" pname="c" color="red" colored="true"/>
+                </ligature>
+                <rest dur="longa" color="red" colored="true"/>
+                <mensur modusminor="3" tempus="3" prolatio="3" color="#8f8f8f"/>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="4" pname="c"/>
+                  <note dur="brevis" oct="3" pname="b" lig="obliqua"/>
+                  <note dur="brevis" oct="3" pname="a"/>
+                </ligature>
+                <sb type="linea"/>
+                <mensur sign="C" modusminor="2" tempus="2" prolatio="3"/>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="3" pname="g" color="red" colored="true"/>
+                  <note dur="brevis" oct="3" pname="a" color="red" colored="true"/>
+                  <note dur="brevis" oct="3" pname="g" color="red" colored="true" lig="obliqua"/>
+                  <note dur="brevis" oct="3" pname="f" color="red" colored="true"/>
+                </ligature>
+                <rest dur="longa" color="red" colored="true"/>
+                <mensur modusminor="3" tempus="3" prolatio="3" color="#8f8f8f"/>
+                <ligature>
+                  <note dur="brevis" oct="3" pname="a"/>
+                  <note dur="brevis" oct="3" pname="b"/>
+                  <note dur="brevis" oct="4" pname="c"/>
+                </ligature>
+                <mensur sign="C" modusminor="2" tempus="2" prolatio="3"/>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="3" pname="b" color="red" colored="true"/>
+                  <note dur="brevis" oct="3" pname="a" color="red" colored="true"/>
+                  <note dur="brevis" oct="3" pname="g" color="red" colored="true" lig="obliqua"/>
+                  <note dur="brevis" oct="3" pname="f" color="red" colored="true"/>
+                </ligature>
+                <rest dur="longa" color="red" colored="true"/>
+                <mensur modusminor="3" tempus="3" prolatio="3" color="#8f8f8f"/>
+                <ligature>
+                  <note dur="brevis" oct="3" pname="g"/>
+                  <note dur="brevis" oct="3" pname="a" lig="obliqua"/>
+                  <note dur="brevis" oct="3" pname="g"/>
+                </ligature>
+                <mensur modusminor="2" tempus="2" prolatio="3" color="#8f8f8f"/>
+                <ligature form="obliqua">
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="3" pname="a" color="red" colored="true"/>
+                  <note dur="brevis" oct="3" pname="g" color="red" colored="true"/>
+                </ligature>
+                <ligature form="obliqua">
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="3" pname="g" color="red" colored="true"/>
+                  <note dur="brevis" oct="3" pname="f" color="red" colored="true"/>
+                </ligature>
+                <rest dur="longa" color="red" colored="true"/>
+              </layer>
+            </staff>
+          </section>
+        </score>
+      </mdiv>
+    </body>
+  </music>
+</mei>

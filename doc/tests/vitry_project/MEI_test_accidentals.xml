@@ -1,0 +1,65 @@
+
+
+<mei xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns="http://www.music-encoding.org/ns/mei"
+     meiversion="4.0.0">
+  <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title auth="Garison"> - Garison</title>
+         </titleStmt>
+         <sourceDesc>
+            <source>
+               <bibl>
+                  <abbr>Schrade</abbr>
+               </bibl>
+            </source>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application>
+               <name version="git-f73fed5" isodate="2020-06-01T18:39:05+02:00">Projet Vitry, application en développement</name>
+            </application>
+         </appInfo>
+      </encodingDesc>
+  </meiHead>
+  <music>
+      <body>
+         <mdiv>
+            <score>
+               <scoreDef>
+                  <staffGrp>
+                     <staffDef type="fr"
+                               key.sig="0"
+                               lines="5"
+                               n="0"
+                               notationtype="mensural.black">
+                        <clef shape="C" line="3"/>
+                        <label>motetus</label>
+                     </staffDef>
+                  </staffGrp>
+               </scoreDef>
+               <section>
+                  <staff n="0">
+                     <layer n="1">
+                        <note dur="semibrevis" oct="3" pname="g"/>
+                        <note dur="semibrevis" oct="3" pname="a"/>
+                        <accid ploc="b" oloc="3" accid="f"/>
+                        <note dur="brevis" oct="3" pname="b"/>
+                        <note dur="semibrevis" oct="4" pname="c"/>
+                        <accid ploc="b" oloc="3" accid="s"/>
+                        <note dur="minima" oct="3" pname="b"/>
+                        <note dur="semibrevis" oct="4" pname="c"/>
+                        <accid ploc="b" oloc="3" accid="f"/>
+                        <note dur="minima" oct="3" pname="b"/>
+                        <note dur="longa" oct="3" pname="a" num="3" numbase="2"/>
+                     </layer>
+                  </staff>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+  </music>
+</mei>
+

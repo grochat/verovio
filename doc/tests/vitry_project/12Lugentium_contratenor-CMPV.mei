@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title auth="12Lugentium-CMPV">12 - Lugentium siccentur oculi</title>
+      </titleStmt>
+      <sourceDesc>
+        <source>
+          <bibl>
+            <abbr>philippedevitry.com</abbr>
+          </bibl>
+        </source>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application>
+          <name version="git-cca5f15" isodate="2020-11-29T17:35:10+01:00">Projet Vitry, application en développement</name>
+        </application>
+      </appInfo>
+    </encodingDesc>
+  </meiHead>
+  <music>
+    <body>
+      <mdiv>
+        <score>
+          <scoreDef>
+            <staffGrp>
+              <staffDef xml:id="contratenor" type="non" key.sig="0" lines="5" n="4" notationtype="mensural.black">
+                <clef shape="C" line="4"/>
+                <label>contratenor</label>
+              </staffDef>
+            </staffGrp>
+          </scoreDef>
+          <section>
+            <staff xml:id="contratenorB" n="4">
+              <layer n="1">
+                <mensur modusminor="2" tempus="3" prolatio="3" color="#8f8f8f"/>
+                <rest dur="2B"/>
+                <rest dur="2B"/>
+                <rest dur="2B"/>
+                <rest dur="2B"/>
+                <ligature>
+                  <note stem.visible="true" stem.pos="right" stem.dir="down" dur="longa" oct="3" pname="f"/>
+                  <note dur="brevis" oct="3" pname="a"/>
+                  <note dur="longa" oct="4" pname="c"/>
+                </ligature>
+                <rest dur="brevis" ploc="a" oloc="3"/>
+                <ligature>
+                  <note dur="brevis" oct="3" pname="f"/>
+                  <note dur="brevis" oct="4" pname="c"/>
+                </ligature>
+                <rest dur="brevis" ploc="c" oloc="4"/>
+                <ligature>
+                  <note dur="brevis" oct="4" pname="c"/>
+                  <note dur="brevis" oct="4" pname="d"/>
+                </ligature>
+                <rest dur="brevis" ploc="c" oloc="4"/>
+                <rest dur="semibrevis" ploc="b" oloc="3"/>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="4" pname="d"/>
+                  <note dur="brevis" oct="4" pname="c"/>
+                  <note dur="brevis" oct="3" pname="b" lig="obliqua"/>
+                  <note dur="brevis" dur.quality="imperfecta" oct="3" pname="a" num="3" numbase="2"/>
+                </ligature>
+                <note dur="semibrevis" oct="3" pname="f"/>
+                <dot form="div"/>
+                <note dur="semibrevis" oct="3" pname="a"/>
+                <rest dur="semibrevis" ploc="e" oloc="3"/>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="4" pname="c"/>
+                  <note dur="semibrevis" oct="4" pname="d"/>
+                </ligature>
+                <rest dur="semibrevis" ploc="b" oloc="3"/>
+                <ligature form="obliqua">
+                  <note stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="4" pname="e"/>
+                  <note dur="semibrevis" oct="4" pname="d"/>
+                </ligature>
+                <rest dur="semibrevis" ploc="b" oloc="3"/>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="3" pname="b"/>
+                  <note dur="brevis" oct="3" pname="a"/>
+                  <note dur="longa" oct="3" pname="g"/>
+                </ligature>
+                <rest dur="brevis" ploc="f" oloc="3"/>
+                <ligature>
+                  <note dur="brevis" oct="3" pname="b"/>
+                  <note dur="brevis" oct="4" pname="c"/>
+                </ligature>
+                <rest dur="brevis" ploc="c" oloc="4"/>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="4" pname="e"/>
+                  <note dur="longa" dur.quality="perfecta" oct="4" pname="d" num="2" numbase="3"/>
+                </ligature>
+                <dot form="div" color="#aaffff"/>
+                <note dur="brevis" oct="4" pname="c"/>
+                <rest dur="brevis" ploc="a" oloc="3"/>
+                <ligature>
+                  <note stem.visible="true" stem.pos="right" stem.dir="down" dur="longa" oct="3" pname="f"/>
+                  <note dur="brevis" oct="3" pname="a"/>
+                  <note dur="longa" oct="3" pname="g"/>
+                </ligature>
+                <rest dur="brevis" ploc="f" oloc="3"/>
+                <ligature>
+                  <note dur="brevis" oct="3" pname="g"/>
+                  <note dur="brevis" oct="3" pname="a"/>
+                </ligature>
+                <rest dur="brevis" ploc="a" oloc="3"/>
+                <ligature>
+                  <note dur="brevis" oct="3" pname="b"/>
+                  <note dur="brevis" oct="4" pname="c"/>
+                </ligature>
+                <rest dur="brevis" ploc="a" oloc="3"/>
+                <rest dur="semibrevis" ploc="c" oloc="3"/>
+                <ligature>
+                  <note dur="brevis" oct="3" pname="f"/>
+                  <note dur="brevis" oct="4" pname="c"/>
+                  <note dur="brevis" oct="3" pname="a" lig="obliqua"/>
+                  <note dur="brevis" dur.quality="imperfecta" oct="3" pname="g" num="3" numbase="2"/>
+                </ligature>
+                <note dur="semibrevis" oct="3" pname="f"/>
+                <dot form="div"/>
+                <note dur="semibrevis" oct="3" pname="g"/>
+                <rest dur="semibrevis" ploc="e" oloc="3"/>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="3" pname="f"/>
+                  <note dur="semibrevis" oct="3" pname="g"/>
+                </ligature>
+                <rest dur="semibrevis" ploc="e" oloc="3"/>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="3" pname="f"/>
+                  <note dur="semibrevis" oct="3" pname="g"/>
+                </ligature>
+                <rest dur="semibrevis" ploc="e" oloc="3"/>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="3" pname="a"/>
+                  <note dur="brevis" oct="3" pname="g"/>
+                  <note dur="longa" oct="3" pname="f"/>
+                </ligature>
+                <rest dur="brevis" ploc="f" oloc="3"/>
+                <ligature>
+                  <note dur="brevis" oct="3" pname="f"/>
+                  <note dur="brevis" oct="3" pname="g"/>
+                </ligature>
+                <rest dur="brevis" ploc="f" oloc="3"/>
+                <ligature>
+                  <note dur="brevis" oct="3" pname="e"/>
+                  <note stem.visible="true" stem.pos="right" stem.dir="down" dur="longa" dur.quality="perfecta" oct="3" pname="f" num="2" numbase="3"/>
+                </ligature>
+                <dot form="div" color="#aaffff"/>
+                <note dur="brevis" oct="3" pname="a"/>
+                <rest dur="brevis" ploc="a" oloc="3"/>
+                <ligature>
+                  <note dur="longa" oct="3" pname="a"/>
+                  <note dur="brevis" oct="3" pname="g"/>
+                  <note dur="longa" oct="3" pname="f"/>
+                </ligature>
+                <rest dur="brevis" ploc="f" oloc="3"/>
+                <ligature>
+                  <note dur="brevis" oct="3" pname="f"/>
+                  <note dur="brevis" oct="3" pname="g"/>
+                </ligature>
+                <rest dur="brevis" ploc="f" oloc="3"/>
+                <ligature form="obliqua">
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="3" pname="f"/>
+                  <note dur="brevis" oct="3" pname="e"/>
+                </ligature>
+                <rest dur="brevis" ploc="d" oloc="3"/>
+                <rest dur="semibrevis" ploc="e" oloc="3"/>
+                <ligature>
+                  <note dur="brevis" oct="3" pname="a"/>
+                  <note dur="brevis" oct="3" pname="b"/>
+                  <note dur="brevis" oct="3" pname="a" lig="obliqua"/>
+                  <note dur="brevis" dur.quality="imperfecta" oct="3" pname="g" num="3" numbase="2"/>
+                </ligature>
+                <note dur="semibrevis" oct="3" pname="f"/>
+                <dot form="div"/>
+                <note dur="semibrevis" oct="3" pname="g"/>
+                <rest dur="semibrevis" ploc="e" oloc="3"/>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="3" pname="g"/>
+                  <note dur="semibrevis" oct="3" pname="a"/>
+                </ligature>
+                <rest dur="semibrevis" ploc="e" oloc="3"/>
+                <ligature form="obliqua">
+                  <note stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="3" pname="a"/>
+                  <note dur="semibrevis" oct="3" pname="g"/>
+                </ligature>
+                <rest dur="semibrevis" ploc="e" oloc="3"/>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="4" pname="c"/>
+                  <note dur="brevis" oct="3" pname="g"/>
+                  <note dur="longa" oct="3" pname="f"/>
+                </ligature>
+                <rest dur="brevis" ploc="f" oloc="3"/>
+                <ligature form="obliqua">
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="4" pname="c"/>
+                  <note dur="brevis" oct="3" pname="f"/>
+                </ligature>
+                <rest dur="brevis" ploc="f" oloc="3"/>
+                <ligature>
+                  <note dur="brevis" oct="3" pname="g"/>
+                  <note stem.visible="true" stem.pos="right" stem.dir="down" dur="longa" dur.quality="perfecta" oct="3" pname="a" num="2" numbase="3"/>
+                </ligature>
+                <dot form="div" color="#aaffff"/>
+                <note dur="brevis" oct="3" pname="f"/>
+                <rest dur="brevis" ploc="f" oloc="3"/>
+                <ligature>
+                  <note dur="longa" oct="4" pname="c"/>
+                  <note dur="brevis" oct="3" pname="g"/>
+                  <note dur="longa" oct="3" pname="f"/>
+                </ligature>
+                <rest dur="brevis" ploc="f" oloc="3"/>
+                <ligature form="obliqua">
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="4" pname="c"/>
+                  <note dur="brevis" oct="3" pname="f"/>
+                </ligature>
+                <rest dur="brevis" ploc="f" oloc="3"/>
+                <ligature form="obliqua">
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="3" pname="a"/>
+                  <note dur="brevis" oct="3" pname="g"/>
+                </ligature>
+                <rest dur="brevis" ploc="f" oloc="3"/>
+                <rest dur="semibrevis" ploc="e" oloc="3"/>
+                <ligature>
+                  <note dur="brevis" oct="3" pname="g"/>
+                  <note dur="brevis" oct="3" pname="b"/>
+                  <note dur="brevis" oct="3" pname="a" lig="obliqua"/>
+                  <note dur="brevis" dur.quality="imperfecta" oct="3" pname="g" num="3" numbase="2"/>
+                </ligature>
+                <note dur="semibrevis" oct="3" pname="f"/>
+                <dot form="div"/>
+                <note dur="semibrevis" oct="3" pname="g"/>
+                <rest dur="semibrevis" ploc="e" oloc="3"/>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="3" pname="a"/>
+                  <note dur="semibrevis" oct="4" pname="c"/>
+                </ligature>
+                <rest dur="semibrevis" ploc="g" oloc="3"/>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="3" pname="g"/>
+                  <note dur="semibrevis" oct="3" pname="a"/>
+                </ligature>
+                <rest dur="semibrevis" ploc="e" oloc="3"/>
+                <ligature>
+                  <note dur="brevis" oct="3" pname="f"/>
+                  <note dur="brevis" oct="3" pname="a"/>
+                  <note dur="longa" oct="3" pname="g"/>
+                </ligature>
+                <rest dur="brevis" ploc="f" oloc="3"/>
+                <ligature form="obliqua">
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="3" pname="b"/>
+                  <note dur="brevis" oct="3" pname="a"/>
+                </ligature>
+                <rest dur="brevis" ploc="f" oloc="3"/>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="3" pname="f"/>
+                  <note dur="longa" dur.quality="perfecta" oct="3" pname="e" num="2" numbase="3"/>
+                </ligature>
+                <dot form="div" color="#aaffff"/>
+                <note dur="brevis" oct="3" pname="f"/>
+                <rest dur="brevis" ploc="f" oloc="3"/>
+                <ligature>
+                  <note dur="longa" oct="4" pname="c"/>
+                  <note dur="brevis" oct="3" pname="a"/>
+                  <note dur="longa" oct="3" pname="g"/>
+                </ligature>
+                <rest dur="brevis" ploc="f" oloc="3"/>
+                <ligature form="obliqua">
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="4" pname="d"/>
+                  <note dur="brevis" oct="4" pname="c"/>
+                </ligature>
+                <rest dur="brevis" ploc="a" oloc="3"/>
+                <ligature form="obliqua">
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="3" pname="b"/>
+                  <note dur="brevis" oct="3" pname="a"/>
+                </ligature>
+                <rest dur="brevis" ploc="a" oloc="3"/>
+                <rest dur="semibrevis" ploc="e" oloc="3"/>
+                <ligature>
+                  <note dur="brevis" oct="3" pname="a"/>
+                  <note dur="brevis" oct="4" pname="d"/>
+                  <note dur="brevis" oct="4" pname="c" lig="obliqua"/>
+                  <note dur="brevis" dur.quality="imperfecta" oct="3" pname="b" num="3" numbase="2"/>
+                </ligature>
+                <note dur="semibrevis" oct="3" pname="a"/>
+                <dot form="div"/>
+                <note dur="semibrevis" oct="4" pname="c"/>
+                <rest dur="semibrevis" ploc="g" oloc="3"/>
+                <ligature form="obliqua">
+                  <note stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="3" pname="a"/>
+                  <note dur="semibrevis" oct="3" pname="f"/>
+                </ligature>
+                <rest dur="semibrevis" ploc="c" oloc="3"/>
+                <ligature form="obliqua">
+                  <note stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="3" pname="g"/>
+                  <note dur="semibrevis" oct="3" pname="f"/>
+                </ligature>
+                <rest dur="semibrevis" ploc="c" oloc="3"/>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="3" pname="b"/>
+                  <note dur="brevis" oct="3" pname="g"/>
+                  <note dur="longa" oct="3" pname="f"/>
+                </ligature>
+                <rest dur="brevis" ploc="f" oloc="3"/>
+                <ligature>
+                  <note dur="brevis" oct="4" pname="c"/>
+                  <note dur="brevis" oct="4" pname="e"/>
+                </ligature>
+                <rest dur="brevis" ploc="c" oloc="4"/>
+                <ligature>
+                  <note dur="brevis" oct="4" pname="d"/>
+                  <note stem.visible="true" stem.pos="right" stem.dir="down" dur="longa" dur.quality="perfecta" oct="4" pname="e" num="2" numbase="3"/>
+                </ligature>
+                <dot form="div" color="#aaffff"/>
+                <note dur="brevis" oct="3" pname="a"/>
+                <rest dur="brevis" ploc="a" oloc="3"/>
+                <ligature>
+                  <note stem.visible="true" stem.pos="right" stem.dir="down" dur="longa" oct="4" pname="c"/>
+                  <note dur="brevis" oct="4" pname="d"/>
+                  <note stem.visible="true" stem.pos="right" stem.dir="down" dur="longa" oct="4" pname="f"/>
+                </ligature>
+                <rest dur="brevis" ploc="c" oloc="4"/>
+                <ligature form="obliqua">
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="4" pname="f"/>
+                  <note dur="brevis" oct="4" pname="e"/>
+                </ligature>
+                <rest dur="brevis" ploc="c" oloc="4"/>
+                <ligature form="obliqua">
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="4" pname="e"/>
+                  <note dur="brevis" oct="4" pname="c"/>
+                </ligature>
+                <rest dur="brevis" ploc="a" oloc="3"/>
+                <rest dur="semibrevis" ploc="c" oloc="3"/>
+                <ligature>
+                  <note dur="brevis" oct="3" pname="f"/>
+                  <note dur="brevis" oct="4" pname="c"/>
+                  <note dur="brevis" oct="3" pname="b" lig="obliqua"/>
+                  <note dur="brevis" dur.quality="imperfecta" oct="3" pname="a" num="3" numbase="2"/>
+                </ligature>
+                <note dur="semibrevis" oct="3" pname="g"/>
+                <dot form="div"/>
+                <note dur="semibrevis" oct="3" pname="a"/>
+                <rest dur="semibrevis" ploc="e" oloc="3"/>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="3" pname="f"/>
+                  <note dur="semibrevis" oct="4" pname="c"/>
+                </ligature>
+                <rest dur="semibrevis" ploc="g" oloc="3"/>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="3" pname="f"/>
+                  <note dur="semibrevis" oct="3" pname="g"/>
+                </ligature>
+                <rest dur="semibrevis" ploc="e" oloc="3"/>
+                <ligature>
+                  <note dur="brevis" oct="4" pname="d"/>
+                  <note dur="brevis" oct="4" pname="e"/>
+                  <note stem.visible="true" stem.pos="right" stem.dir="down" dur="longa" oct="4" pname="f"/>
+                </ligature>
+                <rest dur="brevis" ploc="c" oloc="4"/>
+                <ligature>
+                  <note dur="brevis" oct="4" pname="d"/>
+                  <note dur="brevis" oct="4" pname="e"/>
+                </ligature>
+                <rest dur="brevis" ploc="c" oloc="4"/>
+                <ligature>
+                  <note dur="brevis" oct="4" pname="d"/>
+                  <note stem.visible="true" stem.pos="right" stem.dir="down" dur="longa" dur.quality="perfecta" oct="4" pname="e" num="2" numbase="3"/>
+                </ligature>
+                <dot form="div" color="#aaffff"/>
+                <note dur="brevis" oct="4" pname="f"/>
+                <rest dur="brevis" ploc="c" oloc="4"/>
+                <ligature>
+                  <note dur="longa" oct="4" pname="c"/>
+                  <note dur="brevis" oct="3" pname="b"/>
+                  <note dur="longa" oct="3" pname="a"/>
+                </ligature>
+                <rest dur="brevis" ploc="a" oloc="3"/>
+                <ligature form="obliqua">
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="4" pname="e"/>
+                  <note dur="brevis" oct="4" pname="d"/>
+                </ligature>
+                <rest dur="brevis" ploc="c" oloc="4"/>
+                <ligature>
+                  <note dur="brevis" oct="4" pname="e"/>
+                  <note dur="brevis" oct="4" pname="f"/>
+                </ligature>
+                <rest dur="brevis" ploc="c" oloc="4"/>
+                <rest dur="semibrevis" ploc="g" oloc="3"/>
+                <ligature>
+                  <note dur="brevis" oct="4" pname="c"/>
+                  <note dur="brevis" oct="4" pname="d"/>
+                  <note dur="brevis" oct="4" pname="c" lig="obliqua"/>
+                  <note dur="brevis" dur.quality="imperfecta" oct="3" pname="b" num="3" numbase="2"/>
+                </ligature>
+                <note dur="semibrevis" oct="3" pname="a"/>
+                <dot form="div"/>
+                <note dur="semibrevis" oct="3" pname="g"/>
+                <rest dur="semibrevis" ploc="e" oloc="3"/>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="3" pname="f"/>
+                  <note dur="semibrevis" oct="4" pname="c"/>
+                </ligature>
+                <rest dur="semibrevis" ploc="g" oloc="3"/>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="3" pname="a"/>
+                  <note dur="semibrevis" oct="4" pname="c"/>
+                </ligature>
+                <rest dur="semibrevis" ploc="g" oloc="3"/>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="4" pname="f"/>
+                  <note dur="brevis" oct="4" pname="e"/>
+                  <note dur="longa" oct="4" pname="d"/>
+                </ligature>
+                <rest dur="brevis" ploc="c" oloc="4"/>
+                <ligature form="obliqua">
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="4" pname="d"/>
+                  <note dur="brevis" oct="3" pname="a"/>
+                </ligature>
+                <rest dur="brevis" ploc="a" oloc="3"/>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="4" pname="d"/>
+                  <note dur="longa" dur.quality="perfecta" oct="4" pname="c" num="2" numbase="3"/>
+                </ligature>
+                <dot form="div" color="#aaffff"/>
+                <note dur="brevis" oct="4" pname="d"/>
+                <rest dur="brevis" ploc="c" oloc="4"/>
+                <ligature>
+                  <note dur="longa" oct="4" pname="d"/>
+                  <note dur="brevis" oct="4" pname="c"/>
+                  <note dur="longa" oct="3" pname="b"/>
+                </ligature>
+                <rest dur="brevis" ploc="a" oloc="3"/>
+                <ligature>
+                  <note dur="brevis" oct="3" pname="g"/>
+                  <note dur="brevis" oct="4" pname="d"/>
+                </ligature>
+                <rest dur="brevis" ploc="c" oloc="4"/>
+                <ligature>
+                  <note dur="brevis" oct="3" pname="b"/>
+                  <note dur="longa" dur.quality="perfecta" oct="4" pname="c" num="2" numbase="3"/>
+                </ligature>
+                <barLine form="dbl"/>
+              </layer>
+            </staff>
+          </section>
+        </score>
+      </mdiv>
+    </body>
+  </music>
+</mei>

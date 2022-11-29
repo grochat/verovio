@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns="http://www.music-encoding.org/ns/mei"
+     meiversion="4.0.0">
+  <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title auth="Garison"> - Garison</title>
+         </titleStmt>
+         <sourceDesc>
+            <source>
+               <bibl>
+                  <abbr>Schrade</abbr>
+               </bibl>
+            </source>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application>
+               <name version="git-f73fed5" isodate="2020-06-01T18:39:05+02:00">Projet Vitry, application en développement</name>
+            </application>
+         </appInfo>
+      </encodingDesc>
+  </meiHead>
+  <music>
+      <body>
+         <mdiv>
+            <score>
+               <scoreDef>
+                  <staffGrp>
+                     <staffDef xml:id="motetus" type="fr" key.sig="0" lines="5" n="0" modusminor="3"
+                               tempus="3"
+                               prolatio="3"
+                               notationtype="mensural.black">
+                        <clef xml:id="V-3" shape="C" line="1"/>
+                        <label xml:id="V-4">motetus</label>
+                     </staffDef>
+              
+                  </staffGrp>
+               </scoreDef>
+               <section>
+                  <staff xml:id="motetusB" n="0">
+                     <layer n="1">
+                        <mensur modusminor="2" tempus="2" prolatio="3" color="#8f8f8f"/>
+                        <accid ploc="b" oloc="4" accid="s"/>
+                        <note dur="brevis" oct="5" pname="c">
+                          <verse n="1" lineid="31">
+                            <syl wordpos="i" con="u">In</syl>
+                          </verse>
+                        </note>
+                        <note dur="semibrevis" oct="5" pname="c"/>
+                        <note dur="semibrevis" oct="4" pname="g"/>
+                        <note dur="semibrevis" dur.quality="imperfecta" oct="4" pname="a" num="3" numbase="2"/>
+                        <note dur="minima" stem.dir="up" oct="4" pname="g"/>
+                        <note dur="semibrevis" dur.quality="imperfecta" oct="4" pname="a" num="3" numbase="2"/>
+                        <note dur="minima" stem.dir="up" oct="4" pname="b"/>
+                        <accid ploc="f" oloc="4" accid="f"/>
+                        <note dur="semibrevis" oct="4" pname="g"/>
+                        <note dur="semibrevis" oct="4" pname="e"/>
+                        <note dur="semibrevis" dur.quality="imperfecta" oct="4" pname="f" num="3" numbase="2"/>
+                        <note dur="minima" stem.dir="up" oct="4" pname="e"/>
+                        <note dur="semibrevis" dur.quality="imperfecta" oct="4" pname="f" num="3" numbase="2"/>
+                        <note dur="minima" stem.dir="up" oct="4" pname="g"/>
+                        <note dur="semibrevis" oct="4" pname="e"/>
+                        <note dur="semibrevis" oct="4" pname="d"/>
+                        <note dur="longa" oct="4" pname="c"/>
+                        <accid ploc="f" oloc="4" accid="s"/>
+                        <note dur="longa" oct="4" pname="d"/>
+                        <note dur="brevis" oct="4" pname="f"/>
+                        <note dur="semibrevis" oct="4" pname="f">
+                          <verse n="1" lineid="31">
+                            <syl wordpos="i" con="d">ar</syl>
+                          </verse>
+                        </note>
+                        <note dur="semibrevis" oct="4" pname="f">
+                          <verse n="1" lineid="31">
+                            <syl wordpos="m" con="d">bo</syl>
+                          </verse>
+                        </note>
+                        <note dur="brevis" oct="4" pname="g">
+                          <verse n="1" lineid="31">
+                            <syl wordpos="t">ris</syl>
+                          </verse>
+                        </note>
+                        <note dur="brevis" oct="5" pname="c">
+                          <verse n="1" lineid="31">
+                            <syl wordpos="i" con="u">In</syl>
+                          </verse>
+                        </note>
+                        <note dur="semibrevis" oct="5" pname="c"/>
+                        <note dur="semibrevis" oct="4" pname="g"/>
+                        <note dur="semibrevis" dur.quality="imperfecta" oct="4" pname="a" num="3" numbase="2"/>
+                        <note dur="minima" stem.dir="up" oct="4" pname="g"/>
+                        <note dur="semibrevis" dur.quality="imperfecta" oct="4" pname="a" num="3" numbase="2"/>
+                        <ligature>
+                          <note dur="brevis" stem.dir="up" oct="4" pname="b"/>
+                          <accid ploc="f" oloc="4" accid="f"/>
+                          <note dur="brevis" oct="4" pname="g"/>
+                          <note dur="brevis" oct="4" pname="e"/>
+                        </ligature>
+                        <note dur="semibrevis" dur.quality="imperfecta" oct="4" pname="f" num="3" numbase="2"/>
+                        <note dur="minima" stem.dir="up" oct="4" pname="e"/>
+                        <note dur="semibrevis" dur.quality="imperfecta" oct="4" pname="f" num="3" numbase="2"/>
+                        <note dur="minima" stem.dir="up" oct="4" pname="g"/>
+                        <note dur="semibrevis" oct="4" pname="e"/>
+                        <note dur="semibrevis" oct="4" pname="d"/>
+                        <note dur="longa" oct="4" pname="c"/>
+                        <accid ploc="f" oloc="4" accid="s"/>
+                        <note dur="longa" oct="4" pname="d"/>
+                        <note dur="brevis" oct="4" pname="f"/>
+                        <note dur="semibrevis" oct="4" pname="f">
+                          <verse n="1" lineid="31">
+                            <syl wordpos="i" con="d">ar</syl>
+                          </verse>
+                        </note>
+                        <note dur="semibrevis" oct="4" pname="f">
+                          <verse n="1" lineid="31">
+                            <syl wordpos="m" con="d">bo</syl>
+                          </verse>
+                        </note>
+                        <note dur="brevis" oct="4" pname="g">
+                          <verse n="1" lineid="31">
+                            <syl wordpos="t">ris</syl>
+                          </verse>
+                        </note>
+                        <ligature>
+                          <note dur="brevis" stem.dir="up" oct="4" pname="b">
+                            <verse n="1" lineid="37">
+                              <syl wordpos="t" con="d">Ky</syl>
+                            </verse>
+                          </note>
+                          <note dur="brevis" oct="4" pname="a"/>
+                          <note dur="brevis" oct="4" pname="g"/>
+                          <note dur="brevis" oct="4" pname="f"/>
+                        </ligature>
+                        <note dur="longa" stem.dir="up" oct="4" pname="e">
+                          <verse n="1" lineid="37">
+                            <syl wordpos="t" con="d">ri</syl>
+                          </verse>
+                        </note>
+                        <note dur="maxima" stem.dir="up" oct="4" pname="f">
+                          <verse n="1" lineid="37">
+                            <syl wordpos="t" con="d">e</syl>
+                          </verse>
+                        </note>
+                        <note dur="brevis" oct="5" pname="c">
+                          <verse n="1" lineid="31">
+                            <syl wordpos="i" con="u">In</syl>
+                          </verse>
+                        </note>
+                        <note dur="semibrevis" oct="5" pname="c"/>
+                        <note dur="semibrevis" oct="4" pname="g"/>
+                        <note dur="semibrevis" dur.quality="imperfecta" oct="4" pname="a" num="3" numbase="2"/>
+                        <note dur="minima" stem.dir="up" oct="4" pname="g"/>
+                        <note dur="semibrevis" dur.quality="imperfecta" oct="4" pname="a" num="3" numbase="2"/>
+                        <note dur="minima" stem.dir="up" oct="4" pname="b"/>
+                        <accid ploc="f" oloc="4" accid="f"/>
+                        <note dur="semibrevis" oct="4" pname="g"/>
+                        <note dur="semibrevis" oct="4" pname="e"/>
+                        <note dur="semibrevis" dur.quality="imperfecta" oct="4" pname="f" num="3" numbase="2"/>
+                        <note dur="minima" stem.dir="up" oct="4" pname="e"/>
+                        <note dur="semibrevis" dur.quality="imperfecta" oct="4" pname="f" num="3" numbase="2"/>
+                        <note dur="minima" stem.dir="up" oct="4" pname="g"/>
+                        <note dur="semibrevis" oct="4" pname="e"/>
+                        <note dur="semibrevis" oct="4" pname="d"/>
+                        <note dur="longa" oct="4" pname="c"/>
+                        <accid ploc="f" oloc="4" accid="s"/>
+                        <note dur="longa" oct="4" pname="d"/>
+                        <note dur="brevis" oct="4" pname="f"/>
+                        <note dur="semibrevis" oct="4" pname="f">
+                          <verse n="1" lineid="31">
+                            <syl wordpos="i" con="d">ar</syl>
+                          </verse>
+                        </note>
+                        <note dur="semibrevis" oct="4" pname="f">
+                          <verse n="1" lineid="31">
+                            <syl wordpos="m" con="d">bo</syl>
+                          </verse>
+                        </note>
+                        <note dur="brevis" oct="4" pname="g">
+                          <verse n="1" lineid="31">
+                            <syl wordpos="t">ris</syl>
+                          </verse>
+                        </note>
+                     </layer>
+                  </staff>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+  </music>
+</mei>

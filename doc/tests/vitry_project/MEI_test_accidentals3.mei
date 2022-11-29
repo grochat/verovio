@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title auth="06Garison-IV">Douce playsence ~ Clef change test</title>
+      </titleStmt>
+      <sourceDesc>
+        <source>
+          <bibl>
+            <abbr>I-IV_115</abbr>
+          </bibl>
+        </source>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application>
+          <name version="git-b270d85" isodate="2020-06-30T08:04:59+02:00">Projet Vitry, application en développement</name>
+        </application>
+      </appInfo>
+    </encodingDesc>
+  </meiHead>
+  <music>
+    <body>
+      <mdiv>
+        <score>
+          <scoreDef>
+            <staffGrp>
+              <staffDef xml:id="triplum" type="fr" key.sig="0" lines="5" n="1" notationtype="mensural.black">
+                <clef shape="C" line="2"/>
+                <label>triplum</label>
+              </staffDef>
+            </staffGrp>
+          </scoreDef>
+          <section>
+            <staff xml:id="triplumB" n="1">
+              <layer n="1">
+                <accid oloc="5" ploc="c" accid="s"/>
+                <note dur="semibrevis" oct="3" pname="a"/>
+                <accid oloc="4" ploc="b" accid="s"/>
+                <note dur="semibrevis" oct="3" pname="b"/>
+                <accid oloc="4" ploc="a" accid="s"/>
+                <note dur="semibrevis" oct="4" pname="c"/>
+                <accid oloc="4" ploc="g" accid="s"/>
+                <note dur="semibrevis" oct="4" pname="d"/>
+                <accid oloc="4" ploc="f" accid="s"/>
+                <note dur="semibrevis" oct="4" pname="e"/>
+                <accid oloc="4" ploc="e" accid="s"/>
+                <note dur="semibrevis" oct="4" pname="f"/>
+                <accid oloc="4" ploc="d" accid="s"/>
+                <note dur="semibrevis" oct="4" pname="g"/>
+                <accid oloc="4" ploc="c" accid="s"/>
+                <note dur="semibrevis" oct="4" pname="a"/>
+                <accid oloc="3" ploc="b" accid="s"/>
+                <note dur="semibrevis" oct="4" pname="b"/>
+                <accid oloc="3" ploc="a" accid="s"/>
+                <note dur="semibrevis" oct="5" pname="c"/>
+                <barLine form="dbl"/>
+              </layer>
+            </staff>
+          </section>
+        </score>
+      </mdiv>
+    </body>
+  </music>
+</mei>
