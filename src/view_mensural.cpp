@@ -96,7 +96,10 @@ void View::DrawMensuralNote(DeviceContext *dc, LayerElement *element, Layer *lay
             {
                 case DUR_1:
                 {
-                    code = SMUFL_E953_mensuralBlackSemibrevis;
+                    if ( note->HasStemDir() && stemDir == STEMDIRECTION_down)
+                        code = SMUFL_E959_mensuralBlackSemibrevisCaudata;
+                    else
+                        code = SMUFL_E953_mensuralBlackSemibrevis;
                     break;
                 }
                     

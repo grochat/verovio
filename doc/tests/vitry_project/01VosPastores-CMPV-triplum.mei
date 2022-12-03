@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title auth="01VosPastores-CMPV">1 - Vos pastores adulteri</title>
+      </titleStmt>
+      <sourceDesc>
+        <source>
+          <bibl>
+            <abbr>philippedevitry.org</abbr>
+          </bibl>
+        </source>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application>
+          <name version="git-4db5186" isodate="2020-07-18T23:22:38+02:00">Projet Vitry, application en développement</name>
+        </application>
+      </appInfo>
+    </encodingDesc>
+  </meiHead>
+  <music>
+    <body>
+      <mdiv>
+        <score>
+          <scoreDef>
+            <staffGrp>
+              <staffDef xml:id="triplum" type="lat" key.sig="0" lines="5" n="1" notationtype="mensural.black">
+                <clef shape="C" line="3"/>
+                <label>triplum</label>
+              </staffDef>
+            </staffGrp>
+          </scoreDef>
+          <section>
+            <staff xml:id="triplumB" n="1">
+              <layer n="1">
+                <mensur modusminor="3" tempus="2" prolatio="3" color="#8f8f8f"/>
+                <note dur="brevis" oct="4" pname="c">
+                  <verse n="1" lineid="0">
+                    <syl wordpos="i" con="d">Or</syl>
+                  </verse>
+                </note>
+                <note dur="brevis" oct="4" pname="c">
+                  <verse n="1" lineid="0">
+                    <syl wordpos="t" con="u">bis</syl>
+                  </verse>
+                </note>
+                <note dur="fusa" stem.dir="up" color="#8f8f8f" dur.quality="imperfecta" oct="4" pname="d" num="1" numbase="0"/>
+                <note dur="semibrevis" oct="4" pname="c">
+                  <verse n="1" lineid="0">
+                    <syl wordpos="i" con="d">or</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="imperfecta" oct="3" pname="b" num="3" numbase="2"/>
+                <note dur="minima" stem.dir="up" oct="3" pname="a"/>
+                <accid ploc="g" oloc="3" accid="s"/>
+                <note dur="brevis" oct="3" pname="g">
+                  <verse n="1" lineid="0">
+                    <syl wordpos="m" con="d">ba</syl>
+                  </verse>
+                </note>
+                <note dur="fusa" stem.dir="up" color="#8f8f8f" dur.quality="imperfecta" oct="3" pname="a" num="1" numbase="0"/>
+                <note dur="brevis" oct="3" pname="g">
+                  <verse n="1" lineid="0">
+                    <syl wordpos="t">tus</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="3" pname="f">
+                  <verse n="1" lineid="0">
+                    <syl wordpos="i" con="d">o</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="3" pname="g">
+                  <verse n="1" lineid="0">
+                    <syl wordpos="m" con="d">cu</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="imperfecta" oct="3" pname="a" num="3" numbase="2">
+                  <verse n="1" lineid="0">
+                    <syl wordpos="t">lus</syl>
+                  </verse>
+                </note>
+                <note dur="minima" stem.dir="up" oct="3" pname="g">
+                  <verse n="1" lineid="1">
+                    <syl wordpos="i">In</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="imperfecta" oct="3" pname="a" num="3" numbase="2">
+                  <verse n="1" lineid="1">
+                    <syl wordpos="i" con="d">di</syl>
+                  </verse>
+                </note>
+                <note dur="minima" stem.dir="up" oct="3" pname="b">
+                  <verse n="1" lineid="1">
+                    <syl wordpos="t">e</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="4" pname="c">
+                  <verse n="1" lineid="1">
+                    <syl wordpos="i" con="d">ce</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="4" pname="c">
+                  <verse n="1" lineid="1">
+                    <syl wordpos="t">tus</syl>
+                  </verse>
+                </note>
+                <dot form="div"/>
+                <note dur="semibrevis" oct="4" pname="c">
+                  <verse n="1" lineid="1">
+                    <syl wordpos="i" con="d">res</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="imperfecta" oct="3" pname="b" num="3" numbase="2">
+                  <verse n="1" lineid="1">
+                    <syl wordpos="m" con="d">pi</syl>
+                  </verse>
+                </note>
+                <note dur="minima" stem.dir="up" oct="4" pname="c"/>
+                <note dur="semibrevis" oct="4" pname="d">
+                  <verse n="1" lineid="1">
+                    <syl wordpos="t">tat</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="4" pname="d">
+                  <verse n="1" lineid="2">
+                    <syl wordpos="i">Dum</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="4" pname="e">
+                  <verse n="1" lineid="2">
+                    <syl wordpos="i" con="d">com</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="4" pname="e">
+                  <verse n="1" lineid="2">
+                    <syl wordpos="m" con="d">po</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="imperfecta" oct="4" pname="e" num="3" numbase="2">
+                  <verse n="1" lineid="2">
+                    <syl wordpos="m" con="d">nen</syl>
+                  </verse>
+                </note>
+                <note dur="minima" stem.dir="up" oct="4" pname="d">
+                  <verse n="1" lineid="2">
+                    <syl wordpos="t">dis</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="imperfecta" oct="4" pname="e" num="3" numbase="2">
+                  <verse n="1" lineid="2">
+                    <syl wordpos="i" con="d">lo</syl>
+                  </verse>
+                </note>
+                <note dur="minima" stem.dir="up" oct="4" pname="e">
+                  <verse n="1" lineid="2">
+                    <syl wordpos="m" con="d">cu</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="imperfecta" oct="3" pname="a" num="3" numbase="2">
+                  <verse n="1" lineid="2">
+                    <syl wordpos="t">lis</syl>
+                  </verse>
+                </note>
+                <note dur="minima" stem.dir="up" oct="3" pname="a">
+                  <verse n="1" lineid="3">
+                    <syl wordpos="i" con="d">Mi</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="imperfecta" oct="3" pname="b" num="3" numbase="2">
+                  <verse n="1" lineid="3">
+                    <syl wordpos="m" con="d">tra</syl>
+                  </verse>
+                </note>
+                <note dur="minima" stem.dir="up" oct="4" pname="c">
+                  <verse n="1" lineid="3">
+                    <syl wordpos="t">tus</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="imperfecta" oct="4" pname="d" num="3" numbase="2">
+                  <verse n="1" lineid="3">
+                    <syl wordpos="i" con="d">quis</syl>
+                  </verse>
+                </note>
+                <note dur="minima" stem.dir="up" oct="4" pname="d">
+                  <verse n="1" lineid="3">
+                    <syl wordpos="t">que</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="imperfecta" oct="4" pname="e" num="3" numbase="2">
+                  <verse n="1" lineid="3">
+                    <syl wordpos="i" con="d">mi</syl>
+                  </verse>
+                </note>
+                <note dur="minima" stem.dir="up" oct="4" pname="c">
+                  <verse n="1" lineid="3">
+                    <syl wordpos="m" con="d">li</syl>
+                  </verse>
+                </note>
+                <note dur="brevis" oct="4" pname="d">
+                  <verse n="1" lineid="3">
+                    <syl wordpos="t">tat</syl>
+                  </verse>
+                </note>
+                <rest dur="longa" color="#7c0707"/>
+                <note dur="brevis" oct="3" pname="b">
+                  <verse n="1" lineid="4">
+                    <syl wordpos="i">Pro</syl>
+                  </verse>
+                </note>
+                <note dur="brevis" oct="3" pname="b">
+                  <verse n="1" lineid="4">
+                    <syl wordpos="i" con="d">di</syl>
+                  </verse>
+                </note>
+                <note dur="brevis" oct="4" pname="c">
+                  <verse n="1" lineid="4">
+                    <syl wordpos="m" con="d">tan</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="imperfecta" oct="4" pname="d" num="3" numbase="2">
+                  <verse n="1" lineid="4">
+                    <syl wordpos="t">dis</syl>
+                  </verse>
+                </note>
+                <note dur="minima" stem.dir="up" oct="4" pname="d">
+                  <verse n="1" lineid="4">
+                    <syl wordpos="i" con="d">ne</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="imperfecta" oct="4" pname="c" num="3" numbase="2">
+                  <verse n="1" lineid="4">
+                    <syl wordpos="m" con="d">po</syl>
+                  </verse>
+                </note>
+                <note dur="minima" stem.dir="up" oct="3" pname="b">
+                  <verse n="1" lineid="4">
+                    <syl wordpos="m" con="d">tu</syl>
+                  </verse>
+                </note>
+                <note dur="brevis" oct="4" pname="c">
+                  <verse n="1" lineid="4">
+                    <syl wordpos="t">lis</syl>
+                  </verse>
+                </note>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="4" pname="d">
+                    <verse n="1" lineid="5">
+                      <syl wordpos="i" con="u">Et</syl>
+                    </verse>
+                  </note>
+                  <note dur="semibrevis" oct="4" pname="e"/>
+                </ligature>
+                <note dur="semibrevis" oct="4" pname="d">
+                  <verse n="1" lineid="5">
+                    <syl wordpos="i" con="d">pau</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="imperfecta" oct="4" pname="c" num="3" numbase="2"/>
+                <note dur="minima" stem.dir="up" oct="3" pname="b"/>
+                <note dur="longa" dur.quality="imperfecta" oct="4" pname="c" num="3" numbase="2">
+                  <verse n="1" lineid="5">
+                    <syl wordpos="t">per</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="imperfecta" oct="4" pname="d" num="3" numbase="2">
+                  <verse n="1" lineid="5">
+                    <syl wordpos="i" con="d">chris</syl>
+                  </verse>
+                </note>
+                <note dur="minima" stem.dir="up" oct="4" pname="c"/>
+                <note dur="semibrevis" dur.quality="imperfecta" oct="4" pname="d" num="3" numbase="2"/>
+                <note dur="minima" stem.dir="up" oct="4" pname="e"/>
+                <note dur="brevis" oct="4" pname="d">
+                  <verse n="1" lineid="5">
+                    <syl wordpos="t">tus</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="4" pname="d">
+                  <verse n="1" lineid="5">
+                    <syl wordpos="i" con="d">cla</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="4" pname="c">
+                  <verse n="1" lineid="5">
+                    <syl wordpos="m" con="d">mi</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="imperfecta" oct="3" pname="b" num="3" numbase="2">
+                  <verse n="1" lineid="5">
+                    <syl wordpos="t">tat</syl>
+                  </verse>
+                </note>
+                <note dur="minima" stem.dir="up" oct="3" pname="a">
+                  <verse n="1" lineid="6">
+                    <syl wordpos="i" con="d">Je</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="imperfecta" oct="3" pname="b" num="3" numbase="2">
+                  <verse n="1" lineid="6">
+                    <syl wordpos="m" con="d">ju</syl>
+                  </verse>
+                </note>
+                <note dur="minima" stem.dir="up" oct="3" pname="b">
+                  <verse n="1" lineid="6">
+                    <syl wordpos="t">niis</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="4" pname="c">
+                  <verse n="1" lineid="6">
+                    <syl wordpos="i" con="d">ver</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="4" pname="c">
+                  <verse n="1" lineid="6">
+                    <syl wordpos="t">bo</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="4" pname="c">
+                  <verse n="1" lineid="6">
+                    <syl wordpos="i" con="d">po</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="3" pname="a">
+                  <verse n="1" lineid="6">
+                    <syl wordpos="m" con="d">pu</syl>
+                  </verse>
+                </note>
+                <note dur="longa" oct="3" pname="b">
+                  <verse n="1" lineid="6">
+                    <syl wordpos="t">lis</syl>
+                  </verse>
+                </note>
+                <rest dur="longa" color="#7c0707"/>
+                <note dur="semibrevis" dur.quality="imperfecta" oct="3" pname="a" num="3" numbase="2">
+                  <verse n="1" lineid="7">
+                    <syl wordpos="i" con="d">Cla</syl>
+                  </verse>
+                </note>
+                <note dur="minima" stem.dir="up" oct="3" pname="g"/>
+                <note dur="semibrevis" dur.quality="imperfecta" oct="3" pname="a" num="3" numbase="2"/>
+                <note dur="minima" stem.dir="up" oct="3" pname="f"/>
+                <note dur="brevis" oct="3" pname="g">
+                  <verse n="1" lineid="7">
+                    <syl wordpos="t" con="u">mat</syl>
+                  </verse>
+                </note>
+                <note dur="fusa" stem.dir="up" color="#8f8f8f" dur.quality="imperfecta" oct="3" pname="a" num="1" numbase="0"/>
+                <note dur="brevis" oct="3" pname="g">
+                  <verse n="1" lineid="7">
+                    <syl wordpos="i">jam</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="3" pname="a">
+                  <verse n="1" lineid="7">
+                    <syl wordpos="i" con="d">rau</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="3" pname="a">
+                  <verse n="1" lineid="7">
+                    <syl wordpos="t">cis</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="4" pname="d">
+                  <verse n="1" lineid="7">
+                    <syl wordpos="i" con="d">fau</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="imperfecta" oct="4" pname="c" num="3" numbase="2">
+                  <verse n="1" lineid="7">
+                    <syl wordpos="m" con="d">ci</syl>
+                  </verse>
+                </note>
+                <note dur="minima" stem.dir="up" oct="3" pname="b"/>
+                <note dur="semibrevis" dur.quality="imperfecta" oct="3" pname="a" num="3" numbase="2">
+                  <verse n="1" lineid="7">
+                    <syl wordpos="t">bus</syl>
+                  </verse>
+                </note>
+                <note dur="minima" stem.dir="up" oct="3" pname="a">
+                  <verse n="1" lineid="8">
+                    <syl wordpos="i">Ad</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="imperfecta" oct="3" pname="a" num="3" numbase="2">
+                  <verse n="1" lineid="8">
+                    <syl wordpos="i">cor</syl>
+                  </verse>
+                </note>
+                <note dur="minima" stem.dir="up" oct="3" pname="b">
+                  <verse n="1" lineid="8">
+                    <syl wordpos="i" con="d">re</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="4" pname="c">
+                  <verse n="1" lineid="8">
+                    <syl wordpos="m" con="d">di</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="4" pname="c">
+                  <verse n="1" lineid="8">
+                    <syl wordpos="t">te</syl>
+                  </verse>
+                </note>
+                <note dur="brevis" oct="4" pname="c">
+                  <verse n="1" lineid="8">
+                    <syl wordpos="i" con="d">fi</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="4" pname="c">
+                  <verse n="1" lineid="8">
+                    <syl wordpos="m" con="d">li</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="imperfecta" oct="3" pname="b" num="3" numbase="2"/>
+                <note dur="minima" stem.dir="up" oct="3" pname="a"/>
+                <note dur="longa" oct="3" pname="b">
+                  <verse n="1" lineid="8">
+                    <syl wordpos="t">i</syl>
+                  </verse>
+                </note>
+                <rest dur="longa" color="#7c0707"/>
+                <note dur="brevis" oct="3" pname="a">
+                  <verse n="1" lineid="9">
+                    <syl wordpos="i" con="u">Sed</syl>
+                  </verse>
+                </note>
+                <note dur="fusa" stem.dir="up" color="#8f8f8f" dur.quality="imperfecta" oct="4" pname="d" num="1" numbase="0"/>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="4" pname="e">
+                    <verse n="1" lineid="9">
+                      <syl wordpos="i" con="u">cum</syl>
+                    </verse>
+                  </note>
+                  <note dur="semibrevis" oct="4" pname="f" lig="obliqua"/>
+                  <note dur="brevis" oct="4" pname="e"/>
+                </ligature>
+                <note dur="semibrevis" oct="4" pname="d">
+                  <verse n="1" lineid="9">
+                    <syl wordpos="i" con="d">sur</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="imperfecta" oct="4" pname="c" num="3" numbase="2"/>
+                <note dur="minima" stem.dir="up" oct="3" pname="b"/>
+                <note dur="semibrevis" oct="3" pname="a">
+                  <verse n="1" lineid="9">
+                    <syl wordpos="t">dis</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="3" pname="g">
+                  <verse n="1" lineid="9">
+                    <syl wordpos="i">sint</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="3" pname="a">
+                  <verse n="1" lineid="9">
+                    <syl wordpos="i" con="d">au</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="3" pname="a">
+                  <verse n="1" lineid="9">
+                    <syl wordpos="m" con="d">ri</syl>
+                  </verse>
+                </note>
+                <note dur="brevis" oct="3" pname="b">
+                  <verse n="1" lineid="9">
+                    <syl wordpos="t">bus</syl>
+                  </verse>
+                </note>
+                <note dur="brevis" oct="4" pname="c">
+                  <verse n="1" lineid="10">
+                    <syl wordpos="i">Et</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="4" pname="d">
+                  <verse n="1" lineid="10">
+                    <syl wordpos="i" con="d">con</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="4" pname="d">
+                  <verse n="1" lineid="10">
+                    <syl wordpos="m" con="d">temp</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="imperfecta" oct="4" pname="e" num="3" numbase="2">
+                  <verse n="1" lineid="10">
+                    <syl wordpos="m" con="d">to</syl>
+                  </verse>
+                </note>
+                <note dur="minima" stem.dir="up" oct="4" pname="d">
+                  <verse n="1" lineid="10">
+                    <syl wordpos="t">res</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="imperfecta" oct="4" pname="e" num="3" numbase="2">
+                  <verse n="1" lineid="10">
+                    <syl wordpos="i" con="d">im</syl>
+                  </verse>
+                </note>
+                <note dur="minima" stem.dir="up" oct="4" pname="d">
+                  <verse n="1" lineid="10">
+                    <syl wordpos="m" con="d">pi</syl>
+                  </verse>
+                </note>
+                <note dur="brevis" oct="3" pname="b">
+                  <verse n="1" lineid="10">
+                    <syl wordpos="t">i</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="4" pname="c">
+                  <verse n="1" lineid="11">
+                    <syl wordpos="i" con="d">In</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="4" pname="c">
+                  <verse n="1" lineid="11">
+                    <syl wordpos="m" con="d">du</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="4" pname="d">
+                  <verse n="1" lineid="11">
+                    <syl wordpos="m" con="d">ra</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="3" pname="b">
+                  <verse n="1" lineid="11">
+                    <syl wordpos="t">tis</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="imperfecta" oct="4" pname="c" num="3" numbase="2">
+                  <verse n="1" lineid="11">
+                    <syl wordpos="i" con="d">cer</syl>
+                  </verse>
+                </note>
+                <note dur="minima" stem.dir="up" oct="3" pname="b"/>
+                <note dur="semibrevis" dur.quality="imperfecta" oct="3" pname="a" num="3" numbase="2"/>
+                <note dur="minima" stem.dir="up" oct="3" pname="b"/>
+                <ligature form="obliqua">
+                  <note stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="3" pname="a"/>
+                  <note dur="semibrevis" oct="3" pname="g"/>
+                </ligature>
+                <note dur="brevis" oct="3" pname="a">
+                  <verse n="1" lineid="11">
+                    <syl wordpos="m" con="d">vi</syl>
+                  </verse>
+                </note>
+                <note dur.quality="altera" num="1" numbase="2" dur="brevis" oct="3" pname="g">
+                  <verse n="1" lineid="11">
+                    <syl wordpos="m" con="d">ci</syl>
+                  </verse>
+                </note>
+                <note dur="longa" oct="3" pname="a">
+                  <verse n="1" lineid="11">
+                    <syl wordpos="t">bus</syl>
+                  </verse>
+                </note>
+                <rest dur="longa" color="#7c0707"/>
+                <note dur="semibrevis" oct="4" pname="e">
+                  <verse n="1" lineid="12">
+                    <syl wordpos="i">Et</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="imperfecta" oct="4" pname="c" num="3" numbase="2">
+                  <verse n="1" lineid="12">
+                    <syl wordpos="i" con="d">au</syl>
+                  </verse>
+                </note>
+                <note dur="minima" stem.dir="up" oct="4" pname="d">
+                  <verse n="1" lineid="12">
+                    <syl wordpos="t">si</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="imperfecta" oct="4" pname="e" num="3" numbase="2">
+                  <verse n="1" lineid="12">
+                    <syl wordpos="i" con="d">te</syl>
+                  </verse>
+                </note>
+                <note dur="minima" stem.dir="up" oct="4" pname="d">
+                  <verse n="1" lineid="12">
+                    <syl wordpos="m" con="d">me</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="imperfecta" oct="4" pname="e" num="3" numbase="2">
+                  <verse n="1" lineid="12">
+                    <syl wordpos="m" con="d">ra</syl>
+                  </verse>
+                </note>
+                <note dur="minima" stem.dir="up" oct="4" pname="d">
+                  <verse n="1" lineid="12">
+                    <syl wordpos="m" con="d">ri</syl>
+                  </verse>
+                </note>
+                <note dur="brevis" oct="4" pname="e">
+                  <verse n="1" lineid="12">
+                    <syl wordpos="t" con="u">i</syl>
+                  </verse>
+                </note>
+                <accid ploc="c" oloc="4" accid="s"/>
+                <note dur="fusa" stem.dir="up" color="#8f8f8f" dur.quality="imperfecta" oct="4" pname="c" num="1" numbase="0"/>
+                <note dur="brevis" oct="3" pname="a">
+                  <verse n="1" lineid="13">
+                    <syl wordpos="i">Hiis</syl>
+                  </verse>
+                </note>
+                <note dur="longa" dur.quality="imperfecta" oct="3" pname="g" num="3" numbase="2">
+                  <verse n="1" lineid="13">
+                    <syl wordpos="i">mox</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="3" pname="a">
+                  <verse n="1" lineid="13">
+                    <syl wordpos="i" con="d">com</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="3" pname="a">
+                  <verse n="1" lineid="13">
+                    <syl wordpos="m" con="d">pel</syl>
+                  </verse>
+                </note>
+                <note dur="brevis" oct="3" pname="b">
+                  <verse n="1" lineid="13">
+                    <syl wordpos="t">lat</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="4" pname="c">
+                  <verse n="1" lineid="13">
+                    <syl wordpos="i" con="d">vo</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="4" pname="c">
+                  <verse n="1" lineid="13">
+                    <syl wordpos="m" con="d">ci</syl>
+                  </verse>
+                </note>
+                <note dur="longa" oct="4" pname="d">
+                  <verse n="1" lineid="13">
+                    <syl wordpos="t">bus</syl>
+                  </verse>
+                </note>
+                <rest dur="longa" color="#7c0707"/>
+                <note dur="brevis" oct="3" pname="b">
+                  <verse n="1" lineid="14">
+                    <syl wordpos="i" con="u">Cur</syl>
+                  </verse>
+                </note>
+                <note dur="fusa" stem.dir="up" color="#8f8f8f" dur.quality="imperfecta" oct="4" pname="c" num="1" numbase="0"/>
+                <note dur="semibrevis" dur.quality="imperfecta" oct="3" pname="b" num="3" numbase="2">
+                  <verse n="1" lineid="14">
+                    <syl wordpos="i" con="d">si</syl>
+                  </verse>
+                </note>
+                <note dur="minima" stem.dir="up" oct="3" pname="a">
+                  <verse n="1" lineid="14">
+                    <syl wordpos="m" con="d">mi</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="imperfecta" oct="3" pname="b" num="3" numbase="2">
+                  <verse n="1" lineid="14">
+                    <syl wordpos="t">les</syl>
+                  </verse>
+                </note>
+                <note dur="minima" stem.dir="up" oct="3" pname="b">
+                  <verse n="1" lineid="14">
+                    <syl wordpos="i" con="d">as</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="3" pname="a">
+                  <verse n="1" lineid="14">
+                    <syl wordpos="m" con="d">pi</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="3" pname="g">
+                  <verse n="1" lineid="14">
+                    <syl wordpos="m" con="d">di</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="imperfecta" oct="3" pname="a" num="3" numbase="2">
+                  <verse n="1" lineid="14">
+                    <syl wordpos="t">bus</syl>
+                  </verse>
+                </note>
+                <note dur="minima" stem.dir="up" oct="3" pname="a">
+                  <verse n="1" lineid="15">
+                    <syl wordpos="i" con="d">Au</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="imperfecta" oct="3" pname="g" num="3" numbase="2">
+                  <verse n="1" lineid="15">
+                    <syl wordpos="m" con="d">di</syl>
+                  </verse>
+                </note>
+                <note dur="minima" stem.dir="up" oct="3" pname="a">
+                  <verse n="1" lineid="15">
+                    <syl wordpos="t">re</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="3" pname="g">
+                  <verse n="1" lineid="15">
+                    <syl wordpos="i">non</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="3" pname="g">
+                  <verse n="1" lineid="15">
+                    <syl wordpos="i" con="d">dig</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="4" pname="c">
+                  <verse n="1" lineid="15">
+                    <syl wordpos="m" con="d">na</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="4" pname="c">
+                  <verse n="1" lineid="15">
+                    <syl wordpos="m" con="d">mi</syl>
+                  </verse>
+                </note>
+                <note dur="brevis" oct="4" pname="d">
+                  <verse n="1" lineid="15">
+                    <syl wordpos="t">ni</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="imperfecta" oct="4" pname="e" num="3" numbase="2">
+                  <verse n="1" lineid="16">
+                    <syl wordpos="i" con="d">Mu</syl>
+                  </verse>
+                </note>
+                <note dur="minima" stem.dir="up" oct="4" pname="d"/>
+                <note dur="semibrevis" dur.quality="imperfecta" oct="4" pname="e" num="3" numbase="2"/>
+                <note dur="minima" stem.dir="up" oct="4" pname="f"/>
+                <note dur="brevis" oct="4" pname="e"/>
+                <note dur="longa" dur.quality="imperfecta" oct="3" pname="a" num="3" numbase="2">
+                  <verse n="1" lineid="16">
+                    <syl wordpos="t">tis</syl>
+                  </verse>
+                </note>
+                <note dur="brevis" oct="3" pname="b">
+                  <verse n="1" lineid="16">
+                    <syl wordpos="i" con="u">jam</syl>
+                  </verse>
+                </note>
+                <note dur="fusa" stem.dir="up" color="#8f8f8f" dur.quality="imperfecta" oct="4" pname="c" num="1" numbase="0"/>
+                <note dur="semibrevis" oct="3" pname="b">
+                  <verse n="1" lineid="16">
+                    <syl wordpos="i" con="d">pa</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="3" pname="b">
+                  <verse n="1" lineid="16">
+                    <syl wordpos="t">ret</syl>
+                  </verse>
+                </note>
+                <note dur="brevis" oct="4" pname="c">
+                  <verse n="1" lineid="16">
+                    <syl wordpos="i" con="d">ca</syl>
+                  </verse>
+                </note>
+                <note dur="fusa" stem.dir="up" color="#8f8f8f" dur.quality="imperfecta" oct="4" pname="d" num="1" numbase="0"/>
+                <note dur="semibrevis" dur.quality="imperfecta" oct="4" pname="c" num="3" numbase="2">
+                  <verse n="1" lineid="16">
+                    <syl wordpos="m" con="d">ni</syl>
+                  </verse>
+                </note>
+                <note dur="minima" stem.dir="up" oct="3" pname="b"/>
+                <note dur="semibrevis" dur.quality="imperfecta" oct="4" pname="c" num="3" numbase="2"/>
+                <note dur="minima" stem.dir="up" oct="3" pname="a"/>
+                <note dur="longa" oct="3" pname="b">
+                  <verse n="1" lineid="16">
+                    <syl wordpos="t">bus</syl>
+                  </verse>
+                </note>
+                <rest dur="longa" color="#7c0707"/>
+                <note dur="semibrevis" oct="4" pname="d">
+                  <verse n="1" lineid="17">
+                    <syl wordpos="i">Cur</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="imperfecta" oct="4" pname="d" num="3" numbase="2">
+                  <verse n="1" lineid="17">
+                    <syl wordpos="i">in</syl>
+                  </verse>
+                </note>
+                <note dur="minima" stem.dir="up" oct="4" pname="c">
+                  <verse n="1" lineid="17">
+                    <syl wordpos="i" con="d">gre</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="imperfecta" oct="3" pname="b" num="3" numbase="2">
+                  <verse n="1" lineid="17">
+                    <syl wordpos="t">gem</syl>
+                  </verse>
+                </note>
+                <note dur="minima" stem.dir="up" oct="3" pname="b">
+                  <verse n="1" lineid="17">
+                    <syl wordpos="i" con="d">gras</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="imperfecta" oct="3" pname="a" num="3" numbase="2">
+                  <verse n="1" lineid="17">
+                    <syl wordpos="m" con="d">sa</syl>
+                  </verse>
+                </note>
+                <note dur="minima" stem.dir="up" oct="3" pname="a">
+                  <verse n="1" lineid="17">
+                    <syl wordpos="m" con="d">mi</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="imperfecta" oct="3" pname="b" num="3" numbase="2">
+                  <verse n="1" lineid="17">
+                    <syl wordpos="t">ni</syl>
+                  </verse>
+                </note>
+                <note dur="minima" stem.dir="up" oct="3" pname="a">
+                  <verse n="1" lineid="18">
+                    <syl wordpos="i" con="d">E</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="imperfecta" oct="3" pname="a" num="3" numbase="2">
+                  <verse n="1" lineid="18">
+                    <syl wordpos="t">jus</syl>
+                  </verse>
+                </note>
+                <note dur="minima" stem.dir="up" oct="3" pname="g">
+                  <verse n="1" lineid="18">
+                    <syl wordpos="i">de</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="3" pname="a">
+                  <verse n="1" lineid="18">
+                    <syl wordpos="i" con="d">pas</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="3" pname="a">
+                  <verse n="1" lineid="18">
+                    <syl wordpos="t">tis</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="4" pname="d">
+                  <verse n="1" lineid="18">
+                    <syl wordpos="i" con="d">car</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="imperfecta" oct="4" pname="c" num="3" numbase="2">
+                  <verse n="1" lineid="18">
+                    <syl wordpos="m" con="d">ni</syl>
+                  </verse>
+                </note>
+                <note dur="minima" stem.dir="up" oct="3" pname="b"/>
+                <note dur="brevis" oct="3" pname="a">
+                  <verse n="1" lineid="18">
+                    <syl wordpos="t">bus</syl>
+                  </verse>
+                </note>
+                <note dur="brevis" oct="3" pname="g">
+                  <verse n="1" lineid="19">
+                    <syl wordpos="i">Nec</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="imperfecta" oct="3" pname="a" num="3" numbase="2">
+                  <verse n="1" lineid="19">
+                    <syl wordpos="i">ut</syl>
+                  </verse>
+                </note>
+                <note dur="minima" stem.dir="up" oct="3" pname="g">
+                  <verse n="1" lineid="19">
+                    <syl wordpos="i" con="d">lu</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="imperfecta" oct="3" pname="a" num="3" numbase="2">
+                  <verse n="1" lineid="19">
+                    <syl wordpos="t">pos</syl>
+                  </verse>
+                </note>
+                <note dur="minima" stem.dir="up" oct="3" pname="a">
+                  <verse n="1" lineid="19">
+                    <syl wordpos="i" con="d">ar</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="3" pname="g">
+                  <verse n="1" lineid="19">
+                    <syl wordpos="m" con="d">ma</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="3" pname="a">
+                  <verse n="1" lineid="19">
+                    <syl wordpos="m" con="d">mi</syl>
+                  </verse>
+                </note>
+                <note dur="longa" oct="3" pname="b">
+                  <verse n="1" lineid="19">
+                    <syl wordpos="t">ni</syl>
+                  </verse>
+                </note>
+                <rest dur="longa" color="#7c0707"/>
+                <note dur="semibrevis" oct="3" pname="a">
+                  <verse n="1" lineid="20">
+                    <syl wordpos="i" con="d">Ho</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="3" pname="a">
+                  <verse n="1" lineid="20">
+                    <syl wordpos="t">rum</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="3" pname="a">
+                  <verse n="1" lineid="20">
+                    <syl wordpos="i" con="d">ar</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" dur.quality="imperfecta" oct="3" pname="g" num="3" numbase="2">
+                  <verse n="1" lineid="20">
+                    <syl wordpos="m" con="d">ma</syl>
+                  </verse>
+                </note>
+                <note dur="minima" stem.dir="up" oct="3" pname="a">
+                  <verse n="1" lineid="20">
+                    <syl wordpos="t">ti</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="3" pname="g">
+                  <verse n="1" lineid="20">
+                    <syl wordpos="i" con="d">den</syl>
+                  </verse>
+                </note>
+                <note dur="semibrevis" oct="3" pname="g">
+                  <verse n="1" lineid="20">
+                    <syl wordpos="m" con="d">ti</syl>
+                  </verse>
+                </note>
+                <note dur="longa" oct="3" pname="a">
+                  <verse n="1" lineid="20">
+                    <syl wordpos="t">bus.</syl>
+                  </verse>
+                </note>
+                <barLine form="dbl"/>
+              </layer>
+            </staff>
+          </section>
+        </score>
+      </mdiv>
+    </body>
+  </music>
+</mei>
