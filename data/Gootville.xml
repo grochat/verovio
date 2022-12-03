@@ -144,6 +144,7 @@
 		<a n="stemDownNW" x="0" y="-1"/>
 		<a n="stemUpSE" x="2.12" y="1"/>
 	</g>
+	<g c="E1E7" x="0.0" y="-60.0" w="120.0" h="120.0" h-a-x="140" />
 	<g c="E240" x="0.0" y="-756.0" w="284.0" h="770.0" h-a-x="284" >
 		<a n="graceNoteSlashNE" x="1.284" y="-0.796"/>
 		<a n="graceNoteSlashSW" x="-0.644" y="-2.456"/>

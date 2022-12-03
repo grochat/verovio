@@ -795,23 +795,37 @@ void View::DrawDot(DeviceContext *dc, LayerElement *element, Layer *layer, Staff
         this->DrawDotInLigature(dc, element, layer, staff, measure);
     }
     else {
-        int x = element->GetDrawingX();
-        int y = element->GetDrawingY();
-
-        if (m_doc->GetType() != Transcription) {
-            // Use the note to which the points to for position
-            if (dot->m_drawingPreviousElement && !dot->m_drawingNextElement) {
-                x += m_doc->GetDrawingUnit(staff->m_drawingStaffSize) * 7 / 2;
-                y = dot->m_drawingPreviousElement->GetDrawingY();
-            }
-            if (dot->m_drawingPreviousElement && dot->m_drawingNextElement) {
-                x += ((dot->m_drawingNextElement->GetDrawingX() - dot->m_drawingPreviousElement->GetDrawingX()) / 2);
-                x += dot->m_drawingPreviousElement->GetDrawingRadius(m_doc);
-                y = dot->m_drawingPreviousElement->GetDrawingY();
-            }
+        bool favorGlyphs = m_doc->GetOptions()->m_useGlyphMensural.GetValue();
+        if ( favorGlyphs )
+        {
+            int y = dot->m_drawingPreviousElement->GetDrawingY();
+            if (staff->IsOnStaffLine(y, m_doc))
+                y -= m_doc->GetDrawingUnit(staff->m_drawingStaffSize)*2/3;
+            int r = dot->m_drawingPreviousElement->GetDrawingRadius(m_doc);
+            int x = element->GetDrawingX() + r*2+m_doc->GetDrawingUnit(staff->m_drawingStaffSize)*2/5;
+            wchar_t code = SMUFL_E1E7_augmentationDot;
+            dc->StartCustomGraphic("dot");
+            DrawSmuflCode( dc, x, y, code, staff->m_drawingStaffSize, false, true );
+            dc->EndCustomGraphic();
         }
-
-        DrawDotsPart(dc, x, y, 1, staff);
+        else
+        {
+            int x = element->GetDrawingX();
+            int y = element->GetDrawingY();
+            if (m_doc->GetType() != Transcription) {
+                // Use the note to which the points to for position
+                if (dot->m_drawingPreviousElement && !dot->m_drawingNextElement) {
+                    x += m_doc->GetDrawingUnit(staff->m_drawingStaffSize) * 7 / 2;
+                    y = dot->m_drawingPreviousElement->GetDrawingY();
+                }
+                if (dot->m_drawingPreviousElement && dot->m_drawingNextElement) {
+                    x += ((dot->m_drawingNextElement->GetDrawingX() - dot->m_drawingPreviousElement->GetDrawingX()) / 2);
+                    x += dot->m_drawingPreviousElement->GetDrawingRadius(m_doc);
+                    y = dot->m_drawingPreviousElement->GetDrawingY();
+                }
+            }
+            DrawDotsPart(dc, x, y, 1, staff);
+        }
     }
 
     dc->EndGraphic(element, this);

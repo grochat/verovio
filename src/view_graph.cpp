@@ -208,12 +208,9 @@ void View::DrawDiamond(DeviceContext *dc, int x1, int y1, int height, int width,
 void View::DrawDot(DeviceContext *dc, int x, int y, int staffSize)
 {
     const int r = std::max(ToDeviceContextX(m_doc->GetDrawingDoubleUnit(staffSize) / 5), 2);
-
     dc->SetPen(m_currentColour, 0, AxSOLID);
     dc->SetBrush(m_currentColour, AxSOLID);
-
     dc->DrawCircle(ToDeviceContextX(x), ToDeviceContextY(y), r);
-
     dc->ResetPen();
     dc->ResetBrush();
 }

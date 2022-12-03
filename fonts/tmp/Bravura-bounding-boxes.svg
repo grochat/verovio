@@ -259,6 +259,11 @@
          horiz-adv-x="531"
          transform="scale(1,-1)"
          d="M430 250h100l-430 -500h-100z"/>
+   <path name="augmentationDot"
+         id="E1E7"
+         horiz-adv-x="100"
+         transform="scale(1,-1)"
+         d="M50 -50c-28 0 -50 22 -50 50s22 50 50 50s50 -22 50 -50s-22 -50 -50 -50z"/>
    <path name="tremolo1"
          id="E220"
          horiz-adv-x="150"

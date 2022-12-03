@@ -502,7 +502,7 @@
             <!--<glyph glyph-code="E1E4" smufl-name="note512thDown"/>-->
             <!--<glyph glyph-code="E1E5" smufl-name="note1024thUp"/>-->
             <!--<glyph glyph-code="E1E6" smufl-name="note1024thDown"/>-->
-            <!--<glyph glyph-code="E1E7" smufl-name="augmentationDot"/>-->
+            <glyph glyph-code="E1E7" smufl-name="augmentationDot"/>
             <range_end>U+E1EF</range_end>
             <range_start>U+E1D0</range_start>
         </individualNotes>
