@@ -88,8 +88,7 @@ void View::DrawMensuralNote(DeviceContext *dc, LayerElement *element, Layer *lay
     }
     // Semibrevis and shorter
     else {
-        bool favorGlyphs = m_doc->GetOptions()->m_useGlyphMensural.GetValue();
-        if ( favorGlyphs )
+        if ( m_doc->GetOptions()->m_useGlyphMensural.GetValue() )
         {
             wchar_t code = -1;
             switch (drawingDur)
@@ -371,10 +370,9 @@ void View::DrawMaximaToBrevis(DeviceContext *dc, int y, LayerElement *element, L
     wchar_t code = -1;
     int duration = note->GetActualDur();
     
-    bool favorGlyphs = m_doc->GetOptions()->m_useGlyphMensural.GetValue();
-    FontInfo *font = m_doc->GetDrawingSmuflFont(staff->m_drawingStaffSize, false);
+    //FontInfo *font = m_doc->GetDrawingSmuflFont(staff->m_drawingStaffSize, false);
     //float r = font->GetWidthToHeightRatio();
-    if ( favorGlyphs )
+    if ( m_doc->GetOptions()->m_useGlyphMensural.GetValue() )
     {
         if ( note->FindDescendantByType(PLICA) )    //will be drawn as a plica glyph in DrawPlica
             return;
@@ -515,8 +513,7 @@ void View::DrawLigatureNote(DeviceContext *dc, LayerElement *element, Layer *lay
     bool obliqueEnd = prevShape & LIGATURE_OBLIQUE;
     bool stackedEnd = shape & LIGATURE_STACKED;
 
-    bool favorGlyphs = m_doc->GetOptions()->m_useGlyphMensural.GetValue();
-    if ( favorGlyphs )  // VITRY project phase II
+    if ( m_doc->GetOptions()->m_useGlyphMensural.GetValue() )  // VITRY project phase II
     {
         int interval = nextNote? nextNote->GetPitchInterface()->PitchDifferenceTo( note->GetPitchInterface() ):0;
         int xNote = element->GetDrawingX();
@@ -683,8 +680,6 @@ void View::DrawLigatureNote(DeviceContext *dc, LayerElement *element, Layer *lay
             DrawFilledRoundedRectangle(dc, bottomRight->x - stemWidth, sides[2], bottomRight->x, sides[3], stemWidth / 3);
         }
     }
-
-    return;
 }
 
 void View::DrawDotInLigature(DeviceContext *dc, LayerElement *element, Layer *layer, Staff *staff, Measure *measure)
@@ -704,25 +699,40 @@ void View::DrawDotInLigature(DeviceContext *dc, LayerElement *element, Layer *la
     Ligature *ligature = vrv_cast<Ligature *>(note->GetFirstAncestor(LIGATURE));
     assert(ligature);
 
+    bool favorGlyph = m_doc->GetOptions()->m_useGlyphMensural.GetValue();
     int position = ligature->GetListIndex(note);
+    if ( favorGlyph )
+        position--;
     assert(position != -1);
     int shape = ligature->m_drawingShapes.at(position);
     bool isLast = (position == (int)ligature->m_drawingShapes.size() - 1);
 
     int y = note->GetDrawingY();
     int x = note->GetDrawingX();
+    /*
     if (!isLast && (shape & LIGATURE_OBLIQUE)) {
         x += note->GetDrawingRadius(m_doc, true);
         y += m_doc->GetDrawingUnit(staff->m_drawingStaffSize);
     }
-    else {
-        x += 3 * note->GetDrawingRadius(m_doc, true);
-        y -= m_doc->GetDrawingUnit(staff->m_drawingStaffSize);
+    else */{
+        if (!(shape&LIGATURE_OBLIQUE))
+            x += note->GetDrawingRadius(m_doc, true)*2;
+        //x += note->GetDrawingRadius(m_doc, true)*2;
+        x += m_doc->GetDrawingUnit(staff->m_drawingStaffSize)*1/4;
+        if ( staff->IsOnStaffLine(y, m_doc) )
+            y -= m_doc->GetDrawingUnit(staff->m_drawingStaffSize)*2/3;
     }
-
-    DrawDotsPart(dc, x, y, 1, staff);
-
-    return;
+    if ( favorGlyph )
+    {
+        wchar_t code = SMUFL_E1E7_augmentationDot;
+        dc->StartCustomGraphic("dot");
+        DrawSmuflCode( dc, x, y, code, staff->m_drawingStaffSize, false, true );
+        dc->EndCustomGraphic();
+    }
+    else
+    {
+        DrawDotsPart(dc, x, y, 1, staff);
+    }
 }
 
 void View::DrawPlica(DeviceContext *dc, LayerElement *element, Layer *layer, Staff *staff, Measure *measure)
@@ -741,8 +751,8 @@ void View::DrawPlica(DeviceContext *dc, LayerElement *element, Layer *layer, Sta
     bool isLonga = (note->GetActualDur() == DUR_LG);
     bool up = (plica->GetDir() == STEMDIRECTION_basic_up);
     
-    bool favorGlyphs = m_doc->GetOptions()->m_useGlyphMensural.GetValue();
-    if ( favorGlyphs && Resources::IsGlyphAvailable((wchar_t) SMUFL_F710_plicaBlackLongaAsc ) )
+    if ( m_doc->GetOptions()->m_useGlyphMensural.GetValue()
+         && Resources::IsGlyphAvailable((wchar_t) SMUFL_F710_plicaBlackLongaAsc) )
     {
         const int yNote = element->GetDrawingY();
         const int xNote = element->GetDrawingX();
@@ -809,7 +819,6 @@ void View::DrawPlica(DeviceContext *dc, LayerElement *element, Layer *layer, Sta
         }
         dc->EndGraphic(plica, this);
     }
-
 }
 
 void View::DrawProportFigures(DeviceContext *dc, int x, int y, int num, int numBase, Staff *staff)
@@ -843,8 +852,6 @@ void View::DrawProportFigures(DeviceContext *dc, int x, int y, int num, int numB
     }
 
     dc->ResetFont();
-
-    return;
 }
 
 void View::DrawProport(DeviceContext *dc, LayerElement *element, Layer *layer, Staff *staff, Measure *measure)

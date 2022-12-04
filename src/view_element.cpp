@@ -795,8 +795,7 @@ void View::DrawDot(DeviceContext *dc, LayerElement *element, Layer *layer, Staff
         this->DrawDotInLigature(dc, element, layer, staff, measure);
     }
     else {
-        bool favorGlyphs = m_doc->GetOptions()->m_useGlyphMensural.GetValue();
-        if ( favorGlyphs )
+        if ( m_doc->GetOptions()->m_useGlyphMensural.GetValue() )
         {
             int y = dot->m_drawingPreviousElement->GetDrawingY();
             if (staff->IsOnStaffLine(y, m_doc))
