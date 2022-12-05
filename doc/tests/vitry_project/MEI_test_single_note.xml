@@ -44,6 +44,9 @@
                   <staff xml:id="motetusB" n="0">
                      <layer xml:id="V-604" n="1">
                         <note xml:id="N-309" dur="longa" oct="4" pname="f"/>
+                          <verse n="1" lineid="1">
+                            <syl wordpos="i" con="d">test</syl>
+                          </verse>
                         </note>
                      </layer>
                   </staff>

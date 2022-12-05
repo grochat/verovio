@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg width="4200px" height="5940px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mei="http://www.music-encoding.org/ns/mei" overflow="visible">
-   <desc>Engraved by Verovio 3.2.0-dev-b6236cc</desc>
+   <desc>Engraved by Verovio 3.2.0-dev-2e90afa</desc>
    <defs>
       <symbol id="E911" viewBox="0 0 1000 1000" overflow="inherit" font-origin="Machaut">
          <path transform="scale(1,-1)" d="M246 -86c18 20 30 49 30 82c0 43 -18 76 -42 99c-24 20 -52 32 -84 32c-39 0 -66 -14 -89 -38c-24 -25 -35 -53 -35 -91c0 -45 17 -75 47 -98c23 -17 51 -27 80 -27c39 0 70 17 93 41zM255 -112c-27 -25 -63 -40 -102 -40c-40 0 -78 16 -106 42s-47 60 -47 98 c0 58 16 96 52 128c26 23 60 36 95 36c46 0 84 -16 113 -47c25 -26 42 -63 42 -107s-21 -86 -47 -110z" />
@@ -33,79 +33,79 @@
    <style type="text/css">g.page-margin{font-family:Times;} g.reh, g.tempo{font-weight:bold;} g.dir, g.dynam, g.mNum{font-style:italic;} g.label{font-weight:normal;}</style>
    <svg class="definition-scale" color="black" viewBox="0 0 21000 29700">
       <g class="page-margin" transform="translate(500, 500)">
-         <g id="system-0000001887468033" class="system">
-            <g id="label-0000001966527052" class="label">
+         <g id="system-0000001568848345" class="system">
+            <g id="label-0000002136938984" class="label">
                <text x="1466" y="1781" text-anchor="end" font-size="0px">
-                  <tspan id="text-0000001646835634" class="text">
+                  <tspan id="text-0000001016991660" class="text">
                      <tspan font-size="405px" class="text">motetus</tspan>
                   </tspan>
                </text>
             </g>
-            <g id="section-0000000616386364" class="section boundaryStart" />
+            <g id="section-0000001246247868" class="section boundaryStart" />
             <g id="motetusB" class="staff">
                <path d="M1646 1331 L4214 1331" stroke="currentColor" stroke-width="13" />
                <path d="M1646 1511 L4214 1511" stroke="currentColor" stroke-width="13" />
                <path d="M1646 1691 L4214 1691" stroke="currentColor" stroke-width="13" />
                <path d="M1646 1871 L4214 1871" stroke="currentColor" stroke-width="13" />
                <path d="M1646 2051 L4214 2051" stroke="currentColor" stroke-width="13" />
-               <g id="clef-0000000793892577" class="clef">
+               <g id="clef-0000000373369963" class="clef">
                   <use xlink:href="#F700" x="1737" y="1691" height="720px" width="720px" />
                </g>
-               <g id="mensur-0000001292480842" class="mensur">
+               <g id="mensur-0000000197817214" class="mensur">
                   <use xlink:href="#E911" x="2105" y="1691" height="720px" width="720px" />
                   <use xlink:href="#E920" x="2188" y="1691" height="720px" width="720px" />
                </g>
-               <g id="layer-0000000280076363" class="layer">
-                  <g id="note-0000002106762364" class="note">
+               <g id="layer-0000000956291958" class="layer">
+                  <g id="note-0000000631323958" class="note">
                      <g class="notehead">
                         <use xlink:href="#F712" x="2594" y="1871" height="720px" width="720px" />
                      </g>
                   </g>
-                  <g id="note-0000001081962569" class="note">
+                  <g id="note-0000000079691363" class="note">
                      <g class="notehead">
                         <use xlink:href="#E952" x="2806" y="1691" height="720px" width="720px" />
                      </g>
                   </g>
-                  <g id="note-0000001800858034" class="note">
+                  <g id="note-0000001490425860" class="note">
                      <g class="notehead">
                         <use xlink:href="#F710" x="3021" y="1601" height="720px" width="720px" />
                      </g>
                   </g>
-                  <g id="note-0000001185863812" class="note">
+                  <g id="note-0000000033879453" class="note">
                      <g class="notehead">
                         <use xlink:href="#E952" x="3232" y="1421" height="720px" width="720px" />
                      </g>
                   </g>
-                  <g id="note-0000000017360477" class="note">
+                  <g id="note-0000000328800116" class="note">
                      <g class="notehead">
                         <use xlink:href="#F713" x="3447" y="1511" height="720px" width="720px" />
                      </g>
                   </g>
-                  <g id="note-0000001601357747" class="note">
+                  <g id="note-0000002147175451" class="note">
                      <g class="notehead">
                         <use xlink:href="#E952" x="3658" y="1691" height="720px" width="720px" />
                      </g>
                   </g>
-                  <g id="note-0000001754589625" class="note">
+                  <g id="note-0000001262600769" class="note">
                      <g class="notehead">
                         <use xlink:href="#F711" x="3874" y="1781" height="720px" width="720px" />
                      </g>
                   </g>
-                  <g id="note-0000000797677439" class="note">
+                  <g id="note-0000000992396817" class="note">
                      <g class="notehead">
                         <use xlink:href="#E951" x="4083" y="1961" height="720px" width="720px" />
                      </g>
                   </g>
                </g>
             </g>
-            <g id="bdend-0000001672848446" class="boundaryEnd section-0000000616386364" />
+            <g id="bdend-0000000416023278" class="boundaryEnd section-0000001246247868" />
          </g>
-         <g id="pghead-0000000707925398" class="pgHead autogenerated">
+         <g id="pghead-0000002043962361" class="pgHead autogenerated">
             <text x="0" y="0" font-size="0px">
-               <tspan id="rend-0000001042759806" class="rend" x="10000" y="414" text-anchor="middle">
+               <tspan id="rend-0000001726983915" class="rend" x="10000" y="414" text-anchor="middle">
                   <title class="labelAttr">title</title>
-                  <tspan id="rend-0000000050016275" class="rend">
-                     <tspan id="text-0000000957427948" class="text">
+                  <tspan id="rend-0000000029686553" class="rend">
+                     <tspan id="text-0000000725690167" class="text">
                         <tspan font-size="607px" class="text"> - Garison</tspan>
                      </tspan>
                   </tspan>
