@@ -1,0 +1,39 @@
+# tit=11Virtutibus-LE source=NL-Lu_342A voix=triplum ordo=1 cle=c1 lang=lat clemod=g2 visa=JP,DC,OB,CC
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 01.06.2020-10:00/ob MODIF: 09.07.2021-23:52/ob
+Imp[...] circu=i=vi						{relative=f';modus=2;tempus=2;prolatio=3;cle=c1;pagina=v} f3 {fractio=1/2} [f3 e3 {fractio=1} d6 c12] [f2 e1] {fractio=1/2} [f3 g3] {fractio=1} a6 a6 
+solu<m> q<uo>d mare terminat			{fractio=1/2} [x3 b3] a3 g3 {fractio=1} a3 f3 a3 b3 x12
+Indiscrete <con>cupivi					x3 x3 f6 [x2 {fractio=1/3} b3] {fractio=1/2} a3 g3 {fractio=1} a3 f3
+q<uo>tq<uo>t amat co=inq<ui>nat			{fractio=1/3} g3 f3 g3 {fractio=1} f2 e1 f2 e1 {fractio=1/2} f3
+hic amo<r> forsa<n> nec amor			d3 e3 d3 {fractio=1} e2 f1 {linea=v} e6 [x2 {fractio=1/3} b'3] {fractio=1/2} c3
+tu<n>c p<ro> m<er>cede cruci=or			b3 [c3 b3] {fractio=1} [a2 g1] {fractio=1/2} f3 g3 {fractio=1} a2 a1 g6 z6
+aut amor nec in me amor					d'1 d1 {fractio=1/3} d3 {fractio=1/2} d3 c3 {fractio=1} b2 a1 {fractio=1/2} b3
+t<un>c ing<ra>tus effici=or				g3 {fractio=1} [a2 g1] [a2 b1] {fractio=1/2} a3 g3 {fractio=1} a2 b1 c6 r12
+porro cu<m> am[...] amo					c2 b1 {fractio=1/2} a3 g3 {fractio=1/3} [a3 g3] a3 {fractio=1} f3 {linea=v}
+ma[...]r ene=e medi=a					x2 d1 e2 f1 g3 a2 g1 f2
+in mome<n>tane=o. spasmo				e1 f2 g1 a1 {fractio=1/3} g3 {fractio=1} a1 b2 b1
+c<er>ta[...]s mat<er>i=a.				c3 b2 [a1 g3] g3 a3 b3 a6 r6
+Ex quo caro longe fetet					e3 e3 f1 e1 f1 e2 d1 e2
+ad amoris acule=os						e1 e2 f1 {fractio=1/2} g3 g3 {fractio=1} a2 b1 c6 r12 {linea=v}
+Quis igit<ur> ult<ra>. petit			x-@1 b1 b1 {fractio=1/2} a3 g3 {fractio=1} f2 e1 d3
+uri amore here=os						d1 c1 d1 e2 d1 e2 f1 g2
+fas <est> vel. no<n> est. amare			f1 g2 a1 b3 c3 c3 a2 g1
+fas est. q<uam>. ergo virgine<m>		a2 f1 g3 a2 g1 f3 f3 c'6 r6
+Q<ue> meru=it bajulare					{fractio=1/2} a3 g3 {fractio=1} a2 b1 {linea=v} a3 a-@b3 g2 f1
+[...]ru<m> de=u<m> <et> ho<min>em		g2 a1 b1 a1 b1 a2 g1 a6 r12
+meru=itq<ue> virtu=osa					g1 g1 g1 d2 e1 g2 g1 d3
+p<re>cunctis plena g<ra>ci=a			g3 a3 b1 a1 b1 a2 g1 a2
+potens mu<n>da. speci=osa				g1 a2 b1 a3 a3 a3 [g2 f1] g3
+dulcis h<u>m<i>l<is> <et> pi=a			a2 x1 f1 f1 f1 a2 b1 c6 r6 {linea=v}
+Cum quis hanc amat amat<ur>.			g3 {fractio=1/2} f-@b3 g3 {fractio=1} a2 b1 a2 g1 f2
+est <er>g<o>. g<ra>ta passi=o			e1 f2 e1 e2 d1 {fractio=1/2} e3 c3 {fractio=1} d6 r12
+su=i amor q<uo> be=at<ur>				a'2 a1 g2 a1 a1 {fractio=1/3} g3 {fractio=1} a1 e3
+amans amoris b<ra>vi=o,					f2 e1 f2 g1 a3 e2 f1 {fractio=1/2} g3
+O mari=a virgo pare<n>s					f3 {fractio=1} g2 a1 g3 g3 a2 g1 a2 {linea=v}
+sic ure spiritum.						b-1 [a1 g1 a1 g2 f1] [e2 d1] e2 f1 g6 r6
+q<uod> amori tu=o pare<n>s				c3 b2 a1 g2 g1 f2 e1 d3
+amore<m> vitem irritum.					d3 e2 d1 e2 f1 e3 b'2 [b1
+										r1 r1 c1 c2 b1 a2 a1 r1 a1 f1 e2 c1 d2 d1 r1 r1 e1 r1 r1 e1 r1 e1 d1 r1 d1 c1 f1 e1 f1 g2 a1 g6 r6 d'1 c1 d1 c2 b1
+										r1 r1 c1 c2 b1 a2 a1 r1 a1 f1 e2 f1 {linea=v} g2 g1 r1 r1 c1 r1 r1 c1 r1 c1 a1 r1 b1 g1 e2 d1 e2 f1 g6 r6 g1 f1 g1 a2 g1
+										r1 r1 f1 f2 e1 d2 d1 r1 d1 e1 d2 d1 e2 f1 r1 r1 g1 r1 r1 g1 r1 e1 f1 r1 g1 g1 f2 d1 e2 f1 e6 r6 f2 g1 a1 g1 a1
+										r1 r1 b1 d2 c1 b2 g1 r1 g1 a1 g1 f1 e1 f2 g1 r1 r1 a1 r1 r1 e1 r1 e1 f1 r1 g1 e1 f2 g1 f2 e1 d6 r6 e2 f1 g1 f1 g1 {linea=v}
+										r1 r1 a1 a1 x1 x1 e2 e1 r1 a1 g1 b-1 a1 g1 a2 a1 r1 r1 b1 r1 r1 g1 r1 a1 e1 r1 a1 b1 a2 b1 c2 b1 c12] {finis=||}

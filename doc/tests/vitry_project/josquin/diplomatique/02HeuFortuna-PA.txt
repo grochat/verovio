@@ -1,0 +1,61 @@
+# tit=02HeuFortuna-PA source=F-Pn_146 voix=triplum ordo=1 lang=lat clemod=g2_8 visa=DC,OB,CC
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 13.04.2020-21:36/ob MODIF: 06.02.2022-23:13/david
+[Qma<n>] novi probatur exitu			{linea=v;modus=2;tempus=2;prolatio=3;relative=c'';cle=c1} [c3§ c2° c1°.] c3§ b2° a1°. g3§ a3. p@F g3§ f2° e1°.
+q<uan>tum prosit inflari spiritu			f3§ g2° a1°. b3§ {linea=v} [a2° g1°.] a3 b3. c3 c3. d3§
+sup<er>bi=e quid plus appet<er>e			a3. [g2° a1°] [g2° f1°.] e3§ e2° e1°. f3§ f2° f1°. g3§
+q<ua>m dece=at et qu<uam> suscipere			{linea=v} g3. b3 c3. d3 d3. d2° c1° b2° g1°. b3
+non lice=at tantumq<ue> scandere			b3. [a2° g1°] [f2° e1°] d6 r6 r12 c'3§ {linea=v} c2° c1°. c3§ c2° c1°.
+q<uod> tede=at			[[d3^ c3]] b3§ a3 [[g3 a3]]
+ut alter ycar<us>			g3§ [a2° b1°] c6 c3 c3 d12 r12
+qui tanq<uam> ignatus			{linea=v} p@ f,3§ f3. f3§ f3. [g2° f1° g2°] a1°.
+in mari fluctu ac			g3§ g2° c1°. a3§ a2° g1°.
+jam submersus.			f2° {linea=v} p@f e1° [f2° a1°] g6 r6
+sic nec est rev<er>sus			[c3§ b2° a1°.] [b3§ c2° d1°.] c3 g3. [a2° g1° a2° b1°.] [c2° b1° c2° d1°.]
+pheton usurpato			e2° d1° e2° {linea=v} c1°. d3§ d2°
+solis regimine			d1°. d2° d1° c2° d1°. e3§
+s<ed> ip<s>o c<re>mato			e3. [e3§ d2°] c1°. d3§ c3. [b2° a1°]
+vico conamine			[g2° f1°.] {linea=v} g2° g1° a2° b1°. c3§
+est ext<er>minatus			[c2° d1°.] e3§ [e2° d1°.] c3§ [b2° a1°] g12 r12
+sic nimis elatus			g6 [c2° b1° c2° e1°.] d3§ {linea=v} c2° b1°. [c3§ b2° a1°.]
+ycari volatus			b2° a1° [g2° f1°.] p@ g3 g3. [a3§ b2° c1°.]
+affectans transce<n>dere			[b2° a1°] [b2° d1°.] c3 c3. c3§ b2° a1°.
+nost<er> amari vincere			g3§ [g2° f1°.] e3§ d2° c1° [d6 d3§] d3 e6
+rapinam phetontis			e6 [g2° a1° b2°] g1°. [b2° c1°] [b2° a1°] g12 r12
+in falcionis montis			p@ [f6 e0] d3§ d3. e3§ e3. a3§
+loco collocatus			a2° a1° [e2° d1° e2° c1°.] e3§ f3 g6
+evectus a pulvere.			g6 [g2° f1° e2° f1°.] {linea=v} [g3§ g2°] f1°. e6 [e2° d1° e2° c1°.] [e2° f1° g2° a1°.]
+ymbre sepe lavatur			[a2° g1° a2°] f1°. g3§ g3. d'3§ [e2° d1°] c12 r12
+aura flante siccatur			e3§ e3. a,3§ a3. e'3§ [d2° c1°.] b3§
+su=is delictis in ymis.			a3. c3§ d3. e3§ d3. c3§ [b2° a1°.] [b3§ a2° g1°.]
+non e=odem cursu respondent ultima p<ri>mis			a3§ g2° f1°. e3§ a3. [g2° f1° g2° e1°.] [a2° g1° f2° e1°] [g6 a0] c6 c3§ b2° c1° d6 e12 {finis=||}
+# tit=02HeuFortuna-PA voix=motetus ordo=3 lang=lat clemod=g2_8
+HE=u fortuna subdola			{columna=v;modus=2;tempus=2;prolatio=3;relative=g';cle=c2} p@F g12 [[g3^ f3] e3° d2° c1° d12] e6 f6 [[g3^ f3] [e3^ d3]] {fractio=1/2} [c12 b0] {fractio=1} c6 d12 r12
+que semper di=astola			[g3§ f2° e1°] f6 g3§ {linea=v;cle=c1} g3. a3§ b3 [c6 b0]
+usq<ue> nunc fu=isti			[a2° b1° a2° b1°] {fractio=2} g6 {fractio=1} b3§ p@F a3. g3§ f3.
+promittendo frivola			g3§ f3. e3§ c3. e6 {linea=v} e6 d12
+tanq<uam> vera sistola			[[g3^ f3]] [g2° f1° g2° a1°] [b6 b2° c1° a2° b1°] c12 r12 c3§ c2° c1°.
+nu<n>c apparu=isti			[c2° b1° c2°] a1°. [g3§ a2° g1°.] f3§ {linea=v} [e2° d1°] c6 r6
+heu q<uo>ci=ens p<ro>spera			e3§ e2° f1°. [g2° f1°] g2° e1°. f3§
+longe pone<n>s aspera			f3. p@ g3§ g3. a3§ {linea=v} a2° e1°. a3§
+m<ihi> p<ro>misisti			a2° a1°. b3§ c3. [d2° c1° b2° a1°] g12 r12
+me ditans innum<er>a			e'6 [e3° d2° c1°.] d3§ d3. {linea=v} e3 d3. c3§
+gaza us<que> ad ethera			g2° c1°. g3§ a2° b1°. [a3§ g2° f1°.] g3§ g2°
+nomen extulisti			a1° b6 d6 [e3§ d2° c1°.] [b2° c1° b2° a1°] g12 r12
+nu<n>c tu=a volubili			p@ g6 g6 a2° a1° a2° e1° a6
+rota lacu flebili			g2° f1° g2° e1°. g3§ a3 b6
+nudu<m> dem<er>sisti			[d3§ c2° b1°.] {linea=v} a3 e'3 [[d3^ c3]] [b6 a0 g3§ f2° g1°] a6 r6
+velud aman mori=or			p@F a2° g1° f2° e1°. [a2° a1° g2°] a1° b12
+de te sic exp<er>i=or			b2° a1° b2° d1°. d3§ c2° b1°.
+q<uod> me decepisti.			a3 a3. p@G [a2° g1° a2° e1°.] [a2° g1° f2° e1°.] [e2° d1° e2° c1°] d12 r12
+qua<n>to gradus alci=or			g3§ [f2° e1°.] f3§ [e2° d1°] e12 {linea=v} [a3§ g2° f1° [g3 a3]] g12 r12
+tanto casus gravi=or			a3§ g3. a3§ c3. [b2° a1° b2° g1°] [[a3 b3]] c12
+hoc me docu=isti..			c3§ b2° a1°. b3 g3 a12 {finis=||}
+# tit=02HeuFortuna-PA voix=tenor ordo=2 lang=non clemod=g2_8
+Heu me tristis est anima mea			{linea=v;modus=2;tempus=2;prolatio=3;relative=c';cle=c4} c12 c12 b12 a12
+			g12 a12 g12 g12 [[g6 a6]] g12 [[f6 a6 c12]] r12
+			c24 b12 c12 d12 [[c12 d6]] [[d6 c12]] [[c6^ b6]] c24 b12 a12 r12
+			c12 c12 c12 b12 [[c12| d6 c6 b12]] [[a6 b6]] c24 b12 a12 r12
+			g12 a12 b12 a12 z12 p@ g24 a12 a12 g12
+			c12 [[c6^ b6]] a12 r12
+			c12 [[c6^ b6]] a12 r12
+			c12 [[c6^ b6]] a12 {finis=||}

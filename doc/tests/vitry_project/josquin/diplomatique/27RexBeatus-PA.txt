@@ -1,0 +1,43 @@
+# tit=27RexBeatus-PA source=F-Pn_146 voix=triplum ordo=1 lang=fr clemod=g2_8 visa=CC,SJ,TSF,DC,OB
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 16.01.2022-13:33/sushaant MODIF: 27.08.2022-20:23/sushaant
+Se cuers joi=ans jonnes jolis			{pagina=v;modus=3;tempus=2;prolatio=3;relative=a;cle=c3} a6 a3 b3. d3 d3. d3 c3. d3
+<et> gentis ainme cest raisons			e3. f3 e3. {linea=v} [d3° c2°] b1°. a6 [d3° c2° d1°] e12 r6
+car au joi=ans est ses deliz			a,6 a6 [g3° a2° b1°.] c3 c3 c6 [d3° c2° b1°] {linea=v} a12 r6
+et au jonnes sa nourrecons			c12 d3 e3. f3 f3. [f6 e0] [d3° c2° d1°] e12 r6
+<et> au joli est sa droicture			d12 d3 d3. c3 {linea=v} c3 {fractio=2} c6 {fractio=1} [d3° c2° b1°] [a6 b3° a2° g1°] a12 r6
+<et> au gentil est sa nature			e'6 [e6 d0] c6 d6 d6 c3 d3 [[e3 f3] [g3 f3^ e6]] d12 r6 {linea=v;cle=c2}
+<et> dautre part nest il nuns hons			a'12 f3 g3. [a3° g2°] f1° e6 f6 g12 r6
+qui puist ne sach^e amours servir			d6 {linea=v;cle=c3} d6 [d2° c1° b2° c1°.] d3 d3. [d3° c2° b1°.] [a3° b2° c1°] d12 r6
+adroit ne ses b<ie>ns deservir			e6 [e6 d0] {linea=v} [c6 b0] a3 a3 a6 [[d3 e3]] f3
+sans les dites condici=ons			f3. f6 [d3° c2° d1°.] e3 e3. {linea=v} a,6 [g3° a2° b1°] c12 r6
+car li cueurs joi=ans lie=ement			f6 f6 [f3° e2° d1°.] e3 e3. c3 d3. e3
+<et> li jennes desirramment			e3. {linea=v} a,3 a3. [d6 e0] f3° e2° d1° p@ c18
+seuffre. sert <et> set obe=ir			[d2° c1° b2° c1°] a6 [[a3^ g3]] a3 {linea=v} a3 a6 [[c3 d3]] e12 r6
+<et> li jolis mignotement			g12 g3 f3. e3 e3. [e6 d0] c6 d3
+et li gentis courtoisement			d3. d3 {linea=v} e3. f3 d3 e12 d6 p@ c12 r6
+lavi^e <et> les jours maintenir.			[d12 e0] d3 c3. d3 e3 {linea=v} [d6 e0] [d3° c2° b1°] a12 r6
+Comment dont sen pourroit tenir			a6 [a6 b0] [d3° c2° d1°.] e3 f3 [e6 d0] {linea=v} e6 d12 r6
+cuers en naturez telement			[c12 d3° c2° b1°.] a3 a3. a3 a3. g3 a3 c12 r6
+dames pensez ditieus choisir			f6 {nota=Les deux dernières lettres de *dames* sont rejetées à la ligne suivante.} f6 {linea=v} [d3° c2° d1°.] e3 c3 [e6 d0] e6 [d3° c2° b1°]
+car bien puet <et> doit avenir			a6 b3 b3. {linea=v} c3 c3 c6 [d2° c1° b2° c1°] a12 r6
+gentilz Jolis Jennes Joi=aus			a12 c3 d3. e3 f3 [e6 d0] {linea=v;columna=v} [e3° d2° c1°] d12
+aubien dont il est desirans			[e2° d1° c2° d1°.] b3 b3. c3 d3. e3 f3 g12 r6 {linea=v;cle=c2}
+nautres ne doit damours jo=ir			e12 f3 g3. a3 g3 e6 f6 g18 {finis=||}
+# tit=27RexBeatus-PA voix=motetus ordo=2 lang=lat clemod=g2_8
+Rex be=atus confessor domini			{linea=v;modus=3;tempus=2;prolatio=3;relative=d';cle=c3} [[d12^ a6] [d3 e3] [f3^ e3] [d3^ c3 d12]] b6 c18 d12 e6 [f12 e0] d6 [|e6 d3° c3°] {linea=v;cle=c2} [[d3 e3]] f12 r6
+Ludovicus justo regimine			f12 g6 a18 a12 [g2° f1° e2° f1°] g12 {nota=La syllabe *re* de *regimine* apparaît une première fois accolée au mot *justo*, puis suscrite au dessus de *gimine*.} [g3° f2° e1°] d12 c6 d12 r6
+q<uo>ndam pollens sanctor<um> agmine			e12 {linea=v} f6 g18. [[e6^ d6]] c6 [[d6 e6]] [[f3^ d3]] [|e6 d3° c3°] d6 e12 r6
+jam conregnat in celi culmine			d12 r6 {linea=v} a'12 [g2° f1° e2° f1°] d12 [d2° c1° b2° c1°] a12 a6 b12 c6 d12 r6
+ergo nos qui sub pari nomine			[c6 d0] c6 b6 {linea=v;cle=c3} a12 [[d3 e3]] f12 g6 [[f3^ e3 f6]] d6 [e6 [e3^ d3] [d3^ c3]]
+processistis ex ejus sanguine			[d12 [c3 d3]] e18 [d12 c3° b2° c1°] d12 [[c3^ b3]] {linea=v} [a12 b0] c6 d12 [d3° c2° d1°] e12 r6
+hoc in ano congratulamini			d12 r6 [[a'12^ g6]] p@ f18 g12 g6 a12 [[a3^ g3]] [[f3^ e3 d6]] {linea=v} [[d3^ c3]] d12 r6
+Siq<ue> mores ejus sequamini			b12 c6 d12 e6 [f12 e0 d3° c2° d1°] e12 [[d3 e3]] [[f3^ e3 f6]] g6 [f12 f3° e2° d1°] {linea=v}
+q<uo>d in vobis sancto conglutine			p@ c18 d12 [[e3 f3]] g12 [g3° f2° e1°] d12 c6 d12 [[c3^ b3]] a12 r6
+nox <et> vita consonent sanguini			d12 [d3° c2° d1°] {linea=v;cle=c2} [e6 [e3^ d3] [d3^ c3]] [[d6 e6]] [[f3 d3]] [|e6 d3° c3°.] [d3° c2° d1°] [e12 d0] c6 d18 {finis=||}
+# tit=27RexBeatus-PA voix=tenor ordo=3 lang=non clemod=g2_8
+Ave			{linea=v;modus=3;tempus=2;prolatio=3;relative=d;cle=c5;color=v;talea=v} d18 d18 d18 e18 [[d12| g6 f12]] [[g6 a12]] [[g6 f12]] r6
+			m@ {talea=v} b18 a18 d,18 c18 [[d12| e6 d12]] [[f6 a12]] [[a6 g12]] r6 {linea=v;arm=b;nota=La troisième section du *color* est une *cauda* qui ne reprend pas le rythme de la *talea.*} e18. [[g12^ f6 a12]] [[b-6 a18]] g12 r6
+			{color=v;talea=v} d18 d18 d18 e18 [[d12| g6 f12]] [[g6 a12]] [[g6 f12]] r6
+			{talea=v} b-18 a18 d,18 c18 [[d12| e6 d12]] [[f6 a12]] [[a6 g12]] r6 e18. [[g12^ f6 a12]] [[b-6 a18]] g12 r6 {linea=v}
+			{color=v;talea=v} d18 d18 d18 e18 [[d12| g6 f12]] [[g6 a12]] [[g6 f12]] r6
+			{talea=v} b-18 a18 d,18 c18 [[d12| e6 d12]] [[f6 a12]] [[a6 g12]] r6 e18. [[g12 f6 a12]] [[b-6 a18]] g18 {finis=||}

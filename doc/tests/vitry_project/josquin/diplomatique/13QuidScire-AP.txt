@@ -1,0 +1,13 @@
+# tit=13QuidScire-AP source=F-APT_16bis voix=triplum lang=lat ordo=1 clemod=g2 visa=JP,DC,CC,OB
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 20.02.2021-23:10/ob MODIF: 07.03.2021-20:37/david
+dAn da<n>tur offici=a burce co<n>sili=o				{modus=2;tempus=2;prolatio=3;relative=f';cle=c2} [f6 f1 e1 f1 e2 d1 [e3^ d3] c2 d1 c1 b1 c1 d6 a'6 a1 g1 a1 g2 f1 g6 f1 e1 f1 e2 d1 c6 g'6] g1 f1 g1 f2 e1 d3 d3 c3 c3 [f2 e1 f2] g1 a6
+fit ja<m> de morib<us> suprema q<ue>sti=o			a1 g1 a1 g2 f1 g3 g3 f2 g1 {linea=v} f2 e1 d6 r6
+dicitur omnib<us> qua carent preci=o				m@F [a'2 b1 a2 g1 f3] r1 r1 [e1 d3] r1 r1 [d1 e3] r1 r1 e1 [f1 e1 f1 e2 d1] [c3 r1 r1 c1 d3 r1 r1 d1 e3 r1 r1 f1 d2 c1 d2 e1] c6 [f2 e1 f2 g1] a6 [[g6^ f6]] [e2 d1 e2 f1] d6 r6
+amen dico vobis q<ui=a> vos nesci=o					[f1 e1 f1] [e2 d1 e1 d1 e1] [d2 c1] d6 [a'2 g1 a2 g1] f6 d3 d3 [e1 d1 e1 d2 c1] d3 e3 f12 {finis=||}
+# tit=13QuidScire-AP source=I-IV_115 voix=motetus lang=lat ordo=2 clemod=g2_8
+Uid Quid scire p<ro>derit nova <et> vet<er>a		{modus=2;tempus=2;prolatio=3;relative=c';linea=v;cle=c2} [c6 c2 b1 c2 d1 [e3 g3] [f3^ e3] d2 e1 d1 e1 c1] d12 e2 e1 d2 c1 d6 f1 e1 f1 e2 d1 e3 
+mun<erus> dat q<ue>libet <et> moll<er>is h<er>era	e3 c3 c3 d2 c1 d2 e1 f6 f1 e1 f1 e2 d1 [c6 r6 e3 e3 r6 g2 a1 g2 f1 [e3 f3] {linea=v} e2 f1 e2 d1 c3 d2 d1 r1 r1 d1 b3 r1 r1 b1 g3 r1 r1 a1 b3 r1 r1 a1 c3 r1 r1 c1 a3 r1 r1]
+nemo vane regnat q<ui> te<n>dit mun<er>a			a1 c3 d6 [c3 c3 c3] [b2 c1] d3 d3 e2 f1 e2 d1 [c3 c3 b2 c1 b2 a1]
+graci=e vacu=a dextera								g6 [a2 g1 a2 b1] c6 [b2 a1] [b2 c1] [d6 d2 c1 d1 e1 d1] [[c6^ b6] [a3 c3]] [[d3^ b3]] c24
+# tit=13QuidScire-AP voix=tenor lang=non ordo=3 clemod=f4
+Enor dan dantur officia or [...]					{modus=2;tempus=2;prolatio=3;relative=f;linea=v;cle=f3} f12 [[e6 f6 d12]] [[d6^ c6 d6 f6 c12]] [[d6 f6]] f12 [[f6^ e6 f6 g6 a12|]] [[f6 g6^ e6 f6]] [[f6 d6^ c6 d6]] f12 [[d6 e6 f6 g6]] [[g6 a6 f6 e6 d12]] [[f6 g6 a6 g6 f24|]]

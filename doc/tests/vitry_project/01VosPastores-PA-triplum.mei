@@ -34,6 +34,7 @@
             </staffGrp>
           </scoreDef>
           <section>
+            <measure n="1">
             <staff xml:id="triplumB" n="1">
               <layer n="1">
                 <sb type="pagina"/>
@@ -63,7 +64,7 @@
                     <syl wordpos="m" con="d">ba</syl>
                   </verse>
                 </note>
-                <note dur="brevis" oct="3" pname="g">
+                <note dur="brevis" oct="3" pname="g" xml:id="999">
                   <verse n="1" lineid="0">
                     <syl wordpos="t">tus</syl>
                   </verse>
@@ -989,6 +990,10 @@
                 <barLine form="dbl"/>
               </layer>
             </staff>
+            <dir tstamp="2" place="above" staff="1">koko</dir>
+
+            <dynam place="above" startid="999">kiki</dynam>
+          </measure>
           </section>
         </score>
       </mdiv>

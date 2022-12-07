@@ -1,0 +1,49 @@
+# tit=19Durement-IV source=I-IV_115 voix=triplum ordo=1 lang=fr visa=OB
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 16.01.2022-23:09/ob MODIF: 05.02.2022-00:37/david
+[...]mer amours est la choison pour quoy			{pagina=v;relative=g';modus=2;tempus=2;prolatio=3;cle=c1} g6 e3 e3 g2 a1 g2 f1 e3 d3 c6
+elle avolu mon cuer oster de moy			f3 g2 f1 e3 e3 e2 d1 e2 c1 d3
+pour leu sarrer en <.i.> lieu ou je croy			f3 {linea=v} e2 f1 e2 d1 c2 d1 e2 f1 g6
+com locirra			c,6 e6 e6 d6
+quar de celle qui contre son gre la			e2 d1 e2 c1 d3 e3 f3 g2 f1 e6
+mort ou ames parfaiteme<n>t sera			f2 g1 {linea=v} f2 e1 g3 f2 g1 a3 a3 g6
+<et> je le vueil ayns qu'il emparte ja			a3 a3 m@ [b3 a2 g1] a3 b3 a6 a3 a2 g1 {cle=c2} f2
+pour retorner			g1 f2 e1 g6 r6
+quar la doco<ur> de son douz regarder			a3 a3 r6 d,2 e1 {linea=v;cle=c1} f2 g1 a3 a3 e6 g6
+qua<n>t moy li plait doucement regarder			m@ b2 a1 b2 g1 a3 a3 g6 a3 a3 b3
+croire me fait quelle me vueille= amer			a2 g1 f3 e3 f6 a3 f3 {linea=v} e2 d1 e2 c1
+<et> en ardir			d3 e2 f1 g6 r6 
+de ma dolour humbleme<n>t descourrir			a3 f3 z6 m@ b2 a1 b2 g1 f3 g3 a6 g6
+mas qua<n>t se vient a merci requirir			a2 g1 a2 b1 a3 {linea=v} b2 a1 g3 f3 g6
+<et> je li voy sa response garnir			a6 b3 b3 c6 [c3 b2 a1] b2 a1 a2 g1 g2
+daspre dangier			f1 f2 e1 f6 r6
+<et> de refus que je tient pour bouchier			g3 g3 r6 c,2 b1 c2 d1 e3 {linea=v} g3 f6 c'6
+de cher dami lors ne say que jugier			b3 a3 [b2 a1] b2 c1 a3 [g2 f1] e3 d3 f6
+le quel des trois ge doy mai<n>s avoir cher			f3 f2 g1 a3 b3 a6 m@ b3 b2 a1 {linea=v} g2
+le tra=itour			a1 g2 f1 g6 r6
+qui me co<n>duit desarmes en sur jour			g3 d3 r6 f2 f1 e2 f1 d3 d3 [e2 d1 e2 f1] [[e6 f6]]
+mon anemi ou li qua<n>t a dolo<ur>			d3 d3 a'3 [g2 f1] [e2 d1] [e2 f1] d3 c2 d1 e6 {linea=v}
+mi fait languir ou moy qui par folour			f2 g1 a2 b1 c3 a3 a3 a2 g1 f2
+partir nen say			g1 f2 e1 g6 r6
+car grant biaute= est sovent sens bonte			b3 g3 r6 d'2 c1 d2 d1 d3 {linea=v} c2 d1 a6
+cuer dur en cors pare dumilite			a2 a1 b2 c1 d3 [d2 c1] b3 a2 b1 c3
+ne<n> douz regart na poi<n>t de se=urte			[a2 b1] c3 a3 b2 b1 g2 g1 d3 e3 f12 {finis=||}
+# tit=19Durement-IV voix=motetus arm=b ordo=2 lang=fr
+[..]urement au cuer me blece			{pagina=v;relative=c';modus=2;tempus=2;prolatio=3;cle=c3} r12 r12 r12 r12 r12 r12 c12 c6 g6 [[a6^ g6]] f6 a6 b-6 [g6 a2 g1 a2 b-1]
+ce que di=ent li plusour			[[c6 d6]] [b-2 a1 b-2 g1] a12 [d3 c3] b-3 a3 g12 r6
+qua mours est de tel noblece			d'18. e6 c6 [b-2 a1 b-2 c1] {linea=v} d6 c3 b-3 a6
+que faire ne puet faus tour			[[g3 a3]] [b-1 a1 b-1 a2 g1] f12 a3 [c3 b-3] a3 g12 r6
+mes en moy sens le co<n>trarie			b-18. [a2 g1 a2 b-1] c3 c3 d6 f3 f3 e12
+quar puis qua mours donna			[d6 b-3 a2 b-1] {linea=v} c6 f,6 [[g3 a3]] [b-1 a1 b-1 a2 g1] f12 r6
+mons cors mes cuers sens retraire			g'18. f6 a6 g3 a3 g3 f3 e6
+elle tantost le [liv] *ra			[c3 b-2 c1] [[d3 e3]] [f3 e2 d1] e12 [[e3^ d3]] {linea=v;arm=c} [c3 b2 c1] d12 r6
+a son mortel e<n>nemi			b18. [a2 g1 a2 b1] a6 f6 g3 g3 p@c [[a3 b3] c1 b1 c1 b2 a1]
+qui droit ne mer ci			{fractio=1/2} b12 {fractio=1} [a2 g1 a2 b1 c12] m@B d3 c3 b3
+ne veut diex he si nay ge mi=e			a3 g12 r6 d'18. e3 d2 e1 {linea=v} p@D f3 f3 g12
+pour amer mor deservi			a3 [g2 a1] f3 e3 d6 b6 c12 {finis=||}
+# tit=19Durement-IV voix=tenor arm=b ordo=3 lang=non
+Dolour meus Tenor			{linea=v;relative=g';modus=2;tempus=2;prolatio=3;cle=c3;color=v;talea=v} r12 r12 r12 r12 r12 r12 g24 r12 c,12 d12 e12 f12 e12 r12
+			{talea=v} d24 r12 e12 f12 e12 d12 c12 r12
+			{talea=v} d24 r12 e12 d12 c12 d12 c12 r12
+			{talea=v} c24 r12 f,12 g12 a12 b-12 a12 r12
+			{talea=v} g24 r12 a12 b-12 a12 g12 f12 r12
+			{talea=v} g24 r12 a12 g12 f12 g12 f12 r12

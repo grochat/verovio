@@ -1,0 +1,48 @@
+# tit=08Hugo-CA source=F-CA_1328 voix=triplum ordo=1 lang=lat clemod=g2_8 visa=DC,OB,CC
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 14.08.2020-09:51/ob MODIF: 05.02.2022-19:34/david
+Cum statu=a nabugodonosor			{pagina=v;cle=c1;relative=a';modus=3;tempus=2;prolatio=3;nota=Transcription du motet réalisée à l'aide du MS. F-CA 647, sur le plat antérieur duquel a été collé le folio 3v du ms. F-CA 1328.} x6 z6 x3 x3 x6 z6 [x2 x1] x2 x1 x3 x3 x6
+metallina successive sy=on			[x2 x1 x2 x1] x3 x3 x6 {linea=v} x3 b2 a1 g3 f3 g6 r6
+ac g<ra>dati<m> deduci ac min<us>			c,6 r6 g'3 p@ f3 a12 a3 b2 a1 g3 f3 g6
+sicticolis pass<us> est d<omi>n<u>s			[g3 a2 g1] f3 g3 {linea=v} a6 b3 c2 b1 a3 a3 g6 r6
+que cum p<ri>mo fu=<er>it aure=a			a12 [a2 b1] g2 a1 b3 b3 [[a3 c3]] b3 a3 g12
+v<ir>tu=osis inde arge<n>te=a			{linea=v} b6 a3 a3 g6 [g2 f1] e2 d1 e3 e3 f12
+carne mu<n>dis de=inceps ere=a			a3 a3 r6 {cle=c2} a,12 [[a'3^ g3]] a3 b3 c6 {linea=v;cle=c1} b3 a3 g6
+s<an>c<t>i loq<ui>s fict<il>is ferre=a			d'3 d3 c3 c3 b3 a2 g1 p@ f3 e3 g12
+ac luce=a patet novissime			[[e3 f3]] g3 a3 g6 [b3 a2 g1] a3 c3 b3 {linea=v} a3 g12
+novissimis quibusda<m> maxime			e6 [f3 e2 d1] c2 d1 e2 c1 d6 a'3 a3 g12
+corde datis una cu<m> p<at>rib<us>			d3 d3 r6 d12 e3 {linea=v} d3 c2 d1 e2 c1 d18.
+ypocritis anthifragis quib<us>			a'3 a3 m@c b3 a2 g1 a3 a3 b3 b3 c12
+dat mendici nom<en> sophistice			b6 {linea=v} a3 a3 g6 p@D [f3 e2 f1] g3 g3 a3 b3 c18.
+hec <con>cino philippus publice			d3 d3 c6 b2 a1 b2 g1 {linea=v} a3 b3 g12 r6 r6
+et qui=a			g6 r6 [a2 r1 a2] r1 a6 r6
+impi=a			[g2 r1 g2] r1 [e2 r1 e2] r1 d3
+lingua ledor uni=us t<er>rite			d3 e2 d1 e2 f1 d3 f3 e3 d3 c12 r6 r6
+pro vero			a'6 r6 [a2 r1 a2] r1 a6 r6
+refero			[b2 r1 b2] r1 [g2 r1 g2] r1 e3
+a prophe<t>is falsis attendite			e3 f2 e1 f2 g1 a3 [g2 a1] f3 e3 f12 {finis=||}
+# tit=08Hugo-CA voix=motetus ordo=3 lang=lat clemod=g2_8
+Hugo hugo princeps invidi=e 			{columna=v;cle=c2;relative=a;modus=3;tempus=2;prolatio=3} x12 z6 [x18 x6 x12 x12 x6 x6 x12 x12] z6 [x18 x2 x1 x2 x1] x6 x6 x3 x3 x6 {linea=v} [d2 e1 f2 d1] e18.
+tu cu<m> p<ri>ma patebas faci=e			d6 a'6 [g2 f1 e2 d1] e3 d3 e6 f6 g3 g3 d6
+homo pacis virtutum fili=<us>			f3 g2 f1 e3 e3 {linea=v} d3 d3 c6 b6 c6 r6
+te neminem decet in p<o>p<u>lo			a12~ r6 a'3 b3 [a6 f2 g1 e2 f1 g6] g3 a2 b1 c3 b3 a12
+lingue tu=e ledere jacolo			b6: b3 a3 c12 {linea=v} b6 g3 f3 e3 f3 e6
+sed ignatu<m> docere poci=us			d6 e3 f3 [[g12| a6]] m@ [b3 a2 g1] [[f3^ e3]] g6 e3 d3 c6 r6
+qua me culpas igitur rabi=e			a'12 r6 [[a3 b3]] {linea=v} [a6 f2 g1 e2 f1] g6 b6 g3 f3 e3 a3 g6
+assignata mihi ulla di=e			[g2 f1 e2 d1] e3 e3 f12 e3 e3 a,6 c6 [[b3^ a3]] g12~ {linea=v}
+inconsultus causamq<ue> nesci=us			g'3 [g2 f1] e3 f3 [g2 a1] [g2 f1] a12 g6 f6 g6 r6
+stupe=o			e3 f3 g6 r6
+et e=o			f3 g3 r1 r1 [a1 r1 r1 a1 a3] r3
+cum invidis sic sis palam pi=us			e3 {linea=v} f3 r1 r1 [g1 r1 r1 g1] r1 r1 [e1 r1 r1 e1] r6 [a3 g2 a1] b3 g3 a3 a3 g6 r6
+p<er>pere			f3 g3 a6 r6
+dicere			a3 g3 r1 r1 [a1 r1 r1 a1] r6
+ypocritam te possum veri=us.			b3 g3 r1 r1 [g1 r1 r1 g1] {linea=v} r1 r1 [d1 r1 r1 d1] r6 f6 e3 d3 c3 b3 c12 {finis=||}
+# tit=08Hugo-CA voix=tenor ordo=2 lang=non clemod=g2_8 arm=b
+Tenor. magister inuidie.			{linea=v;cle=c3;relative=e';modus=3;tempus=2;prolatio=3;color=v;talea=v} r6 e12 r6 [[d12* c18.]] [[d6 f6 e6 d6 c12]]
+			{talea=v} r6 c12 r6 [[d12* c18]] [[b-6 a6^ g6 a6 c12]]
+			{talea=v} r6 d12 r6 [[a12* g18.]] [[a6 b-6 a6 g6 f12|]] {linea=r}
+			{color=v;talea=v} r6 e'12 r6 [[d12* c18.]] [[d6 f6 e6 d6 c12]]
+			{talea=v} r6 c12 r6 [[d12* c18]] [[b-6 a6^ g6 a6 c12]]
+			{talea=v} r6 d12 r6 [[a12* g18.]] [[a6 b-6 a6 g6 f12|]] {linea=r}
+			{color=v;talea=v} r6 e'12 r6 [[d12* c18.]] [[d6 f6 e6 d6 c12]]
+			{talea=v} r6 c12 r6 [[d12* c18]] [[b-6 a6^ g6 a6 c12]]
+			{talea=v} r6 d12 r6 [[a12* g18.]] [[a6 b-6 a6 g6 f12|]] {linea=r}

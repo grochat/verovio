@@ -1,0 +1,86 @@
+# tit=11Virtutibus-IV source=I-IV_115 voix=triplum ordo=1 cle=c1 lang=lat clemod=g2 visa=JP,OB,DC,CC
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 18.06.2020-21:35/ob MODIF: 09.07.2021-23:52/ob
+INpudenter circu=itu=i					{relative=f';modus=2;tempus=2;prolatio=3;cle=c1;pagina=v} f3 [f2 e1] d6 c12 [f2 e1] f2 g1 a6 a6 
+solu<m> q<uod> mare termi<n>at			[c2 b1] a2 g1 a3 f3 a3 b3 c12
+Indiscrete <con>cupivi					c3 c3 f,6 [c'2 b1] a2 g1 a3 f3
+q<uo>tq<uo>t amat q<uo> inq<ui>nat		g1 f1 g1 f2 e1 f2 e1 f2
+hic amo forsam n<ec> a[...]				d1 e2 d1 {linea=v} e2 f1 e6 [a2 b1] c2
+t<un>c p<ro> m<er>ced<e> cruci=o<r>		c1 [c2 b1] [a2 g1] f2 f1 a2 a1 g6 r6
+aut amor n<on> in me amor				d'1 d1 d1 d2 c1 b-2 a1 b2
+t<un>c ingrat<us> effici=or				g1 [a2 b1] [a2 g1] a2 g1 a2 b1 c6 r12
+p<or>ro cu<m> amor et amo				c2 b1 a2 g1 a1 g1 a1 f3
+mat<er> ene medi=a						d2 d1 {linea=v} [e2 f1] g3 a2 g1 f2
+In mome<n>tane=o spasmo					e1 f2 g1 a1 g1 a1 b2 b1
+certam<in>is materi=a					c3 b2 a1 g3 g3 a3 b3 a6 r6
+ex quo caro longe fetet					e3 e3 f1 e1 f1 e2 d1 e2
+ad amoris acule=os						d1 e2 f1 g2 g1 a2 b1 c6 r12 {linea=v}
+quis igit<ur> ultra petet				b-1 b1 b1 a2 g1 f2 e1 d3
+v<ir>i amore h<er>e=os					d1 c1 d1 e2 d1 e2 f1 g2
+fas est vel no<n> est amore				f1 g3 a2 b1 c3 c3 a2 g1
+fas est qua<m> ergo virgine<m>			a2 f1 g3 a2 g1 f3 f3 c'6 r6
+que meru=it bajulare					a2 g1 a2 b1 {linea=v} a3 a3 g2 f1
+ver<um> de=u<m> et ho<m>inem			g2 a1 b1 a1 b1 a2 g1 a6 r12
+meru=itq<ue> virtu=osa					g1 f1 g1 d2 f1 g2 g1 d3
+precu<n>ctis plena grati=a				g3 a3 b1 a1 b1 a2 g1 a2
+potens mu<n>da speci=osa				g1 a2 b1 a3 a3 g3 [g2 f1] g3
+dulcis hu<m>ilis et pi=a				a2 {linea=v} g1 f1 f1 f1 a2 b1 c6 r6
+cu<m> quis amat ha<n>c amat<ur>			g3 f2 g1 a2 b1 a2 g1 f2
+est ergo grata passi=o					e1 f2 d1 e2 d1 e2 c1 d6 r12
+su=i amor quo be=at<ur>					a'2 a1 g2 a1 a1 g1 a1 e3
+amans amoris bravi=o					f2 e1 f2 g1 a3 e2 {linea=v} f1 g2
+o mari=a virgo parens					f1 g2 a1 g3 g3 a2 g1 a2
+me=u<m> sic ure sp<iritu>m				b1 [a1 g1 a1] [g2 f1] e2 d1 e2 f1 g6 r6
+q<uod> amori tu=o parens				c3 c2 b1 a2 g1 f2 e1 d3
+amore<m> vitem. Irritum.				d3 e2 d1 e2 f1 e3 b'2 [b1 {linea=v}
+										r1 r1 c1 c2 b1 a2 a1 r1 a1 f1 e2 c1 d2 d1 r1 r1 e1 r1 r1 e1 r1 e1 d1 r1 d1 c1 f1 e1 f1 g2 a1 g6 r6 d'1 c1 d1 c2 b1
+										r1 r1 c1 c2 b1 a2 a1 r1 a1 f1 e2 f1 g2 g1 r1 r1 c1 r1 r1 c1 r1 c1 a1 r1 b1 g1 e2 d1 e2 f1 g6 r6 g1 f1 g1 a2 g1
+										r1 r1 f1 f2 e1 d2 d1 r1 d1 e1 d2 d1 e2 f1 {linea=v} r1 r1 g1 r1 r1 g1 r1 e1 f1 r1 g1 g1 f2 d1 e2 f1 e6 r6 f2 g1 a1 g1 a1
+										r1 r1 b1 d2 c1 b2 g1 r1 g1 a1 g1 f1 e1 f2 g1 r1 r1 a1 r1 r1 e1 r1 e1 f1 r1 g1 e1 f2 g1 f2 e1 d6 r6 e2 f1 g1 f1 g1
+										r1 r1 a1 a1 g1 f1 e2 e1 r1 a1 g1 b1 a1 g1 a2 a1 r1 r1 b1 r1 r1 g1 r1 a1 e1 r1 a1 b1 a2 b1 c2 b1 c12] {finis=||}
+# tit=11Virtutibus-IV voix=motetus ordo=3 cle=c1 lang=lat clemod=g2
+VIrtutibus laudabilis					{relative=f';modus=2;tempus=2;prolatio=3;cle=c1;pagina=v} r12 r12 r12 r12 r12 r12 f3. f1 g2 [a6 a1 g2 a1 b2 c6 [c3^ a3]] [b-1 a1 b1 a1 g2 a1 a2 g1 f2 e6] d3 d3 c6 r6
+moribus come<n>dabilis					c'3 b1 a2* g3 a3 g3 g3 [f1 e1 f1] z1 z2
+[...]ci=e peramabilis					[e1 d2 e1 f2* e3] d1 e2* f3 f3 c'3 c3 a6 r12
+puritate legibilis						a3 {linea=v} a1 b2* [c6 c1 b2 a1 g2*. [a3^ f3]] [f1 e1 f1] e1 d2 c+6 r6
+kari desiderabilis						d3 [e1 f2*] [[g6 a6] b-1 a1 b1 a1 g2] a1 a2 g1 f2* e3.
+genere venerabilis						d1 e2 [f1 e2] d1 e2* f3 g3 f6 r12
+potenti=a terribilis					[a3. a1 g2 a1 b2 c1 b2*] [c3 b1 a2*] g3 g3. [a1 b2] c1 b2 c6 r6
+actibus profamabilis					g3. {linea=v} f1 g2 a1 a2 g1 f2* e3
+miraculis mirabilis						e3 d6 [d1 e2 f1 e2] [f1 e1 f1 e1 d2] e6 g3 a3 g6 r12
+mari=a caro nobil<is>					e6 [f1 e1 f1 e1 d2] [e1 d2 e1 f2*] e3 d3 c3 d3 e6 r6
+esse carni sic utilis					[f3. e1 f2] d12 [d1 e2] [f1 e2] [f1 e2] f1 g2* a3
+velis q<uo>d per te labilis				b1 a2 [a1 g2] {linea=v} a1 f2* e3 d3 e6 r12
+spiritus infinbilis						[d3. c1 d2 e1 d2] [e1 c2*] d3 c3 d6 [e1 d2 e1 f2] e6 r6
+tandem reddatur h<u>m<i>lis				[d1 e2] [f1 e2*] f3 g3 [a6 c3.] b1 a2 g6
+ac de=o acceptabilis					a1 a2 g1 f2* e3 d1 e2* [f3 r3 r3 a3 r1 r1 g1 r1 r1 f1 a3 r3 b-3 g3 r1 r1 f1 r1 r1 e1 d6 [d3 e3] {linea=v} r6
+										f3 r3 r3 c'3 r1 r1 b1 r1 r1 c1 a3 r3 [f3 g3] r1 r1 a1 r1 r1 b1 c3 b1 a2* [g3 a3] r6
+										b-3 r3 r3 f3 r1 r1 a1 r1 r1 b1 c3 r3 [b3 c3] r1 r1 c1 r1 r1 g1 a6 [d,3 e3] r6
+										g3 r3 r3 d3 r1 r1 e1 r1 r1 d1 e3 r3 [e3^ c3] r1 r1 f1 r1 r1 a1 g3 f1 g2* [a3^ f3] r6
+										a3 r3 r3 e3 r1 r1 d1 r1 r1 e1 g3 r3 [a3^ e3] r1 r1 d1 r1 r1 e1 f12] {finis=||}
+# tit=11Virtutibus-IV voix=tenor_solus ordo=4 cle=c3 arm=b lang=non clemod=g2_8
+Tenor solus								{relative=c;modus=2;tempus=2;prolatio=3;linea=v} r12 r12 r12 r12 r12 r12
+										f24 [[c'6 b-6 a12]] [[b-6 c6^ f,6 c'6 g12]] [[b-6 a6 g6^ f6]]
+										f12 f'12 [[d6^ c6 f12]] [[f6 e6^ a,6 d6 c12]] [[b-6 a6 g6^ f6
+										b-24|]] d12 c12 [[d6 c6^ f,6 c'6 a12]] [[d6 c6 b-6 a6
+										g12]] g12 [[c6 b-6 a12]] c12 [[c6^ f,6 g6 b-6^ a6 b-6 a6^ g6]]
+										a12 [[a12| b-6 a6^ g6 b-6 a12]] [[a6 g6 f12]] {linea=v} [[c'6 b-6 a6 g6
+										f12]] [[c'3 b-3^ a6]] [[b-3 c3]] [[f,3 c'3^ g6]] [[b-3^ a3]] [[a3^ g3]]
+										[[f6 f'6]] [[d3^ c3 f6]] [[f3^ e3]] [[a,3 d3^ c6]] [[b-3^ a3]] [[g3^ f3]]
+										[[b-12| d6^ c6]] [[d3^ c3]] [[f,3 c'3^ a6]] [[d3^ c3]] [[b-3 a3
+										g12]] [[c3 b-3^ a6 b-6]] [[c3^ f,3]] [[g3 b-3]] [[a3 b-3]] [[a3^ g3 a12|]] [[b-3^ a3]] [[g3 b-3^ a6]] [[a3 g3^ f6]] r6
+# tit=11Virtutibus-IV voix=tenor ordo=5 cle=c3 lang=non clemod=g2_8
+Tenor Alma Redemptoris.Cu<m> <contra>tenor		{relative=c;modus=2;tempus=2;prolatio=3;linea=v} r12 r12 r12 r12 r12 r12
+										f-@b24 r12 r6 a6 [[b6 c12]] [[c6 d12]] r12 r12
+										f24 r12 r6 f6 f6
+# tit=11Virtutibus-IV voix=contratenor ordo=2 cle=c3 arm=b lang=non clemod=g2_8
+Contra tenor							{relative=c;modus=2;tempus=2;prolatio=3;linea=v} r12 r12 r12 r12 r12 r12
+										{color=v;talea=v} r6 c'12 r6 [[c6 b-6 a12]] r6 r6 f6 r6 [[g12| b-6 a6 g6^ f6]]
+										{talea=v} r6 f12 r6 [[d'6^ c6 f12]] r6 r6 a,6 r6 [[c12 b-6 a6 g6^ f6]]
+										{talea=v} r6 f'12 r6 d6 [[d6 c12]] r6 r6 f,6 r6 a12 [[d6 c6 b-6^ a6]]
+										{talea=v} r6 d12 r6 [[c6 b-6 a12]] r6 r6 f6 r6 [[b-12^ a6 b-6 a6^ g6]]
+										{talea=v} r6 a12 r6 [[b-6 a6 g12]] r6 r6 a6 z6 c12 [[c6 b-6 a6^ g6]]
+										{color=v;talea=v} r3 c6 r3 [[c3 b-3^ a6]] r3 r3 f3 r3 g6 [[b-3^ a3]] {linea=v} [[g3^ f3]]
+										{talea=v} r3 f6 r3 [[d'3^ c3 f6]] r3 r3 a,3 r3 c6 [[b-3^ a3]] [[g3^ f3]]
+										{talea=v} r3 f'6 r3 d3 d3 c6 r3 r3 f,3 r3 a6 [[d3^ c3]] [[b-3^ a3]]
+										{talea=v} r3 d6 r3 [[c3 b-3^ a6]] r3 r3 f3 r3 b-6 [[a3 b-3]] [[a3^ g3]]
+										{talea=v} r3 a6 r3 [[b-3 a3^ g6]] r3 r3 [[a3 b-3 c12|]] {finis=||}

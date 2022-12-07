@@ -169,7 +169,8 @@ void View::DrawMensuralRest(DeviceContext *dc, LayerElement *element, Layer *lay
 
     switch (drawingDur) {
         case DUR_MX: charCode = SMUFL_E9F0_mensuralRestMaxima; break;
-        case DUR_LG: charCode = SMUFL_E9F2_mensuralRestLongaImperfecta; break;
+        case DUR_LG: charCode = SMUFL_E9F1_mensuralRestLongaPerfecta; break;
+        case DUR_2BR: charCode = SMUFL_E9F2_mensuralRestLongaImperfecta; break;
         case DUR_BR: charCode = SMUFL_E9F3_mensuralRestBrevis; break;
         case DUR_1: charCode = SMUFL_E9F4_mensuralRestSemibrevis; break;
         case DUR_2: charCode = SMUFL_E9F5_mensuralRestMinima; break;

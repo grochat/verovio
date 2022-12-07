@@ -1,0 +1,49 @@
+# tit=25Jure-PA source=F-Pn_146 voix=triplum ordo=1 lang=lat clemod=g2_8 visa=CC,SJ,TSF,DC,OB
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 28.12.2021-22:11/sushaant MODIF: 06.02.2022-22:26/david
+Scari=otis geniture 			{pagina=v;modus=2;tempus=2;prolatio=3;relative=d';cle=c2} d3° c2° d1°. e3 d3 p@ [c6 d0] e3§ e2°
+vip<er>e=o p<ar>iture 			f1° g6 [[g3 a3]] b3 {nota=Le point est presque effacé.} a3. g2° f1° g2°
+eq<ui>pollent quippe jure 			e1°. f3 {linea=v} g3 a6 [g6 g3] f3. e3§ f2° 
+q<ui> rectorem mu<n>di mire<m>			g1°. a3 b3 g12 r12 a2° e1° f2° a1°. {linea=v}
+flor<um> florem			a3 e3 a6 b3
+henricu<m> imp<er>atore<m> 			a3 g6 g3° [f2° e1°] [d6 d3] d3 [e6 d0] c3
+ob arge<n>tu<m>			d3 e6 f6 g12 r12 {linea=v}
+mi<ni>strando sac<ra>me<n>tu<m> 			p@ g12 a6 b3§ a2° g1°. f3° g2° f1°.
+p<er>pere vini cru=e<n>tu<m>			e3 f3 [g6 g3] d3. e3 e3 a,6 [d6 d3]
+morti dire			d3 {linea=v} e6 f6 g12 r12
+tradideru<n>t heu delire			p@ c,12 [d6 e0] g3§ [g2° f1°.] e3 f3 [e6 d0] c6
+di=es ille di=es ire			g'3 a3 b6 b3° a2° g1° [a6 a3] g3 {linea=v}
+heis avara			a6 b3 a3 g12 r12
+secta heu lu=es amara			[a6 a3] e3. d3 c3 d6 d12 f3§ [e2° d1°.]
+p<re>dicator<um> p<re>clara			c3 d3 e6 e3 c3 {linea=v;cle=c3} [d6 c0] b6 a12 
+ext<er>i=us			g12 d'6 g,6 d'12 r12
+heu aude=o nil ampli=<us>			[d6 d3] d3 a6 b6 p@ c12 d6 e2° d1°
+enarrare det<er>i=us			c2° d1°. e3 f3 {linea=v;cle=c2} a6 [g6 a0] [g3° f2° e1°.] d3
+tot s<un>t g<ente>s			d3. e3 f3 e12 r12
+senci=u<n>t tam<en> studentes			[g6 g3] a3 [g6 g3] f3 e12 d3 c3 [d6 e0]
+lucano servat multos fortuna noscentes			g12 {linea=v;cle=c3} c,3 b3. a3 c3 b12 [d3° c2° d1°.] e3 d3. p@ c3 b3 a6 g12 {finis=||}
+# tit=25Jure-PA voix=motetus ordo=2 lang=lat clemod=g2_8
+Jure q<uo>d in op<er>e			{modus=2;tempus=2;prolatio=3;relative=g';cle=c2;columna=v} p@F [g6 f0] e3 g3 f6 [e3° d2° c1°.] d3 e3
+davitico p<re>stolat<ur>			[d6 c0] b3 d3 [c6 b0] a3 b3 a6 g12 r12
+cesare=o fun<er>e			[g'6 f0] e3 {linea=v} p@F g3 f6 f2° e1° f2°
+jacobitis applicat<ur>			d1°. e3 f3 e6 [d6 c0] b3 d3 [c6 d0]
+<et> eni<m> homo pacis me=e.			e2° d1° e2° c1°. b3 c3 b6 {linea=v;cle=c4} [a6 g0] p@ f3
+in quo sp<er>avi			g3. a3 b3 a6 g12 r12
+q<ui> edebat panes me=os			p@ c12 d3° [e2° f1°.] e3 d3. c3 d3 e6 {linea=v;cle=c3}
+magnificavit			[d6 e0] [g6 f0] e3 f3 e6
+s<upe>r me suppla<n>tac<i>=o<n>em			d6 p@C [d3° c2° b1°] c12 d3 e3 [d6 c0] [b6 c0] [d6 e0] p@ f12 r12
+sac<ra>me<n>to p<ro>tin<us>			[e6 f0] a6 g3 f3. {linea=v} p@f e3 g3 f6
+cla<m> toxicato potat<ur>			f2° e1° f2° d1°. e3 f3 e6 [d6 c0]
+henric<us> p<er> facin<us>			b3 d3 c6 [e6 f0] [g6 g3] f3 [e6 f0]
+auro dato vi=olat<ur>			[e3§ d2° c1°.] d3 {linea=v} e3 [d6 c0] b12 [c6 d0] [c3§ b2° a1°] p@f b12 r12
+sic q<uo>d dixit d<omi>n<u>s			a'12 [g6 a0] [g3° f2° e1°] d12 {fractio=1/2} [g12 f0] {fractio=1} [e2° f1° g2° e1°] f12
+de hisde<m> verificat<ur>			[g6 g3] d3 e6 d6 [[c3 b3^ a6]] {linea=v} g6 [a2° g1° a2° b1°] a12 r12
+veni=u<n>t falsi p<ro>phete in vestimentis ovi=um			g12 [a2° g1° a2° b1°] p@f a6 [e'6 e3] f3 [g6 f0] [e3° d2° c1°.] d3 e3 d6 p@ c12 d3 e3. {linea=v} [f3§ e2°] d1° e12
+lupi autem interi=us rapaces			[f3§ e2° d1°.] c3 d3 [e6 e3] d3 f6 e6 f3 g3 a6 g12 {finis=||}
+# tit=25Jure-PA voix=tenor ordo=3 lang=non clemod=g2_8
+Sup<er>ne matris gaudia <et>c			{modus=2;tempus=2;prolatio=3;relative=g;cle=c5;color=v;talea=v} 
+			g12 a12 g12 r12 f12 g12 a12 c12 b12 a12 r12
+			{talea=v} c12 g12 a12 r12 g12 f12 [[e12^ {nota=Variation dans la *talea* : diminution de la longue en deux brèves.} d6 e6]] p@ f12 g12 r12
+			{linea=r;color=v;talea=v} g12 a12 g12 r12 f12 g12 a12 c12 b12 a12 r12
+			{talea=v} c12 g12 a12 r12 g12 f12 [[e12^ d6 e6]] p@ f12 g12 r12
+			{linea=r;color=v;talea=v} g12 a12 g12 r12 f12 g12 a12 c12 b12 a12 r12
+			{talea=v} c12 g12 a12 r12 g12 f12 [[e12^ d6 e6]] p@ f12 g12 {nota=Après le silence, présence de trois petits traits verticaux, indiquant les trois *colores*.} r12 {finis=|}

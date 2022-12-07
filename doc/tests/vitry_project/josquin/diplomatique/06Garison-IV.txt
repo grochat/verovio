@@ -1,0 +1,64 @@
+# tit=06Garison-IV source=I-IV_115 voix=triplum ordo=1 lang=fr clemod=g2_8 visa=OB,DC,CC
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 16.02.2020-19:57/ob MODIF: 06.03.2022-23:06/david
+DOnce playsence est damer loy=alme<n>t			{relative=c';modus=3;tempus=3;prolatio=3;cle=c2;pagina=v} c3 a3 b3 c6 d3. f2 e1 f3 g3 a18 r9
+q<ua>r ant<re>me<n>t no porroit boneme<n>t			g6 a3 g9. g2 g1 a2 g1 f2 g1 a6
+ama<n>s suffrir cele dolo<ur>r arda<n>t			a3. m@ b3 a2 b1 a2 g1 f2 g1 {linea=v} a3 f3
+q<ui> damors naist			{modus=2;tempus=2;signum=C} g6 g3 f3 e6 r6
+q<ua>nt ces regars par so<n> so<n>til atrait			[f12 g0] g12 a3 a3 m@ b6 a2 g1 a2 f1 e2
+enregarda<n>t par mi soymes mestrait			f1 g2 e1 {modus=3;tempus=3;signum=O} f9 a1 g1 a1 b2 a1 b2 
+sa<n>s soy navrer			a1 {linea=v} g6 a3 m@ b18 r9
+limp<re>ssi=o<n> de ce q<ui>l vent amer			a6 a3 a9. a2 b1 c2 b1 a2 b1 c3
+jusqu<a> soncuer lors estuet remenbrer			c3 b3 a9. [g1 f1] g1 a2 g1 f2 e1 {modus=2;tempus=2;signum=C} d3
+<et> so<n>nevir			d3 c3 [d1 c1 d1] e6 r6
+du ge<n>til cors q<ui>l vit audep<ar>tir			[d12 e0] f12 g3 f2 {linea=v} g1 a2 g1 a2 f1 g6
+puis le <com>me<n>t tre<m>bler mu=er fremir			[f2 e1] f2 g1 {modus=3;tempus=3;signum=O} a6 a3 e9. a1 a1 a1 g2
+entresaila<n>t			f1 e2 f1 d18 r9
+<et> sonpirer <.cent.> foys en un tena<n>t			f3 f3 g3 a3 r3 r3 [a2 b1] c2 b1 a2 b1 g2
+le dons sonpirs qui livre<n>t au cuer nont			g1 {linea=v} a3 b3 a3 r3 r3 [a1 g1 a1] b2 a1 g2 a1 {modus=2;tempus=2;signum=C} f3
+par les co<n>dius			e3 f3 g3 a6 r6
+por q<uo>y desirs q<ui> est accelle dius			[g12 f0] f12 d3 d3 [c6 d0] d2 d1 e2 f1 g2
+espre<n>t <et> art <et> croist en ardant puis			e1 f2 e1 {modus=3;tempus=3;signum=O} d9. d3 {linea=v;cle=c1} d6 g1 f1 g1 a2
+fayre le doit			g1 g2 f1 e18 r9
+areu hareu cuers humai<n>s ne porroit			g6 a3 g9. g2 a1 a2 g1 f2 e1 d2
+cel mal so<n>frir se playsance nestoit			d1 e3 d3 c9 [d2 e1] f2 e1 f2 {linea=v} g1 {modus=2;tempus=2;signum=C} a3
+q<ui> sone<n>t loint			a3 b3 a3 g6 p@A r6
+mays on porroit demander bia<n> apoi<n>t			b6 c2 b1 a2 b1 c2 b1 c2 b1 c3
+co<m>me<n>t lomalpuet plaire q<ui> si poi<n>t			c3 c2 b1 c2 c1 a2 b1 c2 a1 b3
+et je respo<n>s			b3 {linea=v} a3 g3 {modus=3;tempus=3;signum=O} f9 r9
+enesp<er>a<n>t davoir bo<n>guere<n>don			g2 g1 a2 g1 g2 a1 {modus=2;tempus=2;signum=C} f3 g3 a2 g1
+por ens aisir q<ua>nt il leur sera bo<n>			f2 e1 f3 f3 [g3 f2 e1] d3 f3 e3 d3 {modus=3;tempus=3;signum=O} c9 r9
+euvret plusseurs			[e3 d2 e1] d2 c1 {modus=2;tempus=2;signum=C} d6
+en tra veylla<n>t sa<n>s cesser nuit <et> jorn			{cle=c2} [d2 c1 b2 a1] b3 b3 {linea=v} c6 d3 e2 d1 c3 d3 {modus=3;tempus=3;signum=O} e9 r9
+do<n>ques doit bie<n> lamorense dolo<ur>r			g2 g1 a2 g1 f2 e1 {modus=2;tempus=2;signum=C} [d2 e1] c2 d1 e3
+venir agre			f3 g2 g1 a2
+en atenda<n>t lat<e>s aute pla<n>te			b1 c6 c2 b1 c2 a1 b3 b2 a1 {modus=3;tempus=3;signum=O} g9 r9
+do<n>t boname<n>t a plusseurs sa=oule.			{linea=v} g2 a1 b2 a1 g2 f1 {modus=2;tempus=2;signum=C} e6 g6 [f3 e2 d1] f12 z6 {finis=||}
+# tit=06Garison-IV voix=motetus ordo=2 lang=fr clemod=g2_8
+GArison selon nature			{relative=f';modus=3;tempus=3;prolatio=3;cle=c3} f18 [d2 e1 f3 d3] e18 [f3 e3 d3] c18 [c2 d1 e3 c3] [[d9 b9^ a9]] {tempus=2;signum=C} g12 r6.
+desiree desadonlor			a6 b12* c18 {cle=c4} b6 a6 g6 {tempus=3;signum=O} f18 r9
+toute *humaine cre=ature			[f'18 d2 e1 f3] d3 e18 [d3 e3 d3] c9 d9 [c2 b1 c3 a3] {tempus=2;signum=C} b12 r6.
+mais je q<ui>sui dun ardour			[c3 b2 a1] b12* c18 d6 c6 b6 {cle=c3;tempus=3;signum=O;linea=v} m@b a18 r9
+naysant de loy=al amour			g18 [g2 a1 b2 a1 g2 a1] f18 [f3 g3 a3] [[c9 d9]] e9 {tempus=2;signum=C} f12 r6.
+espris de garir nay cure			d6 e12* f18 e3 e3 d6 [d2 c1 b2 a1] {tempus=3;signum=O} b18 r9
+aius me plaist de jonr en jour			[e2 d1 c3 b3] a9 [a2 b1 c3 b3] d18 [d3 c2 b1 c3] [[d9 e9 f9]] {tempus=2;signum=C} e12 r6.
+ades plus telle ardenre			{linea=v} [d2 e1 f2 d1] e12* f18. d6 e6 d6 {tempus=3;signum=O} c9
+ne pour q<ua>nt elle= est si dure			a9 r9 {tempus=2;signum=C} b3 b3 a6 b6 c6 b12 {tempus=3;signum=O} [c2 d1 e3 c3] d9 r9
+que nus hons nauroyt vigour			{tempus=2;signum=C} g6 [g2 f1 e2 d1] e3 e3 f18. {tempus=3;signum=O} e9 d9 r9
+du so*ffrir sans la donco<ur>cho<ur>			{tempus=2;signum=C} g6 [a3 g2 f1] {linea=v} e3 d3 f6 [a3 g2 f1] [[e3^ d3]] {tempus=3;signum=O} [c6 b3 a9] r9
+qui vie<n>t de playsance pure.			{tempus=2;signum=C} c3 b2 c1 d3 d3 c3 b3 c18 {finis=||}
+# tit=06Garison-IV voix=tenor ordo=3 lang=non clemod=g2_8 arm=b
+NEuma quinti toni. Tenor.			{linea=v;relative=f;modus=3;tempus=3;signum=O;prolatio=3;cle=c3;color=v;talea=v} f27 a27 c27 r27 {modus=2;tempus=2;signum=C} (d12 e12 d12 c12 r12 r12)
+			{modus=3;tempus=3;signum=O;talea=v} c27 b-27 a27 r27
+			{modus=2;tempus=2;signum=C} (g12 a12 g12 f12 r12 r12)
+			{modus=3;tempus=3;talea=v} a27 b-27 c27 r27
+			{modus=2;tempus=2;signum=C} (b-12 a12 g12 f12 r12 r12)
+			{modus=3;tempus=3;talea=v} g27 a27 g27 r27
+			{modus=2;tempus=2;signum=C} (a12 g12 g12 f12 r12 r12)
+			{modus=3;tempus=3;color=v;talea=v} [[f9| a9 c9]]
+			{modus=2;tempus=2;signum=C} ([[d6 e6 d6^ c6]] r12)
+			{modus=3;tempus=3;talea=v} [[c9 b-9^ a9]]
+			{modus=2;tempus=2;signum=C;linea=v} ([[|g6 a6 g6^ f6]] r12)
+			{modus=3;tempus=3;talea=v} [[a9 b-9 c9]]
+			{modus=2;tempus=2;signum=C} ([[b-6 a6 g6^ f6]] r12)
+			{modus=3;tempus=3;talea=v} [[g9 a9^ g9]]
+			{modus=2;tempus=2} ([[a6^ g6] [g6^ f6]] r12)

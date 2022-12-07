@@ -1,0 +1,74 @@
+#tit=30OSpeculum-DU source=GB-DRc_20 voix=triplum ordo=1 lang=lat visa=CC,SJ
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 08.02.2022-23:14/ob MODIF: 07.07.2022-16:55/sushaant
+Ad lac<ri>mas flentis			{modus=2;tempus=2;prolatio=3;pagina=v;relative=a';cle=c1} {nota=Le manuscrit présente un triplum qui se divise momentanément en deux parties, chantées simultanément. (cf. *triplum secundum*)} a6 a3 g2 a1 b3 a3
+dolore<m> f<er>entis			g2 f1 g2 a1 f3 f3
+virgo solita p<ro>pere.			[f2 g1] [a2 b1] [c12 b0] a12 a12 a6 [a2 g1 f2 e1] g6 r6 {linea=v;columna=v}
+Casu<m>que cade<n>tis			f2 e1 f2 f1 f3 f3
+flere dolore currere.			[c12 d0] e3 e3 d2 c1 d2 e1 f12 r6 {linea=v;columna=v}
+V<ir>go salvatore<m>			m@ b2 a1 b2 g1 f3 f3
+<et> co<m>positore<m>			f2 e1 f2 g1 a3 a3
+m<a>t<er> nos amicab<i>lem			[a1 g1 a1 g2 f1] e3 e3 d2 c1 d2 e1 f6 r6 {linea=v;columna=v}
+At<que> cre=atore<m>			a2 g1 a2 g1 a3 a3
+n<ost>r<u>m p<ar>ens p<er>utile<m>.			d,12 g3 [g2 f1] e2 f1 d2 e1 f12 r6 {linea=v;columna=v}
+O v<ir>go be=ata			c'2 b1 c2 b1 a3 a3
+su<m>me collocata			f2 e1 f2 g1 a3 {nota=Il manque ici une note ou un silence de la valeur d'une brève.} a3 z6
+p<at>ris m<ate>r et fili=a.			a3 a2 g1 a2 g1 f2 e1 d6 r6 {linea=v;columna=v}
+Nati de=o grata			c'2 b1 c2 b1 c3 c3
+cujus diffusa g<ra>ci=a.			f,12 e3 [e2 d1] e2 d1 c2 d1 e12 r6 {linea=v;columna=v}
+O virgo sup<er>na			{cle=c2} [d2 c1 d2 e1] d6 [e2 d1 c2] d1 e3 e3
+perfecta et<er>na			e3 [d2 c1] b3 [b2 c1] [d1 c1 d1 c2 b1] c6 r6 {linea=v;columna=v}
+Sic q<uo>d lucifero pri=or.			{cle=c1} d12 r6 [d3 d3] r3 {nota=Particularité de la notation : Le silence de semibrève parfaite est noté comme un trait à cheval sur la ligne.} a'3 r3 [d,3 d3] e3 g3 g3 a6 r6 {linea=v;columna=v}
+V<ir>go cuj<us> jura			c6 c3 b2 c1 a3 a3
+no<n> novit natura			a3 g2 a1 f6 [f2 e1 d2 c1] d6 r6 {linea=v;columna=v}
+nec racio fragili=or.			f12 r6 [f3 d3] r3 [e3 d3 e3] r3 f3 d3 c3 d6 r6 {linea=v;columna=v}
+Solu<m> nos dignare			m@b f3 g2 a1 b1 a1 b1
+tu=as deca<n>tare			a2 g1 a1 g1 a1 g2
+laudes o cu<n>ctis digni=or.			f1 e2 d1 e2 c1 d6 e6 f12 {finis=||}
+#tit=30OSpeculum-DU voix=triplum-secundum ordo=2 lang=lat
+			{modus=2;tempus=2;prolatio=3;pagina=v;relative=a';cle=c1} z6 z6 z6
+			z6 z6
+			z6 z6 z6 z6 z6 z6 z6 z6 z6 z6 z6 {linea=v;columna=v}
+Mestu<m>q<ue> q<ue>rentis			[c,12 d0 f2] e1 f2 e1 f3 f3
+sens<us> tu=os <con>v<er>tere.			a1 g1 a1 g2 f1 g3 g3 a12 r6
+			z6 z6
+			z6 z6
+			z6 z6 z6 z6 z6 {linea=v;columna=v}
+Mu<n>di<que> f<a>c<t>ore<m>			[e12 a2] g1 a2 g1 a3 a3
+da<n>s nob<is> ineffab<i>lem.			[c2 b1] [a2 g1] a1 g1 a1 f2 g1 a12 r6
+			z6 z6 z6
+			z6 z6
+			z6 z6 z6 z6 {linea=v;columna=v}
+P<ro>pri=e vocata			[g12 a0 c2] b1 c2 b1 c3 c3
+ip<s>a misericordi=a.			b3 [a2 b1] c1 b1 c1 a2 g1 a12 r6
+			z6 z6 z6 z6
+			z6 z6 z6 z6 z6 {linea=v;columna=v}
+Occasu<m> luc<er>na			{cle=c1} [a3 d,3] r3 a'3 d,2 c1 d2 d1 r6
+nesci=ens luce clari=or.			[a'3 {nota=Le silence de semibrève est rendu imparfait.} r2 d,1] r2 a'1 r2 d,1 [g2 g1] r2 a1 [b2 a1] [b2 g1] c6 r6
+			z6 z6 z6
+			z6 z6 z6 z6 z6 {linea=v;columna=v}
+V<ir>go pure pura			f,3 f3 r3 a3 [f2 e1] f2 f1 r6
+puritateq<ue> puri=or.			[a3 r2 a1] r2 a1 r2 [g1 f2] f1 r2 a1 [f2 g1] [f2 e1] d6 r6
+			z6 z3
+			z3 z3 z2
+			z1 z6 z6 z6 z6 z6
+#tit=30OSpeculum-DU voix=motetus ordo=4 lang=lat
+O spec<u>l<u>m spericu<m>			{modus=2;tempus=2;prolatio=3;pagina=v;relative=d';cle=c3} d6 d3 d3 [e2 d1 c2 d1] e3 e3 [f12 g0]
+speculu<m> p<er>fecci=onis			[a6 a3] a3 [f6 f1 e1 f1 e2 d1] c12 m@b a12 [g6 a0] [b1 a1 b1 a2 g1] f12 r12
+speculu<m> veridicum			[a6 g3] g3 f12 [f'12 e0] d6 [e2 d1 c2 d1] e6
+o spec<u>l<u>m r<aci>=onis			[e1 d1 e1 d2 c1] b3 b3 a3 b3 c6 [c2 b1 a2 g1] a12 r12
+spec<u>l<u>m obnubilans			[c6 b0 a3] g3 f12 [f'6 f1 e1 f1 e2 d1] [c2 b1 c2 d1 c3] {linea=v} m@ b3 a6
+excessu t<ra>nsnaturali.			f6 f'3 e3 d3 c3 p@ b6 [c2 b1 a2 b1] c12 r12
+o. speculu<m> rutilans			[e6 d0] c3 b3 a12 g12 g'3 g3
+virtute semp<er> equali.			[a2 g1 f2 g1] [a6 a3 g2 f1] e6 d3 e3 f6 [f2 e1 d2 c1] d12 r12
+o. speculu<m> solitu<m>			[d6 r6 e6 r6 f12] [f2 e1 f2] g1 [a2 g1 a2] {linea=v} g1 [f2 g1] f2
+q<uo>d inquinat demo<n>strare			e1 [d2 e1 d2] e1 [c2 d1 c2 b1] [a2 b1 a2 b1] [g2 a1 g2 f1] e6 f12 r12
+tanq<ua>m carnem spiritu<m>			[a6 r6 f6 r6 [g3 a3]] m@ [b2 a1 b2 c1] [d2 c1 d2 e1] [f1 e1 f1 e2 d1] e2 d1 c2
+mari=a nos speculare.			b1 [a1 g1 a1 g2] f1 g3 [a2 b1] c3 b3 c12 {finis=||}
+#tit=30OSpeculum-DU voix=tenor ordo=3 lang=non
+Dulcis virgo tenor.			{modus=2;tempus=2;prolatio=3;linea=v;relative=d;cle=f3}
+			{talea=v;color=v} d12 r12 r12 f24 f12 f12 g12 r12 
+			{talea=v} f12 r12 r12 b24 a12 g12 f12 r12
+			{talea=v;color=v} d12 r12 r12 f24 f12 f12 g12 r12 
+			{talea=v} f12 r12 r12 b24 a12 g12 f12 r12
+			{talea=v;color=v} d12 r12 r12 f24 f12 f12 g12 r12 
+			{talea=v} f12 r12 r12 b24 a12 g12 f12 {finis=||}

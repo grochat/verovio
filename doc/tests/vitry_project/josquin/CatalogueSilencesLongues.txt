@@ -1,0 +1,5 @@
+# tit=Catalogue_silences_longues source=tabourot voix=modus_perfectus cle=c3 arm=c lang=non clemod=c3 ordo=1
+Le premier silence devrait faire trois interlignes et le second deux interlignes		{relative=c';prolatio=3;tempus=2;modus=3} c18 r18 c18 r12 c6 {finis=||}
+# tit=Catalogue_silences_longues voix=modus_imperfectus cle=c3 arm=c lang=non clemond=cd ordo=2
+Le second silence devrait faire trois interlignes		{relative=c';prolatio=3;tempus=2;modus=2} c12 r12 c12 r18 {finis=||}
+

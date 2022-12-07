@@ -1,0 +1,44 @@
+# tit=03Quoniam-PA source=F-Pn_146 voix=triplum ordo=1 lang=lat clemod=g2_8 visa=OB,DC,CC
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 09.05.2020-11:17/ob MODIF: 06.02.2022-22:21/david
+Tribum que no<n> ab=horru=it			{modus=2;tempus=2;prolatio=3;relative=f';cle=c2;columna=v} f6 f6 [g2° f1° e2° f1°.] g3 g3. a3 g3 f6
+indecenter ascendere			a12 b6 [a2° g1° f2° g1°.] {linea=v} a3 g3. f3 e3 f12 r12 r12
+furibunda non metu=it			[a12 b0] c6 [b3° a2° g1°.] a3 g3. f3° [e2° f1°] g12 {pagina=v}
+Fortuna cito vertere			a6 [a2° g1° f2°] e1°. d3 d3. e3 f3 g12
+dum duci prefate tubus			[a6 g0] [f2° e1° f2° d1°] e6 f3 g3 a6 {linea=v} [c2° b1° a2° b1°] c12 r12
+in sempiternum speculum			a12 g3 a3 g6 [g2° f1° e2° d1°.] e3 f3 g12
+parare palam omnibus			[a6 b0] [c2° b1° a2° g1°] [f6 {linea=v} [f3 g3] [a12 c6^ b6]] a3 g3. a3 b3 c12 r12 r12
+non pepercit patibulum			[a12 b0] c6 [b3° a2° g1°.] a3 g3. {linea=v;cle=c1} f3 e3 g12
+populus ergo venturus			d'3 d3. c3 b3. [a2° g1° a2° b1°.] a3 g3 f12
+si tra<n>smetam ascenderit			[[g3 a3] b3§ a2° g1°.] a3 {linea=v;cle=c2} g3. f3 e3. [f2° e1° f2° g1°] a6 g12 r12
+q<uo>d si forsitan cassurus			a12 g3 a3 g6 [g2° f1° e2° d1°.] e3 f3 g12 {linea=v;cle=c1}
+cum tanta trib<us> ru=erit			d'3 d3. c3 b3. a3 g3. f3 e3
+sci=at eci=am qui<s> fructus			[g12 a0] c6 a6 m@ b3 a3. g3 {linea=v} f3 a12 r12 r12
+delabi sit in profundum			[a12 b0] c6 [b3§ a2° g1°.] a3 g3. f3 e3 g12
+post zephyros plus ledit hy=ems post gaudi=a luctus.			d'6 c3 {linea=v} b3 [a6 g0] [f6 g0] [a12 b0] c6 c3 b3 a6 b3 c3 d6 {linea=v} [d2° c1° b2° a1°] g12 r12
+unde nichil meli=us quam nil habu=isse secundum.			a12 g3 a3 g6 [g2° f1° e2° d1°] [[e3 f3]] g12 a3 a3. {linea=v;cle=c2} f3 e3. g3 g3. f3 e3 f12 {finis=||}
+# tit=03Quoniam-PA voix=motetus ordo=3 lang=lat clemod=g2_8
+Quoni=am secta latronum			{modus=2;tempus=2;prolatio=3;relative=f;cle=c4;columna=v} r12 r12 r12 f6 f6 [g3° f2°] g1°. m@b a3 b3 [[a6^ g6]] f12
+spelunca vispili=onum			[[b3 c3 d6]] g,3 g3. {linea=v;cle=c3} m@b a3 b3 [a12 b0] [[c3 d3 e6] [d3^ c3] [b3^ a3]] g12 r12 r12
+vulpes que gallos roderat			g12 a6 b6 a6 [[f3 g3]] a3§ b2° a1°.
+te<m>pore quo regnaverat			g3 {linea=v} g3 f12 [g6 a0] m@ [b3° a2° g1°] [a12 b0] [[c6^ g6 b6] a2° g1° a2° b1°] g12 r12
+le=o cecatus subito			b12 a12 [c6 d0] e6 f6 {linea=v} e3 d3 [c6 d2° c1° b2° c1°]
+su=o ru=ere m<er>ito.			d6 g,6 m@ [[b3 d3]] c3 b3 [a12 b0] z12 z6 z3 a3 {fractio=4} g3 {fractio=1} z12 z12
+in morte privata bonis			f12 c'6 b6 a3 a3. {linea=v;cle=c4} m@b g3 g3 f12
+concinat gallus nasonis			[g12 a0] b3 d3. c3 b3 a12 [[d6^ g,6 b6] a2° g1° a2° b1°] g12 r12 {linea=v;cle=c3}
+dicta qui dolum accu=unt.			m@B [d'6 c0 [b3^ a3]] g12 [[c6 d6]] m@ e3 d3. c3 b3 a12
+omni=a sunt hominum tenu=i pendenci=a filo			b6 [a3§ g2° a1°] [f6 f3] g3 a12 {linea=v} [[c3 d3 e6] m@B [d3^ c3] b3 a3] g12 r12 r12 a12 c3 b3 c6 d6 [d2° c1° b2° a1°] g12 [[g3^ f3]] g6
+et subito casu que valu=e=re Ru=unt			[[b3 d3]] c3 b3 a12 {linea=v} m@B [[d6^ g,6 b6] a2° g1° a2° b1°] g12 d'3 c3 [b6 a0] g3 a3 {linea=v;cle=c4} g6 f12 {finis=||}
+# tit=03Quoniam-PA voix=tenor ordo=2 lang=non clemod=g2_8
+Merito hec patimur.			{modus=2;tempus=2;prolatio=3;relative=c';cle=c3} r12 r12 r12 r12 r12 r12
+			{color=v;talea=v} c12 d24 e12 r12 r12 {linea=v}
+			{talea=v} d12 d24 d12 r12 r12
+			{talea=v} e12 f24 e12 r12 r12
+			{talea=v} d12 d24 e12 r12 r12
+			{talea=v} g12 {linea=v} d24 e12 r12 r12
+			{talea=v} d12 d24 c12 r12 r12
+			{color=v;talea=v} c12 d24 e12 r12 r12
+			{talea=v} d12 d24 d12 r12 r12 {linea=v}
+			{talea=v} e12 f24 e12 r12 r12
+			{talea=v} d12 d24 e12 r12 r12
+			{talea=v} g12 d24 e12 r12 r12
+			{talea=v} d12 d24 c12 {finis=||}

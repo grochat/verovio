@@ -1,0 +1,61 @@
+# tit=18Diex-IV source=I-IV_115 voix=triplum ordo=1 lang=fr clemod=G_8 visa=OB
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 15.01.2022-18:41/ob MODIF: 05.02.2022-00:37/david
+SE paour dumble= astina<n>ce			{pagina=v;relative=d';modus=2;tempus=2;prolatio=3;cle=c3} d6 a6 a2 g1 a2 b1 d3 d3
+par donce atrenpa<n>ce			d2 e1 c2 d1 e3 e3
+trempe ne=ust mo<n> desir			f3 f3 f2 e1 d2 c1 b3
+piessa q<ue> merci he=usse			b3 c1 b1 c1 b2 a1 c3 {linea=v} c3
+onrefuses fusse			d2 e1 f2 d1 e2 d1
+de celle qui ta<n>t desir			e2 c1 d2 c1 d2 e1 f6 r6
+mays or est venu=e leure			g3 [d2 e1] f2 e1 d2 e1 f3 f3 r6
+q<ue> je sui saneure			c2 c1 d2 e1 f3 f3 r6
+le=ant bien q<ue> puet venir			e3 d2 c1 b2 a1 {linea=v} b2 c1
+de merci la desire=e			d1 c1 d1 c1 b1 c1 d3 c3 {cle=c2}
+que pl<us> neme ne=e			f2 e1 d2 e1 c3 c3
+po<ur>r merci req<ue>rir			[c2 b1 a2 g1 a3] a3 b3 a2 b1 c6 r6
+nestre ne puet pl<us> [ma en]te<n>te			e3 e3 d2 c1 d2 e1 d3 d3 r6
+la<n>guir en atente			d2 d1 {linea=v;cle=c3} c2 b1 a3 a3 r6 
+aim vueil miex mes jorns fenir			g3 g3 a6 a3 g2 a1 b2
+q<ue> <c>ouv<er>te amour moci=e			b1 b3 [c1 b1] c1 b2 a1 c3 c3
+q<ue> vi[vre et] ma vi=e			d2 e1 d2 e1 d2 e1
+entre los joy=ens ha=ir			d2 c1 b2 a1 b2 {nota=le mot *hair* a été ajouté au-dessus de la ligne.} b1 c6 r6 {linea=v}
+dame avi=e de nature			f3 d3 e2 f1 e2 d1 c3 c3 r6
+adiex grace p<ur>e			f2 e1 d2 e1 c3 c3 r6 {cle=c2}
+en que tous biens cens florir			a'6 g6 a2 g1 f2 g1 a3 {cle=c3;nota=le *s* de *mes* a étét ajouté au-dessus de la ligne.}
+mes cuers q<ui> miens ne veut estre			a2 g1 f2 g1 a2 g1 a3 a3 {linea=v}
+ja mays par nul estre			f2 g1 f2 e1 d2 c1
+ne cors ne puet <con>sentir			d2 e1 d2 c1 e2 f1 g6 r6 {cle=c2}
+ne nul lien ne li puet playre			e3 g3 a2 a1 g2 f1 e2 e1 {cle=c3}
+ne= il ne puet fayre			r1 r1 d1 a1 a1 a1 b2 c1
+a nulle place plaisir			r1 r1 d1 {linea=v} g,2 g1 [a2 {nota=la hampe de la minime est presque invisible.} b1] c2 a1 b6 r6
+et q<ua>nt riens p<ar> quelq<ue> vivre			[b3 a2 b1] c6 d2 d1 e2 f1 g2 e1
+ne puet sa<n>s lieu vivre			r1 r1 e1 f1 e1 {nota=Les deux dernières lettres de *lieu* doivent être devinées.} f1 e2 d1
+ne lien nest q<ue> po<ur>r tenir			r1 r1 c1 f2 f1 [e2 d1] e2 c1 d6 r6 {linea=v}
+vons requier donce pitouse			{nota=Un trait a été ajouté à gauche de l'initale du mot, ce qui désambiguïse un *n/v* indistinct. Idem au vers suivant *(vostre).*} [a2 g1 a2 b1] c6 [d1 c1] d1 c2 b1 d2 d1
+qu<an> vostre amorouse			r1 r1 a1 a1 a1 a1 b2 c1
+p<ri>son le vuillies suffrir			r1 r1 d1 [e2 d1] c2 b1 c2 d1 e6 r6
+quar si suit de se= escondire			[d2 c1 d2 e1] [[f3 g3]] a1 g1 a1 f2 g1 {linea=v} e2 e1
+il se mour<r>a dire			r1 r1 d1 f1 e1 f1 e2 d1
+<et> mours ire=e mourir			r1 r1 c1 [f2 f1] e2 d1 e2 c1 [d2 c1 d2 e1]
+fait lo mort apres mourir.			c2 b1 c2 a1 b3 b3 c12 {finis=||}
+# tit=18Diex-IV voix=motetus ordo=3 lang=fr clemod=G_8
+DIex tan desir estre ames de ma mour			{pagina=v;relative=d';modus=2;tempus=2;prolatio=3;cle=c4} d12 r12 a12 c6 [c1 b1 c1 b2 a1 g6] a3 g3 f6 d3 e3 f6
+qui semble a tous estre des flonrs la flour			[b3 a2 b1] [c2 b1 c2] d1 c6 c3 b2 c1 a3 g3 f12 r12
+q<ue> je ne sent ne joy=e ne donlour			a12 g6 {linea=v} [a2 g1 f2 g1] [a2 b1 a2 g1] a3 g3 f12 [[f3^ e3]] f6 g12
+et bien la doi desirer vuit et jour			g2 a1 f2 g1 a3 g2 a1 f3 e3 d12 r6
+carsa bonte con prent toute valour			d'12 d3 d3 [e2 d1 c2 d1] [e2 d1] e2 f1 e3 d3 [c6 c1 b1 c1 b2 a1] {linea=v}
+sa gra<n>t biaute desiré^e ensavaour			g6 e6 f6 a6 f3 f2 g1 {nota=La syllabe *en* a été ajoutée au-dessus de la ligne.} a3 b3 c12 r12
+neys ses regars est un flun de dousour			d12 e3 e3 [e1 d1 e1 d2 c1] d3 e3 f3 e2 d1 [c6 c1 b1 c1 b2 a1]
+q<ua>nt son tres dons parler hi met coulor			b6 a3 b3 c12 a3 {linea=v} g2 a1 f3 g3 a6 r6
+li aprochier est delitable ondonr			d6 [e2 d1 c2] d1 e6 d6 e3 e3 [f6 d2 c1 d2] e1 c6 r6
+<et> li amer est un plazant labour			a6 {nota=Le mot *li* a été ajouté au-dessus de la ligne.} b3 [a2 g1] a6 [c3 b2 c1] [d2 e1 c2 d1] e6 f3 e3 d6 r6
+et estre ames de li parfait honor			a6 [a3 g2 a1 b6] {linea=v} a3 a2 a1 b6 c6 a3 g3 a6 r6
+et si bon bien qui nest poiut de meylor.			f6 [a1 g1 a1 f2 g1] a3 [a2 b1] [c2 b1 a2 g1] f2 g1 a2 f1 g12 {finis=||}
+# tit=18Diex-IV source=I-IV_115 voix=tenor ordo=2 lang=non clemod=G_8
+Concupisco. Tenor			{linea=v;relative=d;modus=2;tempus=2;prolatio=3;cle=f3;color=v;talea=v} r6 d24 r6 f12 e12 f12 g12 f12 r12
+			{talea=v} r6 f24 r6 e12 d12 f12 [[d12 c12]] r12
+			{color=v;talea=v;linea=r}  r6 d24 r6 f12 e12 f12 g12 f12 r12
+			{talea=v} r6 f24 r6 e12 d12 f12 [[d12 c12]] r12
+			{color=v;talea=v;linea=r} r3 d12 r3 [[f6^ e6 f6 g6^ f6]] r6
+			{talea=v} r3 f12 r3 [[e6^ d6 f6 d6^ c6]] r6
+			{color=v;talea=v;linea=r}  r3 d12 r3 [[f6^ e6 f6 g6^ f6]] r6
+			{talea=v} r3 f12 r3 [[e6^ d6 f6 d6^ c6]] r6 {finis=||}

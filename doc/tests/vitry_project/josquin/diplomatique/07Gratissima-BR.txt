@@ -1,0 +1,40 @@
+# tit=07Gratissima-BR source=B-Ba_5170 voix=triplum ordo=1 cle=c2 lang=lat clemod=g2_8 visa=JP,DC,OB,CC
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 27.07.2020-18:38/josquin MODIF: 05.02.2022-18:54/david
+Vos quid admiramini			{relative=f';modus=3;tempus=2;prolatio=3} f3 f3 |c6 [f2 e1 f2 g1] a3 b3 a6
+virgines si virgini			a2 g1 a2 f1 e3 e3 d6
+p<re> cet<er>is elige<n>de			e3 d2 e1 |f6 [a2 g1 a2 b1] c3 b3 a6
+dignati fu=erimus			a2 g1 a2 b1 a3 g3 f12 r6
+nub<er>e du<m> nupsimus			g2 g1 f2 {linea=v;cle=c1} e1 d3 c3 |d6
+tanq<uam> valde dilige<n>de			e6 [g2 f1] [g2 {fractio=1/3} a3 {fractio=1} b2 a1] [x2 x1] a6 f6 [a2 {fractio=1/3} g3 {fractio=1} a2 {fractio=1/3} b3] {fractio=1} g6 r6
+Ista pulcra speti=e			g3 g3 |a6 a6 [a2 g1] [f2 e1] d12
+hu<m>ilis maneri=e			a'2 g1 f2 {fractio=1/3} g3 {fractio=1} a3 b3 |c6
+ac ope virtu=osa			|a6 [b2 a1] [b2 c1] [a2 g1 a2 b1] {linea=v} [g2 f1] [g2 a1] f6
+turpis v<es>tr<um> altera			[f2 e1] [d2 e1] f2 e1 d2 c1 d12 r6
+ausu nimis asp<er>a			a'2 {fractio=1/3} g3 {fractio=1} a2 {fractio=1/3} b3 {fractio=1} a3 g3 [[f3^ e3]]
+necno<n> v<ir>tutes exosa			|g6 g3 a3 [g2 a1 g2 f1] g6 [g2 a1 g2 f1] [e2 d1 e2 f1] d6 r6
+Ista lux vos nubila			a'3 b3 a6 f6 c'3 {linea=v} [c1 b1 c1] a6
+ista velox aquila			a2 g1 a2 b1 g3 g3 |a6
+vos colubres gradi=e<n>tes			a6 f2 e1 f2 g1 a3 b3 c6
+Ista sup<er> eth<er>a			[a1 g1 a1 g2 f1] e3 d3 e6 g3 g3 a12 r6
+regnat vos i<n> misera			f2 e1 f2 g1 f3 e3 |d6 {linea=v}
+valle la<n>gue<n>tis ege<n>tes			d3 d3 |a'6 a2 g1 a2 f1 e6
+Ista v<ir>go regi=a			|g6 e3 [d2 e1] f6 a3 g3 f6 r12
+dulcis e<st> amasi=a			a2 g1 f2 e1 f3 f3 a6
+me=a sponsaq<ue> pi=a			a3 a3 [b2 {fractio=1/3} a3] {fractio=1} [b2 {fractio=1/3} c3] {fractio=1} a3 a3 g6 r1 r1
+rex ego sum hec regina			a1 r1 r1 g1 f3 {linea=v} f3 r1 r1 f1 r1 r1 a1 g3 g3
+quid ta<n>ta referim<us>			d6 [d2 e1 f2 e1] d3 d3 e3 e3 |d6 r12
+nos q<ui> <cun>cta novim<us>			f2 e1 f2 {fractio=1/3} g3 {fractio=1} x3 a3 |g6
+digna<m> p<re>=elegim<us>			[e2 d1] [e2 f1] [d2 c1] [d2 e1] f3 g3 a6 r1 r1
+<et> ut rosa<m> ha<n>c p<re> spina			a1 r1 r1 g1 a3 a3 {linea=v} r1 r1 a1 r1 r1 g1 [f3 f3] |e6 
+surgite vos igit<ur>			[g2 f1] g2 a1 |f6 a3 g3 a6 r12
+q<ui=a> te<m>p<us> labit<ur>			a2 {fractio=1/3} g3 {fractio=1} f2 e1 d3 f3 |e6
+<et> mors nos p<ro>seq<ui>t<ur>			[e2 d1 e2] f1 g3 g3 a3 g3 |a6 r1 r1
+huic servite ha<n>c vocate			a1 r1 r1 g1 a3 a3 r1 r1 a1 r1 r1 g1 {linea=v} f3 f3
+q<uod> si neglexeritis			d6 [f2 e1] [d2 e1] |f6 a3 g3 |f6 r12
+illa<m> no<n> videbiti			g2 d1 e2 f1 g3 g3 |a6
+gl<ori>=am qua<m> cupitis			c3 c3 b2 a1 b2 c1 |a6
+vos e=ya p<ro>perate.			[a1 {fractio=1/3} g3 a3 {fractio=1} g2 {fractio=1/3} f3] {fractio=1} e3 e3 d3 d3 [e3 e3] f18 {finis=||}
+#tit=07Gratissima-BR voix=motetus ordo=2 cle=c2 lang=lat clemod=g2_8
+Gratissi<m>a v<ir>ginis speti=es			{relative=c';modus=3;tempus=2;prolatio=3;linea=v} c6 c6 [d2 c1 d2 e1] f6 e3 d3 [c2 b1 c2 a1] [[b3 c3]] [[d3^ c3]] [b2 c1 d2 b1 c12]
+qua<m> decorat carnis mu<n>diti=es			[d2 {fractio=1/3} c3 {fractio=1} d2 e1] |f6 f3 [e2 d1] c6 d3 e3 |f6 [[d3^ c3]] d12 r6
+usq<ue> centru<m>			[b12 c2 b1 a2 b1] c18. [c2 b1 c2 d1 e2 d1 e2 f1 g2 {fractio=1/3} f3 {fractio=1} g2 f1] e6

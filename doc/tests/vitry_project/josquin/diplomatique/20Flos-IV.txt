@@ -1,0 +1,49 @@
+#tit=20Flos-IV source=I-IV_115 voix=triplum ordo=1 lang=lat visa=CC
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 07.02.2022-11:02/ob MODIF:
+ABta caro plumis ingeni
+desidi=e barum et studi=i
+laborisq<ue> foco molici=es
+et conjuga ce<n>tro segnici=es
+quo piscressit plu<m>bu<m> consumito
+nablu<m> tange vocis pl<us> solito
+duc pulmo<n>is cabarsis cardine<m>
+li<n>gue livi gutrix aru<n>dine<m>
+tu=a dio litura<m> litere 
+q<uam> conet<ur> in p<re>ces fundere
+visco p<ri>=us am<o>to pretoris
+o<mn>i scalpro poli=at rectoris
+crispatura ch[...] pecturis
+Stilo laudes p<ar>entis virgi<ni>s
+miseri que sola tra[...]
+justus vivit ex q<ua> mors morit<ur>
+age caro ru<m>pe vivari=a 
+lacrimar<um> precu<m> suspiri=a
+ta<m> potenti nonne p<ro>fundit<us>
+su=u<m> tuit<us> sp<iritu>m spiritus
+ad erigi poscat imperi=a
+noys alme tempe celesti=a
+<et> ce<r>berus q<uem> fames torque=at
+[...] sperata<m> p<er>dere luge=at
+et p<ro>pri=a bonitate de=a 
+de=o nupta toci=us yde=a 
+forme cuj<us> no<n> | 
+#tit=20Flos-IV voix=motetus ordo=2 lang=lat
+FLos virginu<m> dec<us> et speci=es
+adultere lucis <con>nubio
+non indigna v<e>l auri radi=o
+si gemar<um> vesperescit di=es
+te surgente §
+d[..] cor ipse q<uo> nichil grati=us 
+<et> a grata grati=e line=a 
+q<uam> struxatu<m> sol scalor trabe=a
+lim<us> ostru<m> q<uo>s stinxit tici=us
+fit candente §
+no<n> multa abissus virtutu<m> calculo 
+num<er>or<um> no<n> certa fili=a 
+nati mater p<at>ris plu=e pi=a 
+lacrimar<um> nimbos pro populo
+te poscente. §
+#tit=20Flos-IV voix=tenor ordo=3 lang=non
+Tenor Alma rede<m>ptoris mat<er>
+#tit=20Flos-IV voix=contratenor ordo=4 lang=non
+Contra tenor abta caro

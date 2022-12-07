@@ -1,0 +1,36 @@
+# tit=11Virtutibus-ST source=F-Sm_22 voix=triplum ordo=1 cle=c1 lang=non clemod=g2 visa=DC,JP,OB
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 14.05.2020-21:19/ob MODIF: 09.07.2021-23:52/ob
+		{relative=f';modus=2;tempus=2;prolatio=3;cle=c1;pagina=v} f3 f2 e1 d6 c12 f2 e1 f2 g1 a6 a6 c2 b1 a2 g1 a2 g1 f2 g1 a3 b3 c12 c3 c3 f,6 c'2 b1 a2 g1 a3 f3 {linea=v}
+		g1 f1 g1 f2 e1 f2 e1 f2 d1 e2 d1 e2 f1 e6 a2 b1 c2 b1 {fractio=2} c1. {fractio=1} b1 a2 g1 f2 g1 a2 a1. g6 r6 d'1 d1 d1 d2 c1 {linea=v}
+		b2 a1 b2 g1 a2 g1 a2 b1. b1 a1 g1 {fractio=2} a1. {fractio=1} b1 c6 r12 c2 b1. a2 g1 a1 g1 a1 f2 e1 d2 d1 e2 f1 g3 a2 g1 f2 e1 f2 g1 {linea=v}
+		a1 g1 a1 b2 b1 c3 b2 a1 g3 g3 a3 b3 a6 r6 e3 e3 f1 e1 f1 e2 d1 e2 d1 e2 f1 g2 g1 {fractio=2} a1. {fractio=1} b1 c6 r12 b-1 b1 b1 {linea=v}
+		a2 g1 f2 e1 d3 d1 c1 d1 e2 d1 e2 f1 g2 f1 g3 a2 b1 c3 c3 a2 g1 a2 g1 g3 a2 g1 f3 f3 c'6 r6 a2 {linea=v}
+		g1 a2 b1 a3 a3 g2 f1 g2 a1 b1 a1 b1 a2 g1 a6 r12 g1 f1 g1 d2 e1 g2 g1 d3 g3 a3 b1 a1 b1 a2 g1 a2 g1 a2 {linea=v}
+		b1 a3 a3 g3 g2 f1 g3 a2 g1 f1 f1 f1 a2 b1 c6 r6 g3 f2 g1 a2 b1 a2 g1 f2 e1 f2 d1 f2 d1 e2 c1 d6 r12 {linea=v}
+		a'2 g1 f2 g1 a1 g1 a1 e3 f2 e1 f2 g1 a3 e2 f1 g2 f1 g2 a1 g3 g3 a2 g1 a2 g1 f1 e1 f1 e2 d1 e2 d1 {pagina=v}
+		e2 f1 g6 r6 c3 c2 b1 a2 g1 f2 e1 d3 d3 e2 d1 e2 f1 e3 b'2 b1 r1 r1 c1 c2 b1 a2 a1 r1 a1 f1 e2 c1 d2 d1 r1 r1 e1 r1 r1 e1 r1 {linea=v}
+		e1 d1 r1 d1 c1 f1 e1 f1 g2 f1 g6 r6 {nota=Correction de Coussemaker ou du scribe ? On lit cinq tierces consécutives : la ligne encodée + b-a-b-a-g.} d'1 c1 d1 c2 b1 r1 r1 c1 c2 b1 a2 a1 r1 a1 f1 e2 f1 g2 g1 r1 r1 c1 r1 r1 c1 r1 c1 a1 r1 b1 g1 {linea=v}
+		e2. d1 e2 f1 g6 r6 g1 f1 g1 a2 g1 r1 r1 f1 f2 e1 d2 d1 r1 d1 e1 d2 d1 e2 f1 r1 r1 g1 r1 r1 g1 r1 e1 f1 r1 a1 g1 f2 d1 e2 f1 e6 r6 {linea=v}
+		f2 g1 a1 g1 a1 {fractio=2/3} r3 {fractio=1} b1 d2 c1 b2 g1 r1 g1 a1 g1 f1 e1 f2 g1 r1 r1 a1 r1 r1 e1 r1 e1 f1 r1 g1 e1 {fractio=1/2} f2 g1 f2 g1 {fractio=1} f2 e1 d6 r6 e2 f1 g1 f1 g1 {linea=v}
+		r1 r1 a1 a1 g1 f1 e2 e1 r1 a1 g1 b1 a1 g1 a2 a1 r1 r1 b1 r1 r1 g1 r1 a1 e1 r1 a1 b1 a2 b1 c2 b1 c12 {finis=||}
+# tit=11Virtutibus-ST voix=motetus ordo=2 cle=c1 lang=non clemod=g2
+		{relative=f';modus=2;tempus=2;prolatio=3;cle=c1} r12 r12 r12 r12 r12 r12 f3 f1 g2* a6 a2 g1 a2 b1 c6 [[c3^ a3]] b-1 a1 b1 a2 g1 a3 g1 f2* e6 d3 d3 c6 r6 c'3 b1 a2* g3 a3 {linea=v}
+		g3 g3 f1 e1 f1 e2 d1 d3 e1 f2* e3 d1 e2* f3 f3 c'3 c3 a6 z12 a3 a1 b2* c6 c2 b1 a2 g1 [[a3^ f3]] f1 e1 f1 e2 d1 c6 r6 d3 e1 f2* {linea=v}
+		[[g6 a6]] b-1 a1 b1 a2 g1 a1 a2 g1 f2* e3 d1 e2* f3 d1 e2* f3 g3 f6 r12 a2 a1. g1 a2* b3 c1 b2* c3 b1 a2* g6 a1. b2* c2 b1 c6 r6 {pagina=v}
+		g2 f1 g3. a1 a2 g1 f2* e3 e3 d6 d1 e2 f1 e2 f1 e1 f1 e2 d1 e6 g3 a3 g6 r12 e6 f1 e1 f1 e2 d1 d3 e1 f2* e3 d3 {linea=v}
+		c3 d3 e6 r6 f3 e1 f2* d12. d1 e2 f1 {fractio=2/3} e3 {fractio=1} f2 e1 f2 g1 a3 b2 a1 a2 g1 a2 f1 e3 d3 e6 r12 d3 c1 d2* e2 d1 e2 c1 {linea=v}
+		d3 c3 d6 e2 d1 e2 f1 e6 r6 d2 e1. f1 {fractio=2/3} e3 {fractio=1} f3 g3 a6 c3 b2 a1 g6. a1 {fractio=2/3} a3 {fractio=1} g2 f1 e3 d1 e2* f3 r6 a3 r1 r1 g1 r1 r1 f1 {linea=v}
+		a3 r3 [[b3^ g3]] r1 r1 f1 r1 r1 e1 d6 [[d3 e3]] r6 f3 r6 c'3 r1 r1 b1 r1 r1 c1 a3 {nota=Erreur probable du scribe ou de Coussemaker : d'après la *talea*, il devrait y avoir un silence et non une note.} b3 [[f3 g3]] r1 r1 a1 r1 r1 b1 c2 b1 a3 [[g3 a3]] r6 b-3 r6 f3 r1 r1 a1 r1 r1 b1 c3 d3 {linea=v}
+		[[b3 c3]] r1 r1 c1 r1 r1 g1 a6 [[d,3 e3]] r6 g3 r6 d3 r1 r1 e1 r1 r1 d1 e3 r3 [[e3^ c3]] r1 r1 f1 r1 r1 a1 g3 f1 g2* [[a3^ f3]] r6 a3 r6 e3 r1 r1 d1 r1 r1 e1 g3 {fractio=1/2} r6 {fractio=1} [[a3^ e3]] r1 r1 d1 r1 r1 e1 f24 {finis=||}
+# tit=11Virtutibus-ST voix=tenor_solus ordo=3 cle=c3 arm=b lang=non clemod=g2_8
+Impudenter et ad Virtutibus Solus.		{linea=v;relative=c;modus=2;tempus=2;prolatio=3} r12 r12 r12 r12 r12 r12
+										f24 [[c'6 b-6 a12]] [[b-6 c6^ f,6 c'6 g12]] [[b-6 a6 g6^ f6]]
+										f12 [[f'12 d6^ c6 f12]] [[f6^ e6]] [[a,6 d6 c12]] [[b-6 a6 g6 f6
+										b-24|]] [[d12 c12]] [[d6^ c6]] [[f,6 c'6^ a6]] b-6 [[d6 c6 b-6 a6
+										g12]] {linea=v} g12 [[c6 b-6 a12]] c12 [[c6^ f,6]] [[g6 b-6 a6 b-6 a6 g6
+										a12|]] a12 [[b-6^ a6]] [[g6 b-6^ a6]] m@b [[a12 g6 f12]] [[c'6 b-6 a6 g6
+										f12]] [[c'3 b-3^ a6]] [[b-3 c3]] [[f,3 c'3^ g6]] [[b-3^ a3]] [[g3^ f3]]
+										{nota=En prenant en compte le *color*, il manque un F brève.} r3 r3 f'6 [[d3^ c3 f6]] {linea=v} [[f3^ e3]] [[a,3 d3^ c6]] [[b-3^ a3]] [[g3^ f3
+										b-12|]] [[d6^ c6]] [[d3^ c3]] [[f,3 c'3^ a6]] [[d3^ c3]] [[b-3^ a3]]
+										g12 [[c3^ b-3]] [[a6 c6]] [[c3^ f,3]] [[g3 b-3]] [[a3 b-3]] [[a3^ g3
+										a12|]] [[b-3^ a3]] [[g3 b-3^ a6]] [[a3 g3 f12]] {finis=||}

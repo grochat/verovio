@@ -1,0 +1,45 @@
+# tit=03Quoniam-BR source=B-Br_19606 voix=triplum ordo=1 lang=lat clemod=g2_8 visa=DC,OB,CC
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 09.05.2020-11:12/ob MODIF: 05.02.2022-16:45/ob
+TRibum que non ab horru=it			{modus=2;tempus=2;prolatio=3;relative=f';cle=c2;columna=v} f6 f6 [g2 f1 {fractio=2} e1 {fractio=1/2} f2] {fractio=1} g3 g3 a3 g3 f6 {linea=v}
+indecenter ascendere			a12 b6 [a2 g1 f2 g1] a3 g3 f3 e3 f12 r12 r12
+furibu<n>da no<n> metu=it			a12 c6 [b3 a2 g1] {linea=v;cle=c1} a3 g3 f3 [e2 f1] g12
+fortuna cito vert<er>e			a6 [a2 g1] [f2 e1] d3 d3 e3 f3 g12
+du<m> duci p<re>fate trib<us>			a6 {linea=v;cle=c2} [f2 e1 f2 d1] e6 f3 g3 a6 [c2 b1 a2 b1] c12 r12
+In sempit<er>nu<m> speculum			a12 g3 a3 g6 [g2 f1 e2 d1] e3 f3 {linea=v;cle=c1} g12
+parare palam o<mn>ibus			a6 [x2 b1 a2 g1] [f6 [f3 g3 a12| c6^ b6]] a3 g3 a3 b3 c12 r12 r12
+no<n> pep<er>cit patibulu<m>			a12 c6 [b2 a1 b2 g1] {linea=v} a3 g3 f3 [e2 f1] g12
+popul<us> ergo ventur<us>			d'3 d3 c3 b3 [a2 g1 a2 b1] a3 g3 f12 {linea=v}
+Si trans metam ascende<rit>			[[g3 a3] b3 a2 g1] a3 g3 f3 e3 [f2 e1 f2 g1] a6 g12 r12
+q<uod> si forsita<n> casurus			a12 g3 a3 g6 [g2 f1 e2 d1] {linea=v} e3 f3 g12
+Cu<m> tanta tribus ru=erit			d'3 d3 c3 b3 a3 g3 f3 e3 {linea=v}
+sci=at eci=am quis fructus			g12 c6 a6 b3 a3 g3 f3 a12 r12 r12
+de labii sit in profundu<m>			a12 c6 [b3 a2 g1] {linea=v} a3 g3 f3 [e2 f1] g12
+post zephiros plus ledit hy=ems post gaudi=a luct<us>			d'6 c3 b3 a6 f6 {linea=v} a12 c6 c3 b3 a6 b3 c3 d6 [d2 c1 b2 a1] g12 r12
+un<de> nichil meli=<us> qua<m> nil habu=isse secundum.			a12 g3 a3 g6 [g2 f1 e2 d1] [[e3 f3]] g12 a3 a3 f3 e3 g3 g3 f3 e3 f24
+# tit=03Quoniam-BR voix=motetus ordo=2 lang=lat clemod=g2_8 arm=b
+Quoni=am secta latronu<m>			{modus=2;tempus=2;prolatio=3;relative=f;cle=c4;columna=v} z12 z12 z12 f6 f6 [g3 f2] g1 a3 b-3 [[a6^ g6]] f12
+spelu<n>ca vispili=oru<m>			[[b-3 c3 d6]] g,3 g3 {linea=v} a3 b-3 a12 [[c3 d3 e6] [d3^ c3] [b-3^ a3]] g12 r12 r12
+vulpes q<ue> gallos roserat			g12 a6 b-6 a6 [[f3 g3]] {linea=v} a3 b-2 a1
+tempore quo regnaverat			g3 g3 f12 g6 [b-3 a2 g1] a12 [[c6^ g6 b-6] a2 g1 a2 b-1] g12 r12 {linea=v}
+le=o cecatus s<u>bito			b-12 a12 c6 e6 f6 e3 d3 c6
+su=o ru=ere merito			[d2 c1 b-2 c1] d6 g,6 [[b-3 d3] c3 b-3] a12 [[c3 d3 e6]] [[d3^ c3] [b-3^ a3]] {linea=v} g12 r12 r12
+In morte p<ri>vata bonis			f12 c'6 b-6 a3 a3 g3 g3 f12
+<con>cinat gall<us> nasorus			g12 b-3 d3 c3 b-3 {linea=v} a12 [[c6^ g6 b-6] a2 g1 a2 b-1] g12 r12
+Dicta que dolu<m> acu=u<n>t			[d'6 [b-3^ a3]] g12 [[c6 d6]] e3 d3 c3 b-3 a12 {linea=v}
+Omni=a s<un>t hominum tenu=i pendenti=a filo			b-6 [a2 g1 a2 b-1] f6 [[f3 g3]] a12 [[c3 d3 e6] [d3^ c3] [b-3 a3]] g12 r12 r12 a12 c3 b-3 c6 d6 [e2 d1 c2 b-1] a12 {linea=v;arm=c} [[g3^ f3]] g6
+Et s<u>bito casu que valu=e<re> ru=unt			[[b3 d3]] c3 b3 a12 [[c6^ g6 b6] a2 g1 a2 b1] g12 d'3 c3 b6 g3 a3 g6 f12
+# tit=03Quoniam-BR voix=tenor ordo=3 lang=non clemod=g2_8
+Merito			{modus=2;tempus=2;prolatio=3;relative=c';cle=c3;linea=v} r12 r12 r12 r12 r12 r12
+			{color=v;talea=v} c12 d24 e12 r12 r12
+			{talea=v} d12 d24 d12 r12 r12
+			{talea=v} e12 f24 e12 r12 r12 {linea=v}
+			{talea=v} d12 d24 e12 r12 r12
+			{talea=v} g12 d24 e12 r12 r12
+			{talea=v} d12 d24 c12 r12 r12 {linea=r}
+			{color=v;talea=v} c12 d24 e12 r12 r12
+			{talea=v} d12 d24 d12 r12 r12
+			{talea=v} e12 f24 e12 r12 r12 {linea=v}
+			{talea=v} d12 d24 e12 r12 r12
+			{talea=v} g12 d24 e12 r12 r12
+			{talea=v} d12 d24 c12 r12 r12 {linea=r}
+			

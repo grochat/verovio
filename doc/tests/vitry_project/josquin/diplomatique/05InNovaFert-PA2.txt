@@ -1,0 +1,50 @@
+# tit=05InNovaFert-PA2 source=F-Pn_67 voix=triplum ordo=1 lang=lat clemod=g2_8 visa=OB,DC,CC
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 18.08.2019-15:50/ob MODIF: 05.02.2022-15:46/david
+[...]arit gall<us> flendo dolorose			{linea=v;cle=c2;relative=c';modus=1;tempus=2;prolatio=3} c12 c2 c1 b2 c1 d3 d3 e6 d2 e1
+luget quippe gallor<um> conci=o			e2 d1 c3 e3 g2 f1 e2 f1 g12 c,3 {linea=v}
+q<u>am satrape traditur dolose			d2 c1 b3 a3 c6 c2 b1 c2 d1 e6 r6
+ex cubino cedens offici=o			d6 p@ [c6 c3] c3 [d6 d3] g3. g2 a1 b2 g1 a3
+<et> q<u>am vulpes q<u>amq<u>a<m> vispili=o			a3 b3 {linea=v;cle=c1} [c2 b1] a3 b3 c6 c2 b1 a2 g1
+in beli=al vigens astuci=a			f3 [e2 d1] f3 g3 a6 a2 a1 e2 f1 g6 r6
+de le=onis co<n>sensu propri=o			[d6 [d3 e3]] d3 c3. b3 d3 {linea=v;cle=c2} c6 f3 e2 d1 c6 r6
+monarcizat artat anguri=a			e12 e2 d1 e2 c1 [b6 b3] c3 d6 a3 d3.
+rursus ecce jacob famili=a			e3 f3. g3 a3 c2 c1 {linea=v} b2 c1 b3 a3
+phara=one altero fugat<ur>			g6 g2 f1 e2 {cle=c3} d1 e3 f3. e3 d3 c6 r6
+no<n> ut oli<m> inde vestigi=a			[c6 c3] d3. a3 d3. b3 c3 d6 [d3 c2] b1 c6 r6 {linea=v;cle=c2}
+subintrare potens lacrimatur			a'6 b6 c2 b1 a2 b1 c6 c2 b1 a2
+in deserto fame flagellat<ur>			g1 f3 e3 d6 c6 c2 b1 c2 d1 c6 {linea=v}
+adjutoris carens armatura			c3 d3 c6 b6 a6 a'2 g1 a2 b1 g6 r6
+qua<m>q<u>am clamat t<a>n<tum> spoli=atur			g6 g3 f3. e3 e3. d3 d3 [c6 c3] g'3 a6 r6 {linea=v}
+continu=o forsan moritura			[f3 e2 d1] e6 e3 f3 g6 a2 g1 f2 e1 d3
+o miseru<m> excelsu<m> vox dura			d3. e3. e3. d3. d3. c3 b3 c18. d2 d1
+o gallor<um> garrit<us> doloris			c2 {linea=v} d1 e3 c2 d1 e2 c1 e2 f1 g6 r6
+cu<m> le=onis cecitas obscura			d12 a'3 [g2 f1] g3 a2 g1 f3 [e2 f1] [[e3^ d3]] c6 r6
+fraudi patet vulpes p<ro>ditoris			a'6 a2 {linea=v} g1 g2 f1 g3 a3 [[b6^ a6 b6]] c3 c3.
+ejus fastus sustinens erroris			b3 a3. g3 f3 c'2 b1 c2 a1 g3 f3
+insurgito ali=as labitur			g3 a3 [b3 a2 g1] a3 a3 a2 g1 a2 f1 g6 r6
+et labet<ur> quod habes *rhonoris			e6 e2 d1 d2 c1 b3 c3 d18. {linea=v} c2 c1
+q<uod> mox in facinis tradis ultoribus itur.			b2 c1 d6 a'3 b2 a1 g3 f2 e1 d2 d1 d2 e1 f18 {finis=|}
+# tit=05InNovaFert-PA2 voix=motetus ordo=2 lang=lat clemod=g2_8
+[...]N nova fert animus mutatas dicere forma[.]	{columna=v;cle=c1;relative=f';modus=1;tempus=2;prolatio=3} [f6 f2 e1 f2 g1 a6] g3 f3 e6 [g2 f1 e2 f1] g3 g3 a3 b3 c12 c3 a3. b3 a3 g12 r6 {linea=v}
+dracho neq<u>am qua<m> olim penit<us>			g12 f12 g6 [g3 f2 e1] d3 g3. f3 [e2 d1] e3 c3.
+mirabilis crucis potenci=a			d3 e3 f6 [a3 a2] b1 a3 g3 [f2 e1 f2] d1 e12 z6 {linea=v}
+debellavit micha=el inclit<us>			p@ f6 [g2 f1] [g2 a1] g3 g3. a3 a3 b3 b3 c12 r6
+mox absalon munit<us> graci=a			b3 c2 b1 a3 a3 [g6 g3] e3 p@ f12 a12 b3 {linea=v}
+mors ulixis gaudent facu<n>di=a			a3. g3 f3 g6 [c6 c3] [g2 a1] b3 a2 g1 a12 r6
+mox lupinis dentib<us> armatus			p@F g6 [f6 f3] g3. a3 g3 f2 g1 f2 e1 {linea=v} g12 r6
+sub stersitis miles milici=a			d6 e18. f3 g3 [f3 e2 d1] c6 [a'2 g1] a2 b1 c3
+rursus vivit in vulpem mutatus			b3 c2 b1 c2 b1 c6 [a6 a3] {linea=v} a3 [g3 f2 e1] p@ f12 r6
+cauda cuj<us> lumine p<r>ivatus			a3 b3 [c6 c3] [g2 a1] m@ b3 a2 g1 a3 f3 g12 r6
+le=o vulpe impe[...] te paret			g6 [g2 f1 e2 d1] [[c3 d3] [e3^ c3]] d6 e3 f3 g6 {linea=v} b3 g3 a3
+oves fugit pullis saci=at<us>			f3 g3 e3 m@b [f2 e1 f2 g1] [a6 a3] c3 b3 a2 g1 a12 r6
+heu suggere no<n> cessa[.] et aret			p@ f6 [g2 f1 g2] a1 g3 g3 d3 f3 {linea=v} e3 d3 c12 r6
+ad nupti=as canib<us> no<n> car<et>			[d3 e2 f1] e12 [e3 d2 c1] b18. c3 c2 c1 e3 f3. g3
+ve pullis mox de ceco le=oni			a3 g6 c3 b2 a1 g3 f3 e3 d3 e12 r6.
+coram chr<ist>o tandem ve le=oni.			d6 e12 f12 [[g3 a3]] b6 a6 [a2 g1 g2 f1 [f3^ e3]] [[e3 d3]] [[c3 b3]] c18
+# tit=05InNovaFert-PA2 voix=tenor ordo=3 lang=non clemod=g2_8 arm=b
+tenor.			{linea=v;cle=c4;relative=f;modus=3;tempus=2;prolatio=3;color=v;talea=v} [[f18| g6 a12*.]] {modus=2} {nota=Le changement de *modus* est rendu par des notes évidées.} ([[c6 d6 c12]] r12 [[c12^ a6 c6]]) {modus=3} [[b-6 a12* g18]] r18
+			{talea=v} [[f18| b-6^ a12*]] {modus=2} ([[g6 a6 g12]] r12 f12 [[f6 g6]]) {modus=3} [[a6 c12* d18|]] r18
+			{talea=v} c18 [[c6^ a12*]] {modus=2} ([[c6 b-6 a12]] r12 [[g12^ f6 g6]]) {modus=3} [[a6 g12* f18]] r18 {linea=r;color=v;talea=v}
+			[[f18| g6 a12*.]] {modus=2} ([[c6 d6 c12]] r12 [[c12^ a6 c6]]) {modus=3} [[b-6 a12* g18]] r18
+			{talea=v} [[f18| b-6^ a12*]] {modus=2} ([[g6 a6 g12]] r12 f12 [[f6 g6]]) {modus=3} [[a6 c12* d18|]] r18
+			{talea=v} c18 [[c6^ a12*]] {modus=2} ([[c6 b-6 a12]] r12 [[g12^ f6 g6]]) {modus=3} [[a6 g12* f18]] r18 {linea=r}

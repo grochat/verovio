@@ -1,0 +1,13 @@
+# tit=Catalogue_ligatures source=tabourot voix=Binariae_desc cle=c3 arm=c lang=lat clemod=c3 ordo=1
+[Bre Lo][Lo Lo][Bre Bre][Bre Bre][Lo Bre][Se Se][Se Se]		{relative=c';prolatio=3;tempus=2;modus=2} [[d6 c12]] [[d12 c12]] [[d6^ c6]] [[d6 c6]] [[d12^ c6]] [[d3^ c3]] [[d3 c3]]
+# tit=Catalogue_ligatures voix=Binariae_asc cle=c3 arm=c lang=lat clemond=cd ordo=2
+[Bre Lo][Bre Lo][Bre Lo][Lo Lo][Lo Lo][Lo Lo][Bre Bre][Lo Bre][Se Se][Se Se]		{relative=c';prolatio=3;tempus=2;modus=2} ([[c6 e12]]) ([[c6 d12]]) [[c6 e12|]] ([[c12 e12]]) ([[c12| d12]]) [[c12 e12|]] [[c6 d6]] [[c12 d6]] [[c3 e3]] [[c3^ e3]]
+# tit=Catalogue_ligatures voix=Ternariae_clim cle=c3 arm=c lang=lat clemond=cd ordo=3
+[Bre Bre Lo][Bre Bre Lo][Lo Bre Lo][Lo Bre Lo][Bre Bre Bre][Bre Bre Bre][Lo Bre Bre][Lo Bre Bre][Se Se Lo][Se Se Lo][Se Se Bre][Se Se Bre]		{relative=c';prolatio=3;tempus=2;modus=2} [[f6^ d6 c12]] [[f6 d6 c12]] ([[f12 d6 c12]]) [[f12^ d6 c12]] [[f6 d6 c6]] [[f6 d6^ c6]] [[f12 d6 c6]] [[f12 d6^ c6]] [[f3 d3 c12]] [[f3^ d3 c12]] [[f3 d3 c6]] [[f3 d3^ c6]]
+# tit=Catalogue_ligatures voix=Ternariae_scan cle=c3 arm=c lang=lat clemond=cd ordo=4
+[Bre Bre Lo][Bre Bre Lo][Lo Bre Lo][Bre Bre Bre][Lo Bre Bre][Se Se Lo][Se Se Lo][Se Se Bre]		{relative=c';prolatio=3;tempus=2;modus=2} ([[c6 d6 f12]]) [[c6 d6 e12|]] ([[c12 d6 f12]]) [[c6 d6 e6]] [[c12 e6 g6]] [[a,3 c3 e12]] [[a,3^ b3 d12]] [[a3 b3 c6]]
+# tit=Catalogue_ligatures voix=Ternariae_torc cle=c3 arm=c lang=lat clemond=cd ordo=5
+[Bre Bre Lo][Lo Bre Lo][Bre Bre Bre][Bre Bre Bre][Lo Bre Bre][Lo Bre Bre][Se Se Lo][Se Se Lo][Se Se Bre][Se Se Bre]		{relative=c';prolatio=3;tempus=2;modus=2} [[c6 d6 c12]] [[c12 d6 c12]] [[c6 d6 c6]] [[c6 d6^ c6]] [[c12 d6 c6]] [[c12 d6^ c6]] [[c3 d3 c12]] [[c3^ d3 c12]] [[c3 d3 c6]] [[c3 d3^ c6]]
+# tit=Catalogue_ligatures voix=Ternariae_porr cle=c3 arm=c lang=lat clemond=cd ordo=6
+[Bre Bre Lo][Bre Bre Lo][Bre Bre Lo][Lo Bre Lo][Lo Bre Lo][Bre Bre Bre][Bre Bre Bre][Lo Bre Bre][Lo Bre Bre][Se Se Lo][Se Se Lo][Se Se Br][Se Se Br] 		{relative=c';prolatio=3;tempus=2;modus=2} ([[d6 c6 f12]]) ([[d6 c6 e12]]) [[d6 c6 f12|]] ([[d12 c6 f12]]) [[d12^ c6 f12|]] [[d6 c6 d6]] [[d6^ c6 d6]] [[d12 c6 d6]] [[d12^ c6 d6]] [[d3^ c3 f12|]] [[d3 c3 f12|]] [[d3^ c3 e6]] [[d3 c3 e6]] 
+

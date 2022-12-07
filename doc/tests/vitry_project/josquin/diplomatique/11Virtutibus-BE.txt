@@ -1,0 +1,11 @@
+# tit=11Virtutibus-BE source=CH-BEb_421 voix=contratenor ordo=1 cle=c3 arm=b lang=non clemod=g2_8 visa=JP,DC,OB
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 21.06.2020-22:39/david MODIF: 09.07.2021-23:52/ob
+Contratenor de uirtutibus	{relative=c';modus=3;tempus=2;prolatio=3;linea=v} [[c12 a6 c6^ f,6 d'6 c12]] [[d6 e6]] f3 [[c6 e6^
+	d6 g6 f6 e6^ d6]] c3 f6 [[d3^ c3]] [[f,6 a6 b-6^ c6]] [[f,6 d'12|]] e3 [[e6 f6]] d3
+	[[e6^ c6]] d3 f6 c3 [[d3^ b-3]] [[c3 f2]] e1. d3 [[g,6 d'5]] e1. f5 e1. {linea=v;cle=c4} [[d6^ b-6]] [[g3 a3 c6]] {cle=c3} [[e3 f3]] [[d3 e3^ c6]] [[f3
+	e3]] [[e6^ c6]] e3 f6 [[g3^ e3]] [[d3^ b-3 c6]] d3 b-6 [[d3 e3^ d6]] e3 [[c6 d6 c6^ f,6]] e'3 c6 a3 f6
+	c'3 [[d6^ b-6]] {linea=v} [[d3 e3 f6]] [[d3 e3]] c2 d1 e2 d1 c2 b-1 a3 c6 e3 [[f3^ e3]] c6 f3. e1 d2 c6 d2 c1 b-2 a1 g5 a1. f2 g1 a2 b-1. c3 e6 c3
+	[[b-6 c6 d6^ c6]] [[d3 b-3]] c3 [[e6 d6 c6^ a6]] {linea=v}
+	b-3 c6 [[d3 e3]] f2 r1 c2 r1 r1 r1 d1 [[b-3 d3]] [[c3 d3^ a6]] c3 f,6
+	[[g3 c3^ f,6]] f3 c'6 [[d3 e2]] r1 e2 r1 r1 r1 d1 [[c3 b-3]] [[c3 d3 f6^ d6]]
+	b-3 [[c3 e3]] [[f3 e2]] r1

@@ -1,0 +1,10 @@
+#tit=16bChriste-BA source=E-Bbc_971c voix=motetus ordo=1 lang=non clemod=g2_8 visa=OB
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 06.02.2022-11:07/ob MODIF: 05.11.2022-13:02/david
+			{relative=e';cle=c3;modus=2;tempus=2;prolatio=3;pagina=v;nota=Pour encoder ce fragment difficile à lire, on a pris le manuscrit d'Apt comme modèle de comparaison.} [[e3 f3 g6] d3 e2 f1] [[e6 d6]] e3 r3 d3 r3 e3 r3 e3 r3 c6 r6 e3 d2 e1 f3 e2 d1 e3 r3 c3 z3 d3 r3 f3 r1 r1 d1 e3 r1 r1 c1 d3 r1 r1 b1 c3 c3 a12 [[d3 c3^ a6]]
+			e'5 f1 g2 f1 e2 f1 d6 r6 [[e3^ d3]] c6 r6
+			g3 g3 r6 d'6 e2 d1 c2 d1 x6 x6
+			x3 x3 x6 {linea=v} e6 d3
+			c2 d1 e2 d1 c2 b1 a3 b2 c1
+			d6 x6 d2 e1 f2 e1 f3 d3 c2 b1 a2 g1 a3 b2 c1 d3 c2 d1 e5 d1
+			c6 a12 e'3 d3 c2 b1 c2 d1
+			[[e3 f3 g6]] d3 e2 f1 [[e6^ d6]] e3 r3 d3 r3 e3 r3 e3 r3 c6 r6 e3 d2 e1 f3 c2 d1 e3 r3 c3 r3 d3 r3 f3 r1 r1 d1 e3 r1 r1 c1 d3 r1 r1 b1 c3 c3 a12 {finis=||}

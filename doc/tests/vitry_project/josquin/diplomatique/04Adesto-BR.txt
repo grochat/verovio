@@ -1,0 +1,48 @@
+# tit=04Adesto-BR source=B-Br_19606 voix=triplum lang=lat clemod=g2_8 cle=c2 ordo=1 visa=DC,OB,CC
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 09.05.2020-11:14/ob MODIF: 05.02.2022-17:23/ob
+FIrmissime fidem tene=am<us>			{linea=v;modus=2;tempus=2;prolatio=3;relative=f'} r12 r12 r12 r12 r12 r12 [f12 g6] a3 a3 f3 f3 g2 a1 g2 f1 g12
+trinitatis p<at>rem diligam<us>			{linea=v;nota=*Rotulus* coupé horizontalement entre la musique et le texte.} b6 a3 g3 f3 f3 f2 g1 f2 g1 a12 r12 r12
+qui nos tanto amore dilexit			[f6 [f3 g3] [a3^ g3]] f3 {linea=v} f3 g3 d3 g2 g1 f2 e1 [d6 d2 c1 d2 e1]
+morti datos ad vita<m> erexit			f12 f3 c3 f2 {linea=v} f1 e2 f1 g6 m@b [g2 f1 g2 a1] b12 r12
+ut p<ro>p<ri>=o nato non perceret			a12 a2 g1 [f2 e1 d2 c1 d2] e1 d3 d3 {linea=v} e3 e3 f12
+sed p<ro> nobis hunc morti caderet			c12 f6 [f2 e1 f2 g1] a12 d,12 g3 g3 g3 e3 {linea=v} f12 r12 r12
+Diligamus ejusdem fili=um			g6 m@b g3 a3 b12 b6 a2 g1 f2 g1 a6
+nobis natu<m> nobis p<ro>pici=um			a3 a2 {linea=v} b1 c12 f,6 f2 g1 f2 g1 a12 r12 r12
+qui in forma de=i cum fu=isset			f6 [g2 f1 g2 a1] b12 [f6 f3] g3 a3 {linea=v} g3 f3 e3 g6
+atq<ue> formam servi accipisset			[f2 e1 f2 d1] g2 f1 g2 d1 c2 c1 {fractio=2/3} d3 {linea=v;fractio=1/3} e3 {fractio=1} f12 r12
+hic factus est pat<ri> obedi=ens			[[c3 d3]] e3 c3 e3 e3 e2 g1 f2 e1 [f12 a0]
+et in crucifixus ac mori=ens			{linea=v} a12 [[g3^ f3] [e3^ d3]] f12 [f2 e1 f2 g1] f3 g3 [a12 a3 g2 f1 g6] [[f3 e3^ d6]] [g6 f2 e1 f2 d1] f12 r12 r12
+Diligam<us> sanctu<m> paraclytu<m>			{linea=v} g12 d2 d1 e2 f1 g2 g1 f2 e1 f6
+patris summi nati q<ue> spiritu<m>			c6 d6 {linea=v} e3 d3 e6 g2 g1 d2 e1 {nota=Les deux vers qui suivent, oubliés par le copiste, ont été ajoutés verticalement dans la marge de gauche.} f12 {nota=Ce silence, qui fait pivot, figure à la fois dans le corps de la transcription et dans le rajout.} r12
+cu=i<us> sum<us> g<rati>=a regna<n>ti			f6 a3 e3 g2 f1 g2 g1 f3 g3 a3
+ulc<i>=o<n>e cu=i<us> <et> signati			a3 [g2 f1] [g2 e1] f12 g3 g3 m@b a3 b2 a1 g12 r12
+Nunc igit<ur> sanctam trinitatem			c12 c2 a1 c2 {linea=v;cle=c1} c1 g2 g1 a2 b1 c3
+veneremur at<que> unitatem			c3 c2 b1 {fractio=2/3} c3 {fractio=1/3} c3 {fractio=1} g6 {linea=v;cle=c2} [f3 e2 d1] e6 [f2 e1 f2 g1] a12 r12
+Exoremus ut ej<us> gr<ati>=a			a3 a3 [g3 f2 e1] f12 d3 e3 f3 g2 a1 g12 r12
+vale=am<us> perfru=i glori=a.			{linea=v} g3 f2 e1 e2 e1 c2 c1 d6 [g2 f1 e2 d1] f12
+# tit=04Adesto-BR voix=motetus lang=lat clemod=G_8 cle=c3 ordo=2
+AD=esto [...]			{linea=v;modus=2;tempus=2;prolatio=3;relative=f'} [f6 e3 d3 c12 d0 [c3^ b3] c2 d1 e2 c1 d6 c3 b3 a12 b0 [a3^ g3] a2 b1 c2] b1 c12 {linea=v;nota=*Rotulus* coupé horizontalement entre la musique et le texte.} [c2 b1 a2 g1 a6 b6 c6 d12] r12 r12
+musice modulantibus			e6 d3 c3 [d2 c1 d2 e1] d6 {linea=v} [[g,3 a3]] b6 [c12 [d3^ c3] m@ [b3^ a3] g6 [g3 a3 b12] c12 r12 [d3^ c3] d2 c1 d2 e1 f12 [f3^ e3] d3 c2 d1 e12 [d3^ c3] {linea=v} m@ [b3 a3^ g6] [a3 b3 c12]] r12 r12
+Par splendor una de=ita<s>			[c6 b3 a3] [b12 b3 c3 d2 c1 d2 b1] c12 m@e d6 e6 [[d3^ c3]] [b3 b2 c1] [d6 {linea=v} [d3 e3 f12] [f3 e3] d3 c2 d1 [e3^ d3] [c3^ b3 c12]] r12
+Simplex in personis tribus			e12 [g12 [g3^ f3]] [e2 f1 e2 d1] [c6 [d3 e3]] [f12 [f3^ e3] d3 c2 d1 e6 d3 c3] d12 {linea=v} [[g,3 a3] [b6 c12]] [d12 m@ [e3^ d3] c3 b2 a1 b12 c12 d0 c6 b3 a3 g12 r12 r12 e'12 d2 c1 d2 b1 c6 [d3 e3] f5 e1 d6 {linea=v} [c3^  b3] c12]
+Qui extas rerum o<mni=u>m			f6 [[f3^ e3]] d12 [d2 c1 d2 e1] d6 [[g,3 a3]] b6 c12
+tu=a o<m>nipotenti=a			m@ b6 a3 {linea=v} m@b g3 a3 b3 c3 d3 [[c12 b6^ a6] c6 [d3 e3 d12] e3 e2 d1 [c3^ b3 c12]] r12
+sine fine p<ri>ncipi=um			d6 [d3 c2 d1] e3 [d2 c1] d3 {linea=v} c2 b1 [c12 [c3 d3 e6^ f6 g0] [f3 e3 d12] r12 e6 [e3 d3^ c6] d3 e2 d1 e3 d2 c1 [b6 c12]] r12
+duc nos ad celi gaudi=a.			d12 [e6 d3 c3] {linea=v} [d3 c2 b1] [c3 b2] a1 [[g3 a3]] b6 c12
+# tit=04Adesto-BR voix=tenor lang=non clemod=g2_8 arm=b cle=c4 ordo=3
+[...]lleluya alleluya alleluya			{modus=2;tempus=2;prolatio=3;relative=f;linea=v;color=v;talea=v} f12 f24 g12 a24 f12 r12 r12
+			{talea=v} g12 b-24 a12 g24 f12 r12 r12
+			{talea=v} g12 f24 {linea=v} g12 b-24 a12 r12 r12
+			{talea=v} f12 f24 f12 g24 f12 r12 r12
+			{talea=v} g12 b-24 a12 f24 a12 r12 r12
+			{talea=v} c12 b-24 a12 {linea=v} g24 f12 r12 r12
+			{talea=v} g12 f24 g12 b-24 a12 r12 r12
+			{talea=v} g12 f24 g12 g24 f12 r12 r12
+			{color=v;talea=v} f6 [[f6 g6 a6^ f6]] r6
+			{talea=v} [[g6 b-6|]] [[a6 g6^ f6]] r6 {linea=v;arm=c}
+			{talea=v} [[g6^ f6]] [[g6 b6^ a6]] r6
+			{talea=v} f6 f6 [[f6 g6^ f6]] r6
+			{talea=v} [[g6 b6 a6^ f6 a6]] r6
+			{talea=v} [[c6 b6 a6 g6^ f6]] r6
+			{talea=v} [[g6^ f6]] [[g6 b6^ a6]] r6
+			{talea=v} [[g6^ f6]] g6 [[g6 f12|]]

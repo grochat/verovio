@@ -1,0 +1,32 @@
+# tit=03Quoniam-ST2 source=F-Sm_22* voix=triplum ordo=1 lang=lat visa=CC,DC
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 30.08.2020-21:23/ob MODIF: 05.02.2022-16:59/ob
+Tribum que non abhoruit
+Indecenler ascendere
+Furibunda non meruit |
+Fortuna cito vertere
+Dum duci prefate tribus
+In sempiternum spe|culum
+Para palam omnibus
+Non perperit patibulum
+Populus ergo | venturus
+Si trans metam ascenderit
+Quod si for suam casurus
+Cum canta tri|bus ruerit
+Sciat etiam quis fructus
+Delabi sit in profundum
+Post zephiro plus | ledit hyemps ; post gaudia luctus
+Unde nihil melius quam nil habuisse secundum.
+# tit=03Quoniam-ST voix=motetus ordo=3 lang=lat
+Quoniam secta latronum
+Spelunca vispilionum
+Vulpesque ro|derat
+tempore quo regnaverat
+Leo cecatus subito |
+Suo ruere merito
+in morte privata bonis 
+continat | gallos nasonis
+Dictaque dolos acuunt
+omnia sunt homi | tenui pendentia filo
+Et subito casu que | valuere ruunt.
+# tit=03Quoniam-ST2 voix=tenor_solus ordo=2 lang=non
+Tenor. Merito hec patimur

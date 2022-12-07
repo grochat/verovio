@@ -1,0 +1,69 @@
+# tit=12Lugentium-AA source=D-AAst_14 voix=motetus ordo=2 cle=c1 arm=c lang=lat clemod=treble visa=DC,CC
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 14.07.2019-19:39/ob MODIF: 09.07.2021-23:52/ob
+												{relative=f';modus=3;tempus=3;prolatio=3} z18 z18 z9 z9 z9 z9 z9 z9
+												z9 z9 z9 z9 z9 z9 z9 z9 z9 z9
+												z9 z9 z9 z9 z9 z9 z9 z9 z9 z9
+												z9 z9 z9 z9 z9 z9 z9 z9 z9 z9
+												z9 z9 z9 z9 z9 z9 z9 z9 z9 z9
+												z9 z9 z9 z9 z9 z9 z9 z9 z9 z9
+												z9 z9 z9 z9 z9 z9 z9 z9 z9 z9
+												z9 z9 z9 z9 z9 z9 z9 z9 z9 z9
+												z9 z9 z9 z9 z9 z9 z9 z9 z9 z9
+												z9 z9 z9 z9 z9 z9 z9 z9 z9 z9
+												z9 z9 z9 z9 z9 z9 z9 z9 z9 z9
+												z9 z9 z9 z9 z9 z9 z9 z9 z9 z9
+												z9 z9 z9 z9 z9 z9 z9 z9 z9 z9
+												z9 z9 z9 z9 z9 z9 z9 z9 z9 z9
+												z9 z9 z9 z9 z9
+												z9 z9 z9 z9 z9
+												z9 z9 z9 z9 z9
+												z9 z9 z9 z9 z9
+												z9 z9 z9 z9 z9
+												z9 z9 z9 z9 z9
+												z9 z9 z9 z9 z9
+												z9 z9 z9 z9 z9
+[...]=e<n>t<ur> mome<n>to sec<u>la				{pagina=v;talea=v} x6 x3 e9 r9 c'9. c3 [b1 c2] b1 a2* [g3 r3 [f3 a3] r3 [g3 a3] r3 [b-3^ g3]] r3 
+no<n> mari=a tumescu<n>t gutula					a3 r1 r1 b1 a3 [a3 r1 r1 f1 g3 g3] r1 r1 a1 [b3 a3] [g1 a2*] g3 f3 [[e3 g6* a9]]
+n<ec> ulla laus add<er>e m<er>itis				[b-3 a3] g3 f9 r9 [a3 a3 g3 f9] r9 b18 [b3 a3] b3 [c1 d2*] [c3 b3] a9
+tu=[...] u<m>q<uam> pot<er>is i<n>clitis		[f9 g1 f2*] {linea=v} [x3 x3] [b-3 a3 g3] a9 a3: a1 g2 g1 f2* e9 r9
+vulgi tame<n> modica porti=o					{talea=v} f3 e3 f3 g9 r9 a9: c3: [c1 b2] c1 b2* c3 r3
+de te salte<m> clang<er>e gesti=o				[[a3^ f3]] r3 [[a3 b3] r3 [c3^ a3] r3 g3 r1 r1 f1 g3] d3 r1 r1 [f1 a3 g3] r1 r1 [a1 g3] f3 [f3 e3] d3 c9: [d3 e3 f3]
+vi=[...] vi=[...] orbi p<er>=ut<i>l[...]		[g3 f3 g3] x9 z9 [e3 e3 {linea=v} x3] g9 r9 e18 [f3 e3 f3] g1 g2* f3 e3
+cui no<n> fu=it i<n>ventus similis.				[d9 g1 f2* g3 a3] b9 [c3 b3 a3] b9 [g1 f1 g1] [a1 g2 f1 e2*] d3 e3 f3 [g1 f2* g3 a3 g3 g1 f2 f1 e2* [d9 e9 f27]] {finis=||}
+# tit=12Lugentium-AA voix=contratenor ordo=4 cle=c4 arm=c lang=non clemod=G_8
+[...]Ontratenor									{relative=f;modus=2;tempus=3;prolatio=3} r18 r18 r18 r18
+												{color=v;talea=v} [[f18| a9 c18]] r9 [[f,9 c'9]] r9 [[c9 d9]] r9 r3 m@B [[d9 c9 b9^ a6]] z3 {linea=v} z3 z3 [[c3 d3]] r3 [[e3^ d3]] r3 [[b9 a9 g18]] r9 [[b9 c9]] r9 [[e9 d27.]] c9 r9
+												{talea=v} [[f,18| a9 g18]] r9 [[g9 a9]] r9 [[b9 c9]] r9 r3 [[f,9 c'9 a9^ g6]] f3. g3 r3 [[f3 g3]] r3 [[f3 g3]] r3 [[a9 g9 f18]] r9 [[f9 g9]] r9 [[e9 f27|.]] a9 r9
+												{talea=v} [[a18 g9 f18]] r9 [[f9 g9]] r9 [[f9^ e9]] r9 r3 m@b [[a9 b9 a9^ g6]] f3. g3 r3 [[g3 a3]] r3 [[a3^ g3]] r3 [[c9 g9 f18]] r9 {linea=v} [[x9^ f9]] r9 [[g9 a27|.]] f9 r9
+												{talea=v} [[c'18 g9 f18]] r9 [[c'9^ f,9]] r9 [[a9^ g9]] r9 r3 [[g9 b9 a9^ g6]] f3. g3 r3 [[a3 c3]] r3 [[g3 a3]] r3 [[f9 a9 g18]] r9 [[b9^ g9]] r9 [[f9 e27.]] f9 r9
+												{talea=v} [[c'18 a9 g18]] r9 [[d'9^ c9]] r9 [[b9^ a9]] r9 r3 [[a9 d9 c9^ b6]] a3. c3 r3 [[a3^ f3]] r3 [[g3^ f3]] r3 [[b9 g9 f18]] r9 [[f9 a9]] r9 [[d9 e27|.]] a,9 r9 {linea=v}
+												{talea=v;cle=c3} [[z18 d9 f18|]] r9 [[f9^ e9]] r9 [[e9^ c9]] r9 r3 [[f,9 c'9 b9^ a6]] g3. a3 r3 [[f3 c'3]] r3 [[f,3 a3]] r3 [[d9 e9 f18|]] r9 [[d9 e9]] r9 [[d9 e27|.]] f9 r9
+												{talea=v} [[c18 b9 a18]] r9 [[e'9^ d9]] r9 [[e9 f9]] r9 r3 [[c9 d9 c9^ b6]] a3. g3 r3 [[f3 c'3]] r3 [[d3 f3]] r3 [[f9 e9 d18]] r9 [[d9^ a9]] r9 [[d9 c27.]] d9 r9
+												{talea=v} [[d18 c9 b18]] r9 [[g9 d'9]] r9 [[b9 c27|]] {finis=||}
+# tit=12Lugentium-AA voix=tenor ordo=3 cle=c3 arm=c lang=non clemod=G_8
+[...]On est i<n>uent<us> Tenor					{relative=f;modus=3;tempus=3;prolatio=3} r27 r27 r27 r27
+												{color=v;talea=v} f27 [[f9 a18* g27]] r27
+												c3 r3 c3 c3 r3 x3 c3 r3 c3 r27
+												[[x27^ x9]] [[c18* g27]] z27 z27 {linea=v}
+												{talea=v} [[d'27^ c9 d18* c27]] r27
+												c3 r3 [[g3 c3]] r3 [[d3 f3]] r3 g3 r27
+												[[f27^ d9 e18* c27]] a27 r27
+												{talea=v} [[c27^ b9 d18* e27|]] r27
+												c3 r3 [[e3^ d3]] r3 [[c3 e3]] r3 d3 r27
+												c27 [[c9 b18* a27]] c27 r27
+												{talea=v} c27 c9 [[c18* d27|]] r27
+												c3 r3 [[d3 e3]] r3 [[c3 d3]] r3 c3 r27
+												[[d27| e9^ d18*]] [[e27 c27]] z27
+												{talea=v} [[d27| e9^ d18* e27|]] r27
+												e3 r3 [[c3 e3]] r3 f3 d3 r3 c3 r27 {linea=v}
+												[[z27^ a9 b18* a27]] a27 r27
+												{talea=v} [[f27| a9]] [[a18* c27]] r27
+												b3 r3 [[a3 c3]] r3 c3 c3 r3 a3 r27
+												[[b-27^ a9 b18* g27]] f27 r27
+												{talea=v} [[a27| b9 g18* f27]] r27
+												a3 r3 [[g3 c3]] r3 c3 a3 r3 f3 r27
+												[[g27| a9^ g18* a27|]] g27 r27
+												{talea=v} g27 g9 [[g18* f27]] {finis=||}
+# tit=12Lugentium-AA voix=tenor_solus ordo=5 cle=c4 arm=c lang=non clemod=G_8
+[...]Olus tenor									{relative=f;modus=2;tempus=3;prolatio=3} r18 r18 r18 r18 [[f18| a9 c9 f,36|]] [[a18 g18]] g9. d'3 [[c9 b9^ a6]] f3. [[a3 c3]] [[c3 d3]] c3 c3 [[d3^ c3]] [[b9 a9 g18]] [[d'9^ b9 c18|]] [[c9 g18]] g9 [[c18 f,18]] [[a9 g18]] [[d'9^ g,9 a9 d9^ b9 c18|]] f,9. f3 [[c'9 a9^ g6]] f3. g3 g3 f3 g3 g3 f3 g3 a3 [[a9 g9 f36]] [[f9 e18]] f18 [[f9 a18]] [[a18 g9 f18]] [[c'9^ f,9 g9 d'9]] {linea=v}
+												z9 z18 z9 z3 z9 z9 z6 f,3. g3 a3 g3 a3 c3 a3 g3 a3 [[c9 g9 f18]] c'18 [[f,9 b9^ g9 a18|]] [[a9^ f9 c'9]] [[c18 g9 f18]] c'18 [[f,9 c'9 a9 g18]] g9. g3 [[b9 a9^ g6]] f3. g3 g3 a3 c3 c3 g3 a3 c3 [[f,9 a9 g18]] [[d'9 b9^ a9 d9]] [[f,9 e18]] [[e9 f9 c'9]] [[c18 a9 g18]] d'18 [[c9 d9 b9 a18]] a9. a3 [[d9 c9^ b6]] a3. c3 c3 a3 f3

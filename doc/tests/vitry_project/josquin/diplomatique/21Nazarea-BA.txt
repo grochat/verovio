@@ -1,0 +1,42 @@
+#tit=21Nazarea-BA source=E-Bbc_853 voix=triplum ordo=1 lang=lat visa=CC,SJ
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 07.02.2022-21:12/ob MODIF: 13.07.2022-01:01/sushaant
+ZElomina zelus virtutib<us>			{modus=3;tempus=3;prolatio=3;pagina=v;relative=c';cle=c2} c3 c3 c3 f2 g1 a2 g1 a2 b1 a9.
+vici=or<um> tu=i carentib<us>			g1 f1 g1 a2 a1 g2 g1 f2 e1 d3
+nil ali=ud sunt i<n> juvenib<us>			d1 d1 e1 f2 e1 f2 g1 f2 e1 d3
+nec argu=ite proth dolor s<en>ibus			d3 e2 d1 c2 d1 {linea=v} e1 e1 f1 e2 d1 c9.
+cogitare			f2 e1 f3 f3 r9
+passi=one<m> pret<er> q<uam> sustinet			a1 a1 a1 e2 f1 e2 d1 e2 f1 {fractio=2/3} e3 {fractio=1}
+ingeni=u<m> quod totu<m> retinet			{fractio=1/3} e3 {fractio=1} e2 d1 c2 d1 e2 d1 f2 g1 {fractio=3} [f3 {fractio=1} {tempus=2} {nota=Le silence, situé juste avant le signe du *tempus imperfectum* devrait valoir une brève parfaite mais est en réalité inclu dans le temps imparfait.} r6 e6 r6 e6 r3 g3 r3 g3 r1 r1 c,1 r1 r1 c1 r1 r1 g'1 r1 r1 a1]
+<et> in p<ro>se bonu<m> se seminet		b2 b1 a2 {nota=Le signe de *tempus perfectum* est indiqué une minime trop tôt.} [b1 {tempus=3} c1 a1 b1 c2 b1] {linea=v} a2 g1 [f1 e1 f1] g1 f1 g1
+heu nitit<ur> sensus et eminet			f1 f1 e1 d1 d1 d1 c1 c1 c1 d1
+exte[care]			d1 d1 e9 r9
+nam per thamar <et> amon patu=it			a3 a3 g3 f2 g1 m@ b2 a1 g2 a1 f3
+pala<m> f<ratr>e qui mortem tenu=it			d2 c1 {linea=v} d2 e1 f9. g2 g1 g2 a1 c2
+ab absalon uri=e sic fu=it			b1 a2 g1 a3 a2 g1 f2 e1 d3 d3
+per versabe=e d<avi>d sic placu=it			e3 e3 e2 d1 e2 f1 g2 g1 f2 g1 a9.
+p<er>petrare			g2 f1 e3 e3 r9
+per se v<ir>tus nec obliviscit<ur>			c'1 {linea=v;cle=c1} b1 c1 a2 b1 c2 b1 a2 g1 {fractio=2/3} f3 {fractio=1}
+ero=y=a per quam perficit<ur>			{fractio=1/3} f3 {fractio=1} c2 c1 d2 e1 f2 e1 d2 c1 {fractio=3} [d3 {fractio=1} {tempus=2} r6 f6 r6 a6 r3 g3 r3 {nota=Passage noté une tierce trop haut, maladroitement corrigé par l'ajout d'une deuxième clé c2 au début de la ligne.} m@ d'3 r1 r1 d1 r1 r1 d1 r1 r1 a1 r1 r1 a1]
+cre=at<ur>a n<e>cno<n> <et> sp<er>nit<ur>			d2 d1 c2 b1 {tempus=3} a1 a1 b1 c2 c1 b2
+penuri=a q<ue> v<er>e d<icitu>r			{nota=Fin du passage à lire avec la clé ajoutée c2.} g1 a1 g1 f1 {linea=v} e1 e1 f1 e2 d1 a'2
+superare			a1 g3 f3 g9 r9
+co<n>vivis per abstinenci=am			g1 [g1 d1] d2 e1 g2 g1 a2 b1 a3
+cilici=is p<er> acremoni=a<m>			a1 a1 e1 a2 m@b a1 b2 a1 g2 f1 e9.
+vig<i>li=is per p<er>sistenci=a<m>			g3 a3 g3 f3 f3 b2 a1 b2 c1 b3 {linea=v}
+donis su=is per aflu=enci=am			b3 a3 a3 g3 a3 a2 b1 a2 g1 f9.
+liberare			a2 g1 a3 a3 r9
+respu=it hec att<us> sup<er>bi=e			e1 e1 f1 d2 e1 f2 e1 f2 g1 m@ {fractio=2/3} b3 {fractio=1}
+similit<er> <et> avarici=e			{fractio=1/3} b3 {fractio=1} f2 g1 a2 g1 f2 e1 g2 a1 {fractio=3} g3 {fractio=1}
+di desponsate namq<ue> b[...] [...]li=e			{tempus=2} r6 [a6 r6 c6 r3 g3 r3 d'3 r1 r1 d1 r1 r1 c1 r1 r1 b1 r1 r1 a1] g2 {linea=v} {nota=Les deux notes suivantes se lisent difficilement.} g1 g2 a1 {tempus=3} f1 f1 g1 a2 f1 g2
+vult efett<us> gratos luxuri=e			a1 {nota=Passage noté une tierce trop haut. ????tenor} a1 b1 c1 a1 b1 c1 a2 a1 m@ {nota=Fin du passage noté une tierce trop haut. ????tenor} b2
+dissipare			b1 a3 g3 b9 r9
+paci=enti s<ed> et disposito			a1 g1 a1 f2 g1 f2 g1 a2 b1 a3
+namq<ue> for[.]e sunt nec in m<er>ito			e1 e1 {linea=v} f1 e2 d1 e2 f1 e2 d1 c9
+delicate palpat seq<ue> cito			d3 f3 g3 a3 a3 e2 d1 e2 f1 e3
+qui vici=a vult ita subito 			d3 c3 c3 c3 d3 d2 f1 e2 d1 c9.
+sup<er>are			{nota=Une hampe de minime a été ajoutée à la semibrève *gsolreut*, puis partiellement effacée.} g'2 a1 g3 g3 r9
+p<ro>pter hoc su<m> dedit<us> ac<ri>t<er>			a1 g1 {linea=v} a1 b2 a1 g2 f1 e2 d1 {fractio=2/3} e3 {fractio=1}
+relinquendo t<er>rena firmit<er>			{fractio=1/3} e3 {fractio=1} a2 a1 g2 f1 e2 f1 d2 c1 {fractio=3} [d3 {fractio=1} {tempus=2} r6 e6 r6 d6 r3 c3 r3 g'3 r1 r1 g1 r1 r1 g1 r1 r1 c1 r1 r1 b1]
+zelo novo danti finalit<er>			{nota=Le texte *zelo novo danti* a été noté une première fois sans laisser de place pour le mélisme de *finaliter*, puis une seconde fois à sa juste place.} a2 g1 a2 b1 {tempus=3} g1 g1 a1 b2 a1 b2 {linea=v}
+sumu<m> bonum nam polo breviter			c1. d1 a1 d1 d1 a1 d1 c2 b1 a2
+citare			[a1 a3] b3 c27 {finis=||}

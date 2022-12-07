@@ -1,0 +1,61 @@
+#tit=29Florens-CA source=F-CA_1328 voix=triplum ordo=1 lang=lat visa=CC,SJ
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 08.02.2022-21:25/ob MODIF: 11.07.2022-23:47/sushaant
+[...]=[...] [...] vana glori=a			{modus=3;tempus=2;prolatio=3;pagina=v;relative=g';cle=c2} x6 x3 x3 x3 x3 x3 x3 x6
+novitatu<m> p<re>su<m>pti=o			x3 x2 x1 x3 x3 x6 [x2 x1 x2 x1] {linea=v} g6
+ypocrisis jactanti=a			g3 g2 f1 x3 d3 c6 [[e6 d6^]] c6
+discordi=a co<n>tenti=o			g'3 f2 g1 g3 e3 f3 d3 e3
+[..]c inobedi=e[.]=[...]=[...]			c3 d3 {linea=v} b3 c3 c3 f6 [f2 e1 d2 e1] f3
+pertinenti=e capti=o			e2 d1 e3 e2 e1 d3 c3 d6 r12
+p<ro>cedit ex i<n>vidi=a			a'3 g2 a1 e3 e3 d3 b3 c3
+in p<ro>sp<er>is afflicti=o			c3 f3 {linea=v} f2 f1 f3 g2 f1 a3
+det<ra>cti=o <et> odi=a			g3 a3 g2 a1 g3 f2 e1 f3
+nocensq<ue> susurrati=o			f3 g3 d2 g1 g3 f2 {linea=v} g1 a3
+de p[...]=[...]=[...] injuri=a			a3 c3 c2 b1 a3 b2 a1 g6
+jocunda exultati=o			p@ f12 [g2 f1 g2 a1] g12 e3 e3 [[g3 a3]] b6 c6 r12 {linea=v}
+ex [...]=a contumeli=a			f,3 f2 f1 e3 e3 d3 e3 f6
+exit <et> indignati=o			c3 c3 d3 e3 d3 d2 d1 d3
+[...]=[...] [...]=[...] blasphemi=a			c2 c1 {linea=v} c3 c3 d3 d2 e1 d6
+mentis auget inflati=o			d3 d3 g6 d3 d3 c3 b3 c6 r12
+proflu=it et accidi=a			c3 {linea=v} c2 d1 c3 d3 c3 d3 f3
+foras mentis vagati=o			f2 f1 g3 d2 g1 f3 g3 a3
+ma[...]=[...]=[..] pigrici=a			a3 x3 {linea=v} e2 e1 g3 a2 b1 c3
+rancor <et> desperati=o			g2 c1 a3 g2 a1 g3 f3 g3
+manat ex avariti=a			f2 g1 a3 g2 f1 g3 a3 c3
+fallati=a p<ro>dici=o			c2 a1 f2 f1 a3 b3 a3 g6 r12
+[...]=[...]q<ui>tas p<er>ju[...]=[..]			f3 f2 f1 e3 d3 c3 b3 c3
+fr[..]s cordis ob[.]uraci=o			c3 f3 c2 f1 {linea=v} {cle=c1} x3 g2 a1 b3
+ex gula i<m>mu<n>dici=a			b3 a3 e2 a1 a3 g2 f1 g3
+sens<us> hebes ingeni=i			g2 g1 e3 f2 g1 f3 f3 e6 r12
+scurilitas letici=a			c3 b2 c1 f3 f3 f3 c2 f1
+vana cu<m> multi[...]=[...]=o			c3 c3 c3 c2 d1 c3 d3 f3
+se[...]tur ex [...]=[...]=[...]=[..]			f3 d3 {fractio=2} d1 {fractio=1} d1 d3 {linea=v} c2 d1 e3
+huj<us> mu<n>di affecti=o			e2 e1 f3 e2 p@b f1 a3 b3 c6
+cecitas in<con>stanci=a			b3 b2 b1 a3 f3 g2 f1 g3
+<et>  in<con>siderati=o			c3 b2 a1 b2 c1 b2 a1 g6 r12
+horror futura glori=a			c3 c3 g3 f2 g1 g3 e3 f3
+g<ra>[...] p<re>cipitati=o			g2 f1 {nota=Un changement de clé vers c2 devrait avoir lieu ici. La clé est soit effacée, soit oubliée par le copiste.} g3 f2 g1 f3 g3 a6 r12 {linea=v}
+in [...]=[..]m parit odi=a			d,6 c6 d6 d3 c3 d3 e3 d6
+nostre carnis dil<e>ct<i>=o			d3 g3 {cle=c2} d3 c2 d1 c3 {fractio=1/2} b6 {fractio=1} c18 {finis=|}
+#tit=29Florens-CA voix=motetus ordo=2 lang=lat
+Flo[...]ns [...]gor [...]=[...]=[...]=[...]			{modus=3;tempus=2;prolatio=3;columna=v;relative=a';cle=c2} [x6 x2 x1 x2 x1 x3 x3 x6 x12] [x3 x2 x1] x12 x6 [x3 x3] [x3 x3 x6 x2 x1 x2 x1] x6 x18
+[...]=[...] vicens om<n>i=a			x3 x3 {linea=v} a3 g3 f3 e3 f6 r12
+ad tibi fides loquendo			f6 a3 a3 g3 f3 g6 [g2 f1 g2 a1 [g3 f3^]] e18.
+[...]t[...] ad supplici=a			[f6 f3 e2 d1] c6 d3 e3 d6 {linea=v} b6 c6 r12
+qui aman genu flectendo			e6 p@ f12 g6 a6 b6 [c6 c3 b2 a1] [[b3 a3^]] g6
+impedi=unt obsequi=a			a12 [g6 f0] [e3 d2 e1] [[d3 c3^]] d6 {linea=v} c6 b6 c6 {fractio=2/3} r18 {fractio=1}
+causatori adhere<n>do			g'6 p@ f12* g18 [g3 f2 e1] d3 d3 e6 f18
+fugi=unt causari=a			d3 d3 e3 f3 e3 d3 c6 r12 {linea=v}
+sicq<ue> falsu<m> sustinendo			{cle=c1} e6 e6 [g2 f1 e2 f1] g3 g3 a3 a3 b6
+succu<m>bu<n>t justici=a			c3 b3 a3 a3 g3 f3 g6 r12
+mardoche=o detrahendo			[[c,6 d6 e6]] {linea=v;cle=c2} d6 e12* f18. [f3 e2 d1] e6 [e3 d2 c1] [[d6 e6 f6]]
+p<re>parant [...]=idi=a			e3 a3 g3 g3 f3 e3 f6 r12
+[...] in ip<s>is convertendo			e6 [f3 e2 d1] [[e3 d3^]] c6 {linea=v;cle=c1} g'12 a6 m@ [[b6 a6^]] [[g6 f12]]
+senti=ent duplici=a			g3 c,3 [f3 e2 f1 [e3 d3^]] c6 e6 f6 g6 r12
+cu<m> judex discu[...]=[...]=[...]			m@e [[b6 a6^ b6]] c12 [[b3 a3^]] g3 f3 {linea=v;cle=c2} e6 f6 g18
+justa [...]=[...] [.]emi=a			g3 d3 g3 g3 f3 e3 f18 {finis=||}
+#tit=29Florens-CA voix=tenor ordo=3 lang=non
+??? ???			{modus=3;tempus=2;prolatio=3;columna=v;relative=f;cle=c4;arm=b}
+			{color=v} [[f6 g12|]] a6 r12 [[c6 d12]] c6 r12 [[c6 a12*^ c18]] [[b-6 a6 g6 f18]] [[b-6 a12* g18]] [[a6 g12* f18]] r18
+			{color=v} [[f6 g12]] a6 r12 [[c6 d12]] c6 r12 [[c6 a12*^ c18]] [[b-6 a6 g6 f18]] [[g6 a12* g18]] [[g18 f18]] {nota=Après le silence, présence de deux petits traits verticaux, indiquant les deux *colores*.} r18
+			{color=v} [[f6 g12|]] a6 r12 [[c6 d12]] c6 r12 [[c6 a12*^ c18]] [[b-6 a6 g6 f18]] [[b-6 a12* g18]] [[a6 g12* f18]] r18
+			{color=v} [[f6 g12]] a6 r12 [[c6 d12]] c6 r12 [[c6 a12*^ c18]] [[b-6 a6 g6 f18]] [[g6 a12* g18]] [[g18 f18]] {finis=||}

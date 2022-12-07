@@ -1,0 +1,41 @@
+# tit=01VosPastores-KO source=D-KBa_243 voix=triplum ordo=1 lang=lat clemod=g2_8 visa=CC,DC,TSF,SJ,OB
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 21.04.2021-10:27/ob MODIF: 05.02.2022-17:09/ob
+Orbis orbat<us> [...] [...] [...]			{pagina=v;modus=3;tempus=2;prolatio=3;relative=c';cle=c3} c6 [c6 d0] [c3 p@G b2 a1] [g6 a0] g6 p@g f3 g3 {nota=Incertitude quant à la présence de la semi-brève : elle semble figurer juste avant la minime *gsolreut*.} a2
+[...] [...] [...] cec<us> ce[..]pita[..]			g1 a2 b1. c3 c3. c3 [b2 c1] d3
+du<m> <com>pone<n>dis locul<is>			d3. e3 e3. e2 d1 e2 e1. {nota=Les deux semi-brèves *alamire* sont très effacées.} a,2
+mit<ra>t<us> q<ui>sq<ue> milita[..]			a1 b2 c1 d2 d1 e2 c1 {linea=v} d6 r18
+[...] [...] [...] dis [...] [...] [..]ul<is>			b6 b6 c6 d2 d1 c2 b1 [c6 d0]
+<et> paup<er> chr<istu>s clamitat			[[d3 e3]] [d3§ c2 b1] {nota=Il ne reste qu'une partie du dièse, à cause de la déchirure du manuscrit.} p@G c12 [d2 c1 d2 e1] d6 m@ d3 c3 b2
+jejunis v<er>bo popul<is>			a1 b2 b1. c3 c3. c3 a3 b18 r18
+clamat ja<m> rau[...] fau[...] [...]			[a2 g1 a2 f1] p@E {nota=La hampe droite semble un peu plus longue que la gauche, mais une longue pliquée serait rythmiquement fautive.} [g6 a0] [g6 f0] a3 {linea=v} a3. d3 [c2 b1] a2 
+[..]d cor r<e>dite fili=i			a1 a2 b1 c3 c3 [c6 b0] [c3 b2 a1] b18 r18
+s<ed> cu<m> surdis si<n>t aurib<us>			[a6 b0] [[e3 f3^ {nota=La fin de l'oblique n'est pas très claire : elle se confond quelque peu avec la semi-brève suivante.} e6]] [d3 c2 b1.] a3 g3. a3 a3 [b6 c0]
+<et> <con>te<m>ptores [...] [..]i=i 		[c6 b0] d3 d3. e2 d1 e2 d1 [b6 c0]
+i<n>d<ur>atis c<er>[...] [...] [...]			p@B c3 c3. d3 b3. {linea=v} [c2 b1 a2 b1 x3 x3] x6 x12 x18 r18 
+[...] [...] [...] [...] [...] [...] [...] i 		e3 c2 d1. e2 d1 e2 d1 [e6 f0]
+hiis mox <com>p<e>llat vocib<us>			a,6 g12 a3 a3 p@ b6 p@B c3 c3 d18 r18
+c<ur> si<mi>les aspidib<us>			[b6 c0] b2 a1 b2 b1. a3 g3. a2
+au[...] [...] [...] [...] [...] mi [...]			a1 g2 a1 g3 g3. c3 {linea=v} c3 [d6 e0]
+[..]uit[..] ja<m> pares ca [...] <us>			[e2 {nota=La minime *dlasolre* et la semi-brève suivante *elami* ne sont que partiellement lisibles.} d1 e2 f1 e6] {nota=La hampe de la longue est presque entièrement effacée.} a,12 [b6 c0] b3 b3. {nota=La hampe droite semble un peu plus longue que la gauche, mais une longue pliquée serait rythmiquement fautive.} [c6 d0] [c2 b1 c2 a1] b18 r18
+c<ur> i<n> g<re>ge<m> c<ra>ssamini			d3 d2 c1. {fractio=2/3} b3 {fractio=1/3} b3 {fractio=2} b1 {fractio=1} a1. b2
+ej<us> d<e>pastis c<a>rnib<us>			{fractio=1/2} a2 {fractio=1} a2 g1. a3 a3. d3§ [c2 b1] a6
+n<e>c i<n> lupos armamini			p@ [g6 a0] a2 g1 a2 a1. g3 a3 b18 r18 {linea=v}
+[...] [...] armati dentib<us>			{nota=Les deux semi-brèves sont très effacées.} a3 a3 a3 g2 a1. g3 g3 a18 {finis=||}
+# tit=01VosPastores-KO voix=motetus ordo=2 lang=lat clemod=g2_8
+VOs pastores adult[..] [...] 		{modus=3;tempus=2;prolatio=3;relative=f';cle=c2} [f6 e0 f3§ e2 f1. f3 p@G e2 d1 c18. [d6 e6.] [f3^ e3]] [d3 c2 b1] {nota=Deux points ont été ajoutés au-dessus de la longue, indiquant sa durée en nombre de brèves.} c12 d6 [[a6 b6]] p@d {fractio=1/2} c12 {fractio=1} [x6 d3§ c2 d1] e18 r18
+[...] v<er>i m<er>cenari=i			p@g [f6 g0] {nota=La brève est surmontée de deux points, indiquant sont altération.} g12* a18. [g6 f0] [f3§ e2 f1] [[e3^ d3]] [e6 f0] [[e3^ d3] c3 b3 [a3 b3 c6] p@A d2 c1 d2 p@B e1 [d6^ c12* x18]] r18 {linea=v}
+successores lucife [..]			[x18 x6] g'12 a3§ g2 f1 [[e3^ d3]] p@B c6 [d18. p@F g6 a3§ g2 a1 [g3^ f3] g18] r18
+chr<ist>i pseudo vicari=i			[d2 c1 p@B d2 b1] [[c12* d12]] [[e3 f3]] [e3 d3. {fractio=2} c1 {fractio=1} b1 {fractio=2} c1 {fractio=1} d1.] c3 a3 b12 p@d c6.
+vici=i dato munere			[[d6 e12|]] f6 [g12 f0] [a12 [a3^ g3.]] [f6 e0 f3§ e2 f1 [e3^ d3]] e18. f6 [g6 f0 f3 e3 [d3^ b3 c12*] d18] r18
+[...] [...] [...] | se<m>pe<r> devi=i 		[e6 f0 [e3^ d3] [c3^ b3]] {linea=v;nota=Les deux pliques sont très effacées.} [b6 a0] [c12 b0] a6 e'6 d3 x3 d18.
+[...] [...] [...] [...] [...] operi			c6 [d12* e0] e18. x6 [g6 f0 f3 e3] [a3§ g2 f1] [[e3 d3^ c6]] d18 {finis=||}
+# tit=01VosPastores-KO voix=tenor ordo=3 lang=non clemod=g2_8
+Fur no<n> venit n<isi> ut f[...]			{modus=3;tempus=2;prolatio=3;relative=f;cle=f3;color=v;talea=v;nota=Originalité du manuscrit : des points ont été ajoutés au-dessus des brèves du ténor pour indiquer leur durée.} |f6 [[f12* e18.]] [[d6 c12]] [[d6 e12* d18.]]
+			{talea=v} [[e6 f12* e18.]] [[d6 c12]] [[d6 e12* d18.]]
+			{talea=v} [[e6 f12* e18.]] [[d6 c12]] z6 z12 z18
+			{color=v;talea=v} |f6 [[f12* e18.]] [[d6 c12]] [[d6 e12* d18]]
+			{talea=v} [[e6 f12* e18.]] [[d6 c12]] [[d6 e12* d18.]]
+			{talea=v} [[e6 f12* e18.]] [[d6 c12]] z6 z12 z18
+			{color=v;talea=v} |f6 [[f12* e18.]] [[d6 c12]] [[d6 e12* d18]]
+			{talea=v} [[e6 f12* e18.]] [[d6 c12]] [[d6 e12* d18.]]
+			{talea=v} [[e6 f12* e18.]] [[d6 c12]] z6 z12 z18 {finis=||}

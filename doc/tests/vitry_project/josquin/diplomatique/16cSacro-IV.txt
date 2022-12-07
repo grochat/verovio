@@ -1,0 +1,26 @@
+#tit=16cSacro-IV source=I-IV_115 voix=triplum ordo=1 lang=lat clemod=g2_8 visa=CC,OB
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 05.02.2022-00:25/ob MODIF: 05.11.2022-13:02/david
+Paraclite qui procedis a patreq<ue> fili=o			{relative=a';cle=c2;modus=2;tempus=3;prolatio=3;pagina=v;nota=Aux deux voix supérieures, la lettrine manque mais l'initiale a été esquissée en début de ligne.} a3 a3 [e2 f1] g9. a2 g1 a3 f3 g2 g1 e2 f1 g2 f1 e9 r9 {linea=v}
+cum quibus glorificaris in sup<er>no soli=o			c2 d1 e3 c3 d3 [f1 e1 f1 e2 d1.] c3 c6 g'2 a1 b2 {linea=v} b1 g2 b1 a9 r9
+unus de=us in p<er>sonis tribus sine dubi=o			a3 g3 f3 e9. f2 g1 a3 f3 g3 [e2 d1 d2 c1] {linea=v} d2 e1 f3 d3 e3 r3
+eleyson			c3 e9. [d3 r3 r3 a'2 g1 f2 e1 f3]
+Kyri=e leyson			p@ a9 g9 [[a3^ e3] r3 [a3^ e3] {linea=v} r3 [a3^ e3] r3 [a3^ e3] r3 [a3^ e3] r3 [a3^ e3] r3 [f3^ c3] r3 [d3^ a6*.] e'3] e6* [d9 [f3 g6*]] {linea=v}
+De sup<er>nis accendat<ur> spiritalis graci=a			a2 a1 g2 g1 f2 d1. e3 c6 d2 e1 f2 f1. d2 f1 e9 r9 {linea=v}
+vere de=us qua deleant<ur> p<e>cc<a=t>or<um> vici=a.			g1 f1 e1 d2 c1 d2 e1 f1 f1 f1 f2 d1 f2 f1 e9 r9 {linea=v}
+tu cum sis i<n> trinitate unica essenci=a			a3 r1 r1 a1 r1 r1 a1 f3 f3 c3. f3 a6 g2 f1 e3 d3. c3 e6* d6 r3 {linea=v}
+eleyson			[g1 f2 f1 e2. e1 d2 d1 c2 c1 b2 b1 a2] e'9 d18 {finis=||}
+#tit=16cSacro-IV voix=motetus ordo=3 lang=lat clemod=g2_8
+Sacro sanctus ambor<um> sp<irit>us			{relative=e';cle=c2;modus=2;tempus=3;prolatio=3;columna=v} e9. p@f d3 d6 [e3 d3 c3] d3 c3 b3. a3 c6* d9 r9 
+qui vocaris semper paraclitus			a'9 [a2 g1] f3 e3 {linea=v} d3 c3 d3. c3 e6* p@f d9 r9
+placans om<ne>s langue<n>tum gemitus			g3 g3 g3 [a3 g2 f1] d3 [e2 f1] {linea=v} g3 [e3 f2 g1] [a3 f3] [[g3^ e3]] r3.
+eleyson			c3 c6* [[a9 d9]]
+kyri=e leyson			e9 p@f d9 [[e3^ c3] d3 r3 [e3 g3] r3 [e3^ d3] r3 [f3^ c3] r3 {linea=v} [e3^ d3] r3 [e3 g3] r3 [c,3 e3] r3 a,2 b1 c2 b1 c6] c3. [a3 r3 r3 d3 e1 d1 e1 d2 c1] {linea=v}
+Sacru<m>. flamen. sup<er>na bonitas			d3 e3 d3 c3 b3 c3 d9. a6 a3 [[c3^ a3]]
+ignis ardens zeli que karitas			d3 b9 r9 c6 {linea=v} c3. [e2 d1 d2 c1] [c2 b1] [d2 a1] d3 d3 c9.
+una manens in tribus de=itas			d9 [[d3^ c3]] d3 {linea=v} e9 g3 g2 f1 g2 g1 [[d3^ c3] r3 f2 f1 e2 e1 d2 d1]
+eleyso<n>			e3 c6* a18 {finis=||}
+#tit=16cSacro-IV voix=tenor ordo=2 lang=non clemod=g2_8
+Tenor paraclite			{relative=a;cle=f3;modus=2;tempus=3;prolatio=3;linea=v} p@ {color=v} [[a9 b9 a9^ g9 a9^ g9 a9^ d,9]] [[f9 g9 a9 b9 a9 g9^ f9]] [[e9 d9 c18]] d9 r9
+			{color=v} [[a'9 b9^ a6]] g3 a6 g3 a6 d,3 f6 g3 a6 b3 a6 g3 f6 e3 d6 c3 [[c9 d9]] r9
+			{color=v} d3 e3 f3 [[f9^ d9]] r9 c3 d3 d3 [[g9^ f9]] r9 g3 f3 e3 [[d9 f9]] r9
+			g3 a3 m@ b3 {linea=v} [[a9^ g9]] r9 f3 e3 d3 c9 d18 {finis=||}

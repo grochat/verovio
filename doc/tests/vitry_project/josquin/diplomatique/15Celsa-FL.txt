@@ -1,0 +1,34 @@
+# tit=15Celsa-FL source=I-Fsl_2211 voix=triplum ordo=1 lang=lat clemod=g2 visa=CC,OB
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 30.01.2022-23:44/ob MODIF: 05.02.2022-00:37/david
+Flos ort<us i<n>t<er> lili=a			{relative=c'';cle=c2;pagina=v;modus=2;tempus=2;prolatio=3;pagina=v;nota=Pour cette source de lecture difficile, les durées ont été établies avec l'aide de la copie d'Ivrea.} c3 [c1 b1 c1] a6 c2 b1 a2 g1 a2
+q<uo>r<um> radix e<st> fra<n>ci=a			g1 f2 d1 e2 d1 e2 f1 e6
+q<ui>b<us> flagrat cecili=a			d3 e2 f1 x2 a1 g2 f1 e12
+ludovic<us> vite vi=a			a3 g2 a1 b2 a1 g2 f1 e6 r6
+Qui spretu mu<n>di=ali=a			f3 f2 g1 a2 a1 g2 a1 b6 {linea=v}
+sprevit <et> se<n>sibili=a			b3 b2 a1 b2 c1 b2 a1 g6
+sceptra nole<n>s regali=a			f3 [f2 e1] g2 a1 f2 g1 a1 g1
+jure pat<er>no p<ro>pri=a			a1 g2 f1 e2 d1 e2 f1 g6 r6
+S<ed> minor<um> co<n>sorci=a			g2 f1 g2 a1 b3 a2 b1 c1
+poli capta<n>s palati=a			b1 c1 [a2 b1] c3 f,3 f3 {linea=v} [f1 g1] a1
+p<re>coniset ecclesi=a			b1 a1 b1 a2 g1 a6 [a2 g1] [f2 g1]
+o q<uam> bella felici=a			a3 g2 a1 b2 a1 g2 f1 e6 r6
+Movet ca<r>ni nocenti=a			f2 g1 a2 b1 c3 a3 a3 f3
+spiritu=i Vtili=a			c6 e3 e3 e2 d1 e2 f1 d2
+su=a fortis audaci=a			e1 c2 d1 {linea=v} e2 e1 d2 e1 f1
+laudabilis militi=a. 		e1 f1 e2 d1 [e2 f1] e2 d1 g6 r6
+Cui gladi=us sci=enti=a			d1 d1 d1 d2 c1 b3 b3 c6
+cui lorica prude<n>ti=a			d1 c1 d1 b2 c1 d3 d3 d2
+gale=a sapi=e<n>ti=a			c1 d2 e1 f2 e1 f2 f1 c6 {linea=v}
+q<ui>b<us> jacet sup<er>bi=a			f3 f2 e1 d2 c1 d2 b1 c6 r6 {cle=c1}
+livor gula luxuri=a			g'2 f1 g2 a1 b3 b2 b1 b6
+et mala q<ue>vis ali=a			[a2 b1 c2 b1] c3 a3 c2 b1 a2 g1 a3
+humilitate p<re>vi=a			a2 b1 c3 c1 b1 c1 a1 g1
+religi=one soci=a			a1 g2 f1 e2 d1 {linea=v} e2 e1 f6 r6
+dege<n>te pati=enti=a			f3 f2 e1 x2 e1 c2 d1 e3
+devoti=onis grati=a			e3 e1 d1 e1 d2 c1 b3 b3
+O q<uam> mira victori=a			[d1 c1 d1 c2 b1] c6 c6 d2 e1 d2 c1 [d3 e3]
+tri=u<m>fa<n>tis ad al [...]			f6 a1 a1 [a1 r1 r1 f1] e2 [e1 {linea=v} r1 r1 f1] [g1 g1]
+[...] *gna celesti=a			[g1 z1 z1 f1 a2 a1 z1 z1 f1] e2 d1 e2 f1 g6 r6
+o quam felix m[..]=i=a			b2 c1 b2 a1 [g6 f3] e3 d6
+reli<n>q<uen>tis ad vari=a			b6 d1 d1 [d1 r1 r1 b1] c2 [c1 r1 r1 f1] g1 g1
+miraculor<um> bravi=a			g1 r1 r1 f1 a2 a1 r1 r1 f1 [a2 g1] [f2 e1] g6 r6

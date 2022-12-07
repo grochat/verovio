@@ -1,0 +1,53 @@
+# tit=23QuiDoloreus-IV source=I-IV_115 voix=triplum ordo=1 lang=fr clemod=g2_8 visa=OB,SJ
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 19.01.2022-09:06/ob MODIF: 31.03.2022-13:48/sushaant
+MOm cha<n>t emplai<n>t machaso<n> en clamo<u>r			{modus=3;tempus=3;prolatio=3;relative=d';cle=c2;pagina=v} d3 d3 c2 d1 e3 d2 c1 d2 e1 g3 {linea=v}
+mo<n> ris enplo<u>r mes bons dis en t<ri>sto<u>r			g2 f1 g2 a1 g3 a2 g1 g2 f1 e3
+mo<n>gien en ir^e <et> moyse<n>s en labo<u>r			e3 d2 e1 {linea=v} f2 f1 e2 f1 e2 f1 g9 r9
+ma joy^e en duel meso<n>ches en ardo<u>r			g3 f3 g3 a9 r9 f3 f2 e1 {linea=v} f2 g1 e3 r3
+mo<n> mel en fel enamer madouso<u>r			d3 g2 g1 r3 d3 e1 e1 e1 r3 d3 a'3 a6
+ma pay<s> enplay maseurte= enpa=o<u>r			a3 {linea=v;nota=le *s* final de *pays* semble suggéré par une fioriture graphique.} g2 f1 g2 f1 e2 f1 g3 a3 g18 r9
+mo<n> pris enme<n>t en vilte ma valor			{cle=c1} d'2 d1 d3 [c3 b2] b1 {linea=v} b2 a1 b2 c1 d9 r9
+mo<n>s los enblasme en onte ma honor			b3 b3 a2 b1 p@a f3 a2 b1 c2 {linea=v} b1 c3
+mo<n> b<i>en en mal mo<n> delit en dolor			c3 b2 c1 a3 a2 g1 a2 f1 [g3 f3 e3] d9 r9
+mo<n> bel en lait <et> mon sens en folor			d'3 c3 b3 {linea=v} a9 r9 d3 d2 c1 b2 c1 a3 r3
+mavi=e= en mort en tenebre<s> mon jour			b3 c2 c1 r3 c3 b1 b1 b1 r3 a3 b3 {linea=v} [b2 a1 b2 c1] d3
+enchifre moy ont mu=e sa<n>s reto<u>r			d2 c1 b2 a1 b3 g2 a1 b2 c1 a18 r9
+da<n>gier<s> poysans conn<er>s dumble colo<u>r			a3 g2 {linea=v} a1 b3 b3 c2 b1 c2 d1 b9 r9
+desdai<n>s norris en corps de ge<n>t ato<u>r			a3 a3 g2 a1 b3 a2 {linea=v} g1 a2 c1 b3
+poi<n>te tra<n>cha<n>s cele=[...] dessonz flo<ur>			b3 [a2 b1] c3 c2 b1 c2 d1 b6 [b3. a3] a6 r9
+riche beante= emprai<n>te p<ar> savo<u>r			a3 a3 {pagina=v} g3 f9 r9 g3 g2 f1 g2 a1 b3 r3
+en mes foulz iex forcenes plei<n>s derror			a3 c2 c1 r3 c3 b1 b1 {linea=v} b1 r3 c3 b6 a3
+dorbe rayson q<ui> nont enfre=or			a3 g2 f1 g2 a1 [g2 a1] g3 f3 a18 r9
+danoir plante= en moy lamere amor			d,2 {linea=v} c1 d3 e3 d3 d2 c1 d2 e1 c9 r9
+q<ui> ma mordrit lesperit de vigo<u>r			e2 d1 e3 {linea=v} f3 g3 g2 a1 g2 f1 a9
+ne celle amo<u>r estre ne [ne puet] meno<u>r			d3 d2 c1 b2 a1 g3 a2 {linea=v} g1 a3 b9 r9 {cle=c2}
+las jenasq<ui> destine<t> ace to<u>r			g3 f3 g3 c,9 r9 g'3 g2 f1 e2 f1 d3 r3 
+que to<us> mes jorns ameray sa<n>s sejo<u>r			d3 {linea=v;cle=c1} a'2 a1 r3 a3 g1 g1 g1 r3 c,3 c6 e3
+sa<n>s enrichir de la tresdoce odor			d3 d2 c1 d2 {linea=v} e1 d2 d1 c3 b3 c18 r9
+destre namer q<ui>na p<er> negregnho<u>r			c3 c3 b2 c1 d3 c2 b1 c2 d1 {linea=v} b9 r9
+or vuel morir. lompuet morir po<ur> pl<ou>r			d3 e2 d1 e2 f1 g2 g1 a3 b3 a9.
+fra<n>c cuers ge<n>tis q<ue> je tie<n>c aseingno<ur>			g3 {linea=v} g2 p@a f1 g2 f1 g2 a1 g3 e3 p@a f9 r9
+dame q<ue> jaing saunez du ciel lono<ur>			d3 e3 d3 c9 r9 g'3 {linea=v} g2 f1 e2 f1 d3 r3
+p<ar>tu=es moy en lieu de ma langor			d3 a'2 a1 r3 a3 g1 g1 [g1 r3 e3] g2 a1 c2 {linea=v}
+ale trouvir d<e> vo<s> iex q<ue> je donr			b1 a2 g1 a3 [b2 a1] [g2 a1] b3 a3 b3 c27 {finis=||}
+# tit=23QuiDoloreus-IV source=I-IV_115 voix=motetus ordo=2 lang=fr clemod=g2_8
+QUi dolorens on ques na cogne=u			{modus=3;tempus=3;prolatio=3;relative=g';cle=c2;columna=v} [g2 f1 g3 a3 g6] d3 g3 [g2 f1 e2 f1] d3 e3 f3 [e2 f1 e3 d3] c9 d18 r9
+<et> nent prouver sen so<n> cuer apitie			f18 r9 r3 [a6 {nota=On devine un silence de semi-brève partiellement caché par un pli du parchemin.} r3 g6] r3 {linea=v} f6* e9 e3 d3 f3 [e2 f1 e3] d3 c9 r9
+vieigne ne=our moy qua mors a fait nu			g'18 e6 e3 d18 e3 {linea=v} d2 c1 d2 e1 d2  
+de toutz lebie<n>s <et> o=ir ma griete			d1 e3 d3 c9. a'3 b6 c3 b3 [c2 b1] {linea=v} a18 r9
+lors se son cuer si tres estroit nestrain			d,18 r9 r3 e6 r3 g6 r3 a6* g9 [g3 g2 f1 e2 f1] d3 e3 f3 e9 r9
+q<ue> p<ar> sons iex en saille li degu<n>t			a18 f6 f3 {linea=v} e18 a3 a2 g1 a2 f1 e2
+tons senrs soit que<n> soy pitie ne			f1 [e3 d3] e9 [f6 a3] g2 a1 g3 {linea=v} f3 
+mays tont amer et nulle riens de dons			e18 r9 c'18 r9 r3 a6 r3 g6 r3 [f6* d9.] [e2 d1 e3 d3] e3 f3 e3 d9 r9
+q<ui> tout me noyt il noyt tonte dolo<u>r			a'18 p@ f6 {linea=v} f3 g18 a6 a3 g3 f3 e3 d9.
+ne dolour nest fors en moy nulle part			d2 d1 e3 f3 e3 {linea=v} e2 d1 e2 f1 d18 r9
+car noy la mort me fait q<ua>nt je la=onr			g18 r9 r3 f6 r3 e6 r3 g6* p@g f9. [g2 f1 g3 a3] g3 {linea=v} f3 g3 a9 r9
+et lait en moy amors qu<i> mo<n> cuer part			c18 [[a3 b3]] c3 [b18 g6] a3 g2 a1 g3 f3 e2 {linea=v}
+dame por nons acui diex croyche hono<u>r.			f1 e3 d3 c6 e3 g3 g2 f1 e2 f1 d18 r9
+Oret moy mort aqui la mort vientart.			c'18 r9 r3  [g6 r3 d6] r3 e6* {linea=v} g3 [g2 f1 e2 f1] d3 [d2 e1] [d2 c1 b3] f'6 g27 {finis=||}
+# tit=23QuiDoloreus-IV source=I-IV_115 voix=tenor ordo=3 lang=non clemod=g2_8
+TRistis est anima mea. Tenor.			{modus=3;tempus=3;prolatio=3;relative=a;cle=c4;columna=v;color=v;talea=v} g27 [[g9 a9]] [[a9 g27.]] r9 f18 r9 g9 r9 [[a9 c18*]] c27 r27
+			{talea=v} [[b27 c9 d9^ c9]] d27. r9 d18 r9 c9 r9 g9 [[g18* a27|]] r27
+			{talea=v} [[a27 g9^ f9 g9 a27|.]] r9 c18 r9 {linea=v} c9 r9 [[b9 c18* d27|]] r27 
+			{talea=v} c27 d9 [[d9 c9 g27.]] r9 g18 r9 a9 r9 [[a9 g18* f27]] r27
+			{talea=v} [[g27| a9 c9]] [[c9 b27.]] r9 c18 r9 d9 r9 [[c9 d9]] [[d9 c27|]] {finis=||}

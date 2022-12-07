@@ -1,0 +1,29 @@
+#tit=28CumHumanum-WI source=A-Wn_123a voix=triplum ordo=1 lang=lat visa=CC,SJ
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 07.02.2022-23:27/ob MODIF: 18.07.2022-09:49/sushaant
+[.]Eaci=us se servans liberet			{modus=2;tempus=2;prolatio=3;pagina=v;relative=g';cle=c1} r12 r12 r12 r12 r12 r12 [g2 a1 f2 g1 a6] [[g3^ f3]] g6 g3 f3 e3 d2 e1 f3
+<et> plutonis pugiles superat			g3 [a5 g1] f2 f1 c2 d1 f3 e2 f1 g12 {nota=On devine un trait très effacé.} r12
+cu<m> hu<m>anum sit co<n>cupisc<er>e			b6 a3 a3 d,12 f12 g2 a1 f2 g1 a3
+humanitas q<ue> p<otes>t libere			b3 c2 {linea=v} b1 c2 a1 g3 f3 e12 f3 g3
+mu<n>di=ali habitu glori=e			a3 a3 d,6 e6 f3 [e2 f1] d6 a'12 [a5 b1 c2 b1 b2 a1] g12 r12
+no<n> co=acta sub abstine<n>ci=e			a3 a2 g1 f3 [e2 f1] g12 a2 g1 a2 a1
+nec subdita obedi=enci=e			d,6 a'2 g1 a2 g1 f2 e1 d2 c1 d12 {linea=v}
+ut false cedu<n>t app<are>nci=e			[g3 a2 b1 [c3^ g3]] c2 b1 a2 b1 c2 b1 a2 g1 f12 r12
+mu<n>dum q<ue>ret mu<n>danis cede<n>do			g2 {nota=On devine une hampe.} f1 e3 d3 c3 d2 c1 d2 e1 f2
+chr<ist>i t<ame>n amo<r>e la<n>guendo			e1 d2 e1 f3 e3 f2 e1 {fractio=2/3} f3 {fractio=1/3} g3 {fractio=1} [a12 r12
+			{nota=Particularité du manuscrit : oblique dans une ligature ascendante.} [a3^ b3 c6] r12 [c3^ b3 {nota=Particularité du manuscrit : l'oblique placée entre les deux premières notes de la ligature indique que la finale est brève.} a6] r12 {nota=La hampe *cum opposita proprietate* est cachée par une pliure.} [a3^ b3 c6] r12 {linea=v}
+			[c3^ b3 a6] c3 b2 g1 r6 f3 e2 c1 r6 c'3 b2 g1 r6 f3 e2 c1 r6 c'3 b2 g1 r6 f3 e2 c1 r6 a'3 r3 g6 r6 g3 r3 a6 r6 d,3 r3 a'6 r3 g3 f6 e3 r3 d6 f3 g2 a1 [b3^ a3] r6 f3 e2 c1 f6 {nota=On devine un silence de brève.} r6 f3 e2 c1 f6 a3 r3 g3 r3 a3 r3 g3 r3 f3 r3 g3 r3 {fractio=6/5} g5 {fractio=3} a1 {fractio=1} r1 r1 a1 g3 r1 r1 {linea=v}
+			a1 b3 r1 r1 g1 a3 r1 r1 f1 g3 r1 r1 e1 f3 g2 a1 [b3^ a3] r6 f3 e2 c1 a'6 r6 f3 g2 a1 [b3^ a3] r6 f3 e2 c1 a'6 r6 e6 g2 f1 e2 f1 g6 g3 a2 b1 c12]
+Quem [pi=am] mu<n>du<m> dimittendo			z24 {nota=Décalage nécessaire pour rétablir la veriticalité avec le triplum.} [g5 e1 f2 e1 f2 d1] [[f3^ e3 f6]] d6 a'2 g1 a2 b1 a2
+angari=e se jugo subdendo			g1 g2 f1 e3 [g2 f1] {linea=v} e3 [e2 d1] [d2 c1] [c2 b1] c12 r12
+Jocis cedet mu<n>danis co=acta			[[e3^ g3]] f2 e1 f2 d1 e3 e3 a6 a2 g1
+quib<us> cedens su=a solvit pacta			f2 e1 f3 f3 p@ g12 a12 a2 a1 d,2 e1
+q<ua> nu<m>q<uam> e<st> v<e>l raro habitum			f2 f1 e2 f1 g3 g3 d3 {linea=v} d2 c1 b12
+co<n>ju<n>ctam<ur> semp<er> in vetitum			c12 d3 [c2 d1] e3 [d2 e1] [f3 e2 f1] g3 a2 b1 a12 r12
+Nu<n>c igit<ur> s<an>c<t>am t<ri>nitatem			c12 c2 g1 c2 g1 g2 g1 a2 b1 c3
+ven<er>em<ur> atq<ue> unitatem			c2 c1 c3 c2 c1 g6 [g2 f1 e2 d1] e6 [f2 e1 f2 g1] a12 r12
+virtu=ose i<n> mu<n>do vive<n>tes			c12 {linea=v} c2 g1 c2 c1 g2 g1 a2 b1 c3
+angari=e fallaci cedentes			[c2 b1] [a2 g1] [g2 f1] e12 [[d3 a'3]] [[b3^ a3]] [g5 a1] [g2 f1] [f2 e1] f12
+#tit=28CumHumanum-WI voix=motetus ordo=2 lang=lat
+[.]um humanum sit pecca<r>e			{modus=2;tempus=2;prolatio=3;linea=v;relative=f';cle=c3} [[f6^ d6] f2 e1 e2 d1 c6 [g'3^ f3] [e3^ d3 {nota=Particularité du manuscrit : l'oblique placée entre les deux premières notes de la ligature indique que la finale est brève.} c6]] [d2 c1 b2 a1] b12 c12 [d3 e2 f1] [[e3^ d3]] [d2 c1] [c2 b1]
+humanos amat de=itas			c6 g2 a1 b2 g1 a3 g3 f12 r12
+malum co=actos vitare			b6 [a3 a2 g1] f6 [g2 f1 e2 d1] e3 e3 f6 [g11 a1]

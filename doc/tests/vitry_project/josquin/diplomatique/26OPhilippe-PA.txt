@@ -1,0 +1,43 @@
+# tit=26OPhilippe-PA source=F-Pn_146 voix=triplum ordo=1 lang=lat clemod=g2_8 visa=CC,SJ,TSF,DC,OB
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 30.12.2021-21:27/sushaant MODIF: 05.02.2022-00:37/david
+Servant regem misericordi=a			{modus=3;tempus=2;prolatio=3;relative=e';cle=c2;columna=v;nota=Dans les trois parties, présence de deux petits traits verticaux après la clé, indiquant probablement le *tempus imperfectum*.} r18 r18 p@f e6 f12 g3 g3. e3§ e2° f1°. g2° f1° g2°
+<et> v<er>itas n<ec>non clem<en>ci=a.			g1°. a3 a3 [g6 a0] {linea=v} g1° g1° f1° e2° d1° c12 r6
+Judici=i rex sedens soli=o			e6 d2° c1° d2° d1°. c2° d1° e2° f1° g12
+malum tollit aspectu p<ro>pri=o.			e6 {linea=v} [f6 e0] [|d6 c3° b2° a1°] b12 c6 d12 [c6 d0] [f6 e0] [d6 e0 d2° c1° b2° c1°] d12 r6
+Rex sapi=e<n>s dissipat impi=os			a'6 a1° g1° a1° f2° {linea=v} e1°. d3§ d2° e1° f12
+insipi=ens erigit insci=os..			g6 a1° g1° a1° g2° f1° g6 f3 e3 f12 r6 {linea=v}
+Impi=etas regis si tollatur			[g6 f0] e3 e3. f3 d3. b3 b3 p@ c6 c6 d18.
+justici=a thronus roborat<ur>			[c6 d0] e3 f3. g3 e3 {linea=v} f12 [[e3^ d3]] e6 [d6 [c3 d3]] e12 r6
+Judici=u<m> ca<usa>m det<er>minat			d12 e3 e3. f3 f3  [g6 f0] e3§ c2° d1° f18.
+justici=a falsum eliminat			e3§ e2° f1°. {linea=v} p@ g3 g3. a2° g1° a2° g1° a18 {fractio=3} r6 {fractio=1}
+mendaci=a rex qui libe<n>s audit.			[a12 g0] e3 e3. f3 d3. b3 b3. c3 {linea=v} d3 e18.
+Om<ne>s s<er>vos i<m>pi=os exaudit.			g3 d3. e3 c3. d3§ c2° b1° d6 e12* f12 r6
+Clem<en>ci=a regis laudabilis			e6 p@ f3 f3. g3 {linea=v} e3. g2° f1° g2° a1° [g6 f0]
+sev<er>itas ejus t<er>ribilis			e1° d1° e1° d2§ e1° [f6 e0] d6 c3 a3 b18 r18
+bona t<er>ra cujus rex nobilis.			f'3 {linea=v} g3. a6 a3§ g2° f1°. e3§ d2° c1°. d3
+Sed ve t<er>re si sit pu=erilis.			d3. c3 d3. e3 {linea=v} g3. f3 f3. e3 d3 c12 r6
+Meli=or est pauper et sapi=ens			d3§ c2° b1° [c6 d0] [[e3^ d3]] c2° b1° {linea=v} c2° d1° c12
+atq<ue> pu=er q<ua>m rex insipi=ens			g'3§ g2° f1° [[e6^ d6]] b6 p@ c6 c3§ b2° c1° d18 r18 {linea=v}
+Rex hodi=e est <et> cras moritur			{nota=Musique manquante. Le texte est positionné d'après Paris 571.} x18 x6 x6 x6 x18 z12 r6 x6 x6 x3 x3 x12
+juste vivat <et> sancte igitur			x3 x2 {linea=v} x1 x6 x3 x2 x1 x3 x3 x18
+# tit=26OPhilippe-PA voix=motetus ordo=3 lang=lat clemod=g2_8
+O Philippe prelustris francorum			{modus=3;tempus=2;prolatio=3;relative=e';cle=c2;pagina=v} e18. [f6 e0] p@C [d6 e0 d3§ c2° b1°] c18. d6 c6 [d2° c1° d2° e1°.] d6 e12* f18.
+rex insignis juvenis etate.			g6 {linea=v} a6 [g2° f1° f2° e1°] [d12 e0] d3§ c2° b1°. c6 d12* e18 r18
+Consili=o utere proborum			c6 [d6 e0] [d2° c1° c2° b1°] a12 a3§ b2° c1° {linea=v;cle=c3} d6 [[a6 b6]] c18. 
+in pro=avi degens sanctitate.			d6 [e6 f0] [e2° f1° e2° d1°] [c12 d0 c3° b2° a1°] [[d6^ c6 d6 e6]] p@ f12* {linea=v;cle=c2} [g12 g2° f1° g2° a1°] [[g3^ f3]] [[e3^ d3] c3 b3] c18 r18 {cle=c3}
+Ecclesi=e pacis tenens locum			[b6 c0] [[b3^ a3]] g6 a12 b6 [[c3 d3]] [[e3 f3] e3 d3] [c12 c3§ b2° a1°.] {linea=v;cle=c2} [[b6 c12*]] d18.
+ac judicans plebem equitate			g6 a6 [[g3^ f3]] [e6 f0] [[e3^ d3] c3 b3.] c3 d3 [e6 f0] [[e3^ d3]] p@ c18 r18 {linea=v;cle=c3}
+aggredere gentem paganorum.			[[a6 b12* c18 d0.]] e6 d6 c6 d6 c6 b6 c6 d12 [[e6 d6^ c6]]
+spopondisti nunc accelerate			[[d12^ c6 d0]] {linea=v} c6 [d6 e0 d2° c1° c2° b1°] a18. [[e'6^ d6 e6]] f12 [e3§ d2° c1°.] d6 g12* f18 r18
+ut conformis sis principum quorum			[[e6 f12* g18.]] [f3§ e2° d1°] [[e3 f3] e3 d3] {linea=v} c18. b6 [a6 b0] [a3§ g2° a1°] b6 p@ {nota=Une longue *csolfaut* a été grattée : erreur de positionnement (au-dessus de la mauvaise syllabe) et erreur de valeur (brève altera).} c12* d12
+nomina sunt laudis approbate			e3§ e2° {linea=v} d1°. [c3§ b2° a1°] [[b3 c3 d6]] c12 d6 e6 [[d6^ c6]] d18 {finis=||}
+# tit=26OPhilippe-PA voix=tenor ordo=2 lang=non clemod=g2_8
+Tenor Rex regum et dominus dominancium			{modus=3;tempus=2;prolatio=3;relative=a;cle=c4;linea=v;color=v;talea=v;nota=Le scribe a copié deux fois le *tenor* : à la suite du *triplum* et à la suite du *motetus*. On encode ici la première occurence.} 
+			[[a18^ f6 g12* {nota=Le point de perfection ne se trouve que dans la deuxième occurence.} a18.]] [[g6 a6 g6^ f6 g12* f18]] r18
+			{talea=v} [[g18^ f6]] [[f12* e18.]] d6 [[d6 f6]] [[f6^ d12*]] d18 r18
+			{talea=v} [[f18 d6^ c12* f18.]] {nota=On suit ici la deuxième occurence du *tenor*, plaçant le *b mol* à l'endroit de la muance.} m@b [[g6 a6 b6^ g6 a12* g18]] r18
+			{talea=v} [[f18| g6 f12* e18.]] d6 [[d6 e6]] {linea=v;cle=c5} [[f6^ e12* f18]] e18 d18 r18
+			{talea=v;color=v;nota=La première occurence du *tenor* déploie les deux *colores*, la deuxième un seul.} [[a'18^ f6 g12* {nota=Le point de perfection manque aussi dans le deuxième *color* de la première occurence.} a18.]] [[g6 a6 g6^ f6 g12* f18]] r18
+			{talea=v} [[g18^ f6]] [[f12* e18.]] d6 [[d6 f6]] [[f6^ d12*]] d18 r18
+			{talea=v} [[f18 d6^ c12* f18.]] m@b [[g6 a6 b6^ g6 a12* g18]] r18
+			{talea=v} [[f18| g6 f12* e18.]] d6 [[d6 e6 f6^ e12* f18]] e18 d18 {finis=||}

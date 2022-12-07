@@ -1,0 +1,81 @@
+# tit=07Gratissima-DU source=GB-DRc_20 voix=triplum ordo=3 cle=c1 arm=c lang=lat clemod=g2_8 visa=JP
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 24.08.2020-17:04/josquin MODIF: 05.02.2022-19:12/david
+Vos quid admiramini			{relative=f';modus=3;tempus=2;prolatio=3;cle=c1;pagina=v} f3 f3 c6 [f2 e1 f2 g1] a3 b3 a6
+virgines si virgini			a2 g1 a2 f1 e3 e3 d6
+pre ceteris eligende			e3 d2 e1 f6 [a2 g1 a2 b1] c3 b3 a6
+dignati fu=erimus			a2 g1 a2 b1 a3 g3 f12 r6
+nubere dum nupsimus			g2 g1 f2 e1 d3 c3 d6
+tamquam valde diligende			e6 [g2 f1 g2] a1 [b2 a1 b2 c1] [|a6 g0] f6 {linea=v} [a2 g1 a2 b1] g6 r6
+ista pulcra speci=e			g3 g3 [~a6 b0] a6 [a2 g1 f2] e1 d12
+humilis maneri=e			a'2 g1 f2 g1 a3 b3 c6
+ac opere virtu=osa			a6 [b2 a1 b2] c1 [a2 g1 a2] b1 [g2 f1 g2] a1 f6
+turpis vestrum altera			f3 [e1 d1 e1] f2 e1 d2 c1 d12 r6
+ausu nimis aspera			a'2 g1 a2 b1 a3 g3 [[f3^ e3]]
+nec non virtutes exosa			g6 g3 a3 [g2 a1 g2 f1] g6 {linea=v} [g2 a1 g2 f1] [e2 d1 e2 f1] d6 r6
+ista lux vox nubila			a'3 b3 [a6 g0] f6 c'3 [c1 b1 c1] a6
+ista velox aquila			a2 g1 a2 b1 g3 g3 a6
+vox colubres gradi=entes			[a6 g0] f2 e1 f2 g1 a3 b3 c6
+ista super ethera			[a1 g1 a1] [g2 f1] [e3 d3] e6 g3 g3 a12 r6
+regnat vos in misera			f2 e1 f2 g1 f3 e3 d6
+valle languentis egentes			d3 d3 {linea=v} a'6 a2 g1 a2 f1 e6
+ista virgo regi=a			[|g6 f0] e3 [d2 e1] f6 a3 g3 f6 r12
+dulcis est amasi=a			a2 g1 f2 e1 f3 f3 a6
+me=aque sponsa pi=a			a3 a3 [b2 a1 b2] c1 a3 a3 g6 {fractio=2/3} r3 {fractio=1}
+rex ego sum hec regina			a1 {fractio=2/3} r3 {fractio=1} g1 f3 f3 {fractio=2/3} r3 {fractio=1} f1 {fractio=2/3} r3 {fractio=1} a1 g3 g3
+quis tanta referimus			d6 [d2 e1 f2 e1] d3 d3 e3 e3 d6 r12 {linea=v}
+nos qui cuncta novimus			f2 e1 f2 g1 a3 a3 g6
+dignam pre=elegimus			[e2 d1 e2] f1 [d2 c1 d2] e1 f3 g3 a6 {fractio=2/3} r3 {fractio=1}
+et ut rosam hanc pre spina			a1 {fractio=2/3} r3 {fractio=1} g1 a3 a3 {fractio=2/3} r3 {fractio=1} a1 {fractio=2/3} r3 {fractio=1} g1 f3 f3
+surgite vos igitur			e6 [g2 f1 g2] a1 f6 a3 g3 a6 r12
+qui=a tempus labitur			a2 g1 f2 e1 d3 f3 e6
+et mors vos persequitur			[e2 d1 e2] f1 g3 {linea=v} g3 a3 g3 a6 {fractio=2/3} r3 {fractio=1}
+huic servire hanc vocate			a1 {fractio=2/3} r3 {fractio=1} g1 a3 a3 {fractio=2/3} r3 {fractio=1} a1 {fractio=2/3} r3 {fractio=1} g1 f3 f3
+quod si neclexeritis			[~d6 e0] [f2 e1 d2] e1 [~f6 g0] a3 g3 f6 r12
+illam non videbitis			g2 d1 e2 f1 g3 g3 a6
+glori=am quam cupitis			c3 c3 b2 a1 b2 c1 [a6 a1 g1 a1 g2 f1]
+vos e=ya properate			e3 e3 d3 d3 e3 e3 f18 {finis=||}
+#tit=07Gratissima-DU voix=motetus ordo=4 cle=c3 lang=lat clemod=g2_8
+Gratissima virginis speci=es			{relative=c';modus=3;tempus=2;prolatio=3;cle=c3;linea=v} c6 c6 [d2 c1 d2 e1] f6 e3 d3 [c2 b1 c2 a1] [[b3 c3] [d3^ c3]] [d2 c1 d2 b1] c12
+quam decorat carnis mundici=es			[d2 c1 d2 e1] f6 f3 [e2 d1] c6 d3 e3 f6 [[d3^ c3]] d12 r6
+usque centrum plagasti intima			[b12 c2 b1 a2 b1] c18. [c2 b1 c2 d1 e2 d1 e2 f1] [g2 f1 g2 f1] e12 [d3 c2 b1] a12 [c2 b1 a2 b1] [[c3 d3] [c3^ b3]] [c2 b1 c2 a1 b12]
+me=i cordis plaga dulcissima			[|e6 d0] c6 [d2 c1] [d2 e1] {linea=v} [|f6 e0] d3 c3 b6 [d2 e1 c2 d1] e12 r6
+intra stillans amoris spiritum			[c12 c2 b1 c2 d1] e18. [e3 d2 c1 d3 c2 d1 e3 d2 e1] c12 [c2 b1 c2 d1 e2 d1 e2 f1] e6 d6 f12 [[e3^ d3]] c12
+nesci=entem pectoris exitum			[c1 b1 c1 b2 a1] b6 b3 c3 d6 e3 f3 [|e6 d0] [[c3^ b3]] c12 r6
+gratissime simili vulnere			d6 d6 c6 b18. c6 [d2 c1 d2 e1] f6 d3 e3 f6 r6 r6
+peperisti mundum me ledere			[[c6 d6]] e6 f6 e6 {linea=v} c3 c3 {fractio=2/3} r3 {fractio=1} c1 {fractio=2/3} r3 {fractio=1} d1 c3 c3 {fractio=2/3} r3 {fractio=1}
+o regina tu=um amplectere			c1 {fractio=2/3} r3 {fractio=1} e1 d3 d3 [d2 c1 b2 c1] d6 b12 c3 b3 c6 r6 r6
+astringendo pectus cum ubere			[c2 b1 c2 d1] [e2 d1 e2 f1] [d2 c1 d2 e1] c6 [c2 b1 c2 d1 e3] e3 {fractio=2/3} r3 {fractio=1} c1 {fractio=2/3} r3 {fractio=1} d1 c3 c3 {fractio=2/3} r3 {fractio=1}
+o rex regum oculum oculo			c1 {fractio=2/3} r3 {fractio=1} a1 b3 b3 [c2 b1 a2 b1] [c3 b2 c1] d12 c3 [b2 c1] d6 r6 r6
+et os ori junge pro osculo			[[c3^ b3]] [c2 b1 c2 d1 e6] d6 d6 e3 e3 {fractio=2/3} r3 {fractio=1} c1 {linea=v} {fractio=2/3} r3 {fractio=1} d1 c3 c3 {fractio=2/3} r3 {fractio=1}
+ac inspira verbum in labi=a			f1 {fractio=2/3} r3 {fractio=1} e1 d3 d3 [d2 c1 d2 e1] [c2 b1 a2 b1] c12 d3 e3 d6 r6 r6
+quod recepto fi=at caro di=a.			c6 c6 [d2 c1 b2 c1] d3 d3 [e1 d1 e1 d2 c1] b6 a6 b6 c18 {finis=||}
+# tit=07Gratissima-DU voix=contratenor ordo=2 lang=non cle=c5 arm=c clemod=g2_8
+			{relative=f;modus=3;tempus=2;prolatio=3;linea=v} r12 f18. [[f6 a18|]] f18 f18
+			r12 g18. [[d6 e18|]] f18 c18
+			r12 d18. [[f6 a18|]] g18 f18
+			r12 a18. [[f6 a18|]] c18 a18
+			r12 a18. [[b6 c18|]] a18 g18
+			r12 f18. [[g6 d18]] e18 f12 r6
+			f18. r6 [[f12| g6^ f6]] r6
+			f18. r6 g12 [[d6 e6]] r6
+			f18. r6 [[c12| d6 f6]] r6
+			a18. r6 g12 [[f6 a6]] r6
+			f18. r6 [[g12| c6^ a6]] r6
+			a18. r6 [[b12| c6^ a6]] r6
+			g18. r6 [[f12| g6^ d6]] r6
+			e18 f18 {finis=||}
+# tit=07Gratissima-DU voix=tenor ordo=1 lang=non cle=c5 arm=c clemod=g2_8
+Gaude_Gloriosa			{relative=f;modus=3;tempus=2;prolatio=3;color=v;talea=v} f18. r12 [[a6 b18|]] c18 c12 r6
+			{talea=v} m@ b18 r12 [[a6 g18]] f18 g12 r6
+			{talea=v} a18 r12 f6 f18 e18 f12 r6
+			{talea=v} d18 r12 [[d6 c18]] c18 d12 r6
+			{talea=v} f18 r12 [[g6 f18]] f18 g12 r6
+			{talea=v} a18 r12 [[b6 a18]] g18 f18.
+			{color=v;talea=v} r6 f12. [[a18 b6 c12|]]
+			{talea=v} r6 c12 [[b18 a6 g12]]
+			{talea=v} r6 f12 [[g18 a6 f12]]
+			{talea=v} r6 f12 [[e18 f6 d12]]
+			{talea=v} r6 d12 c18 [[c6 d12|]]
+			{talea=v} r6 f12 [[g18^ f6]] f12
+			{talea=v} r6 g12. [[a18 b6 a12]]
+			{talea=v} r6 g12 f18 {finis=||}

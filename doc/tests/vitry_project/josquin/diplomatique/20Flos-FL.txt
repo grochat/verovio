@@ -1,0 +1,41 @@
+#tit=20Flos-FL source=I-Fsl_2211 voix=triplum ordo=1 lang=lat visa=CC
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 07.02.2022-11:02/ob MODIF:
+[...] ta caro plumis ingeni=i
+[...] baru<m>q<ue> studi=i
+laborisq<ue> foco mollici=e<s>
+et conjuga centro segnicie<s>
+q<uo> pigrescit plu<m>bu<m> co<n>sumito
+[.]abl[..] tange [...] pl[..] solito
+[...] ca<r>dine<m>	
+li<n>gue livi guttr [...]
+[...] lictura<m> lictere 
+q<ua>m conet<ur> i<n> p<re>ces [...]
+[...] p<ri>=us a [...] p [...] s
+[...] scalp<ro> poli=at recto<r>is 
+crispat<ur> a cire=i p [...]
+[...] v<ir>ginis
+[.]iser [...] q[..] sola t<ra>hit<ur>
+[.]ust<us> [...] <et> q<uibus> mors moritur
+age caro ru<m>pe vivari=a 
+lac<ri>mar<um> p<re>cu<m> suspiri=a
+[...] pote<n>ti bonie p[...]
+[...]  spi [...] s<piritus>
+Ad erigi poscat in p<er>vi=a 
+no [...]
+#tit=20Flos-FL voix=motetus ordo=1 lang=lat
+Flos virgin[..] <et> species 
+Adultere lucis connubi=o
+No<n> indigna vel auri radi=o
+si ge<m> [...]
+[...] § 
+[...] cor ip [...]
+[...] ag<ra>da g<ra> [...] 
+qua stix atru<m> sol scalor trabea
+linbus ostru<m> q<uo>d tinxit | cirius
+fit cade<n>te §
+mul [...] us virtutu<m> calculo 
+numeror<um> no<n> certa fili=a 
+nati m<ate>r p<atr>is plue pia 
+lacrimar<um> ni<m>b<os> p<ro> populo
+#tit=20Flos-FL voix=tenor ordo=1 lang=non
+Tenor alma redemptoris.

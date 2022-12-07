@@ -1,0 +1,49 @@
+#tit=20Flos-DU source=GB-DRc_20 voix=triplum ordo=1 lang=lat visa=CC
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 07.02.2022-11:02/ob MODIF: 07.02.2022-13:46/ob
+[..]Pta caro plumis i<n>geni=i
+desidi=e barru<m> <et> studi=i
+laborisq<ue> foco mollici=es
+<et> <con>juga ce<n>tro segnici=es
+quo pigrescit plu<m>bu<m> co<n>sumito
+nablu<m> ta<n>ge vocis plus solito
+duc pulmonis carbasis cardinem
+li<n>gue livi guttris aru<n>di<n>em
+tu=a cli=o lictura<m> l<itter>e 
+q<ua>m conetur i<n> p<re>ces fund<er>e
+visco p<ri>=us a moto pectoris
+om<n>i scalpro poli=at rethoris 
+Crispat<ur>a cirre=i pectinis
+stilo laudes p<ar>e<n>tis virg<in>is
+mis<er>eri q<uam> sola t<ra>hit<ur>
+just<us> minos <et> q<uam> mors morit<ur>
+age caro ru<m>pe vivari=a 
+lac<ri>mar<um> p<re>cu<m> suspiri=a
+ta<m> pote<n>ti nome p<ro>fundit<us> 
+su=u<m> tu=us sp<iritu>m spirit<us>
+ad erigi poscat in p<er>vi=a 
+no=ys alme te<m>pe celesti=a
+<et> cerberus que<m> fames torq<ue>at
+te sp<er>ata<m> p<er>dere luge=at
+<o> p<ro>pri=a bonitate de=a
+d<e>=o nupta toci=us yde=a 
+forme cuj<us> no<n> posse figere
+g<ra>dus pudet natura<m> misere
+carni hu<m>ane subveni p<ro>pere.
+#tit=20Flos-DU voix=motetus ordo=2 lang=lat
+Flos virginu<m> decus <et> sp<eci>=es
+adult<er>e lucis <con>nubi=o
+no<n> indiga v<e>l auri radi=o
+si ge<m>mar<um> vesp<er>escit di=es
+te surgente § 
+decor ip<s>e quo nich<il> g<ra>ti=us 
+<et> ag<ra>da gr<ati>=e line=a
+qua stix atru<m> sol scalor t<ra>be=a
+limbus ostru<m> q<uo>d tinxit tiri=us
+fit candente §
+m<u>lta abissus v<ir>tutu<m> calc<u>lo 
+num<er>or<um> no<n> c<er>ta fili=a 
+nati m<ate>r p<atr>is plu=e pi=a
+lacrimar<um> ni<m>bos p<ro> p<o>p<u>lo
+te poscente.
+#tit=20Flos-DU voix=tenor ordo=3 lang=non
+Alma redemptoris m<ate>r.

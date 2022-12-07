@@ -1,0 +1,88 @@
+# tit=12Lugentium-IV source=I-IV_115 voix=triplum ordo=1 cle=c1 arm=c lang=lat clemod=treble visa=DC,CC
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 14.07.2019-19:39/ob MODIF: 07.03.2021-16:17/david
+PEtre clemens tam re q<uam> no<m>i<n>e			{relative=c';modus=2;tempus=3;prolatio=3} c'3 c6 [a1 b2*] c3 b3 a3 g6 f3 e6* f9.
+cui nasce<n>ti dona<n>tis dext<er>a				[d1 c2* d3 e3 f3 e6] a3 b6* c9: [a1 b2*] c3 b3 a3 a6* g9 r9
+no<n> d<e>fu=it q<uin>y<m>mo cardi<n>e				a3 a3 b3 c9 r9 a3: a1 g2 g1 f2 e9 r9
+e sup<re>mo b<e=a>ta mun<er>a					d'1 d1 d1. d1 c2 b1 a2 b1 b2 [g3 r3 {linea=v} [b3 c3] m@b r3 [a3 b3]] r3 
+superes felix ac o<mn>i=a						[[g3 a3] r3 c3 r1 r1 a1] r1 r1 [g1 c3 r1 r1 g1 r1 r1 b1] [g3 r1 r1 a1 r1 r1 c1 b3 a3 g3] a3: b1 a2 a1 g2 b9 r9
+q<ue> reliq<ua> celi b<e>nignitas				d3 d3 c3 b9 r9 c3: b1 c2 b1 a2 g9 r9
+dare pot<est> n<ec> defu=it pi=a				g9. g1 g2 a1 g2 [g1 f2] [f1 g2] [a1 g1 a1] [b1 a1 b1] c3.
+py=eridu<m> sacrar<um> dignas					[c1 b2] c1 b2 a9: [a1 b2*] c3 b3 [a3 a6*] b9 r9
+har<um> p<re>cell<is> dotib<us>					[d3 a3 b3] g9 r9 {linea=v} a3. a1 a2 g1 a2 b9 r9
+har<um> dono cu<n>cta g<er>masi=a				g1 f1 g1 a1 g2 g1 f2 g1 g2* [a3 r3 [a3^ g3] r3 [g3 a3] r3 [a3 b3] r3 c3]
+carme<n>tina pegasi pedib<us>					r1 r1 [b1 r1 r1 g1 a3] r1 r1 [g1 r1 r1 g1 f3] r1 r1 d1 r1 r1 [e1 e1] f2* e3 d3 e3 b'6* c9 r9
+t<ra>nsve<c>t<us> es a pu=<er>ici=a				a3 a3 b3 c9 r9 b3. b1 a2 g1 f2 e9 r9
+aut fata no<n> aut ip<s>a p<ro>pera				c'9 a1 a2 [b1 a2] {linea=v} a1 g2 a9. a1 b2* c3
+te fortuna meli=<us> spirit<us>					b3. [b1 a2] [a1 g2] [g1 f2] e1 d2* e3 f3 [g6 f1 g2*] a9 r9
+sublimav<i>t ergo <con>sidera					c3 c3 b3 a9 r9 d3. d1 c2 b1 c2 a9 r9
+q<uod> cephas es s<ed> orbi d<e>ditus			b1 a1 b1 c1 b2 b1 a2 a1 g2* [a3 r3 [a3^ f3] r3 [d3 e3] r3 [c3 d3]] r3
+q<uod> monarcha s<ed> s<er>vus o<mn>i=um		[f3 r1 r1 g1 r1 r1 e1] [d3 r1 r1 e1 r1 r1 g1] {linea=v} [e3 r1 r1 g1 r1 r1 a1 c1 b1 c1] [d1 c2 b1 a2] b3. a1 b2 c1 b2 c9 r9
+p<ri>nceps orb<is> s<ed> orbi languidi			g3 g3 a3 g9 r9 d3. e1 d2 d1 c2 d9 r9
+s<er>vus ne<m>pe s<ed> deliranti=u<m>			e9. a1 a2 b1 a2 a1 g2 a6 a3. [a1 b2 c1 b1 c1 b1 a2]
+at ne cu=i ta<n>de<m> si<n>t p<er>fidi			g3 f3 g3 c,9 a'3. a1 b2 c1 b2 c9 r9 {linea=v}
+arte p<ri>nceps s<er>ve da melicu<m>			c3 b3 a3 g9 r9 g3. a1 g2 g1 f2 e9 r9
+torq<ue> fides mu<n>di=al<is> cel<is>			d'1 c1 d1 d1 c2 b1 b2 a1 a2* [g3 r3 [g3^ f3] r3 [d3 e3] r3 [f3 g3]] r3
+regnu<m> tu=u<m> furore<m> tragicu<m>			[a3 r1 r1 g1 r1 r1 a1] [e3 r1 r1 g1 r1 r1 a1 b3] r1 r1 [a1 r1 r1 g1] [a1 b2* c3 b3] a3. b1 a2 a1 g2 b9 r9
+pote<n>s pi=e <com>pesc<er>e vel<is>			g3 f3 e3 d9 r9 d'3. d1 {linea=v} c2 c1 b2 a9 r9
+absit tu=o ty=estes t<em>p<o>r<e>				e9 [g1 f1 g1 a1 g2 g1 e2] f6 f3. c'3. b1 c2 b1 a2 g1
+<et> auster<us> absi<n>t theba=ide<s>			g2* f3 g3 c,9 e3. e1 d2 d1 c2 d9 r9
+abute<n>te<s> frat<er>no jecore					d'3 c3 b3 a9 r9 a3: g1 a2 g1 e2 f9 r9
+unu<m>q<ue> si<n>t scissi philipide<s>			a1 g1 a1 a1 g2 g1 f2 e1 e2 [a3 r3 [e3^ d3] r3 [a'3 c3] r3 m@b [a3 b3]] r3
+urbe<m> vide classis p<er> eq<uo>ra				[a3 r1 r1 c1 r1 r1 g1] [a3 {linea=v} r1 r1 c1 r1 r1 a1] [g3 r1 r1 a1 r1 r1 c1] [f,1 e1 f1 g1 f2 f1 e2] g3. a1 g2 g1 f2 a9 r9
+det<er>re=at p<ri>ncipes thane=os				c3 b3 a3 g9 r9 m@ b3. b1 a2 a1 g2 f9 r9
+cla<n>gor tube t<ur>cor<um> p<ec>tora			{cle=c2} [e1 d2* e3 f3] e3 e6* a9. a3. a1 g2 g1 f2 e1
+d<e>cipi=a<n>t augure<s> me<m>phe=os			f2* e3 d3 e9 {cle=c1} b'3. b1 a2 a1 g2 f9 r9
+<con>solet<ur> t<ri>sti<s> armeni=a				c'3 c3 b3 a9 r9 {linea=v} a3. a1 g2 g1 f2 e9 r9
+<et> elat<us> s<u>bcu<m>bat isma=el				g1 f1 g1 a1 g2 a1 b2 c1 c2 [a3 r3 [a3^ g3] r3 [e3 f3] r3 [d3 e3]] r3
+et germi<n>et des<er>ta syri=a					[d3 r1 r1 a'1 r1 r1 e1] [a3 r1 r1 c1 r1 r1 g1] [f3 r1 r1 e1 r1 r1 e1] [d3 e3 f3] g3. g1 f2 f1 e2 f9 r9
+<et> dep<re>ss<us> resurga<t> isr<a=e>l			m@ b3 a3 g3 f9 r9 b3: b1 a2 a1 g2 f9 r9
+t<un>c nat<ur>e glossisin<us>					g6 g3 a1 g1 a1 [g1 f2] [g1 g2*] a9: {linea=v}
+t<ri>=unphator t<ri>but<um> solv<er>e			[a1 b2* c3 b3] [c3 b3 a3] g3 e6 f3. f1 e2 f1 d2 e9 r9
+no<n> doleb<is> h<er>es legiti<mus>				a3 g3 f3 e9 r9 d'3. d1 c2 b1 a2 b9 r9
+jh<es>u ch<risti> mori=e<n>s lib<er>e			a1 g1 a1 a1 g2 g1 f2 a1 a2* [f3 r3 [e3^ d3] r3 [f3 g3] r3 [e3 f3]] r3
+et si desi<n>t marmor <et> gemula				[a3 r1 r1 b1 r1 r1 g1] [a3 r1 r1 g1 r1 r1 c1] [a3 r1 r1 f1 r1 r1 a1] [c3: c1 b1 c1 b1 a2] b3. b1 c2 d1 c2 d9 r9
+ac metallu<m> sc<u>lpe<n>da fun<er>i			d3 {linea=v} c3 d3 g,9 r9 d'3: d1 p@d c2 c1 b2 d9 r9
+erit ta<n>dem tum*ll<us> v<er>mula				a1 g2* a3 b3 [a1 g1] a1 b1 b2 c1
+se<m>per fama respo<n>de<ns> op<er>i			c2 d1 d2* d3 c3 [b1 a2*] b3 c3 b3 b6
+q<uam> post<er>is p<re>beb<it> reg<u>la			a3 g3 f3 [g6 f1 e2*] d3. e1 d2 d1 c2 d9 z9
+gub<er>na<n>di fave=a<n>t operi					d'3 d3 c3 [b1 a2*] b3 c1 b2* a9 b9 c18 {finis=||}
+# tit=12Lugentium-IV voix=motetus ordo=2 cle=c1 arm=c lang=lat clemod=treble
+Lugenti=u<m> sicce<n>t<ur> occ<u>li				{relative=c';modus=2;tempus=3;prolatio=3} r18 r18 c'3 c6 [a1 b2*] c3 b3 a3 g6 f3 e6* f9
+plauda<n>t senes exulte<n>t p<ar>vuli			a3. [a1 g2 a1] f2 e9: [a1 b2*] c3 b3 c3 c6* f,9 r9
+u<m>bre morti<s> q<uoni=a>m regi=o				f3 g3 f3 e9 r9 g9: g3. [a1 g2] f1 e2 [d3 r3 [g3 a3] r3 [g3^ e3]] r3
+q<uo>s tenu=i<t> splendoris visi=o				[[f3^ d3] r3 e3 r1 r1 f1] e3 e3 r1 r1 [e1 f3] g3 r1 r1 [g1 f3] g3 [a3 g3 f3] [[e3 f6* g9]] [g3 f3 e3 d9] r9 {linea=v}
+e<st> exorta radi=o sp<iritu>s					g3 e3 f3 g9 r9 [b18 b3 a3 b3 c3 b3 a3] g1 g2* f3 e3 f9:
+cleme<n>s sext<us> f<a>c<tu>s divi<ni>t<us>		a3 g3 f3 e3 f6* g9 g3 f3 g3 a9 r9
+stupor orb<is> o tersu<m> spec<u>l<u>m			e3 f3 e3 d9 r9 c'9: c3. [b1 c2] b1 a2 [g3 r3 [a3^ f3] r3 [e3 g3] r3 [a3^ f3]] r3
+ad forma<n>du<m> virtut<um> modulu<m>			[g3 r1 r1 f1] e3 [d3 r1 r1 f1 e3 d3 r1 r1 a'1 g3] e3 [a3 g3 f3] [e3 d3 e3] f9 a3 b6* c9 r9
+tu cyrre=i. sy=us apollinis						g3 {linea=v} g3 f3 e9 r9 f18 [f3 g3 f3] e9 a3. [a1 g2 a1] [f2 e9:]
+p<ar>nasiti vigor c<er>tam<in>is				a3 g3 f3 [e3 d3] e3 f9 f3 e3 f3 g9 r9
+phitonistas h<ere>sis ub<er>e					b3 c3 b3 a9 r9 b9. b3 [b1 a2] a1 g2* [b3 r3 a3 a3 r3 [g3^ f3] r3 [a3^ f3]] r3
+crapulatos solos prost<er>ne<re>				[a3 r1 r1 a1 f3 e3] r1 r1 [g1 a3 g3] r1 r1 a1 b3 a3 g9 [e3 d3 e3] f9 [a1 g2* a3 b3] c9 r9
+ac du<m> flectis sermo<n>is timpanu<m>			a3 g3 {linea=v} a3 b9 r9 [a9: a3 g3 f3] [e3 d3 e3] f9 [[g3 a6*:]] [c3 b3] a3
+corda rapis ad auris organu<m>					[g1 a2*] g3 f3 [e3 d3 e3] f9 g1 a2* b3 a3 g9 r9
+petr<us> p<ri=u>s petru<m> no<n> deseris		c3 b3 c3 g9 r9 b9. g3 [a1 g2] g1 f2* [e3 r3 [d3 g3] r3 [f3^ d3] r3 [e3^ c3]] r3
+vices ej<us> q<ui>=a recte geri<s>				[d3 r1 r1 f1 e3] [d3 r1 r1 a'1] g3 g3 r1 r1 f1 e3 g3 a3 [b1 a2 g1 f2*] [[e3 f6* g9] g3 f3 e3 d9] r9 {linea=v}
+tu cleme<n>s es et cleme<n>s dix<er>is			a'3 b3: [a1 g2] a9 r9 [b18 g3 f3 g3] a1 a2* b3 a3 g9:
+pesagii q<ui> fo<n>tis aperis					[c3 b3 a3] [g1 a2* g3 f3] e3 f6* g9 b3 c3 b3 a9 r9
+venas gratis indis <et> rudib<us>				g3 f3 g3 a9 r9 [a3 g3 f3] e3 [f1 e2] d1 c2* [c3 r3 [d3 e3] r3 [d3 a'3] r3 [g3^ e3]] r3
+a*thlanticis <et> ethi=opib<us>					[f3 r1 r1 a1] g3 [g3 r1 r1 a1] a3 f3 {linea=v} r1 r1 [g1 a3 g3] [f3 e3 d3] [[e9 f9]] [a3 b3 a3] g9 r9
+sticis quoq<ue> quid in preconi=a				a3 a3 g3 f9 r9 [a18 a3 g3 f3] [e1 f2* e3 d3] e9 a3 a6* g9.
+laudu<m> n<ost>ra sudat inscici=a				a3 d6 c3. c1 b2 b1 a2 g3 a6* f9 r9
+no<n> auge<n>tur meme<n>to s<e>c<u>la			a3 g3 f3 e9 r9 c'9. c3: [b1 c2] b1 a2* [g3 r3 [f3 a3] r3 [g3 a3]] r3
+no<n> maria tumescu<n>t gutula					[[b3^ g3] r3 a3 r1 r1 b1 a3 a3] {linea=v} r1 r1 [f1 g3 g3] r1 r1 a1 b3 a3 [g1 a2* g3 f3] [[e3 g6* a9]] [b3 a3 g3] f9 r9
+n<ec> ulla laus addend<er>e meritis				a3 a3 g3 f9 r9 b18 [b3 a3 b3] c1 d2* c3 b3 a9
+tu=is u<n>q<uam> pot<er>it i<n>clitis			f9: [g1 f2* g3 a3] m@ [b3 a3 g3] a9 a3: a1 g2 g1 f2 e9 r9
+vulgi t<ame>n modica porci=o					f3 e3 f3 g9 r9 a9. c3: [c1 b2] c1 b2 [c3 r3 {linea=v} [a3^ f3] r3 [a3 b3] r3 [c3^ a3]] r3
+de te saltem clang<er>e ge*st=io				[g3 r1 r1 f1] g3 [d3 r1 r1 f1 a3] g3 r1 r1 [a1 g3] f3 [f3 e3 d3] [c9: d3 e3 f3 g3 f3 g3] d9 r9
+vivat vivat orbi p<er>utilis					e3 e3 f3 g9 r9 e18 [f3 e3 f3] g1 g2* [f3 e3] d9:
+cui non est i<n>ventus tu=us similis.			[g3 f3 g3 a3] b6 [c3 b3 a3] b9: [g1 f1 g1 a1 g2 f1 e2*] [d3 e3 f3] [g1 f2* g3 a3] {cle=c2} [g3 g1 f2 f1 e2] d9 e9 f18 {finis=||}
+# tit=12Lugentium-IV voix=tenor_solus ordo=3 cle=c3 arm=b lang=non clemod=G_8
+Tenor											{relative=f;modus=2;tempus=3;prolatio=3} f15 g3. a3 c6 [[a3 g6* f18]] c'18 f,18 [[a9 c9 f,18]]
+												f9 [[f9 a18]] g18 g9. r3 c6 r3 b-6 r3 a6 [[f3 a3]] r1 c2 [[c3 d3]] r1 c2 [[c3 d3]] r1 c2 [[b-9 a9 g18]] [[d'18^ c9]] c18 g18 [[g9 c18]] [[f,18| a9 g18]] r9
+												c9 [[c9 d18]] c18 c9. r3 c6 r3 a6 r3 g6 [[f3 g3]] r1 g2 [[f3 g3]] r1 g2 [[f3 g3]] r1 a2 [[a9 g9 f18]] [[f18| g9]] [[g18 f18]] [[f9 a18]] [[a18 g9 f18]] r9
+												[[f9 g9 d'18]] g,18 g9. r3 b-6 r3 a6 r3 g6 {linea=v} [[f3 g3]] r1 a2 [[g3 a3]] r1 c2 [[a3^ g3]] r1 d'2 [[c9 g9 f18]] [[c'18^ f,9 g18|]] a18 [[a9 f18]] [[c'18 g9 f18]] r9
+												[[c'9^ f,9 c'18]] g18 g9. r3 b-6 r3 a6 r3 g6 [[f3 g3]] r1 a2 [[f3 c'3]] r1 c2 [[f,3 a3]] r1 c2 [[f,9 a9 g18]] [[b-18^ a9 d18]] g,18 [[g9 c18]] [[c18 a9 g18]] r9
+												[[d'9 b-9 a18]] a18 a9. r3 g6 r3 c6 r3 b-6 [[a3 c3]] r1 c2 [[a3^ f3]] r1 a2 [[g3^ f3]] r1 c'2 [[b-9 g9 f18]] c'18 [[f,9 b-18]] a18 a9 a18 c18 {linea=v} [[d9 f18]] r9
+												[[f,9 a9]] a18 c18 c9. r3 c6 r3 b-6 r3 a6 [[g3 a3]] r1 a2 [[f3 c'3]] r1 c2 [[f,3 a3]] r1 c2 g9 [[g9 f18]] b-18 [[a9 b-18]] g18 [[g9 f18]] [[c'18 b-9 a18]] r9
+												[[a9 b-9 g18]] f18 f9. r3 b-6 r3 g6 r3 b-6 [[a3^ g3]] r1 g2 [[f3 c'3]] r1 c2 [[a3 c3]] r1 f,2 [[f9 g9]] g18 g18 [[a9 g18]] a18 [[d9 g,18]] g18 g18 z45 [[g9 f18]] {finis=||}

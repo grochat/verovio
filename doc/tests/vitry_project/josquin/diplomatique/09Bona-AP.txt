@@ -1,0 +1,64 @@
+# tit=09Bona-AP source=F-APT_16bis voix=triplum ordo=1 lang=lat cle=c2 clemod=treble visa=JP,DC
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 26.08.2020-09:25/josquin MODIF: 09.07.2021-23:52/ob
+Olla jugo subd<er>e				{relative=a';modus=2;tempus=2;prolatio=3} a6 a3 a3 [a2 g1] a2 f1 e6
+curi=as sectari					d12 a'3 g3 [a2 g1 a2 b1] g6 e6
+charu<m> su<n>t in num<er>e		g3 g3 a2 g1 f2 g1 a3
+clades mores rari				a3 a2 g1 a2 f1 e6 r6
+pote<n>s su=o viv<er>e			d6 d3 [e1 d1 e1] f6 a3 a3 g6
+debet [...]						[f2 e1 f2 g1] a12 {linea=v;cle=c1} [g6 c3 c3 g6] r6
+ali=ena desere					a6 b6 c6 [c1 b1 c1 b2 a1] g3 e3 f6
+quadra <con>vivari				d6 [g2 f1 e2 f1] g6 c3 c3 g6 r6
+pane tu=o vessere				e12 g3 a3 b6 [a2 g1 a2 b1] g6 [f2 e1 f2 g1]
+tibi do<m>i<n>ari				f3 e3 d6 [d2 e1] [f2 e1] d6 r6
+scivis et effug<er>e			c+6 [d2 c1] [b2 c1] d12 c3 [c2 d1] e6 {linea=v}
+crucis lacerari					a6 c3 b3 a6 [a1 g1 a1 g2 f1] e6 r6
+malo fabam rod<er>e				g6 [e2 d1 e2 f1] g12 [b2 a1] b2 c1 b6
+liber et letari					p@a g6 [g1 f1 g1 a2 g1] f6 [f1 e1 f1] [d2 e1] f6 r6
+q<uam> cibis afflu=ere			g6 [a2 g1 f2 g1] a12 g6 [a2 g1] [f2 e1] d6
+servus <et> tristrari			d3 d2 e1 f6 a6 f6 r6
+aulici sunt opere				c'3 c3 c2 b1 {linea=v} c2 b1 a3
+semp<er> ad <n>ullari			a3 [a2 b1 c2] a1 b3 b3 c6
+fictas laudes p<ro>mere			b3 b2 a1 [g2 a1] g2 f1 e3
+lucra q<ue> venari				e3 e2 d1 e2 c1 d6 r6
+ab implumis tollere				a'3 e3 a2 g1 a2 f1 e6
+plumas <et> conari				e2 d1 e2 f1 g3 g3
+d<omin>is illud<er>e			g2 f1 e2 {linea=v} f1 d3 [e1 d1 e1] f6
+falsa comentari					g3 g3 [a2 g1] f2 g1 a6 r6
+ve q<uo>d h<abu>nt pu<n>g<er>e	[c6 c1 b1 c1 b2 a1] g6 [b2 a1 b2 c1] a6 b3 [b2 a1] g6
+v<er>ba que subdu<n>tur			c3 [c2 b1] [a2 g1 a2 b1] [a1 g1 a1] [g2 f1] g6 r6
+n<u>lla fides pi=etas que viris q<ui> castra secuntur	c6 c2 b1 c2 a1 b3 b3 [c2 b1 a2 b1] g6 a3 b3 [a1 g1 a1] [g2 f1] e3 d3 f12 {finis=||}
+# tit=09Bona-AP voix=motetus ordo=3 lang=lat cle=c3 clemod=G_8
+Ona condit setera				{relative=e';modus=3;tempus=2;prolatio=3;pagina=v} e6 a,6 e'6 [c2 b1 c2 d1] b6 [b3 b3] c18
+bonu<m> libertatis				d3 d3 [d2 c1] [d2 e1] [d2 c1 b2 c1] [a12 r6 [c6 b12* c18|] [f6 e12* c18]]
+qui gazar<um> genera			e3 e3 f+3 f3 [g2 f1] [e2 f1] g18
+tot thezaurisatis				f3 e3 [d2 c1] [d2 e1] d6 [c12 r6 [c3^ b3 c12* e18] [g6 a12* g18]] p@F
+multiplici fallera				g3 g3 {fractio=2/3} f3 [f3 {linea=v} f3] {fractio=1} [g2 f1] [e2 f1] g18
+vos qui falleratis				e3 [d2 e1] f3 e3 [f2 e1 f2 g1] e12 r6
+et cu<m> libet ubera			d3 d3 c3 b3 [a2 c1] [b2 a1] g18
+fercula libatis					e'3 f3 g3 f3 e6 d12 r6
+si viv<er>e libera				e3 [e2 d1] c3 [c2 d1] [e2 d1] [c2 d1] e18.
+vitta neque=atis				d3 [d2 c1] b3 b3 [c2 b1 a2 b1] c12 r6
+nu<m>qu<am> saporifera			f18 e18. f6 e6 {linea=v} [d2 e1] [c2 d1] e6
+servi degustatis				[c2 b1] [c2 d1] b3 b3 c6 a6 r6
+vincit auri pond<er>a			a12 g6 g'6 f6 d3 d3 c6
+su=e potestatis					[e2 d1] [c2 d1] e3 [d2 c1] d6 c6 r6
+esse vobis funera				d6 [e2 d1 c2 d1] e3 f3 g12 f3 f3
+servi p<ro>pinatus				e6 [e2 d1 e2 f1] e3 e3 d6 c6 r6
+mala p<er> i<n>num<er>a			d6 d6 e2 d1 c2 d1 e6
+du<m> [...] *ptatis				d3 e2 {linea=v} z1 z3 [c2 b1] c12 {finis=||}
+# tit=09Bona-AP voix=tenor ordo=2 lang=non cle=c4 clemod=G_8
+TEnor Colla jugo et cetera	{relative=a;modus=2;tempus=2;prolatio=3;linea=v;color=v;talea=v} a24 g12 f12 r12 g12
+								{talea=v} a24 g12 f12 r12 a12
+								{talea=v} c24 d12 c12 r12 b12
+								{talea=v} c24 a12 g12 r12 f12
+								{talea=v} g24 a12 g12 r12 f12
+								{talea=v} a24 c12 d12 r12 c12
+								{talea=v} b24 c12 a12 r12 g12
+								{talea=v} f24 r12 {linea=v}
+								{color=v;talea=v} a12 [[g6^ f6]] r6 [[g6
+								{talea=v} a12]] [[g6^ f6]] r6 [[a6
+								{talea=v} c12]] [[d6^ c6]] r6 [[b6
+								{talea=v} c12]] [[a6^ g6]] r6 [[f6
+								{talea=v} g12]] [[a6^ g6]] r6 [[f6
+								{talea=v} a12]] [[c6 d6]] r6 [[c6
+								{talea=v} b12]] [[c6^ a6]] r6 [[g6 f24|]] {finis=||}

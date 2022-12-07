@@ -1,0 +1,64 @@
+# tit=09Bona-IV source=I-IV_115 voix=triplum ordo=1 lang=lat cle=c2 clemod=treble visa=JP
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 25.08.2020-11:53/josquin MODIF: 17.02.2021-19:02/ob
+COlla jugo subdere			{relative=a';modus=2;tempus=2;prolatio=3} a6 a3 a3 [a2 {fractio=1/3} g3] {fractio=1} a2 f1 e6
+curi=as sectari				d12 a'3 a3 [a2 g1 a2 b1] [g6 f0] [e6 f0]
+quarum sunt in munere		g3 g3 a2 g1 f2 g1 a3
+clades mores rari			a3 a2 g1 a2 f1 e6 r6
+potens su=o vivere			d6 d3 [e1 d1 e1] f6 a3 a3 g6
+debet exequari				[f2 e1 f2 g1] {linea=v} a12 g6 c3 c3 g6 r6
+ali=ena desere				a6 b6 c6 [c1 b1 c1 b2 a1] g3 e3 [f6 e0]
+quadra conminari			[d6 e0] [g2 f1 e2 f1] g6 c3 c3 g6 r6
+pane tu=o vescere			e12 g3 a3 b6 [a2 g1 a2] b1 g6
+ubi dominari				[f2 e1 f2] g1 [f3 e3] d6 [d2 e1 f2 e1] d6 r6
+si vis es effugere			c6 [d2 c1 b2 c1] [d12~ e0] c3 c2 d1 [e6 f0] {linea=v;cle=c1}
+curis laterari				[a6 b0] c3 b3 a6 {fractio=1/3} [a3 {fractio=1} g1 a1 g2 f1] e6 r6
+malo fabam rodere			[g6 f0] [e2 d1 e2 f1] g12 [b2 a1 b2] c1 [b6 a0] g6
+liber et letari				[g+1 f1 g1] a2 g1 f+6 [f1 e1 f1 d2 e1] f6 r6
+quam cibis afflu=ere		g6 [a2 g1 f2 g1] a12 g6 [a2 g1] [f2 e1] d6
+servus et tristari			d3 d2 d1 f6 a6 f6 r6 {linea=v}
+aulici sunt opere			c'3 c3 c2 b1 c2 b1 a3
+semper adulari				a3 [a2 b1] [c2 a1] b3 b3 c6
+fictas laudes promere		b3 [b2 a1] g2 a1 g2 f1 e3
+lucraque venari				e3 e2 d1 e2 c1 d6 r6
+ab inplumis tollere			a'3 e3 a2 g1 a2 f1 e6
+plumas et conari			e2 {linea=v} d1 e2 f1 g3 g3 {cle=c2}
+dominus aludere				g2 f1 e2 f1 d3 e3 f+6 {cle=c1}
+falsa comentari				g3 g2 a1 g3 [f2 g1] a6 r6
+ve quos habent pongere		[c6 c1 b1 c1 b2 a1] [g6 a0] [b2 a1 b2 c1] [b2 a1 g2 a1] b3 b3 g6
+verba que subduntur			c3 [c2 b1] [a2 g1 a2] b1 [a1 g1 a1 g2 f1] g6 r6 {linea=v}
+nulla fides pi=etasque viris qui castra secuntur	c6 c2 b1 c2 a1 b3 b3 [c2 b1 a2 b1] g3 g3 a3 b3 [a1 g1 a1 g2 f1] e3 d3 f12 {finis=||}
+# tit=09Bona-IV voix=motetus ordo=3 lang=lat cle=c3 clemod=G_8
+BOna condit cetera			{relative=e';modus=3;tempus=2;prolatio=3;pagina=v} [e6 d0] [a6 b0] e6 [c2 b1 c2 d1 b6] b3 b3 c18
+bonum libertatis			e3 e3 [d2 c1 d2 e1] [d2 c1] [b2 c1] [a12 r6 [c6^ b12* c18] [f6 e12* c18]]
+Qui gasarum genera			e3 p@f e3 f3 f3 [g2 f1 e2] f1 g18
+tot tesaurisatis			f3 e3 [d2 c1 d2] e1 d6 [c12 r6 [c3^ b3 c12* d18] [g6 a12* g18]] {linea=v}
+multiplici falera			g3 g3 f3 f3 [g2 f1 e2] f1 g18
+vos qui faleratis			e3 [d2 e1] f3 e3 [f2 e1 f2 g1] e12 r6
+et cum libet ubera			d3 d3 c3 b3 [a2 c1] [b2 a1] g18
+fercula libatis				e'3 f3 g3 f3 e6 d12 r6
+si vivere libera			e3 [e2 d1] c3 [c2 d1] [e2 d1 c2] d1 e18
+vita neque=atis				d3 [d2 c1] b3 b3 {linea=v} [c2 b1 a2 b1] c12 r6
+nunquam saporifera			f18 e18 [f6 e0] e6 [d2 e1] [c2 d1] [e6 d0]
+servi degustaris			[c2 b1 c2] d1 b3 b3 [c6 b0] a6 r6
+vincit auri pondera			a12 g6 g'6 f6 d3 d3 c6
+su=e potestatis				[e2 d1 c2] d1 e3 [d2 c1] d6 c6 r6
+esse vobis funera			d6 [e2 d1 c2 d1] e3 f3 g12 f3 f3
+servi propinatis			e6 {linea=v} [e2 d1 e2 f1] e3 e3 d6 c6 r6
+mala per innumera			d6 d6 e2 d1 c2 d1 e6
+dum magis obstati			d3 e2 d1 c3 b3 c12 {finis=||}
+# tit=09Bona-IV voix=tenor ordo=2 lang=non cle=f3 clemod=G_8
+									{relative=a;modus=2;tempus=2;prolatio=3;color=v;talea=v} a24 g12 f12 r12 g12
+									{talea=v} a24 g12 f12 r12 a12
+									{talea=v} c24 d12 c12 r12 b12
+									{talea=v} c24 [[a12 g12]] r12 f12
+									{talea=v} g24 [[a12 g12]] r12 f12 {linea=v}
+									{talea=v} a24 c12 d12 r12 c12
+									{talea=v} b24 [[c12 a12]] r12 [[g12
+									{talea=v} f24|]] r12
+									{color=v;talea=v} [[a12 g6^ f6]] r6 [[g6
+									{talea=v} a12|]] [[g6^ f6]] r6 [[a6
+									{talea=v} c12|]] [[d6^ c6]] r6 [[b6
+									{talea=v} c12|]] [[a6^ g6]] r6 [[f6
+									{talea=v} g12|]] [[a6^ g6]] r6 [[f6
+									{talea=v} a12|]] [[c6 d6]] r6 [[c6
+									{talea=v} b12]] [[c6^ a6]] r6 [[g6 f24|]] {finis=||}

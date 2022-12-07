@@ -1,0 +1,52 @@
+# tit=10InArboris-IV source=I-IV_115 voix=triplum ordo=1 cle=c1 lang=lat clemod=g2 visa=DC,OB,CC
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 15.07.2020-01:08/david MODIF: 09.07.2021-23:52/ob
+TUba sacre fide=i						{relative=c'';modus=2;tempus=2;prolatio=3;pagina=v} r12 r12 r12 [c12 b12 [a12| c6]] c1 b1 c1 b2 a1 g6
+propri=e dicta de=i						a3 a3 [g2 f1 g2 a1] [b2 a1] g2 f1 e6 
+preco arcanor<um>						a2 g1 a2 b1 g3 g3
+in the=atris clamitat					g3 a2 b1 c1 b1 c1 b2
+q<uo>d rati=o hesitat					a1 b1 a1 b1 a2 g1 p@g f6 r6
+basis p<e>ccatorum						{linea=v} f3 f3 r6 g2 f1 g2 g1 r6
+fatendu<m> simplicit<er>				a12 b1 a1 b1 a2 g1 [[a3 b3]]
+credendu<m>q<ue> firmit<er>				c2 b1 c2 a1 b3 b3 g12
+morive necesse  						g3 a3 g6 [a1 g1 a1 g2 f1] e3 e3
+de=u<m> unu<m> in trib<us> 				p@ f3 f3 f2 e1 f2 d1 e6
+p<er>sonis equalib<us> 					[e2 f1 e2 d1] c3 c3 {linea=v} d3 d2 d1 e6 r6
+et tres una<m> esse						g3 g3 r6 a2 a1 e2 e1 r6
+virgine<m> no<n> semine					[[g12| a6]] b1 a1 b1 a2 g1 a3
+viri set spirami<n>e					b3 [c1 b1 c1 b2 a1] b6 [b2 a1] b2 g1 p@a f6
+verbi <con>cepisse						a2 g1 f2 g1 a6 a6
+ip<s>am semp<er> virginem				b2 a1 b2 c1 {linea=v} d3 d3 [a6 a2 g1 a2 b1]
+de=u<m> atq<ue> ho<m>ine<m>				d2 c1 b2 a1 b3 b3 g6 r6
+mu<n>do peperisse						b3 g3 r6 a2 a1 e2 e1 r6
+s<ed> transnat<ur>ali=a					d6 d6 e2 d1 e2 f1 g6
+ista cu<m> sint om<n>i=a				a3 b3 a2 g1 a2 b1 g6
+credentibus vita						g3 g2 a1 b3 {linea=v} b3 a6 r6
+necis n<eg>ligentib<us>					c2 b1 c2 a1 b3 b2 c1 r1 r1
+nature q<uo>d gressib<us>				b1 g2 g1 r1 r1 g1 g2 e1 p@ f6
+rati=o potita							g2 a1 g2 f1 e3 e3
+in premicis dubi=u<m>					[e2 d1 e2 f1] [g2 f1 g2 a1] g2 f1 g2 e1 f6 r6
+gignat et auguri=u<m>					g2 f1 e2 f1 {linea=v} g3 g2 a1 r1 r1
+igitur nitetur							g1 e2 e1 r1 r1 g1 a2 b1
+et fides per qua<m> vi=a				[c2 b1 a2] g1 f3 e3 [d2 c1 d2] e1 p@g f6  
+apud archana di=a						f3 g3 a2 b1 g2 a1 b6 r6
+clari=or hebet<ur>						c2 b1 c2 a1 b3 g3 r1 r1
+se<m>p<er> imitet<ur>					g1 e2 d1 e3 f3 g12 {finis=||}
+# tit=10InArboris-IV voix=motetus ordo=3 cle=c1 lang=lat clemod=g2
+IN arboris empiro prospepe				{relative=c'';modus=2;tempus=2;prolatio=3;pagina=v} [c6 [c3^ g3] a2 g1 a2 b1 [g3^ e3] f2 e1 f2 g1 [e3 d3 c12] p@f [d12| f6]] f3 f3 g6 g3 [g2 f1] [e2 d1 c2 d1] e3 e3 d12
+virginitas sed<et> pu=erpere			[a'3 g2 f1] e3 d3 e12 f3 g2 f1 e3 e3 d12 r6
+medi=atrix fides In medi=o				c6 r6 g'3 g3 p@g [f12 e2 d1 e2 f1] [d2 c1 d2 e1] {linea=v} [c2 b1 c2 d1] [[b6 g'6]] {cle=c2} [c,2 b1 c2] d1 e12
+cum stipite cecata rati=o				{cle=c1} [g6 a2 b1 g2 a1] b3 b3 [b1 a1 b1 a2 g1] a12 c3 b3 [a2 g1 a2] b1 g12 r6
+insequta septem sororib<us>				e6 r6 d3 d3 e12 [f2 e1 f2 g1] [e2 d1 e2 f1] [d2 c1] [d2 e1] [c2 b1 c2 d1] b12
+sophismata su=a foventib<us>			d6 [e2 d1 c2 d1 e6] p@ f3 f3 [g2 f1 g2 a1 b6] a12 {linea=v} g6 e3 f3 [g12 r6 e6] r6
+hec ut scandat dum magis nititur		d3 p@ f3 g12 [[e3 d3^ c6]] [f6 d2 e1 c2 d1] [[e12| g6]] e6 c3 [c2 b1] [c6 r6 d3 r3 c3] r3
+debilitas ramorum frangit<ur>			b6 [c2 b1 c2] d1 [e2 d1 e2 f1] [[g6^ e6]] [g1 f1 g1 f2 e1] [d2 e1 c2 d1] e3 [e2 d1] [c6 r6 g'3 r3 a3] r3
+petat ergo fide=i dexteram				g6 c3 {linea=v;cle=c2} b3 [a2 b1] g2 a1 p@A b6 [b1 a1 b1 a2] g1 p@ f6
+vel eternu<m> nitetur perperam			g3 [g2 f1] e3 [e2 d1] c6 d3 [c2 b1] a6 p@d c6 d12 {finis=||}
+# tit=10InArboris-IV voix=tenor ordo=2 cle=c3 lang=non clemod=g2_8
+Uirgo su<m> Tenor Nigre notule su<n>t inperf<e>c<t>e <et> rube s<un>t perf<e>c<t>e		{relative=c';modus=2;tempus=2;prolatio=3} r12 r12 r12 r12 r12 r12
+										{color=v;talea=v} c24 g12 a12 c12 r12 {modus=3} (b18 [[c12| e6]]) {modus=2} d12 r12 r12
+										{talea=v} c24 c12 b12 a12 r12 {modus=3} (c18 [[a12| b6]]) {modus=2} c12 r12 r12
+										{talea=v} b24 a12 g12 a12 r12 {modus=3} (g18 a12 a6) {modus=2} g12 r12 r12
+										{color=v;talea=v;modus=1} [[c12^ g6 a6 c6]] r6 {tempus=3} ([[b9 c6]] e3) {tempus=2} d6 r12
+										{talea=v} c12 [[c6 b6^ a6]] r6 {tempus=3} ([[c9^ a6]] b3) {tempus=2} c6 r12
+										{talea=v} [[b12 a6^ g6 a6]] r6 {tempus=3} ([[g9 a6]] a3) {tempus=2} g12 {finis=||}

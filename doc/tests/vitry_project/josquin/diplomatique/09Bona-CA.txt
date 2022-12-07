@@ -1,0 +1,45 @@
+# tit=09Bona-CA source=F-CA_1328 voix=triplum ordo=1 lang=lat cle=c1 clemod=treble visa=JP,DC
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 26.08.2020-15:29/josquin MODIF: 09.07.2021-23:52/ob
+COlla jugo s<u>bdere			{relative=a';modus=2;tempus=2;prolatio=3} a6 a3 a3 [a2 g1] a2 f1 e6
+curi=as sectari					d12 a'3 a3 [a2 g1 a2 b1] g6 e6
+q<ua>r<um> su<n>t in num<er>e	g3 g3 a2 {linea=v} g1 f2 g1 a3
+clades mores rari				a3 a2 g1 a2 f1 e6 r6
+potens su=o viv<er>e			d6 [d1 c1 d1] [e1 d1 e1] f6 a3 a3 g6
+deb<et> excecari				[f2 e1 f2 g1] a12 {linea=v} g6 c3 c3 g6 r6
+ali=ena desere					a6 b6 c6 [c1 b1 c1 b2 a1] g3 e3 f6
+quadra co<n>vivari				d6 [g2 f1 e2 f1] g6 c3 c3 g6 r6
+pane tu=o vescere				{fractio=2} e6 {fractio=1} g3 a3 b6 {linea=v} [a2 g1 a2 b1] g6 [f2 e1 f2 g1]
+tibi d<omi>nari					f3 e3 d6 [d2 e1] [f2 e1] d6 r6
+si vis <et> effugere			c6 [d2 c1 b2 c1] d12 c3 c2 d1 e6 
+cu<jus> lacerari				a6 c3 b3 a6 [a1 g1 a1 g2 f1] e6 r6 {linea=v}
+malo faba<m> rodere				g6 [e2 d1 e2 f1] g12 [b2 a1] b2 c1 b6
+liber <et> letari				g6 [g1 f1 g1] [a2 g1] f6 [f2 e1 d2 e1] f6 r6
+q<ua>m cibis efflu=ere			g6 [a2 g1 f2 g1] a12 g6 [a2 g1 f2] e1 {linea=v} d6
+s<er>vus <et> tristari			d3 d2 e1 f6 a6 f6 r6
+aulici s<un>t op<er>e			c'3 c3 c2 d1 c2 b1 a3
+semp<er> adulari				a3 [a2 b1 c2] a1 b3 b3 c6
+fictas laudes p<ro>mere			b3 {linea=v} [b2 a1] g2 a1 g2 f1 e3
+lucraq<ue> venari				e3 e2 d1 e2 c1 d6 r6
+ab i<m>plu<m>mis tollere		a'3 d,3 a'2 g1 a2 {linea=v} f1 e6
+plumas <et> conaris				e2 d1 e2 f1 g3 g3
+d<omi>n<u>s alludere			g2 f1 e2 f1 d3 e3 f+6
+falsa co<m>mentari				g3 g2 a1 g3 [f2 g1] a6 r6 {linea=v}
+								z6 z6 z6 z6 z6 z6 z6
+tur								z6 z6 z6 g6 r6
+n<u>lla fides pi=etasq<ue> viri<s> q<ui> castra secu<n>t<ur>	c6 c2 b1 c2 a1 b3 b3 [c2 b1 a2] b1 g6 a3 b3 [a1 g1 a1 g2 f1] e3 d3 f12
+# tit=09Bona-CA voix=tenor ordo=2 lang=non cle=f2 clemod=G_8
+LIbera me Tenor					{relative=a;modus=2;tempus=2;prolatio=3;linea=v;color=v;talea=v} a24 [[g12 f12]] r12 g12
+								{talea=v} a24 [[g12 f12]] r12 a12
+								{talea=v} c24 d12 c12 r12 b12
+								{talea=v} c24 [[a12 g12]] r12 f12
+								{talea=v} g24 a12 g12 r12 f12
+								{talea=v} a24 c12 z12 z12 z12
+								{talea=v} z24 z12 z12 z12 z12
+								{talea=v} z24 z12
+								{color=v;talea=v} z12 z6 z6 z6 z6
+								{talea=v} z12 z6 z6 z6 z6
+								{talea=v} z12 z6 z6 z6 z6
+								{talea=v} z12 z6 z6 z6 z6
+								{talea=v} z12 z6 z6 z6 z6
+								{talea=v} z12 {linea=v} [[c6 d6]] r6 [[c6
+								{talea=v} b12]] [[c6^ a6]]

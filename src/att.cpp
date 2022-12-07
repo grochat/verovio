@@ -131,6 +131,7 @@ std::string Att::DurationToStr(data_DURATION data) const
     switch (data) {
         case DURATION_maxima: value = "maxima"; break;
         case DURATION_longa: value = "longa"; break;
+        case DURATION_longa_imperfecta: value = "2B"; break;
         case DURATION_brevis: value = "brevis"; break;
         case DURATION_semibrevis: value = "semibrevis"; break;
         case DURATION_minima: value = "minima"; break;
@@ -163,6 +164,8 @@ data_DURATION Att::StrToDuration(std::string value, bool logWarning) const
     if (value == "maxima") return DURATION_maxima;
     if (value == "longa") return DURATION_longa;
     if (value == "brevis") return DURATION_brevis;
+    if (value == "2B") return DURATION_longa_imperfecta;
+    if (value == "3B") return DURATION_longa;
     if (value == "semibrevis") return DURATION_semibrevis;
     if (value == "minima") return DURATION_minima;
     if (value == "semiminima") return DURATION_semiminima;

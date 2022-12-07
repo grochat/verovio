@@ -1,0 +1,29 @@
+# tit=03Quoniam-ST source=F-Sm_22 voix=triplum ordo=1 lang=non clemod=g2_8 visa=JP,DC,OB
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 07.11.2020-13:21/ob MODIF: 05.02.2022-16:53/ob
+			{modus=2;tempus=2;prolatio=3;relative=f';cle=c1;pagina=v} f6 f6 g2 f1 e2 f1 g3 g3 a3 g3 f6 m@ {fractio=2} a6 {fractio=1} b6 a2 g1 f2 g1 a3 g3 f3 e3 f12 r12 r12 a12 c6 c2 b1 a2 g1 a3 g3 f3 e2 f1 g12 {linea=v}
+			a6 a2 g1 f2 e1 d3 d3 e3 f3 g12 a6 f2 e1 f2 d1 e6 f3 g3 a6 c2 b1 a2 b1 c12 r12 a12 g3 a3 g6 g2 f1 e2 d1 e3 {linea=v}
+			f3 g12 a6 c2 b1 a2 g1 [[f6 g6 a12| c6^ b6]] a3 g3 a3 b3 c12 r12 r12 a12 c6 c2 b1 a2 g1 a3 g3 f3 e2 f1 g12 d'3 d3 c3 b3 a2 g1 a2 b1 {linea=v}
+			a3 g3 f12 [[g3 a3]] b3 a2 g1 a3 g3 f3 e3 f2 e1 f2 g1 a6 g12 r12 a12 g3 a3 g6 g2 f1 e2 d1 e3 f3 g12 d'3 d3 c3 b3 a6 {linea=v}
+			g3 f2 e1 g12 c6 a6 {Nota=On dirait qu'un bémol a été effacé} b3 a3 g3 f2 g1 a12 r12 r12 a12 c6 c2 b1 a2 g1 a3 g3 f3 e2 f1 g12 d'6 c3 b3 a6 f6 a12 {linea=v}
+			c6 c3 b3 a6 b3 c3 d6 d2 c1 b2 a1 g12 r12 a12 g3 a3 g6 g2 f1 e2 d1 [[e3 f3]] g12 a3 a3 f3 e3 g3 g3 f3 e3 f12 {finis=||}
+# tit=03Quoniam-ST voix=motetus ordo=3 lang=non arm=b clemod=g2_8
+			{modus=2;tempus=2;prolatio=3;relative=f;cle=c3;pagina=v} r12 r12 {fractio=2} r6 {fractio=1} f6 f6 g3 f2 g1 a3 b-3 [[a6^ g6]] f12~ [[b-3 c3 d6]] g,3 g3 a3 b-3 a12 [[c3 d3 e6]] [[d3^ c3]] [[b-3^ a3 g12~]] r12 r12 g12~ a6 b-6 a6 [[f3 g3]] {linea=v}
+			a3 b-2 a1 g3 g3 f12~ g6 b-3 a2 g1 a12 [[c6^ g6 b-6]] a2 g1 a2 b-1 g12 r12 b-12 a12 c6 e6 f6 e3 d3 c6 d2 c1 b-2 c1 {linea=v}
+			d6 g,6 [[b-3 d3]] [[c3^ b-3]] a12 [[c3 d3 e6]] [[d3^ c3]] [[b-3^ a3]] g12 r12 r12 f12~ c'6 b-6 a3 a3 g3 g3 f12~ g12 m@ b-3 d3 c3 b-3 {linea=v}
+			[[a12| c6^ g6 b-6]] a2 g1 a2 b-1 g12 r12 d'6 [[b-3^ a3]] g12 [[c6 d6]] e3 d3 c3 b-3 a12 b-6 a3 g2 a1 f6 [[f3 g3]] a12 [[c3 d3 e6]] [[d3^ c3]] {linea=v}
+			[[b-3^ a3]] g12 r12 r12 a12 c3 b-3 c6 d6 d2 c1 b-2 a1 g6 [[g3^ f3]] g12 [[b-3 d3]] c3 b-3 a12 {cle=c4} m@B [[c6^ g6 b-6]] a2 g1 a2 b-1 g12 {linea=v}
+			d'3 c3 b-6 g3 a3 g6 f12 {finis=||}
+# tit=03Quoniam-ST voix=tenor ordo=2 lang=non clemod=g2_8
+Merito hec patimur.			{modus=2;tempus=2;prolatio=3;relative=c';cle=c2;linea=v} r12 r12 r12 r12 r12 r12
+			{color=v;talea=v} c12 d24 e12 r12 r12
+			{talea=v} d12 d24 d12 r12 r12
+			{talea=v} e12 f24 e12 r12 r12
+			{talea=v} d12 d24 e12 r12 r12
+			{talea=v} g12 d24 e12 r12 r12 {linea=v}
+			{talea=v} d12 d24 c12 r12 r12 {linea=r}
+			{color=v;talea=v} c12 d24 e12 r12 r12
+			{talea=v} d12 d24 d12 r12 r12 
+			{talea=v} e12 f24 e12 r12 r12
+			{talea=v} d12 d24 e12 r12 r12
+			{talea=v} g12 d24 e12 r12 r12 {linea=v}
+			{talea=v} d12 d24 c12 {finis=||}

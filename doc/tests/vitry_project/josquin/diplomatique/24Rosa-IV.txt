@@ -1,0 +1,74 @@
+#tit=24Rosa-IV source=I-IV_115 voix=triplum ordo=1 lang=lat clemod=g2_8 visa=CC,SJ
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 07.02.2022-22:18/ob MODIF: 27.08.2022-20:20/sushaant
+ALmifonis melos cum vocibus			{pagina=v;modus=2;tempus=3;prolatio=3;relative=a';cle=c1} a6 a3 g6 a1 g1 a1 b2 a1 g2 f1
+mat<er> chr<ist>i cum m<u>ltiplicib<us>			e3 d9 e1 e1 f1 g2 f1 e2 d1 p@ c9
+o=yadoni dec<em> gen<er>ib<us>			d3 e3 f3 g2 g1 a2 g1 f2 g1 a9
+nu<n>c psallere			a3 c3 b3 a9 {linea=v}
+cujus plures volunt asserere			a2 g1 f2 e1 f2 f1 g9 g2 a1 g3
+corpus almu<m> redigi cinere			g3 d6 d3 e2 f1 g2 f1 e2 d1 f18 r9
+hor<um> tu=<um> fate=or credere			c3 c3 r3 r9 d3 e3 d3 a'9 a2 g1 a3 b3
+<con>trari=u<m>			g3 a3 b3 a3
+nam mu<n>davit ista<m> flamen pi=um			[c2 b1] {linea=v} a2 g1 a9 a3 g3 f3 [e2 f1 e3] d3 a'6
+q<uid> integru<m> matrem <et> fili=u<m>			a3 g15 [f2 e1] d6 e3 f2 e1 f3 g3 a18 r9
+esse fecit q<uod> nullu<m> vici=u<m>			d,3 d3 r3 r9 e3 f2 e1 d2 e1 f2 e1 f3
+no<n> segregat			g3 a3 {linea=v} f3 g3
+Ergo civis istas no<n> disgregat			a9 c3 b3 a3 b6 c3 b2 a1 a2 g1
+quos s<piritu>s s<an>c<tu>s sic agregat			g2 f1 e9 e2 d1 e3 f3 g6 a2 g1
+h<oc> uni=o carnis no<n> denegat			a3 g3 f3 e9 [a1 g1 a1] f2 g1 e2 f1 g18 r9 {linea=v}
+hinc n<ec> isti			a3 a3 r3 r9 d,2 e1
+na<m> de carne matris caro chr<ist>i			f1 e1 f1 d2 e1 f9. c'2 b1 a3 b3
+s<ed> regna<n>te<m> cel<i> hu<n>c audisti			c2 b1 b2 a1 a2 g1 b2 a1 a2 g1
+Ergo mater sec<um> d<ebet> sisti			g2 f1 g6 g3 a3 g3 g3 d9. [g1 f1 g1] a2 {linea=v}
+mox legitur			g1 f2 g1 a2
+q<uo>d defuncta virgo sepelitur			b1 c2 d1 c2 b1 a9 b1 a1 b1 c2
+s<ed> in t<er>ris nusq<uam> reperit<ur>			b1 b2 a1 a2 g1 g2 f1 f2 e1 f18 r9
+quo sic raptu<m> corp<us> h<oc> vescitur			g3 g3 {nota=Silence de semibrève difficile à voir.} r3 r9 d2 e1 f3 e3 f6 g3 f3 {linea=v} e3
+nisi polo			f3 g6 a3 g3
+h<oc> credere nam semp<er> volo				f3 g3 a6 b3 a2 g1 f2 g1 e2
+si p<ar>s esset in solo			{nota=Hampe de la minime très effacée.} f1 g6 {cle=c2} d3 f2 e1 d3 e3
+cu<m> vermib<us>			f9 r1 r1 e1 c3 e3 r1 r1
+adq<ue> p<ar>s cu<m> celestibus			a1 g3 f3 e2 e1 f3 g3 a9 r9 {linea=v;cle=c1}
+glorificata civibus			a3 g3 f3 g2 g1 a2 g1 f2
+vane pi=a			e1 d2 e1 c3
+tota repleta grati=a			d3 e9. r1 r1 c1 d3 e3 r1 r1 g1 d3 e3
+d<icitu>r virgo mari=a			f2 g1 a1 g1 {nota=Hampe de la minime très effacée.} a1 g2 f1 e9 r9
+s<ed> est tota			b'9. g3 a1 g1
+plena pulcra fece lota			a1 g2 f1 e2 {linea=v} d1 e3 f3 g9
+Ergo non est verminota			r1 r1 d1 e3 f3 r1 r1 g1 f3 e3 [f2 e1 f3 g3] f9 r9
+velut lingua			b1 b1 c1 d2
+caro tu=a virgo digna			d1 c2 b1 a2 b1 g3 a3 b3
+defend<er>is nob<is> signa			c2 b1 a2 b1 c2 b1 c1 b1
+o dulcis o pi=a o benigna.			c1 {linea=v} b2 a1 r1 r1 g1 d3 g3 r1 r1 f1 e3 d3 f18 {finis=||}
+#tit=24Rosa-IV voix=motetus ordo=3 lang=lat clemod=g2_8
+Rosa sine culpe spina			{pagina=v;modus=2;tempus=3;prolatio=3;relative=e';cle=c3} r18 r18 r18 r18 e9 a,6 a3 e'6 d3 c3 [d2 c1 b2 c1] d18
+per q<uam> p<atet> lex divina			b2 c1 d3 c3 b3 a3 b3 c9 r9
+stella mari=a maris			c3 c3 r3 r9 [c2 d1 e3] d3 g6 g3 f18
+mundi salus et regina			g3 f3 e3 [[d3^ c3]] b3 a6 b3 [c2 b1 c3 {nota=La page est arrachée en-dessus et à la droite de la note, où une hampe aurait pu paraître.} d3] z9 {linea=v}
+mundu<m> munda<n>s a sentina			[g2 f1 e2 f1 e2 d1] c18 f6 e3 [d2 e1] c3 d3 e9 r9
+sydus jam solem paris			a,3 a3 r3 r9 d9 b9 c18 [a6 b3 c2 b1 c3 d3] e18
+stella rubens matutina			g3 g3 f3 [e2 d1 e2 f1 e3] d6 e3 d3 c3
+vi=a vite medicina			b3 a6 b3 c2 c1 b3 {linea=v} c3 d9 r9
+portusq<ue> salutaris			g,3 g3 r3 r9 a6 c3 [b2 c1 d3] b3 c18
+aurem nob<is> huc inclina			e3 d3 c3 b2 a1 b3 c3 d18
+ut nos serves a ru=yna			p@D [g6 f3] [e2 f1 g3 e3] f18 g6 a3 g6 g3 c,9 r9
+p<ar>ens Et exp<er>s paris			d3 d3 r3 r9 [g,6 a3] [c2 b1 a3 b3] c18 [f3 e3 d3] c9 {linea=v}
+revelatrix paup<er>u<m> 		e2 f1 e3 d3 [[c3^ b3]] c3 d9
+sup<er>atrix honer<um>			g,3 a3 b3 c6 d3 c3 r3 c3
+atq<ue> sordis veter<um>			d3 r3 d3 [[e3 f3]] e3 [[d3^ c3]] d3 e9 r9
+medicatrix vulner<um>			c9 [f2 e1 f3] g3 [a3 g3] a3 f3 g3 r3
+auge pi=a muneru<m> 			g3 d3 [e3 f3] [e3 d3] [[e3^ d3]] c3 {linea=v} b9 r9
+ac v<ir>tutu<m> numer<um>			d9 a3 b3 c3 d6 e3 d3 r3
+rogans regem sup<er>um			c3 d3 r3 b3 c9 [f2 g1 f3] e3 d9 r9
+ne nos p<re>mat Iterum			f3 e3 d3 c9 f2 g1 f3
+feda moles scelerum.			e3 d3 c3 d3 r3 b3 b3 c18 {finis=||}
+#tit=24Rosa-IV voix=tenor ordo=2 lang=non clemod=g2_8
+Tenor			{linea=v;modus=2;tempus=3;prolatio=3;relative=a;cle=c4;arm=b;talea=v;color=v}
+			{nota=Une autre ligne de ténor apparaît après le motetus, portant le nom *Almifonis* mais ne correspond pas aux autres voix du motet.} 
+			{fractio=72/108} r18 r18 r18 r18 r18 r18 {fractio=1} a36 g18 g18 f18 (r6) f18 (g12) a18 r18
+			{talea=v} a36 c18 b-18 a18 (r6) g18 (g12) f18 r18
+			{talea=v} e36 g18 a18 g18 (r6) a18 (g12) f18 r18
+			{talea=v} g36 a18 g18 f18 (r6) {linea=v} g18 (g12) f18 r18
+			{talea=v;color=v} {nota=Changement de talea} [[a18^ g9]] [[g9^ f9]] (r3) f9 (g6) a9 r9
+			{talea=v} [[a18 c9 b-9^ a9]] (r3) g9 (g6) f9 r9
+			{talea=v} [[e18 g9 a9^ g9]] (r3) a9 (g6) f9 r9
+			{talea=v} [[g18 a9 g9^ f9]] (r3) g9 (g6) f9 r9 {finis=||}

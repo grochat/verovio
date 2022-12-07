@@ -1,0 +1,53 @@
+# tit=09Bona-BI source=D-B_49 voix=triplum ordo=1 lang=lat visa=CC
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 28.02.2021-13:10/ob MODIF: 28.02.2021-13:19/ob
+Colla jugo subdere.
+curi=as sectari |
+Quaru<m> sunt in<nu>m<er>e
+clades mores rari |
+Potans su=o vivere
+debet excitari |
+Ali=ena desere
+quadra <con>vivari |
+Pane tu=o vescere
+tibi dominari |
+Si vis et effugere
+curis lacerari | 
+Malo fabam rodere
+liber et lectari |
+Qua<m> cibis afflu=ere
+serv<us> et tristari |
+Aulici sunt op<er>e:
+semper adulari |
+Fictas laudes promere
+luc<r>aq<ue> venari
+Abimplumis tollere
+plumas et conari |
+D<omi>nos alludere
+falsa <com>mentari |
+Ve quos habent pu<n>g<er>e
+v<erb>a que subdunt<ur> |
+Nulla fides pi=etas q<ue> viris q<ui> castra sequ<un>t<ur>
+# tit=09Bona-BI voix=motetus ordo=2 lang=lat
+Bona condit cetera
+bonum libertat<is> |
+Qui gazarum g<e>n<er>a
+tot theusarizat<is> |
+Multiplici phalera
+vos qui phallerat<is> |
+et cum libet ubera
+fercula libat<is> |
+Si viv<er>e libera
+vita nequiatis |
+Nunqua<m> soporifera
+servi degustat<is> |
+Vincit auri pondera
+su=e p<otes>tat<is> |
+Esse nobis funera
+servi p<ro>pinat<is> |
+Malo p<er>in<nu>m<er>a
+dum mag<is> optatis
+# tit=09Bona-BI voix=contratenor ordo=3 lang=lat
+Egregi=us labor e<st> submagno p<r>incipe castra |
+Continu=ando sequi sed sic non itur ad astra |
+Promittunt non dant dicunt n<e>c p<ost>e=a cura<n>t |
+Et sic fallimur miseri qui castra sequunt<ur> | 

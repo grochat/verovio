@@ -1,0 +1,25 @@
+# tit=11Virtutibus-BR2 source=B-BR_19606 voix=tenor_solus ordo=1 cle=c3 lang=non clemod=g2_8 visa=JP,DC,OB
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 02.07.2020-14:14/josquin MODIF: 09.07.2021-23:52/ob
+									{relative=f;modus=2;tempus=2;prolatio=3;linea=v} r12 r12 r12 r12 r12 r12
+									m@c [[f24| c'6 b6 a12]] r6 c6 c6 c6 {linea=v} [[g12| b6 a6 g6^ f6]]
+									f24 [[d'6^ c6 f12]] r6 [[e6^ d6]] [[d6 c12]] [[b6 a6 g6^ f6]]
+									[[b24| d6]] [[d6 c12]] {linea=v} r6 [[c6 d6^ c6]] [[a12| d6 c6 b6^ a6]]
+									[[g24| c6 b6 a12]] r6 [[c6^ f,6]] [[f6 g12|]] [[a6 b6 a6^ g6]] {linea=v}
+									[[a24| b6 a6 g12]] r6 a6 [[a6 g6 f12]] [[c'6 b6 a6^ g6]]
+									f12 [[c'3 b3^ a6]] r3 c3 c3 c3 g6 [[b3^ a3]] {linea=v} [[g3^ f3]]
+									f12 [[d'3^ c3]] f6 r3 e3 d3 d3 c6 [[b3^ a3]] [[g3^ f3]]
+									b12 d3 d3 c6 r3 c3 [[d3^ c3]] {linea=v} a6 [[d3^ c3]] [[b3^ a3]]
+									g12 [[c3 b3^ a6]] r3 c3 f,3 f3 g6 [[a3 b3]] [[a3^ g3
+									a12|]] [[b3 a3^ g6]] {linea=v} r3 a3 [[a3^ g3]] f12 {finis=|}
+# tit=11Virtutibus-BR2 voix=contratenor ordo=2 cle=c4 lang=non clemod=g2_8
+									{relative=c';modus=2;tempus=2;prolatio=3;linea=v} r12 r12 r12 r12 r12 r12
+									z6 m@B c12 r6 {fractio=1/2} [[c12 {fractio=1} b6 a12]] r6 r6 f6 r6 [[g12| b6 a6 g6^ f6]]
+									r6 f12 r6 [[d'6^ c6 f12|]] r6 r6 a,6 {linea=v;cle=c3} r6 c12 [[b6 a6 g6^ f6]]
+									r6 f'12 r6 [[d12 c12]] r12 f,6 m@b r6 [[a12| d6 c6 b6^ a6]]
+									r6 d12 r6 [[c6 b6 a12]] r12 f6 r6 {linea=v} [[b-12^ a6 b6 a6^ g6]]
+									r6 a12 r6 [[b-6 a6 g12]] r12 a6 r6 c12 [[c6 b6 a6^ g6]]
+									r3 c6 r3 [[c3 b3^ a6]] r3 r3 f3 r3 {linea=v} g6 [[b3^ a3]] [[g3^ f3]]
+									r3 f6 r3 [[d'3^ c3 f6]] r3 r3 a,3 r3 c6 [[b3^ a3]] [[g3^ f3]]
+									r3 f'6 r3 d3 d3 c6 r3 r3 f,3 r3 {linea=v} a6 [[d3^ c3]] [[b3^ a3]]
+									r3 d6 r3 [[c3^ b3]] a6 r3 r3 f3 r3 b6 [[a3^ b3]] [[a3^ g3]]
+									r3 a6 r3 [[b3 a3^ g6]] r3 r3 [[a3 b3]] c12 {finis=||}

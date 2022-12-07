@@ -1,0 +1,18 @@
+# tit=03Quoniam-MU source=D-Mbs_5362 voix=triplum ordo=1 lang=lat clemod=g2_8 notatio=M5362 visa=DC,OB,CC
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 09.05.2020-11:16/ob MODIF: 05.02.2022-18:05/david
+Tribu<m> que<m> non ab=ho<r>ru=it			{modus=2;tempus=2;prolatio=3;relative=f;cle=c4;pagina=v;nota=Pour cette source atypique, la blanche pointée transcrit la semi-brève parfaite.} g6 g6 [a1 g1 f1 g3] a3. a3 b3 a3 g12
+indecent<er> ascende<re>			b6 {fractio=2} c3 {fractio=1} [b3 a1 g1 a1] b3 a3 g3 f3 g12 r24
+furibundo no<n> metu=it			b12 d6 [d3 c1 b1 a1] {fractio=1/2} b6 a6 {fractio=1/3;linea=v} g6 [f6 g6] {fractio=1} a12
+Fortuna cito v<er>tere			b6 b3 [a1 g1 {fractio=1/3} f3] {fractio=1} e3 e3 f3 g3 a12
+du<m> duce p<ri>=vato t<ri>bus			b6 [g3 f3] g3 f3 [g3 a3] b6 c6 d12 r12
+In sempit<er>nu<m> speculu<m>			b12 {fractio=1/2} a6 b6 {fractio=1} a6 {fractio=3/2} [a1 g1 f1 e1] {linea=v} {fractio=1} f3 g3 a12
+parare pala<m> om<n>ib<us>			b6 [d6 {fractio=3/2} c1 b1 a1 g1 {fractio=1} g3 a3] b12 [[|d6 c6~]] [b3 a3] b3 c3 d12 r12 z12
+no<n> pep<er>cit patibulo			b12 d6 {fractio=3/2} [d1 c1 b1 a1] {fractio=1} b3 a3 {fractio=2/3} g3 [f3 g3] {fractio=1} a12 {linea=v}
+p<o>pulus ergo ve<n>tur<us>			e'3 e3 d3 c3 [b3 a1 b1 c1] b3 a3 g12
+si t<ra>ns meta<m> ascende<ri>t			[a3 b3 c3 a3] b3 b3 a3 {fractio=1/2} f6 {fractio=1} g6 b6 a12 r12
+Q<uod> si forsitan cass<ur>um			b12 a3 {linea=v} b3 a6 [a1 g1 {fractio=1/3} f3 {fractio=1} e3] f3 g3 a12
+Cu<m> tanta t<ri>b<us> reruerit			e'3 e3 d3 c3 b3 a3 g3 [f2 g1]
+sci=at eti=a<m> quis fructib<us>			a12 d6 b6 c3 b3 b3 {fractio=1/3} [a3 g3] a3 {fractio=1} b12 {pagina=v}
+dilabescet in p<ro>fundu<m>			{nota=Absence de clés sur la deuxième page.} r12 z12 b12 d6 {fractio=1/2} [e6 {fractio=3/4} d1 c1 b1 a1] {fractio=1} b3 a3 {fractio=1/2} [g3 f3] {fractio=1/3} [e6 {fractio=1} f1] g12
+p<ost> seph<ir>os pl<us> led<it> y=ems p<ost> gaudi=a luct<us>			d'6 c3 b3 a6 [f3 g3] a12 c6 b3 a3 f6 a3 b3 c6 {fractio=3/2} [c1 b1 a1 g1] {fractio=2} f6 {fractio=1} r12 {linea=v}
+Un<de> n<ichi>l *mmeli=<us> q<uam> nil h<ab>u=isse secund<um>			g12 f3 g3 f6 {fractio=3/2} [f1 e1 d1 c1] {fractio=1} [d3 e3] {fractio=2} f6 {fractio=1/2} g6 e6 f6 e6 d6 e6 {fractio=1/3} f6 [e6 d6] {fractio=1} e12

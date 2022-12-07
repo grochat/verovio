@@ -1,0 +1,29 @@
+# tit=09Bona-TA1 source=E-TAc_1 voix=triplum ordo=1 lang=lat cle=c2 clemod=treble visa=JP
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 03.10.2020-08:56/ob MODIF: 09.07.2021-23:52/ob
+olla jugo s[..]			{relative=a';modus=2;tempus=2;prolatio=3} x6 x3 x3 [x2 x1] [x2 x1 x6]
+[...]s sectari				[x12 x3 x3] [x2 x1 x2 x1] x6 x6
+quarum sunt in munere		x3 x3 x2 x1 x2 x1 x3
+clades m[..]res rari		x3 x2 x1 x2 x1 x6 z6
+pot[...]					x6 [x3 x1 x1 x1 x6 x3 x3 x6] {linea=v}
+debet exequari				[f2 e1 f2 g1] {fractio=2} a6 {cle=c1;fractio=1} g6 c3 c3 g6 z6
+[...]						[x6 b6 c6 c1 b1 {fractio=1/3} c3 {fractio=2/3} b3 {fractio=1} x1 x3 x3 x6]
+[...]=a cumvivari			[x6 x2 f1] [e2 f1] g6 c3 c3 g6 r6
+pane tu=o vescere			e12 g3 a3 b6 [a2 g1 a2 b1] [g2 f1 g2 a1] [f2 e1 f2 g1]
+tibi [...]					f3 e3 [d6 x2 x1 x2 x1 x6] z6
+[...]						[x6 x2 x1 x2 x1 x12 x3 x2 x1 x6] {linea=v}
+[...]=ris lacerari			a'6 [x3 b3] a6 [a1 g1 a1] [g2 f1] e6 r6
+mal[...] fabam rodere		g6 [e2 d1 e2 f1] g12 [b2 a1] b2 x1 b6
+liber et letari				g6 {fractio=1/3} [g3 f3 {fractio=1} x1] [a2 x1] f6 [f1 e1 f1 d2 e1] f6 r6
+quam cibis afflu=ere		g6 [a2 g1 f2 g1] a12 g6 [a2 g1 f2 e1] d3 d3
+servus et tristari			d3 d2 d1 f6 a6 f6 z6
+[...]						[x3 x3 x2 x1 x2 x1 x3]
+[...]r ad [...]=ulari		x3 [x2 x1 {linea=v} c'2] a1 b3 b3 c6
+[...]tas laudes promere		b3 b2 a1 [g2 a1] g2 f1 e3
+lucraque venari				e3 e2 d1 e2 c1 d6 r6
+ab inplumis tollere			a'3 e3 a2 g1 {fractio=2/3} a3 {fractio=1/3} f3 {fractio=1} e6
+plumas et conari			e2 d1 e2 f1 g3 g3
+[...]						[x2 x1 x2 x1 x3 x1 x1 x1 x6]
+[...] omentari				[x3 {linea=v} g3] g2 f1 [f2 g1] a6 r6
+v[..] quod habent pongere	[c6 c1 b1 c1 b2 a1] g6 [b2 a1 b2 c1] [b2 a1 g2 a1] b3 b3 g6
+verbaque subdantur			c3 [c2 b1] [a2 g1] [a2 b1] [a1 g1 a1 g2 f1] g6 r6 
+nulla fides pi=etas que viris qui castra [...]	c6 c2 b1 {fractio=2/3} c3 {fractio=1/3} a3 {fractio=1} b3 b3 [c2 b1 a2 b1] g3 g3 a3 b3 [a1 g1 a1] [x3 x6 x12]

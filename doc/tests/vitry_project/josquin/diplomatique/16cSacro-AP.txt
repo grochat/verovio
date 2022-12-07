@@ -1,0 +1,24 @@
+#tit=16cSacro-AP source=F-APT_16bis voix=triplum ordo=1 lang=lat clemod=g2_8 visa=CC,OB
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 05.02.2022-16:15/ob MODIF: 05.11.2022-13:02/david
+paraclite q<ui> procedit a patreq<ue> fili=o			{relative=a';cle=c1;modus=2;tempus=3;prolatio=3;pagina=v} a3 a3 [e2 f1] g9. a2 g1 a3 f3 g2 g1 e2 f1 g2 g1 e9. r9
+cu<m> q<ui>b<us> glorificaris i<n> sup<er>no soli=o			c2 {linea=v;cle=c2} d1 e3 c3 d3 [f1 e1 f1 e2 d1] c3 c3 r3 g'2 a1 b2 b1 g2 b1 a9. r9
+une d<e=u>s i<n> p<er>so<n>is tribus sine dubi=o			a3 g3 f3 e9. {linea=v} f2 g1 a3 f3 g3 [e2 d1 d2 c1] d2 e1 f3 d3 e3 r3
+eleyson			c3 e9. [d3 r3 r3 a'2 g1 f2 e1 f2 {linea=v} g1]
+kyri=e e e e e leyson			a9. g9. [[a3^ e3] r3 [a3^ e3]] r3 [[a3^ e3] r3 [a3^ f3]] r3 [[a3^ e3]] r3 [[a3^ e3] r3 [f3^ c3]] r3 [[d3^ a3] r3 {linea=v} e'3] e6* [d9. f3 g6]
+de sup<er>nis accendat<ur> spiritalis gr<aci>=a			a2 a1 g2 g1 f2 d1 e3 c6. d2 e1 f2 f1 d2 f1 e9. r9 {linea=v}
+vere d<e=u>s qua dele<n>t<ur> p<e>cc<a=t>or<um> visi=a			g1 f1 e1 d2 c1 d2 e1 f1 g1 f1 f2 c1 f2 f1 e9. r9
+tu cu<m> sis i<n> trinitate unita essenci=a			a3 r1 r1 a1 r1 r1 a1 f3 f3 c3 f3 a6. {linea=v} g2 f1 e3 d3 c3 e6* d6 r3.
+eleyson			[g1 f2 f1 e2 e1 d2 d1 c2 c1 b2 b1 a2] e'9 d36
+#tit=16cSacro-AP voix=motetus ordo=3 lang=lat clemod=g2_8
+Sacro sa<nc>te a<m>bor<um> spirit<us>			{relative=e';cle=c3;modus=2;tempus=3;prolatio=3;columna=v} e6 d3. d9. [e3 d3 c3] d3 c3 b3 [[a3 b3]] c3 d9. r9 
+q<ui> vocaris Q<uod>p<er> paraclitus			a'9. [a1 g2] f3 [e3 d2] c1 d3 {linea=v} d2 c1 e9. d9. r9
+pla<n>ta<n>s om<ne>s la<n>gue<n>ti=um ge<m>it<us>			g3 g3 g3 [a2 g1] f3 d3 [e2 f1] [[g3^ e3]] [f2 g1] [[a3^ f3]] [[g3^ e3]] r3. {linea=v}
+eleyson			c3 c6* [[a9. d9.]]
+kyri=e e e e e leyson			e9. d9. [[e3^ c3] d3 r3 [e3 g3]] r3 [[e3^ d3]] r3 [[f3^ d3] r3 [e3^ d3]] r3 [[e3 g3] r3 [c,3 e3]] {linea=v} r3 [a,3 c2 b1 c3] c6. [a3 r3 r3 d3 e1 d1 e1 d2 c1]
+sacru<m> flame<n> sup<er>na bonitas			d3 e3 d3 c3 b3 c3 d9. {linea=v} {linea=v} a6 a3. [[c3^ a3]]
+ignis ardens zeli caritas			d3 b9. r9 c6 c3. [e2 d1 d2 c1] [c2 b1 d2 a1] d3 d3 c9.
+una manens in trib<us> de=itas			d9. [[d3^ c3]] d3. {linea=v} e9. g3 g2 f1 {fractio=2/3} g3 {fractio=1/3} g3 {fractio=1} [[d3^ c3]] r3
+eleyso<n>			[f2 g1] [e2 f1] [d2 e1 c9 a36]
+#tit=16cSacro-AP voix=tenor ordo=2 lang=non clemod=g2_8
+tenor paraclite or or or or or or			{relative=a;cle=c4;modus=2;tempus=3;prolatio=3;linea=v;color=v} [[a9 b9 a9^ g9]] [[a9^ g9 a9^ d,9]] [[f9 g9 a9]] [[b9 {nota=L'oblique est brisée en un segment horizontal sur la ligne du *a*, suivi d'un segement descendant.} a9^ g9]] [[f9 e9 d9^ c9]] [[c9 d9]] r9
+			{color=v} [[a'9 b9.]] a6 g3. a6 g3. a6 d,3. f6 g3. a6 b3. a6 g3. f6 e3. d6 c3. [[c9 d9]] r9 {color=v} d3 e3 f3 [[e9^ d9]] r9 c3 d3 d3 [[g9^ f9]] r9 {linea=v} g3 f3 e3 [[d9. f9.]] r9 g3 a3 b3 [[a9^ g9]] r9 f3 e3 d3 [[c9 d36]

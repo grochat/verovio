@@ -1,0 +1,49 @@
+# tit=19Durement-DU source=GB-DRc_20 voix=triplum ordo=1 lang=fr visa=OB
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 16.01.2022-23:09/ob MODIF: 05.02.2022-00:37/david
+[...]			{relative=f';modus=2;tempus=2;prolatio=3;cle=c1} x6 z6 z6 z6 z6
+[...]			x6 z6 z6 z3
+[...]			x3 z6 z6 z6
+[...]			x6 z6 z6 z6
+[...]			x6 z6 z6 z6
+[...]			x6 z6 z6 z6
+[...]			x6 z6 z6 z6 z6 z2
+[...]			x1 z2 z1 z6 z6
+[...]			x6 z6 z6 z6 z6 z6
+[...]			x6 z6 z6 z6 z3
+[...]			x3 z6 z6 z6 z6
+[...]			x6 z6 z6
+[...]			x6 z6 z6 z6 z6 z6 
+[...]			x6 z6 z6 z6
+[...]			x6 z6 z6 z6 z6 z2
+[...]			x1 z3 z6 z6
+[...]			x6 z6 z6 z6 z6 z6
+[...]			x6 z6 z6 z6 z6 {pagina=v}
+le q<ue>l de trois jeo doi mei<n>s avoir chier			f3 f2 g1 a3 b3 a6 b3 b2 a1 a2 
+le t<ra>=idour			g1 g2 f1 g6 r6
+qui me <con>duit desarmes au sejour			g3 d3 r6 f2 f1 e2 f1 d3 d3 [e2 d1 e2 f1] e6
+mo<n> anemi ou ly q<ua>nt a dolur			[f6 e0] d3 d3 a'3 [g2 f1] {linea=v} [e2 d1 e2 f1] d3 c2 d1 e6
+mi fait languir ou moi qi par folur			f2 g1 a2 b1 c3 a3 a3 a2 g1 g2
+p<ar>tir ne<n> se			f1 f2 e1 g6 r6
+qua<n>t g<ra>nt biaute= est sove<n>t sa<n>z bo<n>te	b3 g3 r6 d'2 c1 d2 c1 d3 c2 d1 {linea=2} a6
+cuer durs en cors pare dumilite			a2 a1 b2 c1 d3 [d2 c1] b3 a2 b1 c3
+ne<n> duz reg<a>rd na point de se=urte.			[a2 b1] c3 a3 b2 b1 g2 g1 d3 e3 f12 {finis=||}
+# tit=19Durement-DU voix=motetus ordo=2 lang=fr
+Dureme<n>t au cueor me blesce			{linea=v;relative=c';modus=2;tempus=2;prolatio=3;cle=c3} r12 r12 r12 r12 r12 r12 c12 c6 g6 [[a6^ g6]] f6 a6 m@ [b6 a0] [g6 a2 g1 a2 b1 c6]
+ceo qe di=ent li plusurs			[d6 c0 b2 a1 b2 g1] a12 {linea=v;arm=b} d3 c3 b-3 a3 g12 r6
+q<ua>mur est de cel noblesce			d'18. {fractio=1/2} [e6 d0] r6 {fractio=1} c6 [b-2 a1 b-2 c1] d6 c3 b-3 a6
+qe faire ne peut sa<n>z tur			[[g3 a3] b-3 a2 g1] f12 a3 c3 b-3 a3 g12 r6
+meis en moi sent le <con>t<ra>ire			b-18. [a2 g1 a2 b-1] c3 c3 {linea=v} d6 f3 f3 e12
+q<ua>r puis q<ua>murs dona			[d6 c0 b-3 a2 b-1] c6 f,6 [[g3 a3]] [b-1 a1 b-1 a2 g1] f12 r6 
+meis cors so<n> cuer sa<n>z ret<ra>ire			g'18. [f6 g0] a6 g3 a3 g3 f3 [e6 c3 b-2 c1]
+elle tantost le livra			[[d3 e3]] [f3 e2 d1] e12 [e3 d3] c3 [b-2 c1] d12 r6
+a sa mortiele= enemi=e			b-18. [a2 g1 a2 b1] a6 {linea=v;arm=c} f6 g3 g3 [[a3 b3]] [c3 b2 a1] b6 
+qui droit feire ne m<er>ci			[b2 g1 a2 b1] c12 d3 c3 m@ b3 a3 g12 r6
+ne veot diex si nai jeo mi=e			d'18. e3 d2 e1 p@ f3 f3 g12 a3
+pur am<er> mort desservi.			g2 a1 m@ f3 e3 [d6 c0] b6 c12 {finis=||}
+# tit=19Durement-DU voix=tenor ordo=3 lang=non
+Dolor meus. 		{linea=v;relative=g';modus=2;tempus=2;prolatio=3;cle=c3;color=v;talea=v} r12 r12 r12 r12 r12 r12 g24 r12 c,12 d12 e12 f12 e12 r12
+			{talea=v} d24 r12 e12 f12 e12 d12 c12 r12
+			{talea=v} d24 r12 e12 d12 c12 d12 c12 r12
+			{talea=v} c24 r12 f,12 g12 a12 b12 a12 r12
+			{talea=v} g24 r12 a12 b12 a12 g12 f12 r12
+			{talea=v} g24 r12 a12 g12 f12 g12 f12 {finis=||}

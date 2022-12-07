@@ -1,0 +1,81 @@
+#tit=17Decens-PA source=F-Pn_2444 voix=triplum ordo=1 lang=lat clemod=g2_8 visa=CC,OB
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 07.02.2022-10:43/ob MODIF: 28.02.2022-10:16/ob
+IN virtute nominu<m>			{cle=c3;relative=f';modus=2;tempus=2;prolatio=3} c6 [d6 c0] c6 a6 [b2 a1 b2] c1 [b6 c0]
+q<uam> plures ignari			[e2 d1 e2 {nota=Haut de page coupé : les hampes éventuelles de cette note et de la suivante se déduisent du contexte.} f1] g3 [f2 e1] d3 e3 f6 
+<con>ditores ca<r>minu<m>			f3 [f2 e1] f2 e1 {linea=v} f2 g1 a6 
+ac p<re>dicari			[a2 g1] a2 f1 e3 e3 r6
+gaude<n>t d<i>c<t>is ho<m>ini			e2 e1 d2 e1 f3 [e2 d1] c2
+putantes equari §			d1 c2 b1 {linea=v;cle=c2} a3 a3 a'12
+misset inperici=a			g3 g3 g2 g1 f2 e1 d6
+tali=u<m> delusa			d3 d2 d1 a'3 f3 g6 
+no<n> evitans vici=a			a2 f1 a2 f1 {linea=v} g3 g3 f6  
+scribendi p<re>clusa			a6 [g2 a1 g2 f1] e3 [d2 e1] f3 f3 r6
+placidis minuci=a			c2 d1 c2 b1 a3 [a2 g1] [a12~ c6 d0] 
+sinceris obtusa			[a2 b1] [g2 a1] b6 {linea=v} e3 f3 g6
+alba nig<ri>s t<ri>stici=a			[g3 f2 e1] [d3 e2 f1] g3 g3 [g2 a1] f2 g1 a12
+letis <et> p<ro>fusa			[a6 g0] f6 [f2 e1 f2] g1 a3 a3 r6
+nimis arat brevi=a			e6 c3 c2 d1 {linea=v} e3 e3 p@ f6
+s<u>b ineri[ta musa] §			g2 g1 f2 e1 [[d3^ c3]] 
+heccine cong<er>i=es			b3 b3 c2 b1 a2 b1 c12
+verbor<um> enormis			f6 d3 d3 {linea=v} e3 e3 [f6 e0]
+est potari sp<eci>=es			f2 e1 f2 g1 f3 [e2 d1] c3
+picta m<u>l<t>iformis §			b3 c2 b1 c2 d1 [e6 b3 r1 r1 b1 e3 r1 r1 e1] r6 
+ut sic pictor faci=at			d3 e3 {linea=v} f12 [f2 e1 f2 g1] a3 a3 [e6 e3 r1 r1 d1 e3 r1 r1 e1] r6
+caput femine=u<m>			f3 f3 e6 [d6 d2 c1 b2 a1] c6 [c2 d1 c2 b1 a6 d3 r1 r1 d1 a3 r1 r1 d1] r6
+cu=i plumas adici=at			a'3 a3 {linea=v} e6 [f3 e2 d1 c12] b6 [c2 b1] [a2 b1] [c6 f3 r1 r1 f1 c3 r1 r1 c1] r6
+et collu<m> equinum			a'3 a3 [f2 e1 f2 g1] [[f3 g3]] [a3 g2 f1] [[e3 g3] [f3 e3^ d6] g3 r1 r1 g1 d3 r1 r1 d1] r6
+residu=u<m> fini=at			[[c3 d3]] e12~ a6 d,6 [e2 d1] [c2 d1] [e6 {linea=v} e3 r1 r1 b1 e3 r1 r1 e1] r6 
+i<n> pisce<m> marinu<m>			[g3 f2 e1] [d2 c1 d2 e1] [[d3^ c3]] b12 [b3 a2 b1] [c6 f3 r1 r1 c1 f3 r1 r1 e1 g3 f2 e1 [d6 f12|]] {finis=||}
+#tit=17Decens-PA voix=motetus ordo=3 lang=lat clemod=g2_8
+DEcens c<a>rmen ed<er>e			{cle=c3;relative=f';modus=2;tempus=2;prolatio=3} f3 [f2 e1] f3 d6 c6 d3 e12
+qui<cum>q<ue> volentes			e6 d3 c3 b3 [a2 b1] c6
+tema decens carp<er>e			c3 [d2 e1] f2 {linea=v} e1 d2 c1 d3
+debent et decentes			e3 e2 e1 d2 c1 b12 r6
+e<ss>e thema p<ro>m<er>e			c3 [d2 e1] [f1 e1 f1 e2 d1] e3 e2 e1 {fractio=2} d6 {fractio=1} 
+posse menti=entes			e3 e2 {linea=v} f1 [e2 d1] [c2 b1] a12~ 
+honeri succubere			a3 a3 g3 g3 a3 b3 c12
+no<n> norunt prudentes §			f3 e3 d3 c3 [b3 a2 b1] c12 r6 {linea=v}
+si scribendi t<ra>ditus			e6 e6 [e3 d2 e1] [f1 e1 f1] [e2 d1] [c2 b1] [c2 d1]
+salus est in p<ri>mis			e6 e2 g1 f2 e1 d12~
+in medi=o conitus			[g2 f1 e2 d1] e3 e2 d1 [c2 b1 c2] {linea=v} d1 e12 
+non sic n<ec> in ymis			e3 [d2 c1] d3 e3 [f1 e1 f1 e2 d1] e12 r6
+unus e<n>i<m> medicus			g3 g3 [g3 f2 e1] d12 [d2 e1] [c2 d1] e3
+alt<er> est s<u>blimis §			e3 d2 {linea=v} c1 d2 e1 f6
+v<er>bor<um> <con>jugi=u<m>			[f1 e1 f1 e2 d1] [d2 c1 b2 a1] b6 [c2 b1] a2 b1 c12 r6
+in te celebretur			c3 [c2 b1] a3 a3 [b2 a1 g2 a1] [b6 r3 c3 r3 c3 d6] r6 {linea=v}
+ade=o q<uo>d vici=u<m>			c6 [d2 c1] [b2 c1] [[d3^ e3]] f3 f3 [e6 r3 d3 r3 e3 f6] r6
+minime causentur			a12 [a3 g2 f1] e3 g3 [[f3^ e3]] [d6 r3 a'3 r3 a3 f6] r6 
+et nich<il> in p<ro>pri=u<m>			[a6 g0] [f2 e1 f2 g1] a6 [d,6 e0] {linea=v} e3 e3 {fractio=1/2} [f12 {fractio=1} r3 c3 r3 f3 e6] r6
+emin<us> aptet<ur>			[e3 d2 e1] f3 e3 [d3 e2 d1] c12 [d6 r3 d3 r3 e3 g6] r6
+secus eni<m> p<re>ci=u<m>			e12 e6 g3 g3 [a2 g1] [f2 g1] [a6 r3 e3 r3 a3 g6] r6 {linea=v}
+c<a>rme<n> non m<er>etur.			d12 [e2 d1 c2 d1] e6 d3 e3 [f6 r3 f3 r3 c3 [d3 c3^ b6 c12|]] {finis=||}
+#tit=17Decens-PA voix=contratenor ordo=2 lang=non clemod=g2_8
+Contratenor			{cle=f2;relative=g;modus=3;tempus=2;prolatio=3} r12 r18 {color=v;talea=v} (g12 g12) f18 r18
+			{talea=v;linea=v} (g12 f12) a18 r18
+			{talea=v} (d12 d12) c18 r18
+			{talea=v} (f,12 a12) c18 r18
+			{talea=v} (d12 c12) a18 r18
+			{talea=v} (a12 c12) b18 r18
+			{talea=v} (c12 g12) f18 r18
+			{color=v;talea=v} (g12 g12) f18 r18
+			{talea=v} (g12 f12) a18 r18
+			{talea=v} (d12 d12) c18 r18
+			{talea=v} (f,12 a12) c18 r18
+			{talea=v} (d12 c12) a18 r18
+			{talea=v} (a12 c12) b18 r18
+			{talea=v} (c12 g12) f18 r18
+#tit=17Decens-PA voix=tenor ordo=4 lang=non clemod=g2_8
+Tenor clamor meus			{cle=f2;relative=f;modus=3;tempus=2;prolatio=3;color=v;talea=v} (f12 f12) e18 r18
+			{talea=v;linea=v} (f12 d12) e18 r18
+			{talea=v} (d12 c12) d18 r18
+			{talea=v} (f12 g12) f18 r18
+			{talea=v} (f12 e12) g18 r18
+			{talea=v} (a12 b12) a18 r18
+			{talea=v} (g12 g12) f18 r18
+			{linea=r;color=v;talea=v} (f12 f12) e18 r18
+			{talea=v;linea=v} (f12 d12) e18 r18
+			{talea=v} (d12 c12) d18 r18
+			{talea=v} (f12 g12) f18 r18
+			{talea=v} (f12 e12) g18 r18
+			{talea=v} (a12 b12) a18 r18
+			{talea=v} (g12 g12 f18) r18 ([g6 f0] f12) {finis=||}

@@ -1,0 +1,58 @@
+# tit=15Celsa-IV source=I-IV_115 voix=triplum ordo=1 lang=lat clemod=g2_8 visa=CC,OB,DC
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 29.01.2022-10:31/ob MODIF: 28.08.2022-13:55/david
+Flos ortus inter lili=a			{relative=c'';cle=c1;pagina=v;modus=2;tempus=2;prolatio=3;pagina=v} c3 [c1 b1 c1] a6 c2 b1 a2 g1 a2
+quor<um> radix est franci=a			g1 f2 d1 e2 d1 e2 f1 e6
+quib<us> flagrat cecili=a			d3 e2 f1 g2 a1 g2 f1 e12
+ludovic<us> vite vi=a			a3 g2 a1 b2 a1 g2 f1 e6 r6
+q<ui> spretu mu<n>di=ali=a			{nota=L'abréviation qui surmonte le *q* se confond avec une tache circulaire.} f3 f2 {linea=v} g1 a2 a1 g2 a1 b6
+sp<re>v<it> et sencib<i>li=a			b3 b2 a1 b2 c1 b2 a1 g6
+septra nolens regali=a			f3 [f2 e1] g2 a1 f2 g1 a1 g1
+jure paterno <pro>pri=a			a1 g2 f1 e2 d1 e2 f1 g6 r6
+s<ed> minor<um> co<n>sorci=a			g2 f1 g2 a1 b3 a2 b1 c1
+poli captans palati=a			b1 c1 {linea=v} a2 b1 c3 f,3 f3 [g2 a1]
+preconiset ecc<les>i=a			m@ b1 a1 b1 a2 g1 a6 [a2 g1] [f2 g1]
+o qua<m> bella felici=a			a3 g2 a1 b2 a1 g2 f1 e6 r6
+movet carni possenti=a			f2 g1 a2 b1 c3 a3 a3 f3
+sp<irit>u=i utili=a			c6 e3 e3 e2 d1 e2 f1 d2
+su=a fortis audaci=a			e1 c2 d1 {linea=v} e2 e1 d2 e1 f1
+laudabil<is> milici=a. 		e1 f1 e2 d1 [e2 d1] e2 f1 g6 r6
+cu=i gladi=us sci=entia			d1 d1 d1 d2 c1 b3 b3 p@ c6
+cu=i lo[rica] prudenti=a			d1 c1 d1 b2 c1 d3 d3 d2
+gale=a sapi=enti=a			c1 d2 e1 f2 e1 f2 {nota=La minime est en partie effacée.} f1 c6
+quib<us> jacet sup<er>bi=a			f3 f2 {linea=v} e1 d2 c1 d2 b1 p@ c6 r6
+livor gula luxuri=a			g'2 f1 g2 a1 b3 b2 b1 b6
+et mala q<ue>vis ali=a			[a2 b1 c2 b1] c3 a3 c2 b1 a2 g1 a3
+hu<m>ilitate previa			a2 b1 c3 c1 b1 [c1 a1] g1
+religi=one soci=a			a1 g2 f1 e2 d1 {nota=La semibrève est en partie effacée.} e2 e1 f6 r6
+degente paci=enti=a			f3 f2 {nota=La minime est en partie effacée.} e1 {linea=v} d2 e1 c2 d1 e3
+devoti=onis grati=a			e3 e1 d1 e1 d2 c1 b3 b3
+o quam mira victori=a			[d1 c1 d1 c2 b1] c6 c6 d2 e1 d2 c1 [[d3 e3]]
+tri=u<m>pha<n>tis ad alci=a			f6 a1 a1 [a1 r1 r1 f1] e2 [e1 r1 r1 e1] g1 g1
+de=i regna celesti=a			g1 r1 r1 f1 [a2 a1] r1 r1 [f1 e2] d1 e2 f1 g6 r6
+o quam felix memori=a			b2 c1 {linea=v} b2 {nota=La hampe de la minime est presque entièrement effacée.} a1 g6 f3 e3 d6
+relinq<ue>ntis ad vari=a			[b6 c0] d1 d1 [d1 r1 r1 b1] c2 [c1 r1 r1 e1] g1 g1
+miraculor<um> bravi=a			g1 r1 r1 {nota=Prosodie incertaine : le scribe aurait pu coller la minime *ffaut* plus près des deux silences pour qu'elle appartienne à la syllabe *mi*.} [f1 a2] a1 r1 r1 e1 [a2 g1] f2 e1 g6 r6
+om<n>i sensu fulgenti=a			f2 e1 f2 d1 e6 c3 c3 d6
+reliqui=as cuj<us> pi=a			d6 g1 g1 [g1 r1 r1 f1] a2 [a1 r1 r1 e1] g1 g1 {linea=v}
+prece muni=at glori=a			[g1 r1 r1 b1] c2 a1 r1 r1 f1 [e2 d1] e2 f1 e6 r6
+nos perhempnis virtus di=a.			p@ [[b'6^ a6]] [f2 e1 f2 g1] [a3 g2 a1] m@ b6 [g2 a1] [f2 g1 a6] p@c b6 c12 {finis=||}
+# tit=15Celsa-IV voix=motetus ordo=2 lang=lat clemod=g2_8
+SElsa cedrus ysopus effecta			{nota=La lettrine ressemble plus à un *s* qu'à un *c*.;relative=f';cle=c1;modus=2;tempus=2;prolatio=3;pagina=v} [f2 e1 f2 g1 a6] d,6 [f1 e1 f1 e2 d1] p@d c12 d6 [d1 c1 d1 c2 b1] c12 d6 [e2 d1 c2 d1] e12 r6
+pro libano sy=on ad=optavit			[d3 c2 d1] e6 [e3 e3] d12 [f2 e1 f2] d1 e3 {nota=Par manque de place, le scribe semble avoir décalé sur la gauche la semibrève *elami* et sur la droite la longue finale *dlasolre*.} e3 [d1 c1 d1 c2 b1 c6] d12 r6
+ludovicus q<ui> ti=ara leta 		e3 e3 [f2 e1 f2 g1] a6 [[d,3 e3]] [f1 e1 f1 e2 d1 e12] {linea=v} d3 d3 [e2 d1 c2 d1] e12 r6
+di=adema ceptraque negavit			f3 [f1 e1 f1] [[d6 a'6]] p@ g12 a3 a3 [g2 f1 g2 a1] f6 [e2 d1 e2 f1] d12 r6
+et devote tholosanos pavit			e3 e3 p@ [f6 g2 f1 e2 f1] g12 a6 a3 [a2 b1] [c2 b1 a2 g1] [a1 g1 a1 g2 f1] e12 r6
+res hec mira q<uo>d rex i<n> pastorem			e3 e3 [[d6 e6]] f12 [d2 c1 d2 e1] c3 c3 [d2 e1 f2 e1] {linea=v} [e1 d1 e1 d2 c1] d12 {nota=Un point se trouve à la droite du silence : n'étant pas nécessaire, il doit probablement s'agir d'une tache.} r6
+versus reges cu<n>ctos sup<er>=avit			[[g6 a6] a3 g2 f1] e6 [e3 d2 e1] [[f12^ d6]] [d1 c1 d1 c2 b1] c6 r3 d3 e3 e3 r3 [f3 e3 e2 d1 c6] r6
+sum<m>i regni conplentes honore<m>			[d3 c2 d1] e3 e3 [d6 c'2 b1 a2 g1 a1 g1 a1 g2 f1] {nota=Probable erreur du scribe qui a voulu placer la dernière note du mélisme sur la syllabe suivante (en principe, la dernière d'un mot).} e6 r3 [d3 f3] [c3 r3 d3] e3 c3 d6 r6 
+mors que reges calcat ex=altavit			[c'6 a2 b1 c2 a1] b6 {linea=v} [c6 a2 g1 a2 b1] g6 r3 f3 f3 e3 r3 e3 [f3 d3] p@d c6 r6
+qui nos de=i regat ad amorem.			[d3 c2 d1] e3 e3 f6 c'6 [[a3^ g3] f6] [d3 c2 d1] [[e3^ d3]] e6 f12 {finis=||}
+# tit=15Celsa-IV voix=tenor ordo=3 lang=non clemod=g2_8 arm=b
+Tenor. Quam magns pontifex			{relative=f;cle=c4;modus=2;tempus=2;prolatio=3;color=v;talea=v;linea=v} f24 e12 g12 a12 r12 g12 f12 e12 g12 r12 r12
+			{talea=v} g24 f12 b-12 a12 r12 g12 f12 f12 e12 r12 r12 
+			{talea=v} g24 a12 g12 f12 r12 e12 g12 g12 f12 r12 r12
+			{talea=v} b-24 a12 g12 f12 r12
+			{color=v;talea=v} [[f12^ e6 g6 a6]] r6 [[g6 f6^ e6 g6]] r12
+			{talea=v} [[g12^ f6 b-6^ a6]] r6 [[g6^ f6]] [[f6^ e6]] r12
+			{talea=v} [[g12| a6 g6^ f6]] r6 {linea=v} [[e6 g6]] [[g6^ f6]] r12
+			{talea=v} [[b-12 a6 g6^ f6]] {finis=||}

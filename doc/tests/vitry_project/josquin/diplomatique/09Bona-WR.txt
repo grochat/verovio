@@ -1,0 +1,43 @@
+# tit=09Bona-WR source=PL-WRu_195 voix=triplum ordo=1 lang=lat cle=c2 clemod=treble visa=JP
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 27.08.2020-09:40/josquin MODIF: 10.02.2021-22:26/ob
+COlla jugo subdere			{relative=a';modus=2;tempus=2;prolatio=3} a6 a3 a3. [a2 g1] a2 f1 e6
+curi=as sectari				d12 a'3 a3 {linea=v} [a2 g1 a2 b1] g6 e6
+quarum sunt innunere		g3 g3. a2 g1 f2 g1. a3
+clades mores rari			a3. {linea=v} a2 g1 a2 f1 e6 r6
+potens su=o vivere			d6 d3 [e1 d1 e1] f6 a3 a3 g6 {linea=v}
+debet execrari				[f2 e1 f2 g1] a12 g6 c3 c3 g6 r6
+ali=ena desere				a6 b6 c6 [c1 b1 c1 b2 a1.] g3 e3 f6
+quadra convivari			d6 {linea=v} [g2 f1 e2 f1] g6 c3 c3 g6 r6
+pane tu=o vescere			e12 g3 a3 b6 [a2 g1 a2 b1] g6 [f2 e1 f2 g1.] {linea=v}
+tibi dominari				f3 e3 d6 [d2 e1] [f2 e1] d6 r6
+si vis et effugere			c6 [d2 c1 b2 c1] [d12~ e0] c3 c2 d1 e6 
+cu [...]					a6 {linea=v} [c3 b3 a6 a1 g1 a1 g2 f1 e6 r6
+							g6 e2 z1 e2 f1 g12 b2 a1 b3] {linea=v}
+# tit=09Bona-WR voix=motetus ordo=2 lang=lat cle=c2 clemod=G_8
+BOna condit cetera			{relative=e';modus=3;tempus=2;prolatio=3;columna=v} |e6 a,6 |e'6 [c2 b1 c2 d1] b6 b3 b3
+Bonum libertatis			c18. e3 {linea=v;cle=c3} e3. [d2 c1 d2 e1] [d2 c1 b2 c1] [a12 r6. [c6^ b12* c18|] [f6 e12* c18]]
+qui gazarum genera			x3 x3 f3 {linea=v} f+3. [g2 f1 e2] f1 g18.
+tot thesaurisatis			f3 e3. [d2 c1 d2] e1 d6 [c12 z6 [c3^ b3] {linea=v} [c12* d18] [g6 a12* g18]] 
+multiplici falera			p@ g3 g3. f3 f3. [g2 f1 {fractio=2/3} e3] {fractio=1/3} f3 {fractio=1} g18.
+vos qui faleratis			e3 [d2 e1] {linea=v} f3 e3. [f2 e1 f2 g1] e12 r6
+et cum libet ubera			d3 d3. c3 b3. {fractio=1/2} [a3 c3 b3] a3 {fractio=1} g18
+fercula libatis				e'3 {linea=v} f3. g3 f3 e6 d12 r6
+si vivere [...]				e3 [e2 d1.] c3 [c2 d1] [e2 d1 c2 d1 e18.]
+vita [...]					d3 [d2 c1.] {linea=v} [x3 x3 x2 x1 x2 x1 x12 z6
+							f18 {fractio=3} e6 {fractio=1} f6 e6 x2 {fractio=1/3} e3 {fractio=1} x2 x1 e6]
+# tit=09Bona-WR voix=tenor ordo=3 lang=non cle=f3 clemod=G_8
+							{relative=a;modus=2;tempus=2;prolatio=3;pagina=v;color=v;talea=v} z24 z12 z12 z12 z12
+							{talea=v} z24 z12 z12 z12 z12
+							{talea=v} z24 z12 z12 z12 z12
+							{talea=v} z24 z12 z12 z12 z12
+							{talea=v} g24 a12 g12 r12 f12
+							{talea=v} a24 c12 d12 r12 c12
+							{talea=v} b24 c12 a12 r12 g12 {linea=v}
+							{talea=v} z24 z12
+							{color=v;talea=v} z12 z6 z6 z6 z6
+							{talea=v} z12 z6 z6 z6 z6
+							{talea=v} z12 z6 z6 z6 z6
+							{talea=v} z12 z6 z6 z6 z6
+							{talea=v} z12 z6 z6 z6 z6
+							{talea=v} z12 z6 z6 z6 [[c6
+							{talea=v} b12]] [[c6^ a6]] r6 [[g6 f12]]

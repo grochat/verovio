@@ -1,0 +1,27 @@
+# tit=14Rex-DU source=GB-DRc_20 voix=motetus ordo=3 lang=lat clemod=g2_8 visa=DC,JP,OB,CC
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 20.02.2020-22:26/ob MODIF: 21.04.2022-15:19/david
+REx quem metror<um> depigit p<ri>ma figura					{linea=v;cle=c3;modus=2;tempus=2;prolatio=3;relative=d'} [d12 d3 c2 b1 a6] [d3 c2 d1 e3] e3 [a,2 g1 a2 b1] [c2 b1 c2] d1 e3 e3 d3 e3 [f6 e0] [d2 e1 c2 d1] e12 r6
+om<n>e tene<n>s in se q<uo>d dat natura be=atis				e6 [d2 c1 d2] e1 f6 [f6 e0] [d2 e1 d2 c1] d3 e3 {linea=v} d3 c3 [b6 c0] [d1 c1 d1 c2] b1 c12 r6
+basis justici=e trojan<us> juli=us ausu						g'+@F3 e3 f6 g3 a3 g6 f-3 e3 d6 [d2 c1 d2] e1 f6 [g2 f1 e2 f1] d12 r6
+eccl<es>i=e tutor mathale=us <et> hector in arma			g3 g3 a6 a3 [a2 g1] a3 [g2 f1] e3 d3 c+6 [d1 c1 d1 c2 b1] d3 d2 e1 {linea=v} [d2 c1 b2 c1] d12 r6
+rura cole<n>s legu<m> scrutator the=ologi=e					a3 f3 g6 a3 [a2 b1] [c2 b1 a2 b1] c3 [b2 a1] b6 [b2 c1 d2] b1 c6 [c1 b1 c1 b2 a1] b12 r6
+te<m>p<er>i=e sup<er>a<n>s augustu<m> tulli=<us> hemo		b3 b2 a1 b6 c3 [c2 b1] [c3 d2 e1] [f2 e1 d2 c1] d3 e3 f3 f3 e6 [d3 e2 f1] g12 r6
+v<ir>tutes cuj<us> mores gen<us> actaque vati				e3 [e2 d1] c+6 [d6 e0] g3 {linea=v} [g2 a1] [g2 f1] [e2 f1] d6 [d2 c1] [d2 e1] [f6 e0 d3] c3 b12 r6
+Sc<ri>b<er>e non posse possit sup<er> eth<er>a scribi.		d3 d2 e1 d3 d3 c6 [c2 b1 c2 d1] e3 e3 f+3 [f2 g1] [a2 g1] [f2 e1] g12 {modus=1}
+															[a3 r3 r3 d,3 r2 e1 r2 e1 [a,3 d3] e2 f1 e2 d1 c6
+															b3 r3 r3 d3 r2 d1 r2 f1 c3 f2 e1 d2 e1 d2 c1 b6
+															c3 r3 r3 e3 {linea=v} r2 e1 r2 g1 d1 e1 f1 e2 c1 d2 c1 d2 e1 [f3^ e3]
+															d3 r3 r3 f3 r2 d1 r2 c1 d3 e2 d1 c6 d12] {finis=||}
+# tit=14Rex-DU voix=tenor ordo=4 lang=non clemod=g2_8
+Rex regu<m> tenor.											{cle=c5;modus=2;tempus=2;prolatio=3;relative=d;color=v;talea=v} d24 r12 a'12 [[g12^ f6]] r6
+															{talea=v} e24 r12 f12 [[d12| e6]] r6
+															{talea=v} c24 r12 g'12 [[g12^ f6]] r6
+															{talea=v} g24 r12 a12 [[a12^ g6]] r6 {linea=r}
+															{color=v;talea=v} d24 r12 a'12 [[g12^ f6]] r6
+															{talea=v} e24 r12 f12 [[d12| e6]] r6
+															{talea=v} c24 r12 g'12 [[g12^ f6]] r6
+															{talea=v} g24 r12 a12 [[a12^ g6]] r6 {linea=r;modus=1}
+															{color=v;talea=v} d12 r6 [[a'6^ g6]] f3 r3
+															{talea=v} e12 r6 [[f6^ d6]] e3 r3
+															{talea=v} c12 r6 g'6 g6 f3 r3
+															{talea=v} g12 r6 a6 a6 g3 r3 {linea=r} {finis=||}

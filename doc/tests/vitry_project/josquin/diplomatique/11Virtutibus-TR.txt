@@ -1,0 +1,66 @@
+# tit=11Virtutibus-TR source=F-T_1397 voix=triplum ordo=1 cle=c1 lang=lat clemod=g2 visa=JP,DC,CC
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 25.06.2020-15:45/josquin MODIF: 09.07.2021-23:52/ob
+								{relative=f';modus=2;tempus=2;prolatio=3;cle=c1;pagina=v} z12 z12
+								z12 z12
+								z12 z12
+								z6 z6
+								z6 z6
+								z6 z6
+								z6 z6
+								z6 z6
+								z6 z6
+								z6 z6
+								z6 z6
+								z6 z6
+								z6 z6
+								z6 z6
+								z6 z6
+								z6 z6
+								z6 z6
+								z6 z6
+								z6 z6
+								z6 z6 z6 z6 z6 z6 z6 z6
+								z6 z6 z6 z6 z6 z6 z6 z6 z6 z6
+								z6 z6 z6 z6 z6 z6 z6 z6 z6 z6
+								z6 z6 z6 z3
+[...] et pi=a					x6 {linea=v} x2 x1 x6 z6
+cum quis hanc amat amat<ur>		x3 x2 x1 x2 x1 x2 x1 x2
+est ergo grata passi=o			x1 x2 x1 x2 {fractio=1/3} d3 {fractio=1} x2 {fractio=1/3} c3 {fractio=1} d6 {fractio=2} r6
+su=i amor quo be=at<ur>			{fractio=1} x2 x1 x2 {linea=v} a'-@b1 a1 g1 a1 e3
+ama<n>s amoris bravi=o			f2 e1 f2 g1 a3 e2 f1 g2
+o mari=a virgo pare<n>s			f1 g2 a1 g3 g3 a2 g1 a2 {linea=v}
+me=um sic ure spiritum			b-1 [a1 g1 a1 g2] f1 e2 d1 e2 f1 g6 r6
+quod amori tu=o pare<n>s		c3 b2 a1 g2 g1 f2 e1 d3
+amore<m> vite<m> irritum.		d3 e2 d1 e2 f1 {linea=v} e3 b'+2 [b1
+								r1 r1 c1 c2 b1 a2 a1 r1 a1 f1 e2 c1 d2 d1 r1 r1 e1 r1 r1 e1 r1 e1 d1 r1 d1 c1 f1 e1 f1 g2 a1 g6 r6 d'1 c1 d1 c2 b1
+								r1 r1 c1 c2 b1 a2 a1 r1 a1 f1 e2 f1 g2 g1 r1 r1 c1 {linea=v} r1 r1 c1 r1 c1 a1 r1 b1 g1 e2 d1 e2 f1 g6 r6 g1 f1 g1 a2 g1
+								r1 r1 f1 f2 e1 d2 d1 r1 d1 e1 d2 d1 e2 f1 r1 r1 g1 r1 r1 g1 r1 e1 f1 r1 g1 g1 f1 e1 d1 e2 f1 e6 r6 f2 g1 a1 g1 a1
+								r1 r1 b1 d2 c1 b2 g1 r1 g1 a1 g1 f1 e1 f2 g1 r1 r1 a1 r1 r1 e1 r1 e1 f1 r1 g1 e1 f2 g1 f2 e1 d6 r6 e2 f1]
+# tit=11Virtutibus-TR voix=tenor_solus ordo=2 cle=c3 arm=b lang=non clemod=G_8
+Solus tenor or or or			{relative=c;modus=2;tempus=2;prolatio=3;linea=v} r12 r12 r12 r12 r12 r12
+								[[f24| c'6 b-6 a12]] [[b-6 c6^ f,6 c'6 g12]] [[b-6 a6 g6^ f6]]
+								f12 [[f'12 d6^ c6 f12|]] [[f6^ e6]] [[a,6 d6 c12]] [[b-6 a6 g6^ f6
+								b-24|]] [[d12 c12]] [[d6^ c6]] [[f,6 c'6 a12]] [[d6 c6 b-6 a6
+								g12]] [[g12| c6 b-6 a12]] c12 [[c6^ f,6 g6 b-6^ a6]] [[b-6^ a6]] [[g6
+								a12|]] [[a12| b-6^ a6]] [[g6 b-6 a12]] [[a6 g6 f12]] [[c'6 b-6 a6 g6 
+								f12]] [[c'3 b-3^ a6]] [[b-3 c3]] [[f,3 c'3^ g6]] [[b-3^ a3]] [[g3^ f3]]
+								f6 f'6
+# tit=11Virtutibus-TR voix=tenor_solus_bis ordo=3 cle=c3 arm=b lang=non clemod=g2_8
+								{relative=c;modus=2;tempus=2;prolatio=3;linea=v} r12 r12 r12 r12 r12 r12
+								[[f24| c'6 b-6 a12]] r6 [[c6^ f,6 c'6 g12]] [[b-6 a6 g6^ f6]]
+								f24 [[d'6^ c6 f12]] r12 [[a,6 d6 c12]] [[b-6 a6 g6^ f6]]
+								b-24 d6 [[d6 c12]] r6 [[c6^ f,6 c'6 x12]] [[d6 c6 b-6^ a6]]
+								g24 [[c6 b-6 a12]] r12 [[c6^ f,6]] g12 [[a6 b-6 a6^ g6]]
+								a24 [[b-6 a6 g12]] r6 a6
+# tit=11Virtutibus-TR voix=contratenor ordo=4 cle=c3 arm=b lang=non clemod=g2_8
+Contratenor.					{relative=c;modus=2;tempus=2;prolatio=3;columna=v} r12 r12 r12 r12 r12 r12
+								r6 c'12 r6 [[c6 b-6 a12]] r6 r6 f6 r6 [[g12| b-6 a6 g6^ x6]]
+								z6 z12 z6 z6 z6 z12 z6 z6 z6 z6 z12 z6 z6 z6 z6
+								z6 z12 z6 z6 z6 z12 z6 z6 z6 z6 z12 z6 z6 z6 z6
+								z6 z12 z6 z6 z6 z12 z6 z6 z6 z6 {linea=v} [[b-12^ a6 b-6 a6^ g6]]
+								r6 a12 r6 [[b-6 a6 g12]] r6 r6 a6 r6 c12 [[c6 b-6 a6^ g6]]
+								r3 c6 z3 z3 z3 z6 z3 z3 z3 z3 z6 z3 z3 z3 z3
+								z3 z6 z3 z3 z3 z6 z3 z3 z3 z3 z6 z3 z3 z3 z3
+								z3 z6 z3 z3 z3 z6 z3 z3 z3 z3 z6 z3 z3 {linea=v} [[b-3^ a3]]
+								r3 d6 r3 [[c3 b-3^ a6]] r3 r3 f3 r3 b-6 [[a3 b-3]] [[a3^ g3]]
+								r3 a6 r3

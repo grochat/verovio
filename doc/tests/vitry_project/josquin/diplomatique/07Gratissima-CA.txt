@@ -1,0 +1,80 @@
+# tit=07Gratissima-CA source=F-CA_1328 voix=triplum ordo=1 cle=c1 arm=c lang=lat clemod=g2_8 visa=JP
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 12.08.2020-16:48/josquin MODIF: 05.02.2022-19:00/david
+			{relative=f';modus=3;tempus=2;prolatio=3;cle=c1} z6 z6 z6 z6 z6 z6 z6 z6 z6 z6
+			z6 z6 z6
+			z6 z6 z6
+			z6 z6 z6
+			z6 z6 z6 z6 z6
+[...] diligende			a6 f6 [a2 g1] [a2 b1] g6 r6
+ista pulcra speci=e			g3 g3 a6 a6 [a2 g1 f2] e1 d12
+humilis maneri=e			a'2 g1 f2 g1 a3 b3 c6 {linea=v}
+[...] opere virtu=osa,			x6 [b2 a1] [b2 c1] [a2 g1] [a2 b1] [g2 f1] [g2 a1] f6
+[...] altera			[f3 e1 d1 e1 f2 e1] d2 c1 d12 r6
+ausu nimis aspera			a'2 g1 a2 b1 a3 g3 [[f3^ e3]] {linea=v}
+[...] osa			[x6 x3 x3 g2 a1 g2 f1 g6 g2 a1 g2 f1 e2 d1] [e2 f1] d6 z6
+[...] nubila			[a'3 b3 a6 f6] c'3 [c1 b1 c1] a6
+ista velox [...]la			a2 g1 a2 b1 {linea=v} [x3 x3] a6
+no colubres [...]=i=entes			a6 f2 e1 f2 g1 a3 b3 c6
+ista super ethera			[a1 g1 a1 g2 f1] e3 d3 e6 g3 g3 a12 r6
+regnat vos in misera			f2 e1 {linea=v} x2 g1 f3 e3 d6
+valle langu[...]			d3 d3 a'6 a2 [g1 a2 f1 e6]
+ista virgo regi=a			g6 e3 [d2 e1] f6 a3 g3 f12 r6 {linea=v}
+[...] amasi=a			[x2 g1 f2] e1 f3 g3 a6
+me=a sponsa que pi=a			a3 a3 [b2 a1 b2] c1 a3 a3 g6 r1 r1
+rex ego sum hec regina			a1 r1 r1 g1 f3 f3 r1 r1 f1 r1 r1 a1 g3 g3 {linea=v}
+[...]ta referimus			[d6 d2 e1 f2 e1] d3 d3 e3 e3 d6 r12
+nos qui tannta [...]			f2 e1 f2 g1 [a3 a3 g6]
+[...]			[e2 d1 e2 f1 d3 d2 e1 f3 g3 a6] r1 r1
+[...] rosam hanc [...]			[a1 r1 r1 g1] a3 a3 r1 r1 a1 r1 r1 [g1 f3 f3]
+surgite vos [...]			e6 [g2 f1 g2] a1 f6 [a3 g3 a6] {fractio=2} r6 {fractio=1}
+[...]			[a2 x1 {linea=v} x2 e1 d3 f3 e6]
+et mors nos persequitur			[e2 d1 e2] f1 g3 g3 a3 g3 a6 r1 r1
+hunc serite, hanc vocate			a1 r1 r1 g1 a3 a3 r1 r1 a1 r1 r1 g1 f3 f3
+[...] neglexeritis			[d6 {cle=c2} f2 e1 d2] e1 f6 a3 g3 f6 r12
+illam non videbitis			g2 d1 e2 f1 g3 g3 a6
+glori=am quam c[...]			c3 c3 b2 a1 [b2 x1 {linea=v} x6]
+[...]=ate			[x1 x1 x1 x2 x1 x3 x3 x3 d,3 e3] e3 f18 {finis=||}
+#tit=07Gratissima-CA voix=motetus ordo=2 cle=c3 lang=lat clemod=g2_8
+			{relative=c';modus=3;tempus=2;prolatio=3;cle=c3;columna=v} z6 z6 z6 z6 z6 z6 z6 z6 z6 z6 z6
+quam [...] [rnis] [...] dici=es			[x2 x1 x2 x1] [x6 x3 x2 x1 x6] [x3 x3] x6 [x3 x3] x12 z6
+usque centrum [...]			x12 [x2 x1 x2 x1] x18. [x2 x1 x2 x1 x2 x1 x2 x1] [x3 x2 x1 x12 x3 x2 x1 x12 x2 x1 x2 x1 x3 x3 x3 x3 x2 x1 x2 x1 x12] {linea=v}
+me=i cordis [...] cissima			{cle=c3} e6 c6 [d2 c1 d2 e1] [f6 e0] [d3 c3 b6] [d2 e1] [c2 d1] e12 r6
+intra st[..] moris spiritum			[c12 c2 b1 c2 d1] [e18 e3 d2 c1] [d3 c2 d1 e3 x2 x1 x12 x2 x1 {linea=v} c2 d1 e2 d1 e2 f1] e6 d6 f12 [[e3^ d3]] c12
+nesci=endem pectoris exitum			[c1 b1 c1 b2 a1] b6 b3 d3 d6 e3 f3 e6 [[c3^ b3]] c12 r6
+gratissime simili vulnere			d6 d6 c6 b18 {linea=v} c6 [d2 c1 d2 e1] f6 d3 e3 f6 r6 r6
+peperisti [...]			[[c6 d6]] e6 f6 e6 [c3 c3 r1 r1 c1 r1 r1 d1 c3 c3] r1 r1
+o re=g[...] tu=um amplectere			c1 r1 r1 e1 [d3 d3] [d2 c1] [b2 c1] {linea=v} d6 b12 c3 b3 c6 r6 r6
+astringendo pectus cum ubere			[c2 b1 c2 d1] [e2 d1 e2 f1] [d2 c1 d2 e1] c6 [c2 b1 c2 d1 e3] e3 r1 r1 c1 r1 r1 d1 c3 c3 {linea=v} r1 r1
+[...] oculum oculo			[c1 r1 r1 a1 b3 b3 c2 b1 a2 b1] c3 [b2 c1] d12 c3 [b2 c1] d6 {fractio=2} r6 {fractio=1}
+[...] pro o [...]			[[c3^ b3] c2 b1 c2 d1 e6 d6 d6 e3 e3] r1 r1 c1 r1 r1 d1 [c3 x3] {linea=v} r1 r1
+ac [...] spira verbum in labi=a			f1 r1 r1 e1 d3 d3 [d2 c1 d2 e1] [c2 b1 a2 b1] c12 d3 e3 d6 r12
+quod receptum fi=at caro			c6 c6 [d2 c1 b2 c1] d3 {fractio=3} d1 {fractio=1} [e1 d1 e1 {fractio=1/2} d3 c3] {fractio=1} b6 a6 z6 z18
+# tit=07Gratissima-CA voix=contratenor ordo=4 lang=non cle=c4 arm=b clemod=g2_8
+			{relative=f;modus=3;tempus=2;prolatio=3;linea=v} z12 z18 z6 z18 z18 z18
+			z12 z18 z6 z18 z18 z18
+			z12 z18 [[f6 a18|]] g18 f18
+			r12 a18 [[f6 g18|]] [[c18 a18]]
+			r12 a18 [[b-6 c18|]] a18 g18
+			r12 f18 z6 d18 e18 f12 r6
+			f18 r6 [[f12| g6 f6]] z6
+			f18 r6 [[g12 d6]] e6 r6
+			f18. r6 [[c12 d6 f6]] z6
+			a18 z6 [[g12^ f6 a6]] z6
+			z18 z6 [[g12 c6^ a6]] r6
+			a18. r6 [[b-12| c6 a6]] r6
+			g18. r6 [[f12| g6^ d6]] r6
+			e18 f18 {finis=||}
+# tit=07Gratissima-CA voix=tenor ordo=3 lang=non cle=c4 arm=b clemod=g2_8
+Tenor			{relative=f;modus=3;tempus=2;prolatio=3;linea=v;color=v;talea=v} f18 r12 [[a6 b-18|]] c18 c12 r6
+			{talea=v} b-18 r12 [[a6 g18]] f18 g12 r6
+			{talea=v} a18 r12 f6 f18 e18 f12 r6
+			{talea=v} d18 r12 [[d6 c18]] z18 d12 r6
+			{talea=v} f18 r12 [[g6 x18]] f18 g12 r6
+			{talea=v} a18 r12 [[b-6 a18]] [[g18 f18]]
+			{color=v;talea=v} r6 [[f12* a18]] [[b-6 c12]]
+			{talea=v} r6 c12 [[b-18 a6 g12]]
+			{talea=v} r6 [[f12 g18]] [[a6 f12]]
+			{talea=v} r6 f12 e18 [[f6 d12]]
+			{talea=v} r6 d12 c18 [[c6 d12|]]
+			{talea=v} r6 f12 [[g18^ f6]] f12
+			{talea=v} r6 g12 a18

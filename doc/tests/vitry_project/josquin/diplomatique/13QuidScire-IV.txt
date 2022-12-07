@@ -1,0 +1,9 @@
+# tit=13QuidScire-IV source=I-IV_115 voix=triplum lang=lat ordo=1 clemod=treble visa=JP,CC,DC,OB
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 20.02.2021-23:10/ob MODIF: 07.03.2021-00:20/ob
+[...]										{modus=2;tempus=2;prolatio=3;relative=f';pagina=v;linea=v;cle=c2} [x6 x1 x1 x1 x2 x1 x3 x3 x2 x1 x1 x1 x1 x6 x6 x1 x1 x1 x2 x1 x6 x1 x1 x1 x2 x1 x6 x6 x1 x1 x1 x2 x1 x3 x3 x3 x3 x2 x1 x2 x1 x6]
+[...] [..]s supp<re>ma 						[x1 x1 x1 g2 f1] g3 g3 f2 g1 {linea=v}
+# tit=13QuidScire-IV voix=motetus lang=lat ordo=3 clemod=g2_8
+Quid scire proderit nova <et> vet<er>a		{modus=2;tempus=2;prolatio=3;relative=c';pagina=v;linea=v;cle=c2} [c6 {fractio=1/2} c3 b3 c3 d3 {fractio=1} [e3 g3] [f3^ e3] d2 e1 d1 {fractio=1/2} e2 {fractio=1} c1 d12] e2 e1 d2 c1 d6 f1 e1 f1 e2 d1 e3 
+nimis dat quemlibet <et> molit asp<er>a		e3 c3 c3 [d2 c1 d2] e1 f6 f1 e1 f1 {fractio=1/2} e3 d3 {fractio=1} [c6 r6 {linea=v} e3 e3 r6 g2 a1 g2 f1 {fractio=1} [e3 f3] e2 f1 e2 d1 c3 d2 e1 r1 r1 d1 b3 r1 r1 b1 g3 r1 r1 a1 b3 r1 r1 a1 c3 r1 r1 c1]
+nemo vane rogat qui tendit munera			[a3 r1 r1 a1 c3] [d6 c3] c3 c3 [b2 c1] d3 d3 e2 f1 e2 d1 c3
+preces sunt vacu=e vacu=a dextera			c3 b2 c1 {linea=v} b2 a1 {fractio=1/2} g6 r6 {fractio=1} [a2 g1] {fractio=1/2} [a3 b3] {fractio=1} c6 d3 [d2 c1] [d6 d2 c1 d1 e1 d1 c6 b3 b3 [a3 c3] [d3^ b3] c24] {finis=||}

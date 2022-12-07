@@ -1,0 +1,16 @@
+#tit=16cSacro-BA source=E-Bbc_971c voix=motetus ordo=1 lang=non clemod=g2_8 visa=OB
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 06.02.2022-10:55/ob MODIF: 05.11.2022-13:02/david
+S			{relative=e';cle=c3;modus=2;tempus=3;prolatio=3;columna=v;nota=Pour encoder ce fragment difficile à lire, on a pris le manuscrit d'Apt comme modèle de comparaison.} e9. d3 d6 e3 d3 c3 d3 c3 b3 p@d a3 [[b3 c3]] d9. r9 
+			a'9. a2 g1 f2 e1 d3. d2 c1 d3 e2 d1 [[e3^ c3]] e3 d9. r9
+			g2 a1 g2 f1 g2 f1 f2 e1 d2 e1 f3 g2 f1 e2 f1 g3 a3 f6 [[g3^ e3]] r3 {linea=v}
+			c3 c6 a9 d9
+			e9. d9 [[e3^ c3]] d3 z3 [[e3 g3]] r3 e3 d3 r3 [[f3^ d3]] r3 [[e3^ d3]] r3 [[e3 g3]] r3 [[c,3 e3]] [[a,3 c3]] c2 b1 c9 d9 c3 d3 e2 f1
+			d9 e2 e1 d2 c1 d2 d1 d9. a3 a6 [[c3^ a3]]
+			d3 b9 r9 {linea=v} c3 c6 e2 d1 d2 c1 c2 b1 d2 a1 d3 d3 c9.
+			d9. [[d3^ c3]] d3 e9 g3 g2 f1 g2 g1 [[d3^ c3] r3 f2 e1 e2 d1 d2 c1]
+			e6 c2 d1 a18 {finis=||}
+#tit=16cSacro-BA voix=tenor ordo=2 lang=non clemod=g2_8
+T			{relative=a;cle=f3;modus=2;tempus=3;prolatio=3;linea=v} {color=v} [[a9 b9 a9^ g9 a9^ g9 a9^ d,9 f9 g9 a9 b9 a9^ g9]] [[f9 e9 d9^ c9]] [[c9 d9]] r9
+			{color=v} [[a'9 b9^ a6]] g3. a6 g3. a6 d,3. f6 g3. a6 b3. a6 g3. f6 e3. d6 c3 c9. d9 r9
+			{color=v} d3 e3 f3 [[e9^ d9]] z9 p@e c3 d3 d3 [[g9^ f9]] r9 z3 z3 e3 {linea=v} [[d9 f9]] r9
+			g3 a3 b3 [[a9^ g9]] r9 f3 e3 d3 c9 d18 {finis=||}

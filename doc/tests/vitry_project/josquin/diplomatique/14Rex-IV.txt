@@ -1,0 +1,63 @@
+# tit=14Rex-IV source=I-IV_115 voix=triplum ordo=1 lang=lat clemod=g2_8 visa=DC,OB,CC
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 20.02.2020-22:26/ob MODIF: 21.04.2022-15:19/david
+[...] cane<n>da vulgo p<er> <com>puta					{pagina=v;cle=c2;relative=a';modus=2;tempus=2;prolatio=3} a3 d,3 a'3 a2 g1 f2 g1 f2 e1 d3
+ab et<er>no beli=al d<e>dita							[e1 d1 e1] [f2 e1] f2 g1 a1 g1 a1 g2 f1 e3
+sic<u>lor<um> nepha<n>da rabi=es						d3 c1 b1 c1 b2 a1 b3 b3 c2 b1
+<et> delira canu<m> i<n>sani=es							a2 b1 c3 c2 b1 a2 b1 c2 a1 b6 r6
+que<m> cu<m> neq<u>is carp<er>e dentib<us>				b2 a1 b2 c1 {linea=v} b3 [b2 a1] b6 c6 c3 [d2 e1]
+criminaris nequ<am> latra<n>tib<us>						[f2 e1 f2 g1] a6 [a1 g1 a1 g2 f1] e3 e3 g2 a1 g2 f1 e6 r6
+canu<m> cole<n>s tu q<uid> p<er>sequeris				e2 d1 c2 b1 c3 [c2 b1] c6 [d2 c1 d2] e1 d6
+viru<m> justu<m> <et> tu=o d<e>s<er>is					d3 e3 g6 [g2 a1 g2 f1] [a2 g1 a2 b1] c2 b1 b2 a1 g6 r6
+rege regi que<m> decor actu=<um>						g2 g1 f2 e1 d3 {linea=v} e3 d6 c6 [c2 b1 c2 d1] e3
+ill<um>inat que<m> ge=n<us> strenu=u<m>					e3 f+6 a2 g1 f2 e1 [g3 a1 g1 a1] b3 g3 a6 r6
+<et> s<an>c<t>or<um> m<u>lta afinitas					a2 g1 f2 e1 d6 c3 d3 [e2 d1 e2] f1 e3
+sibi f<a>c<t>a lux sple<n>dor claritas					e3 [f1 e1 f1 e2 d1] e3 e3 d3 e3 f6 [f2 e1 f2] d1 e6 r6
+corusca<n>te<m> reddit p<re> cet<er>is					e2 d1 e2 f1 e3 e3 {linea=v} d3 d2 e1 f6
+que<m>admodu<m> nec turni syderis						[a6 g0] [f2 e1 f2] g1 a6 [a1 g1 a1 g2 f1] g3 a3 [g2 f1] [e2 d1] c+@g6 r6
+jubar pheb<us> p<er>ve<n>tus attulit					g'2 f1 e2 d1 c3 d3 e6 g3 g3 d6
+dat proth dolor lapsum que<m> p<ro>tulit				[g2 f1 g2 a1] b3 b2 b1 a3 b3 [c2 b1 a2 b1] [g2 f1 e2] f1 d6 r6
+jh<e>r<usa>l<em> d<omi>n<u>m i<n> propri=u<m>			b'2 c1 b2 a1 {linea=v} g3 g3 a6 [f2 e1] f2 g1 a6
+jh<esu>m sp<er>nens habes i<n>soci=u<m>.				g2 f1 e2 d1 c+@g6 d2 c1 b2 c1 [d6 r3 e3 {modus=1}
+														r1 r1 e1 r1 r1 e1 d3 r1 r1 a'1 [g3 a3] r1 r1 f1 r1 r1 d1 e6 r3 e3
+														r1 r1 e1 r1 r1 e1 b3 r1 r1 e1 [g3 a3] r1 r1 f1 r1 r1 d1 a'6 r3 e3
+														r1 r1 e1 r1 r1 g1 d3 r1 r1 c1 [c3 d3] r1 r1 d1 r1 r1 e1 d6 r3 g3
+														r1 r1 g1 r1 r1 g1 d3 r1 r1 e1 [a3^ f3] r1 r1 e1 r1 r1 d1 [f+6 g12|]] {finis=||}
+# tit=14Rex-IV voix=motetus ordo=2 lang=lat clemod=g2_8
+[...]ex que<m> metror<um> depingit prima figura			{linea=v;cle=c3;relative=d';modus=2;tempus=2;prolatio=3} [d12 d3 c2 b1] [a6 d3 c2 d1] g3 g3 [c,2 b1 c2 d1] [c2 b1 c2 d1] e3 e3 [d2 c1 d2 e1] f6 [d2 e1] [c2 d1] e12 r6
+om<n>e tenens i<n> se q<uo>d dat natura be=atis			e6 [d2 c1 d2] e1 f6 [f6 e0] [d2 e1 d2] c1 d3 e3 d3 c3 b6 [d1 c1 d1 c2 b1] c12 r6
+basis justici=e trojan<us> juli=us ausu					g'3 e3 f+@E6 g3 {linea=v} a3 g6 f-!3 e3 d6 [d2 c1 d2] e1 f6 [g2 f1 e2 f1] d12 r6
+eccl<es>i=e tutor machabe=<us> et hector i<n> arma		g3 g3 a6 a3 [a2 g1] a3 [g2 f1] e3 d3 c6 [d1 c1 d1] [b2 c1] d3 d2 e1 [d2 c1 b2 c1 d12] r6
+rura cole<n>s legu<m> scrutator the=ologi=e				a3 f3 g6 a3 [a2 b1] [c2 b1 a2 b1] c3 [b2 a1] b6 [b2 c1 d2] {linea=v} b1 c6 [c1 b1 c1 b2 a1] b12 r6
+te<m>p<er>i=e sup<er>ans augustum tuli=<us> hemo		b3 b2 a1 b6 c3 [c2 b1] [c3 d2 e1] [f2 e1 d2 c1] d3 e3 f3 f3 e6 [d3 e2 f1] g12 r6
+v<ir>tutes cuj<us> mores genus actaq<ue> nati			e3 [e2 d1] c+@f6 d6 g3 [g2 a1] g2 f1 e2 f1 d6 [d2 c1 d2 e1] [f6 [d3^ c3]] b12 r6
+Scribere non possem possint sup<er> ethera scribi.		d3 d2 d1 {linea=v} d3 d3 c6 [c2 b1 c2 d1] e3 e3 f+3 f2 g1 [a2 g1] [f2 e1] [g12 {modus=1}
+														a3 r3 r3 d,3 r1 r1 d1 r1 r1 e1 [a,3 e'3] e2 f1 e2 d1 c6
+														d3 r3 r3 g3 r1 r1 d1 r1 r1 f1 c3 f2 e1 d2 e1 d2 c1 b6
+														c3 r3 r3 e3 r1 r1 e1 r1 r1 g1 d1 e1 f1 e2 c1 d2 c1 d2 e1 [f3^ e3]
+														d3 r3 r3 e3 r1 r1 d1 r1 r1 c1 d3 e2 d1 [c+@f6 d12|]] {finis=||}
+# tit=14Rex-IV voix=contratenor ordo=4 lang=non clemod=g2_8
+Contra tenor											{linea=v;cle=c4;relative=a;modus=1;tempus=2;prolatio=3} r6. {modus=3;tempus=2;prolatio=3} a12 r6. [[b6 a12]] [[f6^ e12* f12]] r6
+														g12 r6. [[g6 f12]] [[b6 a12* g12]] r6
+														c12 r6. [[a6 g12]] a6 [[b12* c12]] r6
+														g12 r6. [[d6 f12]] e6 [[f12* g12|]] {linea=r}
+														r6. a12 r6. [[b6 a12]] [[f6^ e12* f12]] r6
+														g12 r6. [[g6 f12]] [[b6 a12* g12]] r6
+														c12 r6. [[a6 g12]] a6 [[b12* c12]] r6
+														g12 r6. [[d6 f12]] e6 [[f12* {modus=2} g12|]] {linea=r;modus=1;tempus=1}
+														r3. {tempus=3} a6 r3. b3 a6 [[f3^ e6*]] f6 r3
+														g6 r3. g3 f6 [[b3 a6*^ g6]] r3
+														c6 r3. a3 g6 [[a3 b6* c6]] r3
+														g6 r3. d3 f6 [[e3 f6* g9]] r9 {finis=||}
+# tit=14Rex-IV voix=tenor ordo=3 lang=non clemod=g2_8
+Tenor o cane<n>da										{linea=v;cle=f3;relative=d;modus=2;tempus=2;prolatio=3;color=v;talea=v} d24 r12 a'12 [[g12^ f6]] r6
+														{talea=v} e24 r12 f12 [[d12| e6]] r6
+														{talea=v} c24 r12 g'12 [[g12^ f6]] r6
+														{talea=v} g24 r12 a12 [[a12^ g6]] r6 {linea=r}
+														{color=v;talea=v} d24 r12 a'12 [[g12^ f6]] r6
+														{talea=v} e24 r12 f12 [[d12| e6]] r6
+														{talea=v} c24 r12 g'12 [[g12^ f6]] r6
+														{talea=v} g24 r12 a12 [[a12^ g6]] r6 {linea=r;modus=1}
+														{color=v;talea=v} d12 r6 [[a'6^ g6]] f3 r3
+														{talea=v} e12 r6 [[f6^ d6]] e3 r3
+														{talea=v} c12 r6 g'6 g6 f3 r3
+														{talea=v} g12 r6 a6 a6 g3 r3 {finis=||}

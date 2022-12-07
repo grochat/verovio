@@ -1,0 +1,25 @@
+# tit=27RexBeatus-LO source=GB-Lbl_41667 voix=triplum ordo=1 lang=fr clemod=g2_8 visa=CC,SJ,TSF,DC,OB
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 10.01.2022-21:23/ob MODIF: 27.08.2022-20:23/sushaant
+SE cuers joi=ans jones jolis			{pagina=v;modus=3;tempus=2;prolatio=3;relative=a;cle=c3} a6 a3 b3 d3 d3 d3 c3 d3
+<et> ge<n>tilz ai<n>me cest raisons			e3 f3 e3 d3 [c2 b1] a6 [d3 c2 d1] e12 r6
+car au joi=ant est ses delis			a,6 [a6 g0] [g3 a2 b1] c3 c3 c6 [d2 c1 b2 c1] a12 r6
+<et> au jone sa nourechon			c12 d3 e3 f3 f3 f6 {linea=v;cle=c2} [d3 c2 d1] e12 r6
+<et> au joli est sa droiture			d12 d3 d3 c3 c3 [c6 b0] [d2 c1 b2 c1] [d3 c2 b1 a6 [a3^ g3]] a12 r6
+<et> au ge<n>til est sa nature			[e'6 d0] e6 c6 d6 d6 c3 d3 [[e3 f3] [g3 f3^ e6]] d12 r6
+<et> dautre part nest il nulz ho<m>s			a'12 f3 g3 a3 [g2 f1] [e6 d0] f6 g12 r6
+q<ui> puist ne sa[che a]mo<ur>s servir			d6 d6 [d2 c1 b2 c1] d3 {linea=v} d3 [d3 c2 b1] [a3 b2 c1] d12 r6
+adroit ne ses bienz dess<er>vir			e6 e6 c6 a3 a3 [a6 g0] [[d'3 e3]] f3
+sa<n>z les d<i>tes <con>diti=ons			f3 [f6 e0] [d3 c2 d1] e3 e3 a,6 [a2 g1 a2 b1] c12 r6
+car li cuers ioi=a<n>s li=eme<n>t			[f6 e0] f6 [f3 e2 d1] e3 e3 c3 d3 e3
+<et> li jones desira<m>me<n>t			e3 a,3 a3 d6 f3 {linea=v} e2 d1 p@ c12 r6
+sueffr^e <et> sert <et> sceit obe=ir			[d2 c1 b2 c1] a6 [[a3^ g3]] a3 a3 [a6 g0] [[c3 d3]] e12 r6
+<et> li jolis mignoteme<n>t			g12 g3 f3 e3 e3 [e6 d0] c6 d3
+<et> li ge<n>tilz co<ur>toiseme<n>t			d3 d3 e3 f3 d3 e12 d6 p@ c18.
+la vi^e <et> les jo<ur>s mai<n>tenir			d12 d3 c3 d3 e3 d6 {linea=v} [d2 c1 b2 c1] a12 r6
+<com>me<n>t dont se po<ur>roit tenir			a6 a6 d3 [c2 d1] [e3 f3] e6 e6 d12 r6
+cuers e<n>nat<ur>els teleme<n>t			[c12 d2 c1 b2 c1] a3 a3 a3 a3 g3 [a2 b1] c12 r6
+damez pensez de telz choisir			f6 f6 [d3 c2 {fractio=1/2} d2] {fractio=1} e3 c3 e6 e6 [d2 c1 b2 c1]
+q<u>ar bie<n> puet <et> doit advenir			[a6 g0] a3 b3 c3 {linea=v} c3 [c6 b0] [d2 c1 b2 c1] a12 r6
+ge<n>tilz jolis jones joi=ans			a12 c3 d3 e3 f3 [e6 d0] [e3 d2 c1] d12
+as bie<n>s do<n>t il est desirans			[e2 d1 c2 d1] b3 c3 c3 d3 e3 f3 g12 r6
+nautrez ne doit damo<ur>s Jo=ir..			e12 f3 g3 a3 g3 e6 p@ f6 g18 {finis=||}

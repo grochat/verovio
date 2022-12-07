@@ -1,0 +1,46 @@
+# tit=27RexBeatus-BR source=B-Br_19606 voix=triplum ordo=1 lang=fr clemod=g2_8 visa=CC,SJ,TSF,DC,OB
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 10.01.2022-19:41/ob MODIF: 27.08.2022-20:22/sushaant
+SE curs joi=ans jones jolis			{linea=v;modus=3;tempus=2;prolatio=3;relative=a;cle=c3} a6 a3 b3 d3 d3 d3 {linea=v} c3 d3
+et gentils ayme cest raisons			e3 f3 e3 [d3 c2] b1 a6 [d3§ c2 d1] e12 r6 {linea=v}
+Car an joi=ant es ses delis			a,6 a6 [g3 a2 b1] c3 c3 c6 [d3 c2 b1] a12 r6
+et au jone sa vo rechons			c12 d3 {linea=v} {nota=La découpe du *rotulus* traverse cette portée.} e3 f3 f3 f6 [d3 c2 d1] e12 r6
+et an joli est sa droiture			d12 d3 d3 c3 c3 {linea=v} c6 [d2 c1 b2 c1 d3 c2 b1] [a6 b3 a2 g1] a12 {fractio=1/2} r12 {fractio=1}
+et an gentil est sa nature			e'6 e6 c6 d6 d6 c3 {linea=v} d3 [[e3 f3] [g3 f3^ e6]] d12 r6
+et dautre part nest il nius hons			a'12 f3 g3 a3 [g2 f1] e6 {linea=v;cle=c2} f6 g12 r6 
+qui puist ne sach^e amo<ur>s servir			d6 d6 [d2 c1 b2 c1] d3 d3 [d3 c2 b1] {linea=v} [a3 b2 c1] d12 r6
+adroit ne ses biens deservir			{columna=v;cle=c3} {nota=Signe de renvoi : la portée correspondant à ce vers figure verticalement dans la marge de gauche.} e6 e6 c6 a3 a3 a6 [[d3 e3]] f3 {columna=v;cle=c2} {nota=Retour à la portée principale.}
+sans les dites <con>diti=ons			f3 f6 [d3 c2 d1] e3 e3 a,6 [g3 a2 b1] c12 {fractio=1/2} r12 {fractio=1}
+Car li curs j<o>ai=ans li=ement			f6 {linea=v;cle=c3} f6 [f3 e2 d1] e3 e3 c3 d3 e3
+et li jones desiraume<n>t			e3 a,3 a3 d6 {linea=v;cle=c2} f3 e2 d1 p@ c18
+sueffre = et sert et soit obi=er			[d2 c1 b2] c1 a6 [[a3^ g3]] a3 a3 {linea=v} a6 [[c3 d3]] e12 r6
+et li jolis migotement			g12 g3 f3 e3 e3 e6 c6 d3
+et li ge<n>tils cortoisement			d3 d3 e3 {linea=v} f3 d3 e12 d6 p@ c12 r6
+la ne = et les cours maintenier			d12~ d3 c3 d3 e3 d6 [d3 c2 b1] a12 r6
+<com>ment dout seu pouroit denir			a6 a6 [d3 c2 d1] e3 f3 e6 e6 d12 r6 {linea=v}
+curs ennatures relement			[c12 d3 c2 b1] a3 a3 a3 a3 g3 a3 c18
+dames penses ditons choisir			f6 f6 [d3 c2 d1] e3 c3 e6 e6 [d3 c2 b1] 
+car bien puet <et> doit avenir			a6 a3 b3 c3 c3 {linea=v} c6 [d2 c1 b2 c1] a12 r6
+Gentils jolis jones joi=ans			a12 c3 d3 e3 f3 e6 [e3 d2 c1] d12
+aus biens dout il est desiraus			[e2 d1 c2 d1] b3 b3 p@ c3 d3 e3 f3 g12 r6
+na[tureus] ne doit damours Jo=ir			e12 f3 {linea=v} g3 a3 g3 e6 [f2 g1 a2 f1] g18 {finis=||}
+# tit=27RexBeatus-BR voix=motetus ordo=2 lang=lat clemod=g2_8
+REx be=atus <con>fessor domini			{columna=v;linea=v;modus=3;tempus=2;prolatio=3;relative=d';cle=c2} [[d12^ a6] [d3 e3] [f3^ e3] [d3^ c3 d12]] {nota=Petit trait vertical au dessus de cette note.} b6 c18. d12 e6 f12 d6 {linea=v} [e6 d3 c3] [[d3 e3]] f12 r6 
+ludovicus justo regimine			f12 g6 a18. a12 [g2 f1 e2 f1] g12 [g3 f2 {fractio=1/2} e2] {fractio=1} d12 c6 {linea=v;nota=La découpe du *rotulus* traverse cette portée.} d12 r6
+<quon>dam pollens sanctor<um> agmine			e12 f6 [g18 f0.] [[e6^ d6]] c6 {fractio=2} [[d3 e3]] {fractio=1} [[f3^ d3]] [e6 d3 c3] d6 e12 r6 {linea=v}
+jam Cum regnat in celi [culmine]			d12 r6 [a'12 g2 f1 e2 f1] d12 [d3 c2 b1] a12 a6 b18 d12 r6 {linea=v}
+ergo vos qui s<u>b pari nomine			c6 c6 b6 a12 [[d3 e3]] f12 g6 [[f3^ e3 f6]] [d3 c2 d1] e6 {linea=v}
+processistis ex ejus sanguine			[[e3^ d3] [d3^ c3]] d12 [[c3 d3]] [e18. d12 c3 b2 c1] [d12 [c3^ b3]] a12~ c6 d12 [d3 c2 d1] e12 r6
+hoc in anno <con>gratulamini			d12 r6 {linea=v} [[a'12^ g6]] p@ f18. g12 g6 a12 [[a3^ g3]] [[f3 e3^ d6]] [[d3^ c3]] d12 r6
+sic<que> mores ejus sequamini			b12 c6 d12 e6 {linea=v} f12 [d3 c2 d1 e12 d0] [[d3 e3]] [[f3^ e3 f6]] g6 [f12 f3 e2 d1]
+q<uod> in vobis s<an>c<t>o <con>glutine			{nota=D'abord placée trop à gauche, cette note a été grattée.} [c18 b0.] d12 [[e3 f3]] g12 [g3 f2 e1] [d12 c0] {linea=v} c6 d12 [[c3^ b3]] a12 r6
+vox et vita <con>sone<n>t saguini			d12 [d3 c2 d1] [e6 [e3^ d3]] [[d3^ c3]] [[d6 e6]] [[f3^ d3]] [e6 d3 c3 d3 c2 d1] e12 c6 d18 {finis=||}
+# tit=27RexBeatus-BR voix=tenor ordo=3 lang=non clemod=f4
+Tenor.			{linea=v;modus=3;tempus=2;prolatio=3;relative=d;cle=f3;arm=b;color=v;talea=v} d18 d18 d18 e18 [[d12| g6 f12]] [[g6 a12]] [[g6 f12]] r6
+			{talea=v} b-18 a18 d,18 c18 d12 [[e6 d12]] [[f6 a12]] [[a6 g12]] r6
+			e18 [[g12^ f6 a12]] [[b-6 a18]] g12 r6
+			{color=v;linea=r;talea=v} d18 d18 d18 e18 [[d12| g6 f12]] [[g6 a12]] [[g6 f12]] r6
+			{talea=v} b-18 a18 d,18 c18 d12 [[e6 d12]] [[f6 a12]] [[a6 g12]] r6
+			e18 [[g12^ f6 a12]] [[b-6 a18]] g12 r6
+			{color=v;linea=r;talea=v} d18 d18 d18 e18 [[d12| g6 f12]] [[g6 a12]] [[g6 f12]] r6
+			{talea=v} b-18 a18 d,18 c18 d12 [[e6 d12]] [[f6 a12]] [[a6 g12]] r6
+			e18 [[g12^ f6 a12]] [[b-6 a18]] g12 r6

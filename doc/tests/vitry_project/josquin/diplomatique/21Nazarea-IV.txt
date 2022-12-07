@@ -1,0 +1,61 @@
+#tit=21Nazarea-IV source=I-IV_115 voix=triplum ordo=1 lang=lat visa=CC,(SJ)
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 07.02.2022-21:12/ob MODIF: 27.08.2022-20:16/sushaant
+Zolomina zelus virtutib<us>			{modus=3;tempus=3;prolatio=3;pagina=v;relative=c';cle=c1} c3 c3 c3 f2 g1 a2 g1 a2 b1 a9.
+vici=or<um> cu=i carentib<us>			g1 f1 g1 a2 a1 g2 g1 f2 e1 d3
+nil ali=ud fit in juvenib<us>			d1 d1 e1 f2 e1 f2 g1 g2 e1 d3
+n<ec> argute pro dolor se<n>ibus			d3 e2 d1 c2 d1 {linea=v} e2 f1 e2 d1 c9
+cogita<n>te							f2 e1 f3 f3 r9
+passi=one<m> pret<er> q<uam> sustinet			a1 g1 a1 e2 f1 e2 d1 e2 f1 e2
+i<n>ge<n>i=u<m> q<uo>d totu<m> retinet			e1 e2 d1 c2 d1 f2 e1 f2 g1 [f9 {tempus=2} r6 e6 r6 e6 r3 g3 r3 g3 r1 r1 d1 r1 r1 d1 r1 r1 g1 r1 r1 a1]
+Et i<n> prole bonu<m> se se<m>in<et>			b2 b1 a2 b1 {tempus=3} c1 b1 c1 {linea=v} c2 b1 a2
+heu nitit<ur> sensus ut emin<et>			g1 f1 e1 f1 g1 f1 g1 f2 e1 d2
+excecare							d1 c3 d3 e9 r9
+na<m> per thamar <et> amo<n> patu=it			a3 a3 g3 f2 g1 b2 a1 g2 a1 g3
+pala<m> f<ratr>e q<ui> morte<m> tenu=it			d2 c1 d2 e1 f9. g2 g1 a2 b1 c2 {linea=v}
+ab absalon uri=e sic fu=it			b1 a2 g1 a3 a2 g1 f2 e1 d3 d3
+per bersabe d<avi>d h<e>c placu=it			e3 e3 d3 e2 f1 g2 g1 f2 g1 a9
+p<er>petrare						g2 f1 e3 e3 r9
+per se virt<us> nec obliviscit<ur>			c'1 b1 c1 a2 b1 c2 b1 a2 g1 f2
+herodi=a p<er> q<uam> perficit<ur>			f1 c2 c1 d2 e1 f2 {linea=v} e1 d2 c1 [d9 {tempus=2} r6 f6 r6 a6 r3 m@b f3 r3 b3 r1 r1 b1 r1 r1 b1 r1 r1 f1 r1 r1 f1]
+Cre=atura n<e>cno<n> et sp<er>nit<ur>			b2 b1 a2 g1 {tempus=3} f1 f1 g1 a2 a1 g2
+penuri=a q<ue> vere dicit<ur>			g1 a1 g1 f1 f1 e1 f1 e2 d1 a'2
+sp<er>ate							a1 g3 [f3 g9] r9
+<con>vivus p<er> abstinenci=a<m>			g1 {nota=Une mimine *gsolreut* semble avoir été notée puis effacée.} [d1 d1] d2 e1 g2 g1 a2 b1 a2
+cilici=is p<er> acrimoni=a<m>			a2 {nota=On devine une hampe de minime effacée.} a1 e1 {nota=La dernière syllabe *is* de *ciliciis* est notée sur la ligne précédente.} {linea=v} a2 a1 b2 a1 g2 f1 e9.
+vigili=is per p<e>n<itenc>i=am			g3 a3 g3 f3 f3 m@ b2 a1 b2 c1 b3
+donis su=is ac per flu=enti=a<m>			b3 a3 a3 g3 a3 a2 b1 a2 g1 f9
+liberare							a2 g1 a3 a3 r9
+respu=it h<o>c act<us> sup<er>bi=e			f1 e1 f1 d2 e1 f2 e1 f2 g1 m@ b2
+similit<er> ac avarici=e			b1 f2 g1 a2 {linea=v} g1 f2 e1 g2 a1 [g9 {tempus=2} r6 a6 r6 c6 r3 g3 r3 d'3 r1 r1 d1 r1 r1 b1 r1 r1 b1 r1 r1 a1]
+desponsate no<n> q<ue> bel fili=e			g2 f1 g2 a1 {tempus=3} f1 f1 g1 a2 f1 g2
+vult effect<us> grates luxuri=e			a1 f1 g1 a1 f1 g1 a1 f2 f1 m@ b2
+discipare							b1 a3 g3 b9 r9
+pasci=e<n>ti s<ed> et dispo<s>ito			b1 a1 b1 f2 {linea=v} g1 f2 g1 a2 b1 a2
+na<m>q<ue> forme s<un>t n<ec> in merito			e1 {nota=Une hampe de minime délibérément effacée.} e2 f1 e2 d1 e2 f1 e2 d1 c9.
+delicate palpat seq<ue> cito			d3 e3 g3 a3 a3 e2 d1 e2 f1 e3
+q<ui> vici=a vult ita subito			d3 c3 c3 c3 d3 d2 f1 e2 d1 c9
+sup<er>are							g'2 a1 g3 {linea=v} g3 r9
+p<ro>pt<er> hoc su<m> dedit<us> acriter			a1 g1 a1 b2 a1 g2 f1 e2 d1 e2
+relinq<ue>ndo terrena firmiter			e1 a2 a1 g2 f1 e2 f1 d2 c1 [d9 {tempus=2} r6 e6 r6 d6 r3 c3 r3 c'3 r1 r1 g1 r1 r1 g1 r1 r1 c1 r1 r1 b1]
+zelo novo da<n>ti finaliter			a2 g1 a2 b1 {tempus=3} g1 g1 a1 b2 {linea=v} a1 b2
+su<m>mu<m> bonu<m> nam polo leviter			c1 d1 b1 c1 d1 a1 d1 c2 b1 a2
+e[.]ecare							g1 a3 b3 c27 {finis=|||}
+#tit=21Nazarea-IV voix=motetus ordo=2 lang=lat
+NAzare=a que decora			{modus=3;tempus=3;prolatio=3;pagina=v;relative=f';cle=c2} f9 d6 c3 [d2 c1 d1 c1 d1 c2 b1] d3 d3 e3 f9
+bonitate que fulgora			f6 g3 [a2 g1 f2 g1 e2 f1] g9 g3 f3 e3 d18 r9
+tu enim virgo peperisti			[a'9. a3] [e2 f1] e3 [[f3 d6*^]] {tempus=2} [g6 r6 f6 r6 g3 r3 f3 r3 b2 r1 b2 r1 f2 r1 f2 r1] r6 {tempus=3} [c'2 b1 a3 g3] f9 [a2 g1 a3 b3] c18 r9
+tenplum pacis romanor<um>			a9 {linea=v} d,6 d3 [e2 d1 e1 d1 e1 d2 e1] c3 f3 e3 d9
+per ydolorum su=or<um>			a'6 a3 [g2 a1] [b2 a1 g2 f1] e9 [d3 e3] f3 g18 r9
+tu<n>c desponsarunt isti			a9 [f3 a2 g1 a3] [[e3 g6*] {tempus=2} f6 r6 d6 r6 a'3 r3 f3 r3 f2 r1 f2 r1 d2 r1 d2 r1 r6 {tempus=3} f2 e1 f3 g3] a9 [f2 e1 d3 c3] d18 r9
+prep<ar>erunt veritate<m>			e9 {fractio=9/12} [e9 {linea=v} e3] {fractio=1} [b'2 a1] [a1 g1 a1 g2 f1] e3 d3 e3 f9
+tu=a<m> rogo potestatem			f6 g3 [a2 g1 f2 e1 d2 c1] d9 d3 c3 d3 e18 r9
+prestigi=um cum quo terrenum			f9. [d3 e2 d1 e1 d1 e1] [[c3 e6*]] {tempus=2} [d6 r6 g6 r6 a3 r3 g3 r3 g2 r1 g2 r1 d2 r1 d2 r1] r6 {tempus=3} [f2 e1 d3 c3] d9 [g2 f1 e3] g3 f18 r9
+viget per quem desolatur			a9 {{linea=v}} a9 [b2 a1] [g1 f1 g1 f2 e1] d3 c3 d3 e9
+ut cor me=um tene=atur			{cle=c1} a6 b3 [c2 d1 c2 b1 a2 g1] a9 g3 f3 e3 d18 r9
+per amoris tu=i frenum.			a'9. a3 [e2 f1] [e3 [d3 g6*] {tempus=2} f6 r6 a6 r6 a3 r3 g3 r3 c2 r1 c2 r1 g2 r1 g2 r1] r6 {tempus=3} [g2 f1 e3 f3] d9 [b'2 a1 g3 f3] g27 {finis=||}
+//#tit=21Nazarea-IV voix=tenor ordo=3 lang=non
+//AAVe Maria. Tenor			{modus=3;tempus=3;prolatio=3;relative=f;cle=c4;arm=b} 
+//			{talea=v;color=v} f27 [[g9 b-18*]] r18 r9 [[b-18* a27.]] [[b-9 a18*^ g9 a18* g27]] r9 [[b-18* a27]]
+//			{talea=v} b-27 [[c9 d18*]] r18 r9 [[c18* {color=v} f,27.]] [[g9 b-18*]] [[b-9^ a18* b-27]] r9 [[a18* g27]]
+//			{talea=v} [[a27 f9 b-18*]] r18 r9 [[a18* b-27]] [[c9 d18* c9^ f,18* g27]] r9 b-18* b-27 
+//			{talea=v} [[a27 b-9^ a18*]] r18 r9 [[g18* a27]] [[g9 b-18*^ a9]] [[b-18* c27]] r9 [[d18* c27]] {finis=|||}

@@ -1,0 +1,51 @@
+#tit=20Flos-MO source=I-MOe_24 voix=triplum ordo=1 lang=lat visa=CC
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 07.02.2022-11:02/ob MODIF: 07.02.2022-18:13/ob
+AApta caro plu<m>is ingeni=i
+desidi=e barru<m> <et> studi=i
+laborisq<ue> foco mollici=es
+co<n>juga ce<n>tro se<n>gniti=es
+quo pigrescit plu<m>bu<m> co<n>sumito
+nablu<m> ta<n>ge vocis plus solito
+duc pulmo<n>is ca<r>basis ca<r>dine<m>	
+lingue livi guctri<s> arundine<m>
+tu=am cli=o lictura<m> lictere 
+qua<m> conetur in preces fu<n>dere
+visco pri=us a motu pectoris
+mni scalpr<o> poli=at rectoris 
+Crispatura cyre=i pectinis
+stilo laudes parentis virginis
+misereri qua sola trahitur
+justu<s> ymo<s> <et> qua mo<r>s mo<r>itur
+Age caro rumpe vivari=a 
+Lacrimar<um> precu<m> suspiri=a
+ta<m> potenti nome profundit<is>
+su=u<m> tu=us <con>spiritu<m> sp<irit>us
+ad eregi poscat in p<er>vi=a 
+no=ys alme tempe celesti=a
+Et cerberus que<m> fames to<r>que=at
+Te sperante<m> perdere luge=at
+Obprobri<a> bonitate de=a 
+de=o nup<ta> toti=us yde=a
+forme cuju<s> no<n> posse figere
+gradus pudet Natura<m> misere
+carni humane subveni propere.
+#tit=20Flos-MO voix=motetus ordo=2 lang=lat
+Flos virginu<m> decus <et> speci=es
+Adultere lucis co<n>nubi=o
+non Indiga vel auri radi=o
+Si ge<m>maru<m> vesperascit dies
+te surgente §
+de cor ipse quo nichil grati=us 
+Et agrada grati=e line=a 
+que stix atrum sol scalor trabe=a
+limbu<s> ostru<m> quo tinxit tyri=us
+fit cadente §
+multa byssus virtutu<m> calculo 
+numeror<um> non certa fili=a 
+nati mate<r> patris plu=e pi=a 
+lacrimaru<m> nimbo<s> pro populo
+te poscente.
+#tit=20Flos-MO voix=tenor ordo=3 lang=non
+TEnor Alma redemptoris mater.
+#tit=20Flos-MO voix=contratenor ordo=4 lang=non
+COntratenor.

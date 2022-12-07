@@ -1,0 +1,48 @@
+# tit=08Hugo-IV source=I-IV_115 voix=triplum ordo=1 lang=lat clemod=g2_8 visa=DC,OB,CC
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 14.08.2020-09:51/ob MODIF: 05.02.2022-19:41/david
+CUm stru=a nabucodonasor			{pagina=v;cle=c1;relative=a';modus=3;tempus=2;prolatio=3} a6 r6 [b3 b3] b6 r6 [b2 a1] g2 f1 g3 f3 g6
+metallina Successi<v>e sy=on			[g2 a1 g2 f1] a3 b3 a6 a3 b2 a1 g3 f3 g6 r6
+ac gradatim deduci ac min<us>			c,6 r6 g'3 f3 a6 r6 a3 b2 a1 g3 f3 g6
+ficti colis passus est d<omi>n<u>s			[g3 a2 g1] f3 g3 a6 {linea=v} b3 c2 b1 a3 a3 g6 r6
+que cu<m> p<ri>mo fu=erit aure=a			a12 [a2 b1] [g2 a1] b3 b3 a3 c3 b3 a3 g12
+virtu=os<us> Inde argente=a			b6 a3 a3 g6 [g2 f1] e2 d1 e3 e3 f12
+carne mu<n>dus de=inceps here=a			a3 a3 r6 {cle=c2} a,12 [[a'3^ g3]] a3 b3 c6 b3 {linea=v;cle=c1} a3 g6
+s<an>cti loquis fictilis fere=a			d'3 d3 c3 c3 b3 a2 g1 p@ f3 e3 g12
+ac lute=a pater novissi<m>e			[[e3 f3]] g3 a3 g6 [b3 a2 g1] a3 c3 b3 a3 g12
+novissimis quib<us>dam maxime			e6 [f3 e2 d1] c2 d1 e2 c1 d6 a'3 a3 g12
+corde dantis una cum p<at>ribus			d3 d3 r6 {linea=v} d12 e3 d3 c2 d1 e2 c1 d18.
+Ipoc<ri>sis antifrasis quib<us>			a'3 a3 b3 a2 g1 a3 a3 b3 b3 c12
+dat mendici nom<en> sophistice			b6 a3 a3 g6 p@g [f3 e2 f1] g3 g3 a3 b3 c18.
+hec <con>cino philippus plibblice			d3 d3 c6 b2 a1 b2 {linea=v} g1 a3 b3 g12 r6 r6
+et qui=a			g6 r6 a3 r3 a6 r6
+impi=a			g3 r3 e3 r3 d3
+linga ledor uni=<us> t<er>rite			d3 e2 d1 e2 f1 d3 f3 e3 d3 c12 r6 r6
+pro vero			a'6 r6 a3 r3 a6 r6
+refero			b3 r3 g3 r3 e3
+a prophetis falcis. Actendite.			e3 f2 e1 f2 g1 a3 [g2 a1] f3 e3 f12 {finis=||}
+# tit=08Hugo-IV voix=motetus ordo=3 lang=lat clemod=g2_8
+HUgo hugo princeps invidi=e  			{pagina=v;cle=c3;relative=a;modus=3;tempus=2;prolatio=3} a12 r6  [[b18| c6 e12* d12] c6. b6 [c12* g'12]] r6 p@ [f18. g2 f1 g2 f1] e6 e6 d3 d3 e6 [d2 e1 f2 d1] e18:
+tu cum prima pate=as faci=e			d6 a'6 [g2 f1 e2 d1] e3 d3 e6 f6 g3 g3 d6
+homo pacis virtutum fili=us			f3 g2 f1 e3 e3 {linea=v} d3 d3 c6 b6 c6 r6
+te nemine<m> decet In p<o>p<u>lo			a12 r6 {cle=c2} a'3 a3 a6 p@a [f2 g1] [e2 f1 g6] [g3 a2 b1] c3 b3 a12
+lingue tu=e ledere jaculo			b6 b3 a3 c12 b6 g3 f3 e3 f3 e6
+set ignarum docere poci=us			d6 e3 f3 [[g12| a6]] {cle=c1} m@ [b3 a2 g1] [[f3^ e3]] g6 e3 d3 c6 r6 {linea=v;cle=c2}
+me culpas igitur Rabi=e			a'3 b3 {fractio=1/2} [a12 {fractio=1} r6 a3 b3 a6] [f2 g1] [e2 f1] [[g6 b6] g3 f3] e3 a3 g6
+assignata m<ihi> nulla di=e			[g2 f1 e2 d1] e3 e3 f12 e3 e3 a,6 c6 [[b3^ a3]] g12
+inconsult<us> causamq<ue> nesci=us			g'3 [g2 f1] e3 f3 [g2 a1] [g2 f1] a12 g6 f6 g6 r6
+stupe=o			e3 f3 g6 r6 {linea=v}
+et e=o			f3 g3 r3 a3 r6
+cu<m> Invidus sic sis palam pi=us			e3 f3 r3 g3 r3 c,3 r6 [a'3 g2 a1] b3 g3 a3 a3 g6 r6
+perpere			f3 g3 a6 r6
+dicere			a3 g3 r3 a3 r6
+Ipocritam te possu<m> veri=<us>.			b3 g3 r3 g3 r3 d3 r6 f6 e3 d3 c3 b3 c12 {finis=||}
+# tit=08Hugo-IV voix=tenor ordo=2 lang=non clemod=g2_8
+TEnor. cum statua			{linea=v;cle=c3;relative=e';modus=3;tempus=2;prolatio=3;color=v;talea=v} r6 e12 r6 [[d12* c18.]] [[d6 f6 e6 d6 c12]]
+			{talea=v} r6 c12 r6 [[d12* c18.]] m@ [[b6 a6^ g6]] [[a6 c12]]
+			{talea=v} r6 d12 r6 [[a12* g18.]] [[a6 b6 a6 g6 f12]] {linea=r}
+			{color=v;talea=v} r6 e'12 r6 [[d12* c18.]] [[d6 f6 e6 d6 c12]]
+			{talea=v} r6 c12 r6 [[d12* c18.]] m@ [[b6 a6^ g6]] [[a6 c12]]
+			{talea=v} r6 d12 r6 [[a12* g18.]] [[a6 b6 a6 g6 f12]] {linea=r}
+			{color=v;talea=v} r6 e'12 r6 [[d12* c18.]] [[d6 f6 e6 d6 c12]]
+			{talea=v} r6 c12 r6 [[d12* c18.]] m@ [[b6 a6^ g6]] [[a6 c12]]
+			{talea=v} r6 d12 r6 [[a12* g18.]] [[a6 b6 a6 g6 f12]] {linea=r;finis=||}

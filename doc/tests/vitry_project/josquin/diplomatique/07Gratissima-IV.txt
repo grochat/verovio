@@ -1,0 +1,110 @@
+# tit=07Gratissima-IV source=I-IV_115 voix=triplum ordo=1 cle=c1 lang=lat clemod=g2 visa=JP,DC,OB,CC
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 16.07.2020-18:44/josquin MODIF: 31.01.2021-21:49/ob
+VOs q<uid> admiramini					{relative=f';modus=3;tempus=2;prolatio=3} f3 f3 c6 [f2 e1 f2 g1] a3 b3 a6
+virgi<n>es Si virgini					a2 g1 a2 f1 e3 e3 d6
+procet<er>is elige<n>de					e3 d2 e1 f6 [a2 g1 a2 b1] c3 b3 a6
+dignati fu=erim<us>						a2 g1 a2 b1 a3 g3 f12 r6
+nubere du<m> nuptu=is					g2 g1 f2 e1 d3 {linea=v} c3 d6
+tanq<uam> valde diligende				e6 [g2 f1 g2 a1] [b2 a1 b2 c1] a6 f6 [a2 g1 a2] b1 g6 r6
+Ista pulcra speci=e						g3 g3 a6 a6 [a2 g1 f2] e1 d12
+h<u>milis maneri=e						a'2 g1 f2 g1 a3 b3 c6
+ac opere virtu=osa						a6 [b2 a1 b2] c1 [a2 g1 a2] b1 [g2 f1 g2] a1 f6
+Turpis v<est>r<u>m altera				[f2 e1 d2] e1 {linea=v} f2 e1 d2 c1 d12 r6
+ausu nimis asp<er>a						a'2 g1 a2 b1 a3 g3 [[f3^ e3]]
+nec no<n> virtutes exosa				g6 g3 a3 [g2 a1 g2 f1] g6 [g2 a1 g2 f1] [e2 d1 e2 f1] d6 r6
+ista lux vox nubila						a'3 b3 a6 f6 c'3 [c1 b1 c1] a6
+ista velox aquila						a2 g1 a2 b1 g3 g3 {linea=v} a6
+vos colubres gradi=entes				a6 f2 e1 f2 g1 a3 b3 c6
+ista sup<er> etera						[a1 g1 a1 g2 f1] e3 d3 e6 g3 g3 a12 r6
+regnat vos in mis<er>a					f2 e1 f2 g1 f3 e3 d6
+valle langue<n>tis egentes				d3 d3 a'6 a2 g1 a2 f1 e6 {linea=v}
+ista virgo regi=a						g6 [f2 e1] [d2 e1] f6 a3 g3 f6 r12
+dulcis est amasi=a						a2 g1 f2 e1 f3 g3 a6
+me=a sponsa q<ue> pi=a					a3 a3 [b2 a1 b2] c1 a3 a3 g6 r1 r1
+Rex ego su<m> hec regina				a1 r1 r1 g1 f3 f3 r1 r1 f1 r1 r1 a1 g3 g3
+Q<uid> tanta re ferim<us>				d6 [d2 e1 f2 e1] d3 d3 {linea=v} e3 e3 d6 r12
+nos q<ui> cu<n>cta novim<us>			f2 e1 f2 g1 a3 a3 g6
+digna<m> pre elegim<us>					[e2 d1 e2] f1 [d2 c1 d2] e1 f3 g3 a6 r1 r1
+et ut rosa hanc p<re> spina				a1 r1 r1 g1 a3 a3 r1 r1 a1 r1 r1 g1 f3 f3
+urgite vos <i>g<itur>					e6 [g2 f1 g2] a1 f6 a3 g3 a6 {linea=v} r12
+qui=a t<em>p<u>s labit<ur>				a2 g1 f2 e1 d3 f3 e6
+et mors nos p<er>sequit<ur>				[e2 d1 e2] f1 g3 g3 a3 g3 a6 r1 r1
+huic <ser>vire ha<nc> vocate			a1 r1 r1 g1 a3 a3 r1 r1 a1 r1 r1 g1 f3 f3
+q<uo>d si nec lexeritis					d6 [f2 e1 d2] e1 f6 a3 [a2 g1] f6 r12
+illa<m> no<n> videbitis					g2 d1 e2 f1 {linea=v} g3 g3 a6
+gl<or>i=a<m> q<uam> cupitis				c3 c3 b2 a1 b2 c1 a6
+vos e=ya p<ro>perate.					[a1 g1 a1 g2 f1] e3 e3 d3 d3 [e3 e3] f18 {finis=||}
+# tit=07Gratissima-IV voix=motetus ordo=2 cle=c3 lang=lat clemod=G_8
+Gratissima virginis speci=es			{relative=c';modus=3;tempus=2;prolatio=3;pagina=v} c6 c6 [d2 c1 d2 e1] f6 e3 d3 c6 [[b3 c3] [d3^ c3]] [b2 c1 d2 b1] c12
+qua<m> decorat carnis mu<n>dici=es		[d2 c1 d2 e1] f6 f3 [e2 d1] c6 d3 e3 f6 [[d3^ c3]] d12 r6
+usq<ue> centru<m> placasti Intima		b12 [c2 b1 a2 b1] c18. [c2 b1 c2 d1 e2 d1 e2 f1] [g3 f2 g1] [e12 d3 c2 b1] a12 {linea=v} [c2 b1 a2 b1] [[c3 d3] [c3^ b3] c2 b1 c2 a1] b12
+me=i cordis plaga dulcissima			e6 c6 [d2 c1 d2 e1] f3 e3 d3 c3 b6 [d2 e1 c2 d1] e12 r6
+Intra stiulans amoris sp<iritu>m		[c12 c2 b1 c2 d1] [e18. e3 d2 c1] [d3 c2 d1 e3 d2 e1] c12 [c2 b1 c2 d1 e2 d1 e2 f1] e6 d6 f12 [[e3^ d3]] c12
+nesci=ente<m> p<ec>toris exitum			[c1 b1 c1 b2 a1] b6 b3 c3 d6 e3 f3 {linea=v} e6 [[c3^ b3]] c12 r6
+g<ra>tissime simili vuln<er>e			d6 d6 c6 b18. c6 [d2 c1 d2 e1] f6 d3 e3 f6 r6 r6
+peperisti mu<n>du<m> me ledere			[[c6 d6]] e6 f6 e6 c3 c3 r1 r1 c1 r1 r1 d1 c3 c3 r1 r1
+O regina tu=u<m> amplectere				c1 r1 r1 e1 d3 d3 [d2 c1 b2 c1] d6 b12 c3 b3 c6 r6 r6
+astringendo pectus cum vebere			[c2 b1 c2 d1] {linea=v} [e2 d1 e2 f1] [d2 c1 d2] e1 [c6 c2 b1 c2 d1] [e3 e3] r1 r1 e1 r1 r1 d1 c3 c3 r1 r1
+o rex regu<m> occulu<m> occulo			c1 r1 r1 a1 b3 b3 [c2 b1 a2 b1] c3 [b2 c1] d12 [c3 b2 c1] d6 r6 r6
+et os ori Ju<n>ge p<ro> osc<u>lo		[[c3^ b3]] [c2 b1 c2 d1] e6 d6 d6 [e3 e3] r1 r1 c1 r1 r1 d1 c3 c3 r1 r1
+ac i<n>spira verbu<m> in labi=a			f1 r1 r1 e1 d3 d3 {linea=v} [d2 c1 d2 e1] [c2 b1 a2 b1] c12 d3 e3 d6 r6 r6
+q<uo> recepto fi=at caro di=a.			c6 c6 [d2 c1 b2 c1] d3 d3 [e1 d1 e1 d2 c1] b6 a6 b6 c18 {finis=||}
+# tit=07Gratissima-IV voix=contratenor ordo=4 lang=non cle=c5 arm=b clemod=G_8
+COntra tenor.							{relative=f;modus=3;tempus=2;prolatio=3;linea=v} r12 f18. [[f6 g18]] f18 f18
+										r12 g18. [[d6 e18|]] f18 c18
+										r12 d18. [[f6 a18]] g18 f18
+										r12 a18. [[f6 g18]] c18 a18
+										r12 a18. [[b-6 c18]] a18 g18
+										r12 f18. [[g6 d18]] e18 f12 r6
+										f18 r6 [[f12| g6^ f6]] r6
+										f18. r6 [[g12^ d6]] e6 r6
+										f18. r6 c12 [[d6 f6]] r6
+										a18. r6 [[g12^ f6 a6]] r6
+										f18. r6 g12 [[c6^ a6]] r6
+										a18. r6 [[b-12| c6^ a6]] r6
+										g18. r6 [[f12| g6^ d6]] r6
+										[[e18| f18|]] {finis=||}
+# tit=07Gratissima-IV voix=tenor ordo=3 lang=non cle=c5 arm=b clemod=G_8
+Gaude gloriosa. Tenor					{relative=f;modus=3;tempus=2;prolatio=3;linea=v;color=v;talea=v} f18 r12 [[a6 b-18|]] c18 c12 r6
+										{talea=v} b-18 r12 [[a6 g18]] f18 g12 r6
+										{talea=v} a18 r12 f6 f18 e18 f12 r6
+										{talea=v} d18 r12 [[d6 c18]] c18 d12 r6
+										{talea=v} f18 r12 [[g6 f18]] f18 g12 r6
+										{talea=v} a18 r12 [[b-6 a18]] g18 f18.
+										{color=v;talea=v} r6 {fractio=3} f6 {fractio=1} a12. [[b-6 c12]]
+										{talea=v} r6 {fractio=3} [[c6 {fractio=1} b-12.]] [[a6 g12]]
+										{talea=v} r6 {fractio=3} [[f6 {fractio=1} g12.]] [[a6 f12]]
+										{talea=v} r6 {fractio=3} [[f6 {fractio=1} e12.]] [[f6 d12]]
+										{talea=v} r6 {fractio=3} [[d6 {fractio=1} c12.]] [[c6 d12|]]
+										{talea=v} r6 {fractio=3} f6 {fractio=1} [[g12^. f6]] f12
+										{talea=v} r6 {fractio=3} g6 {fractio=1} a12. [[b-6 a12]]
+										r6 [[g12 f18]] {finis=||}
+# tit=07Gratissima-IV voix=tenor_solus ordo=5 lang=non cle=c5 arm=b clemod=G_8
+Tenor solus. Vivat iste					{relative=f;modus=3;tempus=2;prolatio=3;linea=v} f18 f18 [[g18 f18]] f18
+										b-18 {fractio=2/3} g18. {fractio=1} [[d6 g18]] f18 c18
+										(a'12) d,18. f6 f18 e18 f18
+										[[g12^ d6]] a'12 [[d,6. c18]] [[c18| d6 g6^ f6]]
+										f18 [[c'12 g6 f18]] f18 g12 [[b-6.
+										a12]] [[c6 f,12]] [[g6 d18]] [[e12| g6 f12]] [[f6
+										c18]] {fractio=3/2} r12 {fractio=1} [[g'6^ f6 c'6
+										a6 f12]] [[g6^ c,6 f6 d12]]
+										[[a'6 d,18.]] c12 [[c6 d12]] [[a'6
+										f18.]] [[f6 e12]] [[f6^ d6]] [[d6
+										f6 d12]] [[d6 c12]] [[c6 d6]] d6
+										[[a'6 f12]] [[f6 g12|]] f6 f6 f6
+										g6 g12 [[g6 f12]]
+# tit=07Gratissima-IV voix=tenor_solus_bis ordo=6 lang=non cle=c4 arm=b clemod=G_8
+Tenor solus								{relative=f;modus=3;tempus=2;prolatio=3;linea=v} f12 f6 f12 f6 [[g18 f18]] f12 f6
+										[[b-12^ a6]] [[g12^ d6]] e18 f18 c18
+										[[a'12^ d,6]] [[d12| f6]] [[f18 e18]] [[f18
+										d18]] [[a'12^ d,6]] c18 c18 [[d12| a'6]]
+										f18 [[a12^ g6]] f18 [[f18| g18|]]
+										[[a12^ f6]] [[f12| g6]] d18 e18 f18.
+										f6 f12 f6 f12 [[g6^ f6 c'6^
+										f,6]] f12 [[c'6 g12]] [[d6 e6 g6]]
+										f6 f12 [[f6 c12]] [[d6 f12]]
+										[[a6 f12]] [[f6 e12]] [[f6 d12]]
+										[[f6 d12]] [[d6 c12]] [[c6 d12]]
+										[[a'6 f12]] [[f6 g12*|]] [[f18|
+										g18|.]] [[g6 f12]] [[g6 d12]]
+										[[e6 f6 g6 f18]] {finis=||}

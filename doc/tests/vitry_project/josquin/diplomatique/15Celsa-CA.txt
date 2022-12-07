@@ -1,0 +1,58 @@
+# tit=15Celsa-CA source=F-CA_1328 voix=triplum ordo=1 lang=lat clemod=g2 visa=CC,OB
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 30.01.2022-09:44/ob MODIF: 05.02.2022-00:37/david
+[...]			{relative=e';cle=c1;pagina=v;modus=2;tempus=2;prolatio=3;pagina=v} x6 z6 z6 z2
+[...]			x1 z3 z6 z6
+[...]			x6 z6 z12
+[...]			x6 z6 z6 z6
+[...]			x6 z6 z6
+[...]			x6 z6 z6
+[...]			x6 z6 z2
+[...]			x1 z3 z6 z6 z6
+[...]			x6 z6 z1
+[...]			x2 z3 z6 z6
+[...]			x6 z6 z6
+[...]			x6 z6 z6 z6
+[...]			x6 z6 z6
+[...]			x6 z6 z6 z2
+[...]			x1 z3 z6 z1
+[...]			x2 z6 z3 z6 z6
+[...]			x6 z6 z6
+[...]			x6 z6 z2
+[...]			x1 z3 z6 z6
+[...]			x6 z6 z6 z6
+[...]			x6 z6 z6
+[...]			x6 z6 z6 z3
+[...]			x3 z6 z2
+[...]			x1 z3 z6 z6 z6
+[...]nte paci=enti=a			[x3 x2] e1 d2 e1 c2 d1 e3
+devoti=onis grati=a			e3 e1 d1 e1 d2 c1 b3 b3
+o q<uam> mira victori=a			[d1 c1 d1 c2 b1] c6 c6 d2 e1 d2 c1 [[d3 e3]] z6
+[...]			x6 z6 z2
+[...]			x1 z3 z6 z6 z6 z6
+[...] q<uam> [...] mori=a			x2 c'1 [b2 a1] z6 f3 e3 d6
+[...] inq [...]			{cle=c2} x6 d1 [z2 z3 z3 z2] [e1 g1 g1]
+[...] avi=a			[g1 r1 r1 f1 a2 a1 r1 r1 e1 a2 g1] f2 e1 g6 r6
+[...]			x6 z6 z6 z6
+[...]			x6 z6 z6 z2
+[...]			[g1 r1 r1 a1 c2 a1 r1 r1 f1 {nota=On n'aperçoit que l'extrémité supérieure de cette note et des deux suivantes.} e2 d1 e2 f1 e6 r6]
+[...]			{cle=c1} [[b'6^ a6] z6 z6 b6 {nota=On n'aperçoit que l'extrémité supérieure de cette semi-brève et de la suivante.} g2 a1 f2 g1 a6 p@c b6 c12] {finis=|}
+# tit=15Celsa-CA voix=motetus ordo=2 lang=lat clemod=g2
+CElsa cedrus [...]			{relative=d';cle=c2;modus=2;tempus=2;prolatio=3;columna=v} x12 x6 x6 x12 x6 z6 z12 z6 z6 z12 z6
+[...] [..]n ad=optavit			x6 z12 z12 z6 e3 e3 [d1 c1 d1] [c2 b1] p@A [c6 d12] r6
+ludovicus qui thy=ara lecta 		e3 e3 [f2 e1 f2 g1] a6 [[d,3 e3]] [f1 e1 f1 e2 d1 e12] d3 d3 [e2 d1 c2 d1] e12 r6
+dy=adema septraq<ue> negavit			f3 [f1 e1 f1] {linea=v} [[d6 a'6]] p@E g12 a3 a3 [g2 f1 g2 a1] f6 [e2 d1 e2 f1] d12 r6
+<et> devote tholosanos pavit			e3 e3 p@D [f6 g2 f1 e2 f1] g12 a6 a3 [a2 b1] [a2 g1 f2 e1] {linea=v} [a1 g1 a1 g2 f1] e12 r6
+res hec mira qu<od> rex pastorem			e3 e3 [[d6 e6]] f12 [d2 c1 d2 e1] c3 [c3 d2 e1 f2 d1] [e1 d1 e1 d2 c1] d12 r6
+versus reges cunctos sup<er>=avit			[[g6 a6] a3 g2 f1 e6] [[d3 e3]] {linea=v} {fractio=4} [[f3^ {fractio=2} d3] {fractio=1} d1 c1 d1 c2 b1] c6 r3 d3 e3 [e3 r3 f3] e3 [e2 d1] p@A c6 r6
+sum<m>i regni co<m>plectens honorem			[d3 c2 d1] e3 e3 [d6 c'2 b1 a2 g1 a1 g1 a1 {linea=v} g2 f1] [e6 r3 d3] f3 [c3 r3 d3] e3 c3 d6 r6
+mors que reges calcat ex=altavit			[c'6 a2 b1 c2 a1 b6] c6 [a2 g1 a2 b1] g6 r3 f3 {linea=v} e3 [e3 r3 e3] f3 d3 p@ c6 r6
+qui nos de=i regnat ad amore<m>.			[d3 c2 d1] e3 e3 f6 [c'6 b0 a3 g3 f6] [d3 c2 d1] e3 d3 e6 f12 {finis=|}
+# tit=15Celsa-CA voix=tenor ordo=3 lang=non clemod=g2_8
+Q[...]m magn<us> pontifex Tenor.			{relative=f;cle=f3;modus=2;tempus=2;prolatio=3;color=v;talea=v;linea=v} f24 e12 g12 a12 r12 g12 f12 e12 g12 r12 r12
+			{talea=v} [[g24 f12]] m@ [[b12 a12]] r12 [[g12 f12]] [[f12 e12]] r12 r12 
+			{talea=v} g24 a12 g12 f12 r12 {linea=v} e12 g12 g12 z12 z12 z12
+			{talea=v} z24 z12 [[g12 f12|]] r12
+			{color=v;talea=v} [[f12^ e6 g6 a6]] r6 [[g6 f6^ e6 g6]] r12
+			{talea=v} [[g12^ f6]] [[b6^ a6]] r6 [[g6^ f6]] [[f6^ e6]] r12
+			{talea=v} [[g12| a6 g6^ f6]] r6 [[e6 g6]] [[g6^ f6]] r12
+			{talea=v} [[b12 a6 g6^ f6]] {finis=|}

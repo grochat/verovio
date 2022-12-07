@@ -1,0 +1,24 @@
+# tit=03Quoniam-RO source=D-ROu_100/2 voix=motetus ordo=1 lang=lat clemod=g_8 notatio=M5362 visa=CC
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 28.02.2021-08:45/ob MODIF: 23.04.2022-00:44/david
+Quoni=am secta latronu<m>												{modus=2;tempus=2;prolatio=3;relative=g;cle=c3;pagina=v;nota=Pour cette source atypique, la blanche pointée transcrit la semi-brève parfaite. La pièce est également un ton plus haut.} r24 r12 g6 g6 {fractio=1/2} b6 g6 b6 c6 {fractio=1} [[b6^ a6]] g12
+spelu<n>ca vispili=on[..]												[[c6^ e6]] a,3 a3 {fractio=1/2} b6 c6 {fractio=1} b12 [d3 e3| f3| g3| e3| d3 c3 b3] [x12 x12 x12] {linea=v}
+vulpes qui gallos roderat												a12 b6 c6 b6 g6 b3 {fractio=3/2} b1 b1 {fractio=1}
+te<m>pore quo r<e>gnaverat												a3 a3 g12 a6 c6 [b12 [d6 b6] c3 {fractio=3/2} b1 a1 {fractio=1} b3] c3 a12 r12 {linea=v}
+[...][...] cecat<us> subito												x12 x12 d6 f6 g6 {fractio=1/2} f6 e6 {fractio=1} d12
+su=o ru=ere merito														e6 a,6 [c3 e3] d3 c3 [b12 d3 e3 f3 g3 e3 d3 c3] b3 a12 r24 z12
+in morte<m> p<ri>vata<m> [...][...]										d6 {fractio=3/2} [d1 c1] [b1 a1] {fractio=1} b3 b3 a6 {linea=v} x6 x6 z12
+co<n>ci<n>nat gall<us> nasonis											c3 e3 d3 c3 b12 [[d6 a6]] [c6 b3 b3] a12 r12
+dicta que dolu<m> acu=u<n>t												[e'6 {fractio=1/2} d3 c3 b6] {fractio=1} a12 [[d6 e6]] f3 e3 d3 c3 b12
+Omni=a [...][...][...][...][...][...][...][...][...][...][...][...]lo	{fractio=1/2} [c6 c6] [b6 a6] {fractio=1} [g6 {linea=v} x3] x3 x12 [d'3 e3 f3 g3 e3 d3 c3 b3] a12 r12 r12 a12 d6 c3 d3 e6 {fractio=3/2} [e1 d1 c1 b1] {fractio=2} a6 {fractio=1} [a3 g3] {fractio=1/2} a12 {fractio=1}
+Et subito ca															[c3 {fractio=1/2} e6] {fractio=1} d3 c3 b12 [[d6 a6] [c6 b6]] {pagina=v}
+# tit=03Quoniam-RO voix=triplum ordo=2 lang=lat clemod=G_8 arm=b
+Quoni=am secta latronum				{modus=2;tempus=2;prolatio=3;relative=f;cle=c4;columna=v} r12 r12 r12 f6 f6 [g3° f2°] g1°. a-@b3 b3 [[a6^ g6]] f12
+spelunca vispili=onum				[[b3 c3 d6]] g,3 g3. {linea=v;cle=c3} a-@b3 b3 [a12 b0] [[c3 d3 e6] [d3^ c3] [b3^ a3]] g12 r12 r12
+vulpes que gallos roderat			g12 a6 b6 a6 [[f3 g3]] a3§ b2° a1°.
+te<m>pore quo regnaverat			g3 {linea=v} g3 f12 [g6 a0] [b-3° a2° g1°] [a12 b0] [[c6^ g6 b6] a2° g1° a2° b1°] g12 r12
+le=o cecatus subito					b12 a12 [c6 d0] e6 f6 {linea=v} e3 d3 [c6 d2° c1° b2° c1°]
+su=o ru=ere m<er>ito.				d6 g,6 [[b-3 d3]] c3 b3 [a12 b0] z12 z6 z3 a3 {fractio=4} g3 {fractio=1} z12 z12
+in morte privata bonis				f12 c'6 b6 a3 a3. {linea=v;cle=c4} g-@b3 g3 f12
+concinat gallus nasonis				[g12 a0] b3 d3. c3 b3 a12 [[d6^ g,6 b6] a2° g1° a2° b1°] g12 r12 {linea=v;cle=c3}
+dicta qui dolum accu=unt.			[d'-@B6 c0 [b3^ a3]] g12 [[c6 d6]] e-3 d3. c3 b3 a12
+omni=a sunt hominum tenu=i pendenci=a filo et subito casu que valu=e=re Ru=unt		b6 [a3§ g2° a1°] [f6 f3] g3 a12 {linea=v} [[c3 d3 e6] [d-@B3^ c3] b3 a3] g12 r12 r12 a12 c3 b3 c6 d6 [d2° c1° b2° a1°] g12 [[g3^ f3]] g6 [[b3 d3]] c3 b3 a12 {linea=v} [[d-@B6^ g,6 b6] a2° g1° a2° b1°] g12 d'3 c3 [b6 a0] g3 a3 {linea=v;cle=c4} g6 f12 {finis=||}

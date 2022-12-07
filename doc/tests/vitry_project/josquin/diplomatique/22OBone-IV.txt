@@ -1,0 +1,74 @@
+# tit=22OBone-IV source=I-IV_115 voix=triplum ordo=1 lang=lat clemod=g2_8 visa=CC,DC
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 07.02.2022-21:43/ob MODIF: 27.08.2022-20:19/sushaant
+O Philippe franci qui generis			{pagina=v;modus=3;tempus=2;prolatio=3;relative=c'';cle=c1} c3 a1 b2* c3 r3 c3 b1 a2* a3 g3 a3 r3
+rex fra<n>coru<m> septim<us> diceris.			[a3 g1 a2*] b3 {linea=v} c3 b3 b3. b1 a2 b1 g2 f6 r6
+si sc<ri>pturis co<n>*stat historicis			a1 g2 g1 f2 r1 r1 [g1 a3 r1 r1 b1] [g3 r1 r1 g1] d3 r3 [g3 r1 r1 g1] d3 r3 [g3 r1 r1 e1 g3]
+et lamentis deflet<ur> t<ra>gicis			r1 r1 [a1 g3] r1 r1 [e1 g3 a3] a3 b6 [b1 a2] [a1 g2*] a3. g1 a2 b6 
+q<uo>d gede=on david <et> josu=e			c3. c1 b2 c6 c1 b2 {linea=v} c1 a2* g3 [e3 r1 r1 e1 r1 r1 f1]
+reges stare nec sup<er> vacu=e			d3 [a'3 r1 r1 a1 r1 r1 b1] g3 d3 b'6 [b1 a2] [b1 g2] a3 c3 [b6 b1 a2 a1 g2]
+sepnacherib angl<us> asyri=u<m>			[a12 a1 g2 a1 b2*] g3 e3. f1 e2 f1 g2 [f1 e2] [e1 d2] e12 r6
+et macedo modico dari=u<m>			[e1 f2 g1 f2*] g3 g3 [a1 g2 g1 f2*] a3 a3 b6 [c1 b2] {linea=v} [b1 a2*] c6 r6
+le=onita rex excerciti=um			g1 f2 e1 [d2 r1 r1 e1 g3] r1 r1 [g1 e3 r1 r1 a1 g3 r3 a3 r1 r1 e1] g3 r3 [g3 r1 r1 e1] d3 r1 r1 e1 [g3 r1 r1 e1] 
+ac camaris cyrum demeritum			g3 a3 c3 b6 [b1 a2] [a1 g2*] a3. g1 a2 b6
+imp<er>asse romanos lati=us			[a1 b2] c1 b2* c3 [c1 b2*] c3 b1 {linea=v} a2* b3 [g3 r1 r1 b1 r1 r1 a1]
+at quam ferro virtutu<m> meli=us			a3 [g3 r1 r1 g1 r1 r1 a1] b3 g3 b6 g1 g2 [f1 g2] a3 [g1 f2*]
+qua<m> robore pl<us> artis lumine			e3 f3: g1 g2 f1 g2* a3 a1 g2* {nota=Une ombre sur le manuscrit pourrait indiquer la présence d'une note *aalamire*, mais impossible de définir sa durée.} x3
+prudenti=a qua<m> [...]titudine			[d1 e2* f3] g3. f1 g2 a3 {nota=Lecture hasardeuse des figures rythmiques : soit 2 semi-brèves, soit une ligature *cop*.} [[g3 a3]] {linea=v} b3 c1 b2* c12 r6
+est igitur ut hec non deseras			[b3: a1 g2 a1 g2 a1 b2*] a3 [g1 a2*] b3 c3 d3 [b1 c2*] d3: [c1 b2] a6 r6
+ut ab hoste spoli=um [...]feras			a1 g2 g1 [f2 r1 r1 e1 g3] r1 r1 [g1 b3] r1 r1 g1 b3 r3 [b3 r1 r1 a1] g3 r3 [e3 r1 r1 a1 e3]  
+ac tu pri=us sensu p<ar>abole			r1 r1 [e1 a3 r1 r1 a1] c3. [b1 a2 b1 c2*] a3. [a1 g2] f1 {linea=v} f2 e1 f2 g6
+meminisses de hinc regnicole			g3 a3. [a1 g2] [g1 f2] [a1 g2 a1] b2 [a1 g2] g1 f2* e3
+quor<um> Remos rapit ambici=o			[a3 r1 r1 a1 r1 r1 b1] g3 [a3 r1 r1 f1 r1 r1 e1] e3 e3 p@ [f3 e1 f2*] g3: f1 g2 a6
+neutros ambos [...] [...] [...]su<m>pti=o			[b1 a2 b1 c2] [b1 a2] [a1 g2*] {nota=L'état du manuscrit rend hasardeuse la lecture de la fin de la ligne.} a12 c6 [b1 a2 b1 c2] [a6 c3] {linea=v} b1 a2* g12 r6
+senones <et> lucdones oci=a			[a1 g2 g1 f2] a6 [f1 e2 f1 d2*] e3 [f1 e2*] d3 d3 e3 e3 f6 r6
+infici=u<n>t gula luxuri=a			e1 f2 g1 [f2 r1 r1 g1] [a3 r1 r1 c1] [g3 r1 r1 g1] [e3 r3 e3 r1 r1 g1] [b3 r3 g3] r1 r1 g1 [b3 r1 r1 b1 g3]
+bituricos vexat cupiditas			r1 r1 g1 b3 b3. [a1 g2] [a1 g2 a1 {nota=On devine une hampe : probablement une erreur du scribe puisque la note suivante est une minime.} b2*] a1 b2 c1 b2* c3.
+[...] [..][...]nos bilis in manitas			c1 b2 b1 {linea=v} a2 a1 g2* g3: g1 f2 e6
+burdegalos livoris furi=a			e3 [f1 e2*] d3 [d3 r1 r1 g1 r1 r1 a1] f3 [e3 r1 r1 c1] r1 r1 [d1 a'3] [a1 b2* a3] g1 f2*
+gemellosq<ue> gotos p<er>fidi=a.			e3 e3 a3 [b1 c2] [b1 a2] a1 g2* a3 b3 c18
+# tit=22OBone-IV voix=motetus ordo=2 lang=lat clemod=g2_8
+O bone dux indolis optime			{pagina=v;modus=3;tempus=2;prolatio=3;relative=g';cle=c1} g12 [g1 f2 f1 e2*] [d3 e3:] [f1 e2 f1] g2 f1 f2 e1 f2* g3 {linea=v}
+motus primos jho=<an>es reprime			g3. g1 f2 g1 a2 a1 g2 g1 f2 a12 r6
+tirannidis sorde ne sorde=as			[b3 r1 r1 a1] [g3 r1 r1 a1] [b3 r1 r1 a1] g3 r3 [b3 r1 r1 a1] g3 r3 [c,3 r1 r1 d1] e3 r1 r1 [g1 e3] r1 r1 [e1 d6]
+rex nature regnare stude=as			[e1 d2 e1 f2*] e3 e3 p@ f6 [g3: a1 g2] f1 f2 e1 f2 [g12 r1 r1 e1 r1 r1 g1]
+de=um cole de=um inh<er>ita			e3 {linea=v} [d3 r1 r1 d1 r1 r1 e1] f3 [g3 r1 r1 b1 r1 r1 b1] g3 a3. [a1 g2] g1 f2 a6 r12
+ecclesi=a p<ro> matre milita			c18. b3 b3 a3 g3. a1 b2 c1 a2 b6
+meli=ora pluraque nocere			b3. [c1 b2] [b1 a2] [a1 g2*] a3 a3 b3. b1 a2 g1
+nobilib<us> sensib<us> nitere			f2 g1 e2 p@ f6 g3 f1 g2* {linea=v} f3 e3 g12 r6
+Re=y cura precedat plublice			[c,3 r1 r1 d1] [e3 r1 r1 g1] [e3 r1 r1 g1] c3 r3 [a3 r1 r1 g1 b3] r3 [b3 r1 r1 c1] [b3 r1 r1 b1] [g3 r1 r1 e1] d3 d3:
+hunc modeste p<ro>pri=um respice			p@f [e1 d2 e1 f2] [f1 e2] [e1 d2*] f6 g3 f1 g2* f3 e3 [g12 r1 r1 g1 r1 r1 e1]
+pupillulo vidu=e paup<er>i			g3 [d3 r1 r1 f1 r1 r1 g1] e3 [d3 r1 r1 g1] r1 r1 d1 g3 a3 {linea=v} b3 b3 c6 r12
+quere<n>tib<us> tribunal ap<er>i			a18. f3 e1 f2* e3. [d1 e2] [e1 f2] g1 f2 g6
+non te rodat ambro v<e>l histri=o			[g3: a1 g2] g1 f2 f1 e2 d1 d2 c1 d2 e6
+nec acerba cives ex acti=o			[e1 f2 g1 f2*] g3 a3 b3 b3. a1 b2 c1 b2 c12 r6
+militibus solve stipendi=a			[b3 r1 r1 c1] {linea=v} [b3 r1 r1 g1] [e3 r1 r1 g1] p@ f3 r3 [b3 r1 r1 c1 a3] r3 [a3 r1 r1 a1] [e3 r1 r1 f1] [e3 r1 r1 f1] g3 g3
+ne predones fi=ant in=opi=a			a3. [g1 a2] {nota=La hampe est effacée.} [b1 a2] a1 g2 b6 [c3 b1 {nota=La hampe est effacée.} c2*] b3 a3 [c12 r1 r1 g1 r1 r1 e1]
+pede calca quodcu<m>que terre=u<m>			f3 [g3 r1 r1 b1 r1 r1 c1] a3 [b3 r1 r1 b1 r1 r1 c1] b3 b3: [b1 a2] a1 g2 a6 r12
+auru<m> gem<m>am murice<m> ostre=u<m>			f18. [g3 f1 g2*] {linea=v} a3. g1 a2 b1 a2 a1 g2 b6
+bonum pacis quere sum<m>o opere			b3. [b1 a2] [b1 c2 d1 c2] d6 d3. [d1 c2] b1 a2 a1 g2* b3
+federare set sano federe			b1 c2* d3. d1 c2 b1 a2 a1 g2 a12 r6
+tandem terras eripe sanguine			[g3 r1 r1 f1] [g3 r1 r1 g1] {linea=v} [b3 r1 r1 b1] [g3 r3 b3] r1 r1 b1 [g3 r3 d3 r1 r1 e1] [g3 r1 r1 g1] [d3 r1 r1 d1] e3 p@ f3
+divo lotas afalso munere.			[g3 f1 g2*] f3 e3 g6 [[a3 b3]] c1 a2 c1 a2* [b12 r1 r1 b1 r1 r1 a1]
+Testamentum cura p<er>solvere			g3 [a3 r1 r1 a1 r1 r1 b1] g3 [a3 r1 r1 e1 r1 r1 f1] e3 e3 a3 g1 f2* e3 {linea=v}
+donec vivis et felix morere.			d1 e2* p@a f3. f1 g2 f1 f2 e1 f2 g18 {finis=||}
+# tit=22OBone-IV voix=tenor ordo=3 lang=non clemod=g2_8
+SOlus Tenor			{modus=3;tempus=2;prolatio=3;relative=c';cle=c4;talea=v;subtalea=v} [[c18 b6 a12* g18]]
+			{subtalea=v} r6 [[f12* g18]] [[g18| c6]] [[c12*
+			{subtalea=v} g18]] [[a6 g6^ f6 c'18]]
+			{subtalea=v} c3 [[d6^ a6]] g3 g18
+			{subtalea=v} r6 [[g12* f18]] [[g6 f12*
+			{talea=v;subtalea=v} e18.]] [[a6 g12]] [[a6^ g6 d'6]]
+			{subtalea=v} [[c12| d6 c18]] [[f,12^ e6 g18|.]]
+			{subtalea=v} r6 e12 a6 g6 d'6 c18
+			{subtalea=v} g3 [[d'6^ c6]] d3 [[g,18^
+			{subtalea=v} f6 g12* a18]] [[b6 c6 d6
+			{talea=v;subtalea=v} c18]] [[g6 a12* g18]]
+			{subtalea=v} [[f18| g18|]] [[b12| c6]] [[a18^
+			{subtalea=v} g6 d'12*]] [[g,12 d'6 c18]]
+			{subtalea=v} a3 [[g6 d'6]] g,3 [[g18|
+			{subtalea=v} a6^ g12* a18|]] [[g6 a6^ f6
+			{talea=v;subtalea=v} g18]] [[d'18 g,18]]
+			{subtalea=v} r6 f12* [[c'12^ g6]] g18 g18
+			{subtalea=v} r6 c12* [[c18 g18]]
+			{subtalea=v} c3 [[a6^ g6]] f3 [[a18|
+			{subtalea=v} c6^ b6 d6 c18]] {finis=||}

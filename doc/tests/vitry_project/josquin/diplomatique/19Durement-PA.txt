@@ -1,0 +1,49 @@
+# tit=19Durement-PA source=F-Pn_67 voix=triplum ordo=1 lang=fr visa=OB
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 16.01.2022-23:09/ob MODIF: 05.02.2022-00:37/david
+[...]			{relative=e';modus=2;tempus=2;prolatio=3;cle=c2} x6 z6 z6 z6 z6
+[...]			x6 z6 z6 z3
+[...]			x3 z6 z6 z6
+[...]			x6 z6 z6 z6
+[...] celle qui <con>tre son gre la			x3 {pagina=v} e2 c1 d3 e3 f3 g2 f1 e6
+mors u ames p<ar>faitement serra			f2 g1 f2 e1 g3 f2 g1 a3 a3 g6
+<et> je le veul ains quil en <par>cs ja			a3 {linea=v;cle=c1} m@b a3 [b1 a1 b1] [a2 g1 a3] b3 a6 a3 [a2 g1] g2
+po<ur> retourner			f1 f2 e1 g6 r6
+car la doucho<ur> de son douc regarder			a3 a3 r6 d,2 e1 {linea=v;cle=c2} f2 g1 a3 a3 e6 g6
+qu<an>t moy li plaist doucement regard<er>			m@ b2 a1 b2 g1 a3 a3 g6 a3 a3 b3
+croire me fait q<ue>lle me veulle am<er>			{linea=v} a2 g1 f3 e3 f6 a3 f3 e2 d1 e2
+et enhardir			c1 d3 [e2 f1] g6 r6
+de ma dolo<ur> humlement descouvrir			a3 f3 r6 b2 a1 {linea=v} b2 g1 f3 g3 a6 g6
+mais qu<an>t ce vient a merchi requerir			a2 g1 a2 b1 a3 b2 a1 g3 {linea=v;cle=c1} f3 g6
+et je li voy sa response garnir			a6 b3 b3 c6 [c3 b2 a1] b2 a1 a2 g1 g2
+daspre dangier			f1 f2 e1 f6 r6
+et de refus q<ue> je tieg po<ur> bouchier			g3 g3 r6 c,2 b1 c2 d1 e3 g3 f6 m@B c'6
+de char dami lors nesay q<ue> jugie[..]			b3 a3 [b2 a1 b2 c1] a2 g1 a2 g1 e3 d3 f6
+le quel des <.iii.> je doi mius avoir chier			{linea=v} f3 f2 g1 a3 b3 a6 b3 b2 a1 a2
+le tr<a>=itour			g1 g2 f1 g6 r6
+qui me conduit desarmes au seigno<u>r			g3 d3 r6 f2 f1 e2 f1 d3 d3 [e2 d1 e2 f1] e6
+mo<n> anemi ouli quant a dolo<ur>			f6 d3 d3 a'3 g2 f1 [e2 d1 e2 f1] d3 [c2 d1] e6
+me fait languir ou moy qui p<ar> folo<ur>			f2 {linea=v} g1 a2 b1 c3 a3 a3 a2 g1 g2
+p<ar>tir ne<n> sai			f1 f2 e1 g6 r6
+qu<an>t grant biaute= est souvent sans bonte			b3 g3 r6 d'2 c1 d2 c1 d3 {fractio=2} c1 {fractio=1} d1 a6
+cuers durs pares en cors d[..]milite			a2 a1 b2 c1 d3 [d2 c1] b3 {linea=v} a2 b1 c3 
+ne douc regart na point de se=urte.			[a2 b1] c3 a3 b2 b1 f2 f1 {fractio=3/2} d2 {fractio=3} e1 {fractio=1} f12 {finis=||}
+# tit=19Durement-PA voix=motetus ordo=2 lang=fr
+[...]			{relative=b;modus=2;tempus=2;prolatio=3;cle=c3} z12 z12 z12 z12 z12 z12 x6 z6 z6 z6 z6 z6 z6 z6 z6 z6 z6
+[...]			x6 z6 z6 z6 z6 z6 z6 z6 z6 z6
+[...]			x6 z6 z6 z6 z6 z6 z6 z6 z6
+[...]			x6 z6 z6 z6 z6 z6 z6 z6 z6
+[...]			x6 z6 z6 z6 z6 z6 z6 z6 z6
+[...] donna			x6 z6 z6 z6 z6 {columna=v} m@ [b1 a1 b1 a2 g1] f12 r6
+mes cuers son cors sans retraire			g'18. f6 a6 g3 a3 g3 f3 e6
+elle tantost le livra			c3 [b2 c1] [[d3 e3]] [f3 e2 d1 e12] {linea=v} [[e3^ d3]] [c3 b2 c1] d12 {nota=Le silence se perd dans un pli du parchemin.} r6
+a sa mortel anemi=e			m@ b18. [a2 g1 a2 b1] a6 f6 g3 g3 [[a3 b3]] [c3 b2 a1]
+qui droit faire ne m<er>chi			b6 [b2 g1 a2 b1 c12] d3 c3 b3 a3 g12 r6
+ne veut dius si nay=e mi=e			{linea=v;cle=c2} d'18. e3 d2 e1 p@ f3 f3 g12 a3
+pour am<er> mort deservi			g2 a1 f3 m@B e3 d6 b6 c12
+# tit=19Durement-PA voix=tenor ordo=3 lang=non
+. dolor meus. tenor.			{relative=g';modus=2;tempus=2;prolatio=3;cle=c3} z12 z12 z12 z12 z12 z12 {color=v;talea=v;linea=v} g24 r12 c,12 d12 e12 f12 e12 r12
+			{talea=v} d24 r12 e12 f12 e12 d12 c12 r12
+			{talea=v} d24 r12 e12 d12 e12 d12 c12 r12
+			{talea=v;cle=c4;linea=v} c24 r12 f,12 g12 a12 b12 a12 r12
+			{talea=v} g24 r12 a12 b12 a12 g12 f12 r12
+			{talea=v} g24 r12 a12 g12 a12 g12 f12 r12

@@ -1,0 +1,51 @@
+#tit=20Flos-CH source=F-CH_564 voix=triplum ordo=1 lang=lat visa=CC
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 07.02.2022-11:02/ob MODIF: 07.02.2022-18:12/ob
+[..]pta caro plumis ingeni
+desidi=e batum se studi=i
+laborisq<ue> foco molici=es
+et <con>juga centro segnici=es
+quo pigrescit plumbu<m> co<n>sumito
+nablum tange vocis pl<us> solitus
+duc pulmonis carbasi<s> cardinem 
+lingue livi gutris arundine<m>
+tu=a<m> di=o lictura<m> lictere 
+q<uam> conetur in preces fundere
+visco pri=<us> a moto pectoris
+o<mn>i scapo poli=at rectoris.
+Crispatura cite=i pectinis
+Stillo laudes parentis virginis
+mis<er>eri qua sola trahitur
+justus minos <et> qua mors moritur
+Age caro ru<m>pe vivari=a 
+lacrimar<um> precu<m> suspiri=a
+ta potenti bonie p<ro>fundit<us>
+suu<m> tuus sp<iritu>m sp<irit>us
+ac erigi poscat viperina
+noys alme tempe celesti=a
+et cerberus que<m> fames torque=at
+te speratam perdere luge=at
+ob propri=a bonitate de=a 
+de=o nupta toci=<us> yde=a 
+forme cuj<us> non posse figere
+grad<us> pudet naturam misere
+carni humane subveni ProPere.
+#tit=20Flos-CH voix=motetus ordo=3 lang=lat
+Flos virginu<m> dec<us> et speci=es
+adultere lucis conubis
+non indiga vel auri radi=o
+si gemarum vesp<er>escit di=es
+te surge<n>te §
+de cor ipse quo nichil graci=us 
+et agrada graci=e line=a 
+qua stix atrum sol scalor trabe=a
+lumbus ostrum quod tinxit tiri=us 
+fit candentem. §
+Multa bissus virtutum calculo 
+numerorum non certa fili=a 
+nati mater patris plu=e pi=a 
+lacrimarum nimbos pro populo
+te poscente. §
+#tit=20Flos-CH voix=tenor ordo=4 lang=non
+aLma redemptoris. Tenor.
+#tit=20Flos-CH voix=contratenor ordo=2 lang=non
+Contra. Tenor.

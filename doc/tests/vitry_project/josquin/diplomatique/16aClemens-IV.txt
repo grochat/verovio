@@ -1,0 +1,29 @@
+#tit=16aClemens-IV source=I-IV_115 voix=triplum ordo=1 lang=lat clemod=g2_8 visa=OB
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 03.02.2022-07:53/ob MODIF: 05.11.2022-13:02/david
+[..]yri=e rex angelorum lux <et> sol justici=e			{relative=a';cle=c2;modus=2;tempus=3;prolatio=3;pagina=v} a9. g2 g1 f3 g3 a2 g1 f2 g1 [e2 f1] g2 a1 {linea=v} g3 f3 e9 r9
+pater dulcis pater pi=e cu<m> sis flumen veni=e			g3 g3 g3 a9. g2 a1 g3 f3 e3 [e1 d1 e1 d2 c1] {linea=v} d2 e1 f3 g3 a9 r9
+de=us judex equitatis <et> misericordi=e			[[e3^ c3]] d2 e1 [[f3^ d3]] e2 f1 {linea=v} p@ g3 g6 a2 b1 a2 g1 a2 f1 g3 r3
+eleyson			g3 e9 [d3 r3 r3 a'2 g1 f2 e1 f3]
+Kyri=e Eleyso<n>			a9. p@a g9 [[a3^ e3] {linea=v} r1 r1 g1 [e3^ c3] r1 r1 e1 [f3^ c3] r1 r1 g'1 e3 a1 g1 a1 g2 f1 g9. [a3^ e3] r1 r1 e1 [f3^ c3] r1 r1 c1 [d3^ a3] r1 r1 c1] e9 d9 [[f3 g6*]] {linea=v}
+Tu qui de celo misisti de=us nobis fili=um 			a9. g2 g1 f3 g3 a2 g1 f2 g1 [e2 f1] g2 a1 {linea=v} g3 f3 e9 r9
+tu=u<m> quem virgo concepi nobile presidi=umn			g3 g3 g3 a9. g2 a1 g3 f3 {linea=v} e3 [e1 d1 e1 d2 c1] d2 e1 f3 g3 a9 r9
+<et> nostre salvati=onis optimum remedi=u<m>			[[e3^ c3]] d2 e1 [[f3^ d3]] e2 f1. g3 {linea=v} g6 a2 b1 a2 g1 a2 f1 g3 r3
+eleyson			g3 e9 d18 {finis=||}
+#tit=16aClemens-IV voix=motetus ordo=3 lang=lat clemod=g2_8
+[.]lemens pater conditor. syderum 			{relative=e';cle=c3;modus=2;tempus=3;prolatio=3;columna=v} e9. [d2 e1 f2 e1 d2 c1] [e3 d3 c3] d9 r9 [d2 c1] b3 a3 [[g3 a3]] b3 c9.
+mu<n>di rector datorq<ue> muner<um>			[b2 c1 d2 c1 b2 {nota=Le point est placé au début de la portée suivante.} c1.] {linea=v} a3 e'6* p@e d9 r9 [g2 a1] g3 f3 e6 [d2 e1.] [c2 d1]
+verax de=us destructor scelerum			[b2 c1] [a2 b1] c3 b3 {linea=v} c3 d2 e1 f3 d3 [[e3^ c3]] r3
+eleyson			c3 c6* [[a9 d9]]
+Kyri=e leyson			p@ e9 d9 [e3. r1 r1 c1 {linea=v} [d3^ a3] r1 r1 e'1 [d3^ c3] r1 r1 f1 d3 c2 d1 e3 c3 d9. e3 r1 r1 c1 [b3 c3] r1 r1 a1 [g3 a3] r1 r1 d1 c2 b1. c3] c6 [a3 r3 r3. {linea=v} d2 e1 d2 c1 c2 d1]
+Rex precelse potens virtutib<us>			[e9. d2 e1 f2 e1] [d2 c1] [e3 d3 c3] d9 r9 [d2 c1] b3 a3 [[g3 a3]] b3 c9. {linea=v}
+tremor factus cunctis demonib<us>			[b2 c1 d2 c1 b2 c1.] a3 e'6* p@e d9 r9 [g2 a1] g3 f3 e6 [d2 e1] [c2 d1] {linea=v}
+qui rueruerunt ab altis. sedibus			[b2 c1] [a2 b1] c3 b3 c3 d2 e1 f3 d3 [[e3^ c3]] r3
+Eleyson.			c3 {linea=v} c6 a18 {finis=||}
+#tit=16aClemens-IV voix=tenor ordo=2 lang=non clemod=g2_8
+Tenor kyrie			{relative=a;cle=c4;modus=2;tempus=3;prolatio=3;linea=v} p@d {color=v} [[a9 b9 a9^ g9 a9^ d,9]] r9
+			[[f9 g9 a9 b9 a9^ g9]] r9
+			[[f9 e9 d9 c18]] d9 r9
+			{color=v} [[a'9 b9^ a6]] g3 a6 d,3 f6 g3 [[a9 b9^ a6]] g3 f6 e3 d6 c3 [[c9 d9]] r9
+			{color=v} [[a'9 b9 a9^ g9]] [[a9^ d,9]] r9
+			[[f9 g9 a9 b9 a9^ g9]] r9
+			[[f9 e9 d9 c18]] d18 {finis=||}

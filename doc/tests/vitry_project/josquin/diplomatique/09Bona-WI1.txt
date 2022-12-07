@@ -1,0 +1,58 @@
+# tit=09Bona-WI1 source=A-Wn_3244 voix=triplum ordo=1 lang=lat visa=CC
+/// NE PAS EDITER CETTE LIGNE --- AJOUT: 28.02.2021-12:37/ob MODIF: 28.02.2021-12:43/ob
+<C>olla jugo subdere
+curi=as sectari
+Quar<um> | sunt in mun<er>e.
+clades mores rari.|
+Potens su=o vivere
+debet excitari
+Ali=ena de|sere.
+quadra co<n>vivari.
+Pane tuo vescere
+ti|bi dominari
+Si vis et effugere
+curis lac<er>ari |
+Malo fabam rodere
+liber et letari.
+q<uam> cibis af|flu=ere
+serv<us> et tristari
+Aulici sunt op<er>e
+s<em>p<er> | adulari.
+fictas laudes promere
+lucra q<ue> | venari
+Abimplumis tollere
+plumas et conari |
+d<omi>nos  allud<er>e
+falsa <com>me<n>tari |
+Ve quos ha|bent pungere
+verba que s<u>bduntur
+Nulla | fides pi=etasq<ue> viris qui castra secuntur.
+# tit=09Bona-WI1 voix=motetus ordo=2 lang=lat
+Bona condit cetera |
+bonu<m> libertat<is>.
+Qui gazar<um> genera
+tot | thezaurizatis
+Multiplici phalera.
+vos qui | phalleratis
+Et cum libet ubera
+fercula bibat<is> |
+Si vivere libera.
+vitam neque=at<is>
+Nu<m>q<uam> sa|porifera
+servi degustatis.
+Vincit auri | pondera
+sue p<otes>tat<is>
+Esse vobis funera
+servi| propinatis
+Mala p<er> in mun<er>a
+du<m> mag<is> | optatis
+# tit=09Bona-WI1 voix=contratenor lang=lat ordo=3
+Egregi=us labor <est> sub magno | principe castra
+Continu=ando seq<ui> sed sic no<n> | itur adastra
+Promittu<n>t no<n> dant dicunt | nec poste=a curant
+Et sic falluntur miseri | q<ui> castra secuntur.  
+// Autre Egregius au f° 90r
+//Egregi<us> labor magno s<u>b p<ri>ncipe castra |
+//Co<n>tinua<n>do sequi quia sic no<n> itur adastra |
+//Promittu<n>t nil da<n>t n<e>c quicqua<m> solvere curant |
+//Et sic fallu<n>tur miseri qui castra secuntur | 
