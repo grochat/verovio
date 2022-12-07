@@ -6413,9 +6413,12 @@ void MEIInput::UpgradeFTremTo_4_0_0(pugi::xml_node fTrem, FTrem *vrvFTrem)
 
 void MEIInput::UpgradeMensurTo_5_0_0(pugi::xml_node mensur, Mensur *vrvMensur)
 {
+    //if @sign is absent, the mensur should not be displayed!
+    /*
     if (vrvMensur->HasTempus() && !vrvMensur->HasSign()) {
         vrvMensur->SetSign((vrvMensur->GetTempus() == TEMPUS_3) ? MENSURATIONSIGN_O : MENSURATIONSIGN_C);
     }
+    */
     if (vrvMensur->HasProlatio() && !vrvMensur->HasDot()) {
         vrvMensur->SetDot((vrvMensur->GetProlatio() == PROLATIO_3) ? BOOLEAN_true : BOOLEAN_false);
     }
