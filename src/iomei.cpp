@@ -5281,6 +5281,7 @@ bool MEIInput::ReadVerse(Object *parent, pugi::xml_node verse)
     vrvVerse->ReadLang(verse);
     vrvVerse->ReadNInteger(verse);
     vrvVerse->ReadTypography(verse);
+    vrvVerse->ReadPlacement(verse);
 
     parent->AddChild(vrvVerse);
     ReadUnsupportedAttr(verse, vrvVerse);

@@ -1533,8 +1533,16 @@ void View::DrawSyl(DeviceContext *dc, LayerElement *element, Layer *layer, Staff
         LogWarning("Parent note for <syl> was not found");
         return;
     }
+    Verse *verse = vrv_cast<Verse *>(element->GetParent());
+    auto place = verse->GetPlace();
+    bool isAbove = (place==STAFFREL_above);
 
-    syl->SetDrawingYRel(GetSylYRel(syl->m_drawingVerse, staff));
+    int Y = GetSylYRel(syl->m_drawingVerse, staff);
+    int staffHeight = 2*m_doc->GetDrawingUnit(staff->m_drawingStaffSize)*(staff->m_drawingLines+1);
+    if ( isAbove )
+        syl->SetDrawingYRel(-Y-staffHeight);
+    else
+        syl->SetDrawingYRel(Y);
 
     dc->StartGraphic(syl, "", syl->GetUuid());
     dc->DeactivateGraphicY();
