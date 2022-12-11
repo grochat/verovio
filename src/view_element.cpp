@@ -1537,13 +1537,11 @@ void View::DrawSyl(DeviceContext *dc, LayerElement *element, Layer *layer, Staff
     int place = verse->GetPlace();
     bool isAbove = (place==STAFFREL_above);
 
-    int verticalPlacement = GetSylYRel(syl->m_drawingVerse, staff);
-    int staffHeight = 2*m_doc->GetDrawingUnit(staff->m_drawingStaffSize)*(staff->m_drawingLines+1);
     if ( isAbove ) {
-        syl->SetDrawingYRel(-verticalPlacement-staffHeight);
+        syl->SetDrawingYRel(2*m_doc->GetDrawingUnit(staff->m_drawingStaffSize)*syl->m_drawingVerse);
     }
     else {
-        syl->SetDrawingYRel(verticalPlacement);
+        syl->SetDrawingYRel(GetSylYRel(syl->m_drawingVerse, staff));
     }
 
     dc->StartGraphic(syl, "", syl->GetUuid());
