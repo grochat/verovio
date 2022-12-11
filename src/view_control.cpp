@@ -48,6 +48,7 @@
 #include "staff.h"
 #include "syl.h"
 #include "system.h"
+#include "staff.h"
 #include "tempo.h"
 #include "text.h"
 #include "textelement.h"
@@ -330,7 +331,7 @@ void View::DrawTimeSpanningElement(DeviceContext *dc, Object *element, System *s
             // cast to Slur check in DrawSlur
             DrawSlur(dc, dynamic_cast<Slur *>(element), x1, x2, *staffIter, spanningType, graphic);
         }
-        else if (element->Is(SYL)) {
+        else if (element->Is(SYL) && !(*staffIter)->IsNeumeOrMensural()) {
             // prolong to the end of the notehead
             x2 += endRadius;
             // cast to Syl check in DrawSylConnector

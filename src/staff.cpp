@@ -277,6 +277,14 @@ bool Staff::IsOnStaffLine(int y, Doc *doc)
 
     return ((y - this->GetDrawingY()) % (2 * doc->GetDrawingUnit(this->m_drawingStaffSize)) == 0);
 }
+    
+ bool Staff::IsNeumeOrMensural() const
+{
+    return m_drawingNotationType == NOTATIONTYPE_neume ||
+           m_drawingNotationType == NOTATIONTYPE_mensural ||
+           m_drawingNotationType == NOTATIONTYPE_mensural_black ||
+           m_drawingNotationType == NOTATIONTYPE_mensural_white;
+}
 
 int Staff::GetNearestInterStaffPosition(int y, Doc *doc, data_STAFFREL place)
 {

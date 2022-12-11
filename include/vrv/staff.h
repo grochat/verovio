@@ -131,7 +131,13 @@ public:
      * The *Doc is the parent doc but passed as param in order to avoid look-up
      */
     bool IsOnStaffLine(int y, Doc *doc);
-
+    
+    /**
+    * Returns true if m_drawingNotationType is NOTATIONTYPE_neume, NOTATIONTYPE_mensural,
+    * NOTATIONTYPE_mensural_black, or NOTATIONTYPE_mensural_white
+    */
+    bool IsNeumeOrMensural() const;
+     
     /**
      * Find the nearest unit position in the direction indicated by place.
      * The *Doc is the parent doc but passed as param in order to avoid look-up
