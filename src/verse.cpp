@@ -31,13 +31,13 @@ namespace vrv {
 // Verse
 //----------------------------------------------------------------------------
 
-Verse::Verse() : LayerElement("verse-"), AttColor(), AttLang(), AttNInteger(), AttTypography(), AttPlacement()
+Verse::Verse() : LayerElement("verse-"), AttColor(), AttLang(), AttNInteger(), AttPlacement(), AttTypography()
 {
     RegisterAttClass(ATT_COLOR);
     RegisterAttClass(ATT_LANG);
     RegisterAttClass(ATT_NINTEGER);
-    RegisterAttClass(ATT_TYPOGRAPHY);
     RegisterAttClass(ATT_PLACEMENT);
+    RegisterAttClass(ATT_TYPOGRAPHY);
 
     Reset();
 }
@@ -50,8 +50,8 @@ void Verse::Reset()
     ResetColor();
     ResetLang();
     ResetNInteger();
-    ResetTypography();
     ResetPlacement();
+    ResetTypography();
 
     m_drawingLabelAbbr = NULL;
 }

@@ -1900,6 +1900,7 @@ void MEIOutput::WriteVerse(pugi::xml_node currentNode, Verse *verse)
     verse->WriteColor(currentNode);
     verse->WriteLang(currentNode);
     verse->WriteNInteger(currentNode);
+    verse->WritePlacement(currentNode);
     verse->WriteTypography(currentNode);
 }
 
@@ -5280,8 +5281,8 @@ bool MEIInput::ReadVerse(Object *parent, pugi::xml_node verse)
     vrvVerse->ReadColor(verse);
     vrvVerse->ReadLang(verse);
     vrvVerse->ReadNInteger(verse);
-    vrvVerse->ReadTypography(verse);
     vrvVerse->ReadPlacement(verse);
+    vrvVerse->ReadTypography(verse);
 
     parent->AddChild(vrvVerse);
     ReadUnsupportedAttr(verse, vrvVerse);

@@ -22,7 +22,7 @@ class Syl;
 
 class Verse : public LayerElement,
               public AttColor, public AttLang, public AttNInteger,
-              public AttTypography, public AttPlacement {
+              public AttPlacement, public AttTypography {
 public:
     /**
      * @name Constructors, destructors, and other standard methods

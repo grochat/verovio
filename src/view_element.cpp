@@ -1534,15 +1534,17 @@ void View::DrawSyl(DeviceContext *dc, LayerElement *element, Layer *layer, Staff
         return;
     }
     Verse *verse = vrv_cast<Verse *>(element->GetParent());
-    auto place = verse->GetPlace();
+    int place = verse->GetPlace();
     bool isAbove = (place==STAFFREL_above);
 
-    int Y = GetSylYRel(syl->m_drawingVerse, staff);
+    int verticalPlacement = GetSylYRel(syl->m_drawingVerse, staff);
     int staffHeight = 2*m_doc->GetDrawingUnit(staff->m_drawingStaffSize)*(staff->m_drawingLines+1);
-    if ( isAbove )
-        syl->SetDrawingYRel(-Y-staffHeight);
-    else
-        syl->SetDrawingYRel(Y);
+    if ( isAbove ) {
+        syl->SetDrawingYRel(-verticalPlacement-staffHeight);
+    }
+    else {
+        syl->SetDrawingYRel(verticalPlacement);
+    }
 
     dc->StartGraphic(syl, "", syl->GetUuid());
     dc->DeactivateGraphicY();
