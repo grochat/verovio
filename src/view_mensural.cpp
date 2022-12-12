@@ -77,70 +77,70 @@ void View::DrawMensuralNote(DeviceContext *dc, LayerElement *element, Layer *lay
         }
     }
 
-    /************** Noteheads: **************/
-
-    // Ligature, maxima,longa, and brevis
-    if (note->IsInLigature()) {
-        DrawLigatureNote(dc, element, layer, staff);
-    }
-    else if (drawingDur < DUR_1) {
-        DrawMaximaToBrevis(dc, yNote, element, layer, staff);
-    }
-    // Semibrevis and shorter
-    else {
-        if ( m_doc->GetOptions()->m_useGlyphMensural.GetValue() )
-        {
-            wchar_t code = -1;
-            switch (drawingDur)
+    if (!(note->GetHeadVisible() == BOOLEAN_false)) {
+        // Ligature, maxima,longa, and brevis
+        if (note->IsInLigature()) {
+            DrawLigatureNote(dc, element, layer, staff);
+        }
+        else if (drawingDur < DUR_1) {
+            DrawMaximaToBrevis(dc, yNote, element, layer, staff);
+        }
+        // Semibrevis and shorter
+        else {
+            if ( m_doc->GetOptions()->m_useGlyphMensural.GetValue() )
             {
-                case DUR_1:
+                wchar_t code = -1;
+                switch (drawingDur)
                 {
-                    if ( note->HasStemDir() && stemDir == STEMDIRECTION_down)
-                        code = SMUFL_E959_mensuralBlackSemibrevisCaudata;
-                    else
-                        code = SMUFL_E953_mensuralBlackSemibrevis;
-                    break;
+                    case DUR_1:
+                    {
+                        if ( note->HasStemDir() && stemDir == STEMDIRECTION_down)
+                            code = SMUFL_E959_mensuralBlackSemibrevisCaudata;
+                        else
+                            code = SMUFL_E953_mensuralBlackSemibrevis;
+                        break;
+                    }
+                        
+                    case DUR_2:
+                    {
+                        code = SMUFL_E954_mensuralBlackMinima;
+                        break;
+                    }
+                        
+                    case DUR_4:
+                    {
+                        code = SMUFL_E955_mensuralBlackSemiminima;
+                        break;
+                    }
+                        
+                    case DUR_8:
+                    {
+                        //Available in Machaut font only:
+                        if ( Resources::IsGlyphAvailable((wchar_t) SMUFL_F702_mensuralBlackFusa) )
+                            code = SMUFL_F702_mensuralBlackFusa;
+                        break;
+                    }
                 }
-                    
-                case DUR_2:
+                if ( code != -1 )
                 {
-                    code = SMUFL_E954_mensuralBlackMinima;
-                    break;
-                }
-                    
-                case DUR_4:
-                {
-                    code = SMUFL_E955_mensuralBlackSemiminima;
-                    break;
-                }
-                    
-                case DUR_8:
-                {
-                    //Available in Machaut font only:
-                    if ( Resources::IsGlyphAvailable((wchar_t) SMUFL_F702_mensuralBlackFusa) )
-                        code = SMUFL_F702_mensuralBlackFusa;
-                    break;
+                    dc->StartCustomGraphic("notehead");
+                    DrawSmuflCode(dc, xNote, yNote, code, staff->m_drawingStaffSize, false);
+                    dc->EndCustomGraphic();
                 }
             }
-            if ( code != -1 )
+            else
             {
+                wchar_t code = note->GetMensuralNoteheadGlyph();
                 dc->StartCustomGraphic("notehead");
                 DrawSmuflCode(dc, xNote, yNote, code, staff->m_drawingStaffSize, false);
                 dc->EndCustomGraphic();
+                // For semibrevis with stem in black notation, encoded with an explicit stem direction
+                if (((drawingDur > DUR_1) || (note->GetStemDir() != STEMDIRECTION_NONE))
+                    && note->GetStemVisible() != BOOLEAN_false) {
+                    DrawMensuralStem(dc, note, staff, stemDir, radius, xNote, yNote);
+                }
+                dc->EndCustomGraphic();
             }
-        }
-        else
-        {
-            wchar_t code = note->GetMensuralNoteheadGlyph();
-            dc->StartCustomGraphic("notehead");
-            DrawSmuflCode(dc, xNote, yNote, code, staff->m_drawingStaffSize, false);
-            dc->EndCustomGraphic();
-            // For semibrevis with stem in black notation, encoded with an explicit stem direction
-            if (((drawingDur > DUR_1) || (note->GetStemDir() != STEMDIRECTION_NONE))
-                && note->GetStemVisible() != BOOLEAN_false) {
-                DrawMensuralStem(dc, note, staff, stemDir, radius, xNote, yNote);
-            }
-            dc->EndCustomGraphic();
         }
     }
 
