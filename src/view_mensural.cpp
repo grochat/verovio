@@ -77,7 +77,13 @@ void View::DrawMensuralNote(DeviceContext *dc, LayerElement *element, Layer *lay
         }
     }
 
-    if (!(note->GetHeadVisible() == BOOLEAN_false)) {
+    if (note->GetHeadVisible() == BOOLEAN_false)
+    {
+        dc->StartGraphic(element, "", element->GetUuid());
+        dc->DrawPlaceholder(ToDeviceContextX(element->GetDrawingX()), ToDeviceContextY(element->GetDrawingY()));
+        dc->EndGraphic(element, this);
+    }
+    else {
         // Ligature, maxima,longa, and brevis
         if (note->IsInLigature()) {
             DrawLigatureNote(dc, element, layer, staff);

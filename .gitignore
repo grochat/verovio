@@ -98,4 +98,6 @@ fonsdfsd
 
 # Vitry project stuff
 vitry/
-doc/tests/vitry_project/*
+doc/tests/vitry_project/josquin/
+doc/tests/vitry_project/*.svg
+doc/tests/vitry_project/*.txt

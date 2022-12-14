@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title auth="14Rex-CMPV">14 - Rex quem metrorum</title>
+      </titleStmt>
+      <sourceDesc>
+        <source>
+          <bibl>
+            <abbr>philippedevitry.org</abbr>
+          </bibl>
+        </source>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application>
+          <name version="git-834dd31" isodate="2021-03-07T01:48:37+01:00">Projet Vitry, application Coussemaker</name>
+        </application>
+      </appInfo>
+    </encodingDesc>
+  </meiHead>
+  <music>
+    <body>
+      <mdiv>
+        <score>
+          <scoreDef>
+            <staffGrp>
+              <staffDef xml:id="contratenor" type="non" key.sig="1f" lines="5" n="4" notationtype="mensural.black">
+                <clef shape="C" line="4"/>
+                <label>contratenor</label>
+              </staffDef>
+            </staffGrp>
+          </scoreDef>
+          <section>
+            <staff xml:id="contratenorB" n="4">
+              <layer n="1">
+                  <note dur="brevis" oct="3" pname="b">
+                    <verse n="1">
+                      <syl wordpos="i" con="d">In</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="3" pname="a" head.visible="false">
+                    <verse n="1">
+                      <syl wordpos="m" con="d">cocococo</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="3" pname="a" head.visible="false">
+                    <verse n="1">
+                      <syl wordpos="m" con="d">ra</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="3" pname="a" head.visible="false">
+                    <verse n="1">
+                      <syl wordpos="m" con="d">çon</syl>
+                    </verse>
+                  </note>
+                  <note dur="longa" oct="3" pname="g">
+                    <verse n="1">
+                      <syl wordpos="t">lore</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="3" pname="b">
+                    <verse n="1">
+                      <syl wordpos="i" con="d">In</syl>
+                    </verse>
+                  </note>
+                  <note dur="longa" oct="3" pname="a" head.visible="false">
+                    <verse n="1">
+                      <syl wordpos="m" con="d">vi</syl>
+                    </verse>
+                  </note>
+                  <note dur="longa" oct="3" pname="g">
+                    <verse n="1">
+                      <syl wordpos="t">sible</syl>
+                    </verse>
+                  </note>
+              </layer>
+            </staff>
+          </section>
+        </score>
+      </mdiv>
+    </body>
+  </music>
+</mei>
