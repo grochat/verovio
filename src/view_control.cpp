@@ -331,7 +331,7 @@ void View::DrawTimeSpanningElement(DeviceContext *dc, Object *element, System *s
             // cast to Slur check in DrawSlur
             DrawSlur(dc, dynamic_cast<Slur *>(element), x1, x2, *staffIter, spanningType, graphic);
         }
-        else if (element->Is(SYL) && !(*staffIter)->IsNeumeOrMensural()) {
+        else if (element->Is(SYL)) {
             // prolong to the end of the notehead
             x2 += endRadius;
             // cast to Syl check in DrawSylConnector
@@ -1332,7 +1332,7 @@ void View::DrawSylConnectorLines(DeviceContext *dc, int x1, int x2, int y, Syl *
         }
         // DrawFilledRectangle(dc, x1, y, x2, y + width);
     }
-    else if (syl->GetCon() == sylLog_CON_u) {
+    else if (syl->GetCon() == sylLog_CON_u && !staff->IsNeumeOrMensural()) {
         x1 += (int)m_doc->GetDrawingUnit(staff->m_drawingStaffSize) / 2;
         if (x2 > x1) {
             DrawFilledRectangle(dc, x1, y, x2, y + thickness);

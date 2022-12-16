@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title auth="08Hugo-CMPV">8 - Hugo princeps invidie</title>
+      </titleStmt>
+      <sourceDesc>
+        <source>
+          <bibl>
+            <abbr>philippedevitry.org</abbr>
+          </bibl>
+        </source>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application>
+          <name version="git-829a71b" isodate="2022-12-08T12:40:01+01:00">Projet Vitry, application Coussemaker</name>
+        </application>
+      </appInfo>
+    </encodingDesc>
+  </meiHead>
+  <music>
+    <body>
+      <mdiv>
+        <score>
+          <scoreDef>
+            <staffGrp>
+              <staffDef xml:id="triplum" type="lat" key.sig="0" lines="5" n="1" notationtype="mensural.black">
+                <clef xml:id="V-1" shape="C" line="1"/>
+                <label xml:id="V-2">triplum</label>
+              </staffDef>
+            </staffGrp>
+          </scoreDef>
+          <section>
+            <staff xml:id="triplumB" n="1">
+              <layer xml:id="V-3" n="1">
+                <mensur modusminor="3" tempus="2" prolatio="3"/>
+                <note xml:id="N-1" dur="brevis" oct="4" pname="a">
+                  <verse xml:id="V-5" n="1" lineid="0">
+                    <syl xml:id="V-6" wordpos="i">Cum</syl>
+                  </verse>
+                </note>
+                <barLine form="invis"/>
+                <rest xml:id="N-2" dur="brevis" ploc="g" oloc="4"/>
+                <barLine form="invis"/>
+                <note xml:id="N-3" dur="semibrevis" oct="4" pname="b">
+                  <verse xml:id="V-7" n="1" lineid="0">
+                    <syl xml:id="V-8" wordpos="i" con="d">sta</syl>
+                  </verse>
+                </note>
+                <note xml:id="N-4" dur="semibrevis" oct="4" pname="b">
+                  <verse xml:id="V-9" n="1" lineid="0">
+                    <syl xml:id="V-10" wordpos="m" con="d">tu</syl>
+                  </verse>
+                </note>
+                <barLine form="invis"/>
+                <note xml:id="N-5" dur="brevis" oct="4" pname="b">
+                  <verse xml:id="V-11" n="1" lineid="0">
+                    <syl xml:id="V-12" wordpos="t">a</syl>
+                  </verse>
+                </note>
+                <barLine form="dbl"/>
+              </layer>
+            </staff>
+          </section>
+        </score>
+      </mdiv>
+    </body>
+  </music>
+</mei>

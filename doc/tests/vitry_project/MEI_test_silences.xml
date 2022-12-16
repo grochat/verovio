@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title auth="Catalogue_silences_longues">Catalogue_silences_longues</title>
+      </titleStmt>
+      <sourceDesc>
+        <source>
+          <bibl>
+            <abbr>tabourot</abbr>
+          </bibl>
+        </source>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application>
+          <name version="git-dd415a5" isodate="2022-12-07T07:45:37+01:00">Projet Vitry, application Coussemaker</name>
+        </application>
+      </appInfo>
+    </encodingDesc>
+  </meiHead>
+  <music>
+    <body>
+      <mdiv>
+        <score>
+          <scoreDef>
+            <staffGrp>
+              <staffDef xml:id="modus_imperfectus" type="non" key.sig="0" lines="5" n="2" notationtype="mensural.black">
+                <clef shape="C" line="3"/>
+                <label>modus_imperfectus</label>
+              </staffDef>
+            </staffGrp>
+          </scoreDef>
+          <section>
+            <staff xml:id="modus_imperfectusB" n="2">
+              <layer n="1">
+                <mensur modusminor="2" tempus="2" prolatio="3" color="#8f8f8f"/>
+                <note dur="longa" oct="4" pname="c">
+                  <verse n="1" lineid="">
+                    <syl wordpos="">ko</syl>
+                  </verse>
+                </note>
+                <rest dur="longa"/>
+                <note dur="brevis" oct="4" pname="d">
+                  <verse n="1" lineid="">
+                    <syl wordpos="">ka</syl>
+                  </verse>
+                </note>
+                <rest dur="brevis"/>
+                <note dur="longa" oct="4" pname="c">
+                  <verse n="1" lineid="">
+                    <syl wordpos="">ki</syl>
+                  </verse>
+                </note>
+                <rest dur="3B"/>
+                <barLine form="dbl"/>
+              </layer>
+            </staff>
+          </section>
+        </score>
+      </mdiv>
+    </body>
+  </music>
+</mei>
