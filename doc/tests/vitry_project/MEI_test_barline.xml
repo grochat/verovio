@@ -55,7 +55,6 @@
                     <syl xml:id="V-10" wordpos="m" con="d">tu</syl>
                   </verse>
                 </note>
-                <barLine form="invis"/>
                 <note xml:id="N-5" dur="brevis" oct="4" pname="b">
                   <verse xml:id="V-11" n="1" lineid="0">
                     <syl xml:id="V-12" wordpos="t">a</syl>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title auth="11Virtutibus-BE">11 - Virtutibus laudabilis</title>
+      </titleStmt>
+      <sourceDesc>
+        <source>
+          <bibl>
+            <abbr>CH-BEb_421</abbr>
+          </bibl>
+        </source>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application>
+          <name version="git-efa5eb5" isodate="2022-12-18T23:54:06+01:00">Projet Vitry, application Coussemaker</name>
+        </application>
+      </appInfo>
+    </encodingDesc>
+  </meiHead>
+  <music>
+    <body>
+      <mdiv>
+        <score>
+          <scoreDef>
+            <staffGrp>
+              <staffDef xml:id="contratenor" type="non" key.sig="1f" lines="5" n="1" notationtype="mensural.black">
+                <clef xml:id="V-1" shape="C" line="3"/>
+                <label xml:id="V-2">contratenor</label>
+              </staffDef>
+            </staffGrp>
+          </scoreDef>
+          <section>
+            <staff xml:id="contratenorB" n="1">
+              <layer xml:id="V-3" n="1">
+                <sb xml:id="V-4" type="linea"/>
+                <mensur modusminor="3" tempus="2" prolatio="3"/>
+                <ligature xml:id="V-6">
+                  <note xml:id="N-1" dur="longa" dur.quality="imperfecta" oct="4" pname="c" num="3" numbase="2"/>
+                  <note xml:id="N-2" dur="brevis" oct="3" pname="a"/>
+                  <note xml:id="N-3" dur="brevis" oct="4" pname="c" lig="obliqua"/>
+                  <note xml:id="N-4" dur="brevis" oct="3" pname="f"/>
+                  <note xml:id="N-5" dur="brevis" oct="4" pname="d"/>
+                  <note xml:id="N-6" dur="longa" dur.quality="imperfecta" oct="4" pname="c" num="3" numbase="2"/>
+                </ligature>
+                <rest xml:id="N-7" dur="3B"/>
+                <rest xml:id="N-8" dur="3B"/>
+                <rest xml:id="N-9" dur="3B"/>
+                <ligature xml:id="V-7">
+                  <note xml:id="N-10" dur="brevis" oct="3" pname="f"/>
+                  <note xml:id="N-11" stem.visible="true" stem.pos="right" stem.dir="down" dur="longa" dur.quality="imperfecta" oct="4" pname="d" num="3" numbase="2"/>
+                </ligature>
+              </layer>
+            </staff>
+          </section>
+        </score>
+      </mdiv>
+    </body>
+  </music>
+</mei>

@@ -559,6 +559,9 @@ void View::DrawLigatureNote(DeviceContext *dc, LayerElement *element, Layer *lay
                     case -4:
                         code = SMUFL_E98C_mensuralObliqueDesc5thBlack;
                         break;
+                    case -5:
+                        code = SMUFL_F730_mensuralObliqueDesc6thBlack;
+                        break;
                     case 1:
                         code = SMUFL_E970_mensuralObliqueAsc2ndBlack;
                         break;

@@ -348,6 +348,7 @@ enum {
     SMUFL_F720_chantConnectingLineDesc3rd = 0xF720,
     SMUFL_F721_chantConnectingLineDesc4th = 0xF721,
     SMUFL_F722_chantConnectingLineDesc5th = 0xF722,
+    SMUFL_F730_mensuralObliqueDesc6thBlack = 0xF730,
     SMUFL_E970_mensuralObliqueAsc2ndBlack = 0xE970,
     SMUFL_E974_mensuralObliqueAsc3rdBlack = 0xE974,
     SMUFL_E978_mensuralObliqueAsc4thBlack = 0xE978,
@@ -409,7 +410,7 @@ enum {
 };
 
 /** The number of glyphs for verification **/
-#define SMUFL_COUNT 384
+#define SMUFL_COUNT 385
 
 } // namespace vrv
 
