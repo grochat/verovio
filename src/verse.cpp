@@ -81,6 +81,7 @@ int Verse::AdjustPosition(int &overlap, int freeSpace, Doc *doc)
     assert(doc);
 
     int nextFreeSpace = 0;
+    freeSpace = std::min( freeSpace, doc->GetDrawingUnit(100)/4);
 
     if (overlap > 0) {
         // We have enough space to absorb the overla completely
