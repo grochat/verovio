@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1241828086
-ModificationTime: 1670404559
+ModificationTime: 1674321976
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -50,7 +50,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 156 13 7
+WinInfo: 208 13 7
 BeginPrivate: 9
 BlueValues 17 [ -12 7 107 130 ]
 BlueScale 7 0.04438
@@ -190,7 +190,7 @@ Grid
  448 -700 l 1024
 EndSplineSet
 TeXData: 1 0 0 91226 45613 30408 88080 1048576 30408 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 391 318
+BeginChars: 391 319
 
 StartChar: zeroWidthSpace
 Encoding: 32 32 0
@@ -214,7 +214,7 @@ EndChar
 
 StartChar: plicaSemibrevisAscBlack
 Encoding: 34 34 2
-AltUni2: 00e998.ffffffff.0 00f022.ffffffff.0
+AltUni2: 00f022.ffffffff.0 00e998.ffffffff.0
 Width: 160
 VWidth: 1592
 Flags: HMW
@@ -319,7 +319,7 @@ EndChar
 
 StartChar: mensuralProlation1
 Encoding: 38 38 6
-AltUni2: 00e910.ffffffff.0 00f026.ffffffff.0
+AltUni2: 00f026.ffffffff.0 00e910.ffffffff.0
 Width: 302
 VWidth: 600
 Flags: HW
@@ -358,7 +358,7 @@ EndChar
 
 StartChar: mensuralProlation2
 Encoding: 39 39 7
-AltUni2: 00e911.ffffffff.0 00f027.ffffffff.0
+AltUni2: 00f027.ffffffff.0 00e911.ffffffff.0
 Width: 302
 VWidth: 600
 Flags: HMW
@@ -401,7 +401,7 @@ EndChar
 
 StartChar: mensuralProlation6
 Encoding: 41 41 9
-AltUni2: 00e915.ffffffff.0 00f029.ffffffff.0
+AltUni2: 00f029.ffffffff.0 00e915.ffffffff.0
 Width: 283
 VWidth: 600
 Flags: HMW
@@ -430,7 +430,7 @@ EndChar
 
 StartChar: mensuralProlation7
 Encoding: 42 42 10
-AltUni2: 00e916.ffffffff.0 00f02a.ffffffff.0
+AltUni2: 00f02a.ffffffff.0 00e916.ffffffff.0
 Width: 284
 VWidth: 600
 Flags: HW
@@ -464,7 +464,7 @@ EndChar
 
 StartChar: chantCustosStemUpPosMiddle
 Encoding: 43 43 11
-AltUni2: 00ea06.ffffffff.0 00f02b.ffffffff.0
+AltUni2: 00f02b.ffffffff.0 00ea06.ffffffff.0
 Width: 53
 Flags: MW
 HStem: -9 19
@@ -494,7 +494,7 @@ EndChar
 
 StartChar: chantCustosStemUpPosLow
 Encoding: 44 44 12
-AltUni2: 00ea05.ffffffff.0 00f02c.ffffffff.0
+AltUni2: 00f02c.ffffffff.0 00ea05.ffffffff.0
 Width: 53
 Flags: MW
 HStem: -71 125
@@ -546,7 +546,7 @@ EndChar
 
 StartChar: mensuralCustosUp
 Encoding: 46 46 14
-AltUni2: 00ea02.ffffffff.0 00f02e.ffffffff.0
+AltUni2: 00f02e.ffffffff.0 00ea02.ffffffff.0
 Width: 154
 Flags: MW
 HStem: -17 76
@@ -1180,7 +1180,7 @@ EndChar
 
 StartChar: chantPunctumBlack
 Encoding: 88 88 43
-AltUni2: 00e990.ffffffff.0 00f058.ffffffff.0
+AltUni2: 00f058.ffffffff.0 00e990.ffffffff.0
 Width: 171
 VWidth: 1650
 Flags: HMW
@@ -1192,7 +1192,7 @@ EndChar
 
 StartChar: virgaShortBlack
 Encoding: 89 89 44
-AltUni2: 00f059.ffffffff.0 00f701.ffffffff.0
+AltUni2: 00f701.ffffffff.0 00f059.ffffffff.0
 Width: 171
 VWidth: 1660
 Flags: HMW
@@ -1206,7 +1206,7 @@ EndChar
 
 StartChar: virgaBlack
 Encoding: 90 90 45
-AltUni2: 00e996.ffffffff.0 00f05a.ffffffff.0
+AltUni2: 00f05a.ffffffff.0 00e996.ffffffff.0
 Width: 171
 VWidth: 1660
 Flags: HMW
@@ -1538,7 +1538,7 @@ EndChar
 
 StartChar: mensuralLongaBlack
 Encoding: 101 101 55
-AltUni2: 00e951.ffffffff.0 00f065.ffffffff.0
+AltUni2: 00f065.ffffffff.0 00e951.ffffffff.0
 Width: 180
 VWidth: 1567
 Flags: HMW
@@ -1562,7 +1562,7 @@ EndChar
 
 StartChar: mensuralSemibrevisBlack
 Encoding: 104 104 57
-AltUni2: 00e953.ffffffff.0 00f068.ffffffff.0
+AltUni2: 00f068.ffffffff.0 00e953.ffffffff.0
 Width: 170
 VWidth: 1703
 Flags: HMW
@@ -1574,7 +1574,7 @@ EndChar
 
 StartChar: mensuralMinimaBlack
 Encoding: 105 105 58
-AltUni2: 00e954.ffffffff.0 00f069.ffffffff.0
+AltUni2: 00f069.ffffffff.0 00e954.ffffffff.0
 Width: 170
 VWidth: 1676
 Flags: HMW
@@ -1587,7 +1587,7 @@ EndChar
 
 StartChar: mensuralSemibrevisCaudataBlack
 Encoding: 106 106 59
-AltUni2: 00e959.ffffffff.0 00f06a.ffffffff.0
+AltUni2: 00f06a.ffffffff.0 00e959.ffffffff.0
 Width: 170
 VWidth: 1676
 Flags: HMW
@@ -1601,7 +1601,7 @@ EndChar
 
 StartChar: mensuralDragmaBlack
 Encoding: 107 107 60
-AltUni2: 00e95a.ffffffff.0 00f06b.ffffffff.0
+AltUni2: 00f06b.ffffffff.0 00e95a.ffffffff.0
 Width: 186
 VWidth: 1676
 Flags: HMW
@@ -1626,7 +1626,7 @@ EndChar
 
 StartChar: mensuralSemibrevisObliqueBlack
 Encoding: 109 109 61
-AltUni2: 00e95b.ffffffff.0 00f06d.ffffffff.0
+AltUni2: 00f06d.ffffffff.0 00e95b.ffffffff.0
 Width: 178
 VWidth: 1676
 Flags: HMW
@@ -1688,7 +1688,7 @@ EndChar
 
 StartChar: mensuralSemiminimaBlack
 Encoding: 111 111 63
-AltUni2: 00e955.ffffffff.0 00f06f.ffffffff.0
+AltUni2: 00f06f.ffffffff.0 00e955.ffffffff.0
 Width: 170
 VWidth: 1676
 Flags: HMW
@@ -2406,7 +2406,7 @@ EndChar
 
 StartChar: obliqueDesc6thBlack
 Encoding: 164 167 92
-AltUni2: 00f0a4.ffffffff.0 00f730.ffffffff.0
+AltUni2: 00f730.ffffffff.0 00f0a4.ffffffff.0
 Width: 668
 Flags: HMW
 HStem: 0 13 166 17 211 114
@@ -2518,7 +2518,7 @@ EndChar
 
 StartChar: mensuralLongaWhite
 Encoding: 170 8482 97
-AltUni2: 00f0aa.ffffffff.0 00e95d.ffffffff.0
+AltUni2: 00e95d.ffffffff.0 00f0aa.ffffffff.0
 Width: 180
 VWidth: 1567
 Flags: HMW
@@ -2972,7 +2972,7 @@ EndChar
 
 StartChar: mensuralMaximaWhite
 Encoding: 179 8805 105
-AltUni2: 00f0b3.ffffffff.0 00e95c.ffffffff.0
+AltUni2: 00e95c.ffffffff.0 00f0b3.ffffffff.0
 Width: 390
 Flags: HMW
 HStem: -340.109 36.8902 32.3914 188.05 305.918 31.4916
@@ -3153,7 +3153,7 @@ EndChar
 
 StartChar: mensuralSemibrevisWhite
 Encoding: 184 8719 109
-AltUni2: 00f0b8.ffffffff.0 00e957.ffffffff.0
+AltUni2: 00e957.ffffffff.0 00f0b8.ffffffff.0
 Width: 168
 VWidth: 1622
 Flags: HMW
@@ -3180,7 +3180,7 @@ EndChar
 
 StartChar: mensuralMinimaWhite
 Encoding: 185 960 110
-AltUni2: 00f0b9.ffffffff.0 00e95f.ffffffff.0
+AltUni2: 00e95f.ffffffff.0 00f0b9.ffffffff.0
 Width: 169
 VWidth: 1622
 Flags: HMW
@@ -4082,7 +4082,7 @@ EndChar
 
 StartChar: mensuralBrevisWhite
 Encoding: 223 64258 142
-AltUni2: 00f0df.ffffffff.0 00e9ee.ffffffff.0
+AltUni2: 00e9ee.ffffffff.0 00f0df.ffffffff.0
 Width: 171
 VWidth: 1330
 Flags: HMW
@@ -4342,7 +4342,7 @@ EndChar
 
 StartChar: obliqueDesc3rdWhite
 Encoding: 241 210 150
-AltUni2: 00e987.ffffffff.0 00f0f1.ffffffff.0
+AltUni2: 00f0f1.ffffffff.0 00e987.ffffffff.0
 Width: 489
 VWidth: 978
 Flags: HMW
@@ -4355,7 +4355,7 @@ EndChar
 
 StartChar: obliqueDesc4thWhite
 Encoding: 242 218 151
-AltUni2: 00e98b.ffffffff.0 00f0f2.ffffffff.0
+AltUni2: 00f0f2.ffffffff.0 00e98b.ffffffff.0
 Width: 538
 Flags: HMW
 HStem: 329.571 40.3193
@@ -4366,7 +4366,7 @@ EndChar
 
 StartChar: obliqueDesc5thWhite
 Encoding: 243 219 152
-AltUni2: 00e98f.ffffffff.0 00f0f3.ffffffff.0
+AltUni2: 00f0f3.ffffffff.0 00e98f.ffffffff.0
 Width: 676
 Flags: HMW
 HStem: 427.555 22.86 492.325 100.33 677.745 100.33 819.985 22.86
@@ -4492,7 +4492,7 @@ EndChar
 
 StartChar: stemInitialDownShort
 Encoding: 250 729 157
-AltUni2: 00e99c.ffffffff.0 00f0fa.ffffffff.0
+AltUni2: 00f0fa.ffffffff.0 00e99c.ffffffff.0
 Width: 0
 Flags: HMW
 HStem: 6 20G
@@ -4503,7 +4503,7 @@ EndChar
 
 StartChar: obliqueDesc2ndWhite
 Encoding: 240 63743 158
-AltUni2: 00e983.ffffffff.0 00f0f0.ffffffff.0
+AltUni2: 00f0f0.ffffffff.0 00e983.ffffffff.0
 Width: 463
 VWidth: 909
 Flags: HW
@@ -8000,7 +8000,7 @@ EndChar
 
 StartChar: mensuralFusaBlack
 Encoding: 92 92 258
-AltUni2: 00f702.ffffffff.0 00f05c.ffffffff.0
+AltUni2: 00f05c.ffffffff.0 00f702.ffffffff.0
 Width: 198
 VWidth: 1676
 Flags: W
@@ -8918,7 +8918,7 @@ EndChar
 
 StartChar: chantQuilisma
 Encoding: 103 103 283
-AltUni2: 00f067.ffffffff.0 00e99b.ffffffff.0
+AltUni2: 00e99b.ffffffff.0 00f067.ffffffff.0
 Width: 165
 Flags: HW
 HStem: -3.64243 32.8125G 397.92 31.25G
@@ -10341,6 +10341,39 @@ SplineSet
  -54.5762715294 128.548828125 -34.4246209408 127.2890625 -20.08203125 127.2890625 c 0
  -2.384765625 127.2890625 6 114.8359375 6 98 c 0
  6 84.97265625 5.9287109375 87.5625 5.6826171875 74.6669921875 c 0
+EndSplineSet
+EndChar
+
+StartChar: mensuralFclef2
+Encoding: 256 62981 318
+Width: 300
+Flags: W
+HStem: -679 123G -463 123G -298 38G
+VStem: 604 223 975 146G 1158 123G
+LayerCount: 2
+Fore
+SplineSet
+221 -12 m 1
+ 254 -54 267 -69 299 -103 c 1
+ 225 -192 l 1
+ 196 -163 178 -135 141 -100 c 1
+ 141 -100 202 -39 221 -12 c 1
+218 188 m 1
+ 251 146 264 131 296 97 c 1
+ 222 8 l 1
+ 193 37 175 65 138 100 c 1
+ 138 100 199 161 218 188 c 1
+128 -325 m 1
+ 125 -328 120 -330 114 -325 c 1
+ 114 -94.150390625 l 2
+ 114 -78.794921875 111.996323677 -69.3318710872 99.5 -67.7097441679 c 0
+ 86.3287023203 -66 77.2992158635 -66 66 -66 c 0
+ 46 -66 27 -69 0 -76 c 1
+ 0 59 l 1
+ 28 70 47 71 69 71 c 0
+ 86.6438512446 71 97.8557709449 70.3568068456 114.5 65.9754011718 c 0
+ 125.303821135 63.131417046 128 58.2607421875 128 43.349609375 c 6
+ 128 -325 l 1
 EndSplineSet
 EndChar
 EndChars

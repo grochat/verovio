@@ -290,6 +290,7 @@ enum {
     SMUFL_E88A_tupletColon = 0xE88A,
     SMUFL_E901_mensuralGclefPetrucci = 0xE901,
     SMUFL_E902_chantFclef = 0xE902,
+    SMUFL_E903_mensuralFclef = 0xE903,
     SMUFL_E904_mensuralFclefPetrucci = 0xE904,
     SMUFL_E905_mensuralCclef = 0xE905,
     SMUFL_E906_chantCclef = 0xE906,
@@ -337,6 +338,7 @@ enum {
     SMUFL_E959_mensuralBlackSemibrevisCaudata = 0xE959,
     SMUFL_E95A_mensuralBlackDragma = 0xE95A,
     SMUFL_E95B_mensuralBlackSemibrevisOblique = 0xE95B,
+    SMUFL_F605_mensuralFclef2 = 0xF605,
     SMUFL_F700_chantCclefSloped = 0xF700,
     SMUFL_F702_mensuralBlackFusa = 0xF702,
     SMUFL_F705_medRenSharp1 = 0xF705,
@@ -410,7 +412,7 @@ enum {
 };
 
 /** The number of glyphs for verification **/
-#define SMUFL_COUNT 385
+#define SMUFL_COUNT 387
 
 } // namespace vrv
 

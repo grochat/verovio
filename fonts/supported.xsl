@@ -2127,7 +2127,7 @@ a            <glyph glyph-code="E5BF" smufl-name="ornamentPrecompCadenceWithTurn
             <!--<glyph glyph-code="E900" smufl-name="mensuralGclef"/>-->
             <glyph glyph-code="E901" smufl-name="mensuralGclefPetrucci"/>
             <glyph glyph-code="E902" smufl-name="chantFclef"/>
-            <!--<glyph glyph-code="E903" smufl-name="mensuralFclef"/>-->
+            <glyph glyph-code="E903" smufl-name="mensuralFclef"/>
             <glyph glyph-code="E904" smufl-name="mensuralFclefPetrucci"/>
             <glyph glyph-code="E905" smufl-name="mensuralCclef"/>
             <glyph glyph-code="E906" smufl-name="chantCclef"/>
@@ -2235,6 +2235,7 @@ a            <glyph glyph-code="E5BF" smufl-name="ornamentPrecompCadenceWithTurn
             <range_start>U+E950</range_start>
         </medievalAndRenaissanceIndividualNotes>
         <medievalAndRenaissanceExtraMachautFontGlyphs>
+            <glyph glyph-code="F605" smufl-name="mensuralFclef2"/>
             <glyph glyph-code="F700" smufl-name="chantCclefSloped"/>
             <glyph glyph-code="F702" smufl-name="mensuralBlackFusa"/>
             <glyph glyph-code="F705" smufl-name="medRenSharp1"/>

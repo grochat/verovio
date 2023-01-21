@@ -972,6 +972,16 @@
                 -2.7813
             ]
         },
+        "mensuralFclef2": {
+            "bBoxNE": [
+                1.196,
+                0.752
+            ],
+            "bBoxSW": [
+                0.0,
+                -1.3122
+            ]
+        },
         "mensuralFclef_smufl": {
             "bBoxNE": [
                 1.656,

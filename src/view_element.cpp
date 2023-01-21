@@ -643,7 +643,13 @@ void View::DrawClef(DeviceContext *dc, LayerElement *element, Layer *layer, Staf
                     sym = SMUFL_E906_chantCclef;
             }
             else if (sym == SMUFL_E062_fClef)
-                sym = SMUFL_E902_chantFclef;
+            {
+                //Available in Machaut font only:
+                if ( Resources::GetGlyph((wchar_t) SMUFL_F605_mensuralFclef2) )
+                    sym = SMUFL_F605_mensuralFclef2;
+                else
+                    sym = SMUFL_E902_chantFclef;
+            }
         }
         else {
             if (sym == SMUFL_E050_gClef)
