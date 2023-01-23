@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title auth="03Quoniam-RO">3 - Quoniam secta latronum (philippedevitry.org)</title>
+      </titleStmt>
+      <sourceDesc>
+        <source>
+          <bibl>
+            <abbr>philippedevitry.org</abbr>
+          </bibl>
+        </source>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application>
+          <name version="git-" isodate="">Projet Vitry, application Coussemaker</name>
+        </application>
+      </appInfo>
+    </encodingDesc>
+  </meiHead>
+  <music>
+    <body>
+      <mdiv>
+        <score>
+          <scoreDef>
+            <staffGrp>
+              <staffDef xml:id="superius" type="lat" key.sig="0" lines="5" n="1" notationtype="mensural.black">
+                <clef shape="C" line="1"/>
+                <label>superius</label>
+              </staffDef>
+            </staffGrp>
+          </scoreDef>
+          <section>
+            <staff xml:id="superiusB" n="1">
+              <layer n="1">
+                <mensur modusminor="2" tempus="2" prolatio="3"/>
+                <note dur="semibrevis" oct="4" pname="g">
+                  <verse n="1" lineid="0">
+                    <syl wordpos="i" con="d">Quo</syl>
+                  </verse>
+                </note>
+                <note stem.visible="true" stem.pos="center" stem.dir="down" dur="minima" oct="4" pname="f">
+                  <verse n="1" lineid="0">
+                    <syl wordpos="m" con="d">ni</syl>
+                  </verse>
+                </note>
+                <note stem.visible="true" stem.pos="center" stem.dir="down" dur="minima" oct="4" pname="e"/>
+                <note stem.visible="true" stem.pos="center" stem.dir="down" dur="minima" oct="4" pname="f"/>
+                <note dur="brevis" oct="4" pname="g">
+                  <verse n="1" lineid="0">
+                    <syl wordpos="t">am</syl>
+                  </verse>
+                </note>
+                <note dur="brevis" oct="4" pname="f">
+                  <verse n="1" lineid="0">
+                    <syl wordpos="i" con="d">sec</syl>
+                  </verse>
+                </note>
+                <note dur="brevis" oct="4" pname="f">
+                  <verse n="1" lineid="0">
+                    <syl wordpos="t">ta</syl>
+                  </verse>
+                </note>
+              </layer>
+            </staff>
+          </section>
+        </score>
+      </mdiv>
+    </body>
+  </music>
+</mei>

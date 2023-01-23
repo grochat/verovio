@@ -2238,8 +2238,12 @@ a            <glyph glyph-code="E5BF" smufl-name="ornamentPrecompCadenceWithTurn
             <glyph glyph-code="F605" smufl-name="mensuralFclef2"/>
             <glyph glyph-code="F700" smufl-name="chantCclefSloped"/>
             <glyph glyph-code="F702" smufl-name="mensuralBlackFusa"/>
+            <glyph glyph-code="F703" smufl-name="mensuralBlackMinimaStemDown"/>
             <glyph glyph-code="F705" smufl-name="medRenSharp1"/>
             <glyph glyph-code="F706" smufl-name="medRenSharp2"/>
+            <glyph glyph-code="F707" smufl-name="mensuralBlackLongaStemUpRight"/>
+            <glyph glyph-code="F708" smufl-name="mensuralBlackLongaStemUpLeft"/>
+            <glyph glyph-code="F709" smufl-name="mensuralBlackBrevisStemDownLeft"/>
             <glyph glyph-code="F710" smufl-name="plicaBlackLongaAsc"/>
             <glyph glyph-code="F711" smufl-name="plicaBlackLongaDesc"/>
             <glyph glyph-code="F712" smufl-name="plicaBlackBrevisAsc"/>

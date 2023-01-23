@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title auth="01VosPastores-PA">1 - Vos pastores adulteri</title>
+      </titleStmt>
+      <sourceDesc>
+        <source>
+          <bibl>
+            <abbr>F-Pn_146</abbr>
+          </bibl>
+        </source>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application>
+          <name version="git-e6120c2" isodate="2022-12-17T12:31:22+01:00">Projet Vitry, application Coussemaker</name>
+        </application>
+      </appInfo>
+    </encodingDesc>
+  </meiHead>
+  <music>
+    <body>
+      <mdiv>
+        <score>
+          <scoreDef>
+            <staffGrp>
+              <staffDef xml:id="motetus" type="lat" key.sig="0" lines="5" n="1" notationtype="mensural.black">
+                <clef xml:id="V-1" shape="C" line="2"/>
+                <label xml:id="V-2">motetus</label>
+              </staffDef>
+            </staffGrp>
+          </scoreDef>
+          <section>
+            <staff xml:id="motetusB" n="1">
+              <layer xml:id="V-3" n="1">
+                <mensur modusminor="3" tempus="2" prolatio="3"/>
+                <note xml:id="N-1" dur="longa" oct="4" pname="e">
+                  <verse xml:id="V-5" n="1" lineid="0">
+                    <syl xml:id="V-6" wordpos="i" con="d">ua</syl>
+                  </verse>
+                </note>
+                <dot xml:id="V-7" form="div"/>
+                <note xml:id="N-2" dur="brevis" oct="4" pname="f">
+                  <verse xml:id="V-8" n="1" lineid="0">
+                    <syl xml:id="V-9" wordpos="m" con="d">ca</syl>
+                  </verse>
+                </note>
+                <note xml:id="N-3" stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="4" pname="g">
+                  <verse xml:id="V-10" n="1" lineid="0">
+                    <syl xml:id="V-11" wordpos="t" con="u">tis</syl>
+                  </verse>
+                </note>
+                <note xml:id="N-4" dur="semibrevis" oct="4" pname="f"/>
+                <note xml:id="N-5" dur="semibrevis" oct="4" pname="e"/>
+                <dot xml:id="V-12" form="div"/>
+                <note xml:id="N-6" stem.visible="true" stem.dir="down" stem.len="1" dur="semibrevis" oct="4" pname="a">
+                  <verse xml:id="V-13" n="1" lineid="0">
+                    <syl xml:id="V-14" wordpos="i" con="d">o</syl>
+                  </verse>
+                </note>
+                <note xml:id="N-7" dur="semibrevis" dur.quality="maior" oct="4" pname="g" num="3" numbase="2"/>
+                <note xml:id="N-8" dur="semibrevis" dur.quality="minor" oct="4" pname="f" num="3" numbase="1"/>
+                <ligature xml:id="V-17">
+                  <note xml:id="N-9" stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="4" pname="e">
+                    <verse xml:id="V-15" n="1" lineid="0">
+                      <syl xml:id="V-16" wordpos="m" con="d">pe</syl>
+                    </verse>
+                  </note>
+                  <note xml:id="N-10" dur="semibrevis" oct="4" pname="d" lig="obliqua"/>
+                  <note xml:id="N-11" dur="brevis" oct="4" pname="c"/>
+                </ligature>
+                <note xml:id="N-12" dur="longa" oct="4" pname="d">
+                  <verse xml:id="V-18" n="1" lineid="0">
+                    <syl xml:id="V-19" wordpos="t">ri</syl>
+                  </verse>
+                </note>
+                <barLine form="dbl"/>
+              </layer>
+            </staff>
+          </section>
+        </score>
+      </mdiv>
+    </body>
+  </music>
+</mei>

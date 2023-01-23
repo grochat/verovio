@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title auth="03Quoniam-ST">3 - Quoniam secta latronum</title>
+      </titleStmt>
+      <sourceDesc>
+        <source>
+          <bibl>
+            <abbr>F-Sm_22</abbr>
+          </bibl>
+        </source>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application>
+          <name version="git-47ca768" isodate="2022-12-17T09:39:12+01:00">Projet Vitry, application Coussemaker</name>
+        </application>
+      </appInfo>
+    </encodingDesc>
+  </meiHead>
+  <music>
+    <body>
+      <mdiv>
+        <score>
+          <scoreDef>
+            <staffGrp>
+              <staffDef xml:id="motetus" type="non" key.sig="1f" lines="5" n="1" notationtype="mensural.black">
+                <clef xml:id="V-1" shape="C" line="3"/>
+                <label xml:id="V-2">motetus</label>
+              </staffDef>
+            </staffGrp>
+          </scoreDef>
+          <section>
+            <staff xml:id="motetusB" n="1">
+              <layer xml:id="V-3" n="1">
+                <sb xml:id="V-4" type="pagina"/>
+                <mensur modusminor="2" tempus="2" prolatio="3"/>
+                <rest xml:id="N-1" dur="2B"/>
+                <rest xml:id="N-2" dur="2B"/>
+                <rest xml:id="N-3" dur="brevis" ploc="f" oloc="3" num="1" numbase="2"/>
+                <note xml:id="N-4" dur="brevis" oct="3" pname="f"/>
+                <note xml:id="N-5" dur="brevis" oct="3" pname="f"/>
+                <note xml:id="N-6" dur="semibrevis" oct="3" pname="g"/>
+                <note xml:id="N-7" dur="semibrevis" dur.quality="imperfecta" oct="3" pname="f" num="3" numbase="2"/>
+                <note xml:id="N-8" dur="minima" stem.dir="up" oct="3" pname="g"/>
+                <note xml:id="N-9" dur="semibrevis" oct="3" pname="a"/>
+                <note xml:id="N-10" dur="semibrevis" oct="3" pname="b" accid.ges="f"/>
+                <ligature xml:id="V-6" form="obliqua">
+                  <note xml:id="N-11" stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="3" pname="a"/>
+                  <note xml:id="N-12" dur="brevis" oct="3" pname="g"/>
+                </ligature>
+                <note xml:id="N-13" stem.visible="true" stem.pos="right" stem.dir="up" dur="longa" oct="3" pname="f"/>
+                <note xml:id="N-14" stem.visible="true" stem.pos="left" stem.dir="up" dur="longa" oct="3" pname="f"/>
+              </layer>
+            </staff>
+          </section>
+        </score>
+      </mdiv>
+    </body>
+  </music>
+</mei>

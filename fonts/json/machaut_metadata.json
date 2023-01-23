@@ -1032,6 +1032,16 @@
                 -0.8251
             ]
         },
+        "mensuralLongaBlStemUpRight_orig": {
+            "bBoxNE": [
+                0.7201,
+                2.339
+            ],
+            "bBoxSW": [
+                -0.008,
+                -0.38
+            ]
+        },
         "mensuralLongaBlack": {
             "bBoxNE": [
                 0.724,
@@ -1060,6 +1070,16 @@
             "bBoxSW": [
                 -0.61,
                 -2.369
+            ]
+        },
+        "mensuralLongaStemUpRightBlack": {
+            "bBoxNE": [
+                0.7201,
+                2.339
+            ],
+            "bBoxSW": [
+                -0.008,
+                -0.38
             ]
         },
         "mensuralLongaStemmed3rdBlack": {
@@ -1180,6 +1200,26 @@
             "bBoxSW": [
                 0.0,
                 -0.636
+            ]
+        },
+        "mensuralMinimaStemDownBlack": {
+            "bBoxNE": [
+                0.68,
+                0.644
+            ],
+            "bBoxSW": [
+                0.0,
+                -2.336
+            ]
+        },
+        "mensuralMinimaStemDownWhite": {
+            "bBoxNE": [
+                0.676,
+                0.612
+            ],
+            "bBoxSW": [
+                0.0,
+                -2.396
             ]
         },
         "mensuralMinimaWhite": {
@@ -1870,16 +1910,6 @@
             "bBoxSW": [
                 -0.0001,
                 -0.604
-            ]
-        },
-        "mensuralSquareStemUpRightBlack": {
-            "bBoxNE": [
-                0.7201,
-                2.339
-            ],
-            "bBoxSW": [
-                -0.008,
-                -0.38
             ]
         },
         "mensuralSquareStemUpRightWhite": {

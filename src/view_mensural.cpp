@@ -110,6 +110,11 @@ void View::DrawMensuralNote(DeviceContext *dc, LayerElement *element, Layer *lay
                     case DUR_2:
                     {
                         code = SMUFL_E954_mensuralBlackMinima;
+                        
+                        if ( note->HasStemDir() && stemDir == STEMDIRECTION_down)
+                            code = SMUFL_F703_mensuralBlackMinimaStemDown;
+                        else
+                            code = SMUFL_E954_mensuralBlackMinima;
                         break;
                     }
                         
@@ -393,7 +398,15 @@ void View::DrawMaximaToBrevis(DeviceContext *dc, int y, LayerElement *element, L
                 
             case DUR_LG:
             {
-                code = SMUFL_E951_mensuralBlackLonga;
+                if ( note->HasStemDir() && note->GetStemDir() == STEMDIRECTION_up )
+                {
+                    if ( note->HasStemPos() && note->GetStemPos() == STEMPOSITION_left )
+                        code = SMUFL_F708_mensuralBlackLongaStemUpLeft;
+                    else
+                        code = SMUFL_F707_mensuralBlackLongaStemUpRight;
+                }
+                else
+                    code = SMUFL_E951_mensuralBlackLonga;
                 //float f = r*(1.+(float)(rand() % 100)/100.);
                 //font->SetWidthToHeightRatio(f);
                 break;
@@ -401,7 +414,11 @@ void View::DrawMaximaToBrevis(DeviceContext *dc, int y, LayerElement *element, L
                 
             case DUR_BR:
             {
-                code = SMUFL_E952_mensuralBlackBrevis;
+                if ( note->HasStemDir() && note->GetStemDir() == STEMDIRECTION_down
+                     && note->HasStemPos() && note->GetStemPos() == STEMPOSITION_left )
+                    code = SMUFL_F709_mensuralBlackBrevisStemDownLeft;
+                else
+                    code = SMUFL_E952_mensuralBlackBrevis;
                 break;
             }
         }
