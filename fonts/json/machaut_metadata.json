@@ -44,11 +44,11 @@
         },
         "accidentalSharpParens": {
             "bBoxNE": [
-                0.6697,
-                1.861
+                0.6705,
+                2.3067
             ],
             "bBoxSW": [
-                -0.015,
+                -0.026,
                 -0.3818
             ]
         },
@@ -904,12 +904,12 @@
         },
         "mensuralCombStemUp": {
             "bBoxNE": [
-                0.076,
-                2.35
+                0.072,
+                2.236
             ],
             "bBoxSW": [
-                -0.0216,
-                -0.018
+                -0.032,
+                -0.372
             ]
         },
         "mensuralCombStemUpFlagRight": {
@@ -924,12 +924,12 @@
         },
         "mensuralCombStemUp_orig": {
             "bBoxNE": [
-                0.076,
-                2.35
+                0.072,
+                2.236
             ],
             "bBoxSW": [
-                -0.0216,
-                -0.018
+                -0.032,
+                -0.372
             ]
         },
         "mensuralCustosCheckmark_orig": {
@@ -965,7 +965,7 @@
         "mensuralDragmaWhite": {
             "bBoxNE": [
                 0.676,
-                2.78
+                2.666
             ],
             "bBoxSW": [
                 0.0,
@@ -2762,7 +2762,7 @@
                 -2.9171
             ]
         },
-        "semibrevisSquareStemUpBlack": {
+        "semibrevisSquareStemUpLeftBlack": {
             "bBoxNE": [
                 0.69,
                 2.263
@@ -2804,11 +2804,11 @@
         },
         "stemInitialUp": {
             "bBoxNE": [
-                0.051,
+                0.059,
                 2.236
             ],
             "bBoxSW": [
-                -0.053,
+                -0.045,
                 -0.372
             ]
         },

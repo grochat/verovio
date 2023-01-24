@@ -778,8 +778,7 @@ void View::DrawPlica(DeviceContext *dc, LayerElement *element, Layer *layer, Sta
     bool isLonga = (note->GetActualDur() == DUR_LG);
     bool up = (plica->GetDir() == STEMDIRECTION_basic_up);
     
-    if ( m_doc->GetOptions()->m_useGlyphMensural.GetValue()
-         && Resources::IsGlyphAvailable((wchar_t) SMUFL_F710_plicaBlackLongaAsc) )
+    if ( m_doc->GetOptions()->m_useGlyphMensural.GetValue() )
     {
         const int yNote = element->GetDrawingY();
         const int xNote = element->GetDrawingX();
@@ -799,11 +798,21 @@ void View::DrawPlica(DeviceContext *dc, LayerElement *element, Layer *layer, Sta
         {
             if ( up )
             {
-                code = SMUFL_F712_plicaBlackBrevisAsc;
+                if (note->IsInLigature()) {
+                    code = SMUFL_E93E_mensuralCombStemUp;
+                }
+                else {
+                    code = SMUFL_F712_plicaBlackBrevisAsc;
+                }
             }
             else
             {
-                code = SMUFL_F713_plicaBlackBrevisDesc;
+                if (note->IsInLigature()) {
+                    code = SMUFL_E93F_mensuralCombStemDown;
+                }
+                else {
+                    code = SMUFL_F713_plicaBlackBrevisDesc;
+                }
             }
         }
         dc->StartCustomGraphic("notehead");

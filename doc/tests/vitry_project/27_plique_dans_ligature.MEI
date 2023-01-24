@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title auth="04Adesto-PA">4 - Adesto sancta trinitas (F-Pn 146)</title>
+      </titleStmt>
+      <sourceDesc>
+        <source>
+          <bibl>
+            <abbr>F-Pn_146</abbr>
+          </bibl>
+        </source>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application>
+          <name version="git-" isodate="">Projet Vitry, application Coussemaker</name>
+        </application>
+      </appInfo>
+    </encodingDesc>
+  </meiHead>
+  <music>
+    <body>
+      <mdiv>
+        <score>
+          <scoreDef>
+            <staffGrp>
+              <staffDef xml:id="motetus" type="lat" key.sig="0" lines="5" n="1" notationtype="mensural.black">
+                <clef shape="C" line="3"/>
+                <label>motetus</label>
+              </staffDef>
+            </staffGrp>
+          </scoreDef>
+          <section>
+            <staff xml:id="motetusB" n="1">
+              <layer n="1">
+                <sb type="linea"/>
+                <mensur modusminor="2" tempus="2" prolatio="3"/>
+                <note dur="semibrevis" dur.quality="minor" oct="3" pname="b" num="3" numbase="1">
+                  <verse n="1" lineid="0">
+                    <syl wordpos="i" con="u">um</syl>
+                  </verse>
+                </note>
+                <note dur="longa" oct="4" pname="c"/>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="4" pname="c"/>
+                  <note dur="semibrevis" oct="4" pname="d"/>
+                  <note dur="brevis" oct="4" pname="e" lig="obliqua"/>
+                  <note dur="brevis" oct="4" pname="f">
+                    <plica dir="down"/>
+                  </note>
+                </ligature>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="4" pname="f"/>
+                  <note dur="semibrevis" oct="4" pname="e"/>
+                  <note dur="longa" oct="4" pname="d"/>
+                </ligature>
+                <rest dur="2B"/>
+              </layer>
+            </staff>
+          </section>
+        </score>
+      </mdiv>
+    </body>
+  </music>
+</mei>
