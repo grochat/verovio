@@ -1017,6 +1017,12 @@ int ObjectListInterface::GetListIndex(const Object *listElement)
     }
     return -1;
 }
+    
+
+int ObjectListInterface::GetSize() const
+{
+    return m_list.size();
+}
 
 Object *ObjectListInterface::GetListFirst(const Object *startFrom, const ClassId classId)
 {

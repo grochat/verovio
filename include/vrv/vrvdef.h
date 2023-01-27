@@ -543,7 +543,7 @@ enum {
     LIGATURE_STEM_RIGHT_UP = 4,
     LIGATURE_STEM_RIGHT_DOWN = 8,
     LIGATURE_OBLIQUE = 16,
-    LIGATURE_STACKED = 32
+    LIGATURE_STACKED_AT_THE_END = 32
 };
 
 //----------------------------------------------------------------------------

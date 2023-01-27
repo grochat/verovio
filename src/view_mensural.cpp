@@ -524,22 +524,29 @@ void View::DrawLigatureNote(DeviceContext *dc, LayerElement *element, Layer *lay
 
     Note *prevNote = dynamic_cast<Note *>(ligature->GetListPrevious(note));
     Note *nextNote = dynamic_cast<Note *>(ligature->GetListNext(note));
+    Note *afterNextNote = nextNote? dynamic_cast<Note *>(ligature->GetListNext(nextNote)):nullptr;
 
     int position = ligature->GetListIndex(note);
+    int ligatureLength = ligature->GetSize();
+    bool isEnd = (position == (ligature->GetSize() - 1));
     assert(position != -1);
     int shape = ligature->m_drawingShapes.at(position);
     int prevShape = (position > 0) ? ligature->m_drawingShapes.at(position - 1) : 0;
+    //int nextShape = (position < ligature->GetSize()-1) ? ligature->m_drawingShapes.at(position + 1) : 0;
 
     /** code duplicated from View::DrawMaximaToBrevis */
     bool isMensuralBlack = (staff->m_drawingNotationType == NOTATIONTYPE_mensural_black);
     bool fillNotehead = (isMensuralBlack || note->GetColored()) && !(isMensuralBlack && note->GetColored());
     bool oblique = shape & LIGATURE_OBLIQUE || prevShape & LIGATURE_OBLIQUE;
     bool obliqueEnd = prevShape & LIGATURE_OBLIQUE;
-    bool stackedEnd = shape & LIGATURE_STACKED;
+    //bool nextStackedEnd = shape & LIGATURE_STACKED_AT_THE_END;
+    bool stackedEnd = (shape & LIGATURE_STACKED_AT_THE_END);//||(nextShape & LIGATURE_STACKED_AT_THE_END);
 
     if ( m_doc->GetOptions()->m_useGlyphMensural.GetValue() )  // VITRY project phase II
     {
         int interval = nextNote? nextNote->GetPitchInterface()->PitchDifferenceTo( note->GetPitchInterface() ):0;
+        int intervalAfter = afterNextNote? afterNextNote->GetPitchInterface()->PitchDifferenceTo( nextNote->GetPitchInterface() ):0;
+        int intervalBefore = prevNote? note->GetPitchInterface()->PitchDifferenceTo( prevNote->GetPitchInterface() ):0;
         int xNote = element->GetDrawingX();
         int yNote = element->GetDrawingY();
         int adv = element->GetDrawingXRel();
@@ -554,7 +561,40 @@ void View::DrawLigatureNote(DeviceContext *dc, LayerElement *element, Layer *lay
         code = -1;
         if ( !obliqueEnd )
         {
-            code = SMUFL_E952_mensuralBlackBrevis;
+            if ( isEnd && stackedEnd )
+            {
+                switch (intervalBefore)
+                {
+                    case 1:
+                        code = SMUFL_F742_pesFinal2ndBlack;
+                        break;
+                    case 2:
+                        code = SMUFL_F743_pesFinal3rdBlack;
+                        break;
+                    case 3:
+                        code = SMUFL_F744_pesFinal4thBlack;
+                        break;
+                    case 4:
+                        code = SMUFL_F745_pesFinal5thBlack;
+                        break;
+                    case 5:
+                        code = SMUFL_F746_pesFinal6thBlack;
+                        break;
+                    case 6:
+                        code = SMUFL_F747_pesFinal7thBlack;
+                        break;
+                    case 7:
+                        code = SMUFL_F748_pesFinal8vaBlack;
+                        break;
+                }
+            }
+            else
+            {
+                if ( position == ligatureLength - 2 && stackedEnd && interval == 1 )
+                    code = SMUFL_F740_pesInitialTampedBlack;
+                else
+                    code = SMUFL_E952_mensuralBlackBrevis;
+            }
             if ( note->GetActualDur() == DUR_MX )
                 code = SMUFL_E930_mensuralNoteheadMaximaBlack;
         }
@@ -562,22 +602,30 @@ void View::DrawLigatureNote(DeviceContext *dc, LayerElement *element, Layer *lay
         {
             if ( !obliqueEnd )
             {
+                bool crushed = stackedEnd && intervalAfter == 1;
                 switch (interval)
                 {
                     case -1:
-                        code = SMUFL_E980_mensuralObliqueDesc2ndBlack;
+                    {
+                        if ( stackedEnd && intervalAfter == 2 )
+                            code = SMUFL_F750_obliqueConcaveDesc2ndBlack;
+                        else if ( crushed )
+                            code = SMUFL_F752_porrectusObl2ndCrushedBlack;
+                        else
+                            code = SMUFL_E980_mensuralObliqueDesc2ndBlack;
                         break;
+                    }
                     case -2:
-                        code = SMUFL_E984_mensuralObliqueDesc3rdBlack;
+                        code = crushed?SMUFL_F753_porrectusObl3rdCrushedBlack:SMUFL_E984_mensuralObliqueDesc3rdBlack;
                         break;
                     case -3:
-                        code = SMUFL_E988_mensuralObliqueDesc4thBlack;
+                        code = crushed?SMUFL_F754_porrectusObl4thCrushedBlack:SMUFL_E988_mensuralObliqueDesc4thBlack;
                         break;
                     case -4:
-                        code = SMUFL_E98C_mensuralObliqueDesc5thBlack;
+                        code = crushed?SMUFL_F755_porrectusObl5thCrushedBlack:SMUFL_E98C_mensuralObliqueDesc5thBlack;
                         break;
                     case -5:
-                        code = SMUFL_F730_mensuralObliqueDesc6thBlack;
+                        code = crushed?SMUFL_F756_porrectusObl6thCrushedBlack:SMUFL_F730_mensuralObliqueDesc6thBlack;
                         break;
                     case 1:
                         code = SMUFL_E970_mensuralObliqueAsc2ndBlack;
@@ -608,7 +656,7 @@ void View::DrawLigatureNote(DeviceContext *dc, LayerElement *element, Layer *lay
             code = (shape & LIGATURE_STEM_RIGHT_UP)? SMUFL_E93E_mensuralCombStemUp:SMUFL_E93F_mensuralCombStemDown;
             step += DrawSmuflCode(dc, xNote+step, yNote, code, staff->m_drawingStaffSize, false);
         }
-        if ( (!oblique || obliqueEnd) && fabs(interval) > 1 )
+        if ( !stackedEnd && (!oblique || obliqueEnd) && fabs(interval) > 1 )
         {
             code = -1;
             if ( interval == -4 )
@@ -638,7 +686,7 @@ void View::DrawLigatureNote(DeviceContext *dc, LayerElement *element, Layer *lay
         //font->SetWidthToHeightRatio(r);
         dc->EndCustomGraphic();
     }
-    else
+    else    //using polygons (not glyphs!)
     {
         int stemWidth = m_doc->GetDrawingStemWidth(staff->m_drawingStaffSize);
         int strokeWidth = 2.8 * stemWidth;

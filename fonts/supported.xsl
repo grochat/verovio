@@ -2252,7 +2252,23 @@ a            <glyph glyph-code="E5BF" smufl-name="ornamentPrecompCadenceWithTurn
             <glyph glyph-code="F721" smufl-name="chantConnectingLineDesc4th"/>
             <glyph glyph-code="F722" smufl-name="chantConnectingLineDesc5th"/>
             <glyph glyph-code="F730" smufl-name="mensuralObliqueDesc6thBlack"/>
-            <!--<glyph glyph-code="F731" smufl-name="mensuralObliqueDesc6thWhite"/>-->
+            <glyph glyph-code="F740" smufl-name="pesInitialTampedBlack"/>
+            <glyph glyph-code="F741" smufl-name="pesPorrectusFinal2ndBlack"/>
+            <glyph glyph-code="F742" smufl-name="pesFinal2ndBlack"/>
+            <glyph glyph-code="F743" smufl-name="pesFinal3rdBlack"/>
+            <glyph glyph-code="F744" smufl-name="pesFinal4thBlack"/>
+            <glyph glyph-code="F745" smufl-name="pesFinal5thBlack"/>
+            <glyph glyph-code="F746" smufl-name="pesFinal6thBlack"/>
+            <glyph glyph-code="F747" smufl-name="pesFinal7thBlack"/>
+            <glyph glyph-code="F748" smufl-name="pesFinal8vaBlack"/>
+            <glyph glyph-code="F750" smufl-name="obliqueConcaveDesc2ndBlack"/>
+            <glyph glyph-code="F752" smufl-name="porrectusObl2ndCrushedBlack"/>
+            <glyph glyph-code="F753" smufl-name="porrectusObl3rdCrushedBlack"/>
+            <glyph glyph-code="F754" smufl-name="porrectusObl4thCrushedBlack"/>
+            <glyph glyph-code="F755" smufl-name="porrectusObl5thCrushedBlack"/>
+            <glyph glyph-code="F756" smufl-name="porrectusObl6thCrushedBlack"/>
+            <glyph glyph-code="F757" smufl-name="porrectusObl7thCrushedBlack"/>
+            <glyph glyph-code="F758" smufl-name="porrectusObl8vaCrushedBlack"/>
             <range_start>U+F700</range_start>
             <range_end>U+F730</range_end>
         </medievalAndRenaissanceExtraMachautFontGlyphs>

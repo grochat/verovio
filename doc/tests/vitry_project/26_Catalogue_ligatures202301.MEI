@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title auth="Catalogue_ligatures">Catalogue_ligatures</title>
+      </titleStmt>
+      <sourceDesc>
+        <source>
+          <bibl>
+            <abbr>tabourot</abbr>
+          </bibl>
+        </source>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application>
+          <name version="git-f1d61aa" isodate="2022-07-30T00:25:56+02:00">Projet Vitry, application Coussemaker</name>
+        </application>
+      </appInfo>
+    </encodingDesc>
+  </meiHead>
+  <music>
+    <body>
+      <mdiv>
+        <score>
+          <scoreDef>
+            <staffGrp>
+              <staffDef xml:id="Binariae_desc" type="lat" key.sig="0" lines="5" n="1" notationtype="mensural.black">
+                <clef shape="C" line="3"/>
+                <label>Binariae_desc</label>
+              </staffDef>
+              <staffDef xml:id="Binariae_asc" type="lat" key.sig="0" lines="5" n="2" notationtype="mensural.black">
+                <clef shape="C" line="3"/>
+                <label>Binariae_asc</label>
+              </staffDef>
+              <staffDef xml:id="Ternariae_clim" type="lat" key.sig="0" lines="5" n="3" notationtype="mensural.black">
+                <clef shape="C" line="3"/>
+                <label>Ternariae_clim</label>
+              </staffDef>
+              <staffDef xml:id="Ternariae_scan" type="lat" key.sig="0" lines="5" n="4" notationtype="mensural.black">
+                <clef shape="C" line="3"/>
+                <label>Ternariae_scan</label>
+              </staffDef>
+              <staffDef xml:id="Ternariae_torc" type="lat" key.sig="0" lines="5" n="5" notationtype="mensural.black">
+                <clef shape="C" line="3"/>
+                <label>Ternariae_torc</label>
+              </staffDef>
+              <staffDef xml:id="Ternariae_porr" type="lat" key.sig="0" lines="5" n="6" notationtype="mensural.black">
+                <clef shape="C" line="3"/>
+                <label>Ternariae_porr</label>
+              </staffDef>
+            </staffGrp>
+          </scoreDef>
+          <section>
+            <staff xml:id="Binariae_descB" n="1">
+              <layer n="1">
+                <mensur modusminor="2" tempus="2" prolatio="3"/>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="4" pname="d" lig="recta">
+                    <verse n="1" lineid="0">
+                      <syl wordpos="i" >Bre⧉Lo</syl>
+                    </verse>
+                  </note>
+                  <note dur="longa" oct="4" pname="c"/>
+                </ligature>
+                <ligature>
+                  <note dur="longa" oct="4" pname="d" lig="recta">
+                    <verse n="1" lineid="0">
+                      <syl wordpos="i" >Lo⧉Lo</syl>
+                    </verse>
+                  </note>
+                  <note dur="longa" oct="4" pname="c"/>
+                </ligature>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="4" pname="d" lig="obliqua">
+                    <verse n="1" lineid="0">
+                      <syl wordpos="i" >Bre~Bre</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="4" pname="c"/>
+                </ligature>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="4" pname="d" lig="recta">
+                    <verse n="1" lineid="0">
+                      <syl wordpos="i" >Bre⧉Bre</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="4" pname="c"/>
+                </ligature>
+                <ligature>
+                  <note dur="longa" oct="4" pname="d" lig="obliqua">
+                    <verse n="1" lineid="0">
+                      <syl wordpos="i" >Lo~Bre</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="4" pname="c"/>
+                </ligature>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="4" pname="d" lig="obliqua">
+                    <verse n="1" lineid="0">
+                      <syl wordpos="i" >Se~Se</syl>
+                    </verse>
+                  </note>
+                  <note dur="semibrevis" oct="4" pname="c"/>
+                </ligature>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="4" pname="d" lig="recta">
+                    <verse n="1" lineid="0">
+                      <syl wordpos="i" >Se⧉Se</syl>
+                    </verse>
+                  </note>
+                  <note dur="semibrevis" oct="4" pname="c"/>
+                </ligature>
+              </layer>
+            </staff>
+            <staff xml:id="Binariae_ascB" n="2">
+              <layer n="1">
+                <mensur modusminor="2" tempus="2" prolatio="3"/>
+                <ligature>
+                  <note dur="brevis" oct="4" pname="c" lig="recta">
+                    <verse n="1" lineid="1">
+                      <syl wordpos="i" >Bre⧉Lo↰</syl>
+                    </verse>
+                  </note>
+                  <note dur="longa" oct="4" pname="e"/>
+                </ligature>
+                <ligature>
+                  <note dur="brevis" oct="4" pname="c" lig="recta">
+                    <verse n="1" lineid="1">
+                      <syl wordpos="i" >Bre⧉Lo↰</syl>
+                    </verse>
+                  </note>
+                  <note dur="longa" oct="4" pname="d"/>
+                </ligature>
+                <ligature>
+                  <note dur="brevis" oct="4" pname="c" lig="recta">
+                    <verse n="1" lineid="1">
+                      <syl wordpos="i" >Bre⧉Lo</syl>
+                    </verse>
+                  </note>
+                  <note stem.visible="true" stem.pos="right" stem.dir="down" dur="longa" oct="4" pname="e"/>
+                </ligature>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="longa" oct="4" pname="c" lig="recta">
+                    <verse n="1" lineid="1">
+                      <syl wordpos="i" >Lo⧉Lo↰</syl>
+                    </verse>
+                  </note>
+                  <note dur="longa" oct="4" pname="e"/>
+                </ligature>
+                <ligature>
+                  <note stem.visible="true" stem.pos="right" stem.dir="down" dur="longa" oct="4" pname="c" lig="recta">
+                    <verse n="1" lineid="1">
+                      <syl wordpos="i" >Lo⧉Lo↰</syl>
+                    </verse>
+                  </note>
+                  <note dur="longa" oct="4" pname="d"/>
+                </ligature>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="longa" oct="4" pname="c" lig="recta">
+                    <verse n="1" lineid="1">
+                      <syl wordpos="i" >Lo⧉Lo</syl>
+                    </verse>
+                  </note>
+                  <note stem.visible="true" stem.pos="right" stem.dir="down" dur="longa" oct="4" pname="e"/>
+                </ligature>
+                <ligature>
+                  <note dur="brevis" oct="4" pname="c" lig="recta">
+                    <verse n="1" lineid="1">
+                      <syl wordpos="i" >Bre⧉Bre</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="4" pname="d"/>
+                </ligature>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="4" pname="c" lig="obliqua">
+                    <verse n="1" lineid="1">
+                      <syl wordpos="i" >Bre~Bre</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="4" pname="d"/>
+                </ligature>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="longa" oct="4" pname="c" lig="recta">
+                    <verse n="1" lineid="1">
+                      <syl wordpos="i" >Lo⧉Bre</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="4" pname="d"/>
+                </ligature>
+                <ligature>
+                  <note dur="longa" oct="4" pname="c" lig="obliqua">
+                    <verse n="1" lineid="1">
+                      <syl wordpos="i" >Lo~Bre</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="4" pname="d"/>
+                </ligature>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="4" pname="c" lig="recta">
+                    <verse n="1" lineid="1">
+                      <syl wordpos="i" >Se⧉Se</syl>
+                    </verse>
+                  </note>
+                  <note dur="semibrevis" oct="4" pname="e"/>
+                </ligature>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="4" pname="c" lig="obliqua">
+                    <verse n="1" lineid="1">
+                      <syl wordpos="i" >Se~Se</syl>
+                    </verse>
+                  </note>
+                  <note dur="semibrevis" oct="4" pname="e"/>
+                </ligature>
+              </layer>
+            </staff>
+            <staff xml:id="Ternariae_climB" n="3">
+              <layer n="1">
+                <mensur modusminor="2" tempus="2" prolatio="3"/>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="4" pname="f" lig="obliqua">
+                    <verse n="1" lineid="2">
+                      <syl wordpos="i" >Bre~BreLo</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="4" pname="d"/>
+                  <note dur="longa" oct="4" pname="c"/>
+                </ligature>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="4" pname="f" lig="recta">
+                    <verse n="1" lineid="2">
+                      <syl wordpos="i" >Bre⧉BreLo</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="4" pname="d"/>
+                  <note dur="longa" oct="4" pname="c"/>
+                </ligature>
+                <ligature>
+                  <note dur="longa" oct="4" pname="f" lig="recta">
+                    <verse n="1" lineid="2">
+                      <syl wordpos="i" >Lo⧉BreLo</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="4" pname="d"/>
+                  <note dur="longa" oct="4" pname="c"/>
+                </ligature>
+                <ligature>
+                  <note dur="longa" oct="4" pname="f" lig="obliqua">
+                    <verse n="1" lineid="2">
+                      <syl wordpos="i" >Lo~BreLo</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="4" pname="d"/>
+                  <note dur="longa" oct="4" pname="c"/>
+                </ligature>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="4" pname="f" lig="recta">
+                    <verse n="1" lineid="2">
+                      <syl wordpos="i" >Bre⧉Bre⧉Bre</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="4" pname="d" lig="recta"/>
+                  <note dur="brevis" oct="4" pname="c"/>
+                </ligature>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="4" pname="f" lig="recta">
+                    <verse n="1" lineid="2">
+                      <syl wordpos="i" >Bre⧉Bre~Bre</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="4" pname="d" lig="obliqua"/>
+                  <note dur="brevis" oct="4" pname="c"/>
+                </ligature>
+                <ligature>
+                  <note dur="longa" oct="4" pname="f">
+                    <verse n="1" lineid="2">
+                      <syl wordpos="i" >LoBre⧉Bre</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="4" pname="d" lig="recta"/>
+                  <note dur="brevis" oct="4" pname="c"/>
+                </ligature>
+                <ligature>
+                  <note dur="longa" oct="4" pname="f">
+                    <verse n="1" lineid="2">
+                      <syl wordpos="i" >LoBre~Bre</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="4" pname="d" lig="obliqua"/>
+                  <note dur="brevis" oct="4" pname="c"/>
+                </ligature>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="4" pname="f" lig="recta">
+                    <verse n="1" lineid="2">
+                      <syl wordpos="i" >Se⧉SeLo</syl>
+                    </verse>
+                  </note>
+                  <note dur="semibrevis" oct="4" pname="d"/>
+                  <note dur="longa" oct="4" pname="c"/>
+                </ligature>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="4" pname="f" lig="obliqua">
+                    <verse n="1" lineid="2">
+                      <syl wordpos="i" >Se~SeLo</syl>
+                    </verse>
+                  </note>
+                  <note dur="semibrevis" oct="4" pname="d"/>
+                  <note dur="longa" oct="4" pname="c"/>
+                </ligature>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="4" pname="f">
+                    <verse n="1" lineid="2">
+                      <syl wordpos="i" >SeSe⧉Bre</syl>
+                    </verse>
+                  </note>
+                  <note dur="semibrevis" oct="4" pname="d" lig="recta"/>
+                  <note dur="brevis" oct="4" pname="c"/>
+                </ligature>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="4" pname="f">
+                    <verse n="1" lineid="2">
+                      <syl wordpos="i" >SeSe~Bre</syl>
+                    </verse>
+                  </note>
+                  <note dur="semibrevis" oct="4" pname="d" lig="obliqua"/>
+                  <note dur="brevis" oct="4" pname="c"/>
+                </ligature>
+              </layer>
+            </staff>
+            <staff xml:id="Ternariae_scanB" n="4">
+              <layer n="1">
+                <mensur modusminor="2" tempus="2" prolatio="3"/>
+                <ligature>
+                  <note dur="brevis" oct="4" pname="c">
+                    <verse n="1" lineid="3">
+                      <syl wordpos="i" >BreBreLo</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="4" pname="d"/>
+                  <note dur="longa" oct="4" pname="f"/>
+                </ligature>
+                <ligature>
+                  <note dur="brevis" oct="4" pname="c">
+                    <verse n="1" lineid="3">
+                      <syl wordpos="i" >BreBreLo</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="4" pname="d"/>
+                  <note stem.visible="true" stem.pos="right" stem.dir="down" dur="longa" oct="4" pname="e"/>
+                </ligature>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="longa" oct="4" pname="c">
+                    <verse n="1" lineid="3">
+                      <syl wordpos="i" >LoBreLo</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="4" pname="d"/>
+                  <note dur="longa" oct="4" pname="f"/>
+                </ligature>
+                <ligature>
+                  <note dur="brevis" oct="4" pname="c">
+                    <verse n="1" lineid="3">
+                      <syl wordpos="i" >BreBreBre</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="4" pname="d"/>
+                  <note dur="brevis" oct="4" pname="e"/>
+                </ligature>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="longa" oct="4" pname="c">
+                    <verse n="1" lineid="3">
+                      <syl wordpos="i" >LoBreBre</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="4" pname="e"/>
+                  <note dur="brevis" oct="4" pname="g"/>
+                </ligature>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="3" pname="a">
+                    <verse n="1" lineid="3">
+                      <syl wordpos="i" >SeSeLo</syl>
+                    </verse>
+                  </note>
+                  <note dur="semibrevis" oct="4" pname="c"/>
+                  <note dur="longa" oct="4" pname="e"/>
+                </ligature>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="3" pname="a" lig="obliqua">
+                    <verse n="1" lineid="3">
+                      <syl wordpos="i" >SeSeLo</syl>
+                    </verse>
+                  </note>
+                  <note dur="semibrevis" oct="3" pname="b"/>
+                  <note dur="longa" oct="4" pname="d"/>
+                </ligature>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="3" pname="a">
+                    <verse n="1" lineid="3">
+                      <syl wordpos="i" >SeSeBre</syl>
+                    </verse>
+                  </note>
+                  <note dur="semibrevis" oct="3" pname="b"/>
+                  <note dur="brevis" oct="4" pname="c"/>
+                </ligature>
+              </layer>
+            </staff>
+            <staff xml:id="Ternariae_torcB" n="5">
+              <layer n="1">
+                <mensur modusminor="2" tempus="2" prolatio="3"/>
+                <ligature>
+                  <note dur="brevis" oct="4" pname="c">
+                    <verse n="1" lineid="4">
+                      <syl wordpos="i" >BreBreLo</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="4" pname="d"/>
+                  <note dur="longa" oct="4" pname="c"/>
+                </ligature>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="longa" oct="4" pname="c">
+                    <verse n="1" lineid="4">
+                      <syl wordpos="i" >LoBreLo</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="4" pname="d"/>
+                  <note dur="longa" oct="4" pname="c"/>
+                </ligature>
+                <ligature>
+                  <note dur="brevis" oct="4" pname="c">
+                    <verse n="1" lineid="4">
+                      <syl wordpos="i" >BreBreBre</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="4" pname="d"/>
+                  <note dur="brevis" oct="4" pname="c"/>
+                </ligature>
+                <ligature>
+                  <note dur="brevis" oct="4" pname="c">
+                    <verse n="1" lineid="4">
+                      <syl wordpos="i" >BreBreBre</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="4" pname="d" lig="obliqua"/>
+                  <note dur="brevis" oct="4" pname="c"/>
+                </ligature>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="longa" oct="4" pname="c">
+                    <verse n="1" lineid="4">
+                      <syl wordpos="i" >LoBreBre</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="4" pname="d"/>
+                  <note dur="brevis" oct="4" pname="c"/>
+                </ligature>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="longa" oct="4" pname="c">
+                    <verse n="1" lineid="4">
+                      <syl wordpos="i" >LoBreBre</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="4" pname="d" lig="obliqua"/>
+                  <note dur="brevis" oct="4" pname="c"/>
+                </ligature>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="4" pname="c">
+                    <verse n="1" lineid="4">
+                      <syl wordpos="i" >SeSeLo</syl>
+                    </verse>
+                  </note>
+                  <note dur="semibrevis" oct="4" pname="d"/>
+                  <note dur="longa" oct="4" pname="c"/>
+                </ligature>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="4" pname="c" lig="obliqua">
+                    <verse n="1" lineid="4">
+                      <syl wordpos="i" >SeSeLo</syl>
+                    </verse>
+                  </note>
+                  <note dur="semibrevis" oct="4" pname="d"/>
+                  <note dur="longa" oct="4" pname="c"/>
+                </ligature>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="4" pname="c">
+                    <verse n="1" lineid="4">
+                      <syl wordpos="i" >SeSeBre</syl>
+                    </verse>
+                  </note>
+                  <note dur="semibrevis" oct="4" pname="d"/>
+                  <note dur="brevis" oct="4" pname="c"/>
+                </ligature>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="4" pname="c">
+                    <verse n="1" lineid="4">
+                      <syl wordpos="i" >SeSeBre</syl>
+                    </verse>
+                  </note>
+                  <note dur="semibrevis" oct="4" pname="d" lig="obliqua"/>
+                  <note dur="brevis" oct="4" pname="c"/>
+                </ligature>
+              </layer>
+            </staff>
+            <staff xml:id="Ternariae_porrB" n="6">
+              <layer n="1">
+                <mensur modusminor="2" tempus="2" prolatio="3"/>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="4" pname="d" lig="obliqua">
+                    <verse n="1" lineid="5">
+                      <syl wordpos="i" >Bre~BreLo↰</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="4" pname="c"/>
+                  <note dur="longa" oct="4" pname="f"/>
+                </ligature>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="4" pname="d" lig="recta">
+                    <verse n="1" lineid="5">
+                      <syl wordpos="i" >Bre⧉BreLo↰</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="4" pname="c"/>
+                  <note dur="longa" oct="4" pname="f"/>
+                </ligature>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="4" pname="d" lig="obliqua">
+                    <verse n="1" lineid="5">
+                      <syl wordpos="i" >Bre~BreLo↰</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="4" pname="c"/>
+                  <note dur="longa" oct="4" pname="e"/>
+                </ligature>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="4" pname="d" lig="recta">
+                    <verse n="1" lineid="5">
+                      <syl wordpos="i" >Bre⧉BreLo↰</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="4" pname="c"/>
+                  <note dur="longa" oct="4" pname="e"/>
+                </ligature>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="4" pname="d">
+                    <verse n="1" lineid="5">
+                      <syl wordpos="i" >BreBreLo</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="4" pname="c"/>
+                  <note stem.visible="true" stem.pos="right" stem.dir="down" dur="longa" oct="4" pname="f"/>
+                </ligature>
+                <ligature>
+                  <note dur="longa" oct="4" pname="d" lig="recta">
+                    <verse n="1" lineid="5">
+                      <syl wordpos="i" >Lo⧉BreLo↰</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="4" pname="c"/>
+                  <note dur="longa" oct="4" pname="f"/>
+                </ligature>
+                <ligature>
+                  <note dur="longa" oct="4" pname="d" lig="obliqua">
+                    <verse n="1" lineid="5">
+                      <syl wordpos="i" >Lo~BreLo</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="4" pname="c"/>
+                  <note stem.visible="true" stem.pos="right" stem.dir="down" dur="longa" oct="4" pname="f"/>
+                </ligature>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="4" pname="d" lig="recta">
+                    <verse n="1" lineid="5">
+                      <syl wordpos="i" >Bre⧉BreBre</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="4" pname="c"/>
+                  <note dur="brevis" oct="4" pname="d"/>
+                </ligature>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="4" pname="d" lig="obliqua">
+                    <verse n="1" lineid="5">
+                      <syl wordpos="i" >Bre~BreBre</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="4" pname="c"/>
+                  <note dur="brevis" oct="4" pname="d"/>
+                </ligature>
+                <ligature>
+                  <note dur="longa" oct="4" pname="d" lig="recta">
+                    <verse n="1" lineid="5">
+                      <syl wordpos="i" >Lo⧉BreBre</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="4" pname="c"/>
+                  <note dur="brevis" oct="4" pname="d"/>
+                </ligature>
+                <ligature>
+                  <note dur="longa" oct="4" pname="d" lig="obliqua">
+                    <verse n="1" lineid="5">
+                      <syl wordpos="i" >Lo~BreBre</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="4" pname="c"/>
+                  <note dur="brevis" oct="4" pname="d"/>
+                </ligature>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="4" pname="d" lig="obliqua">
+                    <verse n="1" lineid="5">
+                      <syl wordpos="i" >Se~SeLo</syl>
+                    </verse>
+                  </note>
+                  <note dur="semibrevis" oct="4" pname="c"/>
+                  <note stem.visible="true" stem.pos="right" stem.dir="down" dur="longa" oct="4" pname="f"/>
+                </ligature>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="4" pname="d" lig="recta">
+                    <verse n="1" lineid="5">
+                      <syl wordpos="i" >Se⧉SeLo</syl>
+                    </verse>
+                  </note>
+                  <note dur="semibrevis" oct="4" pname="c"/>
+                  <note stem.visible="true" stem.pos="right" stem.dir="down" dur="longa" oct="4" pname="f"/>
+                </ligature>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="4" pname="d" lig="obliqua">
+                    <verse n="1" lineid="5">
+                      <syl wordpos="i" >Se~SeBre</syl>
+                    </verse>
+                  </note>
+                  <note dur="semibrevis" oct="4" pname="c"/>
+                  <note dur="brevis" oct="4" pname="e"/>
+                </ligature>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="4" pname="d" lig="recta">
+                    <verse n="1" lineid="5">
+                      <syl wordpos="i" >Se⧉SeBre</syl>
+                    </verse>
+                  </note>
+                  <note dur="semibrevis" oct="4" pname="c"/>
+                  <note dur="brevis" oct="4" pname="e"/>
+                </ligature>
+              </layer>
+            </staff>
+          </section>
+        </score>
+      </mdiv>
+    </body>
+  </music>
+</mei>

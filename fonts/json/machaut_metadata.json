@@ -1952,14 +1952,24 @@
                 -0.8442
             ]
         },
-        "obliqueConcaveDesc2ndBlack": {
+        "obliqueConcDesc2ndBlack_smufl": {
             "bBoxNE": [
                 2.036,
-                0.8593
+                0.3593
             ],
             "bBoxSW": [
                 -0.0,
-                -0.366
+                -0.866
+            ]
+        },
+        "obliqueConcaveDesc2ndBlack": {
+            "bBoxNE": [
+                2.036,
+                0.8613
+            ],
+            "bBoxSW": [
+                -0.0,
+                -0.364
             ]
         },
         "obliqueConcaveDesc2ndWhite": {
@@ -2570,6 +2580,76 @@
             "bBoxSW": [
                 0.0,
                 -0.304
+            ]
+        },
+        "porrObl2ndCrushedBlack_smufl": {
+            "bBoxNE": [
+                2.092,
+                0.364
+            ],
+            "bBoxSW": [
+                0.0,
+                -1.0183
+            ]
+        },
+        "porrObl3rdCrushedBlack_smufl": {
+            "bBoxNE": [
+                2.512,
+                0.3586
+            ],
+            "bBoxSW": [
+                0.0,
+                -1.5244
+            ]
+        },
+        "porrObl4thCrushedBlack_smufl": {
+            "bBoxNE": [
+                2.9,
+                0.36
+            ],
+            "bBoxSW": [
+                0.0,
+                -2.026
+            ]
+        },
+        "porrObl5thCrushedBlack_smufl": {
+            "bBoxNE": [
+                3.276,
+                0.36
+            ],
+            "bBoxSW": [
+                0.0,
+                -2.535
+            ]
+        },
+        "porrObl6thCrushedBlack_smufl": {
+            "bBoxNE": [
+                3.668,
+                0.362
+            ],
+            "bBoxSW": [
+                0.0,
+                -3.06
+            ]
+        },
+        "porrObl7thCrushedBlack_smufl": {
+            "bBoxNE": [
+                4.072,
+                0.365
+            ],
+            "bBoxSW": [
+                0.0,
+                -3.5695
+            ]
+        },
+        "porrObl8vaCrushedBlack_smufl": {
+            "bBoxNE": [
+                4.48,
+                0.38
+            ],
+            "bBoxSW": [
+                0.0,
+                -4.073
             ]
         },
         "porrectusObl2ndCrushedBlack": {

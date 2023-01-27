@@ -355,6 +355,23 @@ enum {
     SMUFL_F721_chantConnectingLineDesc4th = 0xF721,
     SMUFL_F722_chantConnectingLineDesc5th = 0xF722,
     SMUFL_F730_mensuralObliqueDesc6thBlack = 0xF730,
+    SMUFL_F740_pesInitialTampedBlack = 0xF740,
+    SMUFL_F741_pesPorrectusFinal2ndBlack = 0xF741,
+    SMUFL_F742_pesFinal2ndBlack = 0xF742,
+    SMUFL_F743_pesFinal3rdBlack = 0xF743,
+    SMUFL_F744_pesFinal4thBlack = 0xF744,
+    SMUFL_F745_pesFinal5thBlack = 0xF745,
+    SMUFL_F746_pesFinal6thBlack = 0xF746,
+    SMUFL_F747_pesFinal7thBlack = 0xF747,
+    SMUFL_F748_pesFinal8vaBlack = 0xF748,
+    SMUFL_F750_obliqueConcaveDesc2ndBlack = 0xF750,
+    SMUFL_F752_porrectusObl2ndCrushedBlack = 0xF752,
+    SMUFL_F753_porrectusObl3rdCrushedBlack = 0xF753,
+    SMUFL_F754_porrectusObl4thCrushedBlack = 0xF754,
+    SMUFL_F755_porrectusObl5thCrushedBlack = 0xF755,
+    SMUFL_F756_porrectusObl6thCrushedBlack = 0xF756,
+    SMUFL_F757_porrectusObl7thCrushedBlack = 0xF757,
+    SMUFL_F758_porrectusObl8vaCrushedBlack = 0xF758,
     SMUFL_E970_mensuralObliqueAsc2ndBlack = 0xE970,
     SMUFL_E974_mensuralObliqueAsc3rdBlack = 0xE974,
     SMUFL_E978_mensuralObliqueAsc4thBlack = 0xE978,
@@ -416,7 +433,7 @@ enum {
 };
 
 /** The number of glyphs for verification **/
-#define SMUFL_COUNT 391
+#define SMUFL_COUNT 408
 
 } // namespace vrv
 

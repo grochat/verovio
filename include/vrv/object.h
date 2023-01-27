@@ -1354,6 +1354,7 @@ public:
      * Look for the Object in the list and return its position (-1 if not found)
      */
     int GetListIndex(const Object *listElement);
+    int GetSize() const;
 
     /**
      * Gets the first item of type elementType starting at startFrom

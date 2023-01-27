@@ -284,14 +284,24 @@ int Ligature::CalcLigatureNotePos(FunctorParams *functorParams)
         if ( isLastNote && isMensuralBlack && dur2 == DUR_LG && up)
         {
             // Stack only if a least a third
-            int stackThreshold = 1;
+            int stackThreshold = 0;
             // If the previous was going down, adjust the threshold
-            if ((n1 > 0) && !previousUp) {
-                // For oblique, stack but only from a fourth, for recta, never stack them
-                stackThreshold = (m_drawingShapes.at(n1 - 1) & LIGATURE_OBLIQUE) ? 2 : -VRV_UNSET;
+            
+            if ( !params->m_doc->GetOptions()->m_useGlyphMensural.GetValue() )  // if not using glyphs for ligatures (VITRY project)
+            {
+                if ((n1 > 0) && !previousUp) {
+                    // For oblique, stack but only from a fourth, for recta, never stack them
+                    stackThreshold = (m_drawingShapes.at(n1 - 1) & LIGATURE_OBLIQUE) ? 2 : -VRV_UNSET;
+                }
             }
-            if (diatonicStep > stackThreshold && !note->HasStemDir() && !params->m_doc->GetOptions()->m_useGlyphMensural.GetValue() )
-                m_drawingShapes.at(n2) = LIGATURE_STACKED;
+            if (diatonicStep > stackThreshold && !note->HasStemDir() )
+            {
+                //m_drawingShapes.at(n2) = LIGATURE_STACKED_AT_THE_END;
+                int n = n2 - 1;
+                while (n >= 0 && n >= n2 - 2)
+                    m_drawingShapes.at(n--) |= LIGATURE_STACKED_AT_THE_END;
+                m_drawingShapes.at(n2) = LIGATURE_STACKED_AT_THE_END;
+            }
         }
 
         oblique = false;
@@ -317,7 +327,7 @@ int Ligature::CalcLigatureNotePos(FunctorParams *functorParams)
         int width = (note->GetDrawingRadius(params->m_doc, true) * 2)
             - params->m_doc->GetDrawingStemWidth(staff->m_drawingStaffSize);
         // With stacked notes, back-track the position
-        if (m_drawingShapes.at(n1 + 1) & LIGATURE_STACKED)
+        if (m_drawingShapes.at(n1 + 1) & LIGATURE_STACKED_AT_THE_END)
             previousRight -= width;
         note->SetDrawingXRel(previousRight);
         previousRight += width;
