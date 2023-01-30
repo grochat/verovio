@@ -2251,6 +2251,7 @@ a            <glyph glyph-code="E5BF" smufl-name="ornamentPrecompCadenceWithTurn
             <glyph glyph-code="F720" smufl-name="chantConnectingLineDesc3rd"/>
             <glyph glyph-code="F721" smufl-name="chantConnectingLineDesc4th"/>
             <glyph glyph-code="F722" smufl-name="chantConnectingLineDesc5th"/>
+            <glyph glyph-code="F72A" smufl-name="mensuralCombStemDownTampered"/>
             <glyph glyph-code="F730" smufl-name="mensuralObliqueDesc6thBlack"/>
             <glyph glyph-code="F740" smufl-name="pesInitialTampedBlack"/>
             <glyph glyph-code="F741" smufl-name="pesPorrectusFinal2ndBlack"/>
@@ -2262,6 +2263,7 @@ a            <glyph glyph-code="E5BF" smufl-name="ornamentPrecompCadenceWithTurn
             <glyph glyph-code="F747" smufl-name="pesFinal7thBlack"/>
             <glyph glyph-code="F748" smufl-name="pesFinal8vaBlack"/>
             <glyph glyph-code="F750" smufl-name="obliqueConcaveDesc2ndBlack"/>
+            <glyph glyph-code="F751" smufl-name="obliqueConcaveDesc3rdBlack"/>
             <glyph glyph-code="F752" smufl-name="porrectusObl2ndCrushedBlack"/>
             <glyph glyph-code="F753" smufl-name="porrectusObl3rdCrushedBlack"/>
             <glyph glyph-code="F754" smufl-name="porrectusObl4thCrushedBlack"/>

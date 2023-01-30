@@ -347,15 +347,15 @@ int BBoxDeviceContext::DrawMusicText(const std::wstring &text, int x, int y, boo
         glyph->GetBoundingBox(g_x, g_y, g_w, g_h);
         int advX = glyph->GetHorizAdvX();
 
-        int x_off = x + g_x * m_fontStack.top()->GetPointSize() / glyph->GetUnitsPerEm();
+        int x_off = round( (float) x + g_x * m_fontStack.top()->GetPointSize() / glyph->GetUnitsPerEm());
         // because we are in the drawing context, y position is already flipped
-        int y_off = y - g_y * m_fontStack.top()->GetPointSize() / glyph->GetUnitsPerEm();
+        int y_off = round( (float) y - g_y * m_fontStack.top()->GetPointSize() / glyph->GetUnitsPerEm());
 
-        UpdateBB(x_off, y_off, x_off + g_w * m_fontStack.top()->GetPointSize() / glyph->GetUnitsPerEm(),
+        UpdateBB(x_off, y_off, round( (float) x_off + g_w * m_fontStack.top()->GetPointSize() / glyph->GetUnitsPerEm()),
             // idem, y position is flipped
-            y_off - g_h * m_fontStack.top()->GetPointSize() / glyph->GetUnitsPerEm(), smuflGlyph);
+            round((float)y_off - g_h * m_fontStack.top()->GetPointSize() / glyph->GetUnitsPerEm()), smuflGlyph);
 
-        lastCharWidth = advX * m_fontStack.top()->GetPointSize() / glyph->GetUnitsPerEm();
+        lastCharWidth = round((float)advX * m_fontStack.top()->GetPointSize() / glyph->GetUnitsPerEm()) - 1;
         x += lastCharWidth; // move x to next char
         cummWidth += lastCharWidth;
     }

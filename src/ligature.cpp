@@ -138,7 +138,7 @@ int Ligature::CalcLigatureNotePos(FunctorParams *functorParams)
 
     bool isMensuralBlack = (staff->m_drawingNotationType == NOTATIONTYPE_mensural_black);
     bool oblique = false;
-    if ( notes->size() == 2 && this->GetForm() == LIGATUREFORM_obliqua)
+    if ( notes->size() == 2 && this->GetForm() == LIGATUREFORM_obliqua )
         oblique = true;
 
     // For better clarify, we loop withing the Ligature::CalcLigatureNotePos instead of
@@ -160,6 +160,8 @@ int Ligature::CalcLigatureNotePos(FunctorParams *functorParams)
         // Look at the @lig attribute on the previous note
         if (previousNote->GetLig() == LIGATUREFORM_obliqua)
             oblique = true;
+        else if (previousNote->GetLig() == LIGATUREFORM_recta)
+            oblique = false;
         int dur1 = previousNote->GetActualDur();
         int dur2 = note->GetActualDur();
         // Same treatment for Mx and LG execpt for positionning, which is done above
@@ -181,7 +183,10 @@ int Ligature::CalcLigatureNotePos(FunctorParams *functorParams)
         {
             if (up)
             {
-                m_drawingShapes.at(n1) = LIGATURE_STEM_RIGHT_DOWN;
+                if ( previousNote->HasStemPos() && previousNote->GetStemPos() == STEMPOSITION_left )
+                    m_drawingShapes.at(n1) = LIGATURE_STEM_LEFT_DOWN;
+                else
+                    m_drawingShapes.at(n1) = LIGATURE_STEM_RIGHT_DOWN;
                 m_drawingShapes.at(n2) = LIGATURE_STEM_RIGHT_DOWN;
             }
         }
@@ -190,12 +195,16 @@ int Ligature::CalcLigatureNotePos(FunctorParams *functorParams)
         {
             if (up)
             {
-                m_drawingShapes.at(n1) = LIGATURE_STEM_RIGHT_DOWN;
+                if ( previousNote->HasStemPos() && previousNote->GetStemPos() == STEMPOSITION_left )
+                    m_drawingShapes.at(n1) = LIGATURE_STEM_LEFT_DOWN;
+                else
+                    m_drawingShapes.at(n1) = LIGATURE_STEM_RIGHT_DOWN;
             }
             // automatically set oblique on B, but not with Mx and only at the beginning and end
             else if (!isMaxima && (n1 == 0 || isLastNote))
             {
-                m_drawingShapes.at(n1) = LIGATURE_OBLIQUE;
+                if ( previousNote->GetLig() != LIGATUREFORM_recta )
+                    m_drawingShapes.at(n1) = LIGATURE_OBLIQUE;
                 // make sure we previous one is not oblique
                 if (n1 > 0) {
                     m_drawingShapes.at(n1 - 1) &= ~LIGATURE_OBLIQUE;
@@ -213,9 +222,10 @@ int Ligature::CalcLigatureNotePos(FunctorParams *functorParams)
             else
             {
                 // automatically set oblique on B only at the beginning and end, under certain circumstances:
-                if ( ( n1 == 0 && !isMensuralBlack ) || isLastNote )
+                if ( ( n1 == 0 ) || isLastNote )
                 {
-                    m_drawingShapes.at(n1) = LIGATURE_OBLIQUE;
+                    if ( previousNote->GetLig() != LIGATUREFORM_recta )
+                        m_drawingShapes.at(n1) = LIGATURE_OBLIQUE;
                     // make sure we previous one is not oblique
                     if ( n1 > 0 )
                         m_drawingShapes.at(n1 - 1) &= ~LIGATURE_OBLIQUE;

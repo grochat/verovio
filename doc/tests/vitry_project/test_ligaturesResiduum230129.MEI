@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title auth="Catalogue_ligatures">Catalogue_ligatures (tabourot)</title>
+      </titleStmt>
+      <sourceDesc>
+        <source>
+          <bibl>
+            <abbr>tabourot</abbr>
+          </bibl>
+        </source>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application>
+          <name version="git-" isodate="">Projet Vitry, application Coussemaker</name>
+        </application>
+      </appInfo>
+    </encodingDesc>
+  </meiHead>
+  <music>
+    <body>
+      <mdiv>
+        <score>
+          <scoreDef>
+            <staffGrp>
+              <staffDef xml:id="binariae_asc" type="lat" key.sig="0" lines="5" n="2" notationtype="mensural.black">
+                <clef shape="C" line="3"/>
+                <label>binariae_asc</label>
+              </staffDef>
+              <staffDef xml:id="ternariae_clim" type="lat" key.sig="0" lines="5" n="3" notationtype="mensural.black">
+                <clef shape="C" line="3"/>
+                <label>ternariae_clim</label>
+              </staffDef>
+              <staffDef xml:id="ternariae_scan" type="lat" key.sig="0" lines="5" n="4" notationtype="mensural.black">
+                <clef shape="C" line="3"/>
+                <label>ternariae_scan</label>
+              </staffDef>
+              <staffDef xml:id="ternariae_torc" type="lat" key.sig="0" lines="5" n="5" notationtype="mensural.black">
+                <clef shape="C" line="3"/>
+                <label>ternariae_torc</label>
+              </staffDef>
+              <staffDef xml:id="ternariae_porr" type="lat" key.sig="0" lines="5" n="6" notationtype="mensural.black">
+                <clef shape="C" line="3"/>
+                <label>ternariae_porr</label>
+              </staffDef>
+            </staffGrp>
+          </scoreDef>
+          <section>
+            <staff xml:id="binariae_ascB" n="2">
+              <layer n="1">
+                <mensur modusminor="2" tempus="2" prolatio="3"/>
+                <annot label="fn">Hampe à gauche</annot>
+                <ligature form="recta">
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="longa" oct="4" pname="c" color="red" colored="true">
+                    <verse n="1" lineid="0">
+                      <syl wordpos="i" con="u">Lo Lo</syl>
+                    </verse>
+                    <verse n="2" place="above" color="#000000ff">
+                      <syl>1</syl>
+                    </verse>
+                  </note>
+                  <note dur="longa" oct="4" pname="d"/>
+                </ligature>
+                <annot label="fn">Hampe à droite</annot>
+                <ligature form="recta">
+                  <note stem.visible="true" stem.pos="right" stem.dir="down" dur="longa" oct="4" pname="c" color="red" colored="true">
+                    <verse n="1" lineid="0">
+                      <syl wordpos="i" con="u">Lo Lo</syl>
+                    </verse>
+                    <verse n="2" place="above" color="#000000ff">
+                      <syl>1</syl>
+                    </verse>
+                  </note>
+                  <note dur="longa" oct="4" pname="d"/>
+                </ligature>
+                <annot label="fn">Hampe à gauche</annot>
+                <ligature form="recta">
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="longa" oct="4" pname="c" color="red" colored="true">
+                    <verse n="1" lineid="0">
+                      <syl wordpos="i" con="u">Lo Lo</syl>
+                    </verse>
+                    <verse n="2" place="above" color="#000000ff">
+                      <syl>2</syl>
+                    </verse>
+                  </note>
+                  <note stem.visible="true" stem.pos="right" stem.dir="down" dur="longa" oct="4" pname="e"/>
+                </ligature>
+              </layer>
+            </staff>
+            <staff xml:id="ternariae_climB" n="3">
+              <layer n="1">
+                <mensur modusminor="2" tempus="2" prolatio="3"/>
+                <annot label="fn">Premier segment en recta</annot>
+                <ligature>
+                  <note dur="longa" oct="4" pname="f" color="red" colored="true" lig="recta">
+                    <verse n="1" lineid="1">
+                      <syl wordpos="i" con="u">Lo Bre Lo</syl>
+                    </verse>
+                    <verse n="2" place="above" color="#000000ff">
+                      <syl>3</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="4" pname="d" color="red" colored="true" lig="recta"/>
+                  <note dur="longa" oct="4" pname="c"/>
+                </ligature>
+              </layer>
+            </staff>
+            <staff xml:id="ternariae_scanB" n="4">
+              <layer n="1">
+                <mensur modusminor="2" tempus="2" prolatio="3"/>
+                <annot label="fn">Hampe à gauche</annot>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="longa" oct="4" pname="c" color="red" colored="true" lig="recta">
+                    <verse n="1" lineid="2">
+                      <syl wordpos="i" con="u">Lo Bre Lo</syl>
+                    </verse>
+                    <verse n="2" place="above" color="#000000ff">
+                      <syl>4</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="4" pname="d" lig="recta"/>
+                  <note dur="longa" oct="4" pname="f"/>
+                </ligature>
+              </layer>
+            </staff>
+            <staff xml:id="ternariae_torcB" n="5">
+              <layer n="1">
+                <mensur modusminor="2" tempus="2" prolatio="3"/>
+                <annot label="fn">Hampe à gauche</annot>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="longa" oct="4" pname="c" color="red" colored="true" lig="recta">
+                    <verse n="1" lineid="3">
+                      <syl wordpos="i" con="u">Lo Bre Lo</syl>
+                    </verse>
+                    <verse n="2" place="above" color="#000000ff">
+                      <syl>5</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="4" pname="d" lig="recta"/>
+                  <note dur="longa" oct="4" pname="c"/>
+                </ligature>
+              </layer>
+            </staff>
+            <staff xml:id="ternariae_porrB" n="6">
+              <layer n="1">
+                <mensur modusminor="2" tempus="2" prolatio="3"/>
+                <annot label="fn">Le premier segment devrait être rectus.</annot>
+                <ligature>
+                  <note dur="longa" oct="4" pname="d" color="red" colored="true" lig="recta">
+                    <verse n="1" lineid="4">
+                      <syl wordpos="i" con="u">Lo Bre Lo</syl>
+                    </verse>
+                    <verse n="2" place="above" color="#000000ff">
+                      <syl>6</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="4" pname="c" color="red" colored="true" lig="recta"/>
+                  <note dur="longa" oct="4" pname="f"/>
+                </ligature>
+                <annot label="fn">Le premier segment devrait être rectus.</annot>
+                <ligature>
+                  <note dur="longa" oct="4" pname="d" color="red" colored="true" lig="recta">
+                    <verse n="1" lineid="4">
+                      <syl wordpos="i" con="u">Lo Bre Bre</syl>
+                    </verse>
+                    <verse n="2" place="above" color="#000000ff">
+                      <syl>7</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="4" pname="c" color="red" colored="true" lig="recta"/>
+                  <note dur="brevis" oct="4" pname="d"/>
+                </ligature>
+              </layer>
+            </staff>
+          </section>
+        </score>
+      </mdiv>
+    </body>
+  </music>
+</mei>

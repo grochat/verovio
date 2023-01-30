@@ -772,6 +772,16 @@
                 -0.909
             ]
         },
+        "mensCombStemDownTampered_orig": {
+            "bBoxNE": [
+                0.0816,
+                0.29
+            ],
+            "bBoxSW": [
+                -0.016,
+                -2.273
+            ]
+        },
         "mensNoteheadSemiminimaW_smufl": {
             "bBoxNE": [
                 0.68,
@@ -1962,6 +1972,16 @@
                 -0.866
             ]
         },
+        "obliqueConcDesc3rdBlack_smufl": {
+            "bBoxNE": [
+                2.34,
+                0.3593
+            ],
+            "bBoxSW": [
+                -0.0,
+                -1.365
+            ]
+        },
         "obliqueConcaveDesc2ndBlack": {
             "bBoxNE": [
                 2.036,
@@ -1980,6 +2000,16 @@
             "bBoxSW": [
                 -0.0,
                 -0.366
+            ]
+        },
+        "obliqueConcaveDesc3rdBlack": {
+            "bBoxNE": [
+                2.34,
+                1.3593
+            ],
+            "bBoxSW": [
+                -0.0,
+                -0.365
             ]
         },
         "obliqueDesc2ndBlack": {
