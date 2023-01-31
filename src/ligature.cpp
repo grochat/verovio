@@ -183,11 +183,18 @@ int Ligature::CalcLigatureNotePos(FunctorParams *functorParams)
         {
             if (up)
             {
-                if ( previousNote->HasStemPos() && previousNote->GetStemPos() == STEMPOSITION_left )
+                if ( previousNote->GetStemPos() == STEMPOSITION_left )
                     m_drawingShapes.at(n1) = LIGATURE_STEM_LEFT_DOWN;
                 else
                     m_drawingShapes.at(n1) = LIGATURE_STEM_RIGHT_DOWN;
                 m_drawingShapes.at(n2) = LIGATURE_STEM_RIGHT_DOWN;
+            }
+            else //down
+            {
+                if ( note->GetStemPos() == STEMPOSITION_left && note->GetStemDir() == STEMDIRECTION_down )
+                    m_drawingShapes.at(n2) = LIGATURE_STEM_LEFT_DOWN;
+                else if ( note->GetStemPos() == STEMPOSITION_right && note->GetStemDir() == STEMDIRECTION_down )
+                    m_drawingShapes.at(n2) = LIGATURE_STEM_RIGHT_DOWN;
             }
         }
         // L - B
@@ -195,7 +202,7 @@ int Ligature::CalcLigatureNotePos(FunctorParams *functorParams)
         {
             if (up)
             {
-                if ( previousNote->HasStemPos() && previousNote->GetStemPos() == STEMPOSITION_left )
+                if ( previousNote->GetStemPos() == STEMPOSITION_left )
                     m_drawingShapes.at(n1) = LIGATURE_STEM_LEFT_DOWN;
                 else
                     m_drawingShapes.at(n1) = LIGATURE_STEM_RIGHT_DOWN;
@@ -216,10 +223,15 @@ int Ligature::CalcLigatureNotePos(FunctorParams *functorParams)
         {
             if (up)
             {
-                if ( oblique && n1 == 0 )
-                    m_drawingShapes.at(n1) = LIGATURE_STEM_LEFT_DOWN;
+                if ( n1 == 0 )
+                {
+                    if ( oblique || (previousNote->GetStemPos() == STEMPOSITION_left && previousNote->GetStemDir() == STEMDIRECTION_down) )
+                        m_drawingShapes.at(n1) = LIGATURE_STEM_LEFT_DOWN;
+                    else if ( previousNote->GetStemPos() == STEMPOSITION_right && previousNote->GetStemDir() == STEMDIRECTION_down )
+                        m_drawingShapes.at(n1) = LIGATURE_STEM_RIGHT_DOWN;
+                }
             }
-            else
+            else    //down
             {
                 // automatically set oblique on B only at the beginning and end, under certain circumstances:
                 if ( ( n1 == 0 ) || isLastNote )
@@ -249,6 +261,10 @@ int Ligature::CalcLigatureNotePos(FunctorParams *functorParams)
                 if (n1 == 0) {
                     m_drawingShapes.at(n1) = LIGATURE_STEM_LEFT_DOWN;
                 }
+                if ( note->GetStemPos() == STEMPOSITION_left && note->GetStemDir() == STEMDIRECTION_down )
+                    m_drawingShapes.at(n2) = LIGATURE_STEM_LEFT_DOWN;
+                else if ( note->GetStemPos() == STEMPOSITION_right && note->GetStemDir() == STEMDIRECTION_down )
+                    m_drawingShapes.at(n2) = LIGATURE_STEM_RIGHT_DOWN;
             }
         }
         // SB - SB
