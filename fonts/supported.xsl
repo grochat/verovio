@@ -2251,6 +2251,8 @@ a            <glyph glyph-code="E5BF" smufl-name="ornamentPrecompCadenceWithTurn
             <glyph glyph-code="F720" smufl-name="chantConnectingLineDesc3rd"/>
             <glyph glyph-code="F721" smufl-name="chantConnectingLineDesc4th"/>
             <glyph glyph-code="F722" smufl-name="chantConnectingLineDesc5th"/>
+            <glyph glyph-code="F723" smufl-name="chantConnectingLineDesc6th"/>
+            <glyph glyph-code="F726" smufl-name="chantConnectingLineAsc6th"/>
             <glyph glyph-code="F72A" smufl-name="mensuralCombStemDownTampered"/>
             <glyph glyph-code="F730" smufl-name="mensuralObliqueDesc6thBlack"/>
             <glyph glyph-code="F740" smufl-name="pesInitialTampedBlack"/>
@@ -2271,6 +2273,7 @@ a            <glyph glyph-code="E5BF" smufl-name="ornamentPrecompCadenceWithTurn
             <glyph glyph-code="F756" smufl-name="porrectusObl6thCrushedBlack"/>
             <glyph glyph-code="F757" smufl-name="porrectusObl7thCrushedBlack"/>
             <glyph glyph-code="F758" smufl-name="porrectusObl8vaCrushedBlack"/>
+            <glyph glyph-code="F760" smufl-name="mensuralBlackMaximaStemUp"/>
             <range_start>U+F700</range_start>
             <range_end>U+F730</range_end>
         </medievalAndRenaissanceExtraMachautFontGlyphs>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title auth="ligatures">ligatures (tabourot)</title>
+      </titleStmt>
+      <sourceDesc>
+        <source>
+          <bibl>
+            <abbr>tabourot</abbr>
+          </bibl>
+        </source>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application>
+          <name version="git-" isodate="">Projet Vitry, application Coussemaker</name>
+        </application>
+      </appInfo>
+    </encodingDesc>
+  </meiHead>
+  <music>
+    <body>
+      <mdiv>
+        <score>
+          <scoreDef>
+            <staffGrp>
+              <staffDef xml:id="maximae" type="lat" key.sig="0" lines="5" n="1" notationtype="mensural.black">
+                <clef shape="C" line="4"/>
+                <label>maximae</label>
+              </staffDef>
+              <staffDef xml:id="longae" type="lat" key.sig="0" lines="5" n="2" notationtype="mensural.black">
+                <clef shape="C" line="4"/>
+                <label>longae</label>
+              </staffDef>
+              <staffDef xml:id="breves" type="lat" key.sig="0" lines="5" n="3" notationtype="mensural.black">
+                <clef shape="C" line="4"/>
+                <label>breves</label>
+              </staffDef>
+              <staffDef xml:id="connexions" type="lat" key.sig="0" lines="5" n="4" notationtype="mensural.black">
+                <clef shape="C" line="3"/>
+                <label>connexions</label>
+              </staffDef>
+            </staffGrp>
+          </scoreDef>
+          <section>
+            <staff xml:id="maximaeB" n="1">
+              <layer n="1">
+                <mensur modusminor="2" tempus="2" prolatio="3"/>
+                <annot label="fn">Hampe à D (09Bona-IV/N-502)</annot>
+                <ligature form="recta">
+                  <note dur="longa" oct="3" pname="g">
+                    <verse n="1" lineid="0">
+                      <syl wordpos="i" con="u">Lo Ma</syl>
+                    </verse>
+                    <verse n="2" place="above">
+                      <syl>1</syl>
+                    </verse>
+                  </note>
+                  <note stem.visible="true" stem.pos="right" stem.dir="down" dur="maxima" oct="3" pname="f"/>
+                </ligature>
+                <rest dur="brevis" ploc="f" oloc="3"/>
+                <annot label="fn">Hampe à D (09Bona-IV/N-539)</annot>
+                <ligature form="recta">
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="3" pname="g">
+                    <verse n="1" lineid="1">
+                      <syl wordpos="i" con="u">Br Ma</syl>
+                    </verse>
+                    <verse n="2" place="above">
+                      <syl>2</syl>
+                    </verse>
+                  </note>
+                  <note dur="maxima" oct="3" pname="f"/>
+                </ligature>
+                <annot label="fn">Hampe ascendante à droite (11Virtutibus-AP/N-907)</annot>
+                <note stem.visible="true" stem.pos="right" stem.dir="up" dur="maxima" oct="3" pname="f">
+                  <verse n="1" lineid="2">
+                    <syl wordpos="i">Ma</syl>
+                  </verse>
+                  <verse n="2" place="above" color="#000000ff">
+                    <syl>3</syl>
+                  </verse>
+                </note>
+                <annot label="fn">Hampe ascendante à droite (11Virtutibus-AP/N-936)</annot>
+                <note stem.visible="true" stem.pos="right" stem.dir="up" dur="maxima" oct="3" pname="g">
+                  <verse n="1" lineid="3">
+                    <syl wordpos="i">Ma</syl>
+                  </verse>
+                  <verse n="2" place="above" color="#000000ff">
+                    <syl>4</syl>
+                  </verse>
+                </note>
+              </layer>
+            </staff>
+            <staff xml:id="longaeB" n="2">
+              <layer n="1">
+                <mensur modusminor="2" tempus="2" prolatio="3"/>
+                <rest dur="brevis" ploc="f" oloc="3"/>
+                <annot label="fn">Hampe à D (04Adesto-BR/N-625)</annot>
+                <ligature form="recta">
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="3" pname="g">
+                    <verse n="1" lineid="4">
+                      <syl wordpos="i" con="u">Br Lo</syl>
+                    </verse>
+                    <verse n="2" place="above">
+                      <syl>5</syl>
+                    </verse>
+                  </note>
+                  <note stem.visible="true" stem.pos="right" stem.dir="down" dur="longa" oct="3" pname="f"/>
+                </ligature>
+              </layer>
+            </staff>
+            <staff xml:id="brevesB" n="3">
+              <layer n="1">
+                <mensur modusminor="3" tempus="3" prolatio="3"/>
+                <annot label="fn">Hampe à D (06Garison-IV/N-510)</annot>
+                <ligature>
+                  <note stem.visible="true" stem.pos="right" stem.dir="down" dur="brevis" oct="3" pname="f" color="red" colored="true" lig="recta">
+                    <verse n="1" lineid="5">
+                      <syl wordpos="i" con="u">Br Br Br</syl>
+                    </verse>
+                    <verse n="2" place="above" color="#000000ff">
+                      <syl>6</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="3" pname="a" lig="recta"/>
+                  <note dur="brevis" oct="4" pname="c"/>
+                </ligature>
+                <mensur modusminor="3" tempus="2" prolatio="3"/>
+                <annot label="fn">Hampe à G (06Garison-IV/N-521)</annot>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="3" pname="g" color="red" colored="true" lig="recta">
+                    <verse n="1" lineid="6">
+                      <syl wordpos="i" con="u">Br Br Br Br</syl>
+                    </verse>
+                    <verse n="2" place="above" color="#000000ff">
+                      <syl>7</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="3" pname="a" lig="recta"/>
+                  <note dur="brevis" oct="3" pname="g" lig="obliqua"/>
+                  <note dur="brevis" oct="3" pname="f"/>
+                </ligature>
+                <rest dur="2B"/>
+              </layer>
+            </staff>
+            <staff xml:id="connexionsB" n="4">
+              <layer n="1">
+                <mensur modusminor="3" tempus="2" prolatio="3"/>
+                <annot label="fn">Manque connexion entre F et d (11Virtutibus-BE/N-5)</annot>
+                <ligature>
+                  <note dur="longa" dur.quality="imperfecta" oct="4" pname="c" num="3" numbase="2" lig="recta">
+                    <verse n="1" lineid="7">
+                      <syl wordpos="i" con="u">Lo Br Br Br Br Lo</syl>
+                    </verse>
+                    <verse n="2" place="above">
+                      <syl>8</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="3" pname="a" lig="recta"/>
+                  <note dur="brevis" oct="4" pname="c" lig="obliqua"/>
+                  <note dur="brevis" oct="3" pname="f" color="red" colored="true" lig="recta"/>
+                  <note dur="brevis" oct="4" pname="d" color="red" colored="true" lig="recta"/>
+                  <note dur="longa" dur.quality="imperfecta" oct="4" pname="c" num="3" numbase="2"/>
+                </ligature>
+                <annot label="fn">Manque connexion entre F et d (11Virtutibus-BE/N-26)[[f,6</annot>
+                <note stem.visible="true" stem.pos="right" stem.dir="down" dur="longa" dur.quality="imperfecta" oct="5" pname="d" num="3" numbase="2" color="red" colored="true">
+                  <verse n="1" lineid="8">
+                    <syl wordpos="i">Br Lo</syl>
+                  </verse>
+                  <verse n="2" place="above" color="#000000ff">
+                    <syl>9</syl>
+                  </verse>
+                </note>
+              </layer>
+            </staff>
+          </section>
+        </score>
+      </mdiv>
+    </body>
+  </music>
+</mei>

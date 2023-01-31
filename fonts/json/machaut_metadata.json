@@ -222,6 +222,16 @@
                 -0.3658
             ]
         },
+        "chantConnectingLineAsc6th_orig": {
+            "bBoxNE": [
+                0.028,
+                2.8701
+            ],
+            "bBoxSW": [
+                -0.028,
+                -0.3658
+            ]
+        },
         "chantConnectingLineDesc3rd_orig": {
             "bBoxNE": [
                 0.0278,
@@ -250,6 +260,16 @@
             "bBoxSW": [
                 -0.028,
                 -2.3658
+            ]
+        },
+        "chantConnectingLineDesc6th_orig": {
+            "bBoxNE": [
+                0.028,
+                0.3661
+            ],
+            "bBoxSW": [
+                -0.028,
+                -2.8668
             ]
         },
         "chantCustosInclinatus": {
@@ -820,6 +840,26 @@
             "bBoxSW": [
                 -0.008,
                 -0.38
+            ]
+        },
+        "mensuralBlackMaximaStemUp": {
+            "bBoxNE": [
+                1.61,
+                2.232
+            ],
+            "bBoxSW": [
+                -0.0069,
+                -0.3873
+            ]
+        },
+        "mensuralBlackMaximaStemUp_orig": {
+            "bBoxNE": [
+                1.61,
+                2.232
+            ],
+            "bBoxSW": [
+                -0.0069,
+                -0.3873
             ]
         },
         "mensuralBlackMaxima_smufl": {

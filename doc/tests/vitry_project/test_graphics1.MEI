@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title auth="Catalogue_ligatures">Catalogue_ligatures</title>
+      </titleStmt>
+      <sourceDesc>
+        <source>
+          <bibl>
+            <abbr>tabourot</abbr>
+          </bibl>
+        </source>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application>
+          <name version="git-f1d61aa" isodate="2022-07-30T00:25:56+02:00">Projet Vitry, application Coussemaker</name>
+        </application>
+      </appInfo>
+    </encodingDesc>
+  </meiHead>
+  <music>
+    <body>
+      <mdiv>
+        <score>
+          <scoreDef>
+            <staffGrp>
+              <staffDef xml:id="Binariae_desc" type="lat" key.sig="0" lines="5" n="1" notationtype="mensural.black" lines.color="#8f8f8f">
+                <clef shape="C" line="3"/>
+                <label>Binariae_desc</label>
+              </staffDef>
+            </staffGrp>
+          </scoreDef>
+          <section>
+            <staff xml:id="Binariae_descB" n="1">
+              <layer n="1">
+                <mensur modusminor="2" tempus="2" prolatio="3"/>
+                <ligature>
+                  <note dur="brevis" oct="4" pname="e" lig="recta"/>
+                  <note dur="longa" oct="4" pname="c" stem.visible="true" stem.pos="right" stem.dir="down" />
+                </ligature>
+                <ligature>
+                  <note dur="brevis" oct="4" pname="c" lig="recta"/>
+                  <note dur="longa" oct="4" pname="e" stem.visible="true" stem.pos="right" stem.dir="down" />
+                </ligature>
+              </layer>
+            </staff>
+          </section>
+        </score>
+      </mdiv>
+    </body>
+  </music>
+</mei>

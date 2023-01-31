@@ -392,25 +392,29 @@ void View::DrawMaximaToBrevis(DeviceContext *dc, int y, LayerElement *element, L
         {
             case DUR_MX:
             {
-                code = SMUFL_E950_mensuralBlackMaxima;
+                if ( note->HasStemDir() && note->GetStemDir() == STEMDIRECTION_up ) {
+                    code = SMUFL_F760_mensuralBlackMaximaStemUp;
+                }
+                else {
+                    code = SMUFL_E950_mensuralBlackMaxima;
+                }
                 break;
             }
                 
             case DUR_LG:
             {
-                if ( note->HasStemDir() && note->GetStemDir() == STEMDIRECTION_up )
-                {
-                    if ( note->HasStemPos() && note->GetStemPos() == STEMPOSITION_left )
+                if ( note->HasStemDir() && note->GetStemDir() == STEMDIRECTION_up ) {
+                    if ( note->HasStemPos() && note->GetStemPos() == STEMPOSITION_left ) {
                         code = SMUFL_F708_mensuralBlackLongaStemUpLeft;
-                    else
+                    }
+                    else {
                         code = SMUFL_F707_mensuralBlackLongaStemUpRight;
+                    }
                 }
-                else if ( note->HasStemPos() && note->GetStemPos() == STEMPOSITION_left )
-                {
+                else if ( note->HasStemPos() && note->GetStemPos() == STEMPOSITION_left ) {
                     code = SMUFL_F709_mensuralBlackBrevisStemDownLeft;
                 }
-                else
-                {
+                else {
                     code = SMUFL_E951_mensuralBlackLonga;
                 }
                 //float f = r*(1.+(float)(rand() % 100)/100.);
@@ -549,8 +553,7 @@ void View::DrawLigatureNote(DeviceContext *dc, LayerElement *element, Layer *lay
     //bool nextStackedEnd = shape & LIGATURE_STACKED_AT_THE_END;
     bool stackedEnd = (shape & LIGATURE_STACKED_AT_THE_END);//||(nextShape & LIGATURE_STACKED_AT_THE_END);
 
-    if ( m_doc->GetOptions()->m_useGlyphMensural.GetValue() )  // VITRY project phase II
-    {
+    if ( m_doc->GetOptions()->m_useGlyphMensural.GetValue() ) { // VITRY project phase II
         int interval = nextNote? nextNote->GetPitchInterface()->PitchDifferenceTo( note->GetPitchInterface() ):0;
         int intervalAfter = afterNextNote? afterNextNote->GetPitchInterface()->PitchDifferenceTo( nextNote->GetPitchInterface() ):0;
         int intervalBefore = prevNote? note->GetPitchInterface()->PitchDifferenceTo( prevNote->GetPitchInterface() ):0;
@@ -560,19 +563,18 @@ void View::DrawLigatureNote(DeviceContext *dc, LayerElement *element, Layer *lay
         dc->StartCustomGraphic("notehead");
         wchar_t code = -1;
         int step = 0;
-        if ( shape & (LIGATURE_STEM_LEFT_UP|LIGATURE_STEM_LEFT_DOWN) )
-        {
-            if ( stackedEnd && !isEnd && shape & LIGATURE_STEM_LEFT_DOWN )
+        if ( shape & (LIGATURE_STEM_LEFT_UP|LIGATURE_STEM_LEFT_DOWN) ) {
+            if ( stackedEnd && !isEnd && shape & LIGATURE_STEM_LEFT_DOWN ) {
                 code = SMUFL_F72A_mensuralCombStemDownTampered;
-            else
+            }
+            else {
                 code = (shape & LIGATURE_STEM_LEFT_UP)? SMUFL_E93E_mensuralCombStemUp:SMUFL_E93F_mensuralCombStemDown;
+            }
             step += DrawSmuflCode(dc, xNote, yNote, code, staff->m_drawingStaffSize, false);
         }
         code = -1;
-        if ( !obliqueEnd )
-        {
-            if ( isEnd && stackedEnd )
-            {
+        if ( !obliqueEnd ) {
+            if ( isEnd && stackedEnd ) {
                 switch (intervalBefore)
                 {
                     case 1:
@@ -603,41 +605,40 @@ void View::DrawLigatureNote(DeviceContext *dc, LayerElement *element, Layer *lay
                         break;
                 }
             }
-            else
-            {
-                if ( position == ligatureLength - 2 && stackedEnd && interval == 1 )
-                {
+            else {
+                if ( position == ligatureLength - 2 && stackedEnd && interval == 1 ) {
                     code = SMUFL_F740_pesInitialTampedBlack;
                 }
-                else
-                {
+                else {
                     code = SMUFL_E952_mensuralBlackBrevis;
                 }
             }
             if ( note->GetActualDur() == DUR_MX )
                 code = SMUFL_E930_mensuralNoteheadMaximaBlack;
         }
-        if ( oblique )
-        {
-            if ( !obliqueEnd )
-            {
+        if ( oblique ) {
+            if ( !obliqueEnd ) {
                 bool crushed = stackedEnd && intervalAfter == 1;
                 switch (interval)
                 {
                     case -1:
                     {
-                        if ( stackedEnd && intervalAfter == 2 )
+                        if ( stackedEnd && intervalAfter == 2 ) {
                             code = SMUFL_F750_obliqueConcaveDesc2ndBlack;
-                        else
+                        }
+                        else {
                             code = crushed?SMUFL_F752_porrectusObl2ndCrushedBlack:SMUFL_E980_mensuralObliqueDesc2ndBlack;
+                        }
                         break;
                     }
                     case -2:
                     {
-                        if ( stackedEnd && intervalAfter == 2 )
+                        if ( stackedEnd && intervalAfter == 2 ) {
                             code = SMUFL_F751_obliqueConcaveDesc3rdBlack;
-                        else
+                        }
+                        else {
                             code = crushed?SMUFL_F753_porrectusObl3rdCrushedBlack:SMUFL_E984_mensuralObliqueDesc3rdBlack;
+                        }
                         break;
                     }
                     case -3:
@@ -665,36 +666,49 @@ void View::DrawLigatureNote(DeviceContext *dc, LayerElement *element, Layer *lay
             }
             else
             {
-                if ( nextNote )
+                if ( nextNote ) {
                     nextNote->SetDrawingXRel(note->GetDrawingXRel());
+                }
             }
         }
-        if ( code != -1 )
-        {
+        if ( code != -1 ) {
             step += DrawSmuflCode(dc, xNote, yNote, code, staff->m_drawingStaffSize, false);
         }
-        if ( shape & (LIGATURE_STEM_RIGHT_UP|LIGATURE_STEM_RIGHT_DOWN) )
-        {
+        if ( shape & (LIGATURE_STEM_RIGHT_UP|LIGATURE_STEM_RIGHT_DOWN) ) {
             code = (shape & LIGATURE_STEM_RIGHT_UP)? SMUFL_E93E_mensuralCombStemUp:SMUFL_E93F_mensuralCombStemDown;
             step += DrawSmuflCode(dc, xNote+step, yNote, code, staff->m_drawingStaffSize, false);
         }
-        if ( !(stackedEnd && position >= ligatureLength - 2) && (!oblique || obliqueEnd) && fabs(interval) > 1 )
-        {
+        if ( !(stackedEnd && position >= ligatureLength - 2) && (!oblique || obliqueEnd) && fabs(interval) > 1 ) {
             code = -1;
-            if ( interval == -4 )
-                code = SMUFL_F722_chantConnectingLineDesc5th;
-            else if ( interval == -3 )
-                code = SMUFL_F721_chantConnectingLineDesc4th;
-            else if ( interval == -2 )
-                code = SMUFL_F720_chantConnectingLineDesc3rd;
-            if ( interval == 2 )
-                code = SMUFL_E9BE_chantConnectingLineAsc3rd;
-            else if ( interval == 3 )
-                code = SMUFL_E9BF_chantConnectingLineAsc4th;
-            else if ( interval == 4 )
-                code = SMUFL_E9C0_chantConnectingLineAsc5th;
-            if ( code != -1 )
+            switch (interval)
             {
+                case -5:
+                        code = SMUFL_F723_chantConnectingLineDesc6th;
+                    break;
+                case -4:
+                        code = SMUFL_F722_chantConnectingLineDesc5th;
+                    break;
+                case -3:
+                    code = SMUFL_F721_chantConnectingLineDesc4th;
+                    break;
+                case -2:
+                    code = SMUFL_F720_chantConnectingLineDesc3rd;
+                    break;
+                case 2:
+                    code = SMUFL_E9BE_chantConnectingLineAsc3rd;
+                    break;
+                case 3:
+                    code = SMUFL_E9BF_chantConnectingLineAsc4th;
+                    break;
+                case 4:
+                    code = SMUFL_E9C0_chantConnectingLineAsc5th;
+                    break;
+                case 5:
+                    code = SMUFL_F726_chantConnectingLineAsc6th;
+                    break;
+            }
+            
+            if ( code != -1 ) {
                 step += DrawSmuflCode(dc, xNote+step, yNote, code, staff->m_drawingStaffSize, false);
             }
         }
@@ -703,13 +717,13 @@ void View::DrawLigatureNote(DeviceContext *dc, LayerElement *element, Layer *lay
         // It is computed in functor-based CalcLigatureNotePos...
         //int xRel = element->GetDrawingXRel();
         adv += step;
-        if ( nextNote )
+        if ( nextNote ) {
             nextNote->SetDrawingXRel(adv);
+        }
         //font->SetWidthToHeightRatio(r);
         dc->EndCustomGraphic();
     }
-    else    //using polygons (not glyphs!)
-    {
+    else { //using polygons (not glyphs!)
         int stemWidth = m_doc->GetDrawingStemWidth(staff->m_drawingStaffSize);
         int strokeWidth = 2.8 * stemWidth;
         /** end code duplicated */
