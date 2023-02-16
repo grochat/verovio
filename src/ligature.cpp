@@ -167,12 +167,16 @@ int Ligature::CalcLigatureNotePos(FunctorParams *functorParams)
         // Same treatment for Mx and LG execpt for positionning, which is done above
         // We still need to avoid oblique, so keep a flag.
         bool isMaxima = false;
+        bool isNextMaxima = false;
         if (dur1 == DUR_MX) {
             dur1 = DUR_LG;
             isMaxima = true;
         }
         if (dur2 == DUR_MX)
+        {
             dur2 = DUR_LG;
+            isNextMaxima = true;
+        }
 
         int diatonicStep = note->GetDiatonicPitch() - previousNote->GetDiatonicPitch();
         bool up = (diatonicStep > 0);
@@ -185,7 +189,7 @@ int Ligature::CalcLigatureNotePos(FunctorParams *functorParams)
             {
                 if ( previousNote->GetStemPos() == STEMPOSITION_left )
                     m_drawingShapes.at(n1) = LIGATURE_STEM_LEFT_DOWN;
-                else
+                else if ( !isMaxima )
                     m_drawingShapes.at(n1) = LIGATURE_STEM_RIGHT_DOWN;
                 m_drawingShapes.at(n2) = LIGATURE_STEM_RIGHT_DOWN;
             }
@@ -195,6 +199,8 @@ int Ligature::CalcLigatureNotePos(FunctorParams *functorParams)
                     m_drawingShapes.at(n2) = LIGATURE_STEM_LEFT_DOWN;
                 else if ( note->GetStemPos() == STEMPOSITION_right && note->GetStemDir() == STEMDIRECTION_down )
                     m_drawingShapes.at(n2) = LIGATURE_STEM_RIGHT_DOWN;
+                if ( previousNote->GetStemPos() == STEMPOSITION_left && previousNote->GetStemDir() == STEMDIRECTION_down )
+                    m_drawingShapes.at(n1) = LIGATURE_STEM_LEFT_DOWN;
             }
         }
         // L - B
@@ -204,7 +210,7 @@ int Ligature::CalcLigatureNotePos(FunctorParams *functorParams)
             {
                 if ( previousNote->GetStemPos() == STEMPOSITION_left )
                     m_drawingShapes.at(n1) = LIGATURE_STEM_LEFT_DOWN;
-                else
+                else if ( !isMaxima )
                     m_drawingShapes.at(n1) = LIGATURE_STEM_RIGHT_DOWN;
             }
             // automatically set oblique on B, but not with Mx and only at the beginning and end
@@ -252,13 +258,15 @@ int Ligature::CalcLigatureNotePos(FunctorParams *functorParams)
             if (up)
             {
                 m_drawingShapes.at(n2) = LIGATURE_STEM_RIGHT_DOWN;
+                if ( previousNote->GetStemPos() == STEMPOSITION_left && previousNote->GetStemDir() == STEMDIRECTION_down )
+                    m_drawingShapes.at(n1) = LIGATURE_STEM_LEFT_DOWN;
             }
             else
             {
-                if (!isLastNote) {
+                if ( !isLastNote && !isNextMaxima ) {
                     m_drawingShapes.at(n2) = LIGATURE_STEM_RIGHT_DOWN;
                 }
-                if (n1 == 0) {
+                if ( n1 == 0 ) {
                     m_drawingShapes.at(n1) = LIGATURE_STEM_LEFT_DOWN;
                 }
                 if ( note->GetStemPos() == STEMPOSITION_left && note->GetStemDir() == STEMDIRECTION_down )

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title auth="00Ligatures">00Ligatures (dc)</title>
+      </titleStmt>
+      <sourceDesc>
+        <source>
+          <bibl>
+            <abbr>dc</abbr>
+          </bibl>
+        </source>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application>
+          <name version="git-" isodate="">Projet Vitry, application Coussemaker</name>
+        </application>
+      </appInfo>
+    </encodingDesc>
+  </meiHead>
+  <music>
+    <body>
+      <mdiv>
+        <score>
+          <scoreDef>
+            <staffGrp>
+              <staffDef xml:id="maximae" type="lat" key.sig="0" lines="5" n="1" notationtype="mensural.black">
+                <clef shape="C" line="3"/>
+                <label>maximae</label>
+              </staffDef>
+            </staffGrp>
+          </scoreDef>
+          <section>
+            <staff xml:id="maximaeB" n="1">
+              <layer n="1">
+                <mensur modusminor="3" tempus="3" prolatio="3"/>
+                <annot label="fn">Dans une ligature, une maxima ne devrait, par défaut, pas avoir de hampe.</annot>
+                <ligature form="recta">
+                  <note dur="maxima" oct="4" pname="d">
+                    <verse n="1" lineid="1">
+                      <syl wordpos="i" con="u">MaxLoPes</syl>
+                    </verse>
+                    <verse n="2" place="above">
+                      <syl>2</syl>
+                    </verse>
+                  </note>
+                  <note dur="longa" oct="4" pname="e"/>
+                </ligature>
+                <ligature form="recta">
+                  <note dur="maxima" oct="4" pname="e">
+                    <verse n="1" lineid="1">
+                      <syl wordpos="i" con="u">MaxLoPes</syl>
+                    </verse>
+                    <verse n="2" place="above">
+                      <syl>2</syl>
+                    </verse>
+                  </note>
+                  <note dur="longa" oct="4" pname="f"/>
+                </ligature>
+                <ligature form="recta">
+                  <note dur="brevis" oct="4" pname="d">
+                    <verse n="1" lineid="1">
+                      <syl wordpos="i" con="u">BreLoPes</syl>
+                    </verse>
+                    <verse n="2" place="above">
+                      <syl>2</syl>
+                    </verse>
+                  </note>
+                  <note dur="longa" oct="4" pname="e"/>
+                </ligature>
+                <barLine form="single" type="final"/>
+              </layer>
+            </staff>
+          </section>
+        </score>
+      </mdiv>
+    </body>
+  </music>
+</mei>

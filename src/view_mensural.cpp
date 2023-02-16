@@ -563,6 +563,10 @@ void View::DrawLigatureNote(DeviceContext *dc, LayerElement *element, Layer *lay
         dc->StartCustomGraphic("notehead");
         wchar_t code = -1;
         int step = 0;
+        int yShift = 0;
+        if ( stackedEnd && note->GetActualDur() == DUR_MX ) {
+            yShift = -m_doc->GetDrawingUnit(staff->m_drawingStaffSize)/6;
+        }
         if ( shape & (LIGATURE_STEM_LEFT_UP|LIGATURE_STEM_LEFT_DOWN) ) {
             if ( stackedEnd && !isEnd && shape & LIGATURE_STEM_LEFT_DOWN ) {
                 code = SMUFL_F72A_mensuralCombStemDownTampered;
@@ -570,7 +574,7 @@ void View::DrawLigatureNote(DeviceContext *dc, LayerElement *element, Layer *lay
             else {
                 code = (shape & LIGATURE_STEM_LEFT_UP)? SMUFL_E93E_mensuralCombStemUp:SMUFL_E93F_mensuralCombStemDown;
             }
-            step += DrawSmuflCode(dc, xNote, yNote, code, staff->m_drawingStaffSize, false);
+            step += DrawSmuflCode(dc, xNote, yNote+yShift, code, staff->m_drawingStaffSize, false);
         }
         code = -1;
         if ( !obliqueEnd ) {
@@ -613,8 +617,9 @@ void View::DrawLigatureNote(DeviceContext *dc, LayerElement *element, Layer *lay
                     code = SMUFL_E952_mensuralBlackBrevis;
                 }
             }
-            if ( note->GetActualDur() == DUR_MX )
+            if ( note->GetActualDur() == DUR_MX ) {
                 code = SMUFL_E930_mensuralNoteheadMaximaBlack;
+            }
         }
         if ( oblique ) {
             if ( !obliqueEnd ) {
@@ -672,7 +677,7 @@ void View::DrawLigatureNote(DeviceContext *dc, LayerElement *element, Layer *lay
             }
         }
         if ( code != -1 ) {
-            step += DrawSmuflCode(dc, xNote, yNote, code, staff->m_drawingStaffSize, false);
+            step += DrawSmuflCode(dc, xNote, yNote+yShift, code, staff->m_drawingStaffSize, false);
         }
         if ( shape & (LIGATURE_STEM_RIGHT_UP|LIGATURE_STEM_RIGHT_DOWN) ) {
             code = (shape & LIGATURE_STEM_RIGHT_UP)? SMUFL_E93E_mensuralCombStemUp:SMUFL_E93F_mensuralCombStemDown;
@@ -719,6 +724,9 @@ void View::DrawLigatureNote(DeviceContext *dc, LayerElement *element, Layer *lay
         adv += step;
         if ( nextNote ) {
             nextNote->SetDrawingXRel(adv);
+        }
+        else {  //with plica in ligature (children element) in mind...
+            note->SetDrawingXRel(adv);
         }
         //font->SetWidthToHeightRatio(r);
         dc->EndCustomGraphic();
@@ -862,41 +870,21 @@ void View::DrawPlica(DeviceContext *dc, LayerElement *element, Layer *layer, Sta
     bool isLonga = (note->GetActualDur() == DUR_LG);
     bool up = (plica->GetDir() == STEMDIRECTION_basic_up);
     
-    if ( m_doc->GetOptions()->m_useGlyphMensural.GetValue() )
+    if ( m_doc->GetOptions()->m_useGlyphMensural.GetValue() )   //Vitry project with Machaut font
     {
         const int yNote = element->GetDrawingY();
         const int xNote = element->GetDrawingX();
         wchar_t code = -1;
-        if ( isLonga )
-        {
-            if ( up )
-            {
-                code = SMUFL_F710_plicaBlackLongaAsc;
-            }
-            else
-            {
-                code = SMUFL_F711_plicaBlackLongaDesc;
-            }
+        if ( note->IsInLigature() ) {
+            code = up?SMUFL_E93E_mensuralCombStemUp:SMUFL_E93F_mensuralCombStemDown;
         }
-        else    //brevis
-        {
-            if ( up )
-            {
-                if (note->IsInLigature()) {
-                    code = SMUFL_E93E_mensuralCombStemUp;
-                }
-                else {
-                    code = SMUFL_F712_plicaBlackBrevisAsc;
-                }
+        else {
+            if ( isLonga ) {
+                code = up?SMUFL_F710_plicaBlackLongaAsc:SMUFL_F711_plicaBlackLongaDesc;
             }
-            else
+            else    //brevis
             {
-                if (note->IsInLigature()) {
-                    code = SMUFL_E93F_mensuralCombStemDown;
-                }
-                else {
-                    code = SMUFL_F713_plicaBlackBrevisDesc;
-                }
+                code = up?SMUFL_F712_plicaBlackBrevisAsc:SMUFL_F713_plicaBlackBrevisDesc;
             }
         }
         dc->StartCustomGraphic("notehead");

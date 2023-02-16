@@ -792,6 +792,16 @@
                 -0.909
             ]
         },
+        "mensBlackMaxStemLeftDown_orig": {
+            "bBoxNE": [
+                1.5751,
+                0.3897
+            ],
+            "bBoxSW": [
+                -0.024,
+                -2.329
+            ]
+        },
         "mensCombStemDownTampered_orig": {
             "bBoxNE": [
                 0.0816,
@@ -840,6 +850,16 @@
             "bBoxSW": [
                 -0.008,
                 -0.38
+            ]
+        },
+        "mensuralBlackMaximaStemDownLeft": {
+            "bBoxNE": [
+                1.5751,
+                0.3897
+            ],
+            "bBoxSW": [
+                -0.024,
+                -2.329
             ]
         },
         "mensuralBlackMaximaStemUp": {

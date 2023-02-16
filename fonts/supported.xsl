@@ -2274,6 +2274,7 @@ a            <glyph glyph-code="E5BF" smufl-name="ornamentPrecompCadenceWithTurn
             <glyph glyph-code="F757" smufl-name="porrectusObl7thCrushedBlack"/>
             <glyph glyph-code="F758" smufl-name="porrectusObl8vaCrushedBlack"/>
             <glyph glyph-code="F760" smufl-name="mensuralBlackMaximaStemUp"/>
+            <glyph glyph-code="F761" smufl-name="mensuralBlackMaximaStemLeftDown"/>
             <range_start>U+F700</range_start>
             <range_end>U+F730</range_end>
         </medievalAndRenaissanceExtraMachautFontGlyphs>

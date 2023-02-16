@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title auth="05InNovaFert-PA2">5 - In nova fert animus mutatas (F-Pn 67)</title>
+      </titleStmt>
+      <sourceDesc>
+        <source>
+          <bibl>
+            <abbr>F-Pn_67</abbr>
+          </bibl>
+        </source>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application>
+          <name version="git-" isodate="">Projet Vitry, application Coussemaker</name>
+        </application>
+      </appInfo>
+    </encodingDesc>
+  </meiHead>
+  <music>
+    <body>
+      <mdiv>
+        <score>
+          <scoreDef>
+            <staffGrp>
+              <staffDef xml:id="tenor" type="non" key.sig="1f" lines="5" n="3" notationtype="mensural.black">
+                <clef shape="C" line="4"/>
+                <label>tenor</label>
+              </staffDef>
+            </staffGrp>
+          </scoreDef>
+          <section>
+            <staff xml:id="tenorB" n="3">
+              <layer n="1">
+                <sb type="linea"/>
+                <mensur modusminor="3" tempus="2" prolatio="3"/>
+                <ligature>
+                  <note stem.visible="true" stem.pos="right" stem.dir="down" dur="longa" oct="3" pname="f" lig="recta">
+                    <verse n="1" lineid="">
+                      <syl wordpos="" con="d">tenor. </syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="3" pname="g" lig="recta"/>
+                  <note dur.quality="altera" num="1" numbase="2" dur="brevis" oct="3" pname="a"/>
+                </ligature>
+                <dot form="div"/>
+                <mensur modusminor="2" tempus="2" prolatio="3"/>
+                <annot label="fn">Le changement de &lt;i&gt;modus&lt;/i&gt; est rendu par des notes évidées.</annot>
+                <ligature>
+                  <note dur="brevis" oct="4" pname="c" color="red" colored="true" lig="recta">
+                    <verse n="2" place="above" color="#000000ff">
+                      <syl>1</syl>
+                    </verse>
+                  </note>
+                  <note dur="brevis" oct="4" pname="d" color="red" colored="true" lig="recta"/>
+                  <note dur="longa" oct="4" pname="c" color="red" colored="true"/>
+                </ligature>
+                <rest dur="2B" color="red" colored="true"/>
+                <ligature>
+                  <note dur="longa" oct="4" pname="c" color="red" colored="true" lig="obliqua"/>
+                  <note dur="brevis" oct="3" pname="a" color="red" colored="true" lig="recta"/>
+                  <note dur="brevis" oct="4" pname="c" color="red" colored="true"/>
+                </ligature>
+                <mensur modusminor="3" tempus="2" prolatio="3"/>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="3" pname="b" accid.ges="f" lig="recta"/>
+                  <note dur.quality="altera" num="1" numbase="2" dur="brevis" oct="3" pname="a" lig="recta"/>
+                  <note dur="longa" oct="3" pname="g"/>
+                </ligature>
+                <rest dur="3B"/>
+                <ligature>
+                  <note stem.visible="true" stem.pos="right" stem.dir="down" dur="longa" oct="3" pname="f" lig="recta"/>
+                  <note dur="brevis" oct="3" pname="b" accid.ges="f" lig="obliqua"/>
+                  <note dur.quality="altera" num="1" numbase="2" dur="brevis" oct="3" pname="a"/>
+                </ligature>
+                <mensur modusminor="2" tempus="2" prolatio="3"/>
+                <ligature>
+                  <note dur="brevis" oct="3" pname="g" color="white" colored="true" lig="recta"/>
+                  <note dur="brevis" oct="3" pname="a" color="white" colored="true" lig="recta"/>
+                  <note dur="longa" oct="3" pname="g" color="white" colored="true"/>
+                </ligature>
+                <rest dur="2B" color="white" colored="true"/>
+                <note dur="longa" oct="3" pname="f" color="white" colored="true"/>
+                <ligature form="recta">
+                  <note dur="brevis" oct="3" pname="f" color="white" colored="true"/>
+                  <note dur="brevis" oct="3" pname="g" color="white" colored="true"/>
+                </ligature>
+                <mensur modusminor="3" tempus="2" prolatio="3"/>
+                <ligature>
+                  <note dur="brevis" oct="3" pname="a" lig="recta"/>
+                  <note dur.quality="altera" num="1" numbase="2" dur="brevis" oct="4" pname="c" lig="recta"/>
+                  <note stem.visible="true" stem.pos="right" stem.dir="down" dur="longa" oct="4" pname="d"/>
+                </ligature>
+                <rest dur="3B"/>
+                <note dur="longa" oct="4" pname="c"/>
+                <ligature form="obliqua">
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="4" pname="c"/>
+                  <note dur.quality="altera" num="1" numbase="2" dur="brevis" oct="3" pname="a"/>
+                </ligature>
+                <mensur modusminor="2" tempus="2" prolatio="3"/>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="4" pname="c" color="red" colored="true" lig="recta"/>
+                  <note dur="brevis" oct="3" pname="b" accid.ges="f" color="red" colored="true" lig="recta"/>
+                  <note dur="longa" oct="3" pname="a" color="red" colored="true"/>
+                </ligature>
+                <rest dur="2B" color="red" colored="true"/>
+                <ligature>
+                  <note dur="longa" oct="3" pname="g" color="red" colored="true" lig="obliqua"/>
+                  <note dur="brevis" oct="3" pname="f" color="red" colored="true" lig="recta"/>
+                  <note dur="brevis" oct="3" pname="g" color="red" colored="true"/>
+                </ligature>
+                <mensur modusminor="3" tempus="2" prolatio="3"/>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="3" pname="a" lig="recta"/>
+                  <note dur.quality="altera" num="1" numbase="2" dur="brevis" oct="3" pname="g" lig="recta"/>
+                  <note dur="longa" oct="3" pname="f"/>
+                </ligature>
+                <rest dur="3B"/>
+                <ligature>
+                  <note stem.visible="true" stem.pos="right" stem.dir="down" dur="longa" oct="3" pname="f" lig="recta"/>
+                  <note dur="brevis" oct="3" pname="g" lig="recta"/>
+                  <note dur.quality="altera" num="1" numbase="2" dur="brevis" oct="3" pname="a"/>
+                </ligature>
+                <dot form="div"/>
+                <mensur modusminor="2" tempus="2" prolatio="3"/>
+                <ligature>
+                  <note dur="brevis" oct="4" pname="c" color="white" colored="true" lig="recta"/>
+                  <note dur="brevis" oct="4" pname="d" color="white" colored="true" lig="recta"/>
+                  <note dur="longa" oct="4" pname="c" color="white" colored="true"/>
+                </ligature>
+                <rest dur="2B" color="white" colored="true"/>
+                <ligature>
+                  <note dur="longa" oct="4" pname="c" color="white" colored="true" lig="obliqua"/>
+                  <note dur="brevis" oct="3" pname="a" color="white" colored="true" lig="recta"/>
+                  <note dur="brevis" oct="4" pname="c" color="white" colored="true"/>
+                </ligature>
+                <mensur modusminor="3" tempus="2" prolatio="3"/>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="3" pname="b" accid.ges="f" lig="recta"/>
+                  <note dur.quality="altera" num="1" numbase="2" dur="brevis" oct="3" pname="a" lig="recta"/>
+                  <note dur="longa" oct="3" pname="g"/>
+                </ligature>
+                <rest dur="3B"/>
+                <ligature>
+                  <note stem.visible="true" stem.pos="right" stem.dir="down" dur="longa" oct="3" pname="f" lig="recta"/>
+                  <note dur="brevis" oct="3" pname="b" accid.ges="f" lig="obliqua"/>
+                  <note dur.quality="altera" num="1" numbase="2" dur="brevis" oct="3" pname="a"/>
+                </ligature>
+                <mensur modusminor="2" tempus="2" prolatio="3"/>
+                <ligature>
+                  <note dur="brevis" oct="3" pname="g" color="red" colored="true" lig="recta"/>
+                  <note dur="brevis" oct="3" pname="a" color="red" colored="true" lig="recta"/>
+                  <note dur="longa" oct="3" pname="g" color="red" colored="true"/>
+                </ligature>
+                <rest dur="2B" color="red" colored="true"/>
+                <note dur="longa" oct="3" pname="f" color="red" colored="true"/>
+                <ligature form="recta">
+                  <note dur="brevis" oct="3" pname="f" color="red" colored="true"/>
+                  <note dur="brevis" oct="3" pname="g" color="red" colored="true"/>
+                </ligature>
+                <mensur modusminor="3" tempus="2" prolatio="3"/>
+                <ligature>
+                  <note dur="brevis" oct="3" pname="a" lig="recta"/>
+                  <note dur.quality="altera" num="1" numbase="2" dur="brevis" oct="4" pname="c" lig="recta"/>
+                  <note stem.visible="true" stem.pos="right" stem.dir="down" dur="longa" oct="4" pname="d"/>
+                </ligature>
+                <rest dur="3B"/>
+                <note dur="longa" oct="4" pname="c"/>
+                <ligature form="obliqua">
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="4" pname="c"/>
+                  <note dur.quality="altera" num="1" numbase="2" dur="brevis" oct="3" pname="a"/>
+                </ligature>
+                <mensur modusminor="2" tempus="2" prolatio="3"/>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="4" pname="c" color="white" colored="true" lig="recta"/>
+                  <note dur="brevis" oct="3" pname="b" accid.ges="f" color="white" colored="true" lig="recta"/>
+                  <note dur="longa" oct="3" pname="a" color="white" colored="true"/>
+                </ligature>
+                <rest dur="2B" color="white" colored="true"/>
+                <ligature>
+                  <note dur="longa" oct="3" pname="g" color="white" colored="true" lig="obliqua"/>
+                  <note dur="brevis" oct="3" pname="f" color="white" colored="true" lig="recta"/>
+                  <note dur="brevis" oct="3" pname="g" color="white" colored="true"/>
+                </ligature>
+                <mensur modusminor="3" tempus="2" prolatio="3"/>
+                <ligature>
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="3" pname="a" lig="recta"/>
+                  <note dur.quality="altera" num="1" numbase="2" dur="brevis" oct="3" pname="g" lig="recta"/>
+                  <note dur="longa" oct="3" pname="f"/>
+                </ligature>
+                <rest dur="3B"/>
+              </layer>
+            </staff>
+          </section>
+        </score>
+      </mdiv>
+    </body>
+  </music>
+</mei>

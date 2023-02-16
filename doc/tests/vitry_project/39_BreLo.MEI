@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title auth="00Ligatures">00Ligatures (dc)</title>
+      </titleStmt>
+      <sourceDesc>
+        <source>
+          <bibl>
+            <abbr>dc</abbr>
+          </bibl>
+        </source>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application>
+          <name version="git-" isodate="">Projet Vitry, application Coussemaker</name>
+        </application>
+      </appInfo>
+    </encodingDesc>
+  </meiHead>
+  <music>
+    <body>
+      <mdiv>
+        <score>
+          <scoreDef>
+            <staffGrp>
+              <staffDef xml:id="longae" type="lat" key.sig="0" lines="5" n="2" notationtype="mensural.black">
+                <clef shape="C" line="3"/>
+                <label>longae</label>
+              </staffDef>
+            </staffGrp>
+          </scoreDef>
+          <section>
+            <staff xml:id="longaeB" n="2">
+              <layer n="1">
+                <mensur modusminor="3" tempus="3" prolatio="3"/>
+                <annot label="fn">Il devrait y avoir une hampe descendante à G</annot>
+                <ligature form="recta">
+                  <note stem.visible="true" stem.pos="left" stem.dir="down" dur="brevis" oct="3" pname="f" color="red" colored="true">
+                    <verse n="1" lineid="4">
+                      <syl wordpos="i" con="u">Bre Lo</syl>
+                    </verse>
+                    <verse n="2" place="above" color="#000000ff">
+                      <syl>5</syl>
+                    </verse>
+                  </note>
+                  <note dur="longa" dur.quality="imperfecta" oct="3" pname="a" num="3" numbase="2"/>
+                </ligature>
+                <space dur="3B"/>
+              </layer>
+            </staff>
+          </section>
+        </score>
+      </mdiv>
+    </body>
+  </music>
+</mei>
