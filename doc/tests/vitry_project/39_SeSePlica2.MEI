@@ -38,6 +38,17 @@
               <layer n="1">
                 <mensur modusminor="3" tempus="3" prolatio="3"/>
                 <ligature form="recta">
+                  <note stem.visible="true" stem.pos="left" stem.dir="up" dur="semibrevis" oct="3" pname="g">
+                    <verse n="1" lineid="5">
+                      <syl wordpos="i" con="u">SeSe</syl>
+                    </verse>
+                  </note>
+                  <note dur="semibrevis" oct="3" pname="a">
+                    <plica dir="up"/>
+                  </note>
+                </ligature>
+                <space dur="semibrevis"/>
+                <ligature form="recta">
                   <note dur="brevis" oct="3" pname="f">
                     <verse n="1" lineid="6">
                       <syl wordpos="i" con="u">BreBre</syl>

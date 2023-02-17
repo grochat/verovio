@@ -27,27 +27,27 @@
         <score>
           <scoreDef>
             <staffGrp>
-              <staffDef xml:id="plicae" type="lat" key.sig="0" lines="5" n="3" notationtype="mensural.black">
+              <staffDef xml:id="torculi" type="lat" key.sig="0" lines="5" n="1" notationtype="mensural.black">
                 <clef shape="C" line="3"/>
-                <label>plicae</label>
+                <label>maximae</label>
               </staffDef>
             </staffGrp>
           </scoreDef>
           <section>
-            <staff xml:id="plicaeB" n="3">
+            <staff xml:id="torculi" n="1">
               <layer n="1">
                 <mensur modusminor="3" tempus="3" prolatio="3"/>
                 <ligature form="recta">
-                  <note dur="brevis" oct="3" pname="f">
-                    <verse n="1" lineid="6">
-                      <syl wordpos="i" con="u">BreBre</syl>
-                    </verse>
-                  </note>
-                  <note dur="brevis" oct="3" pname="g">
-                    <plica dir="up"/>
-                  </note>
+                  <note dur="brevis" oct="3" pname="g"/>
+                  <note dur="brevis" oct="3" pname="a"/>
+                  <note dur="longa" oct="3" pname="g"/>
                 </ligature>
-                <space dur="brevis"/>
+                <ligature form="recta">
+                  <note dur="brevis" oct="3" pname="f"/>
+                  <note dur="brevis" oct="3" pname="g"/>
+                  <note dur="longa" oct="3" pname="f"/>
+                </ligature>
+                <barLine form="single" type="final"/>
               </layer>
             </staff>
           </section>

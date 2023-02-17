@@ -397,6 +397,8 @@ int LayerElement::GetDrawingY() const
     // First get the first layerElement parent (if any) but only if the element is not directly relative to staff (e.g.,
     // artic, syl)
     if (!object && !this->IsRelativeToStaff()) object = this->GetFirstAncestorInRange(LAYER_ELEMENT, LAYER_ELEMENT_max);
+    if ( object && object->GetDrawingY()==0)
+        object = nullptr;
     // Otherwise get the first staff
     if (!object) object = this->GetFirstAncestor(STAFF);
     // Otherwise the first measure (this is the case with barLineAttr
